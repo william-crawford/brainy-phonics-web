@@ -32,7 +32,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- nav -->\n<nav class=\"navbar navbar-expand navbar-dark bg-dark\">\n  <div class=\"navbar-nav\">\n      <a class=\"nav-item nav-link\" routerLink=\"/\">Home</a>\n      <a class=\"nav-item nav-link\" routerLink=\"/phonemecategories\">Phoneme Categories</a>\n      <a class=\"nav-item nav-link\" routerLink=\"/list\">Phoneme List</a>\n  </div>\n</nav>\n\n<!-- main content container -->\n<div class=\"jumbotron\">\n  <div class=\"container\">\n      <div class=\"row\">\n          <div class=\"col-sm-8 offset-sm-2\">\n              <router-outlet></router-outlet>\n          </div>\n      </div>\n  </div>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Temporary nav -->\n<nav class=\"navbar navbar-expand navbar-dark bg-dark\">\n  <div class=\"navbar-nav\">\n      <a class=\"nav-item nav-link\" routerLink=\"/\">Home</a>\n      <a class=\"nav-item nav-link\" routerLink=\"/phoneme-categories\">Phoneme Categories</a>\n      <a class=\"nav-item nav-link\" routerLink=\"/phoneme-list-all\">Phoneme List</a>\n      <a class=\"nav-item nav-link\" routerLink=\"/a\">Selected Phoneme</a>\n  </div>\n</nav>\n\n<!-- Main content container -->\n<div class=\"jumbotron\">\n  <div class=\"container\">\n      <div class=\"row\">\n          <div class=\"col-sm-8 offset-sm-2\">\n              <router-outlet></router-outlet>\n          </div>\n      </div>\n  </div>\n</div>");
 
 /***/ }),
 
@@ -45,33 +45,46 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<h1>Home Page</h1>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div id='background'>\n    <div id='side-menu'>\n        \n    </div>\n</div>");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/phoneme-categories/phonemecategories.component.html":
-/*!***********************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/phoneme-categories/phonemecategories.component.html ***!
-  \***********************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/phoneme-categories/phoneme-categories.component.html":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/phoneme-categories/phoneme-categories.component.html ***!
+  \************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- Links -->\n<!-- <link rel='stylesheet' type='text/css' href='../css/main.css' />\n<link rel='stylesheet' type='text/css' href='../css/phoneme-categories.css' /> -->\n\n<!-- Scripts -->\n<!-- <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>\n<script type=\"text/typescript\" src=\"../ts/phoneme-categories.ts\"></script> -->\n\n<!-- <div id='background'>\n    <div id='side-menu'>\n        <button mat-icon-button class='icon'></button>\n    </div>\n</div> -->\n\n<h1>Phoneme Categories Page</h1>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div id='background'>\n    <div id='side-menu'>\n        <button mat-icon-button class='icon' id='back'></button>\n        <button mat-icon-button class='icon' id='home'></button>\n        <button mat-icon-button class='icon bottom' id='bank'></button>\n        <button mat-icon-button class='icon bottom' id='puzzle'></button>\n    </div>\n</div>");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/phoneme-list-all/list.component.html":
-/*!********************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/phoneme-list-all/list.component.html ***!
-  \********************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/phoneme-list-all/phoneme-list-all.component.html":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/phoneme-list-all/phoneme-list-all.component.html ***!
+  \********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<h1>Phoneme List Page</h1>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div id='background'>\n    <div id='side-menu'>\n        <button mat-icon-button class='icon' id='back'></button>\n        <button mat-icon-button class='icon' id='home'></button>\n        <button mat-icon-button class='icon bottom' id='repeat'></button>\n        <button mat-icon-button class='icon bottom' id='quiz'></button>\n        <button mat-icon-button class='icon bottom' id='bank'></button>\n        <button mat-icon-button class='icon bottom' id='puzzle'></button>\n    </div>\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/phonemes/a/a.component.html":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/phonemes/a/a.component.html ***!
+  \***********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div id='background'>\n    <div id='side-menu'>\n        <button mat-icon-button class='icon' id='back'></button>\n        <button mat-icon-button class='icon' id='home'></button>\n        <button mat-icon-button class='icon bottom' id='repeat'></button>\n        <button mat-icon-button class='icon bottom' id='quiz'></button>\n        <button mat-icon-button class='icon bottom' id='bank'></button>\n        <button mat-icon-button class='icon bottom' id='puzzle'></button>\n    </div>\n</div>");
 
 /***/ }),
 
@@ -366,6 +379,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./home */ "./src/app/home/index.ts");
 /* harmony import */ var _phoneme_categories__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./phoneme-categories */ "./src/app/phoneme-categories/index.ts");
 /* harmony import */ var _phoneme_list_all__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./phoneme-list-all */ "./src/app/phoneme-list-all/index.ts");
+/* harmony import */ var _phonemes_a__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./phonemes/a */ "./src/app/phonemes/a/index.ts");
+
 
 
 
@@ -382,7 +397,8 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
             _home__WEBPACK_IMPORTED_MODULE_5__["HomeComponent"],
             _phoneme_categories__WEBPACK_IMPORTED_MODULE_6__["PhonemeCategoriesComponent"],
-            _phoneme_list_all__WEBPACK_IMPORTED_MODULE_7__["ListComponent"]
+            _phoneme_list_all__WEBPACK_IMPORTED_MODULE_7__["ListComponent"],
+            _phonemes_a__WEBPACK_IMPORTED_MODULE_8__["AComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -411,6 +427,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home */ "./src/app/home/index.ts");
 /* harmony import */ var _phoneme_categories__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./phoneme-categories */ "./src/app/phoneme-categories/index.ts");
 /* harmony import */ var _phoneme_list_all__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./phoneme-list-all */ "./src/app/phoneme-list-all/index.ts");
+/* harmony import */ var _phonemes_a__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./phonemes/a */ "./src/app/phonemes/a/index.ts");
+
 
 
 
@@ -418,8 +436,9 @@ __webpack_require__.r(__webpack_exports__);
 
 const routes = [
     { path: '', component: _home__WEBPACK_IMPORTED_MODULE_2__["HomeComponent"] },
-    { path: 'phonemecategories', component: _phoneme_categories__WEBPACK_IMPORTED_MODULE_3__["PhonemeCategoriesComponent"] },
-    { path: 'list', component: _phoneme_list_all__WEBPACK_IMPORTED_MODULE_4__["ListComponent"] },
+    { path: 'phoneme-categories', component: _phoneme_categories__WEBPACK_IMPORTED_MODULE_3__["PhonemeCategoriesComponent"] },
+    { path: 'phoneme-list-all', component: _phoneme_list_all__WEBPACK_IMPORTED_MODULE_4__["ListComponent"] },
+    { path: 'a', component: _phonemes_a__WEBPACK_IMPORTED_MODULE_5__["AComponent"] },
     // otherwise redirect to home
     { path: '**', redirectTo: '' }
 ];
@@ -437,7 +456,7 @@ const appRoutingModule = _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterMod
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2hvbWUvaG9tZS5jb21wb25lbnQuY3NzIn0= */");
+/* harmony default export */ __webpack_exports__["default"] = ("#background {\n    background-color: #FFFFFF !important;\n}\n\n#side-menu {\n    background: url('home-side-bar.png') no-repeat scroll 0 0 transparent;\n    background-size: 121px 680px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxvQ0FBb0M7QUFDeEM7O0FBRUE7SUFDSSxxRUFBc0Y7SUFDdEYsNEJBQTRCO0FBQ2hDIiwiZmlsZSI6InNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjYmFja2dyb3VuZCB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI0ZGRkZGRiAhaW1wb3J0YW50O1xufVxuXG4jc2lkZS1tZW51IHtcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy4uLy4uL2Fzc2V0cy9pbWcvaG9tZS1zaWRlLWJhci5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIDAgMCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXNpemU6IDEyMXB4IDY4MHB4O1xufSJdfQ== */");
 
 /***/ }),
 
@@ -496,7 +515,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("#background {\n    width: 1980px;\n    height: 1030px;\n    background-color: #6EC7D4;\n    margin: auto;\n}\n\n#side-menu {\n    width: 185px;\n    height: 1030px;\n    background-color: #C4E8E6;\n}\n\n.icon {\n\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWFpbi5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IsY0FBYztJQUNkLHlCQUF5QjtJQUN6QixZQUFZO0FBQ2hCOztBQUVBO0lBQ0ksWUFBWTtJQUNaLGNBQWM7SUFDZCx5QkFBeUI7QUFDN0I7O0FBRUE7O0FBRUEiLCJmaWxlIjoic3JjL2FwcC9tYWluLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIiNiYWNrZ3JvdW5kIHtcbiAgICB3aWR0aDogMTk4MHB4O1xuICAgIGhlaWdodDogMTAzMHB4O1xuICAgIGJhY2tncm91bmQtY29sb3I6ICM2RUM3RDQ7XG4gICAgbWFyZ2luOiBhdXRvO1xufVxuXG4jc2lkZS1tZW51IHtcbiAgICB3aWR0aDogMTg1cHg7XG4gICAgaGVpZ2h0OiAxMDMwcHg7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI0M0RThFNjtcbn1cblxuLmljb24ge1xuXG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = ("#background {\n    width: 1307px;\n    height: 680px;\n    background-color: #6EC7D4;\n    margin: auto;\n}\n\n#side-menu {\n    width: 121px;\n    height: 616px;\n    background-color: #C4E8E6;\n    padding: 32px 0px 32px 0px;\n    position: relative;\n}\n\n.icon {\n    width: 66px;\n    height: 66px;\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n    cursor: pointer;\n    margin-bottom: 25px;\n    border: none;\n}\n\n.bottom {\n    position: absolute;\n    margin-left: 27px;\n}\n\n#home {\n    background: url('home.png') no-repeat scroll 0 0 transparent;\n    background-size: 66px 66px;\n}\n\n#back {\n    background: url('back.png') no-repeat scroll 0 0 transparent;\n    background-size: 66px 66px;\n}\n\n#bank {\n    background: url('bank.png') no-repeat scroll 0 0 transparent;\n    background-size: 66px 66px;\n    bottom: 91px;\n}\n\n#puzzle {\n    background: url('puzzle.png') no-repeat scroll 0 0 transparent;\n    background-size: 66px 66px;\n    bottom: 0px;\n}\n\n#repeat {\n    background: url('repeat.png') no-repeat scroll 0 0 transparent;\n    background-size: 66px 66px;\n    bottom: 182px;\n}\n\n#quiz {\n    background: url('check.png') no-repeat scroll 0 0 transparent;\n    background-size: 66px 66px;\n    bottom: 273px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWFpbi5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IsYUFBYTtJQUNiLHlCQUF5QjtJQUN6QixZQUFZO0FBQ2hCOztBQUVBO0lBQ0ksWUFBWTtJQUNaLGFBQWE7SUFDYix5QkFBeUI7SUFDekIsMEJBQTBCO0lBQzFCLGtCQUFrQjtBQUN0Qjs7QUFFQTtJQUNJLFdBQVc7SUFDWCxZQUFZO0lBQ1osY0FBYztJQUNkLGlCQUFpQjtJQUNqQixrQkFBa0I7SUFDbEIsZUFBZTtJQUNmLG1CQUFtQjtJQUNuQixZQUFZO0FBQ2hCOztBQUNBO0lBQ0ksa0JBQWtCO0lBQ2xCLGlCQUFpQjtBQUNyQjs7QUFFQTtJQUNJLDREQUFnRjtJQUNoRiwwQkFBMEI7QUFDOUI7O0FBQ0E7SUFDSSw0REFBZ0Y7SUFDaEYsMEJBQTBCO0FBQzlCOztBQUNBO0lBQ0ksNERBQWdGO0lBQ2hGLDBCQUEwQjtJQUMxQixZQUFZO0FBQ2hCOztBQUNBO0lBQ0ksOERBQWtGO0lBQ2xGLDBCQUEwQjtJQUMxQixXQUFXO0FBQ2Y7O0FBQ0E7SUFDSSw4REFBa0Y7SUFDbEYsMEJBQTBCO0lBQzFCLGFBQWE7QUFDakI7O0FBQ0E7SUFDSSw2REFBaUY7SUFDakYsMEJBQTBCO0lBQzFCLGFBQWE7QUFDakIiLCJmaWxlIjoic3JjL2FwcC9tYWluLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIiNiYWNrZ3JvdW5kIHtcbiAgICB3aWR0aDogMTMwN3B4O1xuICAgIGhlaWdodDogNjgwcHg7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzZFQzdENDtcbiAgICBtYXJnaW46IGF1dG87XG59XG5cbiNzaWRlLW1lbnUge1xuICAgIHdpZHRoOiAxMjFweDtcbiAgICBoZWlnaHQ6IDYxNnB4O1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNDNEU4RTY7XG4gICAgcGFkZGluZzogMzJweCAwcHggMzJweCAwcHg7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xufVxuXG4uaWNvbiB7XG4gICAgd2lkdGg6IDY2cHg7XG4gICAgaGVpZ2h0OiA2NnB4O1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICAgIG1hcmdpbi1yaWdodDogYXV0bztcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgbWFyZ2luLWJvdHRvbTogMjVweDtcbiAgICBib3JkZXI6IG5vbmU7XG59XG4uYm90dG9tIHtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgbWFyZ2luLWxlZnQ6IDI3cHg7XG59XG5cbiNob21lIHtcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy4uL2Fzc2V0cy9pbWcvaWNvbnMvaG9tZS5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIDAgMCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXNpemU6IDY2cHggNjZweDtcbn1cbiNiYWNrIHtcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy4uL2Fzc2V0cy9pbWcvaWNvbnMvYmFjay5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIDAgMCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXNpemU6IDY2cHggNjZweDtcbn1cbiNiYW5rIHtcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy4uL2Fzc2V0cy9pbWcvaWNvbnMvYmFuay5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIDAgMCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXNpemU6IDY2cHggNjZweDtcbiAgICBib3R0b206IDkxcHg7XG59XG4jcHV6emxlIHtcbiAgICBiYWNrZ3JvdW5kOiB1cmwoJy4uL2Fzc2V0cy9pbWcvaWNvbnMvcHV6emxlLnBuZycpIG5vLXJlcGVhdCBzY3JvbGwgMCAwIHRyYW5zcGFyZW50O1xuICAgIGJhY2tncm91bmQtc2l6ZTogNjZweCA2NnB4O1xuICAgIGJvdHRvbTogMHB4O1xufVxuI3JlcGVhdCB7XG4gICAgYmFja2dyb3VuZDogdXJsKCcuLi9hc3NldHMvaW1nL2ljb25zL3JlcGVhdC5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIDAgMCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXNpemU6IDY2cHggNjZweDtcbiAgICBib3R0b206IDE4MnB4O1xufVxuI3F1aXoge1xuICAgIGJhY2tncm91bmQ6IHVybCgnLi4vYXNzZXRzL2ltZy9pY29ucy9jaGVjay5wbmcnKSBuby1yZXBlYXQgc2Nyb2xsIDAgMCB0cmFuc3BhcmVudDtcbiAgICBiYWNrZ3JvdW5kLXNpemU6IDY2cHggNjZweDtcbiAgICBib3R0b206IDI3M3B4O1xufSJdfQ== */");
 
 /***/ }),
 
@@ -510,8 +529,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _phonemecategories_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./phonemecategories.component */ "./src/app/phoneme-categories/phonemecategories.component.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PhonemeCategoriesComponent", function() { return _phonemecategories_component__WEBPACK_IMPORTED_MODULE_1__["PhonemeCategoriesComponent"]; });
+/* harmony import */ var _phoneme_categories_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./phoneme-categories.component */ "./src/app/phoneme-categories/phoneme-categories.component.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PhonemeCategoriesComponent", function() { return _phoneme_categories_component__WEBPACK_IMPORTED_MODULE_1__["PhonemeCategoriesComponent"]; });
 
 
 
@@ -519,23 +538,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/app/phoneme-categories/phonemecategories.component.css":
-/*!********************************************************************!*\
-  !*** ./src/app/phoneme-categories/phonemecategories.component.css ***!
-  \********************************************************************/
+/***/ "./src/app/phoneme-categories/phoneme-categories.component.css":
+/*!*********************************************************************!*\
+  !*** ./src/app/phoneme-categories/phoneme-categories.component.css ***!
+  \*********************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Bob25lbWUtY2F0ZWdvcmllcy9waG9uZW1lY2F0ZWdvcmllcy5jb21wb25lbnQuY3NzIn0= */");
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Bob25lbWUtY2F0ZWdvcmllcy9waG9uZW1lLWNhdGVnb3JpZXMuY29tcG9uZW50LmNzcyJ9 */");
 
 /***/ }),
 
-/***/ "./src/app/phoneme-categories/phonemecategories.component.ts":
-/*!*******************************************************************!*\
-  !*** ./src/app/phoneme-categories/phonemecategories.component.ts ***!
-  \*******************************************************************/
+/***/ "./src/app/phoneme-categories/phoneme-categories.component.ts":
+/*!********************************************************************!*\
+  !*** ./src/app/phoneme-categories/phoneme-categories.component.ts ***!
+  \********************************************************************/
 /*! exports provided: PhonemeCategoriesComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -550,8 +569,8 @@ let PhonemeCategoriesComponent = class PhonemeCategoriesComponent {
 };
 PhonemeCategoriesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./phonemecategories.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/phoneme-categories/phonemecategories.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./phonemecategories.component.css */ "./src/app/phoneme-categories/phonemecategories.component.css")).default, tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ../main.css */ "./src/app/main.css")).default]
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./phoneme-categories.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/phoneme-categories/phoneme-categories.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./phoneme-categories.component.css */ "./src/app/phoneme-categories/phoneme-categories.component.css")).default, tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ../main.css */ "./src/app/main.css")).default]
     })
 ], PhonemeCategoriesComponent);
 
@@ -569,8 +588,8 @@ PhonemeCategoriesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _list_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./list.component */ "./src/app/phoneme-list-all/list.component.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ListComponent", function() { return _list_component__WEBPACK_IMPORTED_MODULE_1__["ListComponent"]; });
+/* harmony import */ var _phoneme_list_all_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./phoneme-list-all.component */ "./src/app/phoneme-list-all/phoneme-list-all.component.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ListComponent", function() { return _phoneme_list_all_component__WEBPACK_IMPORTED_MODULE_1__["ListComponent"]; });
 
 
 
@@ -578,23 +597,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/app/phoneme-list-all/list.component.css":
-/*!*****************************************************!*\
-  !*** ./src/app/phoneme-list-all/list.component.css ***!
-  \*****************************************************/
+/***/ "./src/app/phoneme-list-all/phoneme-list-all.component.css":
+/*!*****************************************************************!*\
+  !*** ./src/app/phoneme-list-all/phoneme-list-all.component.css ***!
+  \*****************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Bob25lbWUtbGlzdC1hbGwvbGlzdC5jb21wb25lbnQuY3NzIn0= */");
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Bob25lbWUtbGlzdC1hbGwvcGhvbmVtZS1saXN0LWFsbC5jb21wb25lbnQuY3NzIn0= */");
 
 /***/ }),
 
-/***/ "./src/app/phoneme-list-all/list.component.ts":
-/*!****************************************************!*\
-  !*** ./src/app/phoneme-list-all/list.component.ts ***!
-  \****************************************************/
+/***/ "./src/app/phoneme-list-all/phoneme-list-all.component.ts":
+/*!****************************************************************!*\
+  !*** ./src/app/phoneme-list-all/phoneme-list-all.component.ts ***!
+  \****************************************************************/
 /*! exports provided: ListComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -609,10 +628,69 @@ let ListComponent = class ListComponent {
 };
 ListComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./list.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/phoneme-list-all/list.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./list.component.css */ "./src/app/phoneme-list-all/list.component.css")).default, tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ../main.css */ "./src/app/main.css")).default]
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./phoneme-list-all.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/phoneme-list-all/phoneme-list-all.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./phoneme-list-all.component.css */ "./src/app/phoneme-list-all/phoneme-list-all.component.css")).default, tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ../main.css */ "./src/app/main.css")).default]
     })
 ], ListComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/phonemes/a/a.component.css":
+/*!********************************************!*\
+  !*** ./src/app/phonemes/a/a.component.css ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Bob25lbWVzL2EvYS5jb21wb25lbnQuY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/phonemes/a/a.component.ts":
+/*!*******************************************!*\
+  !*** ./src/app/phonemes/a/a.component.ts ***!
+  \*******************************************/
+/*! exports provided: AComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AComponent", function() { return AComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let AComponent = class AComponent {
+};
+AComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./a.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/phonemes/a/a.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./a.component.css */ "./src/app/phonemes/a/a.component.css")).default, tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ../../main.css */ "./src/app/main.css")).default]
+    })
+], AComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/phonemes/a/index.ts":
+/*!*************************************!*\
+  !*** ./src/app/phonemes/a/index.ts ***!
+  \*************************************/
+/*! exports provided: AComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _a_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./a.component */ "./src/app/phonemes/a/a.component.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "AComponent", function() { return _a_component__WEBPACK_IMPORTED_MODULE_1__["AComponent"]; });
+
+
 
 
 

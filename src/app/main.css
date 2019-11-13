@@ -1,16 +1,58 @@
 #background {
-    width: 1980px;
-    height: 1030px;
+    width: 1307px;
+    height: 680px;
     background-color: #6EC7D4;
     margin: auto;
 }
 
 #side-menu {
-    width: 185px;
-    height: 1030px;
+    width: 121px;
+    height: 616px;
     background-color: #C4E8E6;
+    padding: 32px 0px 32px 0px;
+    position: relative;
 }
 
 .icon {
+    width: 66px;
+    height: 66px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    margin-bottom: 25px;
+    border: none;
+}
+.bottom {
+    position: absolute;
+    margin-left: 27px;
+}
 
+#home {
+    background: url('../assets/img/icons/home.png') no-repeat scroll 0 0 transparent;
+    background-size: 66px 66px;
+}
+#back {
+    background: url('../assets/img/icons/back.png') no-repeat scroll 0 0 transparent;
+    background-size: 66px 66px;
+}
+#bank {
+    background: url('../assets/img/icons/bank.png') no-repeat scroll 0 0 transparent;
+    background-size: 66px 66px;
+    bottom: 91px;
+}
+#puzzle {
+    background: url('../assets/img/icons/puzzle.png') no-repeat scroll 0 0 transparent;
+    background-size: 66px 66px;
+    bottom: 0px;
+}
+#repeat {
+    background: url('../assets/img/icons/repeat.png') no-repeat scroll 0 0 transparent;
+    background-size: 66px 66px;
+    bottom: 182px;
+}
+#quiz {
+    background: url('../assets/img/icons/check.png') no-repeat scroll 0 0 transparent;
+    background-size: 66px 66px;
+    bottom: 273px;
 }

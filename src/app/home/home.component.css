@@ -1,0 +1,8 @@
+#background {
+    background-color: #FFFFFF !important;
+}
+
+#side-menu {
+    background: url('../../assets/img/home-side-bar.png') no-repeat scroll 0 0 transparent;
+    background-size: 121px 680px;
+}
