@@ -8,7 +8,7 @@ After you’ve installed Node.js, install Angular CLI
 ```sh
 $ npm install -g @angular/cli
 ```
-Navigate to your brainy-phonics-web repository and build the application
+Navigate to your brainy-phonics-web repository and start up a web server
 ```sh
 $ ng serve --open
 ```
