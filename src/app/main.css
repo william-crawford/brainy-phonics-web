@@ -1,58 +1,61 @@
 #background {
-    width: 1307px;
-    height: 680px;
+    width: 187vh;
+    height: 97.5vh;
     background-color: #6EC7D4;
     margin: auto;
 }
 
 #side-menu {
-    width: 121px;
-    height: 616px;
+    width: 17.3vh;
+    height: 93vh;
     background-color: #C4E8E6;
-    padding: 32px 0px 32px 0px;
+    padding-top: 4.5vh;
     position: relative;
 }
 
 .icon {
-    width: 66px;
-    height: 66px;
+    width: 9.5vh;
+    height: 9.5vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
-    margin-bottom: 25px;
+    margin-bottom: 3.5vh;
     border: none;
 }
 .bottom {
     position: absolute;
-    margin-left: 27px;
+    margin-left: 3.8vh;
 }
 
 #home {
     background: url('../assets/img/icons/home.png') no-repeat scroll 0 0 transparent;
-    background-size: 66px 66px;
+    background-size: 9.5vh 9.5vh;
 }
 #back {
     background: url('../assets/img/icons/back.png') no-repeat scroll 0 0 transparent;
-    background-size: 66px 66px;
+    background-size: 9.5vh 9.5vh;
 }
 #bank {
     background: url('../assets/img/icons/bank.png') no-repeat scroll 0 0 transparent;
-    background-size: 66px 66px;
-    bottom: 91px;
+    background-size: 9.5vh 9.5vh;
+    bottom: 13.5vh;
+    cursor: auto;
 }
 #puzzle {
     background: url('../assets/img/icons/puzzle.png') no-repeat scroll 0 0 transparent;
-    background-size: 66px 66px;
-    bottom: 0px;
+    background-size: 9.5vh 9.5vh;
+    bottom: 0.5vh;
+    cursor: auto;
 }
 #repeat {
     background: url('../assets/img/icons/repeat.png') no-repeat scroll 0 0 transparent;
-    background-size: 66px 66px;
-    bottom: 182px;
+    background-size: 9.5vh 9.5vh;
+    bottom: 26.6vh;
 }
 #quiz {
     background: url('../assets/img/icons/quiz.png') no-repeat scroll 0 0 transparent;
-    background-size: 66px 66px;
-    bottom: 273px;
+    background-size: 9.5vh 9.5vh;
+    bottom: 39.6vh;
+    cursor: auto;
 }
