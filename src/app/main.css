@@ -5,6 +5,13 @@
     margin: auto;
 }
 
+#main-body {
+    width: 169.7vh;
+    height: 0vh;
+    padding-left: 20vh;
+    position: relative;
+}
+
 #side-menu {
     width: 17.3vh;
     height: 93vh;
@@ -27,6 +34,20 @@
     position: absolute;
     margin-left: 3.8vh;
 }
+
+.column {
+  width: 33.33%;
+  padding: 10px;
+  display:block;
+}
+
+.word-image {
+  height: 25vh;
+  width: 20vh;
+  bottom: 0;
+}
+
+/* Side Menu Icons */
 
 #home {
     background: url('../assets/img/icons/home.png') no-repeat scroll 0 0 transparent;
@@ -58,4 +79,22 @@
     background-size: 9.5vh 9.5vh;
     bottom: 0.5vh;
     cursor: auto;
+}
+
+/* Text */
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h1, h2 {
+  font-weight: lighter;
+}
+
+p {
+  font-size: 14px;
 }
