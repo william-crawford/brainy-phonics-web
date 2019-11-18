@@ -30,21 +30,10 @@
     margin-bottom: 3.5vh;
     border: none;
 }
+
 .bottom {
     position: absolute;
     margin-left: 3.8vh;
-}
-
-.column {
-  width: 33.33%;
-  padding: 10px;
-  display:block;
-}
-
-.word-image {
-  height: 25vh;
-  width: 20vh;
-  bottom: 0;
 }
 
 /* Side Menu Icons */
