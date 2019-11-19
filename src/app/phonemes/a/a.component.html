@@ -1,25 +1,25 @@
 <div id='background'>
     <div id='main-body'>
     	<!-- Add the letter 'a' image -->
-	 	<div class='letter' [ngClass]="{'animate': phonemeAnimate}">a</div>
+	 	<div class='letter' [ngClass]="{'animate': phonemeAnimate}" (click)='playAudioA()'>a</div>
 
     	<div class='row'>
 	    	<div class='column' [ngClass]="{'animate': apeAnimate}">
 				<img src='../../assets/img/words/ape.jpg' class='word-image'>
 				<br>
-				<div class='column text'>ape</div>
+				<div class='column text'><span style='color: red'>a</span>pe</div>
 			</div>
 
 			<div class='column' [ngClass]="{'animate': skateAnimate}">
 				<img src='../../assets/img/words/skate.jpg' class='word-image'>
 				<br>
-				<div class='column text'>skate</div>
+				<div class='column text'>sk<span style='color: red'>a</span>te</div>
 			</div>
 
 			<div class='column' [ngClass]="{'animate': craneAnimate}">
 				<img src='../../assets/img/words/crane.jpg' class='word-image'>
 				<br>
-				<div class='column text'>crane</div>
+				<div class='column text'>cr<span style='color: red'>a</span>ne</div>
 			</div>
 		</div>
 	</div>

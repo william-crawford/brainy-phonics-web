@@ -6,4 +6,17 @@ import { Component } from '@angular/core';
                  '../main.css' ]
 })
 
-export class PhonemeCategoriesComponent {}
+export class PhonemeCategoriesComponent {
+    vowels: HTMLAudioElement;
+
+    constructor() {
+
+    }
+
+    playAudio() {
+        this.vowels = new Audio();
+        this.vowels.src='/assets/audio/vowels.m4a';
+        this.vowels.load();
+        this.vowels.play();
+    }
+}

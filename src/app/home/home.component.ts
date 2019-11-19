@@ -6,4 +6,17 @@ import { Component } from '@angular/core';
                  '../main.css' ]
 })
 
-export class HomeComponent {}
+export class HomeComponent {
+    phonics: HTMLAudioElement;
+
+    constructor() {
+
+    }
+
+    playAudio() {
+        this.phonics = new Audio();
+        this.phonics.src = '/assets/audio/phonics.mp3';
+        this.phonics.load();
+        this.phonics.play();
+    }
+}

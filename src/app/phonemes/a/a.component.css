@@ -13,6 +13,10 @@
   position: relative;
 }
 
+#home {
+  transform: translate(0px, -69.9vh) !important;;
+}
+
 .column {
   float: left;
   width: 42vh;
@@ -22,12 +26,16 @@
   font-size: 32px;
   margin-left: 3vh;
   font-family: 'ComicSans';
+  cursor: pointer;
 }
 
 .letter {
   font-size: 128px;
   font-family: 'ComicSans';
   margin-left: 45vh;
+  cursor: pointer;
+  transition: all .5s;
+  transform: scale(1);  
 }
 
 /* Clear floats after the columns */
@@ -39,18 +47,19 @@
 
 .word-image {
   height: 25vh;
-  transition: all .25s;
+  transition: all .5s;
   transform: scale(1);  
   width: 22vh;
   margin-top: 30vh;
+  cursor: pointer;
 }
 
 .animate {
+  transition: all .5s;
   transform: scale(1.25) !important;
 }
 
 /* Text */
-
 h2 {
   font-size: 20px;
 }
