@@ -1,6 +1,8 @@
 <div id='background'>
     <div id='main-body'>
     	<!-- Add the letter 'a' image -->
+        <button mat-icon-button class='back-button' id='back'></button>
+        <button mat-icon-button class='after-button' id='forward'></button>
 	 	<div class='letter' [ngClass]="{'animate': phonemeAnimate}" (click)='playAudioA()'>a</div>
     	<div class='row'>
 	    	<div class='column' [ngClass]="{'animate': apeAnimate}">

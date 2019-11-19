@@ -32,7 +32,33 @@
   cursor: pointer;
   transition: all .5s;
   transform: scale(1);
+  width: 10vh;
 }
+
+.back-button {
+    width: 9.5vh;
+    height: 9.5vh;
+    display: block;
+    position: absolute;
+    margin-left: 3.8vh;
+    cursor: pointer;
+    margin-bottom: 3.5vh;
+    border: none;
+    margin-top: 8vh;
+}
+
+.after-button {
+    width: 9.5vh;
+    height: 9.5vh;
+    display: block;
+    position: absolute;
+    margin-left: 88vh;
+    cursor: pointer;
+    margin-bottom: 3.5vh;
+    border: none;
+    margin-top: 8vh;
+}
+
 
 /* Clear floats after the columns */
 .row:after {
@@ -77,4 +103,11 @@ h2 {
 
 p {
   font-size: 14px;
+}
+
+/* Buttons */
+
+#forward {
+    background: url('../../../assets/img/icons/forward.png') no-repeat scroll 0 0 transparent;
+    background-size: 9.5vh 9.5vh;
 }
