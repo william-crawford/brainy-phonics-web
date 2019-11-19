@@ -24,4 +24,10 @@
   height: 25vh;
   width: 20vh;
   margin-top: 50vh;
+  transition: all .25s;
+  transform: scale(1);
+}
+
+.animate {
+    transform: scale(1.25) !important;
 }
