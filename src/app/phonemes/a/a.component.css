@@ -13,10 +13,6 @@
   position: relative;
 }
 
-#home {
-  transform: translate(0px, -69.9vh) !important;;
-}
-
 .column {
   float: left;
   width: 42vh;
@@ -35,7 +31,7 @@
   margin-left: 45vh;
   cursor: pointer;
   transition: all .5s;
-  transform: scale(1);  
+  transform: scale(1);
 }
 
 /* Clear floats after the columns */
@@ -46,12 +42,23 @@
 }
 
 .word-image {
-  height: 25vh;
   transition: all .5s;
-  transform: scale(1);  
-  width: 22vh;
+  transform: scale(1);
   margin-top: 30vh;
   cursor: pointer;
+}
+
+.word-image.ape {
+  width: 27vh;
+  height: 33vh;
+}
+.word-image.skate {
+  width: 24vh;
+  height: 34vh;
+}
+.word-image.crane {
+  width: 34vh;
+  height: 33vh;
 }
 
 .animate {

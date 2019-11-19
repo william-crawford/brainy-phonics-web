@@ -17,23 +17,18 @@
     width: 9.5vh;
     height: 9.5vh;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    margin-left: 3.8vh;
     cursor: pointer;
     margin-bottom: 3.5vh;
     border: none;
 }
 
-.bottom {
-    position: absolute;
-    margin-left: 3.8vh;
-}
-
 /* Side Menu Icons */
-
 #home {
     background: url('../assets/img/icons/home.png') no-repeat scroll 0 0 transparent;
     background-size: 9.5vh 9.5vh;
+    top: 16.5vh;
 }
 #back {
     background: url('../assets/img/icons/back.png') no-repeat scroll 0 0 transparent;
