@@ -7,7 +7,7 @@
 
 #side-menu {
     width: 17vh;
-    height: 93vh;
+    height: 92.5vh;
     background-color: #C4E8E6;
     padding-top: 4.5vh;
     position: relative;
@@ -39,6 +39,7 @@
     background-size: 9.5vh 9.5vh;
     bottom: 39.5vh;
     cursor: auto;
+    opacity: 0.6;
 }
 #repeat {
     background: url('../assets/img/icons/repeat.png') no-repeat scroll 0 0 transparent;
@@ -50,12 +51,14 @@
     background-size: 9.5vh 9.5vh;
     bottom: 13.5vh;
     cursor: auto;
+    opacity: 0.6;
 }
 #puzzle {
     background: url('../assets/img/icons/puzzle.png') no-repeat scroll 0 0 transparent;
     background-size: 9.5vh 9.5vh;
     bottom: 0.5vh;
     cursor: auto;
+    opacity: 0.6;
 }
 
 /* Text */

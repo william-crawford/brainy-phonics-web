@@ -4,7 +4,7 @@
 
 #side-menu {
     background: url('../../assets/img/home-side-bar.png') no-repeat scroll 0 0 transparent;
-    background-size: 121px 680px;
+    background-size: 17.3vh 97vh;
 }
 
 #main-body {
@@ -22,8 +22,8 @@
 
 #alphabet {
     background: url('../../assets/img/alphabet_letters.png') no-repeat scroll 0 0 transparent;
-    background-size: 64vh 52vh;
-    opacity: 0.5;
+    background-size: 68vh 50vh;
+    opacity: 0.6;
 }
 
 .phonics_logo {
@@ -35,12 +35,12 @@
 }
 
 .alphabet_logo {
-    width: 64vh;
-    height: 52vh;
+    width: 68vh;
+    height: 50vh;
     display: block;
-    cursor: pointer;
+    /* cursor: pointer; */
     border: none;
-    margin-top: 8vh;
+    margin-top: 9vh;
 }
 
 .column {
