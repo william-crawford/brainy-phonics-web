@@ -6,3 +6,21 @@
     background: url('../../assets/img/home-side-bar.png') no-repeat scroll 0 0 transparent;
     background-size: 121px 680px;
 }
+
+/* Phonics Logo */
+#phonics {
+    background: url('../../assets/img/Phonics_logo.png') no-repeat scroll 0 0
+    transparent;
+    background-size: 40vh 40vh;
+}
+
+.logo {
+    width: 40vh;
+    height: 40vh;
+    margin-top: 20vh;
+    margin-left: 50vh;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+    border: none;
+}

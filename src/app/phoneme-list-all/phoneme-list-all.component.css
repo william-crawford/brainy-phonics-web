@@ -1,0 +1,22 @@
+#main-body {
+  width: 169.7vh;
+  height: 0vh;
+  padding-left: 25vh;
+  position: relative;
+}
+
+#column {
+    width: 42vh;
+}
+
+.phoneme_button {
+    width: 50vh;
+    height: 40vh;
+    margin-top: 5vh;
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    font-family: ComicSans;
+    font-size: 100px;
+}
