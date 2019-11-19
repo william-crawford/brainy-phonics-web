@@ -108,37 +108,63 @@ export class AComponent implements OnInit, OnDestroy {
 
     playAudioA() {
         this.phonemeAnimate = true;
-        this.phonemeAudio.play();
-
         this.phonemeAudio.onended = () => {
             this.phonemeAnimate = false;
+            this.phonemeAudio.onended = () => {
+                this.phonemeAnimate = false;
+                this.apeAnimate = true;
+                delay(250).then(() => {
+                    this.apeAudio.play();
+                });
+            };
         };
+        this.phonemeAudio.play();
+
+
     }
 
     playApeAudio() {
         this.apeAnimate = true;
-        this.apeAudio.play();
-
         this.apeAudio.onended = () => {
             this.apeAnimate = false;
+            this.apeAudio.onended = () => {
+                this.apeAnimate = false;
+                this.skateAnimate = true;
+                delay(250).then(() => {
+                    this.skateAudio.play();
+                });
+            };
         };
+        this.apeAudio.play();
+
+
     }
 
     playSkateAudio() {
         this.skateAnimate = true;
-        this.skateAudio.play();
-
         this.skateAudio.onended = () => {
             this.skateAnimate = false;
+            this.skateAudio.onended = () => {
+                this.skateAnimate = false;
+                this.craneAnimate = true;
+                delay(250).then(() => {
+                    this.craneAudio.play();
+                });
+            };
         };
+        this.skateAudio.play();
+
+
     }
 
     playCraneAudio() {
         this.craneAnimate = true;
-        this.craneAudio.play();
-
         this.craneAudio.onended = () => {
             this.craneAnimate = false;
         };
+
+        this.craneAudio.play();
+
+
     }
 }
