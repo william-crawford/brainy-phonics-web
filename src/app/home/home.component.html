@@ -1,5 +1,18 @@
 <div id='background'>
+    <div id='main-body'>
+
+        <div class ='column'>
+            <button mat-icon-button class='alphabet_logo' id='alphabet'></button>
+        </div>
+
+        <div class = 'row'>
+            <div class='column'>
+                <button mat-icon-button class='phonics_logo' id='phonics' (mouseenter)='playAudio()' routerLink='/phoneme-categories'></button>
+            </div>
+        </div>
+
+    </div>
+
     <div id='side-menu'>
-            <button mat-icon-button class='logo' id='phonics' (mouseenter)='playAudio()' routerLink='/phoneme-categories'></button>
     </div>
 </div>

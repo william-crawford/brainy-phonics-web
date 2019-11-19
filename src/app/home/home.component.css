@@ -7,18 +7,51 @@
     background-size: 121px 680px;
 }
 
+#main-body {
+  width: 169.7vh;
+  height: 0vh;
+  padding-left: 30vh;
+  position: relative;
+}
+
 /* Phonics Logo */
 #phonics {
     background: url('../../assets/img/Phonics_logo.png') no-repeat scroll 0 0 transparent;
     background-size: 60vh 60vh;
 }
 
-.logo {
+#alphabet {
+    background: url('../../assets/img/alphabet_letters.png') no-repeat scroll 0 0 transparent;
+    background-size: 64vh 52vh;
+    opacity: 0.5;
+}
+
+.phonics_logo {
     width: 60vh;
     height: 60vh;
-    margin-top: 11vh;
-    margin-left: 40vh;
     display: block;
     cursor: pointer;
     border: none;
+}
+
+.alphabet_logo {
+    width: 64vh;
+    height: 52vh;
+    display: block;
+    cursor: pointer;
+    border: none;
+    margin-top: 8vh;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 15vh;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
