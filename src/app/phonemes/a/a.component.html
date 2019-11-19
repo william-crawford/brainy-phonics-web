@@ -1,10 +1,10 @@
 <div id='background'>
     <div id='main-body'>
     	<!-- Add the letter 'a' image -->
-    	<div class='letter' [ngClass]="{'animate': phonemeAnimate}">a</div>
-    	
-    	<div class='row' [ngClass]="{'animate': apeAnimate}">
-	    	<div class='column'>
+	 	<div class='letter' [ngClass]="{'animate': phonemeAnimate}">a</div>
+
+    	<div class='row'>
+	    	<div class='column' [ngClass]="{'animate': apeAnimate}">
 				<img src='../../assets/img/words/ape.jpg' class='word-image'>
 				<br>
 				<div class='column text'>ape</div>
@@ -22,6 +22,7 @@
 				<div class='column text'>crane</div>
 			</div>
 		</div>
+	</div>
 
     <div id='side-menu'>
         <button mat-icon-button class='icon' id='back' routerLink='/phoneme-list-all'></button>
