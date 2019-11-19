@@ -1,7 +1,7 @@
 #main-body {
   width: 169.7vh;
   height: 0vh;
-  padding-left: 25vh;
+  padding-left: 22vh;
   position: relative;
 }
 
@@ -13,8 +13,8 @@
     background: url('../../assets/img/words/ape.jpg') no-repeat scroll;
     background-position: 140px 50px;
     background-size: 20vh 24vh;
-    width: 50vh;
-    height: 40vh;
+    width: 52vh;
+    height: 38vh;
     margin-top: 5vh;
     cursor: pointer;
     border: none;
@@ -24,5 +24,5 @@
     font-size: 100px;
     text-align: left;
     padding-left: 8vh;
-    border-bottom: 4vh solid #DEDEDE;
+    border-bottom: 3vh solid #DEDEDE;
 }

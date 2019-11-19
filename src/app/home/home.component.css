@@ -9,17 +9,15 @@
 
 /* Phonics Logo */
 #phonics {
-    background: url('../../assets/img/Phonics_logo.png') no-repeat scroll 0 0
-    transparent;
-    background-size: 40vh 40vh;
+    background: url('../../assets/img/Phonics_logo.png') no-repeat scroll 0 0 transparent;
+    background-size: 60vh 60vh;
 }
 
 .logo {
-    width: 40vh;
-    height: 40vh;
-    margin-top: 20vh;
-    margin-left: 50vh;
-    margin-right: auto;
+    width: 60vh;
+    height: 60vh;
+    margin-top: 11vh;
+    margin-left: 40vh;
     display: block;
     cursor: pointer;
     border: none;

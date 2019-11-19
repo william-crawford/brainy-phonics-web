@@ -1,7 +1,7 @@
 #main-body {
   width: 169.7vh;
   height: 0vh;
-  padding-left: 40vh;
+  padding-left: 38vh;
   position: relative;
 }
 
@@ -11,14 +11,13 @@
 
 /* Phonics Categories */
 #vowels {
-    background: url('../../assets/img/categories/vowels.png') no-repeat scroll 0 0
-    transparent;
+    background: url('../../assets/img/categories/vowels.png') no-repeat scroll 0 0 transparent;
     background-size: 44vh 20vh;
 }
 
 .category_button {
-    width: 44vh;
-    height: 20vh;
+    width: 54vh;
+    height: 23vh;
     margin-top: 10vh;
     cursor: pointer;
     border: none;
