@@ -1,33 +1,32 @@
 <div id='background'>
     <div id='main-body'>
     	<!-- Add the letter 'a' image -->
-    	<div class='letter'>a</div>
+    	<div class='letter' [ngClass]="{'animate': phonemeAnimate}">a</div>
     	
-    	<div class='row'>
+    	<div class='row' [ngClass]="{'animate': apeAnimate}">
 	    	<div class='column'>
 				<img src='../../assets/img/words/ape.jpg' class='word-image'>
 				<br>
 				<div class='column text'>ape</div>
 			</div>
 
-			<div class='column'>
+			<div class='column' [ngClass]="{'animate': skateAnimate}">
 				<img src='../../assets/img/words/skate.jpg' class='word-image'>
 				<br>
 				<div class='column text'>skate</div>
 			</div>
 
-			<div class='column'>
+			<div class='column' [ngClass]="{'animate': craneAnimate}">
 				<img src='../../assets/img/words/crane.jpg' class='word-image'>
 				<br>
 				<div class='column text'>crane</div>
 			</div>
 		</div>
-    </div>
 
     <div id='side-menu'>
         <button mat-icon-button class='icon' id='back' routerLink='/phoneme-list-all'></button>
         <button mat-icon-button class='icon' id='home' routerLink='/'></button>
-        <button mat-icon-button class='icon bottom' id='repeat'></button>
+        <button mat-icon-button class='icon bottom' id='repeat' (click)="playAudio()"></button>
         <button mat-icon-button class='icon bottom' id='quiz'></button>
         <button mat-icon-button class='icon bottom' id='bank'></button>
         <button mat-icon-button class='icon bottom' id='puzzle'></button>

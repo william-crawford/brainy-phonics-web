@@ -41,8 +41,14 @@
 
 .word-image {
   height: 25vh;
+  transition: all .25s;
+  transform: scale(1);  
   width: 22vh;
   margin-top: 30vh;
+}
+
+.animate {
+  transform: scale(1.25) !important;
 }
 
 /* Text */
