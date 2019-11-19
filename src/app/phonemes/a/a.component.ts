@@ -10,18 +10,23 @@ import { delay } from 'q';
 export class AComponent implements OnInit, OnDestroy {
 
     phonemeAnimate: boolean;
+    phonemePlayAudio: boolean;
     phonemeAudio: HTMLAudioElement;
 
     apeAnimate: boolean;
+    apePlayAudio: boolean;
     apeAudio: HTMLAudioElement;
 
     skateAnimate: boolean;
+    skatePlayAudio: boolean;
     skateAudio: HTMLAudioElement;
 
     craneAnimate: boolean;
+    cranePlayAudio: boolean;
     craneAudio: HTMLAudioElement;
 
     constructor() {
+        this.phonemePlayAudio = true;
         this.phonemeAnimate = false;
         this.apeAnimate = false;
         this.skateAnimate = false;
@@ -99,5 +104,41 @@ export class AComponent implements OnInit, OnDestroy {
 
         this.phonemeAnimate = true;
         this.phonemeAudio.play();
+    }
+
+    playAudioA() {
+        this.phonemeAnimate = true;
+        this.phonemeAudio.play();
+
+        this.phonemeAudio.onended = () => {
+            this.phonemeAnimate = false;
+        };
+    }
+
+    playApeAudio() {
+        this.apeAnimate = true;
+        this.apeAudio.play();
+
+        this.apeAudio.onended = () => {
+            this.apeAnimate = false;
+        };
+    }
+
+    playSkateAudio() {
+        this.skateAnimate = true;
+        this.skateAudio.play();
+
+        this.skateAudio.onended = () => {
+            this.skateAnimate = false;
+        };
+    }
+
+    playCraneAudio() {
+        this.craneAnimate = true;
+        this.craneAudio.play();
+
+        this.craneAudio.onended = () => {
+            this.craneAnimate = false;
+        };
     }
 }

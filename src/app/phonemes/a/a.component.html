@@ -5,19 +5,19 @@
         <button mat-icon-button class='after-button' id='forward'></button>
 	 	<div class='letter' [ngClass]="{'animate': phonemeAnimate}" (click)='playAudioA()'>a</div>
     	<div class='row'>
-	    	<div class='column' [ngClass]="{'animate': apeAnimate}">
+	    	<div class='column' [ngClass]="{'animate': apeAnimate}" (click)='playApeAudio()'>
 				<img src='../../assets/img/words/ape.jpg' class='word-image ape'>
 				<br>
 				<div class='column text'><span style='color: red'>a</span>pe</div>
 			</div>
 
-			<div class='column' [ngClass]="{'animate': skateAnimate}">
+			<div class='column' [ngClass]="{'animate': skateAnimate}" (click)='playSkateAudio()'>
 				<img src='../../assets/img/words/skate.jpg' class='word-image'>
 				<br>
 				<div class='column text'>sk<span style='color: red'>a</span>te</div>
 			</div>
 
-			<div class='column' [ngClass]="{'animate': craneAnimate}">
+			<div class='column' [ngClass]="{'animate': craneAnimate}" (click)='playCraneAudio()'>
 				<img src='../../assets/img/words/crane.jpg' class='word-image'>
 				<br>
 				<div class='column text'>cr<span style='color: red'>a</span>ne</div>
