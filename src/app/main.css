@@ -5,13 +5,6 @@
     margin: auto;
 }
 
-#main-body {
-    width: 169.7vh;
-    height: 0vh;
-    padding-left: 20vh;
-    position: relative;
-}
-
 #side-menu {
     width: 17.3vh;
     height: 93vh;
@@ -71,19 +64,7 @@
 }
 
 /* Text */
-
-h1 {
-  font-size: 32px;
-}
-
-h2 {
-  font-size: 20px;
-}
-
-h1, h2 {
-  font-weight: lighter;
-}
-
-p {
-  font-size: 14px;
+@font-face {
+    font-family: 'ComicSans';
+    src: url('../assets/fonts/comic-sans.ttf');
 }

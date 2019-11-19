@@ -7,27 +7,60 @@
 }
 
 #main-body {
-    width: 169.7vh;
-    height: 0vh;
-    padding-left: 20vh;
-    position: relative;
+  width: 169.7vh;
+  height: 0vh;
+  padding-left: 40vh;
+  position: relative;
 }
 
-
 .column {
-  /*width: 33.33%;*/
-  margin-left: 15vh;
-  padding: 10px;
+/*  margin-left: 15vh;
+  padding: 10px;*/
+  float: left;
+  width: 42vh;
+}
+
+.column .text {
+  font-size: 32px;
+  margin-left: 3vh;
+  font-family: 'ComicSans';
+}
+
+.letter {
+  font-size: 128px;
+  font-family: 'ComicSans';
+  margin-left: 45vh;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .word-image {
   height: 25vh;
-  width: 20vh;
-  margin-top: 50vh;
   transition: all .25s;
-  transform: scale(1);
+  transform: scale(1);  
+  width: 22vh;
+  margin-top: 30vh;
 }
 
 .animate {
-    transform: scale(1.25) !important;
+  transform: scale(1.25) !important;
+}
+
+/* Text */
+
+h2 {
+  font-size: 20px;
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+p {
+  font-size: 14px;
 }
