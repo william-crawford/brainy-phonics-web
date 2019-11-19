@@ -15,24 +15,26 @@
 
 .column {
   float: left;
-  width: 42vh;
+  width: 48vh;
 }
 
 .column .text {
-  font-size: 32px;
+  font-size: 4.8vh;
   margin-left: 3vh;
   font-family: 'ComicSans';
   cursor: pointer;
+  position: absolute;
+  top: 66vh;
+  z-index: 999;
 }
 
 .letter {
-  font-size: 128px;
+  font-size: 19.4vh;
   font-family: 'ComicSans';
   margin-left: 45vh;
   cursor: pointer;
   transition: all .5s;
   transform: scale(1);
-  width: 10vh;
 }
 
 .back-button {
@@ -61,7 +63,9 @@
     opacity: 0.2;
 }
 
-
+.row {
+  transform: translate(0vh, -8vh);
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -108,7 +112,6 @@ p {
 }
 
 /* Buttons */
-
 #forward {
     background: url('../../../assets/img/icons/forward.png') no-repeat scroll 0 0 transparent;
     background-size: 9.5vh 9.5vh;
