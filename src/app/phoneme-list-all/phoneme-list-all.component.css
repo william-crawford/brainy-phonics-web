@@ -10,13 +10,19 @@
 }
 
 .phoneme_button {
+    background: url('../../assets/img/words/ape.jpg') no-repeat scroll;
+    background-position: 140px 50px;
+    background-size: 20vh 24vh;
     width: 50vh;
     height: 40vh;
     margin-top: 5vh;
     cursor: pointer;
-    border: 1px solid #FFFFFF;
+    border: none;
     border-radius: 20px;
     background-color: #FFFFFF;
     font-family: ComicSans;
     font-size: 100px;
+    text-align: left;
+    padding-left: 8vh;
+    border-bottom: 4vh solid #DEDEDE;
 }
