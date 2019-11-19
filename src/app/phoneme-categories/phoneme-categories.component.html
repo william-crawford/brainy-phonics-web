@@ -1,7 +1,22 @@
 <div id='background'>
     <div id='main-body'>
-        <div class='column'>
-            <button mat-icon-button class='category_button' id='vowels' (mouseenter)='playAudio()' routerLink='/phoneme-list-all'></button>
+
+        <div class = 'row'>
+            <div class='column'>
+                <button mat-icon-button class='category_button' id='consonants' (mouseenter)='playAudio()' ></button>
+
+                <button mat-icon-button class='category_button' id='consonant_blends' (mouseenter)='playAudio()' ></button>
+
+                <button mat-icon-button class='category_button' id='vowel_and_consonants' (mouseenter)='playAudio()' ></button>
+            </div>
+
+            <div class='column'>
+                <button mat-icon-button class='category_button' id='vowels' (mouseenter)='playAudio()' routerLink='/phoneme-list-all'></button>
+
+                <button mat-icon-button class='category_button' id='vowel_blends' (mouseenter)='playAudio()' ></button>
+
+                <button mat-icon-button class='category_button' id='all' (mouseenter)='playAudio()' ></button>
+            </div>
         </div>
     </div>
 
