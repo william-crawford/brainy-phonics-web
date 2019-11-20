@@ -24,17 +24,17 @@
   font-family: 'ComicSans';
   cursor: pointer;
   position: absolute;
-  top: 66vh;
+  top: 85vh;
   z-index: 999;
 }
 
 .letter {
   font-size: 19.4vh;
   font-family: 'ComicSans';
-  margin-left: 45vh;
+  padding-top: -10vh;
+  margin-left: 55vh;
   cursor: pointer;
-  transition: all .5s;
-  transform: scale(1);
+  transform: translate(0vh, 3vh);
 }
 
 .back-button {
@@ -42,11 +42,11 @@
     height: 9.5vh;
     display: block;
     position: absolute;
-    margin-left: 3.8vh;
-    cursor: pointer;
+    margin-left: 9vh;
+    /* cursor: pointer; */
     margin-bottom: 3.5vh;
     border: none;
-    margin-top: 8vh;
+    margin-top: 15vh;
     opacity: 0.2;
 }
 
@@ -55,17 +55,14 @@
     height: 9.5vh;
     display: block;
     position: absolute;
-    margin-left: 88vh;
-    cursor: pointer;
+    margin-left: 103vh;
+    /* cursor: pointer; */
     margin-bottom: 3.5vh;
     border: none;
-    margin-top: 8vh;
+    margin-top: 15vh;
     opacity: 0.2;
 }
 
-.row {
-  transform: translate(0vh, -8vh);
-}
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -74,10 +71,11 @@
 }
 
 .word-image {
-  transition: all .5s;
-  transform: scale(1);
-  margin-top: 30vh;
+  margin-top: 21.9vh;
   cursor: pointer;
+  transition: all .5s;
+  transform: scale(1.25) !important;
+  transform-origin: center;
 }
 
 .word-image.ape {
@@ -96,6 +94,7 @@
 .animate {
   transition: all .5s;
   transform: scale(1.25) !important;
+  transform-origin: center;
 }
 
 /* Text */

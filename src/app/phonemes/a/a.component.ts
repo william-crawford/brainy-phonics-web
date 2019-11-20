@@ -36,7 +36,7 @@ export class AComponent implements OnInit, OnDestroy {
     ngOnInit() {
         this.phonemeAudio = new Audio();
         this.phonemeAudio.src = '/assets/audio/sound-A.mp3';
-        this.phonemeAudio.load();
+        this.phonemeAudio.load(); 
 
         this.apeAudio = new Audio();
         this.apeAudio.src = '/assets/audio/ape.mp3';
