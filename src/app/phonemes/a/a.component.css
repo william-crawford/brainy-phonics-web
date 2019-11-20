@@ -15,7 +15,9 @@
 
 .column {
   float: left;
+  text-align: right;
   width: 48vh;
+  transform: translateX(-21vh);
 }
 
 .column .text {
@@ -24,17 +26,19 @@
   font-family: 'ComicSans';
   cursor: pointer;
   position: absolute;
-  top: 85vh;
+  top: 55vh;
   z-index: 999;
+  transform: translateX(-13vh);
 }
 
 .letter {
   font-size: 19.4vh;
   font-family: 'ComicSans';
   padding-top: -10vh;
-  margin-left: 55vh;
+  margin-left: 44vh;
   cursor: pointer;
-  transform: translate(0vh, 3vh);
+  transition: all .5s;
+  transform: scale(1) translate(11vh, 3vh);
 }
 
 .back-button {
@@ -42,7 +46,7 @@
     height: 9.5vh;
     display: block;
     position: absolute;
-    margin-left: 9vh;
+    margin-left: 10vh;
     /* cursor: pointer; */
     margin-bottom: 3.5vh;
     border: none;
@@ -71,30 +75,32 @@
 }
 
 .word-image {
-  margin-top: 21.9vh;
+  margin-top: 22vh;
   cursor: pointer;
   transition: all .5s;
-  transform: scale(1.25) !important;
-  transform-origin: center;
+  transform: scale(1) !important;
 }
 
 .word-image.ape {
-  width: 27vh;
-  height: 33vh;
+  width: 25vh;
+  height: 32vh;
 }
 .word-image.skate {
   width: 24vh;
   height: 34vh;
 }
 .word-image.crane {
-  width: 34vh;
+  width: 33vh;
   height: 33vh;
 }
 
 .animate {
   transition: all .5s;
-  transform: scale(1.25) !important;
-  transform-origin: center;
+  transform: translate(-22vh, -2vh) scale(1.12) !important;
+}
+.animateA {
+  transition: all .5s;
+  transform: translate(18vh, 3vh) scale(1.12) !important;
 }
 
 /* Text */

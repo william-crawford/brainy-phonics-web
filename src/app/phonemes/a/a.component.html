@@ -3,22 +3,24 @@
     	<!-- Add the letter 'a' image -->
         <button mat-icon-button class='back-button' id='back'></button>
         <button mat-icon-button class='after-button' id='forward'></button>
-	 	<div class='letter' [ngClass]="{'animate': phonemeAnimate}" (click)='playAudioA()'>a</div>
+	 	<div class='letter' [ngClass]="{'animateA': phonemeAnimate}" (click)='playAudioA()'>a</div>
     	<div class='row'>
-	    	<div class='column' [ngClass]="{'animate': apeAnimate}" (click)='playApeAudio()'>
-				<img src='../../assets/img/words/ape.jpg' class='word-image ape'>
+	    	<div class='column' [ngClass]="{'animate': apeAnimate}">
+				<img src='../../assets/img/words/ape.jpg' class='word-image ape' (click)='playApeAudio()'>
 				<br>
-				<div class='column text'><span style='color: red'>a</span>pe</div>
+				<div class='column text' (click)='playApeAudio()'><span style='color: red'>a</span>pe</div>
 			</div>
-			<div class='column' [ngClass]="{'animate': skateAnimate}" (click)='playSkateAudio()'>
-				<img src='../../assets/img/words/skate.jpg' class='word-image'>
+
+			<div class='column' [ngClass]="{'animate': skateAnimate}">
+				<img src='../../assets/img/words/skate.jpg' class='word-image skate' (click)='playSkateAudio()'>
 				<br>
-				<div class='column text'>sk<span style='color: red'>a</span>te</div>
+				<div class='column text' (click)='playSkateAudio()'>sk<span style='color: red'>a</span>te</div>
 			</div>
-			<div class='column' [ngClass]="{'animate': craneAnimate}" (click)='playCraneAudio()'>
-				<img src='../../assets/img/words/crane.jpg' class='word-image'>
+
+			<div class='column' [ngClass]="{'animate': craneAnimate}">
+				<img src='../../assets/img/words/crane.jpg' class='word-image crane' (click)='playCraneAudio()'>
 				<br>
-				<div class='column text'>cr<span style='color: red'>a</span>ne</div>
+				<div class='column text' (click)='playCraneAudio()'>cr<span style='color: red'>a</span>ne</div>
 			</div>
 		</div>
 	</div>
