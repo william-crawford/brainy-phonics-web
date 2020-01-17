@@ -1,9 +1,9 @@
-import { Routes, RouterModule } from '@angular/router';
+import {RouterModule, Routes} from '@angular/router';
 
-import { HomeComponent } from './home';
-import { PhonemeCategoriesComponent } from './phoneme-categories';
-import { ListComponent } from './phoneme-list-all';
-import { AComponent } from './phonemes/a';
+import {HomeComponent} from './pages/home';
+import {PhonemeCategoriesComponent} from './pages/phoneme-categories';
+import {ListComponent} from './pages/phoneme-list-all';
+import {AComponent} from './pages/phonemes/a';
 
 const routes: Routes = [
     { path: '', component: HomeComponent },

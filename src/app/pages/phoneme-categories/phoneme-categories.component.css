@@ -7,37 +7,37 @@
 
 /* Phonics Categories */
 #consonants {
-    background: url('../../assets/img/categories/consonants.png') no-repeat scroll 0 0 transparent;
+    background: url('../../../assets/img/categories/consonants.png') no-repeat scroll 0 0 transparent;
     background-size: 44vh 20vh;
     opacity: 0.6;
 }
 
 #consonant_blends {
-    background: url('../../assets/img/categories/consonant_blends.png') no-repeat scroll 0 0 transparent;
+    background: url('../../../assets/img/categories/consonant_blends.png') no-repeat scroll 0 0 transparent;
     background-size: 44vh 20vh;
     opacity: 0.6;
 }
 
 #vowel_and_consonants {
-    background: url('../../assets/img/categories/vowel_and_consonants.png') no-repeat scroll 0 0 transparent;
+    background: url('../../../assets/img/categories/vowel_and_consonants.png') no-repeat scroll 0 0 transparent;
     background-size: 44vh 20vh;
     opacity: 0.6;
 }
 
 #vowels {
-    background: url('../../assets/img/categories/vowels.png') no-repeat scroll 0 0 transparent;
+    background: url('../../../assets/img/categories/vowels.png') no-repeat scroll 0 0 transparent;
     background-size: 44vh 20vh;
     cursor: pointer;
 }
 
 #vowel_blends {
-    background: url('../../assets/img/categories/vowel_blends.png') no-repeat scroll 0 0 transparent;
+    background: url('../../../assets/img/categories/vowel_blends.png') no-repeat scroll 0 0 transparent;
     background-size: 44vh 20vh;
     opacity: 0.6;
 }
 
 #all {
-    background: url('../../assets/img/categories/all.png') no-repeat scroll 0 0 transparent;
+    background: url('../../../assets/img/categories/all.png') no-repeat scroll 0 0 transparent;
     background-size: 44vh 20vh;
     opacity: 0.6;
 }

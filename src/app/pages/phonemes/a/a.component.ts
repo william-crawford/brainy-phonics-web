@@ -1,10 +1,10 @@
-import { Component, OnInit, ViewChild, ElementRef, OnDestroy } from '@angular/core';
-import { delay } from 'q';
+import {Component, OnDestroy, OnInit} from '@angular/core';
+import {delay} from 'q';
 
 @Component({
     templateUrl: 'a.component.html',
     styleUrls: ['a.component.css',
-        '../../main.css']
+        '../../../main.css']
 })
 
 export class AComponent implements OnInit, OnDestroy {

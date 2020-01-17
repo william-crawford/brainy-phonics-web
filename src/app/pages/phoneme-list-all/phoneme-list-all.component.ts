@@ -1,9 +1,9 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import {Component, OnDestroy, OnInit} from '@angular/core';
 
 @Component({
     templateUrl: 'phoneme-list-all.component.html',
     styleUrls: ['phoneme-list-all.component.css',
-        '../main.css']
+        '../../main.css']
 })
 
 export class ListComponent implements OnInit, OnDestroy {

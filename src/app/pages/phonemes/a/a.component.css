@@ -118,6 +118,6 @@ p {
 
 /* Buttons */
 #forward {
-    background: url('../../../assets/img/icons/forward.png') no-repeat scroll 0 0 transparent;
+    background: url('../../../../assets/img/icons/forward.png') no-repeat scroll 0 0 transparent;
     background-size: 9.5vh 9.5vh;
 }

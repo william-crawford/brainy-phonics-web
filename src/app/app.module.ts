@@ -1,12 +1,12 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { appRoutingModule } from './app.routing';
-import { AppComponent } from './app.component';
-import { HomeComponent } from './home';
-import { PhonemeCategoriesComponent } from './phoneme-categories';
-import { ListComponent } from './phoneme-list-all';
-import { AComponent } from './phonemes/a';
+import {appRoutingModule} from './app.routing';
+import {AppComponent} from './app.component';
+import {HomeComponent} from './pages/home';
+import {PhonemeCategoriesComponent} from './pages/phoneme-categories';
+import {ListComponent} from './pages/phoneme-list-all';
+import {AComponent} from './pages/phonemes/a';
 
 @NgModule({
   declarations: [

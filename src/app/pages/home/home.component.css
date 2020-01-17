@@ -3,7 +3,7 @@
 }
 
 #side-menu {
-    background: url('../../assets/img/home-side-bar.png') no-repeat scroll 0 0 transparent;
+    background: url('../../../assets/img/home-side-bar.png') no-repeat scroll 0 0 transparent;
     background-size: 17.3vh 97vh;
 }
 
@@ -16,12 +16,12 @@
 
 /* Phonics Logo */
 #phonics {
-    background: url('../../assets/img/Phonics_logo.png') no-repeat scroll 0 0 transparent;
+    background: url('../../../assets/img/Phonics_logo.png') no-repeat scroll 0 0 transparent;
     background-size: 60vh 60vh;
 }
 
 #alphabet {
-    background: url('../../assets/img/alphabet_letters.png') no-repeat scroll 0 0 transparent;
+    background: url('../../../assets/img/alphabet_letters.png') no-repeat scroll 0 0 transparent;
     background-size: 68vh 50vh;
     opacity: 0.6;
 }
