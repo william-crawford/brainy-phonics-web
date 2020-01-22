@@ -23,7 +23,6 @@
 #alphabet {
     background: url('../../../assets/img/alphabet_letters.png') no-repeat scroll 0 0 transparent;
     background-size: 68vh 50vh;
-    opacity: 0.6;
 }
 
 .phonics_logo {
@@ -38,7 +37,7 @@
     width: 68vh;
     height: 50vh;
     display: block;
-    /* cursor: pointer; */
+    cursor: pointer; 
     border: none;
     margin-top: 9vh;
 }

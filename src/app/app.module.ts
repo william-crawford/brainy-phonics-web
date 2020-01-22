@@ -7,6 +7,7 @@ import {HomeComponent} from './pages/home';
 import {PhonemeCategoriesComponent} from './pages/phoneme-categories';
 import {ListComponent} from './pages/phoneme-list-all';
 import {AComponent} from './pages/phonemes/a';
+import { AlphabetListAllComponent } from './pages/alphabet-list-all/alphabet-list-all.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {AComponent} from './pages/phonemes/a';
     HomeComponent,
     PhonemeCategoriesComponent,
     ListComponent,
-    AComponent
+    AComponent,
+    AlphabetListAllComponent
   ],
   imports: [
     BrowserModule,

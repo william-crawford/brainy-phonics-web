@@ -1,0 +1,1 @@
+export * from './alphabet-list-all.component';

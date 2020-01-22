@@ -1,0 +1,10 @@
+#main-body {
+  width: 169.7vh;
+  height: 0vh;
+  padding-left: 22vh;
+  position: relative;
+}
+
+#column {
+    width: 42vh;
+}
