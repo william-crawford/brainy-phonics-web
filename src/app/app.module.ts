@@ -1,5 +1,6 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import {appRoutingModule} from './app.routing';
 import {AppComponent} from './app.component';
@@ -8,6 +9,7 @@ import {PhonemeCategoriesComponent} from './pages/phoneme-categories';
 import {ListComponent} from './pages/phoneme-list-all';
 import {AComponent} from './pages/phonemes/a';
 import { AlphabetListAllComponent } from './pages/alphabet-list-all/alphabet-list-all.component';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +18,13 @@ import { AlphabetListAllComponent } from './pages/alphabet-list-all/alphabet-lis
     PhonemeCategoriesComponent,
     ListComponent,
     AComponent,
-    AlphabetListAllComponent
+    AlphabetListAllComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
-    appRoutingModule
+    appRoutingModule,
+    FlexLayoutModule
   ],
   bootstrap: [AppComponent]
 })
