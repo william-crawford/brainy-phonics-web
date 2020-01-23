@@ -2,12 +2,12 @@ import {Component, OnDestroy, OnInit} from '@angular/core';
 import {CardComponent} from '../../components/card/card.component';
 
 @Component({
-    templateUrl: 'phoneme-list-all.component.html',
-    styleUrls: ['phoneme-list-all.component.css',
+    templateUrl: 'phoneme-list-consonants.component.html',
+    styleUrls: ['phoneme-list-consonants.component.css',
         '../../main.css']
 })
 
-export class PhonemeListAllComponent implements OnInit, OnDestroy {
+export class PhonemeListConsonantsComponent implements OnInit, OnDestroy {
     instruction: HTMLAudioElement;
 
     constructor() {
@@ -30,5 +30,5 @@ export class PhonemeListAllComponent implements OnInit, OnDestroy {
         this.instruction.currentTime = 0;
         this.instruction.play();
     }
-    phonemes = ['a','a','a','a','ai','an','ar','au','aw','ay','b','bl','br','c','c','ch','cl','cr','d','dr','e','e','e','ea','er','et','et','ew','f','fl','fr','g','g','gl','gr','h','i','i','i','ie','ie','igh','il','ir','j','k','l','le','m','n','nd','ng','nk','o','o','o','oo','oo','oa','oi','or','ou','ow','ow','oy','p','pl','pr','qu','r','s','s','sh','st','sw','t','th','th','tr','u','u','u','ur','v','w','wh','x','y','y','y','z']
+    phonemes = ['b','c','c','d','f','g','g','h','j','k','l','m','n','p','r','s','s','t','v','w','x','y','z']
 }

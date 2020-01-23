@@ -4,6 +4,7 @@ import {HomeComponent} from './pages/home';
 import {PhonemeCategoriesComponent} from './pages/phoneme-categories';
 import {PhonemeListAllComponent} from './pages/phoneme-list-all';
 import {PhonemeListVowelsComponent} from './pages/phoneme-list-vowels';
+import {PhonemeListConsonantsComponent} from './pages/phoneme-list-consonants';
 import {AComponent} from './pages/phonemes/a';
 
 const routes: Routes = [
@@ -11,6 +12,7 @@ const routes: Routes = [
     { path: 'phoneme-categories', component: PhonemeCategoriesComponent },
     { path: 'phoneme-list-all', component: PhonemeListAllComponent },
     { path: 'phoneme-list-vowels', component: PhonemeListVowelsComponent},
+    { path: 'phoneme-list-consonants', component: PhonemeListConsonantsComponent},
     { path: 'a', component: AComponent },
 
     // otherwise redirect to home
