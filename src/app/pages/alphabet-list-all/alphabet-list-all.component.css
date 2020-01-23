@@ -10,10 +10,12 @@
 }
 
 .cardList {
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: flex-start;
+  display: flex;
+  height: 97vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  overflow: scroll;
 }
 
  /* Column Gap */
@@ -26,6 +28,15 @@
 
 /* Item sizing */
 .cardListItem {
-   flex: 0 1 calc(33.3% - 50px);
-   margin-bottom: 50px;
+  flex: 0 1 calc(33.3% - 6.5vh);
+  height: 38vh;
+  margin-top: 5vh;
+  margin-right: 32px;
+  border-radius: 2.8vh;
+  cursor: pointer;
+  border: none;
+  background-color: #FFFFFF;
+  font-family: 'ComicSans';
+  font-size: 12vh;
+  border-bottom: 3vh solid #DEDEDE;
 }

@@ -3,8 +3,9 @@
         <div class='column'>
                 <div class="cardList">
                   <ng-container *ngFor="let letter of letters">
-                    {{letter}}
-                    <app-card class="cardListItem"></app-card>
+                        <app-card class="cardListItem">
+                          {{letter}}
+                        </app-card>
                   </ng-container>
                 </div>
         </div>
