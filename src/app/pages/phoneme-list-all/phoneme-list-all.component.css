@@ -29,9 +29,11 @@
 
 .cardList {
   display: flex;
+  height: 97vh;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
+  overflow: scroll;
 }
 
 /* Column Gap */
