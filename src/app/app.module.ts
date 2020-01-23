@@ -6,18 +6,20 @@ import {appRoutingModule} from './app.routing';
 import {AppComponent} from './app.component';
 import {HomeComponent} from './pages/home';
 import {PhonemeCategoriesComponent} from './pages/phoneme-categories';
-import {PhonemeListComponent} from './pages/phoneme-list-all';
+import {PhonemeListAllComponent} from './pages/phoneme-list-all';
 import {AComponent} from './pages/phonemes/a';
 import {CardComponent} from './components/card/card.component';
+import { PhonemeListVowelsComponent } from './pages/phoneme-list-vowels';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     PhonemeCategoriesComponent,
-    PhonemeListComponent,
+    PhonemeListAllComponent,
     AComponent,
-    CardComponent
+    CardComponent,
+    PhonemeListVowelsComponent
   ],
   imports: [
     BrowserModule,

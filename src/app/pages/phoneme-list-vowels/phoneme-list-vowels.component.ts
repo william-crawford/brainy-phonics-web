@@ -2,12 +2,12 @@ import {Component, OnDestroy, OnInit} from '@angular/core';
 import {CardComponent} from '../../components/card/card.component';
 
 @Component({
-    templateUrl: 'phoneme-list-all.component.html',
-    styleUrls: ['phoneme-list-all.component.css',
+    templateUrl: 'phoneme-list-vowels.component.html',
+    styleUrls: ['phoneme-list-vowels.component.css',
         '../../main.css']
 })
 
-export class PhonemeListAllComponent implements OnInit, OnDestroy {
+export class PhonemeListVowelsComponent implements OnInit, OnDestroy {
     instruction: HTMLAudioElement;
 
     constructor() {
