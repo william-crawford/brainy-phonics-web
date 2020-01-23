@@ -1,4 +1,5 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
+import {CardComponent} from '../../components/card/card.component';
 
 @Component({
     templateUrl: 'phoneme-list-all.component.html',

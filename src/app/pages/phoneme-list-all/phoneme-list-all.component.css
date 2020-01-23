@@ -55,3 +55,7 @@
   font-size: 12vh;
   border-bottom: 3vh solid #DEDEDE;
 }
+
+p {
+  margin: 9vh 0vh 0vh 9vh;
+}
