@@ -6,7 +6,7 @@ import {Component, OnDestroy, OnInit} from '@angular/core';
         '../../main.css']
 })
 
-export class ListComponent implements OnInit, OnDestroy {
+export class PhonemeListComponent implements OnInit, OnDestroy {
     instruction: HTMLAudioElement;
 
     constructor() {
@@ -29,4 +29,5 @@ export class ListComponent implements OnInit, OnDestroy {
         this.instruction.currentTime = 0;
         this.instruction.play();
     }
+    phonemes = ['a','b','c','d','e','f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
 }
