@@ -56,6 +56,10 @@
   border-bottom: 3vh solid #DEDEDE;
 }
 
+:last-child {
+  margin-bottom: 5vh;
+}
+
 p {
   margin: 9vh 0vh 0vh 9vh;
 }
