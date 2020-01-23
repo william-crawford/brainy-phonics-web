@@ -13,6 +13,7 @@ import { PhonemeListVowelsComponent } from './pages/phoneme-list-vowels';
 import { PhonemeListConsonantsComponent } from './pages/phoneme-list-consonants';
 import { PhonemeListConsonantBlendsComponent } from './pages/phoneme-list-consonantblends';
 import { PhonemeListVowelBlendsComponent } from './pages/phoneme-list-vowelblends';
+import { PhonemeListVowelsConsonantsComponent } from './pages/phoneme-list-vowelsconsonants';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { PhonemeListVowelBlendsComponent } from './pages/phoneme-list-vowelblend
     PhonemeListVowelsComponent,
     PhonemeListConsonantsComponent,
     PhonemeListConsonantBlendsComponent,
-    PhonemeListVowelBlendsComponent
+    PhonemeListVowelBlendsComponent,
+    PhonemeListVowelsConsonantsComponent
   ],
   imports: [
     BrowserModule,
