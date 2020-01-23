@@ -11,6 +11,7 @@ import {AComponent} from './pages/phonemes/a';
 import {CardComponent} from './components/card/card.component';
 import { PhonemeListVowelsComponent } from './pages/phoneme-list-vowels';
 import { PhonemeListConsonantsComponent } from './pages/phoneme-list-consonants';
+import { PhonemeListConsonantBlendsComponent } from './pages/phoneme-list-consonantblends';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { PhonemeListConsonantsComponent } from './pages/phoneme-list-consonants'
     AComponent,
     CardComponent,
     PhonemeListVowelsComponent,
-    PhonemeListConsonantsComponent
+    PhonemeListConsonantsComponent,
+    PhonemeListConsonantBlendsComponent
   ],
   imports: [
     BrowserModule,
