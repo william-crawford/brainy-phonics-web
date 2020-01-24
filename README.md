@@ -1,15 +1,15 @@
-High fidelity prototype for Brainy Phonics Web Application
+Web application port of BrainyPhonics
 
 ### To view the prototype
 
-First, [download and install the latest version of Python](https://www.python.org/downloads/) if you do not have it installed already
+1. Install NodeJS (https://nodejs.org/en/) & AngularCLI (https://cli.angular.io/).
 
-Or you can use Homebrew to install
-```sh
-$ brew install python3
-```
-Navigate to your brainy-phonics-web/dist/brainy-phonics-web repository and start up a python web server
-```sh
-$ python -m SimpleHTTPServer
-```
-Open http://127.0.0.1:8000/ in your web browser
+2. Install node dependencies (this may require root privileges)
+    ```sh
+    $ npm install
+    ```
+3. Start the angular local server
+    ```sh
+    $ ng serve
+    ```
+4. Open http://localhost:4200
