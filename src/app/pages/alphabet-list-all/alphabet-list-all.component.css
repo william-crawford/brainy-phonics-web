@@ -1,0 +1,47 @@
+#main-body {
+  width: 169.7vh;
+  height: 0vh;
+  padding-left: 22vh;
+  position: relative;
+}
+
+#column {
+    width: 42vh;
+}
+
+.cardList {
+  display: flex;
+  height: 97vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  overflow: scroll;
+}
+
+/* Column Gap */
+.cardList > * {
+  box-sizing: border-box;
+}
+
+/* Item sizing */
+.cardListItem {
+  flex: 0 1 calc(33.3% - 6.5vh);
+  height: 38vh;
+  margin-top: 5vh;
+  margin-right: 32px;
+  border-radius: 2.8vh;
+  cursor: pointer;
+  border: none;
+  background-color: #FFFFFF;
+  font-family: 'ComicSans';
+  font-size: 12vh;
+  border-bottom: 3vh solid #DEDEDE;
+}
+
+:last-child {
+  margin-bottom: 5vh;
+}
+
+p {
+  margin: 9vh 0vh 0vh 20vh;
+}
