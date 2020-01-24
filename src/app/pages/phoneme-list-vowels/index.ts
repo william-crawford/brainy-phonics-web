@@ -1,0 +1,1 @@
+export * from './phoneme-list-vowels.component';

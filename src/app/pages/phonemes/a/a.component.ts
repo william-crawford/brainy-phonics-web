@@ -33,6 +33,10 @@ export class AComponent implements OnInit, OnDestroy {
         this.craneAnimate = false;
     }
 
+    goBack(){
+        history.back();
+    }
+    
     ngOnInit() {
         this.phonemeAudio = new Audio();
         this.phonemeAudio.src = '/assets/audio/sound-A.mp3';
