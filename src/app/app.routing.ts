@@ -9,10 +9,12 @@ import {PhonemeListConsonantBlendsComponent} from './pages/phoneme-list-consonan
 import {PhonemeListVowelBlendsComponent} from './pages/phoneme-list-vowelblends';
 import {PhonemeListVowelsConsonantsComponent} from './pages/phoneme-list-vowelsconsonants';
 import {AComponent} from './pages/phonemes/a';
+import { AlphabetListAllComponent } from './pages/alphabet-list-all/alphabet-list-all.component';
 
 const routes: Routes = [
     { path: '', component: HomeComponent },
     { path: 'phoneme-categories', component: PhonemeCategoriesComponent },
+    { path: 'alphabet-list-all', component: AlphabetListAllComponent },
     { path: 'phoneme-list-all', component: PhonemeListAllComponent },
     { path: 'phoneme-list-vowels', component: PhonemeListVowelsComponent},
     { path: 'phoneme-list-consonants', component: PhonemeListConsonantsComponent},
