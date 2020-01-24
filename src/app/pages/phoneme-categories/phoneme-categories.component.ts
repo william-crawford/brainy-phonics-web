@@ -14,9 +14,9 @@ export class PhonemeCategoriesComponent {
     }
 
     playAudio() {
-        this.vowels = new Audio();
-        this.vowels.src='/assets/audio/vowels.m4a';
-        this.vowels.load();
-        this.vowels.play();
+    //     this.vowels = new Audio();
+    //     this.vowels.src='/assets/audio/vowels.m4a';
+    //     this.vowels.load();
+    //     this.vowels.play();
     }
 }
