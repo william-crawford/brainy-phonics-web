@@ -1,11 +1,11 @@
 <div id='background'>
     <div id='main-body'>
         <div class='column'>
-            <button mat-icon-button class='alphabet_logo' id='alphabet' routerLink='/alphabet-list-all'></button>
+            <button mat-icon-button class='alphabet_logo' id='alphabet' (mouseenter)='playAudio($event)' routerLink='/alphabet-list-all'></button>
         </div>
         <div class='row'>
             <div class='column'>
-                <button mat-icon-button class='phonics_logo' id='phonics' (mouseenter)='playAudio()' routerLink='/phoneme-categories'></button>
+                <button mat-icon-button class='phonics_logo' id='phonics' (mouseenter)='playAudio($event)' routerLink='/phoneme-categories'></button>
             </div>
         </div>
     </div>

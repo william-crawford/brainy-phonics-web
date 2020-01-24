@@ -13,10 +13,17 @@ export class HomeComponent {
 
     }
 
-    playAudio() {
-        this.phonics = new Audio();
-        this.phonics.src = '/assets/audio/phonics.mp3';
-        this.phonics.load();
-        this.phonics.play();
+    playAudio(event) {
+        if (event.target.id == 'phonics') {
+            this.phonics = new Audio();
+            this.phonics.src = '/assets/audio/phonics.mp3';
+            this.phonics.load();
+            this.phonics.play();
+        } else if (event.target.id == 'alphabet') {
+            this.phonics = new Audio();
+            this.phonics.src = '/assets/audio/alphabet_letters.mp3';
+            this.phonics.load();
+            this.phonics.play();
+        }
     }
 }

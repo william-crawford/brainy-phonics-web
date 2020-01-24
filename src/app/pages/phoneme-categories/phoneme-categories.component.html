@@ -3,19 +3,19 @@
 
         <div class = 'row'>
             <div class='column'>
-                <button mat-icon-button class='category_button' id='consonants' ></button>
+                <button mat-icon-button class='category_button' id='consonants' routerLink='/phoneme-list-consonants'></button>
 
-                <button mat-icon-button class='category_button' id='consonant_blends' ></button>
+                <button mat-icon-button class='category_button' id='consonant_blends' routerLink='/phoneme-list-consonantblends'></button>
 
-                <button mat-icon-button class='category_button' id='vowel_and_consonants' ></button>
+                <button mat-icon-button class='category_button' id='vowel_and_consonants' routerLink='/phoneme-list-vowelsconsonants'></button>
             </div>
 
             <div class='column'>
-                <button mat-icon-button class='category_button' id='vowels' (mouseenter)='playAudio()' routerLink='/phoneme-list-all'></button>
+                <button mat-icon-button class='category_button' id='vowels' (mouseenter)='playAudio()' routerLink='/phoneme-list-vowels'></button>
 
-                <button mat-icon-button class='category_button' id='vowel_blends' ></button>
+                <button mat-icon-button class='category_button' id='vowel_blends' routerLink='/phoneme-list-vowelblends'></button>
 
-                <button mat-icon-button class='category_button' id='all' ></button>
+                <button mat-icon-button class='category_button' id='all' routerLink='/phoneme-list-all'></button>
             </div>
         </div>
     </div>
