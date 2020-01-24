@@ -30,5 +30,37 @@ export class PhonemeListConsonantBlendsComponent implements OnInit, OnDestroy {
         this.instruction.currentTime = 0;
         this.instruction.play();
     }
-    phonemes = ['bl','br','ch','cl','cr','dr','fl','fr','gl','gr','nd','ng','nk','pl','pr','sh','sk','sl','sp','st','sw','th','th','tr','wh'];
+
+    phonemes: { [key: number]: string } =
+        {
+            1: 'bl',
+            2: 'br',
+            3: 'ch',
+            4: 'cl',
+            5: 'cr',
+            6: 'dr',
+            7: 'fl',
+            8: 'fr',
+            9: 'gl',
+            10: 'gr',
+            11: 'nd',
+            12: 'ng',
+            13: 'nk',
+            14: 'pl',
+            15: 'pr',
+            16: 'sh',
+            17: 'sk',
+            18: 'sl',
+            19: 'sp',
+            20: 'st',
+            21: 'sw',
+            22: 'th',
+            23: 'th',
+            24: 'tr',
+            25: 'wh'
+        };
+
+        sortNull() {
+
+        }
 }

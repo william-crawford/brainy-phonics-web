@@ -1,17 +1,19 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
+import {RouterModule, Routes} from '@angular/router';
+import {Router} from '@angular/router';
 import {CardComponent} from '../../components/card/card.component';
 
 @Component({
     templateUrl: 'phoneme-list-vowels.component.html',
     styleUrls: ['phoneme-list-vowels.component.css',
-        '../../main.css']
+                '../../main.css']
 })
 
 export class PhonemeListVowelsComponent implements OnInit, OnDestroy {
     instruction: HTMLAudioElement;
 
-    constructor() {
-
+    constructor(private router: Router) {
+    
     }
 
     ngOnInit() {
@@ -30,5 +32,36 @@ export class PhonemeListVowelsComponent implements OnInit, OnDestroy {
         this.instruction.currentTime = 0;
         this.instruction.play();
     }
-    phonemes = ['a','a','a','a','e','e','e','i','i','i','o','o','o','u','u','u','y','y']
+
+    openPhoneme(phoneme) {
+        if (phoneme == 1) {
+            this.router.navigateByUrl('/a');
+        }
+    }
+
+    phonemes: { [key: number]: string } =
+        {
+            1: 'a',
+            2: 'a',
+            3: 'a',
+            4: 'a',
+            5: 'e',
+            6: 'e',
+            7: 'e',
+            8: 'i',
+            9: 'i',
+            10: 'i',
+            11: 'o',
+            12: 'o',
+            13: 'o',
+            14: 'u',
+            15: 'u',
+            16: 'u',
+            17: 'y',
+            18: 'y'
+        };
+
+    sortNull() {
+
+    }
 }

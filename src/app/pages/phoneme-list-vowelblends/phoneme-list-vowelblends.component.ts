@@ -30,5 +30,28 @@ export class PhonemeListVowelBlendsComponent implements OnInit, OnDestroy {
         this.instruction.currentTime = 0;
         this.instruction.play();
     }
-    phonemes = ['ai','au','aw','ay','ea','ew','ie','ie','oa','oi','oo','oo','ou','ow','ow','oy'];
+
+    phonemes: { [key: number]: string } =
+        {
+            1: 'ai',
+            2: 'au',
+            3: 'aw',
+            4: 'ay',
+            5: 'ea',
+            6: 'ew',
+            7: 'ie',
+            8: 'ie',
+            9: 'oa',
+            10: 'oi',
+            11: 'oo',
+            12: 'oo',
+            13: 'ou',
+            14: 'ow',
+            15: 'ow',
+            16: 'oy'
+        };
+
+    sortNull() {
+
+    }
 }

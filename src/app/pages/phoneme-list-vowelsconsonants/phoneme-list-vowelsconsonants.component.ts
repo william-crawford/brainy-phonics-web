@@ -30,5 +30,23 @@ export class PhonemeListVowelsConsonantsComponent implements OnInit, OnDestroy {
         this.instruction.currentTime = 0;
         this.instruction.play();
     }
-    phonemes = ['an','ar','er','et','igh','il','ir','le','or','qu','ur'];
+
+    phonemes: { [key: number]: string } =
+    {
+        1: 'an',
+        2: 'ar',
+        3: 'er',
+        4: 'et',
+        5: 'igh',
+        6: 'il',
+        7: 'ir',
+        8: 'le',
+        9: 'or',
+        10: 'qu',
+        11: 'ur'
+    };
+
+    sortNull() {
+
+    }
 }

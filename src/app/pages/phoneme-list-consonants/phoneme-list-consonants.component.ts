@@ -30,5 +30,35 @@ export class PhonemeListConsonantsComponent implements OnInit, OnDestroy {
         this.instruction.currentTime = 0;
         this.instruction.play();
     }
-    phonemes = ['b','c','c','d','f','g','g','h','j','k','l','m','n','p','r','s','s','t','v','w','x','y','z']
+
+    phonemes: { [key: number]: string } =
+        {
+            1: 'b',
+            2: 'c',
+            3: 'c',
+            4: 'd',
+            5: 'f',
+            6: 'g',
+            7: 'g',
+            8: 'h',
+            9: 'j',
+            10: 'k',
+            11: 'l',
+            12: 'm',
+            13: 'n',
+            14: 'p',
+            15: 'r',
+            16: 's',
+            17: 's',
+            18: 't',
+            19: 'v',
+            20: 'w',
+            21: 'x',
+            22: 'y',
+            23: 'z'
+        };
+
+    sortNull() {
+
+    }
 }
