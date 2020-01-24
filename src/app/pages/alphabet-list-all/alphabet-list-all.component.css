@@ -18,12 +18,9 @@
   overflow: scroll;
 }
 
- /* Column Gap */
+/* Column Gap */
 .cardList > * {
-   box-sizing: border-box;
-}
-.cardList > *:not(:last-child) {
-   margin-right: 32px;
+  box-sizing: border-box;
 }
 
 /* Item sizing */
@@ -39,4 +36,12 @@
   font-family: 'ComicSans';
   font-size: 12vh;
   border-bottom: 3vh solid #DEDEDE;
+}
+
+:last-child {
+  margin-bottom: 5vh;
+}
+
+p {
+  margin: 9vh 0vh 0vh 20vh;
 }
