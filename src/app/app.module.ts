@@ -20,6 +20,7 @@ import { AlphabetListAllComponent } from './pages/alphabet-list-all/alphabet-lis
     AppComponent,
     HomeComponent,
     PhonemeCategoriesComponent,
+    AlphabetListAllComponent,
     PhonemeListAllComponent,
     AComponent,
     CardComponent,
@@ -27,8 +28,7 @@ import { AlphabetListAllComponent } from './pages/alphabet-list-all/alphabet-lis
     PhonemeListConsonantsComponent,
     PhonemeListConsonantBlendsComponent,
     PhonemeListVowelBlendsComponent,
-    PhonemeListVowelsConsonantsComponent,
-    AlphabetListAllComponent,
+    PhonemeListVowelsConsonantsComponent
   ],
   imports: [
     BrowserModule,

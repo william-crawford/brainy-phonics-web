@@ -14,13 +14,13 @@ import { AlphabetListAllComponent } from './pages/alphabet-list-all/alphabet-lis
 const routes: Routes = [
     { path: '', component: HomeComponent },
     { path: 'phoneme-categories', component: PhonemeCategoriesComponent },
+    { path: 'alphabet-list-all', component: AlphabetListAllComponent },
     { path: 'phoneme-list-all', component: PhonemeListAllComponent },
     { path: 'phoneme-list-vowels', component: PhonemeListVowelsComponent},
     { path: 'phoneme-list-consonants', component: PhonemeListConsonantsComponent},
     { path: 'phoneme-list-consonantblends', component: PhonemeListConsonantBlendsComponent},
     { path: 'phoneme-list-vowelblends', component: PhonemeListVowelBlendsComponent},
     { path: 'phoneme-list-vowelsconsonants', component: PhonemeListVowelsConsonantsComponent},
-    { path: 'alphabet-list-all', component: AlphabetListAllComponent },
     { path: 'a', component: AComponent },
 
     // otherwise redirect to home
