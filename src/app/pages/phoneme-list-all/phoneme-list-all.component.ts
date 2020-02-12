@@ -2,6 +2,7 @@ import {Component, OnDestroy, OnInit} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 import {Router} from '@angular/router';
 import {CardComponent} from '../../components/card/card.component';
+import { TransferLetterService } from '../../services/transfer-letter-service.service';
 
 @Component({
     templateUrl: 'phoneme-list-all.component.html',
@@ -12,10 +13,10 @@ import {CardComponent} from '../../components/card/card.component';
 export class PhonemeListAllComponent implements OnInit, OnDestroy {
     instruction: HTMLAudioElement;
 
-    constructor(private router: Router) {
-
+    constructor(private transferService:TransferLetterService, private router: Router) {
+		
     }
-
+    
     ngOnInit() {
         this.instruction = new Audio();
         this.instruction.src = '/assets/audio/00_Button_Audio_Complete_a_whole_puzzle_(Phonics_only).mp3';
@@ -31,12 +32,6 @@ export class PhonemeListAllComponent implements OnInit, OnDestroy {
         this.instruction.pause();
         this.instruction.currentTime = 0;
         this.instruction.play();
-    }
-
-    openPhoneme(phoneme) {
-        if (phoneme == 1) {
-            this.router.navigateByUrl('/a');
-        }
     }
 
     //FIX THIS
@@ -140,5 +135,10 @@ export class PhonemeListAllComponent implements OnInit, OnDestroy {
 
     sortNull() {
 
+    }
+
+    showPhonemeLearn(phoneme) {
+        this.transferService.setData(phoneme);
+        this.router.navigateByUrl('/phoneme-learn');
     }
 }

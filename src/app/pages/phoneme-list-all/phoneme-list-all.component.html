@@ -3,7 +3,7 @@
         <div class='column'>
             <div class="cardList">
                 <ng-container *ngFor="let phoneme of phonemes | keyvalue: sortNull">
-                    <app-card class="cardListItem" (click)='openPhoneme(phoneme.key)'>
+                    <app-card class="cardListItem" (click)='showPhonemeLearn(phoneme)'>
                         <p>{{phoneme.value}}</p>
                     </app-card>
                 </ng-container>
