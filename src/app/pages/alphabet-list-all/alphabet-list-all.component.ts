@@ -2,6 +2,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import {CardComponent} from '../../components/card/card.component';
 import {RouterModule, Routes} from '@angular/router';
 import {Router} from '@angular/router';
+import { TransferLetterService } from '../../services/transfer-letter-service.service';
 
 @Component({
     templateUrl: 'alphabet-list-all.component.html',
@@ -11,7 +12,9 @@ import {Router} from '@angular/router';
 
 export class AlphabetListAllComponent {
 
-	constructor(private router: Router) {
+	constructor(
+        private transferService:TransferLetterService,
+        private router: Router) {
 	}
 
 	//FIX THIS
@@ -47,5 +50,10 @@ export class AlphabetListAllComponent {
         
     sortNull() {
 
+    }
+
+    showAlphabetLearn(letter) {
+        this.transferService.setData(letter);
+        this.router.navigateByUrl('/alphabet-learn');
     }
 }
