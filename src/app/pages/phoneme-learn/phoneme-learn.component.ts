@@ -1,5 +1,6 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {delay} from 'q';
+import { TransferLetterService } from '../../services/transfer-letter-service.service';
 import * as data from '../../../assets/json/phoneme-examples.json';
 
 @Component({
@@ -26,14 +27,14 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
     ex3PlayAudio: boolean;
     ex3Audio: HTMLAudioElement;
 
-    //temp until issue 26 is completed
-    name: string = "a";
+
+    phoneme = this.transferService.getData();   
     
     img1: string = '../../assets/img/words/' + data.default.a.eximg[0];
     img2: string = '../../assets/img/words/' + data.default.a.eximg[1];
-    img3: string = '../../assets/img/words/' + data.default.a.eximg[2];
+    img3: string = '../../assets/img/words/' + data.default.a.eximg[2];   
 
-    constructor() {
+	constructor(private transferService:TransferLetterService) {
         this.phonemePlayAudio = true;
         this.phonemeAnimate = false;
         this.ex1Animate = false;

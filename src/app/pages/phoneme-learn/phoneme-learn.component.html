@@ -2,7 +2,7 @@
     <div id='main-body'>
         <button mat-icon-button class='back-button' id='back'></button>
         <button mat-icon-button class='after-button' id='forward'></button>
-	 	<div class='letter' [ngClass]="{'animatePhoneme': phonemeAnimate}" (click)='playAudioA()'>{{name}}</div>
+	 	<div class='letter' [ngClass]="{'animatePhoneme': phonemeAnimate}" (click)='playAudioA()'>{{phoneme.value}}</div>
     	<div class='row'>
 	    	<div class='column' [ngClass]="{'animate': ex1Animate}">
 				<img src={{img1}} class='word-image ape' (click)='playEx1Audio()'>
