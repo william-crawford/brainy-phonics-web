@@ -7,19 +7,19 @@
 	    	<div class='column' [ngClass]="{'animate': ex1Animate}">
 				<img src={{img1}} class='word-image ape' (click)='playEx1Audio()'>
 				<br>
-				<div class='column text' (click)='playEx1Audio()'><span style='color: red'>a</span>pe</div>
+				<div class='column text' (click)='playEx1Audio()' [innerHtml]='word1'></div>
 			</div>
 
 			<div class='column' [ngClass]="{'animate': ex2Animate}">
 				<img src={{img2}} class='word-image skate' (click)='playEx2Audio()'>
 				<br>
-				<div class='column text' (click)='playEx2Audio()'>sk<span style='color: red'>a</span>te</div>
+				<div class='column text' (click)='playEx2Audio()' [innerHtml]='word2'></div>
 			</div>
 
 			<div class='column' [ngClass]="{'animate': ex3Animate}">
 				<img src={{img3}} class='word-image crane' (click)='playEx3Audio()'>
 				<br>
-				<div class='column text' (click)='playEx3Audio()'>cr<span style='color: red'>a</span>ne</div>
+				<div class='column text' (click)='playEx3Audio()' [innerHtml]='word3'></div>
 			</div>
 		</div>
 	</div>
