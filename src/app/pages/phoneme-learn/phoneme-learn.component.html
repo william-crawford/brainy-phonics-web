@@ -1,0 +1,35 @@
+<div id='background'>
+    <div id='main-body'>
+        <button mat-icon-button class='back-button' id='back'></button>
+        <button mat-icon-button class='after-button' id='forward'></button>
+	 	<div class='letter' [ngClass]="{'animatePhoneme': phonemeAnimate}" (click)='playAudioA()'>{{name}}</div>
+    	<div class='row'>
+	    	<div class='column' [ngClass]="{'animate': ex1Animate}">
+				<img src={{img1}} class='word-image ape' (click)='playEx1Audio()'>
+				<br>
+				<div class='column text' (click)='playEx1Audio()'><span style='color: red'>a</span>pe</div>
+			</div>
+
+			<div class='column' [ngClass]="{'animate': ex2Animate}">
+				<img src={{img2}} class='word-image skate' (click)='playEx2Audio()'>
+				<br>
+				<div class='column text' (click)='playEx2Audio()'>sk<span style='color: red'>a</span>te</div>
+			</div>
+
+			<div class='column' [ngClass]="{'animate': ex3Animate}">
+				<img src={{img3}} class='word-image crane' (click)='playEx3Audio()'>
+				<br>
+				<div class='column text' (click)='playEx3Audio()'>cr<span style='color: red'>a</span>ne</div>
+			</div>
+		</div>
+	</div>
+
+    <div id='side-menu'>
+        <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>
+        <button mat-icon-button class='icon' id='home' routerLink='/'></button>
+        <button mat-icon-button class='icon bottom' id='repeat' (click)="playAudio()"></button>
+        <button mat-icon-button class='icon bottom' id='quiz'></button>
+        <button mat-icon-button class='icon bottom' id='bank'></button>
+        <button mat-icon-button class='icon bottom' id='puzzle'></button>
+    </div>
+</div>
