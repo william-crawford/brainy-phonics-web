@@ -1,3 +1,7 @@
+#background {
+  background-color: #FFFFFF !important;
+}
+
 #main-body {
   width: 169.7vh;
   height: 0vh;
@@ -18,7 +22,7 @@
     /* cursor: pointer; */
     margin-bottom: 3.5vh;
     border: none;
-    margin-top: 15vh;
+    margin-top: 45vh;
     opacity: 0.2;
 }
 
@@ -31,7 +35,7 @@
     /* cursor: pointer; */
     margin-bottom: 3.5vh;
     border: none;
-    margin-top: 15vh;
+    margin-top: 45vh;
     opacity: 0.2;
 }
 
@@ -40,7 +44,14 @@
   font-family: 'ComicSans';
   padding-top: -10vh;
   margin-left: 44vh;
+  padding-top: 30vh;
   cursor: pointer;
   transition: all .5s;
   transform: scale(1) translate(11vh, 3vh);
+}
+
+/* Buttons */
+#forward {
+    background: url('../../../assets/img/icons/forward.png') no-repeat scroll 0 0 transparent;
+    background-size: 9.5vh 9.5vh;
 }
