@@ -1,6 +1,7 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
+import {ElementRef} from '@angular/core';
 import {delay} from 'q';
-import { TransferLetterService } from '../../services/transfer-letter-service.service';
+import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import * as data from '../../../assets/json/phoneme-examples.json';
 
 @Component({
@@ -44,7 +45,7 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
     // word3: string = data.default.find(o => o.phoneme == this.phoneme.value).exword[2];
     word3: string = data.default.find(o => o.phoneme == "a").exword[2];
 
-	constructor(private transferService:TransferLetterService) {
+	constructor(private transferService:TransferLetterService, private elem:ElementRef) {
         this.phonemePlayAudio = true;
         this.phonemeAnimate = false;
         this.ex1Animate = false;
@@ -57,6 +58,15 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
     }
     
     ngOnInit() {
+        let phonemeList = this.elem.nativeElement.querySelector('.letter').classList;
+        if (this.phoneme.value.length == 1) {
+            phonemeList.add('one');
+        } else if (this.phoneme.value.length == 2) {
+            phonemeList.add('two');
+        } else if (this.phoneme.value.length == 3) {
+            phonemeList.add('three');
+        }
+
         this.phonemeAudio = new Audio();
         // this.phonemeAudio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).nameaudio[0];
         this.phonemeAudio.src = '/assets/audio/' + data.default.find(o => o.phoneme == "a").nameaudio[0];

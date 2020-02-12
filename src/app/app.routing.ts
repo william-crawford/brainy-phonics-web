@@ -8,7 +8,6 @@ import {PhonemeListConsonantsComponent} from './pages/phoneme-list-consonants';
 import {PhonemeListConsonantBlendsComponent} from './pages/phoneme-list-consonantblends';
 import {PhonemeListVowelBlendsComponent} from './pages/phoneme-list-vowelblends';
 import {PhonemeListVowelsConsonantsComponent} from './pages/phoneme-list-vowelsconsonants';
-import {AComponent} from './pages/phonemes/a';
 import { AlphabetListAllComponent } from './pages/alphabet-list-all/alphabet-list-all.component';
 import { PhonemeLearnComponent } from './pages/phoneme-learn';
 
@@ -22,7 +21,6 @@ const routes: Routes = [
     { path: 'phoneme-list-consonantblends', component: PhonemeListConsonantBlendsComponent},
     { path: 'phoneme-list-vowelblends', component: PhonemeListVowelBlendsComponent},
     { path: 'phoneme-list-vowelsconsonants', component: PhonemeListVowelsConsonantsComponent},
-    { path: 'a', component: AComponent },
     { path: 'phoneme-learn', component: PhonemeLearnComponent },
 
     // otherwise redirect to home
