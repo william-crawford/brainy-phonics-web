@@ -44,7 +44,7 @@
   transform: translate(11vh, 3vh);
 }
 .letter.two {
-  transform: translate(9.5vh, 3vh);
+  transform: translate(5.5vh, 3vh);
 }
 .letter.three {
   transform: translate(5vh, 3vh);
@@ -111,9 +111,17 @@
   transition: all .5s;
   transform: translate(-22vh, -2vh) scale(1.12) !important;
 }
-.animatePhoneme {
+.animate-one {
   transition: all .5s;
-  transform: scale(1.12) !important;
+  transform: translate(18vh, 3vh) scale(1.12) !important;
+}
+.animate-two {
+  transition: all .5s;
+  transform: translate(12vh, 3vh) scale(1.12) !important;
+}
+.animate-three {
+  transition: all .5s;
+  transform: translate(11vh, 3vh) scale(1.12) !important;
 }
 
 /* Text */

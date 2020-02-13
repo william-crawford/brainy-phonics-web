@@ -12,7 +12,9 @@ import * as data from '../../../assets/json/phoneme-examples.json';
 
 export class PhonemeLearnComponent implements OnInit, OnDestroy {
 
-    phonemeAnimate: boolean;
+    oneAnimate: boolean;
+    twoAnimate: boolean;
+    threeAnimate: boolean;
     phonemePlayAudio: boolean;
     phonemeAudio: HTMLAudioElement;
 
@@ -47,7 +49,9 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
 
 	constructor(private transferService:TransferLetterService, private elem:ElementRef) {
         this.phonemePlayAudio = true;
-        this.phonemeAnimate = false;
+        this.oneAnimate = false;
+        this.twoAnimate = false;
+        this.threeAnimate = false;
         this.ex1Animate = false;
         this.ex2Animate = false;
         this.ex3Animate = false;
@@ -90,7 +94,13 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
         this.ex3Audio.load();
 
         this.phonemeAudio.onended = () => {
-            this.phonemeAnimate = false;
+            if (this.phoneme.value.length == 1) {
+                this.oneAnimate = false;
+            } else if (this.phoneme.value.length == 2) {
+                this.twoAnimate = false;
+            } else if (this.phoneme.value.length == 3) {
+                this.threeAnimate = false;
+            }
             this.ex1Animate = true;
             delay(250).then(() => {
                 this.ex1Audio.play();
@@ -127,7 +137,14 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
     playAudio() {
         this.phonemeAudio.pause();
         this.phonemeAudio.currentTime = 0;
-        this.phonemeAnimate = false;
+        
+        if (this.phoneme.value.length == 1) {
+            this.oneAnimate = false;
+        } else if (this.phoneme.value.length == 2) {
+            this.twoAnimate = false;
+        } else if (this.phoneme.value.length == 3) {
+            this.threeAnimate = false;
+        }
 
         this.ex1Audio.pause();
         this.ex1Audio.currentTime = 0;
@@ -141,16 +158,40 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
         this.ex3Audio.currentTime = 0;
         this.ex3Animate = false;
 
-        this.phonemeAnimate = true;
+        if (this.phoneme.value.length == 1) {
+            this.oneAnimate = true;
+        } else if (this.phoneme.value.length == 2) {
+            this.twoAnimate = true;
+        } else if (this.phoneme.value.length == 3) {
+            this.threeAnimate = true;
+        }
         this.phonemeAudio.play();
     }
 
     playAudioA() {
-        this.phonemeAnimate = true;
+        if (this.phoneme.value.length == 1) {
+            this.oneAnimate = true;
+        } else if (this.phoneme.value.length == 2) {
+            this.twoAnimate = true;
+        } else if (this.phoneme.value.length == 3) {
+            this.threeAnimate = true;
+        }
         this.phonemeAudio.onended = () => {
-            this.phonemeAnimate = false;
+            if (this.phoneme.value.length == 1) {
+                this.oneAnimate = false;
+            } else if (this.phoneme.value.length == 2) {
+                this.twoAnimate = false;
+            } else if (this.phoneme.value.length == 3) {
+                this.threeAnimate = false;
+            }
             this.phonemeAudio.onended = () => {
-                this.phonemeAnimate = false;
+                if (this.phoneme.value.length == 1) {
+                    this.oneAnimate = false;
+                } else if (this.phoneme.value.length == 2) {
+                    this.twoAnimate = false;
+                } else if (this.phoneme.value.length == 3) {
+                    this.threeAnimate = false;
+                }
                 this.ex1Animate = true;
                 delay(250).then(() => {
                     this.ex1Audio.play();
@@ -190,7 +231,7 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
         this.ex2Audio.play();
     }
 
-    playex3Audio() {
+    playEx3Audio() {
         this.ex3Animate = true;
         this.ex3Audio.onended = () => {
             this.ex3Animate = false;
