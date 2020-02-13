@@ -1,0 +1,19 @@
+<div id='background'>
+    <div id='main-body'>
+        <div class='column'>
+	        <button mat-icon-button class='back-button' id='back'></button>
+        	<button mat-icon-button class='after-button' id='forward'></button>
+        	<div class='letter'>{{letter.value}}</div>
+        </div>
+    </div>
+
+
+
+    <div id='side-menu'>
+        <button mat-icon-button class='icon' id='back' routerLink='/alphabet-list-all'></button>
+        <button mat-icon-button class='icon' id='home' routerLink='/'></button>
+        <button mat-icon-button class='icon bottom' id='repeat' (click)='playAudio()'></button>
+        <button mat-icon-button class='icon bottom' id='quiz'></button>
+        <button mat-icon-button class='icon bottom' id='bank'></button>
+    </div>
+</div>

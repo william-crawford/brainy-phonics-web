@@ -14,6 +14,7 @@ import { PhonemeListVowelBlendsComponent } from './pages/phoneme-list-vowelblend
 import { PhonemeListVowelsConsonantsComponent } from './pages/phoneme-list-vowelsconsonants';
 import { AlphabetListAllComponent } from './pages/alphabet-list-all/alphabet-list-all.component';
 import { PhonemeLearnComponent } from './pages/phoneme-learn';
+import { AlphabetLearnComponent } from './pages/alphabet-learn/alphabet-learn.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { PhonemeLearnComponent } from './pages/phoneme-learn';
     PhonemeListConsonantBlendsComponent,
     PhonemeListVowelBlendsComponent,
     PhonemeListVowelsConsonantsComponent,
-    PhonemeLearnComponent
+    PhonemeLearnComponent,
+    AlphabetLearnComponent
   ],
   imports: [
     BrowserModule,
