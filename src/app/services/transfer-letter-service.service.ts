@@ -1,20 +1,19 @@
 import { Injectable } from '@angular/core';
-import {Router} from '@angular/router';
+import { Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root'
 })
+
 export class TransferLetterService {
 
-  constructor(private router:Router) {
-  	console.log('inside tranfer service')
+  constructor(private router: Router) {
   }
 
   private data;
 
   setData(data) {
   	this.data = data;
-  	console.log(data);
   }
 
   getData() {
@@ -26,5 +25,4 @@ export class TransferLetterService {
   clearData() {
   	this.data = undefined;
   }
-
 }

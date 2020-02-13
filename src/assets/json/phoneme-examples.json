@@ -1,0 +1,46 @@
+[
+    {
+        "phoneme": "a",
+        "eximg": [
+            "ape.jpg",
+            "skate.jpg",
+            "crane.jpg"
+        ],
+        "exaudio": [
+            "ape.mp3",
+            "skate.mp3",
+            "crane.mp3"
+        ],
+        "exword": [
+            "<span>a</span>pe",
+            "sk<span>a</span>te",
+            "cr<span>a</span>ne"
+        ],
+        "nameaudio": [
+            "sound-A.mp3"
+        ]
+
+    },
+    {
+        "phoneme": "b",
+        "eximg": [
+            "ape.jpg",
+            "skate.jpg",
+            "crane.jpg"
+        ],
+        "exaudio": [
+            "ape.mp3",
+            "skate.mp3",
+            "crane.mp3"
+        ],
+        "exword": [
+            "<span>a</span>pe",
+            "sk<span>a</span>te",
+            "cr<span>a</span>ne"
+        ],
+        "nameaudio": [
+            "sound-A.mp3"
+        ]
+
+    }
+]

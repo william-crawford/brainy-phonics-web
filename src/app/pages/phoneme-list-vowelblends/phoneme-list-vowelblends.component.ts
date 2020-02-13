@@ -1,5 +1,8 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
+import {RouterModule, Routes} from '@angular/router';
+import {Router} from '@angular/router';
 import {CardComponent} from '../../components/card/card.component';
+import { TransferLetterService } from '../../services/transfer-letter-service.service';
 
 @Component({
     templateUrl: 'phoneme-list-vowelblends.component.html',
@@ -10,8 +13,8 @@ import {CardComponent} from '../../components/card/card.component';
 export class PhonemeListVowelBlendsComponent implements OnInit, OnDestroy {
     instruction: HTMLAudioElement;
 
-    constructor() {
-
+    constructor(private transferService:TransferLetterService, private router: Router) {
+		
     }
 
     ngOnInit() {
@@ -53,5 +56,10 @@ export class PhonemeListVowelBlendsComponent implements OnInit, OnDestroy {
 
     sortNull() {
 
+    }
+
+    showPhonemeLearn(phoneme) {
+        this.transferService.setData(phoneme);
+        this.router.navigateByUrl('/phoneme-learn');
     }
 }
