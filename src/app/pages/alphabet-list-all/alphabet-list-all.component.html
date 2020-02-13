@@ -6,7 +6,7 @@
                         <app-card class="cardListItem">
                           {{letter}} -->
                     <ng-container *ngFor="let letter of letters | keyvalue: sortNull">
-                        <app-card class="cardListItem">
+                        <app-card class="cardListItem" (click)='showAlphabetLearn(letter)'>
                             <p>{{letter.value}}</p>
                         </app-card>
                   </ng-container>
