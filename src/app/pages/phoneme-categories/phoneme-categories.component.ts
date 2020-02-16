@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 
-@Component({ 
+@Component({
     templateUrl: 'phoneme-categories.component.html',
     styleUrls: [ 'phoneme-categories.component.css',
                  '../../main.css' ]
@@ -8,10 +8,6 @@ import {Component} from '@angular/core';
 
 export class PhonemeCategoriesComponent {
     vowels: HTMLAudioElement;
-
-    constructor() {
-
-    }
 
     playAudio() {
     //     this.vowels = new Audio();

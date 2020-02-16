@@ -3,6 +3,7 @@ import {ElementRef} from '@angular/core';
 import {delay} from 'q';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import * as data from '../../../assets/json/phoneme-examples.json';
+import { Location } from '@angular/common';
 
 @Component({
     templateUrl: 'phoneme-learn.component.html',
@@ -32,7 +33,7 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
 
 
     phoneme = this.transferService.getData();
-    
+
     // img1: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[0];
     img1: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == "a").eximg[0];
     // img2: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[1];
@@ -47,7 +48,7 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
     // word3: string = data.default.find(o => o.phoneme == this.phoneme.value).exword[2];
     word3: string = data.default.find(o => o.phoneme == "a").exword[2];
 
-	constructor(private transferService:TransferLetterService, private elem:ElementRef) {
+	constructor(private transferService:TransferLetterService, private elem:ElementRef, private location: Location) {
         this.phonemePlayAudio = true;
         this.oneAnimate = false;
         this.twoAnimate = false;
@@ -58,9 +59,9 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
     }
 
     goBack(){
-        history.back();
+        this.location.back();
     }
-    
+
     ngOnInit() {
         let phonemeList = this.elem.nativeElement.querySelector('.letter').classList;
         if (this.phoneme.value.length == 1) {
@@ -74,7 +75,7 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
         this.phonemeAudio = new Audio();
         // this.phonemeAudio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).nameaudio[0];
         this.phonemeAudio.src = '/assets/audio/' + data.default.find(o => o.phoneme == "a").nameaudio[0];
-        this.phonemeAudio.load(); 
+        this.phonemeAudio.load();
 
         this.ex1Audio = new Audio();
         // this.ex1Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).exaudio[0];
@@ -137,7 +138,7 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
     playAudio() {
         this.phonemeAudio.pause();
         this.phonemeAudio.currentTime = 0;
-        
+
         if (this.phoneme.value.length == 1) {
             this.oneAnimate = false;
         } else if (this.phoneme.value.length == 2) {
