@@ -32,18 +32,18 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
 
     phoneme = this.transferService.getData();
 
-    // img1: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[0];
+    // img1: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == this.phoneme.display).eximg[0];
     img1: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == 'a').eximg[0];
-    // img2: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[1];
+    // img2: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == this.phoneme.display).eximg[1];
     img2: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == 'a').eximg[1];
-    // img3: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[2];
+    // img3: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == this.phoneme.display).eximg[2];
     img3: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == 'a').eximg[2];
 
-    // word1: string = data.default.find(o => o.phoneme == this.phoneme.value).exword[0];
+    // word1: string = data.default.find(o => o.phoneme == this.phoneme.display).exword[0];
     word1: string = data.default.find(o => o.phoneme == 'a').exword[0];
-    // word2: string = data.default.find(o => o.phoneme == this.phoneme.value).exword[1];
+    // word2: string = data.default.find(o => o.phoneme == this.phoneme.display).exword[1];
     word2: string = data.default.find(o => o.phoneme == 'a').exword[1];
-    // word3: string = data.default.find(o => o.phoneme == this.phoneme.value).exword[2];
+    // word3: string = data.default.find(o => o.phoneme == this.phoneme.display).exword[2];
     word3: string = data.default.find(o => o.phoneme == 'a').exword[2];
 
     constructor(private transferService: TransferLetterService, private elem: ElementRef) {
@@ -55,6 +55,7 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
         this.ex2Animate = false;
         this.ex3Animate = false;
         this.phoneme = this.transferService.getData();
+        console.log(this.phoneme);
     }
 
     goBack() {
@@ -63,42 +64,43 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
 
     ngOnInit() {
         let phonemeList = this.elem.nativeElement.querySelector('.letter').classList;
-        if (this.phoneme.value.length == 1) {
+        console.log(this.phoneme);
+        if (this.phoneme.display.length == 1) {
             phonemeList.add('one');
-        } else if (this.phoneme.value.length == 2) {
+        } else if (this.phoneme.display.length == 2) {
             phonemeList.add('two');
-        } else if (this.phoneme.value.length == 3) {
+        } else if (this.phoneme.display.length == 3) {
             phonemeList.add('three');
         }
 
         this.phonemeAudio = new Audio();
-        // this.phonemeAudio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).nameaudio[0];
+        // this.phonemeAudio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.display).nameaudio[0];
         this.phonemeAudio.src = '/assets/audio/' + data.default.find(o => o.phoneme == 'a').nameaudio[0];
         this.phonemeAudio.load();
 
         this.ex1Audio = new Audio();
-        // this.ex1Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).exaudio[0];
+        // this.ex1Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.display).exaudio[0];
         this.ex1Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == 'a').exaudio[0];
         this.ex1Audio.load();
 
         this.ex2Audio = new Audio();
-        // this.ex2Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).exaudio[1];
+        // this.ex2Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.display).exaudio[1];
         this.ex2Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == 'a').exaudio[1];
 
         this.ex2Audio.load();
 
         this.ex3Audio = new Audio();
-        // this.ex3Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).exaudio[2];
+        // this.ex3Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.display).exaudio[2];
         this.ex3Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == 'a').exaudio[2];
 
         this.ex3Audio.load();
 
         this.phonemeAudio.onended = () => {
-            if (this.phoneme.value.length == 1) {
+            if (this.phoneme.display.length == 1) {
                 this.oneAnimate = false;
-            } else if (this.phoneme.value.length == 2) {
+            } else if (this.phoneme.display.length == 2) {
                 this.twoAnimate = false;
-            } else if (this.phoneme.value.length == 3) {
+            } else if (this.phoneme.display.length == 3) {
                 this.threeAnimate = false;
             }
             this.ex1Animate = true;
@@ -138,11 +140,11 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
         this.phonemeAudio.pause();
         this.phonemeAudio.currentTime = 0;
 
-        if (this.phoneme.value.length == 1) {
+        if (this.phoneme.display.length == 1) {
             this.oneAnimate = false;
-        } else if (this.phoneme.value.length == 2) {
+        } else if (this.phoneme.display.length == 2) {
             this.twoAnimate = false;
-        } else if (this.phoneme.value.length == 3) {
+        } else if (this.phoneme.display.length == 3) {
             this.threeAnimate = false;
         }
 
@@ -158,38 +160,38 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
         this.ex3Audio.currentTime = 0;
         this.ex3Animate = false;
 
-        if (this.phoneme.value.length == 1) {
+        if (this.phoneme.display.length == 1) {
             this.oneAnimate = true;
-        } else if (this.phoneme.value.length == 2) {
+        } else if (this.phoneme.display.length == 2) {
             this.twoAnimate = true;
-        } else if (this.phoneme.value.length == 3) {
+        } else if (this.phoneme.display.length == 3) {
             this.threeAnimate = true;
         }
         this.phonemeAudio.play();
     }
 
     playAudioA() {
-        if (this.phoneme.value.length == 1) {
+        if (this.phoneme.display.length == 1) {
             this.oneAnimate = true;
-        } else if (this.phoneme.value.length == 2) {
+        } else if (this.phoneme.display.length == 2) {
             this.twoAnimate = true;
-        } else if (this.phoneme.value.length == 3) {
+        } else if (this.phoneme.display.length == 3) {
             this.threeAnimate = true;
         }
         this.phonemeAudio.onended = () => {
-            if (this.phoneme.value.length == 1) {
+            if (this.phoneme.display.length == 1) {
                 this.oneAnimate = false;
-            } else if (this.phoneme.value.length == 2) {
+            } else if (this.phoneme.display.length == 2) {
                 this.twoAnimate = false;
-            } else if (this.phoneme.value.length == 3) {
+            } else if (this.phoneme.display.length == 3) {
                 this.threeAnimate = false;
             }
             this.phonemeAudio.onended = () => {
-                if (this.phoneme.value.length == 1) {
+                if (this.phoneme.display.length == 1) {
                     this.oneAnimate = false;
-                } else if (this.phoneme.value.length == 2) {
+                } else if (this.phoneme.display.length == 2) {
                     this.twoAnimate = false;
-                } else if (this.phoneme.value.length == 3) {
+                } else if (this.phoneme.display.length == 3) {
                     this.threeAnimate = false;
                 }
                 this.ex1Animate = true;
