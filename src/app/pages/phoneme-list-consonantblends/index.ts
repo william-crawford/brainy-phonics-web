@@ -1,1 +1,0 @@
-export * from './phoneme-list-consonantblends.component';
