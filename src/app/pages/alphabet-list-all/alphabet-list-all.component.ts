@@ -3,6 +3,7 @@ import {CardComponent} from '../../components/card/card.component';
 import {RouterModule, Routes} from '@angular/router';
 import {Router} from '@angular/router';
 import { TransferLetterService } from '../../services/transfer-letter-service.service';
+import { Location } from '@angular/common';
 
 @Component({
     templateUrl: 'alphabet-list-all.component.html',
@@ -14,8 +15,13 @@ export class AlphabetListAllComponent {
 
 	constructor(
         private transferService:TransferLetterService,
-        private router: Router) {
+        private router: Router,
+        private location: Location) {
 	}
+
+    goBack() {
+        this.location.back();
+    }
 
 	//FIX THIS
     letters: { [key: number]: string } =
@@ -47,7 +53,7 @@ export class AlphabetListAllComponent {
             25: 'y',
             26: 'z'
         };
-        
+
     sortNull() {
 
     }

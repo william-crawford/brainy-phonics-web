@@ -3,6 +3,7 @@ import {RouterModule, Routes} from '@angular/router';
 import {Router} from '@angular/router';
 import {CardComponent} from '../../components/card/card.component';
 import { TransferLetterService } from '../../services/transfer-letter-service.service';
+import { Location } from '@angular/common';
 
 @Component({
     templateUrl: 'phoneme-list-consonants.component.html',
@@ -13,8 +14,12 @@ import { TransferLetterService } from '../../services/transfer-letter-service.se
 export class PhonemeListConsonantsComponent implements OnInit, OnDestroy {
     instruction: HTMLAudioElement;
 
-    constructor(private transferService:TransferLetterService, private router: Router) {
-		
+    constructor(private transferService:TransferLetterService, private router: Router, private location: Location) {
+
+    }
+
+    goBack() {
+        this.location.back();
     }
 
     ngOnInit() {

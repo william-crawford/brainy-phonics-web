@@ -3,6 +3,7 @@ import {RouterModule, Routes} from '@angular/router';
 import {Router} from '@angular/router';
 import {CardComponent} from '../../components/card/card.component';
 import { TransferLetterService } from '../../services/transfer-letter-service.service';
+import { Location } from '@angular/common';
 
 @Component({
     templateUrl: 'phoneme-list-consonantblends.component.html',
@@ -13,10 +14,14 @@ import { TransferLetterService } from '../../services/transfer-letter-service.se
 export class PhonemeListConsonantBlendsComponent implements OnInit, OnDestroy {
     instruction: HTMLAudioElement;
 
-    constructor(private transferService:TransferLetterService, private router: Router) {
-    
-    }		
+    constructor(private transferService:TransferLetterService, private router: Router, private location: Location) {
 
+    }
+
+    goBack() {
+        this.location.back();
+    }
+    
     ngOnInit() {
         this.instruction = new Audio();
         this.instruction.src = '/assets/audio/00_Button_Audio_Complete_a_whole_puzzle_(Phonics_only).mp3';
