@@ -4,6 +4,7 @@ import {Phoneme} from '../../types/phoneme';
 import {SightWord} from '../../types/sight-word';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import {ActivatedRoute, Router} from '@angular/router';
+import {Location} from '@angular/common';
 
 @Component({
     selector: 'app-list-select',
@@ -20,7 +21,8 @@ export class ListSelectComponent implements OnInit, OnDestroy {
     constructor(
         private transferLetterService: TransferLetterService,
         private router: Router,
-        private activatedRoute: ActivatedRoute
+        private activatedRoute: ActivatedRoute,
+        private location: Location
     ) {
         let list = this.activatedRoute.snapshot.queryParamMap.get('list');
         if (!list || list === '') {
@@ -78,5 +80,9 @@ export class ListSelectComponent implements OnInit, OnDestroy {
         this.instruction.pause();
         this.instruction.currentTime = 0;
         this.instruction.play();
+    }
+
+    goBack() {
+        this.location.back();
     }
 }
