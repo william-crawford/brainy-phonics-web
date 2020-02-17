@@ -8,16 +8,14 @@ import * as data from '../../../assets/json/phoneme-examples.json';
 import { Location } from '@angular/common';
 
 @Component({
-    templateUrl: 'phoneme-learn.component.html',
-    styleUrls: ['phoneme-learn.component.css',
+    templateUrl: 'phoneme-quiz.component.html',
+    styleUrls: ['phoneme-quiz.component.css',
                 '../../main.css']
 })
 
-export class PhonemeLearnComponent implements OnInit, OnDestroy {
+export class PhonemeQuizComponent implements OnInit, OnDestroy {
 
-    oneAnimate: boolean;
-    twoAnimate: boolean;
-    threeAnimate: boolean;
+    phonemeAnimate: boolean;
     phonemePlayAudio: boolean;
     phonemeAudio: HTMLAudioElement;
 
@@ -52,32 +50,18 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
 
 	constructor(private transferService:TransferLetterService, private elem:ElementRef, private router: Router, private location: Location) {
         this.phonemePlayAudio = true;
-        this.oneAnimate = false;
-        this.twoAnimate = false;
-        this.threeAnimate = false;
+        this.phonemeAnimate = false;
         this.ex1Animate = false;
         this.ex2Animate = false;
         this.ex3Animate = false;
     }
 
     goBack(){
+        this.transferService.setData(this.phoneme);
         this.location.back();
     }
 
-    showQuiz(){
-        this.router.navigateByUrl('/phoneme-quiz')
-    }
-
     ngOnInit() {
-        let phonemeList = this.elem.nativeElement.querySelector('.letter').classList;
-        if (this.phoneme.value.length == 1) {
-            phonemeList.add('one');
-        } else if (this.phoneme.value.length == 2) {
-            phonemeList.add('two');
-        } else if (this.phoneme.value.length == 3) {
-            phonemeList.add('three');
-        }
-
         this.phonemeAudio = new Audio();
         // this.phonemeAudio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).nameaudio[0];
         this.phonemeAudio.src = '/assets/audio/' + data.default.find(o => o.phoneme == "a").nameaudio[0];
@@ -101,13 +85,7 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
         this.ex3Audio.load();
 
         this.phonemeAudio.onended = () => {
-            if (this.phoneme.value.length == 1) {
-                this.oneAnimate = false;
-            } else if (this.phoneme.value.length == 2) {
-                this.twoAnimate = false;
-            } else if (this.phoneme.value.length == 3) {
-                this.threeAnimate = false;
-            }
+            this.phonemeAnimate = false;
             this.ex1Animate = true;
             delay(250).then(() => {
                 this.ex1Audio.play();
@@ -135,23 +113,13 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
     }
 
     ngOnDestroy() {
-        this.phonemeAudio.pause();
-        this.ex1Audio.pause();
-        this.ex2Audio.pause();
-        this.ex3Audio.pause();
+        this.stopAudioAndAnimation()
     }
 
-    playAudio() {
+    stopAudioAndAnimation() {
         this.phonemeAudio.pause();
         this.phonemeAudio.currentTime = 0;
-
-        if (this.phoneme.value.length == 1) {
-            this.oneAnimate = false;
-        } else if (this.phoneme.value.length == 2) {
-            this.twoAnimate = false;
-        } else if (this.phoneme.value.length == 3) {
-            this.threeAnimate = false;
-        }
+        this.phonemeAnimate = false;
 
         this.ex1Audio.pause();
         this.ex1Audio.currentTime = 0;
@@ -164,41 +132,21 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
         this.ex3Audio.pause();
         this.ex3Audio.currentTime = 0;
         this.ex3Animate = false;
+    }
 
-        if (this.phoneme.value.length == 1) {
-            this.oneAnimate = true;
-        } else if (this.phoneme.value.length == 2) {
-            this.twoAnimate = true;
-        } else if (this.phoneme.value.length == 3) {
-            this.threeAnimate = true;
-        }
+    playAudio() {
+        this.stopAudioAndAnimation()
+
+        this.phonemeAnimate = true;
         this.phonemeAudio.play();
     }
 
-    playAudioA() {
-        if (this.phoneme.value.length == 1) {
-            this.oneAnimate = true;
-        } else if (this.phoneme.value.length == 2) {
-            this.twoAnimate = true;
-        } else if (this.phoneme.value.length == 3) {
-            this.threeAnimate = true;
-        }
+    playPhonemeAudio() {
+        this.phonemeAnimate = true;
         this.phonemeAudio.onended = () => {
-            if (this.phoneme.value.length == 1) {
-                this.oneAnimate = false;
-            } else if (this.phoneme.value.length == 2) {
-                this.twoAnimate = false;
-            } else if (this.phoneme.value.length == 3) {
-                this.threeAnimate = false;
-            }
+            this.phonemeAnimate = false;
             this.phonemeAudio.onended = () => {
-                if (this.phoneme.value.length == 1) {
-                    this.oneAnimate = false;
-                } else if (this.phoneme.value.length == 2) {
-                    this.twoAnimate = false;
-                } else if (this.phoneme.value.length == 3) {
-                    this.threeAnimate = false;
-                }
+                this.phonemeAnimate = false;
                 this.ex1Animate = true;
                 delay(250).then(() => {
                     this.ex1Audio.play();

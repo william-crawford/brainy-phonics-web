@@ -11,6 +11,7 @@ import {PhonemeListVowelsConsonantsComponent} from './pages/phoneme-list-vowelsc
 import { AlphabetListAllComponent } from './pages/alphabet-list-all/alphabet-list-all.component';
 import { AlphabetLearnComponent } from './pages/alphabet-learn/alphabet-learn.component';
 import { PhonemeLearnComponent } from './pages/phoneme-learn';
+import { PhonemeQuizComponent } from './pages/phoneme-quiz';
 
 const routes: Routes = [
     { path: '', component: HomeComponent },
@@ -24,6 +25,7 @@ const routes: Routes = [
     { path: 'phoneme-list-vowelblends', component: PhonemeListVowelBlendsComponent},
     { path: 'phoneme-list-vowelsconsonants', component: PhonemeListVowelsConsonantsComponent},
     { path: 'phoneme-learn', component: PhonemeLearnComponent },
+    { path: 'phoneme-quiz', component: PhonemeQuizComponent },
 
     // otherwise redirect to home
     { path: '**', redirectTo: '' }

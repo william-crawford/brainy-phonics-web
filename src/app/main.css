@@ -38,8 +38,6 @@
     background: url('../assets/img/icons/quiz.png') no-repeat scroll 0 0 transparent;
     background-size: 9.5vh 9.5vh;
     bottom: 39.5vh;
-    cursor: auto;
-    opacity: 0.6;
 }
 #repeat {
     background: url('../assets/img/icons/repeat.png') no-repeat scroll 0 0 transparent;

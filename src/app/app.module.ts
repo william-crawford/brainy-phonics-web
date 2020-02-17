@@ -14,6 +14,7 @@ import { PhonemeListVowelBlendsComponent } from './pages/phoneme-list-vowelblend
 import { PhonemeListVowelsConsonantsComponent } from './pages/phoneme-list-vowelsconsonants';
 import { AlphabetListAllComponent } from './pages/alphabet-list-all/alphabet-list-all.component';
 import { PhonemeLearnComponent } from './pages/phoneme-learn';
+import { PhonemeQuizComponent } from './pages/phoneme-quiz';
 import { AlphabetLearnComponent } from './pages/alphabet-learn/alphabet-learn.component';
 
 @NgModule({
@@ -30,6 +31,7 @@ import { AlphabetLearnComponent } from './pages/alphabet-learn/alphabet-learn.co
     PhonemeListVowelBlendsComponent,
     PhonemeListVowelsConsonantsComponent,
     PhonemeLearnComponent,
+    PhonemeQuizComponent,
     AlphabetLearnComponent
   ],
   imports: [
