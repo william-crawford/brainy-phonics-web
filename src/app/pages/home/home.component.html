@@ -1,7 +1,7 @@
 <div id='background'>
     <div id='main-body'>
         <div class='column'>
-            <button mat-icon-button class='alphabet_logo' id='alphabet' (mouseenter)='playAudio($event)' routerLink='/alphabet-list-all'></button>
+            <button mat-icon-button class='alphabet_logo' id='alphabet' (mouseenter)='playAudio($event)' [routerLink]="['list-select']" [queryParams]="{'list' : 'alphabet'}"></button>
         </div>
         <div class='row'>
             <div class='column'>
