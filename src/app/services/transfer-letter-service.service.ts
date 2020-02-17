@@ -1,5 +1,7 @@
 import {Injectable} from '@angular/core';
 import {Router} from '@angular/router';
+import {AlphabetLetter} from '../types/alphabet-letter';
+import {Phoneme} from '../types/phoneme';
 
 @Injectable({
     providedIn: 'root'
@@ -10,15 +12,17 @@ export class TransferLetterService {
     constructor(private router: Router) {
     }
 
-    private data;
+    private data: Phoneme | AlphabetLetter;
 
     setData(data) {
         this.data = data;
     }
 
     getData() {
-        let temp = this.data;
-        return temp;
+        if (!this.data) {
+            this.router.navigate(['']);
+        }
+        return this.data;
     }
 
     clearData() {

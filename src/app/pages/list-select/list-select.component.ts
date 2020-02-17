@@ -40,7 +40,7 @@ export class ListSelectComponent implements OnInit, OnDestroy {
         }
         if (list === 'alphabet') {
             this.data = [
-                new AlphabetLetter('a', '/assets/audio/sound-A.mp3', 0)
+                new AlphabetLetter('Aa', '/assets/audio/sound-A.mp3', 0)
             ];
         }
         this.instruction = new Audio();

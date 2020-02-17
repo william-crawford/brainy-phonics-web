@@ -1,51 +1,51 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
-import { AlphabetLetter } from '../../types/alphabet-letter';
-import { delay } from 'q';
-import { Router } from '@angular/router';
-import { TransferLetterService } from '../../services/transfer-letter-service.service';
-import { Location } from '@angular/common';
+import {Component, OnDestroy, OnInit} from '@angular/core';
+import {AlphabetLetter} from '../../types/alphabet-letter';
+import {Router} from '@angular/router';
+import {TransferLetterService} from '../../services/transfer-letter-service.service';
 
 @Component({
-  selector: 'app-alphabet-learn',
-  templateUrl: './alphabet-learn.component.html',
-  styleUrls: ['./alphabet-learn.component.css', '../../main.css']
+    selector: 'app-alphabet-learn',
+    templateUrl: './alphabet-learn.component.html',
+    styleUrls: ['./alphabet-learn.component.css', '../../main.css']
 })
 
 export class AlphabetLearnComponent implements OnInit, OnDestroy {
-	letterAnimate: boolean;
-	letterPlayAudio: boolean;
-	letterAudio: HTMLAudioElement;
+    letterAnimate: boolean;
+    letterPlayAudio: boolean;
+    letterAudio: HTMLAudioElement;
 
-	letter = this.transferService.getData();      
-	
-	constructor(private transferService:TransferLetterService, private router: Router) {
-		if(!this.letter) {
-			this.router.navigateByUrl('/alphabet-list-all');
-		}
+    letter: AlphabetLetter;
+    location: any;
 
-		//audio
-		this.letterAnimate = false;
-		this.letterPlayAudio = true;
-	}
+    constructor(private transferService: TransferLetterService, private router: Router) {
+        this.letter = this.transferService.getData() as AlphabetLetter;
+        if (!this.letter) {
+            this.router.navigateByUrl('/alphabet-list-all');
+        }
 
-	ngOnInit() {
-		this.letterAudio = new Audio();
-		this.letterAudio.src = '/assets/audio/sound-A.mp3';
-		this.letterAudio.load();
-		
-		this.letterAudio.onended = () => {
-			this.letterAnimate = false;
-		}
+        //audio
+        this.letterAnimate = false;
+        this.letterPlayAudio = true;
+    }
 
-		this.playAudio();
-	}
+    ngOnInit() {
+        this.letterAudio = new Audio();
+        this.letterAudio.src = '/assets/audio/sound-A.mp3';
+        this.letterAudio.load();
 
-	ngOnDestroy() {
+        this.letterAudio.onended = () => {
+            this.letterAnimate = false;
+        };
+
+        this.playAudio();
+    }
+
+    ngOnDestroy() {
         this.letterAudio.pause();
-	}
-	
-	playAudio() {
-		this.letterAnimate = true;
+    }
+
+    playAudio() {
+        this.letterAnimate = true;
         this.letterAudio.onended = () => {
             this.letterAnimate = false;
             this.letterAudio.onended = () => {
@@ -53,7 +53,7 @@ export class AlphabetLearnComponent implements OnInit, OnDestroy {
             };
         };
         this.letterAudio.play();
-	}
+    }
 
     goBack() {
         this.location.back();
