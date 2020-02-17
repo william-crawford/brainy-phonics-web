@@ -18,7 +18,6 @@ export class TransferLetterService {
 
     getData() {
         let temp = this.data;
-        // this.clearData();
         return temp;
     }
 
