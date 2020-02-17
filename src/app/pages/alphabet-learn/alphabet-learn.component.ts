@@ -2,6 +2,7 @@ import {Component, OnDestroy, OnInit} from '@angular/core';
 import {AlphabetLetter} from '../../types/alphabet-letter';
 import {Router} from '@angular/router';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
+import {Location} from '@angular/common';
 
 @Component({
     selector: 'app-alphabet-learn',
@@ -15,9 +16,8 @@ export class AlphabetLearnComponent implements OnInit, OnDestroy {
     letterAudio: HTMLAudioElement;
 
     letter: AlphabetLetter;
-    location: any;
 
-    constructor(private transferService: TransferLetterService, private router: Router) {
+    constructor(private transferService: TransferLetterService, private router: Router, private location: Location) {
         this.letter = this.transferService.getData() as AlphabetLetter;
         if (!this.letter) {
             this.router.navigateByUrl('/alphabet-list-all');
