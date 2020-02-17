@@ -3,12 +3,14 @@ import { AlphabetLetter } from '../../types/alphabet-letter';
 import { delay } from 'q';
 import { Router } from '@angular/router';
 import { TransferLetterService } from '../../services/transfer-letter-service.service';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-alphabet-learn',
   templateUrl: './alphabet-learn.component.html',
   styleUrls: ['./alphabet-learn.component.css', '../../main.css']
 })
+
 export class AlphabetLearnComponent implements OnInit, OnDestroy {
 	letterAnimate: boolean;
 	letterPlayAudio: boolean;
@@ -53,4 +55,7 @@ export class AlphabetLearnComponent implements OnInit, OnDestroy {
         this.letterAudio.play();
 	}
 
+    goBack() {
+        this.location.back();
+    }
 }
