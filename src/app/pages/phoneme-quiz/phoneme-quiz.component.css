@@ -1,0 +1,110 @@
+#background {
+	background-color: #FFFFFF !important;
+}
+
+#side-menu {
+	background-color: #6EC7D4 !important;
+}
+
+#main-body {
+  width: 169.7vh;
+  height: 0vh;
+  padding-left: 20vh;
+  position: relative;
+}
+
+.column {
+  float: left;
+}
+
+.puzzle-pane {
+    text-align: center;
+    width: 48vh;
+    background-color: lightblue;
+}
+
+.puzzle {
+    margin: 5vh;
+    height: 40vh;
+    background-color: grey;
+}
+
+.answer-pane {
+
+}
+
+.letter {
+  font-size: 19.4vh;
+  font-family: 'ComicSans';
+  padding-top: -10vh;
+  cursor: pointer;
+  transition: all .5s;
+  transform: scale(1);
+}
+
+::ng-deep span {
+  color: red;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.word-image {
+  cursor: pointer;
+  margin-top: 6vh;
+  width: 30vh;
+  height: 30vh;
+  transition: all .5s;
+  transform: scale(1) !important;
+}
+
+.word-image-top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.word-image-bottom {
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.animate {
+  transition: all .5s;
+  transform: scale(1.12) !important;
+}
+.animate-one {
+  transition: all .5s;
+  transform: scale(1.12) !important;
+}
+.animate-two {
+  transition: all .5s;
+  transform: scale(1.12) !important;
+}
+.animate-three {
+  transition: all .5s;
+  transform: scale(1.12) !important;
+}
+
+/* Text */
+h2 {
+  font-size: 20px;
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+p {
+  font-size: 14px;
+}
+
+/* Buttons */
+#forward {
+    background: url('../../../assets/img/icons/forward.png') no-repeat scroll 0 0 transparent;
+    background-size: 9.5vh 9.5vh;
+}

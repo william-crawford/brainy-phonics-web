@@ -1,0 +1,37 @@
+<div id='background'>
+    <div id='main-body'>
+        <div class='row'>
+            <div class='column puzzle-pane'>
+                <div class='letter' [ngClass]="{'animate': phonemeAnimate}" (click)='playPhonemeAudio()'>{{phoneme.display}}</div>
+                <div class='puzzle'></div>
+            </div>
+            <div class='column answer-pane'>
+                <div class='row'>
+                    <div [ngClass]="{'animate': ex1Animate}">
+        				<img src={{img1}} class='word-image word-image-top' (click)='playEx1AudioCorrect()'>
+        				<br>
+        			</div>
+                </div>
+
+    			<div class='column' [ngClass]="{'animate': ex2Animate}">
+    				<img src={{img2}} class='word-image word-image-bottom' (click)='playEx2Audio()'>
+    				<br>
+                </div>
+
+    			<div class='column' [ngClass]="{'animate': ex3Animate}">
+    				<img src={{img3}} class='word-image word-image-bottom' (click)='playEx3Audio()'>
+    				<br>
+    			</div>
+    		</div>
+        </div>
+	</div>
+
+    <div id='side-menu'>
+        <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>
+        <button mat-icon-button class='icon' id='home' routerLink='/'></button>
+        <button mat-icon-button class='icon bottom' id='repeat' (click)="playAudio()"></button>
+        <button mat-icon-button class='icon bottom' id='quiz' (click)="showQuiz()"></button>
+        <button mat-icon-button class='icon bottom' id='bank'></button>
+        <button mat-icon-button class='icon bottom' id='puzzle'></button>
+    </div>
+</div>
