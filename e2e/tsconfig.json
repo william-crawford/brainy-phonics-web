@@ -8,6 +8,8 @@
       "jasmine",
       "jasminewd2",
       "node"
-    ]
+    ],
+    "resolveJsonModule": true,
+    "esModuleInterop": true  
   }
 }
