@@ -14,38 +14,62 @@
   position: relative;
 }
 
-/* Phonics Logo */
 #phonics {
     background: url('../../../assets/img/buttons/Phonics_logo.png') no-repeat scroll 0 0 transparent;
-    background-size: 60vh 60vh;
+    margin-left: 4vh;
+    background-size: 45vh 45vh;
 }
-
 #alphabet {
     background: url('../../../assets/img/buttons/alphabet_letters.png') no-repeat scroll 0 0 transparent;
-    background-size: 68vh 50vh;
+    background-size: 54vh 39vh;
+}
+#grade {
+  background: url('../../../assets/img/buttons/grade_level.png') no-repeat scroll 0 0 transparent;
+  margin-left: 2.5vh;
+  background-size: 39vh 40vh;
+}
+#secret {
+  background: url('../../../assets/img/buttons/secret_stuff.png') no-repeat scroll 0 0 transparent;
+  background-size: 45vh 35vh;
 }
 
 .phonics_logo {
-    width: 60vh;
-    height: 60vh;
+    width: 45vh;
+    height: 45vh;
     display: block;
     cursor: pointer;
     border: none;
 }
-
 .alphabet_logo {
-    width: 68vh;
-    height: 50vh;
+    width: 54vh;
+    height: 39vh;
     display: block;
     cursor: pointer; 
     border: none;
     margin-top: 9vh;
 }
+.grade_level {
+  width: 39vh;
+  height: 41vh;
+  display: block;
+  cursor: pointer;
+  border: none;
+}
+.secret_stuff {
+  width: 45vh;
+  height: 35vh;
+  display: block;
+  cursor: pointer; 
+  border: none;
+  margin-top: 10vh;
+}
 
 .column {
   float: left;
   width: 50%;
-  margin-top: 15vh;
+}
+.second {
+  margin-top: 5vh;
 }
 
 /* Clear floats after the columns */
