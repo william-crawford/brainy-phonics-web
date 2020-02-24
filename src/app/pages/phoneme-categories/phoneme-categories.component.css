@@ -5,59 +5,54 @@
   position: relative;
 }
 
+#background {
+    background-color: #FFFFFF !important;
+    background: url('../../../assets/img/backgrounds/phoneme-categories.png') no-repeat scroll transparent;
+    background-position: right;
+}
 /* Phonics Categories */
 #consonants {
-    background: url('../../../assets/img/categories/consonants.png') no-repeat scroll 0 0 transparent;
-    background-size: 44vh 20vh;
-    cursor: pointer;
+    background: url('../../../assets/img/buttons/consonants.png') no-repeat scroll 0 0 transparent;
 }
 
 #consonant_blends {
-    background: url('../../../assets/img/categories/consonant_blends.png') no-repeat scroll 0 0 transparent;
-    background-size: 44vh 20vh;
-    cursor: pointer;
+    background: url('../../../assets/img/buttons/consonant_blends.png') no-repeat scroll 0 0 transparent;
 }
 
 #vowel_and_consonants {
-    background: url('../../../assets/img/categories/vowels_and_consonants.png') no-repeat scroll 0 0 transparent;
-    background-size: 44vh 20vh;
-    cursor: pointer;
+    background: url('../../../assets/img/buttons/vowels_and_consonants.png') no-repeat scroll 0 0 transparent;
 }
 
 #vowels {
-    background: url('../../../assets/img/categories/vowels.png') no-repeat scroll 0 0 transparent;
-    background-size: 44vh 20vh;
-    cursor: pointer;
+    background: url('../../../assets/img/buttons/vowels.png') no-repeat scroll 0 0 transparent;
 }
 
-#vowel_blends {
-    background: url('../../../assets/img/categories/vowel_blends.png') no-repeat scroll 0 0 transparent;
-    background-size: 44vh 20vh;
-    cursor: pointer;
+#vowel_pairs {
+    background: url('../../../assets/img/buttons/vowel_pairs.png') no-repeat scroll 0 0 transparent;
 }
 
 #all {
-    background: url('../../../assets/img/categories/all.png') no-repeat scroll 0 0 transparent;
-    background-size: 44vh 20vh;
-    cursor: pointer;
+    background: url('../../../assets/img/buttons/all.png') no-repeat scroll 0 0 transparent;
 }
 
 .category_button {
-    width: 54vh;
-    height: 23vh;
+    width: 39vh;
+    height: 29vh;
     margin-top: 5vh;
-    /* cursor: pointer; */
+    cursor: pointer;
     border: none;
 }
 
-.column {
+.row {
   float: left;
-  width: 50%;
-  margin-top: 5vh;
+  margin-left: 4vh;
 }
 
+.column {
+    padding-top: 2.5vh;
+}
 /* Clear floats after the columns */
-.row:after {
+.column:after {
   content: "";
   display: table;
   clear: both;
