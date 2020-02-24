@@ -1,0 +1,72 @@
+#main-body {
+    width: 169.7vh;
+    height: 0vh;
+    padding-left: 40vh;
+    position: relative;
+  }
+  
+  #background {
+      background-color: #FFFFFF !important;
+      background: url('../../../assets/img/backgrounds/grade_levels.png') no-repeat scroll transparent;
+      background-position: right;
+  }
+
+  /* Phonics Categories */
+  #pre_k {
+      background: url('../../../assets/img/buttons/pre_k.png') no-repeat scroll transparent;
+      background-position: center;
+      width: 40vh;
+      height: 23vh;
+      cursor: pointer;
+  }
+  #kindergarten {
+      background: url('../../../assets/img/buttons/kindergarten.png') no-repeat scroll transparent;
+      background-position: center;
+      width: 64vh;
+      height: 24vh;
+      cursor: pointer;
+  }
+  #first {
+    background: url('../../../assets/img/buttons/1st.png') no-repeat scroll transparent;
+    background-position: center;
+    margin-left: -8vh;
+    height: 23vh;
+    width: 31vh;
+    cursor: pointer;
+  }
+  #second {
+      background: url('../../../assets/img/buttons/2nd.png') no-repeat scroll transparent;
+      background-position: center;
+      transform: translate(7vh, 18vh);
+      height: 23vh;
+      width: 29vh;
+      cursor: pointer;
+  }
+  #third {
+      background: url('../../../assets/img/buttons/3rd.png') no-repeat scroll transparent;
+      background-position: center;
+      margin-left: 14vh;
+      height: 23vh;
+      width: 31vh;
+      cursor: pointer;
+  }
+  
+  .grade_level {
+      width: 40vh;
+      height: 20vh;
+      margin: 5vh 10vh 0vh 0vh;
+      border: none;
+      margin-left: auto;
+  }
+  
+  .row {
+    float: left;
+    margin-left: 4vh;
+  }
+  
+  /* Clear floats after the columns */
+  .column:after {
+    content: "";
+    display: table;
+    clear: both;
+  }  
