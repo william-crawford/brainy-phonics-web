@@ -5,6 +5,7 @@ import {SightWord} from '../../types/sight-word';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import {ActivatedRoute, Router} from '@angular/router';
 import {Location} from '@angular/common';
+import {delay} from 'q';
 
 @Component({
     selector: 'app-list-select',
