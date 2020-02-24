@@ -26,33 +26,33 @@
 
 /* Side Menu Icons */
 #home {
-    background: url('../assets/img/icons/home.png') no-repeat scroll 0 0 transparent;
+    background: url('../assets/img/buttons/home.png') no-repeat scroll 0 0 transparent;
     background-size: 9.5vh 9.5vh;
     top: 16.5vh;
 }
 #back {
-    background: url('../assets/img/icons/back.png') no-repeat scroll 0 0 transparent;
+    background: url('../assets/img/buttons/back.png') no-repeat scroll 0 0 transparent;
     background-size: 9.5vh 9.5vh;
 }
 #quiz {
-    background: url('../assets/img/icons/quiz.png') no-repeat scroll 0 0 transparent;
+    background: url('../assets/img/buttons/quiz.png') no-repeat scroll 0 0 transparent;
     background-size: 9.5vh 9.5vh;
     bottom: 39.5vh;
 }
 #repeat {
-    background: url('../assets/img/icons/repeat.png') no-repeat scroll 0 0 transparent;
+    background: url('../assets/img/buttons/repeat.png') no-repeat scroll 0 0 transparent;
     background-size: 9.5vh 9.5vh;
     bottom: 26.5vh;
 }
 #bank {
-    background: url('../assets/img/icons/bank.png') no-repeat scroll 0 0 transparent;
+    background: url('../assets/img/buttons/bank.png') no-repeat scroll 0 0 transparent;
     background-size: 9.5vh 9.5vh;
     bottom: 13.5vh;
     cursor: auto;
     opacity: 0.6;
 }
 #puzzle {
-    background: url('../assets/img/icons/puzzle.png') no-repeat scroll 0 0 transparent;
+    background: url('../assets/img/buttons/puzzle.png') no-repeat scroll 0 0 transparent;
     background-size: 9.5vh 9.5vh;
     bottom: 0.5vh;
     cursor: auto;

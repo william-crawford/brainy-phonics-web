@@ -1,11 +1,13 @@
 <div id='background'>
     <div id='main-body'>
         <div class='column'>
+            <button mat-icon-button class='phonics_logo' id='phonics' (mouseenter)='playAudio($event)' routerLink='/phoneme-categories'></button>
             <button mat-icon-button class='alphabet_logo' id='alphabet' (mouseenter)='playAudio($event)' [routerLink]="['list-select']" [queryParams]="{'list' : 'alphabet'}"></button>
         </div>
         <div class='row'>
-            <div class='column'>
-                <button mat-icon-button class='phonics_logo' id='phonics' (mouseenter)='playAudio($event)' routerLink='/phoneme-categories'></button>
+            <div class='column second'>
+                <button mat-icon-button class='grade_level' id='grade' (mouseenter)='playAudio($event)' routerLink='/grade-levels'></button>
+                <!-- <button mat-icon-button class='secret_stuff' id='secret' (mouseenter)='playAudio($event)'></button> -->
             </div>
         </div>
     </div>

@@ -5,6 +5,7 @@ import {SightWord} from '../../types/sight-word';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import {ActivatedRoute, Router} from '@angular/router';
 import {Location} from '@angular/common';
+import {delay} from 'q';
 
 @Component({
     selector: 'app-list-select',
@@ -33,16 +34,16 @@ export class ListSelectComponent implements OnInit, OnDestroy {
                 new Phoneme(
                     'a1',
                     'a',
-                    '/assets/audio/sound-A.mp3',
-                    new SightWord('crane', '/assets/audio/crane.mp3', ''),
-                    new SightWord('skate', '/assets/audio/skate.mp3', ''),
-                    new SightWord('ape', '/assets/audio/ape.mp3', '')
+                    '/assets/audio/phonemes/sound-A.mp3',
+                    new SightWord('crane', '/assets/sight-words/audio/crane.mp3', ''),
+                    new SightWord('skate', '/assets/sight-words/audio/skate.mp3', ''),
+                    new SightWord('ape', '/assets/audio/sight-words/ape.mp3', '')
                 )
             ];
         }
         if (list === 'alphabet') {
             this.data = [
-                new AlphabetLetter('Aa', '/assets/audio/sound-A.mp3', 0)
+                new AlphabetLetter('Aa', '/assets/audio/phonemes/sound-A.mp3', 0)
             ];
         }
         this.instruction = new Audio();

@@ -5,59 +5,78 @@
   position: relative;
 }
 
+#background {
+    background-color: #FFFFFF !important;
+    background: url('../../../assets/img/backgrounds/phoneme_categories.png') no-repeat scroll transparent;
+    background-position: right;
+}
 /* Phonics Categories */
 #consonants {
-    background: url('../../../assets/img/categories/consonants.png') no-repeat scroll 0 0 transparent;
-    background-size: 44vh 20vh;
+    background: url('../../../assets/img/buttons/consonants.png') no-repeat scroll transparent;
+    background-position: center;
+    width: 39vh;
+    height: 26vh;
     cursor: pointer;
 }
 
 #consonant_blends {
-    background: url('../../../assets/img/categories/consonant_blends.png') no-repeat scroll 0 0 transparent;
-    background-size: 44vh 20vh;
+    background: url('../../../assets/img/buttons/consonant_blends.png') no-repeat scroll transparent;
+    background-position: center;
     cursor: pointer;
 }
 
 #vowel_and_consonants {
-    background: url('../../../assets/img/categories/vowels_and_consonants.png') no-repeat scroll 0 0 transparent;
-    background-size: 44vh 20vh;
+    background: url('../../../assets/img/buttons/vowels_and_consonants.png') no-repeat scroll transparent;
+    background-position: center;
+    width: 35vh;
+    height: 28vh;
     cursor: pointer;
 }
 
 #vowels {
-    background: url('../../../assets/img/categories/vowels.png') no-repeat scroll 0 0 transparent;
-    background-size: 44vh 20vh;
+    background: url('../../../assets/img/buttons/vowels.png') no-repeat scroll transparent;
+    background-position: center;
+    width: 32vh;
+    height: 25vh;
     cursor: pointer;
 }
 
-#vowel_blends {
-    background: url('../../../assets/img/categories/vowel_blends.png') no-repeat scroll 0 0 transparent;
-    background-size: 44vh 20vh;
+#vowel_pairs {
+    background: url('../../../assets/img/buttons/vowel_pairs.png') no-repeat scroll transparent;
+    background-position: center;
+    margin-left: 4.5vh;
+    height: 28vh;
+    width: 28.5vh;
     cursor: pointer;
 }
 
 #all {
-    background: url('../../../assets/img/categories/all.png') no-repeat scroll 0 0 transparent;
-    background-size: 44vh 20vh;
+    background: url('../../../assets/img/buttons/all.png') no-repeat scroll transparent;
+    background-position: center;
+    margin-left: 2.5vh;
+    width: 30vh;
+    height: 26vh;
     cursor: pointer;
 }
 
 .category_button {
-    width: 54vh;
-    height: 23vh;
-    margin-top: 5vh;
-    /* cursor: pointer; */
+    width: 39vh;
+    height: 29vh;
+    margin: 5vh 5vh 0vh 0vh;
     border: none;
+    margin-left: auto;
+}
+
+.row {
+  float: left;
+  margin-left: 4vh;
 }
 
 .column {
-  float: left;
-  width: 50%;
-  margin-top: 5vh;
+    padding-top: 2.5vh;
 }
-
 /* Clear floats after the columns */
-.row:after {
+.column:after {
   content: "";
   display: table;
   clear: both;
