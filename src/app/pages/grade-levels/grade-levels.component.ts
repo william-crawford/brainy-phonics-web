@@ -7,8 +7,14 @@ import {Component} from '@angular/core';
 })
 
 export class GradeLevelsComponent {
-    category: HTMLAudioElement;
+    grade: HTMLAudioElement;
 
     playAudio(event) {
+        this.grade = new Audio();
+        this.grade.src = '/assets/audio/buttons/' + event.target.id + '.mp3';
+        if (this.grade.src !== undefined) {
+            this.grade.load();
+            this.grade.play();
+        }
     }
 }
