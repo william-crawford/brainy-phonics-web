@@ -25,8 +25,8 @@
     cursor: pointer;
 }
 
-#vowel_and_consonants {
-    background: url('../../../assets/img/buttons/vowels_and_consonants.png') no-repeat scroll transparent;
+#vowel_consonant_blends {
+    background: url('../../../assets/img/buttons/vowel_consonant_blends.png') no-repeat scroll transparent;
     background-position: center;
     width: 35vh;
     height: 28vh;
