@@ -11,6 +11,7 @@ import {PhonemeQuizComponent} from './pages/phoneme-quiz';
 import {AlphabetLearnComponent} from './pages/alphabet-learn/alphabet-learn.component';
 import {ListSelectComponent} from './pages/list-select/list-select.component';
 import {GradeLevelsComponent} from './pages/grade-levels';
+import { CoinsComponent } from './pages/coins/coins.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {GradeLevelsComponent} from './pages/grade-levels';
     PhonemeQuizComponent,
     AlphabetLearnComponent,
     ListSelectComponent,
-    GradeLevelsComponent
+    GradeLevelsComponent,
+    CoinsComponent
   ],
   imports: [
     BrowserModule,
