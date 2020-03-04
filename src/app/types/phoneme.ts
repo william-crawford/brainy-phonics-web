@@ -7,14 +7,16 @@ export class Phoneme {
     word1: SightWord;
     word2: SightWord;
     word3: SightWord;
+    stars: number;
 
 
-    constructor(id: string, display: string, audio: string, word1: SightWord, word2: SightWord, word3: SightWord) {
+    constructor(id: string, display: string, audio: string, word1: SightWord, word2: SightWord, word3: SightWord, stars: number) {
         this.id = id;
         this.display = display;
         this.audio = audio;
         this.word1 = word1;
         this.word2 = word2;
         this.word3 = word3;
+        this.stars = stars;
     }
 }
