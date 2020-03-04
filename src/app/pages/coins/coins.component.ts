@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { UserDataService } from '../../services/user-data.service';
 
 @Component({
   selector: 'app-coins',
@@ -7,10 +8,14 @@ import { Component, OnInit } from '@angular/core';
               '../../main.css' ]
 })
 export class CoinsComponent implements OnInit {
+  coins: number;
 
-  constructor() { }
+  constructor(private userDataService: UserDataService) {
+    this.coins = userDataService.getCoins();
+   }
 
   ngOnInit() {
+    // display image depending on how many coins user has accumulated
   }
 
 }
