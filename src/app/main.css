@@ -49,7 +49,6 @@
     background-size: 9.5vh 9.5vh;
     bottom: 13.5vh;
     cursor: auto;
-    opacity: 0.6;
 }
 #puzzle {
     background: url('../assets/img/buttons/puzzle.png') no-repeat scroll 0 0 transparent;
