@@ -9,6 +9,7 @@ import {CardComponent} from './components/card/card.component';
 import {PhonemeLearnComponent} from './pages/phoneme-learn';
 import {PhonemeQuizComponent} from './pages/phoneme-quiz';
 import {AlphabetLearnComponent} from './pages/alphabet-learn/alphabet-learn.component';
+import {AlphabetQuizComponent} from './pages/alphabet-quiz';
 import {ListSelectComponent} from './pages/list-select/list-select.component';
 import {GradeLevelsComponent} from './pages/grade-levels';
 
@@ -21,6 +22,7 @@ import {GradeLevelsComponent} from './pages/grade-levels';
     PhonemeLearnComponent,
     PhonemeQuizComponent,
     AlphabetLearnComponent,
+    AlphabetQuizComponent,
     ListSelectComponent,
     GradeLevelsComponent
   ],
