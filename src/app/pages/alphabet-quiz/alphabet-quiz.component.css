@@ -1,0 +1,63 @@
+#background {
+  background-color: #FFFFFF !important;
+}
+
+#main-body {
+  width: 169.7vh;
+  height: 0vh;
+  padding-left: 22vh;
+  position: relative;
+}
+
+#column {
+    width: 42vh;
+}
+
+.column {
+    padding-left: 250px;
+    padding-top:150px;
+    float: left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.letter {
+    font-size: 19.4vh;
+    font-family: 'ComicSans';
+    cursor: pointer;
+}
+
+.letter2 {
+    font-size: 19.4vh;
+    font-family: 'ComicSans';
+    cursor: pointer;
+}
+
+.letter3 {
+    font-size: 19.4vh;
+    font-family: 'ComicSans';
+    cursor: pointer;
+}
+
+.letter4 {
+    font-size: 19.4vh;
+    font-family: 'ComicSans';
+    cursor: pointer;
+}
+
+.animateLetter {
+  transition: all 0.5s linear;
+  transform: translate(22vh, 10vh) scale(1.12) !important;
+}
+
+
+/* Buttons */
+#forward {
+    background: url('../../../assets/img/buttons/forward.png') no-repeat scroll 0 0 transparent;
+    background-size: 9.5vh 9.5vh;
+}
