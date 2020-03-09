@@ -2,8 +2,7 @@ import {Component} from '@angular/core';
 
 @Component({
     templateUrl: 'grade-levels.component.html',
-    styleUrls: [ 'grade-levels.component.css',
-                 '../../main.css' ]
+    styleUrls: [ 'grade-levels.component.css']
 })
 
 export class GradeLevelsComponent {
