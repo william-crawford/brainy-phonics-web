@@ -1,0 +1,22 @@
+[
+  {
+    "id": "a",
+    "display": "a",
+    "audio": "sound-A.mp3",
+    "word1": {
+      "word": "Crane",
+      "audio": "crane.mp3",
+      "image": "crane.jpg"
+    },
+    "word2": {
+      "word": "Skate",
+      "audio": "skate.mp3",
+      "image": "skate.jpg"
+    },
+    "word3": {
+      "word": "Ape",
+      "audio": "ape.mp3",
+      "image": "ape.jpg"
+    }
+  }
+]

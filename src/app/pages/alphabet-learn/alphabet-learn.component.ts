@@ -7,7 +7,7 @@ import {Location} from '@angular/common';
 @Component({
     selector: 'app-alphabet-learn',
     templateUrl: './alphabet-learn.component.html',
-    styleUrls: ['./alphabet-learn.component.css', '../../main.css']
+    styleUrls: ['./alphabet-learn.component.css']
 })
 
 export class AlphabetLearnComponent implements OnInit, OnDestroy {
