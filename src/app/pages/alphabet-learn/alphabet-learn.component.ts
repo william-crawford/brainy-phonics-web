@@ -7,7 +7,7 @@ import {Location} from '@angular/common';
 @Component({
     selector: 'app-alphabet-learn',
     templateUrl: './alphabet-learn.component.html',
-    styleUrls: ['./alphabet-learn.component.css', '../../main.css']
+    styleUrls: ['./alphabet-learn.component.css']
 })
 
 export class AlphabetLearnComponent implements OnInit, OnDestroy {
@@ -30,7 +30,7 @@ export class AlphabetLearnComponent implements OnInit, OnDestroy {
 
     ngOnInit() {
         this.letterAudio = new Audio();
-        this.letterAudio.src = '/assets/audio/sound-A.mp3';
+        this.letterAudio.src = '/assets/audio/phonemes/sound-A.mp3';
         this.letterAudio.load();
 
         this.letterAudio.onended = () => {

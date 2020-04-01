@@ -1,18 +1,15 @@
-import {Component, OnDestroy, OnInit} from '@angular/core';
-import {RouterModule, Routes} from '@angular/router';
+import {Component, ElementRef, OnDestroy, OnInit} from '@angular/core';
 import {Router} from '@angular/router';
-import {ElementRef} from '@angular/core';
 import {delay} from 'q';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import * as data from '../../../assets/json/quiz-examples.json';
-import { Location } from '@angular/common';
+import {Location} from '@angular/common';
 import {Phoneme} from '../../types/phoneme';
 
 
 @Component({
     templateUrl: 'phoneme-quiz.component.html',
-    styleUrls: ['phoneme-quiz.component.css',
-                '../../main.css']
+    styleUrls: ['phoneme-quiz.component.css']
 })
 
 export class PhonemeQuizComponent implements OnInit, OnDestroy {
@@ -36,12 +33,12 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
 
     phoneme = this.transferService.getData();
 
-    // img1: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[0];
-    img1: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == "a").eximg[0];
-    // img2: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[1];
-    img2: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == "a").eximg[1];
-    // img3: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[2];
-    img3: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == "a").eximg[2];
+    // img1: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[0];
+    img1: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == "a").eximg[0];
+    // img2: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[1];
+    img2: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == "a").eximg[1];
+    // img3: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[2];
+    img3: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == "a").eximg[2];
 
     // word1: string = data.default.find(o => o.phoneme == this.phoneme.value).exword[0];
     word1: string = data.default.find(o => o.phoneme == "a").exword[0];
@@ -161,12 +158,12 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
 
     playEx1AudioCorrect() {
 
-        // img1: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[0];
-        this.img1 = '../../assets/img/words/' + data.default.find(o => o.phoneme == "a-1").eximg[0];
-        // img2: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[1];
-        this.img2 = '../../assets/img/words/' + data.default.find(o => o.phoneme == "a-1").eximg[1];
-        // img3: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[2];
-        this.img3 = '../../assets/img/words/' + data.default.find(o => o.phoneme == "a-1").eximg[2];
+        // img1: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[0];
+        this.img1 = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == "a-1").eximg[0];
+        // img2: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[1];
+        this.img2 = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == "a-1").eximg[1];
+        // img3: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[2];
+        this.img3 = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == "a-1").eximg[2];
 
         // this.ex1Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).exaudio[0];
         this.ex1Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == "a-1").exaudio[0];

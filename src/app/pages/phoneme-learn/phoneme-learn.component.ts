@@ -1,5 +1,5 @@
 import {Component, ElementRef, OnDestroy, OnInit} from '@angular/core';
-import {ActivatedRoute, Router} from '@angular/router';
+import {Router} from '@angular/router';
 import {delay} from 'q';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import * as data from '../../../assets/json/phoneme-examples.json';
@@ -8,8 +8,7 @@ import {Phoneme} from '../../types/phoneme';
 
 @Component({
     templateUrl: 'phoneme-learn.component.html',
-    styleUrls: ['phoneme-learn.component.css',
-        '../../main.css']
+    styleUrls: ['phoneme-learn.component.css']
 })
 
 export class PhonemeLearnComponent implements OnInit, OnDestroy {
@@ -34,12 +33,12 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
 
     phoneme: Phoneme;
 
-    // img1: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[0];
-    img1: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == 'a').eximg[0];
-    // img2: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[1];
-    img2: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == 'a').eximg[1];
-    // img3: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[2];
-    img3: string = '../../assets/img/words/' + data.default.find(o => o.phoneme == 'a').eximg[2];
+    // img1: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[0];
+    img1: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == 'a').eximg[0];
+    // img2: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[1];
+    img2: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == 'a').eximg[1];
+    // img3: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[2];
+    img3: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == 'a').eximg[2];
 
     // word1: string = data.default.find(o => o.phoneme == this.phoneme.value).exword[0];
     word1: string = data.default.find(o => o.phoneme == 'a').exword[0];

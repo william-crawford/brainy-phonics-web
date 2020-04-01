@@ -9,7 +9,7 @@ import {Location} from '@angular/common';
 @Component({
     selector: 'app-list-select',
     templateUrl: './list-select.component.html',
-    styleUrls: ['./list-select.component.css', '../../main.css']
+    styleUrls: ['./list-select.component.css']
 })
 export class ListSelectComponent implements OnInit, OnDestroy {
 
@@ -33,16 +33,17 @@ export class ListSelectComponent implements OnInit, OnDestroy {
                 new Phoneme(
                     'a1',
                     'a',
-                    '/assets/audio/sound-A.mp3',
-                    new SightWord('crane', '/assets/audio/crane.mp3', ''),
-                    new SightWord('skate', '/assets/audio/skate.mp3', ''),
-                    new SightWord('ape', '/assets/audio/ape.mp3', '')
+                    '/assets/audio/phonemes/sound-A.mp3',
+                    new SightWord('crane', '/assets/sight-words/audio/crane.mp3', ''),
+                    new SightWord('skate', '/assets/sight-words/audio/skate.mp3', ''),
+                    new SightWord('ape', '/assets/audio/sight-words/ape.mp3', ''),
+                    0
                 )
             ];
         }
         if (list === 'alphabet') {
             this.data = [
-                new AlphabetLetter('Aa', '/assets/audio/sound-A.mp3', 0)
+                new AlphabetLetter('Aa', '/assets/audio/phonemes/sound-A.mp3', 0)
             ];
         }
         this.instruction = new Audio();
