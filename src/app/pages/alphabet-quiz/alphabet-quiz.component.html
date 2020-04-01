@@ -1,0 +1,26 @@
+<div id='background'>
+    <div id='main-body'>
+        <div class='column'>
+            <div class='row'>
+                <div class='letter' [ngClass]="{'animateLetter': letterAnimate}" (click)='correctAnswer()'>{{letter.letter}}
+                </div>
+                <div class='letter3'>{{ex2.letter}}
+                </div>
+            </div>
+        </div>
+
+        <div class='column'>
+            <div class='letter2'>{{ex1.letter}}
+            </div>
+            <div class='letter4'>{{ex3.letter}}
+            </div>
+        </div>
+    </div>
+
+    <div id='side-menu'>
+        <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>
+        <button mat-icon-button class='icon' id='home' routerLink='/'></button>
+        <button mat-icon-button class='icon bottom' id='repeat' (click)='playAudio()'></button>
+        <button mat-icon-button class='icon bottom' id='bank'></button>
+    </div>
+</div>
