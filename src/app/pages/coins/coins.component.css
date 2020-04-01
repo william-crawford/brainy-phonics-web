@@ -1,0 +1,22 @@
+#background {
+	background-color: #FFFFFF !important;
+}
+
+#side-menu {
+	background-color: #6EC7D4 !important;
+}
+
+#main-body {
+    width: 169.7vh;
+    height: 0vh;
+    padding-left: 40vh;
+    position: relative;
+  }
+  
+  .column {
+    float: left;
+    text-align: right;
+    width: 48vh;
+    transform: translateX(-21vh);
+  }
+  

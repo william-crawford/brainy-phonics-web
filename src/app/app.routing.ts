@@ -8,6 +8,7 @@ import {PhonemeLearnComponent} from './pages/phoneme-learn';
 import {PhonemeQuizComponent} from './pages/phoneme-quiz';
 import {ListSelectComponent} from './pages/list-select/list-select.component';
 import {GradeLevelsComponent} from './pages/grade-levels';
+import { CoinsComponent } from './pages/coins/coins.component';
 
 const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -18,6 +19,7 @@ const routes: Routes = [
     {path: 'phoneme-learn', component: PhonemeLearnComponent},
     {path: 'phoneme-quiz', component: PhonemeQuizComponent},
     {path: 'grade-levels', component: GradeLevelsComponent},
+    {path: 'coins', component: CoinsComponent},
 
     // otherwise redirect to home
     {path: '**', redirectTo: ''}

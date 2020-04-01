@@ -1,18 +1,15 @@
-import {Component, OnDestroy, OnInit} from '@angular/core';
-import {RouterModule, Routes} from '@angular/router';
+import {Component, ElementRef, OnDestroy, OnInit} from '@angular/core';
 import {Router} from '@angular/router';
-import {ElementRef} from '@angular/core';
 import {delay} from 'q';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import * as data from '../../../assets/json/quiz-examples.json';
-import { Location } from '@angular/common';
+import {Location} from '@angular/common';
 import {Phoneme} from '../../types/phoneme';
 
 
 @Component({
     templateUrl: 'phoneme-quiz.component.html',
-    styleUrls: ['phoneme-quiz.component.css',
-                '../../main.css']
+    styleUrls: ['phoneme-quiz.component.css']
 })
 
 export class PhonemeQuizComponent implements OnInit, OnDestroy {

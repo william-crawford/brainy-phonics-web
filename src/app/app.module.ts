@@ -12,6 +12,7 @@ import {AlphabetLearnComponent} from './pages/alphabet-learn/alphabet-learn.comp
 import {AlphabetQuizComponent} from './pages/alphabet-quiz';
 import {ListSelectComponent} from './pages/list-select/list-select.component';
 import {GradeLevelsComponent} from './pages/grade-levels';
+import { CoinsComponent } from './pages/coins/coins.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {GradeLevelsComponent} from './pages/grade-levels';
     AlphabetLearnComponent,
     AlphabetQuizComponent,
     ListSelectComponent,
-    GradeLevelsComponent
+    GradeLevelsComponent,
+    CoinsComponent
   ],
   imports: [
     BrowserModule,
