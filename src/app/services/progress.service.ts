@@ -9,7 +9,7 @@ import {AlphabetLetter} from '../types/alphabet-letter';
   providedIn: 'root'
 })
 
-export class AlphabetLettersProgressService {
+export class ProgressService {
 
   private letters = [];
 
@@ -21,8 +21,8 @@ export class AlphabetLettersProgressService {
     //  this.storage.set()
   }
 
-  //initial each letter with { stars: 0, active: false, checkmark: false }
-  prepareNewLetterProgress(): any {
+  //initial each input with { stars: 0, active: false, checkmark: false }
+  prepareNewKeyProgress(): any {
     // const letters = 
     // console.log(letters);
     // // this.storage.set(key, val);
@@ -45,10 +45,10 @@ export class AlphabetLettersProgressService {
     return this.storage.get(key).checkmark;
   }
 
-  saveStarsToLetter(key, val): void {
+  saveStarsToKey(key, val): void {
     let input;
     if(this.storage.get(key) == null) {
-      input = this.prepareNewLetterProgress();
+      input = this.prepareNewKeyProgress();
     } else {
       let currentStars = this.storage.get(key).stars;
       if (currentStars + val >= 5) {
@@ -65,7 +65,7 @@ export class AlphabetLettersProgressService {
     this.storage.set(key, input);
   }
 
-  getStarsFromLetter(key): any {
+  getStarsFromKey(key): any {
       console.log('get stars = ', this.storage.get(key).stars);
       return this.storage.get(key).stars;
   }

@@ -4,15 +4,15 @@
             <div class='row'>
                 <div class='letter' [ngClass]="{'animateLetter': letterAnimate}" (click)='correctAnswer()'>{{letter.letter}}
                 </div>
-                <div class='letter3'>{{ex2.letter}}
+                <div class='letter3' (click)='incorrectAnswer()'>{{ex2.letter}}
                 </div>
             </div>
         </div>
 
         <div class='column'>
-            <div class='letter2'>{{ex1.letter}}
+            <div class='letter2' (click)='incorrectAnswer()'>{{ex1.letter}}
             </div>
-            <div class='letter4'>{{ex3.letter}}
+            <div class='letter4' (click)='incorrectAnswer()'>{{ex3.letter}}
             </div>
         </div>
     </div>
