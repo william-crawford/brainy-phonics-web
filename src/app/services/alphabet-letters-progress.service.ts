@@ -10,11 +10,11 @@ import {TransferLetterService} from './transfer-letter-service.service';
 export class AlphabetLettersProgressService {
 
   public letter_progress_data: any=[]
-  public letters: any=[]
+  
 
   constructor(@Inject(LOCAL_STORAGE) private storage: WebStorageService, private transferLetterService: TransferLetterService) {
     // this.letters.add(this.transferLetterService.getData());
-    console.log(this.letters)
+    
     //  this.storage.set()
   }
 
@@ -24,7 +24,7 @@ export class AlphabetLettersProgressService {
     this.letter_progress_data[key]= this.storage.get(key);
   }
 
-  getStarsFromLetter(key): void {
+  getStarsFromLetter(key): any {
       console.log('received= key:' + key);
       this.letter_progress_data[key]= this.storage.get(key);
       console.log(this.letter_progress_data);

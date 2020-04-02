@@ -21,6 +21,9 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
     letterAudio: HTMLAudioElement;
 
     letter: AlphabetLetter;
+    letterProgress: Number;
+
+    isFirstAttempt: boolean;
 
     // temporary
     ex1 = new AlphabetLetter('Bb', '/assets/audio/phonemes/sound-A.mp3', 0);
@@ -34,7 +37,7 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
     constructor(private transferService: TransferLetterService, private letterProgressService: AlphabetLettersProgressService,
         private router: Router, private location: Location) {
         this.letter = this.transferService.getData() as AlphabetLetter;
-        this.letterProgressService.saveStarsToLetter("letter" + this.letter.letter, 1);
+
         if (!this.letter) {
             this.router.navigateByUrl('/alphabet-list-all');
         }
@@ -48,12 +51,14 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
         this.letterAudio = new Audio();
         this.letterAudio.src = '/assets/audio/phonemes/sound-A.mp3';
         this.letterAudio.load();
-
+        this.letterProgress = this.letterProgressService.getStarsFromLetter("letter" + this.letter.letter);
+        console.log("Stars for ", this.letter.letter, ": ", this.letterProgress);
         this.letterAudio.onended = () => {
             this.letterAnimate = false;
         };
 
         this.playAudio();
+        
     }
 
     ngOnDestroy() {
@@ -77,6 +82,9 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
         delay(300).then(() => {
             this.loadNew();
         });
+
+        //add stars to progress if select correct letter
+        this.letterProgressService.saveStarsToLetter("letter" + this.letter.letter, 1);
     }
 
     loadNew() {
