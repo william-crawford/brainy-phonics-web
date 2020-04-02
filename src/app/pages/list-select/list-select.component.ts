@@ -45,6 +45,7 @@ export class ListSelectComponent implements OnInit, OnDestroy {
             this.data = [
                 new AlphabetLetter('Aa', '/assets/audio/phonemes/sound-A.mp3', 0)
             ];
+            // this.letterProgress = this.letterProgressService.getStarsFromLetter("letter" + this.letter.letter);
         }
         this.instruction = new Audio();
         this.instruction.src = '/assets/audio/00_Button_Audio_Complete_a_whole_puzzle_(Phonics_only).mp3';

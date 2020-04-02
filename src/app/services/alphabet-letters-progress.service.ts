@@ -1,7 +1,9 @@
 import { Injectable, Inject } from '@angular/core';
 import { StorageServiceModule} from 'angular-webstorage-service';
-import {LOCAL_STORAGE, WebStorageService} from 'angular-webstorage-service';
+import {SESSION_STORAGE, WebStorageService} from 'angular-webstorage-service';
 import {TransferLetterService} from './transfer-letter-service.service';
+import {AlphabetLettersService} from './alphabet-letters.service';
+import {AlphabetLetter} from '../types/alphabet-letter';
 
 @Injectable({
   providedIn: 'root'
@@ -9,24 +11,62 @@ import {TransferLetterService} from './transfer-letter-service.service';
 
 export class AlphabetLettersProgressService {
 
-  public letter_progress_data: any=[]
-  
+  private letters = [];
 
-  constructor(@Inject(LOCAL_STORAGE) private storage: WebStorageService, private transferLetterService: TransferLetterService) {
+  constructor(@Inject(SESSION_STORAGE) private storage: WebStorageService,
+     private transferLetterService: TransferLetterService,
+     private alphabetLettersSerivce: AlphabetLettersService) {
     // this.letters.add(this.transferLetterService.getData());
-    
+    // this.letters = this.alphabetLettersSerivce.letters;
     //  this.storage.set()
   }
 
+  //initial each letter with { stars: 0, active: false, checkmark: false }
+  prepareNewLetterProgress(): any {
+    // const letters = 
+    // console.log(letters);
+    // // this.storage.set(key, val);
+    return {'stars': 1,
+            'active': false, 
+            'checkmark':false}
+  }
+
+  getActiveStatus(key): any {
+    console.log('get active status for: ', key, ', ', this.storage.get(key).active);
+    return this.storage.get(key).active;
+  }
+
+  setActiveStatus(key): void {
+
+  }
+
+  getCheckMark(key): any {
+    console.log('get checkmark for: ', key, ', ', this.storage.get(key).checkmark);
+    return this.storage.get(key).checkmark;
+  }
+
   saveStarsToLetter(key, val): void {
-    console.log('received= key:' + key + 'value:' + val);
-    this.storage.set(key, val);
-    this.letter_progress_data[key]= this.storage.get(key);
+    let input;
+    if(this.storage.get(key) == null) {
+      input = this.prepareNewLetterProgress();
+    } else {
+      let currentStars = this.storage.get(key).stars;
+      if (currentStars + val >= 5) {
+        input = { 'stars': 5,
+                'active':this.storage.get(key).active,
+                'checkmark': true}
+      } else {
+        input = { 'stars': this.storage.get(key).stars + val,
+        'active':this.storage.get(key).active,
+        'checkmark':this.storage.get(key).checkmark}
+      }
+    }
+    console.log("Sent from save stars:", input)
+    this.storage.set(key, input);
   }
 
   getStarsFromLetter(key): any {
-      console.log('received= key:' + key);
-      this.letter_progress_data[key]= this.storage.get(key);
-      console.log(this.letter_progress_data);
+      console.log('get stars = ', this.storage.get(key).stars);
+      return this.storage.get(key).stars;
   }
 }
