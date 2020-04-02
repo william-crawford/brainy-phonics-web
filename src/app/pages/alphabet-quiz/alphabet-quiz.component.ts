@@ -4,6 +4,7 @@ import {Router} from '@angular/router';
 import {ElementRef} from '@angular/core';
 import {delay} from 'q';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
+import {AlphabetLettersProgressService} from '../../services/alphabet-letters-progress.service';
 import * as data from '../../../assets/json/quiz-examples.json';
 import { Location } from '@angular/common';
 import {AlphabetLetter} from '../../types/alphabet-letter';
@@ -11,8 +12,7 @@ import {AlphabetLetter} from '../../types/alphabet-letter';
 
 @Component({
     templateUrl: 'alphabet-quiz.component.html',
-    styleUrls: ['alphabet-quiz.component.css',
-                '../../main.css']
+    styleUrls: ['alphabet-quiz.component.css']
 })
 
 export class AlphabetQuizComponent implements OnInit, OnDestroy {
@@ -31,8 +31,10 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
 
     empty = new AlphabetLetter(' ', '/assets/audio/phonemes/sound-A.mp3', 0)
 
-    constructor(private transferService: TransferLetterService, private router: Router, private location: Location) {
+    constructor(private transferService: TransferLetterService, private letterProgressService: AlphabetLettersProgressService,
+        private router: Router, private location: Location) {
         this.letter = this.transferService.getData() as AlphabetLetter;
+        this.letterProgressService.saveStarsToLetter("letter" + this.letter.letter, 1);
         if (!this.letter) {
             this.router.navigateByUrl('/alphabet-list-all');
         }

@@ -1,6 +1,7 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 import {FlexLayoutModule} from '@angular/flex-layout';
+import { StorageServiceModule} from 'angular-webstorage-service';
 import {appRoutingModule} from './app.routing';
 import {AppComponent} from './app.component';
 import {HomeComponent} from './pages/home';
@@ -31,7 +32,8 @@ import { CoinsComponent } from './pages/coins/coins.component';
   imports: [
     BrowserModule,
     appRoutingModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    StorageServiceModule
   ],
   bootstrap: [AppComponent]
 })
