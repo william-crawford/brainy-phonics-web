@@ -11,8 +11,7 @@ import {AlphabetLetter} from '../../types/alphabet-letter';
 
 @Component({
     templateUrl: 'alphabet-quiz.component.html',
-    styleUrls: ['alphabet-quiz.component.css',
-                '../../main.css']
+    styleUrls: ['alphabet-quiz.component.css']
 })
 
 export class AlphabetQuizComponent implements OnInit, OnDestroy {
