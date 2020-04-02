@@ -1,0 +1,14 @@
+#background {
+	background-color: #FFFFFF !important;
+}
+
+#side-menu {
+	background-color: #6EC7D4 !important;
+}
+
+#main-body {
+    width: 169.7vh;
+    height: 0vh;
+    padding-left: 40vh;
+    position: relative;
+  }
