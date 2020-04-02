@@ -83,12 +83,14 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
         if(this.isFirstAttempt) {
             //add stars to progress if select correct letter on first attempt
             this.letterProgressService.saveStarsToKey("letter" + this.letter.letter, 1);
-        }  
+        } else {
+            this.letterProgressService.setActiveStatus("letter" + this.letter.letter, true)
+        }
     }
 
     incorrectAnswer() {
         this.isFirstAttempt = false;
-        this.letterProgressService.setActiveStatus("letter" + this.letter.letter)
+        this.letterProgressService.setActiveStatus("letter" + this.letter.letter, false)
     }
 
     loadNew() {
