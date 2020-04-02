@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {UserDataService} from '../../services/user-data.service';
+import {Location} from '@angular/common';
 
 @Component({
   selector: 'app-coins',
@@ -9,7 +10,10 @@ import {UserDataService} from '../../services/user-data.service';
 export class CoinsComponent implements OnInit {
   coins: number;
 
-  constructor(private userDataService: UserDataService) {
+  constructor(
+    private userDataService: UserDataService,
+    private location: Location
+  ) {
     this.coins = userDataService.getCoins();
    }
 
@@ -21,6 +25,10 @@ export class CoinsComponent implements OnInit {
     // 1 bag of coins = 5 stacks 
     // 1 armored car = 5 bags 
     // 1 bank = 5 armored cars
+  }
+
+  goBack() {
+    this.location.back();
   }
 
 }
