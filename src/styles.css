@@ -4,6 +4,7 @@
     height: 97vh;
     background-color: #6EC7D4;
     margin: auto;
+    overflow: hidden;
 }
 
 #side-menu {

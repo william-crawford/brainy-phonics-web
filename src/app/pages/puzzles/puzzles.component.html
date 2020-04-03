@@ -1,7 +1,13 @@
 <div id='background'>
     <div id='main-body'>
         <div class='column'>
-            <h2>hello you are in puzzles</h2>
+            <div class="cardList">
+                <ng-container *ngFor="let phoneme of phonemes | keyvalue: sortNull">
+                    <app-card class="cardListItem" (click)='openPuzzle(phoneme.key)'>
+                        <p>{{phoneme.value}}</p>
+                    </app-card>
+                </ng-container>
+            </div>
         </div>
     </div>
 

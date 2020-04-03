@@ -53,6 +53,12 @@ export class ListSelectComponent implements OnInit, OnDestroy {
     }
 
     ngOnInit() {
+        if (this.activatedRoute.snapshot.queryParamMap.get('list') == 'alphabet') {
+            document.getElementById('puzzle').classList.add('hide');
+            for (var i = 0; i < Object.keys(document.getElementsByClassName('bottom')).length - 1; i++) {
+                document.getElementsByClassName('bottom')[i].classList.add('alphabet-list-bottom');
+            }
+        }
     }
 
     ngOnDestroy() {
@@ -60,6 +66,7 @@ export class ListSelectComponent implements OnInit, OnDestroy {
     }
 
     getDisplay(item: Phoneme | AlphabetLetter): string {
+        var icon = document.getElementById('puzzle');
         if (item instanceof Phoneme) {
             return item.display;
         } else {
