@@ -32,7 +32,7 @@ export class AlphabetLettersService {
     const temp = [];
     const data: Array<any> = json.default.valueOf();
     data.forEach(letter => {
-      temp.push(new AlphabetLetter(letter.letter, letter.audio, 0));
+      temp.push(new AlphabetLetter(letter.letter, `/assets/audio/letters/${letter.audio}`, 0));
     });
   }
 }
