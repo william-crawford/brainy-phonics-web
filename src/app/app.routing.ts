@@ -10,6 +10,7 @@ import {ListSelectComponent} from './pages/list-select/list-select.component';
 import {GradeLevelsComponent} from './pages/grade-levels';
 import {CoinsComponent} from './pages/coins/coins.component';
 import {PuzzlesComponent} from './pages/puzzles/puzzles.component';
+import {PuzzleComponent} from './pages/puzzle/puzzle.component';
 
 const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -22,6 +23,7 @@ const routes: Routes = [
     {path: 'grade-levels', component: GradeLevelsComponent},
     {path: 'coins', component: CoinsComponent},
     {path: 'puzzles', component: PuzzlesComponent},
+    {path: 'puzzle', component: PuzzleComponent},
 
     // otherwise redirect to home
     {path: '**', redirectTo: ''}

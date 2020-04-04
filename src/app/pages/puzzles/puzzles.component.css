@@ -7,7 +7,7 @@
 }
 
 #main-body {
-    width: 169.7vh;
+    width: 164vh;
     height: 0vh;
     padding-left: 22vh;
     position: relative;
@@ -38,4 +38,8 @@
 
 .cardListItem p {
   margin-top: 13vh;
+}
+
+#background {
+  overflow: visible;
 }
