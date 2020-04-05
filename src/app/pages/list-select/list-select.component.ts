@@ -37,7 +37,8 @@ export class ListSelectComponent implements OnInit, OnDestroy {
                     new SightWord('crane', '/assets/sight-words/audio/crane.mp3', ''),
                     new SightWord('skate', '/assets/sight-words/audio/skate.mp3', ''),
                     new SightWord('ape', '/assets/audio/sight-words/ape.mp3', ''),
-                    0
+                    0,
+                    "test"
                 )
             ];
         }
@@ -54,6 +55,12 @@ export class ListSelectComponent implements OnInit, OnDestroy {
     }
 
     ngOnInit() {
+        if (this.activatedRoute.snapshot.queryParamMap.get('list') == 'alphabet') {
+            document.getElementById('puzzle').classList.add('hide');
+            for (var i = 0; i < Object.keys(document.getElementsByClassName('bottom')).length - 1; i++) {
+                document.getElementsByClassName('bottom')[i].classList.add('alphabet-list-bottom');
+            }
+        }
     }
 
     ngOnDestroy() {
@@ -61,6 +68,7 @@ export class ListSelectComponent implements OnInit, OnDestroy {
     }
 
     getDisplay(item: Phoneme | AlphabetLetter): string {
+        var icon = document.getElementById('puzzle');
         if (item instanceof Phoneme) {
             return item.display;
         } else {
