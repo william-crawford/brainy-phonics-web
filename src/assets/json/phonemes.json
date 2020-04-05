@@ -251,7 +251,7 @@
             "haul"
         ],
         "color": " black",
-        "rhyme": "Little Polly Flinders</br>Sat among the cinders,</br>Warming her pretty little toes.</br>Her mother came and c(au)ght her,</br>Whipped her little d(au)ghter</br>For spoiling her nice new clothes."
+        "rhyme": "Little Polly Flinders<br>Sat among the cinders,<br>Warming her pretty little toes.<br>Her mother came and c(au)ght her,</br>Whipped her little d(au)ghter</br>For spoiling her nice new clothes."
     },
     {
         "id": "A-AW",
@@ -433,7 +433,7 @@
             "car"
         ],
         "color": " black",
-        "rhyme": "Little Robin Redbreast sat upon a tree;</br>Up went the Kitty-(C)at; and down went he;</br>Down came Kitty-(C)at; away Robin ran;</br>Says little Robin Redbreast:</br>\"(C)atch me if you (c)an!\""
+        "rhyme": "Little Robin Redbreast sat upon a tree;<br>Up went the Kitty-(C)at; and down went he;</br>Down came Kitty-(C)at; away Robin ran;</br>Says little Robin Redbreast:</br>\"(C)atch me if you (c)an!\""
     },
     {
         "id": "C-sss",
@@ -464,7 +464,7 @@
             "dancing"
         ],
         "color": " green",
-        "rhyme": "(C)elery, lettu(c)e, and ri(c)e aren't my dream,</br>But you scream, I scream, we all scream for i(c)e cream!</br>"
+        "rhyme": "(C)elery, lettu(c)e, and ri(c)e aren\u2019t my dream,</br>But you scream, I scream, we all scream</br>for i(c)e cream!</br>"
     },
     {
         "id": "C-CH",
@@ -525,7 +525,7 @@
             "four-leaf clover"
         ],
         "color": " black",
-        "rhyme": "Tickety-tock, (cl)imb up the (cl)ock,</br>Don't let the time get dirty.</br>Tickety-tock we (cl)eaned the (cl)ock,</br>Now one o'(cl)ock looks pretty.</br>"
+        "rhyme": "Tickety-tock, (cl)imb up the (cl)ock,</br>Don\u2019t let the time get dirty.</br>Tickety-tock we (cl)eaned the (cl)ock,</br>Now one o\u2019(cl)ock looks pretty.</br>"
     },
     {
         "id": "C-CR",
@@ -841,7 +841,7 @@
             "jewelry"
         ],
         "color": " black",
-        "rhyme": "The hungry cuckoo fl(ew)</br>Then found a cash(ew)</br>His beak couldn't ch(ew).</br>What could he do?</br>He br(ew)ed cash(ew) st(ew)</br>Which smelled really P U!</br>But tasted great with barbecue.</br></br>"
+        "rhyme": "The hungry cuckoo fl(ew)</br>Then found a cash(ew)</br>His beak couldn\u2019t ch(ew).</br>What could he do?</br>He br(ew)ed cash(ew) st(ew)</br>Which smelled really P U!</br>But tasted great with barbecue.</br></br>"
     },
     {
         "id": "F-fuh",
@@ -1058,7 +1058,7 @@
             "grandfather clock"
         ],
         "color": " black",
-        "rhyme": "(Gr)ouchy (gr)emlin's (gr)umpy tummy (gr)owled,</br>\u201cI'm hun(gr)y, feed me, feed me,\u201d it howled.</br>When a (gr)inning (gr)izzly (gr)abbed it tight,</br>(Gr)umpy tummy squeeeezed out of sight.</br>"
+        "rhyme": "(Gr)ouchy (gr)emlin\u2019s (gr)umpy tummy (gr)owled,</br>\u201cI\u2019m hun(gr)y, feed me, feed me,\u201d it howled.</br>When a (gr)inning (gr)izzly (gr)abbed it tight,</br>(Gr)umpy tummy squeeeezed out of sight.</br>"
     },
     {
         "id": "H-huh",
@@ -1242,7 +1242,7 @@
             "bow tie"
         ],
         "color": " green",
-        "rhyme": "There was an old woman lived under the hill;</br>And if she's not gone she lives there still;</br>Baked apples she sold; and cranberry p(ie)s;</br>And she's the old woman who never told l(ie)s."
+        "rhyme": "There was an old woman lived under the hill;<br>And if she's not gone she lives there still;<br>Baked apples she sold; and cranberry p(ie)s;</br>And she's the old woman who never told l(ie)s."
     },
     {
         "id": "I-IGH",
@@ -1590,7 +1590,7 @@
             "dancing"
         ],
         "color": " black",
-        "rhyme": "Si(ng) a so(ng) of sixpence, a pocket full of rye,</br>Four and twenty blackbirds baked in a pie.</br>When the pie was opened the birds began to si(ng),</br>Now wasn't this a dainty dish to set before the ki(ng)?</br></br>The ki(ng) was in the parlor counti(ng) out his money;</br>The queen was in the kitchen eati(ng) bread and honey;</br>The maid was in the garden ha(ng)i(ng) out the clothes,</br>And alo(ng) came a blackbird and nipped off her nose.</br>"
+        "rhyme": "Si(ng) a so(ng) of sixpence, a pocket full of rye,</br>Four and twenty blackbirds baked in a pie.</br>When the pie was opened the birds began to si(ng),</br>Now wasn\u2019t this a dainty dish to set before the ki(ng)?</br></br>The ki(ng) was in the parlor counti(ng) out his money;</br>The queen was in the kitchen eati(ng) bread and honey;</br>The maid was in the garden ha(ng)i(ng) out the clothes,</br>And alo(ng) came a blackbird and nipped off her nose.</br>"
     },
     {
         "id": "N-NK",
@@ -1785,7 +1785,7 @@
             "book"
         ],
         "color": " green",
-        "rhyme": "Little Bopeep never underst(oo)d,</br>When little Miss Red Riding H(oo)d</br>Went trick-or-treat in our neighborh(oo)d</br>With little Mister Captain H(oo)k,</br>It wasn't c(oo)kies or candy they t(oo)k,</br>Each picked a little picture b(oo)k.</br>"
+        "rhyme": "Little Bopeep never underst(oo)d,</br>When little Miss Red Riding H(oo)d</br>Went trick-or-treat in our neighborh(oo)d</br>With little Mister Captain H(oo)k,</br>It wasn\u2019t c(oo)kies or candy they t(oo)k,</br>Each picked a little picture b(oo)k.</br>"
     },
     {
         "id": "O-OA",
@@ -1843,7 +1843,7 @@
             "six-point-star"
         ],
         "color": " black",
-        "rhyme": "A toy box you put toys in.</br>Pin a balloon and you'll sp(oi)l it.</br>A pan's for putting (oi)ly c(oi)ns in.</br>To clean them add water and b(oi)l it.</br>Time out's for putting n(oi)sy boys in.</br>P(oi)son? Pour it in the t(oi)let!</br>"
+        "rhyme": "A toy box you put toys in.<br>Pin a balloon and you\u2019ll sp(oi)l it.</br>A pan\u2019s for putting (oi)ly c(oi)ns in.</br>To clean them add water and b(oi)l it.</br>Time out\u2019s for putting n(oi)sy boys in.</br>P(oi)son? Pour it in the t(oi)let!</br>"
     },
     {
         "id": "O-OR",
@@ -2055,7 +2055,7 @@
             "plug"
         ],
         "color": " black",
-        "rhyme": "No kid likes peas piled on (pl)ates,</br>But (pl)aced in straws they're (pl)enty fun.</br>Blow so they shoot past people's faces</br>(Pl)ay, (pl)ay, (pl)ay, then run, run, run!</br>"
+        "rhyme": "No kid likes peas piled on (pl)ates,</br>But (pl)aced in straws they\u2019re (pl)enty fun.</br>Blow so they shoot past people\u2019s faces</br>(Pl)ay, (pl)ay, (pl)ay, then run, run, run!</br>"
     },
     {
         "id": "P-PR",
@@ -2370,7 +2370,7 @@
             "street sweeper"
         ],
         "color": " black",
-        "rhyme": "Robin and Richard</br>Were two lazy men;</br>They (st)ayed in bed</br>Till the clock (st)ruck ten.</br>Then up jumps Robin</br>And looks at the sky:</br>\u201cOh, brother Richard,</br>The sun's very high.</br>You walk fir(st)</br>With the bottle and bag,</br>And I'll ride later</br>On the gray horse nag.\u201d</br>"
+        "rhyme": "Robin and Richard<br>Were two lazy men;</br>They (st)ayed in bed</br>Till the clock (st)ruck ten.</br>Then up jumps Robin</br>And looks at the sky:</br>\u201cOh, brother Richard,</br>The sun\u2019s very high.</br>You walk fir(st)</br>With the bottle and bag,</br>And I\u2019ll ride later</br>On the gray horse nag.\u201d</br>"
     },
     {
         "id": "S-SW",
@@ -2462,7 +2462,7 @@
             "grandmother"
         ],
         "color": " black",
-        "rhyme": "Bye; baby bunting;</br>Fa(th)er's gone a-hunting;</br>Mo(th)er's gone a-milking;</br>Sister's gone a-silking;</br>And Bro(th)er's gone for a rabbit skin;</br>To wrap little baby bunting in."
+        "rhyme": "Bye; baby bunting;<br>Fa(th)er's gone a-hunting;</br>Mo(th)er's gone a-milking;</br>Sister's gone a-silking;</br>And Bro(th)er's gone for a rabbit skin;</br>To wrap little baby bunting in."
     },
     {
         "id": "T-th",
@@ -2555,7 +2555,7 @@
             "music"
         ],
         "color": " black",
-        "rhyme": "He balanced a c(u)cumber on his nose,</br>But should have (u)sed binoc(u)lars to watch the roads.</br>A (u)nicycle's dangerous when clowns can't see\u2014</br>Quick call an amb(u)lance:  one, two, three!</br>"
+        "rhyme": "He balanced a c(u)cumber on his nose,</br>But should have (u)sed binoc(u)lars to watch the roads.</br>A (u)nicycle\u2019s dangerous when clowns can\u2019t see\u2014</br>Quick call an amb(u)lance:  one, two, three!</br>"
     },
     {
         "id": "U-uu",
@@ -2745,7 +2745,7 @@
             "wheel"
         ],
         "color": " black",
-        "rhyme": "Bill claimed a bully (wh)acked and (wh)opped his rib.</br>Mom said, \u201c(Wh)at?  (Wh)o?  (Wh)en?  (Wh)ere?\u201d</br>Kim said, \u201cThat's a (wh)opper, a big fat fib.\u201d</br>Bill said, \u201c(Wh)atever!\u201d -- (wh)ich means: I don't care.</br>"
+        "rhyme": "Bill claimed a bully (wh)acked and (wh)opped his rib.</br>Mom said, \u201c(Wh)at?  (Wh)o?  (Wh)en?  (Wh)ere?\u201d</br>Kim said, \u201cThat\u2019s a (wh)opper, a big fat fib.\u201d</br>Bill said, \u201c(Wh)atever!\u201d -- (wh)ich means: I don\u2019t care.</br>"
     },
     {
         "id": "X-ks",
@@ -2804,7 +2804,7 @@
             "yacht"
         ],
         "color": " black",
-        "rhyme": "Bah; bah; black sheep;</br>Have (y)ou any wool?</br>(Y)es sir; (Y)es sir;</br>Three bags full.</br></br>One for my master;</br>And one for my dame;</br>And one for the little boy</br>Who lives down the lane."
+        "rhyme": "Bah; bah; black sheep;<br>Have (y)ou any wool?</br>(Y)es sir; (Y)es sir;</br>Three bags full.</br></br>One for my master;</br>And one for my dame;</br>And one for the little boy</br>Who lives down the lane."
     },
     {
         "id": "Y-i",
@@ -2869,7 +2869,7 @@
             "celery"
         ],
         "color": " purple",
-        "rhyme": "Ride away; Ride away;</br>Johnn(y) shall ride;</br>And he shall have kitt(y) cat;</br>Tied to one side.</br>And he shall have pupp(y) dog;</br>Tied to the other;</br>And Johnn(y) shall ride;</br>To see his grandmother."
+        "rhyme": "Ride away; Ride away;<br>Johnn(y) shall ride;</br>And he shall have kitt(y) cat;</br>Tied to one side.</br>And he shall have pupp(y) dog;</br>Tied to the other;</br>And Johnn(y) shall ride;</br>To see his grandmother."
     },
     {
         "id": "Z-zzz",
@@ -2898,6 +2898,6 @@
             "hazelnuts"
         ],
         "color": " black",
-        "rhyme": "You're hard-working not la(z)y,</br>And brainy smart, not cra(z)y.</br>That's why you won this pu(zz)le pri(z)e.</br>Did your head grow one more si(z)e?</br>"
+        "rhyme": "You\u2019re hard-working not la(z)y,</br>And brainy smart, not cra(z)y.</br>That\u2019s why you won this pu(zz)le pri(z)e.</br>Did your head grow one more si(z)e?</br>"
     }
   ]
