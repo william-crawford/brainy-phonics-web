@@ -2,7 +2,7 @@ import {Injectable} from '@angular/core';
 import {AlphabetLetter} from '../types/alphabet-letter';
 import {BehaviorSubject, Observable} from 'rxjs';
 
-import * as json from '../../assets/json/phonemes.json';
+import * as json from '../../assets/json/letters.json';
 
 @Injectable({
   providedIn: 'root'
@@ -34,5 +34,6 @@ export class AlphabetLettersService {
     data.forEach(letter => {
       temp.push(new AlphabetLetter(letter.letter, `/assets/audio/letters/${letter.audio}`, 0));
     });
+    return data;
   }
 }
