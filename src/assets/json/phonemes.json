@@ -31,7 +31,7 @@
           "whale"
       ],
       "color": " black",
-      "rhyme": "Pat a c(a)ke; pat a c(a)ke; B(a)ker's man;\nB(a)ke me a c(a)ke as fast as you can.\nPit it and pat it and mark it with B;\nAnd put it in the oven for B(a)by and me."
+      "rhyme": "Pat a c(a)ke; pat a c(a)ke; B(a)ker's man;</br>B(a)ke me a c(a)ke as fast as you can.</br>Pit it and pat it and mark it with B;</br>And put it in the oven for B(a)by and me."
   },
   {
       "id": "A-short",
@@ -65,7 +65,7 @@
           "statue"
       ],
       "color": " green",
-      "rhyme": "B(a)t; b(a)t;\nCome under my h(a)t;\nAnd I'll give you a slice of bacon;\nAnd when I bake;\nI'll give you a cake;\nIf I am not mistaken."
+      "rhyme": "B(a)t; b(a)t;</br>Come under my h(a)t;</br>And I'll give you a slice of bacon;</br>And when I bake;</br>I'll give you a cake;</br>If I am not mistaken."
   },
   {
       "id": "A-ahh",
@@ -98,7 +98,7 @@
           "ball"
       ],
       "color": " purple",
-      "rhyme": "Children call me F(a)ther Goose,\nBecause when I w(a)nt to w(a)nder,\nI ride through the air\nOn a very fine gander.\n"
+      "rhyme": "Children call me F(a)ther Goose,</br>Because when I w(a)nt to w(a)nder,</br>I ride through the air</br>On a very fine gander.</br>"
   },
   {
       "id": "A-schwa",
@@ -126,7 +126,7 @@
           "balance beam"
       ],
       "color": " orange",
-      "rhyme": "(A)round the bush, Willie,\n(A)round the bee hive.\n(A)round the bush, Willie,\nI'll meet you (a)live."
+      "rhyme": "(A)round the bush, Willie,</br>(A)round the bee hive.</br>(A)round the bush, Willie,</br>I'll meet you (a)live."
   },
   {
       "id": "A-AI",
@@ -159,7 +159,7 @@
           "mailman"
       ],
       "color": " black",
-      "rhyme": "R(ai)n, r(ai)n, go to Sp(ai)n,\nNever come back again.\nR(ai)n, r(ai)n, go away,\nCome again another day.\nLittle Johny wants to play."
+      "rhyme": "R(ai)n, r(ai)n, go to Sp(ai)n,</br>Never come back again.</br>R(ai)n, r(ai)n, go away,</br>Come again another day.</br>Little Johny wants to play."
   },
   {
       "id": "A-AN",
@@ -189,7 +189,7 @@
           "kangaroo"
       ],
       "color": " black",
-      "rhyme": "Fr(an)kie Frog was afraid of (an)ts\u2014\nHe flopped on (an) (an)thill and up did pr(an)ce!\nTo shake fire (an)ts from his underp(an)ts,\nFr(an)kie Frog d(an)ced to Paris, Fr(an)ce!\n"
+      "rhyme": "Fr(an)kie Frog was afraid of (an)ts\u2014</br>He flopped on (an) (an)thill and up did pr(an)ce!</br>To shake fire (an)ts from his underp(an)ts,</br>Fr(an)kie Frog d(an)ced to Paris, Fr(an)ce!</br>"
   },
   {
       "id": "A-AR",
@@ -221,7 +221,7 @@
           "saint bernard"
       ],
       "color": " black",
-      "rhyme": "Twinkle, twinkle, little st(ar),\nHow I wonder what you (ar)e.\nUp above the world so high,\nLike a diamond in the sky."
+      "rhyme": "Twinkle, twinkle, little st(ar),</br>How I wonder what you (ar)e.</br>Up above the world so high,</br>Like a diamond in the sky."
   },
   {
       "id": "A-AU",
@@ -251,7 +251,7 @@
           "haul"
       ],
       "color": " black",
-      "rhyme": "Little Polly Flinders\nSat among the cinders,\nWarming her pretty little toes.\nHer mother came and c(au)ght her,\nWhipped her little d(au)ghter\nFor spoiling her nice new clothes."
+      "rhyme": "Little Polly Flinders</br>Sat among the cinders,</br>Warming her pretty little toes.</br>Her mother came and c(au)ght her,</br>Whipped her little d(au)ghter</br>For spoiling her nice new clothes."
   },
   {
       "id": "A-AW",
@@ -282,7 +282,7 @@
           "see saw"
       ],
       "color": " black",
-      "rhyme": "See s(aw), Margery D(aw),\nJacky shall have a new master.\nJacky will earn just a penny a day,\nBecause he will work no faster."
+      "rhyme": "See s(aw), Margery D(aw),</br>Jacky shall have a new master.</br>Jacky will earn just a penny a day,</br>Because he will work no faster."
   },
   {
       "id": "A-AY",
@@ -308,7 +308,7 @@
           "daybreak"
       ],
       "color": " black",
-      "rhyme": "How many d(ay)s has my baby to pl(ay)?\nSaturd(ay); Sund(ay); Mond(ay);\nTuesd(ay); Wednesd(ay); Thursd(ay); Frid(ay);\nSaturd(ay); Sund(ay); Mond(ay)."
+      "rhyme": "How many d(ay)s has my baby to pl(ay)?</br>Saturd(ay); Sund(ay); Mond(ay);</br>Tuesd(ay); Wednesd(ay); Thursd(ay); Frid(ay);</br>Saturd(ay); Sund(ay); Mond(ay)."
   },
   {
       "id": "B-buh",
@@ -342,7 +342,7 @@
           "balance"
       ],
       "color": " black",
-      "rhyme": "Rock-a-(b)ye; (B)aby; on the tree top;\nWhen the wind (b)lows the cradle will rock;\nWhen the (b)ough (b)reaks the cradle will fall;\nand down will come (B)aby; cradle; and all."
+      "rhyme": "Rock-a-(b)ye; (B)aby; on the tree top;</br>When the wind (b)lows the cradle will rock;</br>When the (b)ough (b)reaks the cradle will fall;</br>and down will come (B)aby; cradle; and all."
   },
   {
       "id": "B-BL",
@@ -368,7 +368,7 @@
           "blew"
       ],
       "color": " black",
-      "rhyme": "Little Boy (Bl)ue; come (bl)ow your horn;\nThe sheep's in the meadow; the cow's in the corn.\nWhere is the boy who minds the sheep?\nUnder the haystack fast asleep.\nWill you wake him?\nNo; not I;\nFor if I do he's sure to cry."
+      "rhyme": "Little Boy (Bl)ue; come (bl)ow your horn;</br>The sheep's in the meadow; the cow's in the corn.</br>Where is the boy who minds the sheep?</br>Under the haystack fast asleep.</br>Will you wake him?</br>No; not I;</br>For if I do he's sure to cry."
   },
   {
       "id": "B-BR",
@@ -399,7 +399,7 @@
           "brown"
       ],
       "color": " black",
-      "rhyme": "London (Br)idge is falling down,\nFalling down, falling down.\nLondon (Br)idge is falling down.\nMy fair lady.\n\nBuild it up with stones and (br)icks,\nStones and (br)icks, stones and (br)icks.\nBuild it up with stones and (br)icks,\nMy fair lady."
+      "rhyme": "London (Br)idge is falling down,</br>Falling down, falling down.</br>London (Br)idge is falling down.</br>My fair lady.</br></br>Build it up with stones and (br)icks,</br>Stones and (br)icks, stones and (br)icks.</br>Build it up with stones and (br)icks,</br>My fair lady."
   },
   {
       "id": "C-kuh",
@@ -433,7 +433,7 @@
           "car"
       ],
       "color": " black",
-      "rhyme": "Little Robin Redbreast sat upon a tree;\nUp went the Kitty-(C)at; and down went he;\nDown came Kitty-(C)at; away Robin ran;\nSays little Robin Redbreast:\n\"(C)atch me if you (c)an!\""
+      "rhyme": "Little Robin Redbreast sat upon a tree;</br>Up went the Kitty-(C)at; and down went he;</br>Down came Kitty-(C)at; away Robin ran;</br>Says little Robin Redbreast:</br>\"(C)atch me if you (c)an!\""
   },
   {
       "id": "C-sss",
@@ -464,7 +464,7 @@
           "dancing"
       ],
       "color": " green",
-      "rhyme": "(C)elery, lettu(c)e, and ri(c)e aren\u2019t my dream,\nBut you scream, I scream, we all scream for i(c)e cream!\n"
+      "rhyme": "(C)elery, lettu(c)e, and ri(c)e aren\u2019t my dream,</br>But you scream, I scream, we all scream for i(c)e cream!</br>"
   },
   {
       "id": "C-CH",
@@ -494,7 +494,7 @@
           "chainsaw"
       ],
       "color": " black",
-      "rhyme": "Cross pat(ch); pull the lat(ch);\nSit by the fire and spin;\nTake a cup and drink it up;\nThen call your neighbors in."
+      "rhyme": "Cross pat(ch); pull the lat(ch);</br>Sit by the fire and spin;</br>Take a cup and drink it up;</br>Then call your neighbors in."
   },
   {
       "id": "C-CL",
@@ -525,7 +525,7 @@
           "four-leaf clover"
       ],
       "color": " black",
-      "rhyme": "Tickety-tock, (cl)imb up the (cl)ock,\nDon\u2019t let the time get dirty.\nTickety-tock we (cl)eaned the (cl)ock,\nNow one o\u2019(cl)ock looks pretty.\n"
+      "rhyme": "Tickety-tock, (cl)imb up the (cl)ock,</br>Don\u2019t let the time get dirty.</br>Tickety-tock we (cl)eaned the (cl)ock,</br>Now one o\u2019(cl)ock looks pretty.</br>"
   },
   {
       "id": "C-CR",
@@ -555,7 +555,7 @@
           "screws"
       ],
       "color": " black",
-      "rhyme": "There was a (cr)ooked man;\nAnd he walked a (cr)ooked mile;\nHe found a (cr)ooked sixpence;\nAgainst a (cr)ooked tile;\nHe bought a (cr)ooked cat;\nWhich caught a (cr)ooked mouse;\nAnd they all lived together;\nIn a little (cr)ooked house."
+      "rhyme": "There was a (cr)ooked man;</br>And he walked a (cr)ooked mile;</br>He found a (cr)ooked sixpence;</br>Against a (cr)ooked tile;</br>He bought a (cr)ooked cat;</br>Which caught a (cr)ooked mouse;</br>And they all lived together;</br>In a little (cr)ooked house."
   },
   {
       "id": "D-duh",
@@ -589,7 +589,7 @@
           "proud"
       ],
       "color": " black",
-      "rhyme": "(D)iddle; (d)iddle; (d)umpling; my son John;\nWent to be(d) with his trousers on;\nOne stocking off; and one stocking on;\n(D)iddle; (d)iddle; (d)umpling; my son John."
+      "rhyme": "(D)iddle; (d)iddle; (d)umpling; my son John;</br>Went to be(d) with his trousers on;</br>One stocking off; and one stocking on;</br>(D)iddle; (d)iddle; (d)umpling; my son John."
   },
   {
       "id": "D-DR",
@@ -617,7 +617,7 @@
           "cauldron"
       ],
       "color": " black",
-      "rhyme": "Three chil(dr)en sliding on the ice;\nAll on a winter's day;\nAs it fell out; they all fell in;\nThe rest they ran away."
+      "rhyme": "Three chil(dr)en sliding on the ice;</br>All on a winter's day;</br>As it fell out; they all fell in;</br>The rest they ran away."
   },
   {
       "id": "E-long",
@@ -651,7 +651,7 @@
           "wheelchair"
       ],
       "color": " black",
-      "rhyme": "Little Bo-p(ee)p has lost her sh(ee)p;\nAnd doesn't know where to find them;\nLeave them alone; and they'll come home;\nWagging their tails behind them."
+      "rhyme": "Little Bo-p(ee)p has lost her sh(ee)p;</br>And doesn't know where to find them;</br>Leave them alone; and they'll come home;</br>Wagging their tails behind them."
   },
   {
       "id": "E-short",
@@ -683,7 +683,7 @@
           "question"
       ],
       "color": " green",
-      "rhyme": "Hick(e)ty; pick(e)ty; my black h(e)n;\nShe lays (e)ggs for gentlem(e)n;\nGentlem(e)n come (e)very day;\nTo see what my black h(e)n does lay."
+      "rhyme": "Hick(e)ty; pick(e)ty; my black h(e)n;</br>She lays (e)ggs for gentlem(e)n;</br>Gentlem(e)n come (e)very day;</br>To see what my black h(e)n does lay."
   },
   {
       "id": "E-schwa",
@@ -713,7 +713,7 @@
           "quiet"
       ],
       "color": " orange",
-      "rhyme": "The el(e)phant want(e)d to cheat on her di(e)t\nFound one gold(e)n cookie in the warm ov(e)n,\nOne in the gard(e)n, two in a torn pock(e)t,\nThree hid in the kitch(e)n, that made sev(e)n,\nBought two at the mark(e)t, spied one in a bask(e)t,\nPlus one she kept froz(e)n, that was elev(e)n,\nAnd one from her lock(e)t, made twelve, a full doz(e)n\nWhen she started to eat them it felt like pure heav(e)n!\n"
+      "rhyme": "The el(e)phant want(e)d to cheat on her di(e)t</br>Found one gold(e)n cookie in the warm ov(e)n,</br>One in the gard(e)n, two in a torn pock(e)t,</br>Three hid in the kitch(e)n, that made sev(e)n,</br>Bought two at the mark(e)t, spied one in a bask(e)t,</br>Plus one she kept froz(e)n, that was elev(e)n,</br>And one from her lock(e)t, made twelve, a full doz(e)n</br>When she started to eat them it felt like pure heav(e)n!</br>"
   },
   {
       "id": "E-EA",
@@ -747,7 +747,7 @@
           "balance beam"
       ],
       "color": " black",
-      "rhyme": "Jack Sprat would (ea)t no fat;\nHis wife would (ea)t no l(ea)n;\nAnd so between the two of them;\nThey licked the platter cl(ea)n.\n"
+      "rhyme": "Jack Sprat would (ea)t no fat;</br>His wife would (ea)t no l(ea)n;</br>And so between the two of them;</br>They licked the platter cl(ea)n.</br>"
   },
   {
       "id": "E-ER",
@@ -781,7 +781,7 @@
           "spider"
       ],
       "color": " black",
-      "rhyme": "Pet(er); Pet(er); pumpkin eat(er);\nHad a wife and couldn't keep h(er);\nHe put h(er) in a pumpkin shell;\nAnd then he kept h(er) very well."
+      "rhyme": "Pet(er); Pet(er); pumpkin eat(er);</br>Had a wife and couldn't keep h(er);</br>He put h(er) in a pumpkin shell;</br>And then he kept h(er) very well."
   },
   {
       "id": "E-ET",
@@ -813,7 +813,7 @@
           "bucket"
       ],
       "color": " black",
-      "rhyme": "Lucy Lock(et) lost her pock(et);\nKitty Fisher found it.\nThere was not a penny in it;\nBut a ribbon round it."
+      "rhyme": "Lucy Lock(et) lost her pock(et);</br>Kitty Fisher found it.</br>There was not a penny in it;</br>But a ribbon round it."
   },
   {
       "id": "E-EW",
@@ -841,7 +841,7 @@
           "jewelry"
       ],
       "color": " black",
-      "rhyme": "The hungry cuckoo fl(ew)\nThen found a cash(ew)\nHis beak couldn\u2019t ch(ew).\nWhat could he do?\nHe br(ew)ed cash(ew) st(ew)\nWhich smelled really P U!\nBut tasted great with barbecue.\n\n"
+      "rhyme": "The hungry cuckoo fl(ew)</br>Then found a cash(ew)</br>His beak couldn\u2019t ch(ew).</br>What could he do?</br>He br(ew)ed cash(ew) st(ew)</br>Which smelled really P U!</br>But tasted great with barbecue.</br></br>"
   },
   {
       "id": "F-fuh",
@@ -875,7 +875,7 @@
           "surfboard"
       ],
       "color": " black",
-      "rhyme": "Little Miss Mu(ff)et;\nSat on a tu(ff)et;\nEating some curds and whey.\nAlong came a spider;\nAnd sat down beside her;\nAnd frightened Miss Mu(ff)et away."
+      "rhyme": "Little Miss Mu(ff)et;</br>Sat on a tu(ff)et;</br>Eating some curds and whey.</br>Along came a spider;</br>And sat down beside her;</br>And frightened Miss Mu(ff)et away."
   },
   {
       "id": "F-FL",
@@ -905,7 +905,7 @@
           "flame"
       ],
       "color": " black",
-      "rhyme": "A hungry (fl)y (fl)ew in a (fl)ower,\nThen dreamed of sweets for half an hour.\nA (fl)ea (fl)oating by yelled, \u201cStay awake!\nI just baked us a snow(fl)ake cake!\u201d\n"
+      "rhyme": "A hungry (fl)y (fl)ew in a (fl)ower,</br>Then dreamed of sweets for half an hour.</br>A (fl)ea (fl)oating by yelled, \u201cStay awake!</br>I just baked us a snow(fl)ake cake!\u201d</br>"
   },
   {
       "id": "F-FR",
@@ -934,7 +934,7 @@
           "frog pads"
       ],
       "color": " black",
-      "rhyme": "On (Fr)iday night, \nMy (fr)iend and I\nHad (fr)ozen (fr)ench-(fr)y soup\nAnd (fr)og leg pie.\n\n(Fr)ied ice cream\nAnd fish heads in a cup,\nI hope some medicine \nWill help me throw up.\n"
+      "rhyme": "On (Fr)iday night, </br>My (fr)iend and I</br>Had (fr)ozen (fr)ench-(fr)y soup</br>And (fr)og leg pie.</br></br>(Fr)ied ice cream</br>And fish heads in a cup,</br>I hope some medicine </br>Will help me throw up.</br>"
   },
   {
       "id": "G-guh",
@@ -968,7 +968,7 @@
           "seagulls"
       ],
       "color": " black",
-      "rhyme": "(G)oosey; (g)oosey; (g)ander; where do you wander?\nUpstairs and downstairs and in my lady's chamber;\nThere I met an old man who wouldn't say his prayers;\nI took him by his hind le(g)s and threw him downstairs."
+      "rhyme": "(G)oosey; (g)oosey; (g)ander; where do you wander?</br>Upstairs and downstairs and in my lady's chamber;</br>There I met an old man who wouldn't say his prayers;</br>I took him by his hind le(g)s and threw him downstairs."
   },
   {
       "id": "G-juh",
@@ -997,7 +997,7 @@
           "bandage"
       ],
       "color": " green",
-      "rhyme": "(G)eorgie Por(g)ie, pudding and pie,\nKissed the girls and made them cry.\nWhen the boys came out to play,\n(G)eorgie Por(g)ie ran away."
+      "rhyme": "(G)eorgie Por(g)ie, pudding and pie,</br>Kissed the girls and made them cry.</br>When the boys came out to play,</br>(G)eorgie Por(g)ie ran away."
   },
   {
       "id": "G-GL",
@@ -1026,7 +1026,7 @@
           "spyglass"
       ],
       "color": " black",
-      "rhyme": "A (gl)ass of juice\nAnd a (gl)azed donut,\nPut (gl)ad in the heart\nAnd a (gl)ow in the gut."
+      "rhyme": "A (gl)ass of juice</br>And a (gl)azed donut,</br>Put (gl)ad in the heart</br>And a (gl)ow in the gut."
   },
   {
       "id": "G-GR",
@@ -1058,7 +1058,7 @@
           "grandfather clock"
       ],
       "color": " black",
-      "rhyme": "(Gr)ouchy (gr)emlin\u2019s (gr)umpy tummy (gr)owled,\n\u201cI\u2019m hun(gr)y, feed me, feed me,\u201d it howled.\nWhen a (gr)inning (gr)izzly (gr)abbed it tight,\n(Gr)umpy tummy squeeeezed out of sight.\n"
+      "rhyme": "(Gr)ouchy (gr)emlin\u2019s (gr)umpy tummy (gr)owled,</br>\u201cI\u2019m hun(gr)y, feed me, feed me,\u201d it howled.</br>When a (gr)inning (gr)izzly (gr)abbed it tight,</br>(Gr)umpy tummy squeeeezed out of sight.</br>"
   },
   {
       "id": "H-huh",
@@ -1092,7 +1092,7 @@
           "hit"
       ],
       "color": " black",
-      "rhyme": "(H)umpty Dumpty sat on a wall;\n(H)umpty Dumpty (h)ad a great fall;\nAll the king's (h)orses and all the king's men;\nCouldn't put (H)umpty Dumpty together again."
+      "rhyme": "(H)umpty Dumpty sat on a wall;</br>(H)umpty Dumpty (h)ad a great fall;</br>All the king's (h)orses and all the king's men;</br>Couldn't put (H)umpty Dumpty together again."
   },
   {
       "id": "I-long",
@@ -1124,7 +1124,7 @@
           "five"
       ],
       "color": " black",
-      "rhyme": "Three bl(i)nd m(i)ce, three bl(i)nd m(i)ce,\nSee how they run, see how they run.\nThey all ran after the farmer's w(i)fe,\nShe cut off their tails with a carving kn(i)fe.\nDid you ever see such a s(i)ght in your l(i)fe\nAs three bl(i)nd m(i)ce?"
+      "rhyme": "Three bl(i)nd m(i)ce, three bl(i)nd m(i)ce,</br>See how they run, see how they run.</br>They all ran after the farmer's w(i)fe,</br>She cut off their tails with a carving kn(i)fe.</br>Did you ever see such a s(i)ght in your l(i)fe</br>As three bl(i)nd m(i)ce?"
   },
   {
       "id": "I-short",
@@ -1158,7 +1158,7 @@
           "ostrich"
       ],
       "color": " green",
-      "rhyme": "Jack; be n(i)mble; Jack; be qu(i)ck.\nJack; jump over the candlest(i)ck."
+      "rhyme": "Jack; be n(i)mble; Jack; be qu(i)ck.</br>Jack; jump over the candlest(i)ck."
   },
   {
       "id": "I-schwa",
@@ -1183,7 +1183,7 @@
           ""
       ],
       "color": " orange",
-      "rhyme": "Oh, do you know the muff(i)n-man,\nThe muff(i)n-man, the muff(i)n-man?\nDo you know the muff(i)n-man\nWho lives in Drury Lane?\n\nYes, I know the muff(i)n-man,\nThe muff(i)n-man, the muff(i)n-man.\nYes, I know the muff(i)n-man\nWho lives in Drury Lane."
+      "rhyme": "Oh, do you know the muff(i)n-man,</br>The muff(i)n-man, the muff(i)n-man?</br>Do you know the muff(i)n-man</br>Who lives in Drury Lane?</br></br>Yes, I know the muff(i)n-man,</br>The muff(i)n-man, the muff(i)n-man.</br>Yes, I know the muff(i)n-man</br>Who lives in Drury Lane."
   },
   {
       "id": "I-ee",
@@ -1212,7 +1212,7 @@
           "diesel truck"
       ],
       "color": " black",
-      "rhyme": "Cranberr(ie)s for yummy muffins,\nAnd also berr(ie)s blue,\nStrawberr(ie)s for scrumptious jelly,\nRaspberr(ie)s and blackberr(ie)s too!"
+      "rhyme": "Cranberr(ie)s for yummy muffins,</br>And also berr(ie)s blue,</br>Strawberr(ie)s for scrumptious jelly,</br>Raspberr(ie)s and blackberr(ie)s too!"
   },
   {
       "id": "I-ie",
@@ -1242,7 +1242,7 @@
           "bow tie"
       ],
       "color": " green",
-      "rhyme": "There was an old woman lived under the hill;\nAnd if she's not gone she lives there still;\nBaked apples she sold; and cranberry p(ie)s;\nAnd she's the old woman who never told l(ie)s."
+      "rhyme": "There was an old woman lived under the hill;</br>And if she's not gone she lives there still;</br>Baked apples she sold; and cranberry p(ie)s;</br>And she's the old woman who never told l(ie)s."
   },
   {
       "id": "I-IGH",
@@ -1271,7 +1271,7 @@
           "flight"
       ],
       "color": " black",
-      "rhyme": "Star l(igh)t, star br(igh)t,\nFirst star I see ton(igh)t,\nI wish I may, I wish I m(igh)t,\nHave the wish I wish ton(igh)t."
+      "rhyme": "Star l(igh)t, star br(igh)t,</br>First star I see ton(igh)t,</br>I wish I may, I wish I m(igh)t,</br>Have the wish I wish ton(igh)t."
   },
   {
       "id": "I-IL",
@@ -1300,7 +1300,7 @@
           "pencil"
       ],
       "color": " black",
-      "rhyme": "Jack and J(ill) went up the h(ill);\nTo fetch a pail of water;\nJack fell down and broke his crown;\nAnd J(ill) came tumbling after."
+      "rhyme": "Jack and J(ill) went up the h(ill);</br>To fetch a pail of water;</br>Jack fell down and broke his crown;</br>And J(ill) came tumbling after."
   },
   {
       "id": "I-IR",
@@ -1329,7 +1329,7 @@
           "shirt"
       ],
       "color": " black",
-      "rhyme": "On her b(ir)thday the g(ir)l\nWh(ir)led her pearls, sw(ir)led her sk(ir)t,\nGave her sh(ir)t tail a tw(ir)l,\nSt(ir)red her toe in the d(ir)t,\nUntil, so I heard,\nShe looked just like a b(ir)d!\n"
+      "rhyme": "On her b(ir)thday the g(ir)l</br>Wh(ir)led her pearls, sw(ir)led her sk(ir)t,</br>Gave her sh(ir)t tail a tw(ir)l,</br>St(ir)red her toe in the d(ir)t,</br>Until, so I heard,</br>She looked just like a b(ir)d!</br>"
   },
   {
       "id": "J-juh",
@@ -1359,7 +1359,7 @@
           "judge"
       ],
       "color": " black",
-      "rhyme": "Here am I; Little (j)umping (J)oan;\nWhen nobody's with me;\nI'm always alone."
+      "rhyme": "Here am I; Little (j)umping (J)oan;</br>When nobody's with me;</br>I'm always alone."
   },
   {
       "id": "K-kuh",
@@ -1391,7 +1391,7 @@
           "blanket"
       ],
       "color": " black",
-      "rhyme": "Lucy Loc(k)et lost her poc(k)et,\n(K)itty Fisher found it;\nThere was not a penny in it,\nBut a ribbon round it.\n"
+      "rhyme": "Lucy Loc(k)et lost her poc(k)et,</br>(K)itty Fisher found it;</br>There was not a penny in it,</br>But a ribbon round it.</br>"
   },
   {
       "id": "L-lll",
@@ -1425,7 +1425,7 @@
           "wolf"
       ],
       "color": " black",
-      "rhyme": "Mary had a (l)ittle (l)amb,\nIts f(l)eece was white as snow,\nAnd everywhere that Mary went,\nThe (l)amb was sure to go."
+      "rhyme": "Mary had a (l)ittle (l)amb,</br>Its f(l)eece was white as snow,</br>And everywhere that Mary went,</br>The (l)amb was sure to go."
   },
   {
       "id": "L-LE",
@@ -1458,7 +1458,7 @@
           "beagle"
       ],
       "color": " black",
-      "rhyme": "The sow came in with the sadd(le);\nThe litt(le) pig rocked the crad(le);\nThe dish jumped up on the tab(le);\nTo see the pot swallow the lad(le)."
+      "rhyme": "The sow came in with the sadd(le);</br>The litt(le) pig rocked the crad(le);</br>The dish jumped up on the tab(le);</br>To see the pot swallow the lad(le)."
   },
   {
       "id": "M-mmm",
@@ -1492,7 +1492,7 @@
           "jump"
       ],
       "color": " black",
-      "rhyme": "One (m)isty; (m)oisty (m)orning;\nWhen cloudy was the weather;\nI happened to (m)eet an old (m)an clothed all in leather.\nHe began to co(m)pli(m)ent; and I began to grin;\nHow do you do; and how do you do?\nAnd how do you do again?"
+      "rhyme": "One (m)isty; (m)oisty (m)orning;</br>When cloudy was the weather;</br>I happened to (m)eet an old (m)an clothed all in leather.</br>He began to co(m)pli(m)ent; and I began to grin;</br>How do you do; and how do you do?</br>And how do you do again?"
   },
   {
       "id": "N-nnn",
@@ -1526,7 +1526,7 @@
           "canary"
       ],
       "color": " black",
-      "rhyme": "(N)eedles a(n)d pi(n)s,\n(N)eedles a(n)d pi(n)s.\nWhe(n) a ma(n) marries,\nhis trouble begi(n)s."
+      "rhyme": "(N)eedles a(n)d pi(n)s,</br>(N)eedles a(n)d pi(n)s.</br>Whe(n) a ma(n) marries,</br>his trouble begi(n)s."
   },
   {
       "id": "N-ND",
@@ -1560,7 +1560,7 @@
           "grandfather"
       ],
       "color": " black",
-      "rhyme": "Ha(nd)y-spa(nd)y; Jacky da(nd)y;\nLoves plum cake a(nd) sugar ca(nd)y.\nHe bought some at a grocer's shop;\nA(nd) pleased ran away going hop; hop; hop."
+      "rhyme": "Ha(nd)y-spa(nd)y; Jacky da(nd)y;</br>Loves plum cake a(nd) sugar ca(nd)y.</br>He bought some at a grocer's shop;</br>A(nd) pleased ran away going hop; hop; hop."
   },
   {
       "id": "N-NG",
@@ -1590,7 +1590,7 @@
           "dancing"
       ],
       "color": " black",
-      "rhyme": "Si(ng) a so(ng) of sixpence, a pocket full of rye,\nFour and twenty blackbirds baked in a pie.\nWhen the pie was opened the birds began to si(ng),\nNow wasn\u2019t this a dainty dish to set before the ki(ng)?\n\nThe ki(ng) was in the parlor counti(ng) out his money;\nThe queen was in the kitchen eati(ng) bread and honey;\nThe maid was in the garden ha(ng)i(ng) out the clothes,\nAnd alo(ng) came a blackbird and nipped off her nose.\n"
+      "rhyme": "Si(ng) a so(ng) of sixpence, a pocket full of rye,</br>Four and twenty blackbirds baked in a pie.</br>When the pie was opened the birds began to si(ng),</br>Now wasn\u2019t this a dainty dish to set before the ki(ng)?</br></br>The ki(ng) was in the parlor counti(ng) out his money;</br>The queen was in the kitchen eati(ng) bread and honey;</br>The maid was in the garden ha(ng)i(ng) out the clothes,</br>And alo(ng) came a blackbird and nipped off her nose.</br>"
   },
   {
       "id": "N-NK",
@@ -1621,7 +1621,7 @@
           "monkey wrench"
       ],
       "color": " black",
-      "rhyme": "There was an old woman; and what do you thi(nk)?\nShe lived upon nothing but foods and dri(nk);\nFood and dri(nk) made up most of her diet;\nAnd yet this old woman could never be quiet."
+      "rhyme": "There was an old woman; and what do you thi(nk)?</br>She lived upon nothing but foods and dri(nk);</br>Food and dri(nk) made up most of her diet;</br>And yet this old woman could never be quiet."
   },
   {
       "id": "O-long",
@@ -1655,7 +1655,7 @@
           "robot"
       ],
       "color": " black",
-      "rhyme": "(O)ld King C(o)le;\nWas a merry (o)ld s(o)ul;\nAnd a merry (o)ld s(o)ul was he;\nHe called for his pipe;\nAnd he called for his b(o)wl;\nAnd he called for his fiddlers three."
+      "rhyme": "(O)ld King C(o)le;</br>Was a merry (o)ld s(o)ul;</br>And a merry (o)ld s(o)ul was he;</br>He called for his pipe;</br>And he called for his b(o)wl;</br>And he called for his fiddlers three."
   },
   {
       "id": "O-short",
@@ -1689,7 +1689,7 @@
           "crayon"
       ],
       "color": " green",
-      "rhyme": "H(o)t cr(o)ss buns, h(o)t cr(o)ss buns.\nOne a penny, two a penny,\nH(o)t cr(o)ss buns!\n\nIf your daughters do n(o)t like them,\nGive them to your sons.\nOne a penny, two a penny,\nH(o)t cr(o)ss buns!"
+      "rhyme": "H(o)t cr(o)ss buns, h(o)t cr(o)ss buns.</br>One a penny, two a penny,</br>H(o)t cr(o)ss buns!</br></br>If your daughters do n(o)t like them,</br>Give them to your sons.</br>One a penny, two a penny,</br>H(o)t cr(o)ss buns!"
   },
   {
       "id": "O-uh",
@@ -1721,7 +1721,7 @@
           "monkey bars"
       ],
       "color": " orange",
-      "rhyme": "He l(o)ves me.\nHe d(o)esn't!\nHe'll have me.\nHe won't!\n\nHe would if he could,\nBut he can't, so he won't!"
+      "rhyme": "He l(o)ves me.</br>He d(o)esn't!</br>He'll have me.</br>He won't!</br></br>He would if he could,</br>But he can't, so he won't!"
   },
   {
       "id": "O-ew",
@@ -1755,7 +1755,7 @@
           "tool belt"
       ],
       "color": " black",
-      "rhyme": "The man in the m(oo)n came down t(oo) s(oo)n;\nTo inquire the way to Norridge;\nThe man in the south; he burnt his mouth;\nWith eating cold plum porridge."
+      "rhyme": "The man in the m(oo)n came down t(oo) s(oo)n;</br>To inquire the way to Norridge;</br>The man in the south; he burnt his mouth;</br>With eating cold plum porridge."
   },
   {
       "id": "O-uuh",
@@ -1785,7 +1785,7 @@
           "book"
       ],
       "color": " green",
-      "rhyme": "Little Bopeep never underst(oo)d,\nWhen little Miss Red Riding H(oo)d\nWent trick-or-treat in our neighborh(oo)d\nWith little Mister Captain H(oo)k,\nIt wasn\u2019t c(oo)kies or candy they t(oo)k,\nEach picked a little picture b(oo)k.\n"
+      "rhyme": "Little Bopeep never underst(oo)d,</br>When little Miss Red Riding H(oo)d</br>Went trick-or-treat in our neighborh(oo)d</br>With little Mister Captain H(oo)k,</br>It wasn\u2019t c(oo)kies or candy they t(oo)k,</br>Each picked a little picture b(oo)k.</br>"
   },
   {
       "id": "O-OA",
@@ -1814,7 +1814,7 @@
           "front loader"
       ],
       "color": " black",
-      "rhyme": "Little Nanny Ettic(oa)t;\nIn a white pettic(oa)t;\nAnd a red nose;\nThe longer she stands;\nThe shorter she grows."
+      "rhyme": "Little Nanny Ettic(oa)t;</br>In a white pettic(oa)t;</br>And a red nose;</br>The longer she stands;</br>The shorter she grows."
   },
   {
       "id": "O-OI",
@@ -1843,7 +1843,7 @@
           "six-point-star"
       ],
       "color": " black",
-      "rhyme": "A toy box you put toys in.\nPin a balloon and you\u2019ll sp(oi)l it.\nA pan\u2019s for putting (oi)ly c(oi)ns in.\nTo clean them add water and b(oi)l it.\nTime out\u2019s for putting n(oi)sy boys in.\nP(oi)son? Pour it in the t(oi)let!\n"
+      "rhyme": "A toy box you put toys in.</br>Pin a balloon and you\u2019ll sp(oi)l it.</br>A pan\u2019s for putting (oi)ly c(oi)ns in.</br>To clean them add water and b(oi)l it.</br>Time out\u2019s for putting n(oi)sy boys in.</br>P(oi)son? Pour it in the t(oi)let!</br>"
   },
   {
       "id": "O-OR",
@@ -1872,7 +1872,7 @@
           "forest"
       ],
       "color": " black",
-      "rhyme": "Little Jack H(or)ner;\nSat in a c(or)ner;\nEating a Christmas pie;\nHe put in his thumb;\nAnd pulled out a plum;\nAnd said: \"What a good boy am I!\""
+      "rhyme": "Little Jack H(or)ner;</br>Sat in a c(or)ner;</br>Eating a Christmas pie;</br>He put in his thumb;</br>And pulled out a plum;</br>And said: \"What a good boy am I!\""
   },
   {
       "id": "O-OU",
@@ -1903,7 +1903,7 @@
           "cloudy"
       ],
       "color": " black",
-      "rhyme": "I'm a little teapot,\nshort and st(ou)t.\nHere is my handle,\nhere is my sp(ou)t.\n\nWhen I see the teacups,\nhear me sh(ou)t:\n\"Tip me over,\nAnd pour me (ou)t!\"\n"
+      "rhyme": "I'm a little teapot,</br>short and st(ou)t.</br>Here is my handle,</br>here is my sp(ou)t.</br></br>When I see the teacups,</br>hear me sh(ou)t:</br>\"Tip me over,</br>And pour me (ou)t!\"</br>"
   },
   {
       "id": "O-ohw",
@@ -1933,7 +1933,7 @@
           "lawnmower"
       ],
       "color": " black",
-      "rhyme": "The north wind does bl(ow);\nAnd we shall have sn(ow);\nAnd what will poor robin do then?\nPoor thing!\n\nHe'll sit in the barn;\nAnd keep himself warm;\nAnd hide his head under his wing.\nPoor thing!"
+      "rhyme": "The north wind does bl(ow);</br>And we shall have sn(ow);</br>And what will poor robin do then?</br>Poor thing!</br></br>He'll sit in the barn;</br>And keep himself warm;</br>And hide his head under his wing.</br>Poor thing!"
   },
   {
       "id": "O-ow",
@@ -1965,7 +1965,7 @@
           "wedding gown"
       ],
       "color": " green",
-      "rhyme": "Daffy-d(ow)n-dilly has come to t(ow)n,\nWith a green petticoat\nand a bright yellow g(ow)n.\n"
+      "rhyme": "Daffy-d(ow)n-dilly has come to t(ow)n,</br>With a green petticoat</br>and a bright yellow g(ow)n.</br>"
   },
   {
       "id": "O-OY",
@@ -1993,7 +1993,7 @@
           "royal"
       ],
       "color": " black",
-      "rhyme": "A b(oy) needs a t(oy)\nThat he can enj(oy)\nOr he'll have to ann(oy) a grown-up,\nClimb on the highb(oy),\nFind a pile to destr(oy),\nOr play cowb(oy) till doggie has thrown-up.\n"
+      "rhyme": "A b(oy) needs a t(oy)</br>That he can enj(oy)</br>Or he'll have to ann(oy) a grown-up,</br>Climb on the highb(oy),</br>Find a pile to destr(oy),</br>Or play cowb(oy) till doggie has thrown-up.</br>"
   },
   {
       "id": "P-puh",
@@ -2027,7 +2027,7 @@
           "trumpet"
       ],
       "color": " black",
-      "rhyme": "(P)ease (p)orridge hot; (p)ease (p)orridge cold;\n(P)ease (p)orridge in the (p)ot; nine days old.\nSome like it hot; some like it cold;\nSome like it in the (p)ot; nine days old.\nS(p)ell me that in four letters:\nI will: T H A T."
+      "rhyme": "(P)ease (p)orridge hot; (p)ease (p)orridge cold;</br>(P)ease (p)orridge in the (p)ot; nine days old.</br>Some like it hot; some like it cold;</br>Some like it in the (p)ot; nine days old.</br>S(p)ell me that in four letters:</br>I will: T H A T."
   },
   {
       "id": "P-PL",
@@ -2055,7 +2055,7 @@
           "plug"
       ],
       "color": " black",
-      "rhyme": "No kid likes peas piled on (pl)ates,\nBut (pl)aced in straws they\u2019re (pl)enty fun.\nBlow so they shoot past people\u2019s faces\n(Pl)ay, (pl)ay, (pl)ay, then run, run, run!\n"
+      "rhyme": "No kid likes peas piled on (pl)ates,</br>But (pl)aced in straws they\u2019re (pl)enty fun.</br>Blow so they shoot past people\u2019s faces</br>(Pl)ay, (pl)ay, (pl)ay, then run, run, run!</br>"
   },
   {
       "id": "P-PR",
@@ -2082,7 +2082,7 @@
           "spray"
       ],
       "color": " black",
-      "rhyme": "As I was going up (Pr)imrose Hill;\n(Pr)imrose Hill was dirty;\nThere I met a (pr)etty girl;\nAnd she gave me a curtsey.\nLittle girl; (pr)etty girl;\nBlessings be upon you;\nIf I had half-a-dollar a day;\nI'd spend it all on you."
+      "rhyme": "As I was going up (Pr)imrose Hill;</br>(Pr)imrose Hill was dirty;</br>There I met a (pr)etty girl;</br>And she gave me a curtsey.</br>Little girl; (pr)etty girl;</br>Blessings be upon you;</br>If I had half-a-dollar a day;</br>I'd spend it all on you."
   },
   {
       "id": "Q-qwuh",
@@ -2114,7 +2114,7 @@
           "carpenter's square"
       ],
       "color": " black",
-      "rhyme": "(Q)ueen Croc napped on her (q)uilt,\nMama duck (q)uacked, \u201cBe (q)uiet!\u201d\n\u201cWhat?\u201d (Q)uacked the duckling.\n\u201c(Q)uit!\u201d Mama (q)uacked, \u201cDucks are her diet!\u201d\n"
+      "rhyme": "(Q)ueen Croc napped on her (q)uilt,</br>Mama duck (q)uacked, \u201cBe (q)uiet!\u201d</br>\u201cWhat?\u201d (Q)uacked the duckling.</br>\u201c(Q)uit!\u201d Mama (q)uacked, \u201cDucks are her diet!\u201d</br>"
   },
   {
       "id": "R-ruh",
@@ -2147,7 +2147,7 @@
           "throne"
       ],
       "color": " black",
-      "rhyme": "(R)ing a(r)ound the (r)oses,\nA pocket full of posies.\nAshes, ashes,\nWe all fall down.\n\nPicking up the daisies,\nPicking up the daisies.\nAshes, ashes,\nWe all stand up!"
+      "rhyme": "(R)ing a(r)ound the (r)oses,</br>A pocket full of posies.</br>Ashes, ashes,</br>We all fall down.</br></br>Picking up the daisies,</br>Picking up the daisies.</br>Ashes, ashes,</br>We all stand up!"
   },
   {
       "id": "S-sss",
@@ -2181,7 +2181,7 @@
           "squirrel"
       ],
       "color": " black",
-      "rhyme": "(S)imple (S)imon met a pieman;\nGoing to the Fair;\n(S)ays (S)imple (S)imon to the pieman:\n\"Please let me ta(s)te your ware.\"\n\n(S)ay(s) the pieman to (S)imple (S)imon:\n\"Show me fir(s)t your penny.\"\n(S)ays (S)imple (S)imon to the pieman:\n\"Indeed I have not any.\""
+      "rhyme": "(S)imple (S)imon met a pieman;</br>Going to the Fair;</br>(S)ays (S)imple (S)imon to the pieman:</br>\"Please let me ta(s)te your ware.\"</br></br>(S)ay(s) the pieman to (S)imple (S)imon:</br>\"Show me fir(s)t your penny.\"</br>(S)ays (S)imple (S)imon to the pieman:</br>\"Indeed I have not any.\""
   },
   {
       "id": "S-zz",
@@ -2214,7 +2214,7 @@
           "binoculars"
       ],
       "color": " green",
-      "rhyme": "Scissor(s) and string,\nScissor(s) and string.\nWhen a man'(s) single,\nhe live(s) like a king."
+      "rhyme": "Scissor(s) and string,</br>Scissor(s) and string.</br>When a man'(s) single,</br>he live(s) like a king."
   },
   {
       "id": "S-SH",
@@ -2248,7 +2248,7 @@
           "cushion"
       ],
       "color": " black",
-      "rhyme": "There was an old woman who lived in a (sh)oe;\n(Sh)e had so many children (sh)e didn't know what to do.\n(Sh)e gave them some broth without any bread;\nThen whipped them all soundly and put them to bed."
+      "rhyme": "There was an old woman who lived in a (sh)oe;</br>(Sh)e had so many children (sh)e didn't know what to do.</br>(Sh)e gave them some broth without any bread;</br>Then whipped them all soundly and put them to bed."
   },
   {
       "id": "S-SK",
@@ -2281,7 +2281,7 @@
           "basketball"
       ],
       "color": " black",
-      "rhyme": "There once was old woman tossed up in a ba(sk)et,\nSeventeen times as high as the moon.\nWhere she was going I couldn't but a(sk) it,\nFor in her hand she carried a broom."
+      "rhyme": "There once was old woman tossed up in a ba(sk)et,</br>Seventeen times as high as the moon.</br>Where she was going I couldn't but a(sk) it,</br>For in her hand she carried a broom."
   },
   {
       "id": "S-SL",
@@ -2309,7 +2309,7 @@
           "ballet slippers"
       ],
       "color": " black",
-      "rhyme": "To bed; to bed; says (Sl)eepy Head;\n\"Let's stay awhile;\" says (Sl)ow;\n\"Put on the pot;\" says Hungry Ned;\n\"We'll eat before we go.\""
+      "rhyme": "To bed; to bed; says (Sl)eepy Head;</br>\"Let's stay awhile;\" says (Sl)ow;</br>\"Put on the pot;\" says Hungry Ned;</br>\"We'll eat before we go.\""
   },
   {
       "id": "S-SP",
@@ -2336,7 +2336,7 @@
           "spray"
       ],
       "color": " black",
-      "rhyme": "I (sp)ied a dirty blue jay\nOn a '(sp)ecially hot (sp)ring day.\nHe (sp)lished and (sp)lashed in a birdbath,\nThen (sp)eedily flew away."
+      "rhyme": "I (sp)ied a dirty blue jay</br>On a '(sp)ecially hot (sp)ring day.</br>He (sp)lished and (sp)lashed in a birdbath,</br>Then (sp)eedily flew away."
   },
   {
       "id": "S-ST",
@@ -2370,7 +2370,7 @@
           "street sweeper"
       ],
       "color": " black",
-      "rhyme": "Robin and Richard\nWere two lazy men;\nThey (st)ayed in bed\nTill the clock (st)ruck ten.\nThen up jumps Robin\nAnd looks at the sky:\n\u201cOh, brother Richard,\nThe sun\u2019s very high.\nYou walk fir(st)\nWith the bottle and bag,\nAnd I\u2019ll ride later\nOn the gray horse nag.\u201d\n"
+      "rhyme": "Robin and Richard</br>Were two lazy men;</br>They (st)ayed in bed</br>Till the clock (st)ruck ten.</br>Then up jumps Robin</br>And looks at the sky:</br>\u201cOh, brother Richard,</br>The sun\u2019s very high.</br>You walk fir(st)</br>With the bottle and bag,</br>And I\u2019ll ride later</br>On the gray horse nag.\u201d</br>"
   },
   {
       "id": "S-SW",
@@ -2398,7 +2398,7 @@
           "swimming"
       ],
       "color": " black",
-      "rhyme": "(Sw)an (sw)am over the sea,\n(Sw)im (sw)an (sw)im!\n(Sw)an (sw)am back again,\nWell (sw)um (sw)an!"
+      "rhyme": "(Sw)an (sw)am over the sea,</br>(Sw)im (sw)an (sw)im!</br>(Sw)an (sw)am back again,</br>Well (sw)um (sw)an!"
   },
   {
       "id": "T-tttt",
@@ -2432,7 +2432,7 @@
           "sweet"
       ],
       "color": " black",
-      "rhyme": "(T)o marke(t); (t)o marke(t); (t)o buy a fa(t) pig;\nHome again; home again; jigge(t)y; jig.\n\n(T)o marke(t); (t)o marke(t); (t)o buy a fa(t) hog;\nHome again; home again; jigge(t)y; jog."
+      "rhyme": "(T)o marke(t); (t)o marke(t); (t)o buy a fa(t) pig;</br>Home again; home again; jigge(t)y; jig.</br></br>(T)o marke(t); (t)o marke(t); (t)o buy a fa(t) hog;</br>Home again; home again; jigge(t)y; jog."
   },
   {
       "id": "T-the",
@@ -2462,7 +2462,7 @@
           "grandmother"
       ],
       "color": " black",
-      "rhyme": "Bye; baby bunting;\nFa(th)er's gone a-hunting;\nMo(th)er's gone a-milking;\nSister's gone a-silking;\nAnd Bro(th)er's gone for a rabbit skin;\nTo wrap little baby bunting in."
+      "rhyme": "Bye; baby bunting;</br>Fa(th)er's gone a-hunting;</br>Mo(th)er's gone a-milking;</br>Sister's gone a-silking;</br>And Bro(th)er's gone for a rabbit skin;</br>To wrap little baby bunting in."
   },
   {
       "id": "T-th",
@@ -2491,7 +2491,7 @@
           "thumb"
       ],
       "color": " green",
-      "rhyme": "(Th)ree wise men of Go(th)am\nWent to sea in a bowl,\nAnd if the bowl had been stronger,\nMy song had been longer."
+      "rhyme": "(Th)ree wise men of Go(th)am</br>Went to sea in a bowl,</br>And if the bowl had been stronger,</br>My song had been longer."
   },
   {
       "id": "T-TR",
@@ -2526,7 +2526,7 @@
           "troll"
       ],
       "color": " black",
-      "rhyme": "Mis(tr)ess Mary; quite con(tr)ary;\nHow does your garden grow?\nWith silver bells and cockle shells;\nAnd pretty maids all in a row."
+      "rhyme": "Mis(tr)ess Mary; quite con(tr)ary;</br>How does your garden grow?</br>With silver bells and cockle shells;</br>And pretty maids all in a row."
   },
   {
       "id": "U-long",
@@ -2555,7 +2555,7 @@
           "music"
       ],
       "color": " black",
-      "rhyme": "He balanced a c(u)cumber on his nose,\nBut should have (u)sed binoc(u)lars to watch the roads.\nA (u)nicycle\u2019s dangerous when clowns can\u2019t see\u2014\nQuick call an amb(u)lance:  one, two, three!\n"
+      "rhyme": "He balanced a c(u)cumber on his nose,</br>But should have (u)sed binoc(u)lars to watch the roads.</br>A (u)nicycle\u2019s dangerous when clowns can\u2019t see\u2014</br>Quick call an amb(u)lance:  one, two, three!</br>"
   },
   {
       "id": "U-uu",
@@ -2587,7 +2587,7 @@
           "tuba"
       ],
       "color": " green",
-      "rhyme": "Little Betty Bl(u)e\nLost her holiday shoe.\nWhat shall little Betty do?\n\nBuy her another,\nTo match the other,\nAnd then she'll walk upon two."
+      "rhyme": "Little Betty Bl(u)e</br>Lost her holiday shoe.</br>What shall little Betty do?</br></br>Buy her another,</br>To match the other,</br>And then she'll walk upon two."
   },
   {
       "id": "U-short",
@@ -2621,7 +2621,7 @@
           "jump"
       ],
       "color": " orange",
-      "rhyme": "S(u)e played a big bl(u)e t(u)ba,\nJ(u)lius played one too,\nWith their two bl(u)e t(u)bas,\nWhat did those two do?\nHe blew his bl(u)e t(u)ba loud!\nShe blew hers too!\n"
+      "rhyme": "S(u)e played a big bl(u)e t(u)ba,</br>J(u)lius played one too,</br>With their two bl(u)e t(u)bas,</br>What did those two do?</br>He blew his bl(u)e t(u)ba loud!</br>She blew hers too!</br>"
   },
   {
       "id": "U-UR",
@@ -2652,7 +2652,7 @@
           "tape measure"
       ],
       "color": " black",
-      "rhyme": "To (ur)ge her to p(ur)r\nLin rubs kitty cat's f(ur);\nWhen Lin topples the (ur)n\nKitty makes a bl(ur).\n"
+      "rhyme": "To (ur)ge her to p(ur)r</br>Lin rubs kitty cat's f(ur);</br>When Lin topples the (ur)n</br>Kitty makes a bl(ur).</br>"
   },
   {
       "id": "V-vv",
@@ -2681,7 +2681,7 @@
           "excavator"
       ],
       "color": " black",
-      "rhyme": "As I was going to St. I(v)es;\nI met a man with se(v)en wi(v)es.\nE(v)ery wife had se(v)en sacks;\nE(v)ery sack had se(v)en cats;\nE(v)ery cat had se(v)en kits.\nKits; cats; sacks and wi(v)es;\nHow many were going to St. I(v)es?"
+      "rhyme": "As I was going to St. I(v)es;</br>I met a man with se(v)en wi(v)es.</br>E(v)ery wife had se(v)en sacks;</br>E(v)ery sack had se(v)en cats;</br>E(v)ery cat had se(v)en kits.</br>Kits; cats; sacks and wi(v)es;</br>How many were going to St. I(v)es?"
   },
   {
       "id": "W-wuh",
@@ -2715,7 +2715,7 @@
           "watermelon"
       ],
       "color": " black",
-      "rhyme": "(W)ee (W)illie (W)inkie runs through the town;\nUpstairs and downstairs; in his nightgown;\nTapping at the (w)indo(w); crying at the lock;\nAre the children all in bed? It's now eight o'clock?"
+      "rhyme": "(W)ee (W)illie (W)inkie runs through the town;</br>Upstairs and downstairs; in his nightgown;</br>Tapping at the (w)indo(w); crying at the lock;</br>Are the children all in bed? It's now eight o'clock?"
   },
   {
       "id": "W-WH",
@@ -2745,7 +2745,7 @@
           "wheel"
       ],
       "color": " black",
-      "rhyme": "Bill claimed a bully (wh)acked and (wh)opped his rib.\nMom said, \u201c(Wh)at?  (Wh)o?  (Wh)en?  (Wh)ere?\u201d\nKim said, \u201cThat\u2019s a (wh)opper, a big fat fib.\u201d\nBill said, \u201c(Wh)atever!\u201d -- (wh)ich means: I don\u2019t care.\n"
+      "rhyme": "Bill claimed a bully (wh)acked and (wh)opped his rib.</br>Mom said, \u201c(Wh)at?  (Wh)o?  (Wh)en?  (Wh)ere?\u201d</br>Kim said, \u201cThat\u2019s a (wh)opper, a big fat fib.\u201d</br>Bill said, \u201c(Wh)atever!\u201d -- (wh)ich means: I don\u2019t care.</br>"
   },
   {
       "id": "X-ks",
@@ -2775,7 +2775,7 @@
           "sixteen"
       ],
       "color": " black",
-      "rhyme": "DUM diddle DEE doh,\nO(x) wore a tu(x)edo,\nThe dancer bo(x)ed with T-Re(x).\nJack popped from a mailbo(x),\nFirst swung his hand a(x)e,\nNext tattled that red fo(x)\nHad pooped in the sandbo(x)\nThen all of them ta(x)ied away.\n"
+      "rhyme": "DUM diddle DEE doh,</br>O(x) wore a tu(x)edo,</br>The dancer bo(x)ed with T-Re(x).</br>Jack popped from a mailbo(x),</br>First swung his hand a(x)e,</br>Next tattled that red fo(x)</br>Had pooped in the sandbo(x)</br>Then all of them ta(x)ied away.</br>"
   },
   {
       "id": "Y-yuh",
@@ -2804,7 +2804,7 @@
           "yacht"
       ],
       "color": " black",
-      "rhyme": "Bah; bah; black sheep;\nHave (y)ou any wool?\n(Y)es sir; (Y)es sir;\nThree bags full.\n\nOne for my master;\nAnd one for my dame;\nAnd one for the little boy\nWho lives down the lane."
+      "rhyme": "Bah; bah; black sheep;</br>Have (y)ou any wool?</br>(Y)es sir; (Y)es sir;</br>Three bags full.</br></br>One for my master;</br>And one for my dame;</br>And one for the little boy</br>Who lives down the lane."
   },
   {
       "id": "Y-i",
@@ -2835,7 +2835,7 @@
           "flying carpet"
       ],
       "color": " green",
-      "rhyme": "Cr(y)baby, cr(y)baby,\nCr(y)baby, wh(y)!?\nStick your finger in your e(y)e,\nThen tell your mother it was I?"
+      "rhyme": "Cr(y)baby, cr(y)baby,</br>Cr(y)baby, wh(y)!?</br>Stick your finger in your e(y)e,</br>Then tell your mother it was I?"
   },
   {
       "id": "Y-e",
@@ -2869,7 +2869,7 @@
           "celery"
       ],
       "color": " purple",
-      "rhyme": "Ride away; Ride away;\nJohnn(y) shall ride;\nAnd he shall have kitt(y) cat;\nTied to one side.\nAnd he shall have pupp(y) dog;\nTied to the other;\nAnd Johnn(y) shall ride;\nTo see his grandmother."
+      "rhyme": "Ride away; Ride away;</br>Johnn(y) shall ride;</br>And he shall have kitt(y) cat;</br>Tied to one side.</br>And he shall have pupp(y) dog;</br>Tied to the other;</br>And Johnn(y) shall ride;</br>To see his grandmother."
   },
   {
       "id": "Z-zzz",
@@ -2898,6 +2898,6 @@
           "hazelnuts"
       ],
       "color": " black",
-      "rhyme": "You\u2019re hard-working not la(z)y,\nAnd brainy smart, not cra(z)y.\nThat\u2019s why you won this pu(zz)le pri(z)e.\nDid your head grow one more si(z)e?\n"
+      "rhyme": "You\u2019re hard-working not la(z)y,</br>And brainy smart, not cra(z)y.</br>That\u2019s why you won this pu(zz)le pri(z)e.</br>Did your head grow one more si(z)e?</br>"
   }
 ]

@@ -2,11 +2,9 @@
     <div id='main-body'>
         <div class='column'>
             <div class="cardList">
-                <ng-container *ngFor="let phoneme of phonemes | keyvalue: sortNull">
-                    <app-card class="cardListItem" (click)='openPuzzle(phoneme.key)'>
-                        <p>{{phoneme.value}}</p>
-                    </app-card>
-                </ng-container>
+                <app-card class="cardListItem" (click)='select(item)' *ngFor="let item of data">
+                    <p>{{ getDisplay(item) }}</p>
+                </app-card>
             </div>
         </div>
     </div>

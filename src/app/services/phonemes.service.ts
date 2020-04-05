@@ -59,5 +59,6 @@ export class PhonemesService {
         ));
     });
     this._phonemes.next(temp);
+    return data;
   }
 }

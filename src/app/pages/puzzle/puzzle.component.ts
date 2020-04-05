@@ -1,7 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import {Location} from '@angular/common';
 import {Injectable} from '@angular/core';
-import {HttpClient} from '@angular/common/http';
+import {Phoneme} from '../../types/phoneme';
+import {TransferLetterService} from '../../services/transfer-letter-service.service';
 
 @Component({
   templateUrl: './puzzle.component.html',
@@ -11,13 +12,18 @@ import {HttpClient} from '@angular/common/http';
 export class PuzzleComponent implements OnInit {
 
   rhyme: HTMLAudioElement;
-  img: string = '../../assets/img/puzzles/puzzle-A-long.png';
-  text: string = "Pat a c<span>a</span>ke, pat a c<span>a</span>ke, B<span>a</span>ker's man,</br>B<span>a</span>ke me a c<span>a</span>ke as fast as you can.</br>Pit it and pat it and mark it with B,</br>And put it in the oven for B<span>a</span>by and me.";
+  img: string;
+  text: string;
+  phoneme: Phoneme;
 
   constructor(
-    private location: Location,
-    private http: HttpClient
+    private transferService: TransferLetterService,
+    private location: Location
   ) { 
+    this.phoneme = this.transferService.getData() as Phoneme;
+    this.img = '../../assets/img/puzzles/puzzle-' + this.phoneme.id + '.png';
+    this.text = this.phoneme.rhyme.replace(/[(]/g, '<span>').replace(/[)]/g, '</span>').replace(/;/g, ',');
+    console.log(this.phoneme);
     // this.rhyme = new Audio();
     // this.rhyme.src = '/assets/audio/00_Button_Audio_Complete_a_whole_puzzle_(Phonics_only).mp3';
     // this.rhyme.load();
