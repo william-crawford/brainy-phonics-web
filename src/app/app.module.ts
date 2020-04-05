@@ -1,4 +1,5 @@
 import {BrowserModule} from '@angular/platform-browser';
+import {HttpClientModule} from '@angular/common/http';
 import {NgModule} from '@angular/core';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import {appRoutingModule} from './app.routing';
@@ -12,7 +13,9 @@ import {AlphabetLearnComponent} from './pages/alphabet-learn/alphabet-learn.comp
 import {AlphabetQuizComponent} from './pages/alphabet-quiz';
 import {ListSelectComponent} from './pages/list-select/list-select.component';
 import {GradeLevelsComponent} from './pages/grade-levels';
-import { CoinsComponent } from './pages/coins/coins.component';
+import {CoinsComponent} from './pages/coins/coins.component';
+import {PuzzlesComponent} from './pages/puzzles/puzzles.component';
+import {PuzzleComponent} from './pages/puzzle/puzzle.component';
 
 @NgModule({
   declarations: [
@@ -26,12 +29,15 @@ import { CoinsComponent } from './pages/coins/coins.component';
     AlphabetQuizComponent,
     ListSelectComponent,
     GradeLevelsComponent,
-    CoinsComponent
+    CoinsComponent,
+    PuzzlesComponent,
+    PuzzleComponent,
   ],
   imports: [
     BrowserModule,
     appRoutingModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    HttpClientModule
   ],
   bootstrap: [AppComponent]
 })

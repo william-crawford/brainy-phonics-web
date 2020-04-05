@@ -44,10 +44,19 @@
     border-bottom: 3vh solid #DEDEDE;
 }
 
-:last-child {
+/* Fix last row styling after JSONs are done */
+/* :last-child {
     margin-bottom: 5vh;
-}
+} */
 
 p {
     margin: 9vh 0vh 0vh 9vh;
+}
+
+.hide {
+    display: none;
+}
+
+.alphabet-list-bottom {
+    transform: translateY(13vh);
 }

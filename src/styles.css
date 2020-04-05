@@ -4,6 +4,7 @@
     height: 97vh;
     background-color: #6EC7D4;
     margin: auto;
+    overflow: hidden;
 }
 
 #side-menu {
@@ -49,14 +50,11 @@
     background: url('./assets/img/buttons/bank.png') no-repeat scroll 0 0 transparent;
     background-size: 9.5vh 9.5vh;
     bottom: 13.5vh;
-    cursor: auto;
 }
 #puzzle {
     background: url('./assets/img/buttons/puzzle.png') no-repeat scroll 0 0 transparent;
     background-size: 9.5vh 9.5vh;
     bottom: 0.5vh;
-    cursor: auto;
-    opacity: 0.6;
 }
 
 /* Text */
