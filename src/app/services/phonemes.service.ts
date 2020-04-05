@@ -55,6 +55,7 @@ export class PhonemesService {
             `/resources/audio/sight-words/${phoneme.word3.audio}`,
             `/resources/images/sight-words/${phoneme.word3.image}`
           ),
+          0,
           0
         ));
     });

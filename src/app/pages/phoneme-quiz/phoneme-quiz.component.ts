@@ -2,6 +2,7 @@ import {Component, ElementRef, OnDestroy, OnInit} from '@angular/core';
 import {Router} from '@angular/router';
 import {delay} from 'q';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
+import {UserDataService} from '../../services/user-data.service';
 import * as data from '../../../assets/json/quiz-examples.json';
 import {Location} from '@angular/common';
 import {Phoneme} from '../../types/phoneme';
@@ -30,8 +31,10 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     ex3PlayAudio: boolean;
     ex3Audio: HTMLAudioElement;
 
+    correctAnswer: number;
 
-    phoneme = this.transferService.getData();
+
+    phoneme = this.transferService.getData() as Phoneme;
 
     // img1: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[0];
     img1: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == "a").eximg[0];
@@ -47,7 +50,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     // word3: string = data.default.find(o => o.phoneme == this.phoneme.value).exword[2];
     word3: string = data.default.find(o => o.phoneme == "a").exword[2];
 
-	constructor(private transferService:TransferLetterService, private elem:ElementRef, private router: Router, private location: Location) {
+	constructor(private transferService:TransferLetterService, private userDataService:UserDataService, private elem:ElementRef, private router: Router, private location: Location) {
         this.phoneme = this.transferService.getData() as Phoneme;
         this.phonemePlayAudio = true;
         this.phonemeAnimate = false;
@@ -62,6 +65,10 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     }
 
     ngOnInit() {
+
+        this.correctAnswer = 1  // Temoprary
+
+
         this.phonemeAudio = new Audio();
         // this.phonemeAudio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).nameaudio[0];
         this.phonemeAudio.src = '/assets/audio/' + data.default.find(o => o.phoneme == "a").nameaudio[0];
@@ -156,8 +163,22 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         this.phonemeAudio.play();
     }
 
-    playEx1AudioCorrect() {
+    onCorrect() {
+        this.userDataService.addCoins(1);
+        if (this.phoneme.puzzle_pieces < 12) {
+            this.phoneme.puzzle_pieces += 1;
+        }
+        if (this.phoneme.puzzle_pieces == 12) {
+            this.userDataService.savePuzzle(this.phoneme);
+        }
 
+        this.loadNew();
+
+        this.playAudio();
+    }
+
+    //temporary implementation
+    loadNew() {
         // img1: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[0];
         this.img1 = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == "a-1").eximg[0];
         // img2: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[1];
@@ -179,9 +200,31 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
 
         this.ex3Audio.load();
 
-        this.playAudio();
     }
 
+    onClick1() {
+        if (this.correctAnswer == 1) {
+            this.onCorrect();
+        } else {
+            this.playAudio();
+        }
+    }
+
+    onClick2() {
+        if (this.correctAnswer == 2) {
+            this.onCorrect();
+        } else {
+            this.playAudio();
+        }
+    }
+
+    onClick3() {
+        if (this.correctAnswer == 3) {
+            this.onCorrect();
+        } else {
+            this.playAudio();
+        }
+    }
 
     playEx1Audio() {
         this.ex1Animate = true;

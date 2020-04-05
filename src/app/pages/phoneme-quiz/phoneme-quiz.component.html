@@ -4,22 +4,23 @@
             <div class='column puzzle-pane'>
                 <div class='letter' [ngClass]="{'animate': phonemeAnimate}" (click)='playPhonemeAudio()'>{{phoneme.display}}</div>
                 <div class='puzzle'></div>
+                <div class='letter'>{{phoneme.puzzle_pieces}}</div>
             </div>
             <div class='column answer-pane'>
                 <div class='row'>
                     <div [ngClass]="{'animate': ex1Animate}">
-        				<img src={{img1}} class='word-image word-image-top' (click)='playEx1AudioCorrect()'>
+        				<img src={{img1}} class='word-image word-image-top' (click)='onClick1()'>
         				<br>
         			</div>
                 </div>
 
     			<div class='column' [ngClass]="{'animate': ex2Animate}">
-    				<img src={{img2}} class='word-image word-image-bottom' (click)='playEx2Audio()'>
+    				<img src={{img2}} class='word-image word-image-bottom' (click)='onClick2()'>
     				<br>
                 </div>
 
     			<div class='column' [ngClass]="{'animate': ex3Animate}">
-    				<img src={{img3}} class='word-image word-image-bottom' (click)='playEx3Audio()'>
+    				<img src={{img3}} class='word-image word-image-bottom' (click)='onClick3()'>
     				<br>
     			</div>
     		</div>

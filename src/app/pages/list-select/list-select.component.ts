@@ -37,6 +37,7 @@ export class ListSelectComponent implements OnInit, OnDestroy {
                     new SightWord('crane', '/assets/sight-words/audio/crane.mp3', ''),
                     new SightWord('skate', '/assets/sight-words/audio/skate.mp3', ''),
                     new SightWord('ape', '/assets/audio/sight-words/ape.mp3', ''),
+                    0,
                     0
                 )
             ];
