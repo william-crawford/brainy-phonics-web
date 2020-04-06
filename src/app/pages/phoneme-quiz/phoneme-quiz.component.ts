@@ -168,10 +168,9 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         if (this.phoneme.puzzle_pieces < 12) {
             this.phoneme.puzzle_pieces += 1;
             if (this.phoneme.puzzle_pieces == 12) {
-                this.userDataService.savePuzzle(this.phoneme);
+                this.userDataService.savePuzzle(this.phoneme.id);
             }
         }
-
 
         this.loadNew();
 
