@@ -22,7 +22,7 @@ export class ListSelectComponent implements OnInit, OnDestroy {
     constructor(
         private transferLetterService: TransferLetterService,
         private alphabetLettersService: AlphabetLettersService,
-        
+
         private router: Router,
         private activatedRoute: ActivatedRoute,
         private location: Location

@@ -48,9 +48,9 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
     word3: string = data.default.find(o => o.phoneme == 'a').exword[2];
 
     constructor(
-        private transferService: TransferLetterService, 
-        private elem: ElementRef, 
-        private router: Router, 
+        private transferService: TransferLetterService,
+        private elem: ElementRef,
+        private router: Router,
         private location: Location
     ) {
         this.phoneme = this.transferService.getData() as Phoneme;

@@ -2,17 +2,17 @@
     <div id='main-body'>
         <div class='column'>
             <div class='row'>
-                <div class='letter' [ngClass]="{'animateLetter': letterAnimate}" (click)='correctAnswer()'>{{letter.letter}}
+                <div class='letter' [ngClass]="{'animateLetter1': letterAnimate1}" (click)='check(ex1)'>{{ex1.letter}}
                 </div>
-                <div class='letter3' (click)='incorrectAnswer()'>{{ex2.letter}}
+                <div class='letter3' [ngClass]="{'animateLetter3': letterAnimate3}" (click)='check(ex3)'>{{ex3.letter}}
                 </div>
             </div>
         </div>
 
         <div class='column'>
-            <div class='letter2' (click)='incorrectAnswer()'>{{ex1.letter}}
+            <div class='letter2' [ngClass]="{'animateLetter2': letterAnimate2}" (click)='check(ex2)'>{{ex2.letter}}
             </div>
-            <div class='letter4' (click)='incorrectAnswer()'>{{ex3.letter}}
+            <div class='letter4' [ngClass]="{'animateLetter4': letterAnimate4}" (click)='check(ex4)'>{{ex4.letter}}
             </div>
         </div>
     </div>
