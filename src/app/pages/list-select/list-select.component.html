@@ -3,7 +3,8 @@
         <div class='column'>
             <div class="cardList">
                 <app-card class="cardListItem" (click)='select(item)' *ngFor="let item of data">
-                    <p>{{ getDisplay(item) }}</p>
+                    <p>{{ getDisplay(item) }} </p>
+                    <div> {{ showProgress(item) }} </div>
                 </app-card>
             </div>
         </div>

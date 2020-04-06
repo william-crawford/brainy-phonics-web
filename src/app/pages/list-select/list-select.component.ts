@@ -4,6 +4,7 @@ import {Phoneme} from '../../types/phoneme';
 import {SightWord} from '../../types/sight-word';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import {AlphabetLettersService} from '../../services/alphabet-letters.service';
+import {ProgressService} from '../../services/progress.service';
 import {ActivatedRoute, Router} from '@angular/router';
 import {Location} from '@angular/common';
 
@@ -18,11 +19,12 @@ export class ListSelectComponent implements OnInit, OnDestroy {
 
     // filled with test data to be overridden later
     data: AlphabetLetter[] | Phoneme[];
+    gotStars: boolean;
 
     constructor(
         private transferLetterService: TransferLetterService,
         private alphabetLettersService: AlphabetLettersService,
-        
+        private progressService: ProgressService,
         private router: Router,
         private activatedRoute: ActivatedRoute,
         private location: Location
@@ -51,7 +53,6 @@ export class ListSelectComponent implements OnInit, OnDestroy {
             //     new AlphabetLetter('Aa', '/assets/audio/phonemes/sound-A.mp3', 0)
             // ];
             this.data = this.alphabetLettersService.dataImport();
-            // this.letterProgress = this.letterProgressService.getStarsFromLetter("letter" + this.letter.letter);
         }
         this.instruction = new Audio();
         this.instruction.src = '/assets/audio/00_Button_Audio_Complete_a_whole_puzzle_(Phonics_only).mp3';
@@ -74,10 +75,47 @@ export class ListSelectComponent implements OnInit, OnDestroy {
 
     getDisplay(item: Phoneme | AlphabetLetter): string {
         var icon = document.getElementById('puzzle');
-        if (item instanceof Phoneme) {
-            return item.display;
-        } else {
-            return item.letter;
+        if (item != null) {
+            if (item instanceof Phoneme) {
+                return item.display;
+            } else {
+                return item.letter;
+            }
+        }
+    }
+
+    showProgress(item: Phoneme | AlphabetLetter): void{
+        console.log(item)
+        let numStars;
+        let elem = document.getElementsByClassName("cardListItem")[0];
+        let queryStatement;
+        if (item != null && !this.gotStars) {
+            if (item instanceof Phoneme) {
+                queryStatement = "phoneme" + item.id;
+                numStars = this.progressService.getStarsFromKey(queryStatement); 
+            } else {
+                queryStatement = "letter" + item.letter;
+                numStars = this.progressService.getStarsFromKey(queryStatement); 
+            }
+        }
+        if (numStars > 0) {
+            console.log(queryStatement, numStars)
+            this.gotStars = true;
+        }
+            
+        // return gold stars
+        if(this.gotStars) {
+            if (this.progressService.getActiveStatus(queryStatement) == 1) {
+                for (let i = 0; i < numStars; i++) {
+                    let img = document.createElement('img');
+                    img.setAttribute("src", '/assets/img/progress/Gold-Star-Blank.png')
+                    img.setAttribute("width", "50px")
+                    img.setAttribute("height", "50px")
+                    elem.appendChild(img);
+                }
+            } else {
+                // return silver star
+            }
         }
     }
 

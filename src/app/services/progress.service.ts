@@ -32,8 +32,12 @@ export class ProgressService {
   }
 
   getActiveStatus(key): any {
-    console.log('get active status for: ', key, ', ', this.storage.get(key).active);
-    return this.storage.get(key).active;
+    if (this.storage.get(key) != null) {
+      console.log('get active status for: ', key, ', ', this.storage.get(key).active);
+      return this.storage.get(key).active;
+    } else {
+      return 0;
+    }
   }
 
   setActiveStatus(key, val): void {
@@ -77,7 +81,10 @@ export class ProgressService {
   }
 
   getStarsFromKey(key): any {
-      console.log('get stars = ', this.storage.get(key).stars);
-      return this.storage.get(key).stars;
+    let stars = 0;
+    if (this.storage.get(key) != null) {
+      stars = this.storage.get(key).stars;
+    }
+    return stars;
   }
 }
