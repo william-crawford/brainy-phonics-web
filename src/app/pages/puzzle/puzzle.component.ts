@@ -20,10 +20,12 @@ export class PuzzleComponent implements OnInit, OnDestroy {
     private transferService: TransferLetterService,
     private location: Location
   ) { 
+    // get phoneme data
     this.phoneme = this.transferService.getData() as Phoneme;
     this.img = '../../assets/img/puzzles/puzzle-' + this.phoneme.id + '.png';
     this.text = this.phoneme.rhyme.replace(/[(]/g, '<span>').replace(/[)]/g, '</span>').replace(/;/g, ',');
-    console.log(this.phoneme.rhyme);
+
+    // play audio
     this.rhyme = new Audio();
     this.rhyme.src = '../../assets/audio/rhymes/puzzle-' + this.phoneme.id +'-rhyme.mp3';
     this.rhyme.load();
