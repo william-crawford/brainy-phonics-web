@@ -64,23 +64,23 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     ngOnInit() {
         this.phonemeAudio = new Audio();
         // this.phonemeAudio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).nameaudio[0];
-        this.phonemeAudio.src = '/assets/audio/' + data.default.find(o => o.phoneme == "a").nameaudio[0];
+        this.phonemeAudio.src = '/assets/audio/phonemes/' + data.default.find(o => o.phoneme == "a").nameaudio[0];
         this.phonemeAudio.load();
 
         this.ex1Audio = new Audio();
         // this.ex1Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).exaudio[0];
-        this.ex1Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == "a").exaudio[0];
+        this.ex1Audio.src = '/assets/audio/sight-words/' + data.default.find(o => o.phoneme == "a").exaudio[0];
         this.ex1Audio.load();
 
         this.ex2Audio = new Audio();
         // this.ex2Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).exaudio[1];
-        this.ex2Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == "a").exaudio[1];
+        this.ex2Audio.src = '/assets/audio/sight-words/' + data.default.find(o => o.phoneme == "a").exaudio[1];
 
         this.ex2Audio.load();
 
         this.ex3Audio = new Audio();
         // this.ex3Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).exaudio[2];
-        this.ex3Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == "a").exaudio[2];
+        this.ex3Audio.src = '/assets/audio/sight-words/' + data.default.find(o => o.phoneme == "a").exaudio[2];
 
         this.ex3Audio.load();
 
@@ -166,16 +166,16 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         this.img3 = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == "a-1").eximg[2];
 
         // this.ex1Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).exaudio[0];
-        this.ex1Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == "a-1").exaudio[0];
+        this.ex1Audio.src = '/assets/audio/sight-words/' + data.default.find(o => o.phoneme == "a-1").exaudio[0];
         this.ex1Audio.load();
 
         // this.ex2Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).exaudio[1];
-        this.ex2Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == "a-1").exaudio[1];
+        this.ex2Audio.src = '/assets/audio/sight-words/' + data.default.find(o => o.phoneme == "a-1").exaudio[1];
 
         this.ex2Audio.load();
 
         // this.ex3Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).exaudio[2];
-        this.ex3Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == "a-1").exaudio[2];
+        this.ex3Audio.src = '/assets/audio/sight-words/' + data.default.find(o => o.phoneme == "a-1").exaudio[2];
 
         this.ex3Audio.load();
 
