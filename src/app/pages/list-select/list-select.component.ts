@@ -4,6 +4,7 @@ import {Phoneme} from '../../types/phoneme';
 import {SightWord} from '../../types/sight-word';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import {AlphabetLettersService} from '../../services/alphabet-letters.service';
+import {PhonemesService} from '../../services/phonemes.service';
 import {ActivatedRoute, Router} from '@angular/router';
 import {Location} from '@angular/common';
 
@@ -15,35 +16,26 @@ import {Location} from '@angular/common';
 export class ListSelectComponent implements OnInit, OnDestroy {
 
     instruction: HTMLAudioElement;
-
+    list: string
     // filled with test data to be overridden later
     data: AlphabetLetter[] | Phoneme[];
 
     constructor(
         private transferLetterService: TransferLetterService,
         private alphabetLettersService: AlphabetLettersService,
+        private phonemesService: PhonemesService,
 
         private router: Router,
         private activatedRoute: ActivatedRoute,
         private location: Location
     ) {
         let list = this.activatedRoute.snapshot.queryParamMap.get('list');
+        this.list = list
         if (!list || list === '') {
             this.router.navigate(['']);
         }
         if (list === 'phoneme') {
-            this.data = [
-                new Phoneme(
-                    'a1',
-                    'a',
-                    '/assets/audio/phonemes/sound-A.mp3',
-                    new SightWord('crane', '/assets/sight-words/audio/crane.mp3', ''),
-                    new SightWord('skate', '/assets/sight-words/audio/skate.mp3', ''),
-                    new SightWord('ape', '/assets/audio/sight-words/ape.mp3', ''),
-                    0,
-                    "test"
-                )
-            ];
+            this.data = this.phonemesService.dataLoad();
             // this.data = [this.transferLetterService.getData() as Phoneme];
         }
         if (list === 'alphabet') {
@@ -74,7 +66,7 @@ export class ListSelectComponent implements OnInit, OnDestroy {
 
     getDisplay(item: Phoneme | AlphabetLetter): string {
         var icon = document.getElementById('puzzle');
-        if (item instanceof Phoneme) {
+        if (this.list == 'phoneme') {
             return item.display;
         } else {
             return item.letter;
@@ -84,7 +76,7 @@ export class ListSelectComponent implements OnInit, OnDestroy {
     select(item: Phoneme | AlphabetLetter) {
         this.transferLetterService.setData(item);
         console.log(item);
-        if (item instanceof Phoneme) {
+        if (this.list == 'phoneme') {
             this.router.navigate(['phoneme-learn']);
         } else {
             this.router.navigate(['alphabet-learn']);
