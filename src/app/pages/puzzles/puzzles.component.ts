@@ -30,7 +30,7 @@ export class PuzzlesComponent implements OnInit {
   // set background for completed puzzles
   // window.addEventListener('load', function () {
   //   for (var i = 0; i < this.userDataService.getPuzzles().length; i++) {
-  //     document.getElementsByClassName(this.userDataService.getPuzzles()[i])[0].style.background = "url('../../assets/img/puzzles/puzzle-"+this.userDataService.getPuzzles()[i]+".png')";
+  //     document.getElementsByClassName(this.userDataService.getPuzzles()[i])[0].style.background = "url('../../assets/img/puzzle-pieces/puzzle-"+this.userDataService.getPuzzles()[i]+"/puzzle-"+this.userDataService.getPuzzles()[i]+"-composite.png')";
   //     document.getElementsByClassName(this.userDataService.getPuzzles()[i])[0].style.backgroundSize = '32vh 42vh';
   //   }
   // })

@@ -22,7 +22,7 @@ export class PuzzleComponent implements OnInit, OnDestroy {
   ) { 
     // get phoneme data
     this.phoneme = this.transferService.getData() as Phoneme;
-    this.img = '../../assets/img/puzzles/puzzle-' + this.phoneme.id + '.png';
+    this.img = '../../assets/img/puzzle-pieces/puzzle-'+ this.phoneme.id +'/puzzle-' + this.phoneme.id + '-composite.png';
     this.text = this.phoneme.rhyme.replace(/[(]/g, '<span>').replace(/[)]/g, '</span>').replace(/;/g, ',');
 
     // play audio
