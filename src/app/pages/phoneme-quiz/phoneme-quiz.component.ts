@@ -201,6 +201,8 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
 
     //temporary implementation
     loadNew() {
+        this.correctAnswer = 2;
+
         // img1: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[0];
         this.img1 = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == "a-1").eximg[0];
         // img2: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[1];
