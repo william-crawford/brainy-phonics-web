@@ -2,6 +2,7 @@ import {BrowserModule} from '@angular/platform-browser';
 import {HttpClientModule} from '@angular/common/http';
 import {NgModule} from '@angular/core';
 import {FlexLayoutModule} from '@angular/flex-layout';
+import { StorageServiceModule} from 'angular-webstorage-service';
 import {appRoutingModule} from './app.routing';
 import {AppComponent} from './app.component';
 import {HomeComponent} from './pages/home';
@@ -37,6 +38,7 @@ import {PuzzleComponent} from './pages/puzzle/puzzle.component';
     BrowserModule,
     appRoutingModule,
     FlexLayoutModule,
+    StorageServiceModule,
     HttpClientModule
   ],
   bootstrap: [AppComponent]

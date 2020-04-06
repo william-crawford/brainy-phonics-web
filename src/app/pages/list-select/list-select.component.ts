@@ -3,6 +3,7 @@ import {AlphabetLetter} from '../../types/alphabet-letter';
 import {Phoneme} from '../../types/phoneme';
 import {SightWord} from '../../types/sight-word';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
+import {AlphabetLettersService} from '../../services/alphabet-letters.service';
 import {ActivatedRoute, Router} from '@angular/router';
 import {Location} from '@angular/common';
 
@@ -20,6 +21,8 @@ export class ListSelectComponent implements OnInit, OnDestroy {
 
     constructor(
         private transferLetterService: TransferLetterService,
+        private alphabetLettersService: AlphabetLettersService,
+        
         private router: Router,
         private activatedRoute: ActivatedRoute,
         private location: Location
@@ -41,11 +44,14 @@ export class ListSelectComponent implements OnInit, OnDestroy {
                     "test"
                 )
             ];
+            // this.data = [this.transferLetterService.getData() as Phoneme];
         }
         if (list === 'alphabet') {
-            this.data = [
-                new AlphabetLetter('Aa', '/assets/audio/phonemes/sound-A.mp3', 0)
-            ];
+            // this.data = [
+            //     new AlphabetLetter('Aa', '/assets/audio/phonemes/sound-A.mp3', 0)
+            // ];
+            this.data = this.alphabetLettersService.dataImport();
+            // this.letterProgress = this.letterProgressService.getStarsFromLetter("letter" + this.letter.letter);
         }
         this.instruction = new Audio();
         this.instruction.src = '/assets/audio/00_Button_Audio_Complete_a_whole_puzzle_(Phonics_only).mp3';

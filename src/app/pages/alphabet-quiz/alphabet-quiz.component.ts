@@ -4,6 +4,7 @@ import {Router} from '@angular/router';
 import {ElementRef} from '@angular/core';
 import {delay} from 'q';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
+import {ProgressService} from '../../services/progress.service';
 import * as data from '../../../assets/json/quiz-examples.json';
 import { Location } from '@angular/common';
 import {AlphabetLetter} from '../../types/alphabet-letter';
@@ -20,6 +21,7 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
     letterAudio: HTMLAudioElement;
 
     letter: AlphabetLetter;
+    isFirstAttempt: boolean;
 
     // temporary
     ex1 = new AlphabetLetter('Bb', '/assets/audio/phonemes/sound-A.mp3', 0);
@@ -30,8 +32,10 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
 
     empty = new AlphabetLetter(' ', '/assets/audio/phonemes/sound-A.mp3', 0)
 
-    constructor(private transferService: TransferLetterService, private router: Router, private location: Location) {
+    constructor(private transferService: TransferLetterService, private letterProgressService: ProgressService,
+        private router: Router, private location: Location) {
         this.letter = this.transferService.getData() as AlphabetLetter;
+        
         if (!this.letter) {
             this.router.navigateByUrl('/alphabet-list-all');
         }
@@ -45,12 +49,12 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
         this.letterAudio = new Audio();
         this.letterAudio.src = '/assets/audio/phonemes/sound-A.mp3';
         this.letterAudio.load();
-
         this.letterAudio.onended = () => {
             this.letterAnimate = false;
         };
 
         this.playAudio();
+        this.isFirstAttempt = true;
     }
 
     ngOnDestroy() {
@@ -73,7 +77,20 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
         this.letterAudio.play();
         delay(300).then(() => {
             this.loadNew();
+            this.isFirstAttempt = true;
         });
+
+        if(this.isFirstAttempt) {
+            //add stars to progress if select correct letter on first attempt
+            this.letterProgressService.saveStarsToKey("letter" + this.letter.letter, 1);
+        } else {
+            this.letterProgressService.setActiveStatus("letter" + this.letter.letter, true)
+        }
+    }
+
+    incorrectAnswer() {
+        this.isFirstAttempt = false;
+        this.letterProgressService.setActiveStatus("letter" + this.letter.letter, false)
     }
 
     loadNew() {
