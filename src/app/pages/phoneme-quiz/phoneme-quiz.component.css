@@ -109,6 +109,11 @@
   transform: scale(1.12) !important;
 }
 
+.animate-puzzle {
+  transition: all .5s;
+  transform: scale(1.12) !important;
+}
+
 /* Text */
 h2 {
   font-size: 20px;

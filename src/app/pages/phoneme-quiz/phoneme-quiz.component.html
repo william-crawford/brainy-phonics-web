@@ -4,7 +4,7 @@
             <div class='column puzzle-pane'>
                 <div class='letter' [ngClass]="{'animate': phonemeAnimate}" (click)='playPhonemeAudio()'>{{phoneme.display}}</div>
                 <div class='puzzle'>
-                    <img *ngFor='let image of puzzlePieceImages; let i = index' class='puzzle-image' src={{image}} [ngClass]="{'visible':phoneme.puzzlePiecesEarned > i}"><br>
+                    <img *ngFor='let image of puzzlePieceImages; let i = index' class='puzzle-image' src={{image}} [ngClass]="{'visible':phoneme.puzzlePiecesEarned > i, 'animate-puzzle': puzzleAnimate && phoneme.puzzlePiecesEarned == i + 1}"><br>
                     <!-- <img src={{puzzlePieceImages[0]}} class='puzzle-image' [ngClass]="{'visible':phoneme.puzzlePiecesEarned > 0}"><br>
                     <img src={{puzzlePieceImages[1]}} class='puzzle-image' [ngClass]="{'visible':phoneme.puzzlePiecesEarned > 1}"><br>
                     <img src={{puzzlePieceImages[2]}} class='puzzle-image'><br>

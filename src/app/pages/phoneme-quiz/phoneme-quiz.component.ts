@@ -33,11 +33,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
 
     correctAnswer: number;
 
-    stuff: string[] = ['abc', '123', 'easy'];
-
-
     phoneme = this.transferService.getData() as Phoneme;
-    testnum: number = 1;
 
 
     // img1: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[0];
@@ -49,7 +45,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
 
     puzzlePieceImages: string[] = [];
     puzzleDirectory: string = '../../assets/img/puzzle-pieces/puzzle-' + this.phoneme.id;
-
+    puzzleAnimate: boolean = false;
 
     // word1: string = data.default.find(o => o.phoneme == this.phoneme.value).exword[0];
     word1: string = data.default.find(o => o.phoneme == "a").exword[0];
@@ -186,6 +182,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     }
 
     onCorrect() {
+
         this.userDataService.addCoins(1);
         if (this.phoneme.puzzlePiecesEarned < 12) {
             this.phoneme.puzzlePiecesEarned += 1;
@@ -193,9 +190,12 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
                 this.userDataService.savePuzzle(this.phoneme.id);
             }
         }
+        this.puzzleAnimate = true;
+        delay(500).then(() => {
+            this.puzzleAnimate = false;
+        });
 
         this.loadNew();
-
         this.playAudio();
     }
 
