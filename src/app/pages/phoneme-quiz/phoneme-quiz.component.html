@@ -3,8 +3,22 @@
         <div class='row'>
             <div class='column puzzle-pane'>
                 <div class='letter' [ngClass]="{'animate': phonemeAnimate}" (click)='playPhonemeAudio()'>{{phoneme.display}}</div>
-                <div class='puzzle'></div>
-                <div class='letter'>{{phoneme.puzzle_pieces}}</div>
+                <div class='puzzle'>
+                    <img *ngFor='let image of puzzlePieceImages; let i = index' class='puzzle-image' src={{image}} [ngClass]="{'visible':phoneme.puzzlePiecesEarned > i}"><br>
+                    <!-- <img src={{puzzlePieceImages[0]}} class='puzzle-image' [ngClass]="{'visible':phoneme.puzzlePiecesEarned > 0}"><br>
+                    <img src={{puzzlePieceImages[1]}} class='puzzle-image' [ngClass]="{'visible':phoneme.puzzlePiecesEarned > 1}"><br>
+                    <img src={{puzzlePieceImages[2]}} class='puzzle-image'><br>
+                    <img src={{puzzlePieceImages[3]}} class='puzzle-image'><br>
+                    <img src={{puzzlePieceImages[4]}} class='puzzle-image'><br>
+                    <img src={{puzzlePieceImages[5]}} class='puzzle-image'><br>
+                    <img src={{puzzlePieceImages[6]}} class='puzzle-image'><br>
+                    <img src={{puzzlePieceImages[7]}} class='puzzle-image'><br>
+                    <img src={{puzzlePieceImages[8]}} class='puzzle-image'><br>
+                    <img src={{puzzlePieceImages[9]}} class='puzzle-image'><br>
+                    <img src={{puzzlePieceImages[10]}} class='puzzle-image'><br>
+                    <img src={{puzzlePieceImages[11]}} class='puzzle-image'><br> -->
+                </div>
+                <!-- <div>{{puzzlePieceImages}}</div> -->
             </div>
             <div class='column answer-pane'>
                 <div class='row'>
@@ -31,7 +45,6 @@
         <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>
         <button mat-icon-button class='icon' id='home' routerLink='/'></button>
         <button mat-icon-button class='icon bottom' id='repeat' (click)="playAudio()"></button>
-        <button mat-icon-button class='icon bottom' id='quiz' (click)="showQuiz()"></button>
         <button mat-icon-button class='icon bottom' id='bank' routerLink='/coins'></button>
         <button mat-icon-button class='icon bottom' id='puzzle'></button>
     </div>

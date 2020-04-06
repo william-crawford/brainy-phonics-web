@@ -33,8 +33,12 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
 
     correctAnswer: number;
 
+    stuff: string[] = ['abc', '123', 'easy'];
+
 
     phoneme = this.transferService.getData() as Phoneme;
+    testnum: number = 1;
+
 
     // img1: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[0];
     img1: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == "a").eximg[0];
@@ -42,6 +46,10 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     img2: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == "a").eximg[1];
     // img3: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[2];
     img3: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == "a").eximg[2];
+
+    puzzlePieceImages: string[] = [];
+    puzzleDirectory: string = '../../assets/img/puzzle-pieces/puzzle-' + this.phoneme.id;
+
 
     // word1: string = data.default.find(o => o.phoneme == this.phoneme.value).exword[0];
     word1: string = data.default.find(o => o.phoneme == "a").exword[0];
@@ -57,6 +65,20 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         this.ex1Animate = false;
         this.ex2Animate = false;
         this.ex3Animate = false;
+
+
+        //temp
+        this.phoneme.id = 'A-long'
+        this.puzzleDirectory = '../../assets/img/puzzle-pieces/puzzle-' + this.phoneme.id;
+
+
+        for (let i = 0; i <= 3; i++) {
+            for (let j = 0; j <= 2; j++) {
+                this.puzzlePieceImages.push(
+                    this.puzzleDirectory + '/puzzle-' + this.phoneme.id + '-row' + i + '-col' + j + '.png'
+                );
+            }
+        }
     }
 
     goBack(){
@@ -165,9 +187,9 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
 
     onCorrect() {
         this.userDataService.addCoins(1);
-        if (this.phoneme.puzzle_pieces < 12) {
-            this.phoneme.puzzle_pieces += 1;
-            if (this.phoneme.puzzle_pieces == 12) {
+        if (this.phoneme.puzzlePiecesEarned < 12) {
+            this.phoneme.puzzlePiecesEarned += 1;
+            if (this.phoneme.puzzlePiecesEarned == 12) {
                 this.userDataService.savePuzzle(this.phoneme.id);
             }
         }
