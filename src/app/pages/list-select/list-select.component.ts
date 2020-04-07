@@ -19,7 +19,8 @@ export class ListSelectComponent implements OnInit, OnDestroy {
 
     // filled with test data to be overridden later
     data: AlphabetLetter[] | Phoneme[];
-    gotStars: boolean;
+    dataProgress: any[];
+    cardItemCount: number;
 
     constructor(
         private transferLetterService: TransferLetterService,
@@ -58,6 +59,8 @@ export class ListSelectComponent implements OnInit, OnDestroy {
         this.instruction.src = '/assets/audio/00_Button_Audio_Complete_a_whole_puzzle_(Phonics_only).mp3';
         this.instruction.load();
         this.playAudio();
+        this.dataProgress = [];
+        this.cardItemCount = 0;
     }
 
     ngOnInit() {
@@ -76,47 +79,60 @@ export class ListSelectComponent implements OnInit, OnDestroy {
     getDisplay(item: Phoneme | AlphabetLetter): string {
         var icon = document.getElementById('puzzle');
         if (item != null) {
+            this.showProgress(item)
             if (item instanceof Phoneme) {
                 return item.display;
             } else {
-                return item.letter;
+                return item.letter ;
             }
+            
         }
     }
 
     showProgress(item: Phoneme | AlphabetLetter): void{
-        console.log(item)
         let numStars;
-        let elem = document.getElementsByClassName("cardListItem")[0];
+        let elem = document.getElementsByClassName("cardListItem")[this.cardItemCount];
         let queryStatement;
-        if (item != null && !this.gotStars) {
-            if (item instanceof Phoneme) {
-                queryStatement = "phoneme" + item.id;
-                numStars = this.progressService.getStarsFromKey(queryStatement); 
-            } else {
-                queryStatement = "letter" + item.letter;
-                numStars = this.progressService.getStarsFromKey(queryStatement); 
-            }
-        }
-        if (numStars > 0) {
-            console.log(queryStatement, numStars)
-            this.gotStars = true;
-        }
-            
-        // return gold stars
-        if(this.gotStars) {
-            if (this.progressService.getActiveStatus(queryStatement) == 1) {
-                for (let i = 0; i < numStars; i++) {
-                    let img = document.createElement('img');
-                    img.setAttribute("src", '/assets/img/progress/Gold-Star-Blank.png')
-                    img.setAttribute("width", "50px")
-                    img.setAttribute("height", "50px")
-                    elem.appendChild(img);
+        
+        if (item != null) {
+            if (!this.dataProgress.includes(item)) {
+                this.cardItemCount++;
+                if (item instanceof Phoneme) {
+                    queryStatement = "phoneme" + item.id;
+                    numStars = this.progressService.getStarsFromKey(queryStatement); 
+                } else {
+                    queryStatement = "letter" + item.letter;
+                    numStars = this.progressService.getStarsFromKey(queryStatement); 
                 }
-            } else {
-                // return silver star
+                if (numStars > 0) {
+                    this.dataProgress.push(item);
+                }
+    
+                if (this.progressService.getActiveStatus(queryStatement) == 1) {
+                    for (let i = 0; i < numStars; i++) {
+                        let img = document.createElement('img');
+                        img.setAttribute("src", '/assets/img/progress/Gold-Star-Blank.png')
+                        img.setAttribute("width", "50px")
+                        img.setAttribute("height", "50px")
+                        elem.appendChild(img);
+                    }
+                } else {
+                    // return silver star
+                    for (let i = 0; i < numStars; i++) {
+                        let img = document.createElement('img');
+                        img.setAttribute("src", '/assets/img/progress/Silver-Star-Blank.png')
+                        img.setAttribute("width", "50px")
+                        img.setAttribute("height", "50px")
+                        elem.appendChild(img);
+                    }
+                }
             }
+
         }
+    }
+
+    logItems (item: Phoneme | AlphabetLetter): void {
+        console.log(item)
     }
 
     select(item: Phoneme | AlphabetLetter) {

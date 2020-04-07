@@ -77,14 +77,15 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
         this.letterAudio.play();
         delay(300).then(() => {
             this.loadNew();
-            this.isFirstAttempt = true;
         });
 
         if(this.isFirstAttempt) {
-            //add stars to progress if select correct letter on first attempt
+            if(this.letterProgressService.getActiveStatus("letter" + this.letter.letter)) {
+            //add stars to progress if select correct letter on first attempt and active status is true
             this.letterProgressService.saveStarsToKey("letter" + this.letter.letter, 1);
-        } else {
-            this.letterProgressService.setActiveStatus("letter" + this.letter.letter, true)
+            } else {
+                this.letterProgressService.setActiveStatus("letter" + this.letter.letter, true)
+            }
         }
     }
 
@@ -100,6 +101,7 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
         this.ex3 = new AlphabetLetter('Gg', '/assets/audio/phonemes/sound-A.mp3', 0);
 
         this.playAudio();
+        this.isFirstAttempt = true;
     }
 
     playAudio() {
