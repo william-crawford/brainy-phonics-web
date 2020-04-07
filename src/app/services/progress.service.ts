@@ -41,13 +41,19 @@ export class ProgressService {
   }
 
   setActiveStatus(key, val): void {
-    const currentStatus = this.storage.get(key).active;
-    console.log("setting active status from: ", currentStatus, " to ", val)
-
-    const input = { 'stars': this.storage.get(key).stars,
-                    'active': val,
-                    'checkmark':this.storage.get(key).checkmark}
-    console.log("Set active status", input)
+    let input;
+    if(this.storage.get(key) != null) {
+      const currentStatus = this.storage.get(key).active;
+      console.log("setting active status from: ", currentStatus, " to ", val)
+  
+      input = { 'stars': this.storage.get(key).stars,
+                      'active': val,
+                      'checkmark':this.storage.get(key).checkmark}
+      console.log("Set active status", input)
+      
+    } else {
+      input = this.prepareNewKeyProgress();
+    }
     this.storage.set(key, input);
   }
 
