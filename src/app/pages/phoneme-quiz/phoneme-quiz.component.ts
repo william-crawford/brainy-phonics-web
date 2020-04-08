@@ -138,7 +138,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     }
 
     ngOnDestroy() {
-        this.stopAudioAndAnimation()
+        this.stopAudioAndAnimation();
     }
 
     stopAudioAndAnimation() {

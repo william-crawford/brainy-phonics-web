@@ -70,7 +70,6 @@ export class ListSelectComponent implements OnInit, OnDestroy {
 
     select(item: Phoneme | AlphabetLetter) {
         this.transferLetterService.setData(item);
-        console.log(item);
         if (item instanceof Phoneme) {
             this.router.navigate(['phoneme-learn']);
         } else {
