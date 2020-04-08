@@ -18,15 +18,33 @@
 }
 
 .puzzle-pane {
+    height: 900px;
+    margin: 0;
+    padding: 0;
     text-align: center;
     width: 48vh;
     background-color: lightblue;
 }
 
 .puzzle {
-    margin: 5vh;
-    height: 40vh;
-    background-color: grey;
+    position: relative;
+    text-align: left;
+    margin: auto;
+    width: 36vh;
+    height: 48vh;
+    background-color: #6EC7D4;
+}
+
+.puzzle-image {
+    position: absolute;
+    top: 0;
+    width: 36vh;
+    height: 48vh;
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
 }
 
 .answer-pane {
@@ -37,6 +55,7 @@
   font-size: 19.4vh;
   font-family: 'ComicSans';
   padding-top: -10vh;
+  padding-bottom: 10vh;
   cursor: pointer;
   transition: all .5s;
   transform: scale(1);
@@ -86,6 +105,11 @@
   transform: scale(1.12) !important;
 }
 .animate-three {
+  transition: all .5s;
+  transform: scale(1.12) !important;
+}
+
+.animate-puzzle {
   transition: all .5s;
   transform: scale(1.12) !important;
 }
