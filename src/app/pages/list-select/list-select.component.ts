@@ -40,7 +40,9 @@ export class ListSelectComponent implements OnInit, OnDestroy {
                     new SightWord('crane', '/assets/sight-words/audio/crane.mp3', ''),
                     new SightWord('skate', '/assets/sight-words/audio/skate.mp3', ''),
                     new SightWord('ape', '/assets/audio/sight-words/ape.mp3', ''),
-                    "test"
+                    0,
+                    0,
+                    'test'
                 )
             ];
             // this.data = [this.transferLetterService.getData() as Phoneme];
@@ -82,7 +84,6 @@ export class ListSelectComponent implements OnInit, OnDestroy {
 
     select(item: Phoneme | AlphabetLetter) {
         this.transferLetterService.setData(item);
-        console.log(item);
         if (item instanceof Phoneme) {
             this.router.navigate(['phoneme-learn']);
         } else {
