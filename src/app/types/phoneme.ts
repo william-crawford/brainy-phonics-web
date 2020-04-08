@@ -8,10 +8,10 @@ export class Phoneme {
     word2: SightWord;
     word3: SightWord;
     stars: number;
+    rhyme: string;
     puzzlePiecesEarned: number;
 
-
-    constructor(id: string, display: string, audio: string, word1: SightWord, word2: SightWord, word3: SightWord, stars: number, puzzlePiecesEarned: number) {
+    constructor(id: string, display: string, audio: string, word1: SightWord, word2: SightWord, word3: SightWord, stars: number, puzzlePiecesEarned: number, rhyme: string,) {
         this.id = id;
         this.display = display;
         this.audio = audio;
@@ -20,5 +20,6 @@ export class Phoneme {
         this.word3 = word3;
         this.stars = stars;
         this.puzzlePiecesEarned = puzzlePiecesEarned;
+        this.rhyme = rhyme;
     }
 }

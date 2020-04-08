@@ -3,6 +3,7 @@ import {AlphabetLetter} from '../../types/alphabet-letter';
 import {Phoneme} from '../../types/phoneme';
 import {SightWord} from '../../types/sight-word';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
+import {AlphabetLettersService} from '../../services/alphabet-letters.service';
 import {ActivatedRoute, Router} from '@angular/router';
 import {Location} from '@angular/common';
 
@@ -20,6 +21,8 @@ export class ListSelectComponent implements OnInit, OnDestroy {
 
     constructor(
         private transferLetterService: TransferLetterService,
+        private alphabetLettersService: AlphabetLettersService,
+        
         private router: Router,
         private activatedRoute: ActivatedRoute,
         private location: Location
@@ -38,14 +41,18 @@ export class ListSelectComponent implements OnInit, OnDestroy {
                     new SightWord('skate', '/assets/sight-words/audio/skate.mp3', ''),
                     new SightWord('ape', '/assets/audio/sight-words/ape.mp3', ''),
                     0,
-                    0
+                    0,
+                    'test'
                 )
             ];
+            // this.data = [this.transferLetterService.getData() as Phoneme];
         }
         if (list === 'alphabet') {
-            this.data = [
-                new AlphabetLetter('Aa', '/assets/audio/phonemes/sound-A.mp3', 0)
-            ];
+            // this.data = [
+            //     new AlphabetLetter('Aa', '/assets/audio/phonemes/sound-A.mp3', 0)
+            // ];
+            this.data = this.alphabetLettersService.dataImport();
+            // this.letterProgress = this.letterProgressService.getStarsFromLetter("letter" + this.letter.letter);
         }
         this.instruction = new Audio();
         this.instruction.src = '/assets/audio/00_Button_Audio_Complete_a_whole_puzzle_(Phonics_only).mp3';
@@ -54,6 +61,12 @@ export class ListSelectComponent implements OnInit, OnDestroy {
     }
 
     ngOnInit() {
+        if (this.activatedRoute.snapshot.queryParamMap.get('list') == 'alphabet') {
+            document.getElementById('puzzle').classList.add('hide');
+            for (var i = 0; i < Object.keys(document.getElementsByClassName('bottom')).length - 1; i++) {
+                document.getElementsByClassName('bottom')[i].classList.add('alphabet-list-bottom');
+            }
+        }
     }
 
     ngOnDestroy() {
@@ -61,6 +74,7 @@ export class ListSelectComponent implements OnInit, OnDestroy {
     }
 
     getDisplay(item: Phoneme | AlphabetLetter): string {
+        var icon = document.getElementById('puzzle');
         if (item instanceof Phoneme) {
             return item.display;
         } else {

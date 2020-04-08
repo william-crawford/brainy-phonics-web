@@ -52,3 +52,11 @@
 p {
     margin: 9vh 0vh 0vh 9vh;
 }
+
+.hide {
+    display: none;
+}
+
+.alphabet-list-bottom {
+    transform: translateY(13vh);
+}

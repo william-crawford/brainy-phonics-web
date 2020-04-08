@@ -1,0 +1,18 @@
+<div id='background'>
+    <div id='main-body'>
+        <div class='column'>
+            <div class="cardList">
+                <app-card class="cardListItem" id="{{ setClass(item) }}" (click)='select(item)' *ngFor="let item of data">
+                    <p>{{ getDisplay(item) }}</p>
+                </app-card>
+            </div>
+        </div>
+    </div>
+
+    <div id='side-menu'>
+        <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>
+        <button mat-icon-button class='icon' id='home' routerLink='/'></button>
+        <button mat-icon-button class='icon bottom' id='bank' routerLink='/coins'></button>
+        <button mat-icon-button class='icon bottom' id='puzzle'></button>
+    </div>
+</div>

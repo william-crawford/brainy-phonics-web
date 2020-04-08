@@ -7,7 +7,6 @@ import * as data from '../../../assets/json/quiz-examples.json';
 import {Location} from '@angular/common';
 import {Phoneme} from '../../types/phoneme';
 
-
 @Component({
     templateUrl: 'phoneme-quiz.component.html',
     styleUrls: ['phoneme-quiz.component.css']
@@ -54,7 +53,13 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     // word3: string = data.default.find(o => o.phoneme == this.phoneme.value).exword[2];
     word3: string = data.default.find(o => o.phoneme == "a").exword[2];
 
-	constructor(private transferService:TransferLetterService, private userDataService:UserDataService, private elem:ElementRef, private router: Router, private location: Location) {
+	constructor(
+        private transferService:TransferLetterService, 
+        private userDataService:UserDataService, 
+        private elem:ElementRef, 
+        private router: Router, 
+        private location: Location
+    ) {
         this.phoneme = this.transferService.getData() as Phoneme;
         this.phonemePlayAudio = true;
         this.phonemeAnimate = false;
@@ -182,7 +187,6 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     }
 
     onCorrect() {
-
         this.userDataService.addCoins(1);
         if (this.phoneme.puzzlePiecesEarned < 12) {
             this.phoneme.puzzlePiecesEarned += 1;

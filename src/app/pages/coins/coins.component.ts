@@ -30,5 +30,4 @@ export class CoinsComponent implements OnInit {
   goBack() {
     this.location.back();
   }
-
 }

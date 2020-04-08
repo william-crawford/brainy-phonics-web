@@ -40,25 +40,27 @@ export class PhonemesService {
         new Phoneme(
           phoneme.id,
           phoneme.display,
-          `/resources/audio/phonemes/${phoneme.audio}`,
+          `/assets/audio/phonemes/${phoneme.audio}`,
           new SightWord(
             phoneme.word1.word,
-            `/resources/audio/sight-words/${phoneme.word1.audio}`,
-            `/resources/images/sight-words/${phoneme.word1.image}`
+            `/assets/audio/sight-words/${phoneme.word1.audio}`,
+            `/assets/images/sight-words/${phoneme.word1.image}`
           ),
           new SightWord(
             phoneme.word2.word,
-            `/resources/audio/sight-words/${phoneme.word2.audio}`,
-            `/resources/images/sight-words/${phoneme.word2.image}`
+            `/assets/audio/sight-words/${phoneme.word2.audio}`,
+            `/assets/images/sight-words/${phoneme.word2.image}`
           ),
           new SightWord(phoneme.word3.word,
-            `/resources/audio/sight-words/${phoneme.word3.audio}`,
-            `/resources/images/sight-words/${phoneme.word3.image}`
+            `/assets/audio/sight-words/${phoneme.word3.audio}`,
+            `/assets/images/sight-words/${phoneme.word3.image}`
           ),
           0,
-          0
+          0,
+          phoneme.rhyme
         ));
     });
     this._phonemes.next(temp);
+    return data;
   }
 }
