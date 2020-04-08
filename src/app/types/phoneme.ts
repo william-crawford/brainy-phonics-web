@@ -1,5 +1,4 @@
 import {SightWord} from './sight-word';
-import { NumberSymbol } from '@angular/common';
 
 export class Phoneme {
     id: string;         // unique identifier
@@ -10,7 +9,7 @@ export class Phoneme {
     word3: SightWord;
     color: string;
     category: string;
-    stars: NumberSymbol;
+    stars: number;
     puzzlePiecesEarned: number;
     rhyme: string;
     

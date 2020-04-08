@@ -16,7 +16,7 @@ import {Location} from '@angular/common';
 export class ListSelectComponent implements OnInit, OnDestroy {
 
     instruction: HTMLAudioElement;
-    list: string
+    list: string;
     // filled with test data to be overridden later
     data: AlphabetLetter[] | Phoneme[];
 
@@ -30,7 +30,7 @@ export class ListSelectComponent implements OnInit, OnDestroy {
         private location: Location
     ) {
         let list = this.activatedRoute.snapshot.queryParamMap.get('list');
-        this.list = list
+        this.list = list;
         if (!list || list === '') {
             this.router.navigate(['']);
         }
@@ -73,7 +73,7 @@ export class ListSelectComponent implements OnInit, OnDestroy {
         }
     }
 
-    select(item: Phoneme | AlphabetLetter) {
+    select(item) {
         this.transferLetterService.setData(item);
         if (this.list == 'phoneme') {
             this.router.navigate(['phoneme-learn']);
