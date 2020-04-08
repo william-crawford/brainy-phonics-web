@@ -50,9 +50,24 @@
     cursor: pointer;
 }
 
-.animateLetter {
+.animateLetter1 {
   transition: all 0.5s linear;
   transform: translate(22vh, 10vh) scale(1.12) !important;
+}
+
+.animateLetter2 {
+  transition: all 0.5s linear;
+  transform: translate(-22vh, 10vh) scale(1.12) !important;
+}
+
+.animateLetter3 {
+  transition: all 0.5s linear;
+  transform: translate(22vh, -10vh) scale(1.12) !important;
+}
+
+.animateLetter4 {
+  transition: all 0.5s linear;
+  transform: translate(-22vh, -10vh) scale(1.12) !important;
 }
 
 

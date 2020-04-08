@@ -55,6 +55,8 @@ export class PhonemesService {
             `/assets/audio/sight-words/${phoneme.word3.audio}`,
             `/assets/images/sight-words/${phoneme.word3.image}`
           ),
+          phoneme.color,
+          phoneme.category,
           0,
           0,
           phoneme.rhyme
