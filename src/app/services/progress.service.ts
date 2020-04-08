@@ -64,6 +64,7 @@ export class ProgressService {
 
   saveStarsToKey(key, val): void {
     let input;
+    console.log(key)
     if(this.storage.get(key) == null) {
       input = this.prepareNewKeyProgress();
     } else {
@@ -91,6 +92,7 @@ export class ProgressService {
     if (this.storage.get(key) != null) {
       stars = this.storage.get(key).stars;
     }
+    console.log("Sent from get stars:", key, stars)
     return stars;
   }
 }

@@ -79,7 +79,7 @@ export class ListSelectComponent implements OnInit, OnDestroy {
         }
     }
 
-    showProgress(item: Phoneme | AlphabetLetter): void{
+    showProgress(item): void{
         let numStars;
         let elem = document.getElementsByClassName("cardListItem")[this.cardItemCount];
         let queryStatement;
@@ -87,12 +87,12 @@ export class ListSelectComponent implements OnInit, OnDestroy {
         if (item != null) {
             if (!this.dataProgress.includes(item)) {
                 this.cardItemCount++;
-                if (item instanceof Phoneme) {
+                if (this.list === 'phoneme') {
                     queryStatement = "phoneme" + item.id;
                     numStars = this.progressService.getStarsFromKey(queryStatement); 
                 } else {
                     queryStatement = "letter" + item.letter;
-                    numStars = this.progressService.getStarsFromKey(queryStatement); 
+                    numStars = this.progressService.getStarsFromKey(queryStatement);
                 }
                 if (numStars > 0) {
                     this.dataProgress.push(item);
