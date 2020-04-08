@@ -1,10 +1,20 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {AlphabetLetter} from '../../types/alphabet-letter';
 import {Phoneme} from '../../types/phoneme';
+import {Vowels} from '../../types/vowels';
+import {ConsonantBlends} from '../../types/consonantBlends';
+import {Consonants} from '../../types/consonants';
+import {VowelConsonantBlends} from '../../types/vowelConsonantBlends';
+import {VowelPairs} from '../../types/vowelPairs';
 import {SightWord} from '../../types/sight-word';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import {AlphabetLettersService} from '../../services/alphabet-letters.service';
 import {PhonemesService} from '../../services/phonemes.service';
+import {VowelsService} from '../../services/vowels.service';
+import {ConsonantBlendsService} from '../../services/consonantBlends.service';
+import {ConsonantsService} from '../../services/consonants.service';
+import {VowelConsonantBlendsService} from '../../services/vowelConsonantBlends.service';
+import {VowelPairsService} from '../../services/vowelPairs.service';
 import {ActivatedRoute, Router} from '@angular/router';
 import {Location} from '@angular/common';
 
@@ -18,12 +28,17 @@ export class ListSelectComponent implements OnInit, OnDestroy {
     instruction: HTMLAudioElement;
     list: string
     // filled with test data to be overridden later
-    data: AlphabetLetter[] | Phoneme[];
+    data: AlphabetLetter[] | Phoneme[] | Vowels[] | ConsonantBlends[] | Consonants[] | VowelConsonantBlends[] | VowelPairs[];
 
     constructor(
         private transferLetterService: TransferLetterService,
         private alphabetLettersService: AlphabetLettersService,
         private phonemesService: PhonemesService,
+        private vowelsService: VowelsService,
+        private consonantBlendsService: ConsonantBlendsService,
+        private consonantsService: ConsonantsService,
+        private vowelConsonantBlendsService: VowelConsonantBlendsService,
+        private vowelPairsService: VowelPairsService,
 
         private router: Router,
         private activatedRoute: ActivatedRoute,
@@ -45,6 +60,27 @@ export class ListSelectComponent implements OnInit, OnDestroy {
             this.data = this.alphabetLettersService.dataImport();
             // this.letterProgress = this.letterProgressService.getStarsFromLetter("letter" + this.letter.letter);
         }
+
+        if (list === 'vowels') {
+            this.data = this.vowelsService.dataLoad();
+        }
+
+        if (list === 'consonantBlends') {
+            this.data = this.consonantBlendsService.dataLoad();
+        }
+
+        if (list === 'consonants') {
+            this.data = this.consonantsService.dataLoad();
+        }
+
+        if (list === 'vowelConsonants') {
+            this.data = this.vowelConsonantBlendsService.dataLoad();
+        }
+
+        if (list === 'vowelPairs') {
+            this.data = this.vowelPairsService.dataLoad();
+        }
+
         this.instruction = new Audio();
         this.instruction.src = '/assets/audio/00_Button_Audio_Complete_a_whole_puzzle_(Phonics_only).mp3';
         this.instruction.load();
@@ -66,19 +102,19 @@ export class ListSelectComponent implements OnInit, OnDestroy {
 
     getDisplay(item): string {
         var icon = document.getElementById('puzzle');
-        if (this.list === 'phoneme') {
-            return item.display;
-        } else if (this.list === 'alphabet') {
+        if (this.list === 'alphabet') {
             return item.letter;
+        } else {
+            return item.display;
         }
     }
 
     select(item: Phoneme | AlphabetLetter) {
         this.transferLetterService.setData(item);
-        if (this.list == 'phoneme') {
-            this.router.navigate(['phoneme-learn']);
-        } else if (this.list === 'alphabet') {
+        if (this.list == 'alphabet') {
             this.router.navigate(['alphabet-learn']);
+        } else {
+            this.router.navigate(['phoneme-learn']);
         }
     }
 
