@@ -5,6 +5,7 @@ import {SightWord} from '../../types/sight-word';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import {AlphabetLettersService} from '../../services/alphabet-letters.service';
 import {ProgressService} from '../../services/progress.service';
+import {PhonemesService} from '../../services/phonemes.service';
 import {ActivatedRoute, Router} from '@angular/router';
 import {Location} from '@angular/common';
 
@@ -16,7 +17,7 @@ import {Location} from '@angular/common';
 export class ListSelectComponent implements OnInit, OnDestroy {
 
     instruction: HTMLAudioElement;
-
+    list: string;
     // filled with test data to be overridden later
     data: AlphabetLetter[] | Phoneme[];
     dataProgress: any[];
@@ -26,27 +27,19 @@ export class ListSelectComponent implements OnInit, OnDestroy {
         private transferLetterService: TransferLetterService,
         private alphabetLettersService: AlphabetLettersService,
         private progressService: ProgressService,
+        private phonemesService: PhonemesService,
+
         private router: Router,
         private activatedRoute: ActivatedRoute,
         private location: Location
     ) {
         let list = this.activatedRoute.snapshot.queryParamMap.get('list');
+        this.list = list;
         if (!list || list === '') {
             this.router.navigate(['']);
         }
         if (list === 'phoneme') {
-            this.data = [
-                new Phoneme(
-                    'a1',
-                    'a',
-                    '/assets/audio/phonemes/sound-A.mp3',
-                    new SightWord('crane', '/assets/sight-words/audio/crane.mp3', ''),
-                    new SightWord('skate', '/assets/sight-words/audio/skate.mp3', ''),
-                    new SightWord('ape', '/assets/audio/sight-words/ape.mp3', ''),
-                    0,
-                    "test"
-                )
-            ];
+            this.data = this.phonemesService.dataLoad();
             // this.data = [this.transferLetterService.getData() as Phoneme];
         }
         if (list === 'alphabet') {
@@ -76,16 +69,13 @@ export class ListSelectComponent implements OnInit, OnDestroy {
         this.instruction.pause();
     }
 
-    getDisplay(item: Phoneme | AlphabetLetter): string {
+    getDisplay(item): string {
         var icon = document.getElementById('puzzle');
-        if (item != null) {
-            this.showProgress(item)
-            if (item instanceof Phoneme) {
-                return item.display;
-            } else {
-                return item.letter ;
-            }
-            
+        this.showProgress(item)
+        if (this.list === 'phoneme') {
+            return item.display;
+        } else if (this.list === 'alphabet') {
+            return item.letter;
         }
     }
 
@@ -127,20 +117,14 @@ export class ListSelectComponent implements OnInit, OnDestroy {
                     }
                 }
             }
-
         }
     }
 
-    logItems (item: Phoneme | AlphabetLetter): void {
-        console.log(item)
-    }
-
-    select(item: Phoneme | AlphabetLetter) {
+    select(item) {
         this.transferLetterService.setData(item);
-        console.log(item);
-        if (item instanceof Phoneme) {
+        if (this.list == 'phoneme') {
             this.router.navigate(['phoneme-learn']);
-        } else {
+        } else if (this.list === 'alphabet') {
             this.router.navigate(['alphabet-learn']);
         }
     }

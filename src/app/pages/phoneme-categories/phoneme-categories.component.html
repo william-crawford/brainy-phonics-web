@@ -8,7 +8,7 @@
             </div>
             <div class='row'>
                 <button mat-icon-button class='category_button' id='consonant_blends' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list': 'phoneme'}"></button>
-                <button mat-icon-button class='category_button' id='all' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list': 'phoneme'}"></button>
+                <button mat-icon-button class='category_button' id='all' [routerLink]='["/list-select"]' [queryParams]="{'list': 'phoneme'}"></button>
                 <button mat-icon-button class='category_button' id='vowel_pairs' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list': 'phoneme'}"></button>
             </div>
         </div>

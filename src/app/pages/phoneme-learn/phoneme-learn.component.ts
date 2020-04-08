@@ -48,9 +48,9 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
     word3: string = data.default.find(o => o.phoneme == 'a').exword[2];
 
     constructor(
-        private transferService: TransferLetterService, 
-        private elem: ElementRef, 
-        private router: Router, 
+        private transferService: TransferLetterService,
+        private elem: ElementRef,
+        private router: Router,
         private location: Location
     ) {
         this.phoneme = this.transferService.getData() as Phoneme;
@@ -83,23 +83,23 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
 
         this.phonemeAudio = new Audio();
         // this.phonemeAudio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).nameaudio[0];
-        this.phonemeAudio.src = '/assets/audio/' + data.default.find(o => o.phoneme == 'a').nameaudio[0];
+        this.phonemeAudio.src = '/assets/audio/phonemes/' + data.default.find(o => o.phoneme == 'a').nameaudio[0];
         this.phonemeAudio.load();
 
         this.ex1Audio = new Audio();
         // this.ex1Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).exaudio[0];
-        this.ex1Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == 'a').exaudio[0];
+        this.ex1Audio.src = '/assets/audio/sight-words/' + data.default.find(o => o.phoneme == 'a').exaudio[0];
         this.ex1Audio.load();
 
         this.ex2Audio = new Audio();
         // this.ex2Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).exaudio[1];
-        this.ex2Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == 'a').exaudio[1];
+        this.ex2Audio.src = '/assets/audio/sight-words/' + data.default.find(o => o.phoneme == 'a').exaudio[1];
 
         this.ex2Audio.load();
 
         this.ex3Audio = new Audio();
         // this.ex3Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).exaudio[2];
-        this.ex3Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == 'a').exaudio[2];
+        this.ex3Audio.src = '/assets/audio/sight-words/' + data.default.find(o => o.phoneme == 'a').exaudio[2];
 
         this.ex3Audio.load();
 
