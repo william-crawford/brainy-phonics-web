@@ -39,6 +39,7 @@
   cursor: pointer;
   transition: all .5s;
   transform: scale(1);
+  text-transform: lowercase;
 }
 .letter.one {
   transform: translate(11vh, 3vh);

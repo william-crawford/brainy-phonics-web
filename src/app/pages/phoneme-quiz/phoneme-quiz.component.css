@@ -40,6 +40,7 @@
   cursor: pointer;
   transition: all .5s;
   transform: scale(1);
+  text-transform: lowercase;
 }
 
 ::ng-deep span {

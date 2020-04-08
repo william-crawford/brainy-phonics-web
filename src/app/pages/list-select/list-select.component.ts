@@ -66,9 +66,9 @@ export class ListSelectComponent implements OnInit, OnDestroy {
 
     getDisplay(item: Phoneme | AlphabetLetter): string {
         var icon = document.getElementById('puzzle');
-        if (this.list == 'phoneme') {
+        if (this.list === 'phoneme') {
             return item.display;
-        } else {
+        } else if (this.list === 'alphabet') {
             return item.letter;
         }
     }

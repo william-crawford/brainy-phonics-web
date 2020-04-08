@@ -42,6 +42,7 @@
     font-family: 'ComicSans';
     font-size: 12vh;
     border-bottom: 3vh solid #DEDEDE;
+    text-transform: lowercase;
 }
 
 /* Fix last row styling after JSONs are done */
