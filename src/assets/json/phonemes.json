@@ -2,7 +2,7 @@
   {
       "id": "A-long",
       "audio": "sound-A-",
-      "display": "A",
+      "display": "a",
       "word1": {
           "word": "ape",
           "audio": "ape.mp3",
@@ -37,7 +37,7 @@
   {
       "id": "A-short",
       "audio": "sound-A-",
-      "display": "A",
+      "display": "a",
       "word1": {
           "word": "bat",
           "audio": "bat.mp3",
@@ -72,7 +72,7 @@
   {
       "id": "A-ahh",
       "audio": "sound-A-",
-      "display": "A",
+      "display": "a",
       "word1": {
           "word": "swan",
           "audio": "swan.mp3",
@@ -106,7 +106,7 @@
   {
       "id": "A-schwa",
       "audio": "sound-A-",
-      "display": "A",
+      "display": "a",
       "word1": {
           "word": "canoe",
           "audio": "canoe.mp3",
@@ -135,7 +135,7 @@
   {
       "id": "A-AI",
       "audio": "sound-A-",
-      "display": "AI",
+      "display": "ai",
       "word1": {
           "word": "tail",
           "audio": "tail.mp3",
@@ -169,7 +169,7 @@
   {
       "id": "A-AN",
       "audio": "sound-A-",
-      "display": "AN",
+      "display": "an",
       "word1": {
           "word": "man",
           "audio": "man.mp3",
@@ -200,7 +200,7 @@
   {
       "id": "A-AR",
       "audio": "sound-A-",
-      "display": "AR",
+      "display": "ar",
       "word1": {
           "word": "arm",
           "audio": "arm.mp3",
@@ -233,7 +233,7 @@
   {
       "id": "A-AU",
       "audio": "sound-A-",
-      "display": "AU",
+      "display": "au",
       "word1": {
           "word": "daughter",
           "audio": "daughter.mp3",
@@ -264,7 +264,7 @@
   {
       "id": "A-AW",
       "audio": "sound-A-",
-      "display": "AW",
+      "display": "aw",
       "word1": {
           "word": "saw",
           "audio": "saw.mp3",
@@ -296,7 +296,7 @@
   {
       "id": "A-AY",
       "audio": "sound-A-",
-      "display": "AY",
+      "display": "ay",
       "word1": {
           "word": "jay",
           "audio": "jay.mp3",
@@ -323,7 +323,7 @@
   {
       "id": "B-buh",
       "audio": "sound-B-",
-      "display": "B",
+      "display": "b",
       "word1": {
           "word": "bubble",
           "audio": "bubble.mp3",
@@ -358,7 +358,7 @@
   {
       "id": "B-BL",
       "audio": "sound-B-",
-      "display": "BL",
+      "display": "bl",
       "word1": {
           "word": "blue",
           "audio": "blue.mp3",
@@ -385,7 +385,7 @@
   {
       "id": "B-BR",
       "audio": "sound-B-",
-      "display": "BR",
+      "display": "br",
       "word1": {
           "word": "bridge",
           "audio": "bridge.mp3",
@@ -417,7 +417,7 @@
   {
       "id": "C-kuh",
       "audio": "sound-C-",
-      "display": "C",
+      "display": "c",
       "word1": {
           "word": "cat",
           "audio": "cat.mp3",
@@ -452,7 +452,7 @@
   {
       "id": "C-sss",
       "audio": "sound-C-",
-      "display": "C",
+      "display": "c",
       "word1": {
           "word": "celery",
           "audio": "celery.mp3",
@@ -484,7 +484,7 @@
   {
       "id": "C-CH",
       "audio": "sound-C-",
-      "display": "CH",
+      "display": "ch",
       "word1": {
           "word": "chipmunk",
           "audio": "chipmunk.mp3",
@@ -515,7 +515,7 @@
   {
       "id": "C-CL",
       "audio": "sound-C-",
-      "display": "CL",
+      "display": "cl",
       "word1": {
           "word": "clown",
           "audio": "clown.mp3",
@@ -547,7 +547,7 @@
   {
       "id": "C-CR",
       "audio": "sound-C-",
-      "display": "CR",
+      "display": "cr",
       "word1": {
           "word": "crab",
           "audio": "crab.mp3",
@@ -578,7 +578,7 @@
   {
       "id": "D-duh",
       "audio": "sound-D-",
-      "display": "D",
+      "display": "d",
       "word1": {
           "word": "dog",
           "audio": "dog.mp3",
@@ -613,7 +613,7 @@
   {
       "id": "D-DR",
       "audio": "sound-D-",
-      "display": "DR",
+      "display": "dr",
       "word1": {
           "word": "drink",
           "audio": "drink.mp3",
@@ -642,7 +642,7 @@
   {
       "id": "E-long",
       "audio": "sound-E-",
-      "display": "E",
+      "display": "e",
       "word1": {
           "word": "key",
           "audio": "key.mp3",
@@ -677,7 +677,7 @@
   {
       "id": "E-short",
       "audio": "sound-E-",
-      "display": "E",
+      "display": "e",
       "word1": {
           "word": "elf",
           "audio": "elf.mp3",
@@ -710,7 +710,7 @@
   {
       "id": "E-schwa",
       "audio": "sound-E-",
-      "display": "E",
+      "display": "e",
       "word1": {
           "word": "camel",
           "audio": "camel.mp3",
@@ -741,7 +741,7 @@
   {
       "id": "E-EA",
       "audio": "sound-E-",
-      "display": "EA",
+      "display": "ea",
       "word1": {
           "word": "eat",
           "audio": "eat.mp3",
@@ -776,7 +776,7 @@
   {
       "id": "E-ER",
       "audio": "sound-E-",
-      "display": "ER",
+      "display": "er",
       "word1": {
           "word": "boxer",
           "audio": "boxer.mp3",
@@ -811,7 +811,7 @@
   {
       "id": "E-ET",
       "audio": "sound-E-",
-      "display": "ET",
+      "display": "et",
       "word1": {
           "word": "net",
           "audio": "net.mp3",
@@ -844,7 +844,7 @@
   {
       "id": "E-EW",
       "audio": "sound-E-",
-      "display": "EW",
+      "display": "ew",
       "word1": {
           "word": "flew",
           "audio": "flew.mp3",
@@ -873,7 +873,7 @@
   {
       "id": "F-fuh",
       "audio": "sound-F-",
-      "display": "F",
+      "display": "f",
       "word1": {
           "word": "fox",
           "audio": "fox.mp3",
@@ -908,7 +908,7 @@
   {
       "id": "F-FL",
       "audio": "sound-F-",
-      "display": "FL",
+      "display": "fl",
       "word1": {
           "word": "flower",
           "audio": "flower.mp3",
@@ -939,7 +939,7 @@
   {
       "id": "F-FR",
       "audio": "sound-F-",
-      "display": "FR",
+      "display": "fr",
       "word1": {
           "word": "frog",
           "audio": "frog.mp3",
@@ -969,7 +969,7 @@
   {
       "id": "G-guh",
       "audio": "sound-G-",
-      "display": "G",
+      "display": "g",
       "word1": {
           "word": "goose",
           "audio": "goose.mp3",
@@ -1004,7 +1004,7 @@
   {
       "id": "G-juh",
       "audio": "sound-G-",
-      "display": "G",
+      "display": "g",
       "word1": {
           "word": "giraffe",
           "audio": "giraffe.mp3",
@@ -1034,7 +1034,7 @@
   {
       "id": "G-GL",
       "audio": "sound-G-",
-      "display": "GL",
+      "display": "gl",
       "word1": {
           "word": "gloves",
           "audio": "gloves.mp3",
@@ -1064,7 +1064,7 @@
   {
       "id": "G-GR",
       "audio": "sound-G-",
-      "display": "GR",
+      "display": "gr",
       "word1": {
           "word": "grapes",
           "audio": "grapes.mp3",
@@ -1097,7 +1097,7 @@
   {
       "id": "H-huh",
       "audio": "sound-H-",
-      "display": "H",
+      "display": "h",
       "word1": {
           "word": "hug",
           "audio": "hug.mp3",
@@ -1132,7 +1132,7 @@
   {
       "id": "I-long",
       "audio": "sound-I-",
-      "display": "I",
+      "display": "i",
       "word1": {
           "word": "ice",
           "audio": "ice.mp3",
@@ -1165,7 +1165,7 @@
   {
       "id": "I-short",
       "audio": "sound-I-",
-      "display": "I",
+      "display": "i",
       "word1": {
           "word": "mittens",
           "audio": "mittens.mp3",
@@ -1200,7 +1200,7 @@
   {
       "id": "I-schwa",
       "audio": "sound-I-",
-      "display": "I",
+      "display": "i",
       "word1": {
           "word": "rabbit",
           "audio": "rabbit.mp3",
@@ -1226,7 +1226,7 @@
   {
       "id": "I-ee",
       "audio": "sound-I-",
-      "display": "IE",
+      "display": "ie",
       "word1": {
           "word": "collie",
           "audio": "collie.mp3",
@@ -1256,7 +1256,7 @@
   {
       "id": "I-ie",
       "audio": "sound-I-",
-      "display": "IE",
+      "display": "ie",
       "word1": {
           "word": "tie",
           "audio": "tie.mp3",
@@ -1287,7 +1287,7 @@
   {
       "id": "I-IGH",
       "audio": "sound-I-",
-      "display": "IGH",
+      "display": "igh",
       "word1": {
           "word": "light",
           "audio": "light.mp3",
@@ -1317,7 +1317,7 @@
   {
       "id": "I-IL",
       "audio": "sound-I-",
-      "display": "IL",
+      "display": "il",
       "word1": {
           "word": "spill",
           "audio": "spill.mp3",
@@ -1347,7 +1347,7 @@
   {
       "id": "I-IR",
       "audio": "sound-I-",
-      "display": "IR",
+      "display": "ir",
       "word1": {
           "word": "bird",
           "audio": "bird.mp3",
@@ -1377,7 +1377,7 @@
   {
       "id": "J-juh",
       "audio": "sound-J-",
-      "display": "J",
+      "display": "j",
       "word1": {
           "word": "jump",
           "audio": "jump.mp3",
@@ -1408,7 +1408,7 @@
   {
       "id": "K-kuh",
       "audio": "sound-K-",
-      "display": "K",
+      "display": "k",
       "word1": {
           "word": "kangaroo",
           "audio": "kangaroo.mp3",
@@ -1441,7 +1441,7 @@
   {
       "id": "L-lll",
       "audio": "sound-L-",
-      "display": "L",
+      "display": "l",
       "word1": {
           "word": "love",
           "audio": "love.mp3",
@@ -1476,7 +1476,7 @@
   {
       "id": "L-LE",
       "audio": "sound-L-",
-      "display": "LE",
+      "display": "le",
       "word1": {
           "word": "poodle",
           "audio": "poodle.mp3",
@@ -1510,7 +1510,7 @@
   {
       "id": "M-mmm",
       "audio": "sound-M-",
-      "display": "M",
+      "display": "m",
       "word1": {
           "word": "monkey",
           "audio": "monkey.mp3",
@@ -1545,7 +1545,7 @@
   {
       "id": "N-nnn",
       "audio": "sound-N-",
-      "display": "N",
+      "display": "n",
       "word1": {
           "word": "nose",
           "audio": "nose.mp3",
@@ -1580,7 +1580,7 @@
   {
       "id": "N-ND",
       "audio": "sound-N-",
-      "display": "ND",
+      "display": "nd",
       "word1": {
           "word": "hand",
           "audio": "hand.mp3",
@@ -1615,7 +1615,7 @@
   {
       "id": "N-NG",
       "audio": "sound-N-",
-      "display": "NG",
+      "display": "ng",
       "word1": {
           "word": "king",
           "audio": "king.mp3",
@@ -1646,7 +1646,7 @@
   {
       "id": "N-NK",
       "audio": "sound-N-",
-      "display": "NK",
+      "display": "nk",
       "word1": {
           "word": "skunk",
           "audio": "skunk.mp3",
@@ -1678,7 +1678,7 @@
   {
       "id": "O-long",
       "audio": "sound-O-",
-      "display": "O",
+      "display": "o",
       "word1": {
           "word": "old",
           "audio": "old.mp3",
@@ -1713,7 +1713,7 @@
   {
       "id": "O-short",
       "audio": "sound-O-",
-      "display": "O",
+      "display": "o",
       "word1": {
           "word": "ostrich",
           "audio": "ostrich.mp3",
@@ -1748,7 +1748,7 @@
   {
       "id": "O-uh",
       "audio": "sound-O-",
-      "display": "O",
+      "display": "o",
       "word1": {
           "word": "onion",
           "audio": "onion.mp3",
@@ -1781,7 +1781,7 @@
   {
       "id": "O-ew",
       "audio": "sound-O-",
-      "display": "OO",
+      "display": "oo",
       "word1": {
           "word": "spoon",
           "audio": "spoon.mp3",
@@ -1816,7 +1816,7 @@
   {
       "id": "O-uuh",
       "audio": "sound-O-",
-      "display": "OO",
+      "display": "oo",
       "word1": {
           "word": "cookies",
           "audio": "cookies.mp3",
@@ -1847,7 +1847,7 @@
   {
       "id": "O-OA",
       "audio": "sound-O-",
-      "display": "OA",
+      "display": "oa",
       "word1": {
           "word": "goat",
           "audio": "goat.mp3",
@@ -1877,7 +1877,7 @@
   {
       "id": "O-OI",
       "audio": "sound-O-",
-      "display": "OI",
+      "display": "oi",
       "word1": {
           "word": "coin",
           "audio": "coin.mp3",
@@ -1907,7 +1907,7 @@
   {
       "id": "O-OR",
       "audio": "sound-O-",
-      "display": "OR",
+      "display": "or",
       "word1": {
           "word": "fork",
           "audio": "fork.mp3",
@@ -1937,7 +1937,7 @@
   {
       "id": "O-OU",
       "audio": "sound-O-",
-      "display": "OU",
+      "display": "ou",
       "word1": {
           "word": "mouth",
           "audio": "mouth.mp3",
@@ -1969,7 +1969,7 @@
   {
       "id": "O-ohw",
       "audio": "sound-O-",
-      "display": "OW",
+      "display": "ow",
       "word1": {
           "word": "rainbow",
           "audio": "rainbow.mp3",
@@ -2000,7 +2000,7 @@
   {
       "id": "O-ow",
       "audio": "sound-O-",
-      "display": "OW",
+      "display": "ow",
       "word1": {
           "word": "owl",
           "audio": "owl.mp3",
@@ -2033,7 +2033,7 @@
   {
       "id": "O-OY",
       "audio": "sound-O-",
-      "display": "OY",
+      "display": "oy",
       "word1": {
           "word": "boy",
           "audio": "boy.mp3",
@@ -2062,7 +2062,7 @@
   {
       "id": "P-puh",
       "audio": "sound-P-",
-      "display": "P",
+      "display": "p",
       "word1": {
           "word": "puppy",
           "audio": "puppy.mp3",
@@ -2097,7 +2097,7 @@
   {
       "id": "P-PL",
       "audio": "sound-P-",
-      "display": "PL",
+      "display": "pl",
       "word1": {
           "word": "plug",
           "audio": "plug.mp3",
@@ -2126,7 +2126,7 @@
   {
       "id": "P-PR",
       "audio": "sound-P-",
-      "display": "PR",
+      "display": "pr",
       "word1": {
           "word": "proud",
           "audio": "proud.mp3",
@@ -2154,7 +2154,7 @@
   {
       "id": "Q-qwuh",
       "audio": "sound-Q-",
-      "display": "Q",
+      "display": "q",
       "word1": {
           "word": "queen",
           "audio": "queen.mp3",
@@ -2187,7 +2187,7 @@
   {
       "id": "R-ruh",
       "audio": "sound-R-",
-      "display": "R",
+      "display": "r",
       "word1": {
           "word": "raccoons",
           "audio": "raccoons.mp3",
@@ -2221,7 +2221,7 @@
   {
       "id": "S-sss",
       "audio": "sound-S-",
-      "display": "S",
+      "display": "s",
       "word1": {
           "word": "suitcase",
           "audio": "suitcase.mp3",
@@ -2256,7 +2256,7 @@
   {
       "id": "S-zz",
       "audio": "sound-S-",
-      "display": "S",
+      "display": "s",
       "word1": {
           "word": "dogs",
           "audio": "dogs.mp3",
@@ -2290,7 +2290,7 @@
   {
       "id": "S-SH",
       "audio": "sound-S-",
-      "display": "SH",
+      "display": "sh",
       "word1": {
           "word": "shoes",
           "audio": "shoes.mp3",
@@ -2325,7 +2325,7 @@
   {
       "id": "S-SK",
       "audio": "sound-S-",
-      "display": "SK",
+      "display": "sk",
       "word1": {
           "word": "skate",
           "audio": "skate.mp3",
@@ -2359,7 +2359,7 @@
   {
       "id": "S-SL",
       "audio": "sound-S-",
-      "display": "SL",
+      "display": "sl",
       "word1": {
           "word": "sled",
           "audio": "sled.mp3",
@@ -2388,7 +2388,7 @@
   {
       "id": "S-SP",
       "audio": "sound-S-",
-      "display": "SP",
+      "display": "sp",
       "word1": {
           "word": "spider",
           "audio": "spider.mp3",
@@ -2416,7 +2416,7 @@
   {
       "id": "S-ST",
       "audio": "sound-S-",
-      "display": "ST",
+      "display": "st",
       "word1": {
           "word": "stilts",
           "audio": "stilts.mp3",
@@ -2451,7 +2451,7 @@
   {
       "id": "S-SW",
       "audio": "sound-S-",
-      "display": "SW",
+      "display": "sw",
       "word1": {
           "word": "sweet",
           "audio": "sweet.mp3",
@@ -2480,7 +2480,7 @@
   {
       "id": "T-tttt",
       "audio": "sound-T-",
-      "display": "T",
+      "display": "t",
       "word1": {
           "word": "toe",
           "audio": "toe.mp3",
@@ -2515,7 +2515,7 @@
   {
       "id": "T-the",
       "audio": "sound-T-",
-      "display": "TH",
+      "display": "th",
       "word1": {
           "word": "father",
           "audio": "father.mp3",
@@ -2546,7 +2546,7 @@
   {
       "id": "T-th",
       "audio": "sound-T-",
-      "display": "TH",
+      "display": "th",
       "word1": {
           "word": "throne",
           "audio": "throne.mp3",
@@ -2576,7 +2576,7 @@
   {
       "id": "T-TR",
       "audio": "sound-T-",
-      "display": "TR",
+      "display": "tr",
       "word1": {
           "word": "tricycle",
           "audio": "tricycle.mp3",
@@ -2612,7 +2612,7 @@
   {
       "id": "U-long",
       "audio": "sound-U-",
-      "display": "U",
+      "display": "u",
       "word1": {
           "word": "unicycle",
           "audio": "unicycle.mp3",
@@ -2642,7 +2642,7 @@
   {
       "id": "U-uu",
       "audio": "sound-U-",
-      "display": "U",
+      "display": "u",
       "word1": {
           "word": "tuba",
           "audio": "tuba.mp3",
@@ -2675,7 +2675,7 @@
   {
       "id": "U-short",
       "audio": "sound-U-",
-      "display": "U",
+      "display": "u",
       "word1": {
           "word": "bug",
           "audio": "bug.mp3",
@@ -2710,7 +2710,7 @@
   {
       "id": "U-UR",
       "audio": "sound-U-",
-      "display": "UR",
+      "display": "ur",
       "word1": {
           "word": "turtle",
           "audio": "turtle.mp3",
@@ -2742,7 +2742,7 @@
   {
       "id": "V-vv",
       "audio": "sound-V-",
-      "display": "V",
+      "display": "v",
       "word1": {
           "word": "volcano",
           "audio": "volcano.mp3",
@@ -2772,7 +2772,7 @@
   {
       "id": "W-wuh",
       "audio": "sound-W-",
-      "display": "W",
+      "display": "w",
       "word1": {
           "word": "wagon",
           "audio": "wagon.mp3",
@@ -2807,7 +2807,7 @@
   {
       "id": "W-WH",
       "audio": "sound-W-",
-      "display": "WH",
+      "display": "wh",
       "word1": {
           "word": "whistle",
           "audio": "whistle.mp3",
@@ -2838,7 +2838,7 @@
   {
       "id": "X-ks",
       "audio": "sound-X-",
-      "display": "X",
+      "display": "x",
       "word1": {
           "word": "taxi",
           "audio": "taxi.mp3",
@@ -2869,7 +2869,7 @@
   {
       "id": "Y-yuh",
       "audio": "sound-Y-",
-      "display": "Y",
+      "display": "y",
       "word1": {
           "word": "yellow",
           "audio": "yellow.mp3",
@@ -2899,7 +2899,7 @@
   {
       "id": "Y-i",
       "audio": "sound-Y-",
-      "display": "Y",
+      "display": "y",
       "word1": {
           "word": "cry",
           "audio": "cry.mp3",
@@ -2931,7 +2931,7 @@
   {
       "id": "Y-e",
       "audio": "sound-Y-",
-      "display": "Y",
+      "display": "y",
       "word1": {
           "word": "baby",
           "audio": "baby.mp3",
@@ -2966,7 +2966,7 @@
   {
       "id": "Z-zzz",
       "audio": "sound-Z-",
-      "display": "Z",
+      "display": "z",
       "word1": {
           "word": "zebra",
           "audio": "zebra.mp3",

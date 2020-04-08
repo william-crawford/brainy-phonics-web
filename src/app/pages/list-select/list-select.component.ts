@@ -64,7 +64,7 @@ export class ListSelectComponent implements OnInit, OnDestroy {
         this.instruction.pause();
     }
 
-    getDisplay(item: Phoneme | AlphabetLetter): string {
+    getDisplay(item): string {
         var icon = document.getElementById('puzzle');
         if (this.list === 'phoneme') {
             return item.display;
@@ -75,10 +75,9 @@ export class ListSelectComponent implements OnInit, OnDestroy {
 
     select(item: Phoneme | AlphabetLetter) {
         this.transferLetterService.setData(item);
-        console.log(item);
         if (this.list == 'phoneme') {
             this.router.navigate(['phoneme-learn']);
-        } else {
+        } else if (this.list === 'alphabet') {
             this.router.navigate(['alphabet-learn']);
         }
     }

@@ -58,6 +58,7 @@ export class PhonemesService {
           phoneme.color,
           phoneme.category,
           0,
+          0,
           phoneme.rhyme
         ));
     });
