@@ -1,5 +1,4 @@
 import {SightWord} from './sight-word';
-import { NumberSymbol } from '@angular/common';
 
 export class ConsonantBlends {
     id: string;         // unique identifier
@@ -10,10 +9,10 @@ export class ConsonantBlends {
     word3: SightWord;
     color: string;
     category: string;
-    stars: NumberSymbol;
+    stars: number;
     puzzlePiecesEarned: number;
     rhyme: string;
-
+    
 
 
     constructor(id: string, display: string, audio: string, word1: SightWord, word2: SightWord, word3: SightWord, color: string, category: string, stars: number, puzzlePiecesEarned: number, rhyme: string) {
