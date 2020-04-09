@@ -162,7 +162,7 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
     }
 
     pickRandom(current : AlphabetLetter) {
-        var copiedList = this.letterList;
+        var copiedList = [...this.letterList];
 
         // remove selected alphabet from list
         const index : number = copiedList.indexOf(current);
