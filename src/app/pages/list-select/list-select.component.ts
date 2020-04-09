@@ -52,31 +52,19 @@ export class ListSelectComponent implements OnInit, OnDestroy {
         this.list = list;
         if (!list || list === '') {
             this.router.navigate(['']);
-        }
-        if (list === 'phoneme') {
+        } else if (list === 'phoneme') {
             this.data = this.phonemesService.dataLoad();
-        }
-        if (list === 'alphabet') {
+        } else if (list === 'alphabet') {
             this.data = this.alphabetLettersService.dataImport();
-        }
-
-        if (list === 'vowels') {
+        } else if (list === 'vowels') {
             this.data = this.vowelsService.dataLoad();
-        }
-
-        if (list === 'consonantBlends') {
+        } else if (list === 'consonantBlends') {
             this.data = this.consonantBlendsService.dataLoad();
-        }
-
-        if (list === 'consonants') {
+        } else if (list === 'consonants') {
             this.data = this.consonantsService.dataLoad();
-        }
-
-        if (list === 'vowelConsonants') {
+        } else if (list === 'vowelConsonants') {
             this.data = this.vowelConsonantBlendsService.dataLoad();
-        }
-
-        if (list === 'vowelPairs') {
+        } else if (list === 'vowelPairs') {
             this.data = this.vowelPairsService.dataLoad();
         }
 
@@ -105,10 +93,10 @@ export class ListSelectComponent implements OnInit, OnDestroy {
         var icon = document.getElementById('puzzle');
         if (item != null) {
             this.showProgress(item)
-            if (this.list === 'phoneme') {
-                return item.display;
+            if (this.list === 'alphabet') {
+                return item.letter;
             } else {
-                return item.letter ;
+                return item.display;
             }
         }
     }
@@ -121,12 +109,12 @@ export class ListSelectComponent implements OnInit, OnDestroy {
         if (item != null) {
             if (!this.dataProgress.includes(item)) {
                 this.cardItemCount++;
-                if (this.list === 'phoneme') {
-                    queryStatement = "phoneme" + item.id;
-                    numStars = this.progressService.getStarsFromKey(queryStatement); 
-                } else {
+                if (this.list === 'alphabet') {
                     queryStatement = "letter" + item.letter;
                     numStars = this.progressService.getStarsFromKey(queryStatement);
+                } else {
+                    queryStatement = "phoneme" + item.id;
+                    numStars = this.progressService.getStarsFromKey(queryStatement); 
                 }
                 if (numStars > 0) {
                     this.dataProgress.push(item);
