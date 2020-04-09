@@ -126,6 +126,7 @@ export class ListSelectComponent implements OnInit, OnDestroy {
                         img.setAttribute("src", '/assets/img/progress/Gold-Star-Blank.png')
                         img.setAttribute("width", "50px")
                         img.setAttribute("height", "50px")
+                        img.style.marginBottom = "30px";
                         elem.appendChild(img);
                     }
                 } else {
@@ -135,8 +136,19 @@ export class ListSelectComponent implements OnInit, OnDestroy {
                         img.setAttribute("src", '/assets/img/progress/Silver-Star-Blank.png')
                         img.setAttribute("width", "50px")
                         img.setAttribute("height", "50px")
+                        img.style.marginBottom = "30px";
                         elem.appendChild(img);
                     }
+                }
+
+                // show checkmark: if letters (5 stars have been earned), if phonemes (puzzle has been finished)
+                if (this.progressService.getCheckMark(queryStatement)) {
+                    let img = document.createElement('img');
+                    img.setAttribute("src", '/assets/img/progress/check_mark.jpg')
+                    img.setAttribute("width", "50px")
+                    img.setAttribute("height", "50px")
+                    img.style.marginBottom = "30px";
+                    elem.appendChild(img);
                 }
             }
 
