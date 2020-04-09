@@ -9,6 +9,7 @@ import {VowelPairs} from '../../types/vowelPairs';
 import {SightWord} from '../../types/sight-word';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import {AlphabetLettersService} from '../../services/alphabet-letters.service';
+import {ProgressService} from '../../services/progress.service';
 import {PhonemesService} from '../../services/phonemes.service';
 import {VowelsService} from '../../services/vowels.service';
 import {ConsonantBlendsService} from '../../services/consonantBlends.service';
@@ -29,10 +30,13 @@ export class ListSelectComponent implements OnInit, OnDestroy {
     list: string;
     // filled with test data to be overridden later
     data: AlphabetLetter[] | Phoneme[] | Vowels[] | ConsonantBlends[] | Consonants[] | VowelConsonantBlends[] | VowelPairs[];
+    dataProgress: any[];
+    cardItemCount: number;
 
     constructor(
         private transferLetterService: TransferLetterService,
         private alphabetLettersService: AlphabetLettersService,
+        private progressService: ProgressService,
         private phonemesService: PhonemesService,
         private vowelsService: VowelsService,
         private consonantBlendsService: ConsonantBlendsService,
@@ -48,36 +52,19 @@ export class ListSelectComponent implements OnInit, OnDestroy {
         this.list = list;
         if (!list || list === '') {
             this.router.navigate(['']);
-        }
-        if (list === 'phoneme') {
+        } else if (list === 'phoneme') {
             this.data = this.phonemesService.dataLoad();
-            // this.data = [this.transferLetterService.getData() as Phoneme];
-        }
-        if (list === 'alphabet') {
-            // this.data = [
-            //     new AlphabetLetter('Aa', '/assets/audio/phonemes/sound-A.mp3', 0)
-            // ];
+        } else if (list === 'alphabet') {
             this.data = this.alphabetLettersService.dataImport();
-            // this.letterProgress = this.letterProgressService.getStarsFromLetter("letter" + this.letter.letter);
-        }
-
-        if (list === 'vowels') {
+        } else if (list === 'vowels') {
             this.data = this.vowelsService.dataLoad();
-        }
-
-        if (list === 'consonantBlends') {
+        } else if (list === 'consonantBlends') {
             this.data = this.consonantBlendsService.dataLoad();
-        }
-
-        if (list === 'consonants') {
+        } else if (list === 'consonants') {
             this.data = this.consonantsService.dataLoad();
-        }
-
-        if (list === 'vowelConsonants') {
+        } else if (list === 'vowelConsonants') {
             this.data = this.vowelConsonantBlendsService.dataLoad();
-        }
-
-        if (list === 'vowelPairs') {
+        } else if (list === 'vowelPairs') {
             this.data = this.vowelPairsService.dataLoad();
         }
 
@@ -85,6 +72,8 @@ export class ListSelectComponent implements OnInit, OnDestroy {
         this.instruction.src = '/assets/audio/00_Button_Audio_Complete_a_whole_puzzle_(Phonics_only).mp3';
         this.instruction.load();
         this.playAudio();
+        this.dataProgress = [];
+        this.cardItemCount = 0;
     }
 
     ngOnInit() {
@@ -102,10 +91,67 @@ export class ListSelectComponent implements OnInit, OnDestroy {
 
     getDisplay(item): string {
         var icon = document.getElementById('puzzle');
-        if (this.list === 'alphabet') {
-            return item.letter;
-        } else {
-            return item.display;
+        if (item != null) {
+            this.showProgress(item)
+            if (this.list === 'alphabet') {
+                return item.letter;
+            } else {
+                return item.display;
+            }
+        }
+    }
+
+    showProgress(item): void{
+        let numStars;
+        let elem = document.getElementsByClassName("cardListItem")[this.cardItemCount];
+        let queryStatement;
+        
+        if (item != null) {
+            if (!this.dataProgress.includes(item)) {
+                this.cardItemCount++;
+                if (this.list === 'alphabet') {
+                    queryStatement = "letter" + item.letter;
+                    numStars = this.progressService.getStarsFromKey(queryStatement);
+                } else {
+                    queryStatement = "phoneme" + item.id;
+                    numStars = this.progressService.getStarsFromKey(queryStatement); 
+                }
+                if (numStars > 0) {
+                    this.dataProgress.push(item);
+                }
+    
+                if (this.progressService.getActiveStatus(queryStatement) == 1) {
+                    for (let i = 0; i < numStars; i++) {
+                        let img = document.createElement('img');
+                        img.setAttribute("src", '/assets/img/progress/Gold-Star-Blank.png')
+                        img.setAttribute("width", "50px")
+                        img.setAttribute("height", "50px")
+                        img.style.marginBottom = "30px";
+                        elem.appendChild(img);
+                    }
+                } else {
+                    // return silver star
+                    for (let i = 0; i < numStars; i++) {
+                        let img = document.createElement('img');
+                        img.setAttribute("src", '/assets/img/progress/Silver-Star-Blank.png')
+                        img.setAttribute("width", "50px")
+                        img.setAttribute("height", "50px")
+                        img.style.marginBottom = "30px";
+                        elem.appendChild(img);
+                    }
+                }
+
+                // show checkmark: if letters (5 stars have been earned), if phonemes (puzzle has been finished)
+                if (this.progressService.getCheckMark(queryStatement)) {
+                    let img = document.createElement('img');
+                    img.setAttribute("src", '/assets/img/progress/check_mark.jpg')
+                    img.setAttribute("width", "50px")
+                    img.setAttribute("height", "50px")
+                    img.style.marginBottom = "30px";
+                    elem.appendChild(img);
+                }
+            }
+
         }
     }
 
