@@ -92,7 +92,6 @@ export class ProgressService {
     if (this.storage.get(key) != null) {
       stars = this.storage.get(key).stars;
     }
-    console.log("Sent from get stars:", key, stars)
     return stars;
   }
 }

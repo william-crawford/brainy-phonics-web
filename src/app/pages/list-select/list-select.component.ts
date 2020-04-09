@@ -40,12 +40,8 @@ export class ListSelectComponent implements OnInit, OnDestroy {
         }
         if (list === 'phoneme') {
             this.data = this.phonemesService.dataLoad();
-            // this.data = [this.transferLetterService.getData() as Phoneme];
         }
         if (list === 'alphabet') {
-            // this.data = [
-            //     new AlphabetLetter('Aa', '/assets/audio/phonemes/sound-A.mp3', 0)
-            // ];
             this.data = this.alphabetLettersService.dataImport();
         }
         this.instruction = new Audio();
@@ -71,11 +67,13 @@ export class ListSelectComponent implements OnInit, OnDestroy {
 
     getDisplay(item): string {
         var icon = document.getElementById('puzzle');
-        this.showProgress(item)
-        if (this.list === 'phoneme') {
-            return item.display;
-        } else if (this.list === 'alphabet') {
-            return item.letter;
+        if (item != null) {
+            this.showProgress(item)
+            if (this.list === 'phoneme') {
+                return item.display;
+            } else {
+                return item.letter ;
+            }
         }
     }
 
@@ -117,6 +115,7 @@ export class ListSelectComponent implements OnInit, OnDestroy {
                     }
                 }
             }
+
         }
     }
 
