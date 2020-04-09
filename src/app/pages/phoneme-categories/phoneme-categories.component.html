@@ -2,14 +2,14 @@
     <div id='main-body'>
         <div class='column'>
             <div class='row'>
-                <button mat-icon-button class='category_button' id='consonants' (mouseenter)='playAudio($event)' [routerLink]="['/list-select']" [queryParams]="{'list': 'phoneme'}"></button>
-                <button mat-icon-button class='category_button' id='vowel_consonant_blends' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list': 'phoneme'}"></button>
-                <button mat-icon-button class='category_button' id='vowels' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list': 'phoneme'}"></button>
+                <button mat-icon-button class='category_button' id='consonants' (mouseenter)='playAudio($event)' [routerLink]="['/list-select']" [queryParams]="{'list': 'consonants'}"></button>
+                <button mat-icon-button class='category_button' id='vowel_consonant_blends' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list': 'vowelConsonants'}"></button>
+                <button mat-icon-button class='category_button' id='vowels' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list': 'vowels'}"></button>
             </div>
             <div class='row'>
-                <button mat-icon-button class='category_button' id='consonant_blends' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list': 'phoneme'}"></button>
+                <button mat-icon-button class='category_button' id='consonant_blends' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list': 'consonantBlends'}"></button>
                 <button mat-icon-button class='category_button' id='all' [routerLink]='["/list-select"]' [queryParams]="{'list': 'phoneme'}"></button>
-                <button mat-icon-button class='category_button' id='vowel_pairs' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list': 'phoneme'}"></button>
+                <button mat-icon-button class='category_button' id='vowel_pairs' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list': 'vowelPairs'}"></button>
             </div>
         </div>
     </div>
