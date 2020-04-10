@@ -49,7 +49,6 @@ export class ProgressService {
       input = { 'stars': this.storage.get(key).stars,
                 'active': val,
                 'checkmark':this.storage.get(key).checkmark}
-      console.log("Set active status", input)
       
     } else {
       input = this.prepareNewKeyProgress();
@@ -59,7 +58,6 @@ export class ProgressService {
 
   getCheckMark(key): any {
     if (this.storage.get(key) != null) {
-      console.log('get checkmark for: ', key, ', ', this.storage.get(key).checkmark);
       return this.storage.get(key).checkmark;
     } else {
       return false;
@@ -70,7 +68,6 @@ export class ProgressService {
     let input;
     if(this.storage.get(key) != null) {
       const currentStatus = this.storage.get(key).checkmark;
-      console.log("setting checkmark for: ", key, "from: ", currentStatus, " to ", val)
       input = { 'stars': 5,
                 'active': this.storage.get(key).active,
                 'checkmark': val}
@@ -82,7 +79,6 @@ export class ProgressService {
 
   saveStarsToKey(key, val): void {
     let input;
-    console.log(key)
     if(this.storage.get(key) == null) {
       input = this.prepareNewKeyProgress();
     } else {
