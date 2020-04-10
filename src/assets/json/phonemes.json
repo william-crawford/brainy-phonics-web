@@ -33,7 +33,7 @@
         "color": "black",
         "rhyme": "Pat a c(a)ke; pat a c(a)ke; B(a)ker's man;</br>B(a)ke me a c(a)ke as fast as you can.</br>Pit it and pat it and mark it with B;</br>And put it in the oven for B(a)by and me.",
         "category": "V",
-        "grade-level": "K"
+        "grade": "K"
     },
     {
         "id": "A-short",
@@ -69,7 +69,7 @@
         "color": "green",
         "rhyme": "B(a)t; b(a)t;</br>Come under my h(a)t;</br>And I'll give you a slice of bacon;</br>And when I bake;</br>I'll give you a cake;</br>If I am not mistaken.",
         "category": "V",
-        "grade-level": "K"
+        "grade": "K"
     },
     {
         "id": "A-ahh",
@@ -104,7 +104,7 @@
         "color": "purple",
         "rhyme": "Children call me F(a)ther Goose,</br>Because when I w(a)nt to w(a)nder,</br>I ride through the air</br>On a very fine gander.</br>",
         "category": "V",
-        "grade-level": "K"
+        "grade": "K"
     },
     {
         "id": "A-schwa",
@@ -134,7 +134,7 @@
         "color": "orange",
         "rhyme": "(A)round the bush, Willie,</br>(A)round the bee hive.</br>(A)round the bush, Willie,</br>I'll meet you (a)live.",
         "category": "V",
-        "grade-level": "K"
+        "grade": "K"
     },
     {
         "id": "A-AI",
@@ -351,7 +351,7 @@
             "beaver"
         ],
         "color": "black",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "B-end",
@@ -380,7 +380,7 @@
             "bathrub"
         ],
         "color": "green",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "B-buh",
@@ -503,7 +503,7 @@
             "car"
         ],
         "color": "black",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "c-hard-end",
@@ -532,7 +532,7 @@
             "clinic"
         ],
         "color": "green",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "C-kuh",
@@ -722,7 +722,7 @@
             "dandelion"
         ],
         "color": "black",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "d-end",
@@ -751,7 +751,7 @@
             "sled"
         ],
         "color": "green",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "D-duh",
@@ -851,7 +851,7 @@
         "color": "black",
         "rhyme": "Little Bo-p(ee)p has lost her sh(ee)p;</br>And doesn't know where to find them;</br>Leave them alone; and they'll come home;</br>Wagging their tails behind them.",
         "category": "V",
-        "grade-level": "K"
+        "grade": "K"
     },
     {
         "id": "E-short",
@@ -885,7 +885,7 @@
         "color": "green",
         "rhyme": "Hick(e)ty; pick(e)ty; my black h(e)n;</br>She lays (e)ggs for gentlem(e)n;</br>Gentlem(e)n come (e)very day;</br>To see what my black h(e)n does lay.",
         "category": "V",
-        "grade-level": "K"
+        "grade": "K"
     },
     {
         "id": "E-schwa",
@@ -917,7 +917,7 @@
         "color": "orange",
         "rhyme": "The el(e)phant want(e)d to cheat on her di(e)t</br>Found one gold(e)n cookie in the warm ov(e)n,</br>One in the gard(e)n, two in a torn pock(e)t,</br>Three hid in the kitch(e)n, that made sev(e)n,</br>Bought two at the mark(e)t, spied one in a bask(e)t,</br>Plus one she kept froz(e)n, that was elev(e)n,</br>And one from her lock(e)t, made twelve, a full doz(e)n</br>When she started to eat them it felt like pure heav(e)n!</br>",
         "category": "V",
-        "grade-level": "K"
+        "grade": "K"
     },
     {
         "id": "E-EA",
@@ -1078,7 +1078,7 @@
             "firefly"
         ],
         "color": "black",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "f-end",
@@ -1107,7 +1107,7 @@
             "wolf"
         ],
         "color": "green",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "F-fuh",
@@ -1232,7 +1232,7 @@
             "gazelle"
         ],
         "color": "black",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "g-hard-end",
@@ -1261,7 +1261,7 @@
             "dig"
         ],
         "color": "green",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "G-guh",
@@ -1418,7 +1418,7 @@
             "hose"
         ],
         "color": "black",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "H-huh",
@@ -1487,7 +1487,7 @@
         "color": "black",
         "rhyme": "Three bl(i)nd m(i)ce, three bl(i)nd m(i)ce,</br>See how they run, see how they run.</br>They all ran after the farmer's w(i)fe,</br>She cut off their tails with a carving kn(i)fe.</br>Did you ever see such a s(i)ght in your l(i)fe</br>As three bl(i)nd m(i)ce?",
         "category": "V",
-        "grade-level": "K"
+        "grade": "K"
     },
     {
         "id": "I-short",
@@ -1523,7 +1523,7 @@
         "color": "green",
         "rhyme": "Jack; be n(i)mble; Jack; be qu(i)ck.</br>Jack; jump over the candlest(i)ck.",
         "category": "V",
-        "grade-level": "K"
+        "grade": "K"
     },
     {
         "id": "I-schwa",
@@ -1550,7 +1550,7 @@
         "color": "orange",
         "rhyme": "Oh, do you know the muff(i)n-man,</br>The muff(i)n-man, the muff(i)n-man?</br>Do you know the muff(i)n-man</br>Who lives in Drury Lane?</br></br>Yes, I know the muff(i)n-man,</br>The muff(i)n-man, the muff(i)n-man.</br>Yes, I know the muff(i)n-man</br>Who lives in Drury Lane.",
         "category": "V",
-        "grade-level": "K"
+        "grade": "K"
     },
     {
         "id": "I-ee",
@@ -1730,7 +1730,7 @@
             "fringe"
         ],
         "color": "green",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "J-juh",
@@ -1790,7 +1790,7 @@
             "kimono"
         ],
         "color": "black",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "k-end",
@@ -1819,7 +1819,7 @@
             "kayak"
         ],
         "color": "green",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "K-kuh",
@@ -1881,7 +1881,7 @@
             "lamb"
         ],
         "color": "black",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "l-end",
@@ -1910,7 +1910,7 @@
             "nail"
         ],
         "color": "green",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "L-lll",
@@ -2008,7 +2008,7 @@
             "moon"
         ],
         "color": "black",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "m-end",
@@ -2037,7 +2037,7 @@
             "glum"
         ],
         "color": "green",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "M-mmm",
@@ -2101,7 +2101,7 @@
             "nose"
         ],
         "color": "black",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "n-end",
@@ -2130,7 +2130,7 @@
             "nun"
         ],
         "color": "green",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "N-nnn",
@@ -2299,7 +2299,7 @@
         "color": "black",
         "rhyme": "(O)ld King C(o)le;</br>Was a merry (o)ld s(o)ul;</br>And a merry (o)ld s(o)ul was he;</br>He called for his pipe;</br>And he called for his b(o)wl;</br>And he called for his fiddlers three.",
         "category": "V",
-        "grade-level": "K"
+        "grade": "K"
     },
     {
         "id": "O-short",
@@ -2335,7 +2335,7 @@
         "color": "green",
         "rhyme": "H(o)t cr(o)ss buns, h(o)t cr(o)ss buns.</br>One a penny, two a penny,</br>H(o)t cr(o)ss buns!</br></br>If your daughters do n(o)t like them,</br>Give them to your sons.</br>One a penny, two a penny,</br>H(o)t cr(o)ss buns!",
         "category": "V",
-        "grade-level": "K"
+        "grade": "K"
     },
     {
         "id": "O-uh",
@@ -2369,7 +2369,7 @@
         "color": "orange",
         "rhyme": "He l(o)ves me.</br>He d(o)esn't!</br>He'll have me.</br>He won't!</br></br>He would if he could,</br>But he can't, so he won't!",
         "category": "V",
-        "grade-level": "K"
+        "grade": "K"
     },
     {
         "id": "O-ew",
@@ -2679,7 +2679,7 @@
             "polar bear"
         ],
         "color": "black",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "p-end",
@@ -2708,7 +2708,7 @@
             "chimp"
         ],
         "color": "green",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "P-puh",
@@ -2829,7 +2829,7 @@
             "quiver"
         ],
         "color": "black",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "Q-qwuh",
@@ -2891,7 +2891,7 @@
             "rabbit"
         ],
         "color": "black",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "r-end",
@@ -2920,7 +2920,7 @@
             "dozer"
         ],
         "color": "green",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "R-ruh",
@@ -2983,7 +2983,7 @@
             "seal"
         ],
         "color": "black",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "S-sss",
@@ -3271,7 +3271,7 @@
             "teeter-totter"
         ],
         "color": "black",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "t-end",
@@ -3300,7 +3300,7 @@
             "goat"
         ],
         "color": "green",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "T-tttt",
@@ -3463,7 +3463,7 @@
         "color": "black",
         "rhyme": "He balanced a c(u)cumber on his nose,</br>But should have (u)sed binoc(u)lars to watch the roads.</br>A (u)nicycle\u2019s dangerous when clowns can\u2019t see\u2014</br>Quick call an amb(u)lance:  one, two, three!</br>",
         "category": "V",
-        "grade-level": "K"
+        "grade": "K"
     },
     {
         "id": "U-uu",
@@ -3532,7 +3532,7 @@
         "color": "orange",
         "rhyme": "S(u)e played a big bl(u)e t(u)ba,</br>J(u)lius played one too,</br>With their two bl(u)e t(u)bas,</br>What did those two do?</br>He blew his bl(u)e t(u)ba loud!</br>She blew hers too!</br>",
         "category": "V",
-        "grade-level": "K"
+        "grade": "K"
     },
     {
         "id": "U-UR",
@@ -3593,7 +3593,7 @@
             "vegetables"
         ],
         "color": "green",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "V-vv",
@@ -3652,7 +3652,7 @@
             "walnuts"
         ],
         "color": "black",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "W-wuh",
@@ -3747,7 +3747,7 @@
             "explode"
         ],
         "color": "black",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "x-end",
@@ -3776,7 +3776,7 @@
             "wax"
         ],
         "color": "green",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "X-ks",
@@ -3836,7 +3836,7 @@
             "yacht"
         ],
         "color": "black",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "Y-yuh",
@@ -3899,7 +3899,7 @@
         "color": "green",
         "rhyme": "Cr(y)baby, cr(y)baby,</br>Cr(y)baby, wh(y)!?</br>Stick your finger in your e(y)e,</br>Then tell your mother it was I?",
         "category": "V",
-        "grade-level": "K"
+        "grade": "K"
     },
     {
         "id": "Y-e",
@@ -3935,7 +3935,7 @@
         "color": "purple",
         "rhyme": "Ride away; Ride away;<br>Johnn(y) shall ride;</br>And he shall have kitt(y) cat;</br>Tied to one side.</br>And he shall have pupp(y) dog;</br>Tied to the other;</br>And Johnn(y) shall ride;</br>To see his grandmother.",
         "category": "V",
-        "grade-level": "K"
+        "grade": "K"
     },
     {
         "id": "z-begin",
@@ -3964,7 +3964,7 @@
             "zeppelin"
         ],
         "color": "black",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "z-end",
@@ -3993,7 +3993,7 @@
             "maize"
         ],
         "color": "black",
-        "grade-level": "K-only"
+        "grade": "K-only"
     },
     {
         "id": "Z-zzz",
