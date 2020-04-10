@@ -6,6 +6,7 @@ import {ConsonantBlends} from '../../types/consonantBlends';
 import {Consonants} from '../../types/consonants';
 import {VowelConsonantBlends} from '../../types/vowelConsonantBlends';
 import {VowelPairs} from '../../types/vowelPairs';
+import {Kindergarten} from '../../types/kindergarten';
 import {SightWord} from '../../types/sight-word';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import {AlphabetLettersService} from '../../services/alphabet-letters.service';
@@ -16,6 +17,7 @@ import {ConsonantBlendsService} from '../../services/consonantBlends.service';
 import {ConsonantsService} from '../../services/consonants.service';
 import {VowelConsonantBlendsService} from '../../services/vowelConsonantBlends.service';
 import {VowelPairsService} from '../../services/vowelPairs.service';
+import {KindergartenService} from '../../services/kindergarten.service';
 import {ActivatedRoute, Router} from '@angular/router';
 import {Location} from '@angular/common';
 
@@ -29,7 +31,7 @@ export class ListSelectComponent implements OnInit, OnDestroy {
     instruction: HTMLAudioElement;
     list: string;
     // filled with test data to be overridden later
-    data: AlphabetLetter[] | Phoneme[] | Vowels[] | ConsonantBlends[] | Consonants[] | VowelConsonantBlends[] | VowelPairs[];
+    data: AlphabetLetter[] | Phoneme[] | Vowels[] | ConsonantBlends[] | Consonants[] | VowelConsonantBlends[] | VowelPairs[] | Kindergarten[];
     dataProgress: any[];
     cardItemCount: number;
 
@@ -43,6 +45,7 @@ export class ListSelectComponent implements OnInit, OnDestroy {
         private consonantsService: ConsonantsService,
         private vowelConsonantBlendsService: VowelConsonantBlendsService,
         private vowelPairsService: VowelPairsService,
+        private kindergartenService: KindergartenService,
 
         private router: Router,
         private activatedRoute: ActivatedRoute,
@@ -66,6 +69,8 @@ export class ListSelectComponent implements OnInit, OnDestroy {
             this.data = this.vowelConsonantBlendsService.dataLoad();
         } else if (list === 'vowelPairs') {
             this.data = this.vowelPairsService.dataLoad();
+        } else if (list === 'kindergarten') {
+            this.data = this.kindergartenService.dataLoad();
         }
 
         this.instruction = new Audio();
@@ -105,7 +110,7 @@ export class ListSelectComponent implements OnInit, OnDestroy {
         let numStars;
         let elem = document.getElementsByClassName("cardListItem")[this.cardItemCount];
         let queryStatement;
-        
+
         if (item != null) {
             if (!this.dataProgress.includes(item)) {
                 this.cardItemCount++;
@@ -114,12 +119,12 @@ export class ListSelectComponent implements OnInit, OnDestroy {
                     numStars = this.progressService.getStarsFromKey(queryStatement);
                 } else {
                     queryStatement = "phoneme" + item.id;
-                    numStars = this.progressService.getStarsFromKey(queryStatement); 
+                    numStars = this.progressService.getStarsFromKey(queryStatement);
                 }
                 if (numStars > 0) {
                     this.dataProgress.push(item);
                 }
-    
+
                 if (this.progressService.getActiveStatus(queryStatement) == 1) {
                     for (let i = 0; i < numStars; i++) {
                         let img = document.createElement('img');
