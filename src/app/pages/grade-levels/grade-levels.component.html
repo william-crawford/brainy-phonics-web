@@ -2,7 +2,7 @@
     <div id='main-body'>
         <div class='column'>
             <div class='row'>
-                <button mat-icon-button class='no-click' id='pre_k' (mouseenter)='playAudio($event)' [routerLink]="['/grade-levels']" [queryParams]="{'list': 'phoneme'}"></button>
+                <button mat-icon-button class='grade_level' id='pre_k' (mouseenter)='playAudio($event)' [routerLink]="['/list-select']" [queryParams]="{'list': 'kindergarten'}"></button>
                 <button mat-icon-button class='grade_level' id='kindergarten' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list': 'kindergarten'}"></button>
 
             </div>
