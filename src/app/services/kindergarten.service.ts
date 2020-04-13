@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import {Phoneme} from '../types/phoneme';
+import {Kindergarten} from '../types/kindergarten';
 import {BehaviorSubject, Observable} from 'rxjs';
 
 import * as json from '../../assets/json/phonemes.json';
@@ -8,7 +8,7 @@ import {SightWord} from '../types/sight-word';
 @Injectable({
   providedIn: 'root'
 })
-export class PhonemesService {
+export class KindergartenService {
 
   /***
    * When accessing the list of phonemes, subscribe to the observable
@@ -21,14 +21,14 @@ export class PhonemesService {
    * Note: Make sure to save your subscription and unsubscribe by implementing
    * the NgOnDestroy to components.
    */
-  public phonemes: Observable<Phoneme[]>;
-  private _phonemes: BehaviorSubject<Phoneme[]>;
+  public kindergarten: Observable<Kindergarten[]>;
+  private _kindergarten: BehaviorSubject<Kindergarten[]>;
 
-  public selectedPhoneme: Phoneme;
+  public selectedVowel: Kindergarten;
 
   constructor() {
-    this._phonemes = new BehaviorSubject<Phoneme[]>(null);
-    this.phonemes = this._phonemes.asObservable();
+    this._kindergarten = new BehaviorSubject<Kindergarten[]>(null);
+    this.kindergarten = this._kindergarten.asObservable();
     this.dataLoad();
   }
 
@@ -37,9 +37,9 @@ export class PhonemesService {
     const data: Array<any> = json.default.valueOf();
 
     for (var i = 0; i < data.length; i++) {
-        if (data[i].grade !== "K-only") {
+        if (data[i].grade === "K" || data[i].grade === "K-only") {
             temp.push(
-            new Phoneme(
+            new Kindergarten(
               data[i].id,
               data[i].display,
               `/assets/audio/phonemes/${data[i].audio}`,
@@ -61,11 +61,12 @@ export class PhonemesService {
               data[i].category,
               0,
               0,
-              data[i].rhyme
+              data[i].rhyme,
+              data[i].grade,
             ));
         }
     }
-    this._phonemes.next(temp);
+    this._kindergarten.next(temp);
     return temp;
   }
 }

@@ -4,6 +4,7 @@ import {delay} from 'q';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import {UserDataService} from '../../services/user-data.service';
 import data from '../../../assets/json/phonemes.json';
+import {ProgressService} from '../../services/progress.service';
 import {Location} from '@angular/common';
 import {Phoneme} from '../../types/phoneme';
 
@@ -46,6 +47,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
 	constructor(
         private transferService:TransferLetterService,
         private userDataService:UserDataService,
+        private phonemeProgressService: ProgressService,
         private elem:ElementRef,
         private router: Router,
         private location: Location
@@ -120,6 +122,8 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         this.ex3Audio.onended = () => {
             this.ex3Animate = false;
         };
+
+        this.isFirstAttempt = true;
     }
 
     ngOnDestroy() {
@@ -174,6 +178,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
                 this.puzzleAnimate = true;
                 this.puzzleComplete = true;
                 this.userDataService.savePuzzle(this.phoneme.id);
+                this.phonemeProgressService.setCheckMark("phoneme" + this.phoneme.id, true);
             }
         }
         if (!this.puzzleComplete) {
@@ -184,6 +189,15 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         });
 
         this.loadNew();
+
+        if(this.isFirstAttempt) {
+            if(this.phonemeProgressService.getActiveStatus("phoneme" + this.phoneme.id)) {
+            //add stars to progress if select correct phoneme on first attempt and active status is true
+            this.phonemeProgressService.saveStarsToKey("phoneme" + this.phoneme.id, 1);
+            } else {
+                this.phonemeProgressService.setActiveStatus("phoneme" + this.phoneme.id, true)
+            }
+        }
     }
 
     loadNew() {
@@ -239,6 +253,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         if (this.correctAnswer == 0) {
             this.onCorrect();
         } else {
+            this.incorrectAnswer();
             this.playAudio();
         }
     }
@@ -247,6 +262,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         if (this.correctAnswer == 1) {
             this.onCorrect();
         } else {
+            this.incorrectAnswer();
             this.playAudio();
         }
     }
@@ -255,8 +271,14 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         if (this.correctAnswer == 2) {
             this.onCorrect();
         } else {
+            this.incorrectAnswer();
             this.playAudio();
         }
+    }
+
+    incorrectAnswer() {
+        this.isFirstAttempt = false;
+        this.phonemeProgressService.setActiveStatus("phoneme" + this.phoneme.id, false)
     }
 
     playEx1Audio() {

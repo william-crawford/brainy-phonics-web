@@ -1,4 +1,5 @@
 import {SightWord} from './sight-word';
+import { NumberSymbol } from '@angular/common';
 
 export class Kindergarten {
     id: string;         // unique identifier
@@ -9,13 +10,14 @@ export class Kindergarten {
     word3: SightWord;
     color: string;
     category: string;
-    stars: number;
+    stars: NumberSymbol;
     puzzlePiecesEarned: number;
     rhyme: string;
-    
+    grade: string;
 
 
-    constructor(id: string, display: string, audio: string, word1: SightWord, word2: SightWord, word3: SightWord, color: string, category: string, stars: number, puzzlePiecesEarned: number, rhyme: string) {
+
+    constructor(id: string, display: string, audio: string, word1: SightWord, word2: SightWord, word3: SightWord, color: string, category: string, stars: number, puzzlePiecesEarned: number, rhyme: string, grade: string) {
         this.id = id;
         this.display = display;
         this.audio = audio;
@@ -27,5 +29,6 @@ export class Kindergarten {
         this.stars = stars;
         this.puzzlePiecesEarned = puzzlePiecesEarned;
         this.rhyme = rhyme;
+        this.grade = grade;
     }
 }
