@@ -2,14 +2,14 @@
     <div id='main-body'>
         <div class='column'>
             <div class='row'>
-                <button mat-icon-button class='grade_level' id='pre_k' (mouseenter)='playAudio($event)' [routerLink]="['/list-select']" [queryParams]="{'list': 'phoneme'}"></button>
-                <button mat-icon-button class='grade_level' id='kindergarten' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list': 'phoneme'}"></button>
-                
+                <button mat-icon-button class='grade_level' id='pre_k' (mouseenter)='playAudio($event)' [routerLink]="['/list-select']" [queryParams]="{'list': 'kindergarten'}"></button>
+                <button mat-icon-button class='grade_level' id='kindergarten' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list': 'kindergarten'}"></button>
+
             </div>
             <div class='row'>
-                <button mat-icon-button class='grade_level' id='first' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list': 'phoneme'}"></button>
-                <button mat-icon-button class='grade_level' id='second' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list': 'phoneme'}"></button>
-                <button mat-icon-button class='grade_level' id='third' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list': 'phoneme'}"></button>
+                <button mat-icon-button class='no-click' id='first' [routerLink]='["/list-select"]' [queryParams]="{'list': 'phoneme'}"></button>
+                <button mat-icon-button class='no-click' id='second' [routerLink]='["/list-select"]' [queryParams]="{'list': 'phoneme'}"></button>
+                <button mat-icon-button class='no-click' id='third' [routerLink]='["/list-select"]' [queryParams]="{'list': 'phoneme'}"></button>
             </div>
         </div>
     </div>
@@ -18,6 +18,6 @@
         <button mat-icon-button class='icon' id='back' routerLink='/'></button>
         <button mat-icon-button class='icon' id='home' routerLink='/'></button>
         <button mat-icon-button class='icon bottom' id='bank' routerLink='/coins'></button>
-        <button mat-icon-button class='icon bottom' id='puzzle'></button>
+        <button mat-icon-button class='icon bottom' id='puzzle' routerLink='/puzzles'></button>
     </div>
 </div>

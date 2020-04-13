@@ -50,9 +50,24 @@
     cursor: pointer;
 }
 
-.animateLetter {
+.animateLetter1 {
   transition: all 0.5s linear;
   transform: translate(22vh, 10vh) scale(1.12) !important;
+}
+
+.animateLetter2 {
+  transition: all 0.5s linear;
+  transform: translate(-22vh, 10vh) scale(1.12) !important;
+}
+
+.animateLetter3 {
+  transition: all 0.5s linear;
+  transform: translate(22vh, -10vh) scale(1.12) !important;
+}
+
+.animateLetter4 {
+  transition: all 0.5s linear;
+  transform: translate(-22vh, -10vh) scale(1.12) !important;
 }
 
 
@@ -60,4 +75,8 @@
 #forward {
     background: url('../../../assets/img/buttons/forward.png') no-repeat scroll 0 0 transparent;
     background-size: 9.5vh 9.5vh;
+}
+
+.bottom {
+  transform: translateY(13vh);
 }

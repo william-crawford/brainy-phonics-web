@@ -10,6 +10,7 @@ export class UserDataService {
 
   private coins = 0;
   private completePuzzles = [];
+  private puzzlePiecesEarned = {};
 
   addCoins(amount) {
     this.coins += amount;
@@ -26,4 +27,27 @@ export class UserDataService {
   getPuzzles() {
     return this.completePuzzles;
   }
+
+  addPuzzlePieces(puzzlePhoneme, amount) {
+    if (puzzlePhoneme in this.puzzlePiecesEarned) {
+      this.puzzlePiecesEarned[puzzlePhoneme] += amount;
+      if (this.puzzlePiecesEarned[puzzlePhoneme] >= 12) {
+        this.puzzlePiecesEarned[puzzlePhoneme] = 12;
+        if (!(puzzlePhoneme in this.completePuzzles)) {
+          this.savePuzzle(puzzlePhoneme);
+        }
+      }
+    } else {
+      this.puzzlePiecesEarned[puzzlePhoneme] = amount;
+    }
+  }
+
+  getPuzzlePieces(puzzlePhoneme) {
+    if (puzzlePhoneme in this.puzzlePiecesEarned) {
+      return this.puzzlePiecesEarned[puzzlePhoneme];
+    } else {
+      return 0;
+    }
+  }
+
 }

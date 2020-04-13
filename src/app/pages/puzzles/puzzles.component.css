@@ -1,0 +1,45 @@
+#background {
+	background-color: #FFFFFF !important;
+}
+
+#side-menu {
+	background-color: #6EC7D4 !important;
+}
+
+#main-body {
+    width: 164vh;
+    height: 0vh;
+    padding-left: 22vh;
+    position: relative;
+  }
+
+.cardList {
+    display: flex;
+    height: 97vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    overflow: scroll;
+}
+
+/* Item sizing */
+.cardListItem {
+  width: 32vh;
+  height: 42vh;
+  margin-top: 4.5vh;
+  margin-right: 32px;
+  cursor: pointer;
+  border: none;
+  background-color: #ECF9EF;
+  font-family: 'ComicSans';
+  font-size: 9vh;
+  text-align: center;
+}
+
+.cardListItem p {
+  margin-top: 13vh;
+}
+
+#background {
+  overflow: visible;
+}

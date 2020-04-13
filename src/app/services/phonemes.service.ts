@@ -35,29 +35,37 @@ export class PhonemesService {
   dataLoad() {
     const temp = [];
     const data: Array<any> = json.default.valueOf();
-    data.forEach(phoneme => {
-      temp.push(
-        new Phoneme(
-          phoneme.id,
-          phoneme.display,
-          `/resources/audio/phonemes/${phoneme.audio}`,
-          new SightWord(
-            phoneme.word1.word,
-            `/resources/audio/sight-words/${phoneme.word1.audio}`,
-            `/resources/images/sight-words/${phoneme.word1.image}`
-          ),
-          new SightWord(
-            phoneme.word2.word,
-            `/resources/audio/sight-words/${phoneme.word2.audio}`,
-            `/resources/images/sight-words/${phoneme.word2.image}`
-          ),
-          new SightWord(phoneme.word3.word,
-            `/resources/audio/sight-words/${phoneme.word3.audio}`,
-            `/resources/images/sight-words/${phoneme.word3.image}`
-          ),
-          0
-        ));
-    });
+
+    for (var i = 0; i < data.length; i++) {
+        if (data[i].grade !== "K-only") {
+            temp.push(
+            new Phoneme(
+              data[i].id,
+              data[i].display,
+              `/assets/audio/phonemes/${data[i].audio}`,
+              new SightWord(
+                data[i].word1.word,
+                `/assets/audio/sight-words/${data[i].word1.audio}`,
+                `/assets/images/sight-words/${data[i].word1.image}`
+              ),
+              new SightWord(
+                data[i].word2.word,
+                `/assets/audio/sight-words/${data[i].word2.audio}`,
+                `/assets/images/sight-words/${data[i].word2.image}`
+              ),
+              new SightWord(data[i].word3.word,
+                `/assets/audio/sight-words/${data[i].word3.audio}`,
+                `/assets/images/sight-words/${data[i].word3.image}`
+              ),
+              data[i].color,
+              data[i].category,
+              0,
+              0,
+              data[i].rhyme
+            ));
+        }
+    }
     this._phonemes.next(temp);
+    return temp;
   }
 }

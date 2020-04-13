@@ -7,16 +7,25 @@ export class Phoneme {
     word1: SightWord;
     word2: SightWord;
     word3: SightWord;
+    color: string;
+    category: string;
     stars: number;
+    puzzlePiecesEarned: number;
+    rhyme: string;
+    
 
 
-    constructor(id: string, display: string, audio: string, word1: SightWord, word2: SightWord, word3: SightWord, stars: number) {
+    constructor(id: string, display: string, audio: string, word1: SightWord, word2: SightWord, word3: SightWord, color: string, category: string, stars: number, puzzlePiecesEarned: number, rhyme: string) {
         this.id = id;
         this.display = display;
         this.audio = audio;
         this.word1 = word1;
         this.word2 = word2;
         this.word3 = word3;
+        this.color = color;
+        this.category = category;
         this.stars = stars;
+        this.puzzlePiecesEarned = puzzlePiecesEarned;
+        this.rhyme = rhyme;
     }
 }

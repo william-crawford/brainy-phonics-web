@@ -4,7 +4,7 @@
     padding-left: 40vh;
     position: relative;
   }
-  
+
   #background {
       background-color: #FFFFFF !important;
       background: url('../../../assets/img/backgrounds/grade_levels.png') no-repeat scroll transparent;
@@ -44,7 +44,7 @@
       background-size: 30.9vh;
       cursor: pointer;
   }
-  
+
   .grade_level {
       width: 64vh;
       height: 24vh;
@@ -52,10 +52,20 @@
       border: none;
       margin-left: auto;
   }
-  
+
   /* Clear floats after the columns */
   .column:after {
     content: "";
     display: table;
     clear: both;
-  }  
+  }
+
+  .no-click {
+    width: 64vh;
+    height: 24vh;
+    margin-top: 5vh;
+    border: none;
+    margin-left: auto;
+    pointer-events: none;
+    opacity: 0.3;
+}
