@@ -3,7 +3,7 @@ import {Router} from '@angular/router';
 import {delay} from 'q';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import {UserDataService} from '../../services/user-data.service';
-import * as data from '../../../assets/json/quiz-examples.json';
+import data from '../../../assets/json/phonemes.json';
 import {Location} from '@angular/common';
 import {Phoneme} from '../../types/phoneme';
 
@@ -34,30 +34,20 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
 
     phoneme = this.transferService.getData() as Phoneme;
 
-
-    // img1: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[0];
-    img1: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == "a").eximg[0];
-    // img2: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[1];
-    img2: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == "a").eximg[1];
-    // img3: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[2];
-    img3: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == "a").eximg[2];
+    img1: string;
+    img2: string;
+    img3: string;
 
     puzzlePieceImages: string[] = [];
     puzzleDirectory: string = '../../assets/img/puzzle-pieces/puzzle-' + this.phoneme.id;
     puzzleAnimate: boolean = false;
-
-    // word1: string = data.default.find(o => o.phoneme == this.phoneme.value).exword[0];
-    word1: string = data.default.find(o => o.phoneme == "a").exword[0];
-    // word2: string = data.default.find(o => o.phoneme == this.phoneme.value).exword[1];
-    word2: string = data.default.find(o => o.phoneme == "a").exword[1];
-    // word3: string = data.default.find(o => o.phoneme == this.phoneme.value).exword[2];
-    word3: string = data.default.find(o => o.phoneme == "a").exword[2];
+    puzzleComplete: boolean = false;
 
 	constructor(
-        private transferService:TransferLetterService, 
-        private userDataService:UserDataService, 
-        private elem:ElementRef, 
-        private router: Router, 
+        private transferService:TransferLetterService,
+        private userDataService:UserDataService,
+        private elem:ElementRef,
+        private router: Router,
         private location: Location
     ) {
         this.phoneme = this.transferService.getData() as Phoneme;
@@ -67,12 +57,6 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         this.ex2Animate = false;
         this.ex3Animate = false;
 
-
-        //temp
-        this.phoneme.id = 'A-long'
-        this.puzzleDirectory = '../../assets/img/puzzle-pieces/puzzle-' + this.phoneme.id;
-
-
         for (let i = 0; i <= 3; i++) {
             for (let j = 0; j <= 2; j++) {
                 this.puzzlePieceImages.push(
@@ -80,6 +64,18 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
                 );
             }
         }
+
+        // Random number generator that accepts a seed
+        var LCG=s=>()=>(2**31-1&(s=Math.imul(48271,s)))/2**31;
+
+        // Generate seed for rng based on phoneme id
+        var hashCode = s => s.split('').reduce((a,b)=>{a=((a<<5)-a)+b.charCodeAt(0);return a&a},0);
+        var hash = hashCode(this.phoneme.id);
+        var rng = LCG(hash);
+
+        // Shuffle order of puzzle pieces being displayed
+        this.puzzlePieceImages.sort(function() {return rng() - 0.5});
+
     }
 
     goBack(){
@@ -89,30 +85,16 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
 
     ngOnInit() {
 
-        this.correctAnswer = 1  // Temoprary
-
-
         this.phonemeAudio = new Audio();
-        // this.phonemeAudio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).nameaudio[0];
-        this.phonemeAudio.src = '/assets/audio/phonemes/' + data.default.find(o => o.phoneme == "a").nameaudio[0];
+        // this.phonemeAudio.src = '/assets/audio/phonemes/' + data.default.find(o => o.phoneme == this.phoneme.id).audio;
+        this.phonemeAudio.src = '/assets/audio/phonemes/sound-A.mp3';
         this.phonemeAudio.load();
 
         this.ex1Audio = new Audio();
-        // this.ex1Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).exaudio[0];
-        this.ex1Audio.src = '/assets/audio/sight-words/' + data.default.find(o => o.phoneme == "a").exaudio[0];
-        this.ex1Audio.load();
-
         this.ex2Audio = new Audio();
-        // this.ex2Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).exaudio[1];
-        this.ex2Audio.src = '/assets/audio/sight-words/' + data.default.find(o => o.phoneme == "a").exaudio[1];
-
-        this.ex2Audio.load();
-
         this.ex3Audio = new Audio();
-        // this.ex3Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).exaudio[2];
-        this.ex3Audio.src = '/assets/audio/sight-words/' + data.default.find(o => o.phoneme == "a").exaudio[2];
 
-        this.ex3Audio.load();
+        this.loadNew();
 
         this.phonemeAudio.onended = () => {
             this.phonemeAnimate = false;
@@ -138,8 +120,6 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         this.ex3Audio.onended = () => {
             this.ex3Animate = false;
         };
-
-        this.playAudio();
     }
 
     ngOnDestroy() {
@@ -189,49 +169,74 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     onCorrect() {
         this.userDataService.addCoins(1);
         if (this.phoneme.puzzlePiecesEarned < 12) {
-            this.phoneme.puzzlePiecesEarned += 1;
+            this.phoneme.puzzlePiecesEarned += 2;
             if (this.phoneme.puzzlePiecesEarned == 12) {
+                this.puzzleAnimate = true;
+                this.puzzleComplete = true;
                 this.userDataService.savePuzzle(this.phoneme.id);
             }
         }
-        this.puzzleAnimate = true;
+        if (!this.puzzleComplete) {
+            this.puzzleAnimate = true;
+        }
         delay(500).then(() => {
             this.puzzleAnimate = false;
         });
 
         this.loadNew();
-        this.playAudio();
     }
 
-    //temporary implementation
     loadNew() {
-        this.correctAnswer = 2;
+        this.correctAnswer = Math.floor(Math.random() * 3);
 
-        // img1: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[0];
-        this.img1 = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == "a-1").eximg[0];
-        // img2: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[1];
-        this.img2 = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == "a-1").eximg[1];
-        // img3: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[2];
-        this.img3 = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == "a-1").eximg[2];
+        var examples = this.generateExamples();
+        var temp = examples[this.correctAnswer];
+        examples[this.correctAnswer] = examples[0];
+        examples[0] = temp;
 
-        // this.ex1Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).exaudio[0];
-        this.ex1Audio.src = '/assets/audio/sight-words/' + data.default.find(o => o.phoneme == "a-1").exaudio[0];
+        this.img1 = '/assets/img/sight-words/' + examples[0] + '.jpg';
+        this.img2 = '/assets/img/sight-words/' + examples[1] + '.jpg';
+        this.img3 = '/assets/img/sight-words/' + examples[2] + '.jpg';
+
+        this.ex1Audio.src = '/assets/audio/sight-words/' + examples[0] + '.mp3';
+        this.ex2Audio.src = '/assets/audio/sight-words/' + examples[1] + '.mp3';
+        this.ex3Audio.src = '/assets/audio/sight-words/' + examples[2] + '.mp3';
+
         this.ex1Audio.load();
-
-        // this.ex2Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).exaudio[1];
-        this.ex2Audio.src = '/assets/audio/sight-words/' + data.default.find(o => o.phoneme == "a-1").exaudio[1];
-
         this.ex2Audio.load();
-
-        // this.ex3Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).exaudio[2];
-        this.ex3Audio.src = '/assets/audio/sight-words/' + data.default.find(o => o.phoneme == "a-1").exaudio[2];
-
         this.ex3Audio.load();
 
+        this.playAudio();
+
+    }
+
+    generateExamples() {
+        var positiveExamples = data.find(o => o.id == this.phoneme.id)["quiz-words"];
+
+        var positiveExample = positiveExamples[Math.floor(Math.random() * positiveExamples.length)];
+        return [
+            positiveExample,
+            this.generateNegativeExample(positiveExamples),
+            this.generateNegativeExample(positiveExamples)
+        ];
+    }
+
+    generateNegativeExample(positiveExamples) {
+        var example;
+        do {
+            example = this.randomQuizWord();
+        }
+        while (positiveExamples.includes(example));
+        return example;
+    }
+
+    randomQuizWord() {
+        var quizWords = data[Math.floor(Math.random() * data.length)]["quiz-words"];
+        return quizWords[Math.floor(Math.random() * quizWords.length)];
     }
 
     onClick1() {
-        if (this.correctAnswer == 1) {
+        if (this.correctAnswer == 0) {
             this.onCorrect();
         } else {
             this.playAudio();
@@ -239,7 +244,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     }
 
     onClick2() {
-        if (this.correctAnswer == 2) {
+        if (this.correctAnswer == 1) {
             this.onCorrect();
         } else {
             this.playAudio();
@@ -247,7 +252,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     }
 
     onClick3() {
-        if (this.correctAnswer == 3) {
+        if (this.correctAnswer == 2) {
             this.onCorrect();
         } else {
             this.playAudio();
