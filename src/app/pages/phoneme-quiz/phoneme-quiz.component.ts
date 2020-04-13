@@ -43,6 +43,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     puzzleDirectory: string = '../../assets/img/puzzle-pieces/puzzle-' + this.phoneme.id;
     puzzleAnimate: boolean = false;
     puzzleComplete: boolean = false;
+    isFirstAttempt: boolean;
 
 	constructor(
         private transferService:TransferLetterService,
@@ -77,6 +78,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
 
         // Shuffle order of puzzle pieces being displayed
         this.puzzlePieceImages.sort(function() {return rng() - 0.5});
+        this.phoneme.puzzlePiecesEarned = userDataService.getPuzzlePieces(this.phoneme.id)
 
     }
 
@@ -172,18 +174,20 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
 
     onCorrect() {
         this.userDataService.addCoins(1);
-        if (this.phoneme.puzzlePiecesEarned < 12) {
-            this.phoneme.puzzlePiecesEarned += 2;
-            if (this.phoneme.puzzlePiecesEarned == 12) {
-                this.puzzleAnimate = true;
-                this.puzzleComplete = true;
-                this.userDataService.savePuzzle(this.phoneme.id);
-                this.phonemeProgressService.setCheckMark("phoneme" + this.phoneme.id, true);
-            }
-        }
-        if (!this.puzzleComplete) {
-            this.puzzleAnimate = true;
-        }
+        // if (this.phoneme.puzzlePiecesEarned < 12) {
+        //     this.phoneme.puzzlePiecesEarned += 2;
+        //     if (this.phoneme.puzzlePiecesEarned == 12) {
+        //         this.puzzleAnimate = true;
+        //         this.puzzleComplete = true;
+        //         this.userDataService.savePuzzle(this.phoneme.id);
+        //         // this.phonemeProgressService.setCheckMark("phoneme" + this.phoneme.id, true);
+        //     }
+        // }
+
+        this.userDataService.addPuzzlePieces(this.phoneme.id, 2);
+        this.phoneme.puzzlePiecesEarned = this.userDataService.getPuzzlePieces(this.phoneme.id);
+
+        this.puzzleAnimate = true;
         delay(500).then(() => {
             this.puzzleAnimate = false;
         });
