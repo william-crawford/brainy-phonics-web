@@ -149,7 +149,7 @@ export class ListSelectComponent implements OnInit, OnDestroy {
                 // show checkmark: if letters (5 stars have been earned), if phonemes (puzzle has been finished)
                 if (this.progressService.getCheckMark(queryStatement)) {
                     let img = document.createElement('img');
-                    img.setAttribute("src", '/assets/img/progress/check_mark.jpg')
+                    img.setAttribute("src", '/assets/img/progress/check_mark.png')
                     img.setAttribute("width", "50px")
                     img.setAttribute("height", "50px")
                     img.style.marginBottom = "30px";
