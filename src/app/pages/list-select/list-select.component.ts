@@ -1,4 +1,4 @@
-import {Component, OnDestroy, OnInit} from '@angular/core';
+import {Component, OnDestroy, OnInit, AfterViewInit} from '@angular/core';
 import {AlphabetLetter} from '../../types/alphabet-letter';
 import {Phoneme} from '../../types/phoneme';
 import {Vowels} from '../../types/vowels';
@@ -26,7 +26,7 @@ import {Location} from '@angular/common';
     templateUrl: './list-select.component.html',
     styleUrls: ['./list-select.component.css']
 })
-export class ListSelectComponent implements OnInit, OnDestroy {
+export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
 
     instruction: HTMLAudioElement;
     list: string;
@@ -87,6 +87,13 @@ export class ListSelectComponent implements OnInit, OnDestroy {
             for (var i = 0; i < Object.keys(document.getElementsByClassName('bottom')).length - 1; i++) {
                 document.getElementsByClassName('bottom')[i].classList.add('alphabet-list-bottom');
             }
+        }
+    }
+
+    ngAfterViewInit() {
+        if (this.list === 'vowels') {
+            document.getElementById('Y-i').style.color = 'black';
+            document.getElementById('Y-e').style.color = '#73EC12';
         }
     }
 
@@ -177,5 +184,13 @@ export class ListSelectComponent implements OnInit, OnDestroy {
 
     goBack() {
         this.location.back();
+    }
+
+    setClass(item: Phoneme) {
+        return item.color;
+    }
+
+    setID(item: Phoneme) {
+        return item.id;
     }
 }

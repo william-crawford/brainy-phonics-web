@@ -60,3 +60,14 @@ p {
 .alphabet-list-bottom {
     transform: translateY(13vh);
 }
+
+/* Phoneme label colors */
+.green {
+    color: #73EC12;
+}
+.purple {
+    color: #EB5AD1;
+}
+.orange {
+    color: #EB5AD1;
+}
