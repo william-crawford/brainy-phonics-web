@@ -11,14 +11,17 @@ import {AlphabetLetter} from '../types/alphabet-letter';
 
 export class ProgressService {
 
-  private letters = [];
+  constructor(@Inject(SESSION_STORAGE) private storage: WebStorageService) {
+    this.storage.set('hasReceivedPhonemeInstruction', false);
+    this.storage.set('hasReceivedAlphabetInstruction', false);
+  }
 
-  constructor(@Inject(SESSION_STORAGE) private storage: WebStorageService,
-     private transferLetterService: TransferLetterService,
-     private alphabetLettersSerivce: AlphabetLettersService) {
-    // this.letters.add(this.transferLetterService.getData());
-    // this.letters = this.alphabetLettersSerivce.letters;
-    //  this.storage.set()
+  getReceivedInstructions(key) {
+    return this.storage.get(key);
+  }
+
+  setReceivedInstructions(key, hasRecInstructions) {
+    this.storage.set(key, hasRecInstructions); 
   }
 
   //initial each input with { stars: 0, active: false, checkmark: false }
