@@ -10,7 +10,7 @@
 }
 
 .phoneme_button {
-    background: url('../../../assets/img/sight-words/ape.jpg') no-repeat scroll;
+    background: url('../../../assets/img/sight-words/ape.png') no-repeat scroll;
     background-position: 73% 50%;
     background-size: 21vh 26vh;
 }
@@ -70,4 +70,9 @@ p {
 }
 .orange {
     color: #EB5AD1;
+}
+
+.word-image {
+    width: 50%;
+    transform: translate(22vh, -20vh);
 }

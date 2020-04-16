@@ -91,9 +91,24 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
     }
 
     ngAfterViewInit() {
-        if (this.list === 'vowels') {
-            document.getElementById('Y-i').style.color = 'black';
-            document.getElementById('Y-e').style.color = '#73EC12';
+        if (this.list === 'alphabet') {
+            for (var i = 0; i < document.getElementsByClassName('app-card').length; i++) {
+                var temp = <HTMLElement> document.getElementsByClassName('app-card')[i];
+                temp.style.marginLeft = '7vh';
+            }
+        } else {
+            if (this.list === 'phoneme' || this.list === 'vowelConsonants') {
+                var igh = <HTMLElement> document.getElementById('I-IGH').firstChild.lastChild;
+                igh.style.transform = 'translate(25vh, -20vh)';
+            } 
+            if (this.list === 'phoneme' || this.list === 'vowelPairs') {
+                var aw = <HTMLElement> document.getElementById('A-AW').firstChild.lastChild;
+                aw.style.transform = 'translate(24vh, -20vh)';
+            } 
+            if (this.list === 'vowels') {
+                document.getElementById('Y-i').style.color = 'black';
+                document.getElementById('Y-e').style.color = '#73EC12';
+            }
         }
     }
 
@@ -186,11 +201,19 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
         this.location.back();
     }
 
-    setClass(item: Phoneme) {
+    setClass(item) {
         return item.color;
     }
 
-    setID(item: Phoneme) {
+    setID(item) {
         return item.id;
+    }
+
+    getImage(item) {
+        if (this.list === 'alphabet') {
+            return;
+        } else {
+            return '../../assets/img/sight-words/' + item.word1.word + '.png'; 
+        }
     }
 }
