@@ -22,7 +22,6 @@
 
 .column .text {
   font-size: 4.8vh;
-  font-family: 'ComicSans';
   cursor: pointer;
   position: absolute;
   top: 55vh;
@@ -32,7 +31,6 @@
 
 .letter {
   font-size: 19.4vh;
-  font-family: 'ComicSans';
   padding-top: -10vh;
   margin-left: 44vh;
   cursor: pointer;

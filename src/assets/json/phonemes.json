@@ -402,7 +402,7 @@
         },
         "word2": {
             "word": "bubble",
-            "display": "<span>b</span>ubble",
+            "display": "<span>b</span>u<span>bb</span>le",
             "audio": "bubble.mp3",
             "image": "bubble.png"
         },
@@ -444,7 +444,7 @@
         },
         "word3": {
             "word": "cobweb",
-            "display": "cobwe<span>b</span>",
+            "display": "co<span>b</span>we<span>b</span>",
             "audio": "cobweb.mp3",
             "image": "cobweb.png"
         },
@@ -628,7 +628,7 @@
         },
         "word3": {
             "word": "picnic",
-            "display": "picni<span>c</span>",
+            "display": "pi<span>c</span>ni<span>c</span>",
             "audio": "picnic.mp3",
             "image": "picnic.png"
         },
@@ -1686,7 +1686,7 @@
         },
         "word2": {
             "word": "hardhat",
-            "display": "<span>h</span>ardhat",
+            "display": "<span>h</span>ard<span>h</span>at",
             "audio": "hardhat.mp3",
             "image": "hardhat.png"
         },
@@ -2096,19 +2096,19 @@
         "display": "j",
         "word1": {
             "word": "cage",
-            "display": "ca<span>ge</span>",
+            "display": "ca<span>g</span>e",
             "audio": "cage.mp3",
             "image": "cage.png"
         },
         "word2": {
             "word": "bridge",
-            "display": "brid<span>ge</span>",
+            "display": "brid<span>g</span>e",
             "audio": "bridge.mp3",
             "image": "bridge.png"
         },
         "word3": {
             "word": "orange",
-            "display": "oran<span>ge</span>",
+            "display": "oran<span>g</span>e",
             "audio": "orange.mp3",
             "image": "orange.png"
         },
@@ -2138,7 +2138,7 @@
         },
         "word2": {
             "word": "kayak",
-            "display": "<span>k</span>ayak",
+            "display": "<span>k</span>aya<span>k</span>",
             "audio": "kayak.mp3",
             "image": "kayak.png"
         },
@@ -2408,7 +2408,7 @@
         },
         "word3": {
             "word": "mermaid",
-            "display": "<span>m</span>ermaid",
+            "display": "<span>m</span>er<span>m</span>aid",
             "audio": "mermaid.mp3",
             "image": "mermaid.png"
         },
@@ -3200,7 +3200,7 @@
         "display": "p",
         "word1": {
             "word": "puppy",
-            "display": "<span>p</span>uppy",
+            "display": "<span>p</span>u<span>pp</span>y",
             "audio": "puppy.mp3",
             "image": "puppy.png"
         },
@@ -3569,7 +3569,7 @@
         "display": "s",
         "word1": {
             "word": "suitcase",
-            "display": "<span>s</span>uitcase",
+            "display": "<span>s</span>uitca<span>s</span>e",
             "audio": "suitcase.mp3",
             "image": "suitcase.png"
         },
@@ -3996,7 +3996,7 @@
         },
         "word3": {
             "word": "tent",
-            "display": "ten<span>t</span>",
+            "display": "<span>t</span>en<span>t</span>",
             "audio": "tent.mp3",
             "image": "tent.png"
         },
@@ -4520,19 +4520,19 @@
         "display": "x",
         "word1": {
             "word": "excavator",
-            "display": "<span>ex</span>cavator",
+            "display": "e<span>x</span>cavator",
             "audio": "excavator.mp3",
             "image": "excavator.png"
         },
         "word2": {
             "word": "ax",
-            "display": "<span>ax</span>",
+            "display": "a<span>x</span>",
             "audio": "ax.mp3",
             "image": "ax.png"
         },
         "word3": {
             "word": "exam",
-            "display": "<span>ex</span>am",
+            "display": "e<span>x</span>am",
             "audio": "exam.mp3",
             "image": "exam.png"
         },
@@ -4826,13 +4826,13 @@
         },
         "word2": {
             "word": "prize",
-            "display": "pri<span>ze</span>",
+            "display": "pri<span>z</span>e",
             "audio": "prize.mp3",
             "image": "prize.png"
         },
         "word3": {
             "word": "freeze",
-            "display": "free<span>ze</span>",
+            "display": "free<span>z</span>e",
             "audio": "freeze.mp3",
             "image": "freeze.png"
         },

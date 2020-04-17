@@ -62,3 +62,6 @@
     font-family: 'ComicSans';
     src: url('./assets/fonts/comic-sans.ttf');
 }
+html *{
+   font-family: 'ComicSans' !important;
+}
