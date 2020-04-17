@@ -42,20 +42,24 @@ export class VowelPairsService {
             new VowelPairs(
               data[i].id,
               data[i].display,
-              `/assets/audio/phonemes/${data[i].audio}`,
+              `../../assets/audio/phonemes/${data[i].audio}`,
               new SightWord(
                 data[i].word1.word,
-                `/assets/audio/sight-words/${data[i].word1.audio}`,
-                `/assets/images/sight-words/${data[i].word1.image}`
+                data[i].word1.display,
+                `../../assets/audio/sight-words/${data[i].word1.audio}`,
+                `../../assets/img/sight-words/${data[i].word1.image}`
               ),
               new SightWord(
                 data[i].word2.word,
-                `/assets/audio/sight-words/${data[i].word2.audio}`,
-                `/assets/images/sight-words/${data[i].word2.image}`
+                data[i].word2.display,
+                `../../assets/audio/sight-words/${data[i].word2.audio}`,
+                `../../assets/img/sight-words/${data[i].word2.image}`
               ),
-              new SightWord(data[i].word3.word,
-                `/assets/audio/sight-words/${data[i].word3.audio}`,
-                `/assets/images/sight-words/${data[i].word3.image}`
+              new SightWord(
+                data[i].word3.word,
+                data[i].word3.display,
+                `../../assets/audio/sight-words/${data[i].word3.audio}`,
+                `../../assets/img/sight-words/${data[i].word3.image}`
               ),
               data[i].color,
               data[i].category,

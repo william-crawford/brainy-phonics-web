@@ -47,13 +47,8 @@
     opacity: 1;
 }
 
-.answer-pane {
-
-}
-
 .letter {
   font-size: 19.4vh;
-  font-family: 'ComicSans';
   padding-top: -10vh;
   padding-bottom: 10vh;
   cursor: pointer;

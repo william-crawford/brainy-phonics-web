@@ -20,15 +20,13 @@ export class ProgressService {
     return this.storage.get(key);
   }
 
+
   setReceivedInstructions(key, hasRecInstructions) {
     this.storage.set(key, hasRecInstructions); 
   }
 
   //initial each input with { stars: 0, active: false, checkmark: false }
   prepareNewKeyProgress(): any {
-    // const letters = 
-    // console.log(letters);
-    // // this.storage.set(key, val);
     return {'stars': 1,
             'active': true, 
             'checkmark':false}
@@ -36,7 +34,6 @@ export class ProgressService {
 
   getActiveStatus(key): any {
     if (this.storage.get(key) != null) {
-      // console.log('get active status for: ', key, ', ', this.storage.get(key).active);
       return this.storage.get(key).active;
     } else {
       return 0;
@@ -47,7 +44,6 @@ export class ProgressService {
     let input;
     if(this.storage.get(key) != null) {
       const currentStatus = this.storage.get(key).active;
-      // console.log("setting active status from: ", currentStatus, " to ", val)
   
       input = { 'stars': this.storage.get(key).stars,
                 'active': val,

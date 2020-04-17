@@ -1,4 +1,4 @@
-import {Component, OnDestroy, OnInit} from '@angular/core';
+import {Component, OnDestroy, OnInit, AfterViewInit} from '@angular/core';
 import {AlphabetLetter} from '../../types/alphabet-letter';
 import {Phoneme} from '../../types/phoneme';
 import {Vowels} from '../../types/vowels';
@@ -26,7 +26,7 @@ import {Location} from '@angular/common';
     templateUrl: './list-select.component.html',
     styleUrls: ['./list-select.component.css']
 })
-export class ListSelectComponent implements OnInit, OnDestroy {
+export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
 
     instruction: HTMLAudioElement;
     list: string;
@@ -108,6 +108,26 @@ export class ListSelectComponent implements OnInit, OnDestroy {
         }
     }
 
+    ngAfterViewInit() {
+        if (this.list === 'alphabet') {
+            for (var i = 0; i < document.getElementsByClassName('app-card').length; i++) {
+                var temp = <HTMLElement> document.getElementsByClassName('app-card')[i];
+                temp.style.marginLeft = '7vh';
+            }
+        } else {
+            if (this.list === 'phoneme' || this.list === 'vowelConsonants') {
+                var igh = <HTMLElement> document.getElementById('I-IGH').firstChild.lastChild;
+                igh.style.transform = 'translate(25vh, -20vh)';
+            }
+            if (this.list === 'phoneme' || this.list === 'vowelPairs') {
+                var aw = <HTMLElement> document.getElementById('A-AW').firstChild.lastChild;
+                var ow = <HTMLElement> document.getElementById('O-ohw').firstChild.lastChild;
+                aw.style.transform = 'translate(24vh, -20vh)';
+                ow.style.transform = 'translate(24vh, -20vh)';
+            }
+        }
+    }
+
     ngOnDestroy() {
         this.instruction.pause();
     }
@@ -167,7 +187,7 @@ export class ListSelectComponent implements OnInit, OnDestroy {
                 // show checkmark: if letters (5 stars have been earned), if phonemes (puzzle has been finished)
                 if (this.progressService.getCheckMark(queryStatement)) {
                     let img = document.createElement('img');
-                    img.setAttribute("src", '/assets/img/progress/check_mark.jpg')
+                    img.setAttribute("src", '/assets/img/progress/check_mark.png')
                     img.setAttribute("width", "50px")
                     img.setAttribute("height", "50px")
                     img.style.marginBottom = "30px";
@@ -195,5 +215,27 @@ export class ListSelectComponent implements OnInit, OnDestroy {
 
     goBack() {
         this.location.back();
+    }
+
+    setClass(item) {
+        if (this.list === 'vowels') {
+            return item.color.vowel;
+        } else if (this.list === 'kindergarten') {
+            return item.color.K;
+        } else if (this.list !== 'alphabet') {
+            return item.color.all;
+        }
+    }
+
+    setID(item) {
+        return item.id;
+    }
+
+    getImage(item) {
+        if (this.list === 'alphabet') {
+            return;
+        } else {
+            return item.word1.image; 
+        }
     }
 }
