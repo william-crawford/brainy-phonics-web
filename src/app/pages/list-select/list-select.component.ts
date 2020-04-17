@@ -163,13 +163,20 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
                     this.dataProgress.push(item);
                 }
 
+                // used for stars and checkmarks
+                const starImageSize = "30px";
+                const checkImageSize = "40px";
+                const progressImgBottom = "30px";
+                const progressImgLeft = "5px";
+
                 if (this.progressService.getActiveStatus(queryStatement) == 1) {
                     for (let i = 0; i < numStars; i++) {
                         let img = document.createElement('img');
                         img.setAttribute("src", '/assets/img/progress/Gold-Star-Blank.png')
-                        img.setAttribute("width", "50px")
-                        img.setAttribute("height", "50px")
-                        img.style.marginBottom = "30px";
+                        img.setAttribute("width", starImageSize)
+                        img.setAttribute("height", starImageSize)
+                        img.style.marginBottom = progressImgBottom;
+                        img.style.marginLeft = progressImgLeft;
                         elem.appendChild(img);
                     }
                 } else {
@@ -177,9 +184,10 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
                     for (let i = 0; i < numStars; i++) {
                         let img = document.createElement('img');
                         img.setAttribute("src", '/assets/img/progress/Silver-Star-Blank.png')
-                        img.setAttribute("width", "50px")
-                        img.setAttribute("height", "50px")
-                        img.style.marginBottom = "30px";
+                        img.setAttribute("width", starImageSize)
+                        img.setAttribute("height", starImageSize)
+                        img.style.marginBottom = progressImgBottom;
+                        img.style.marginLeft = progressImgLeft;
                         elem.appendChild(img);
                     }
                 }
@@ -188,9 +196,10 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
                 if (this.progressService.getCheckMark(queryStatement)) {
                     let img = document.createElement('img');
                     img.setAttribute("src", '/assets/img/progress/check_mark.png')
-                    img.setAttribute("width", "50px")
-                    img.setAttribute("height", "50px")
-                    img.style.marginBottom = "30px";
+                    img.setAttribute("width", checkImageSize)
+                    img.setAttribute("height", checkImageSize)
+                    img.style.marginBottom = progressImgBottom;
+                    img.style.marginLeft = "30%";
                     elem.appendChild(img);
                 }
             }
