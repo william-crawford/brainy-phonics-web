@@ -5,6 +5,7 @@ import {TransferLetterService} from '../../services/transfer-letter-service.serv
 import * as data from '../../../assets/json/phoneme-examples.json';
 import {Location} from '@angular/common';
 import {Phoneme} from '../../types/phoneme';
+import {SightWord} from '../../types/sight-word';
 
 @Component({
     templateUrl: 'phoneme-learn.component.html',
@@ -51,9 +52,9 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
         this.img1 = this.phoneme.word1.image;
         this.img2 = this.phoneme.word2.image;
         this.img3 = this.phoneme.word3.image;
-        this.word1 = this.phoneme.word1.word;
-        this.word2 = this.phoneme.word2.word;
-        this.word3 = this.phoneme.word3.word;
+        this.word1 = this.phoneme.word1.display;
+        this.word2 = this.phoneme.word2.display;
+        this.word3 = this.phoneme.word3.display;
         this.phonemePlayAudio = true;
         this.oneAnimate = false;
         this.twoAnimate = false;
