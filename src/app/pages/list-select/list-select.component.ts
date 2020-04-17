@@ -1,4 +1,4 @@
-import {Component, OnDestroy, OnInit} from '@angular/core';
+import {Component, OnDestroy, OnInit, AfterViewInit} from '@angular/core';
 import {AlphabetLetter} from '../../types/alphabet-letter';
 import {Phoneme} from '../../types/phoneme';
 import {Vowels} from '../../types/vowels';
@@ -26,7 +26,7 @@ import {Location} from '@angular/common';
     templateUrl: './list-select.component.html',
     styleUrls: ['./list-select.component.css']
 })
-export class ListSelectComponent implements OnInit, OnDestroy {
+export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
 
     instruction: HTMLAudioElement;
     list: string;
@@ -86,6 +86,24 @@ export class ListSelectComponent implements OnInit, OnDestroy {
             document.getElementById('puzzle').classList.add('hide');
             for (var i = 0; i < Object.keys(document.getElementsByClassName('bottom')).length - 1; i++) {
                 document.getElementsByClassName('bottom')[i].classList.add('alphabet-list-bottom');
+            }
+        }
+    }
+
+    ngAfterViewInit() {
+        if (this.list === 'alphabet') {
+            for (var i = 0; i < document.getElementsByClassName('app-card').length; i++) {
+                var temp = <HTMLElement> document.getElementsByClassName('app-card')[i];
+                temp.style.marginLeft = '7vh';
+            }
+        } else {
+            if (this.list === 'phoneme' || this.list === 'vowelConsonants') {
+                var igh = <HTMLElement> document.getElementById('I-IGH').firstChild.lastChild;
+                igh.style.transform = 'translate(25vh, -20vh)';
+            }
+            if (this.list === 'phoneme' || this.list === 'vowelPairs') {
+                var aw = <HTMLElement> document.getElementById('A-AW').firstChild.lastChild;
+                aw.style.transform = 'translate(24vh, -20vh)';
             }
         }
     }
@@ -177,5 +195,27 @@ export class ListSelectComponent implements OnInit, OnDestroy {
 
     goBack() {
         this.location.back();
+    }
+
+    setClass(item) {
+        if (this.list === 'vowels') {
+            return item.color.vowel;
+        } else if (this.list === 'kindergarten') {
+            return item.color.K;
+        } else if (this.list !== 'alphabet') {
+            return item.color.all;
+        }
+    }
+
+    setID(item) {
+        return item.id;
+    }
+
+    getImage(item) {
+        if (this.list === 'alphabet') {
+            return;
+        } else {
+            return '../../assets/img/sight-words/' + item.word1.word + '.png'; 
+        }
     }
 }

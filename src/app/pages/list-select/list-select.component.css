@@ -10,7 +10,7 @@
 }
 
 .phoneme_button {
-    background: url('../../../assets/img/sight-words/ape.jpg') no-repeat scroll;
+    background: url('../../../assets/img/sight-words/ape.png') no-repeat scroll;
     background-position: 73% 50%;
     background-size: 21vh 26vh;
 }
@@ -44,11 +44,6 @@
     border-bottom: 3vh solid #DEDEDE;
 }
 
-/* Fix last row styling after JSONs are done */
-/* :last-child {
-    margin-bottom: 5vh;
-} */
-
 p {
     margin: 9vh 0vh 0vh 9vh;
 }
@@ -57,6 +52,22 @@ p {
     display: none;
 }
 
-.alphabet-list-bottom {
+.list-bottom {
     transform: translateY(13vh);
+}
+
+/* Phoneme label colors */
+.green {
+    color: #73EC12;
+}
+.purple {
+    color: #EB5AD1;
+}
+.orange {
+    color: #EB5AD1;
+}
+
+.word-image {
+    width: 50%;
+    transform: translate(22vh, -20vh);
 }

@@ -2,9 +2,9 @@
     <div id='main-body'>
         <div class='column'>
             <div class="cardList">
-                <app-card class="cardListItem" (click)='select(item)' *ngFor="let item of data" >
+                <app-card class="cardListItem {{ setClass(item) }}" id='{{ setID(item) }}' (click)='select(item)' *ngFor="let item of data" >
                     <p>{{ getDisplay(item)}} </p>
-                    
+                    <img src='{{ getImage(item) }}' class='word-image'>
                 </app-card>
             </div>
         </div>
