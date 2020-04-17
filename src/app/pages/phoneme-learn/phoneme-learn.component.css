@@ -92,19 +92,7 @@
   cursor: pointer;
   transition: all .5s;
   transform: scale(1) !important;
-}
-
-.word-image.ape {
-  width: 25vh;
-  height: 32vh;
-}
-.word-image.skate {
-  width: 24vh;
-  height: 34vh;
-}
-.word-image.crane {
-  width: 33vh;
-  height: 33vh;
+  width: 70%;
 }
 
 .animate {

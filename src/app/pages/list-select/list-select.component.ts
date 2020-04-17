@@ -103,7 +103,9 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
             }
             if (this.list === 'phoneme' || this.list === 'vowelPairs') {
                 var aw = <HTMLElement> document.getElementById('A-AW').firstChild.lastChild;
+                var ow = <HTMLElement> document.getElementById('O-ohw').firstChild.lastChild;
                 aw.style.transform = 'translate(24vh, -20vh)';
+                ow.style.transform = 'translate(24vh, -20vh)';
             }
         }
     }
@@ -215,7 +217,7 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
         if (this.list === 'alphabet') {
             return;
         } else {
-            return '../../assets/img/sight-words/' + item.word1.word + '.png'; 
+            return item.word1.image; 
         }
     }
 }

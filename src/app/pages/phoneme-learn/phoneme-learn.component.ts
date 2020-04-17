@@ -33,19 +33,13 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
 
     phoneme: Phoneme;
 
-    // img1: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[0];
-    img1: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == 'a').eximg[0];
-    // img2: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[1];
-    img2: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == 'a').eximg[1];
-    // img3: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == this.phoneme.value).eximg[2];
-    img3: string = '../../assets/img/sight-words/' + data.default.find(o => o.phoneme == 'a').eximg[2];
+    img1: string;
+    img2: string;
+    img3: string;
 
-    // word1: string = data.default.find(o => o.phoneme == this.phoneme.value).exword[0];
-    word1: string = data.default.find(o => o.phoneme == 'a').exword[0];
-    // word2: string = data.default.find(o => o.phoneme == this.phoneme.value).exword[1];
-    word2: string = data.default.find(o => o.phoneme == 'a').exword[1];
-    // word3: string = data.default.find(o => o.phoneme == this.phoneme.value).exword[2];
-    word3: string = data.default.find(o => o.phoneme == 'a').exword[2];
+    word1: string;
+    word2: string;
+    word3: string;
 
     constructor(
         private transferService: TransferLetterService,
@@ -54,6 +48,12 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
         private location: Location
     ) {
         this.phoneme = this.transferService.getData() as Phoneme;
+        this.img1 = this.phoneme.word1.image;
+        this.img2 = this.phoneme.word2.image;
+        this.img3 = this.phoneme.word3.image;
+        this.word1 = this.phoneme.word1.word;
+        this.word2 = this.phoneme.word2.word;
+        this.word3 = this.phoneme.word3.word;
         this.phonemePlayAudio = true;
         this.oneAnimate = false;
         this.twoAnimate = false;
@@ -82,25 +82,20 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
         }
 
         this.phonemeAudio = new Audio();
-        // this.phonemeAudio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).nameaudio[0];
-        this.phonemeAudio.src = '/assets/audio/phonemes/' + data.default.find(o => o.phoneme == 'a').nameaudio[0];
+        // this.phonemeAudio.src = this.phoneme.audio;
+        this.phonemeAudio.src = '../../assets/audio/phonemes/sound-A-ah.mp3';
         this.phonemeAudio.load();
 
         this.ex1Audio = new Audio();
-        // this.ex1Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).exaudio[0];
-        this.ex1Audio.src = '/assets/audio/sight-words/' + data.default.find(o => o.phoneme == 'a').exaudio[0];
+        this.ex1Audio.src = this.phoneme.word1.audio;
         this.ex1Audio.load();
 
         this.ex2Audio = new Audio();
-        // this.ex2Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).exaudio[1];
-        this.ex2Audio.src = '/assets/audio/sight-words/' + data.default.find(o => o.phoneme == 'a').exaudio[1];
-
+        this.ex2Audio.src = this.phoneme.word2.audio;
         this.ex2Audio.load();
 
         this.ex3Audio = new Audio();
-        // this.ex3Audio.src = '/assets/audio/' + data.default.find(o => o.phoneme == this.phoneme.value).exaudio[2];
-        this.ex3Audio.src = '/assets/audio/sight-words/' + data.default.find(o => o.phoneme == 'a').exaudio[2];
-
+        this.ex3Audio.src = this.phoneme.word3.audio;
         this.ex3Audio.load();
 
         this.phonemeAudio.onended = () => {
