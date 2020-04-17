@@ -174,16 +174,6 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
 
     onCorrect() {
         this.userDataService.addCoins(1);
-        // if (this.phoneme.puzzlePiecesEarned < 12) {
-        //     this.phoneme.puzzlePiecesEarned += 2;
-        //     if (this.phoneme.puzzlePiecesEarned == 12) {
-        //         this.puzzleAnimate = true;
-        //         this.puzzleComplete = true;
-        //         this.userDataService.savePuzzle(this.phoneme.id);
-        //         // this.phonemeProgressService.setCheckMark("phoneme" + this.phoneme.id, true);
-        //     }
-        // }
-
         this.userDataService.addPuzzlePieces(this.phoneme.id, 2);
         this.phoneme.puzzlePiecesEarned = this.userDataService.getPuzzlePieces(this.phoneme.id);
 
@@ -193,6 +183,10 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         });
 
         this.loadNew();
+
+        if (this.phoneme.puzzlePiecesEarned == 12) {
+            this.phonemeProgressService.setCheckMark("phoneme" + this.phoneme.id, true);
+        }
 
         if(this.isFirstAttempt) {
             if(this.phonemeProgressService.getActiveStatus("phoneme" + this.phoneme.id)) {
