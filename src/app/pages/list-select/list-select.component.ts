@@ -97,11 +97,11 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
                 temp.style.marginLeft = '7vh';
             }
         } else {
-            if (this.list === 'phoneme' || 'vowelConsonants') {
+            if (this.list === 'phoneme' || this.list === 'vowelConsonants') {
                 var igh = <HTMLElement> document.getElementById('I-IGH').firstChild.lastChild;
                 igh.style.transform = 'translate(25vh, -20vh)';
             }
-            if (this.list === 'phoneme' || 'vowelPairs') {
+            if (this.list === 'phoneme' || this.list === 'vowelPairs') {
                 var aw = <HTMLElement> document.getElementById('A-AW').firstChild.lastChild;
                 aw.style.transform = 'translate(24vh, -20vh)';
             }
@@ -198,10 +198,12 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
     }
 
     setClass(item) {
-        if (this.list === 'phoneme' || 'consonants' || 'vowelConsonants' || 'vowelPairs') {
-            return item.color.all;
-        } else if (this.list === 'vowels') {
+        if (this.list === 'vowels') {
             return item.color.vowel;
+        } else if (this.list === 'kindergarten') {
+            return item.color.K;
+        } else {
+            return item.color.all;
         }
     }
 
