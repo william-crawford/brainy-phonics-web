@@ -2051,42 +2051,6 @@
         "category": "VC"
     },
     {
-        "id": "j-soft-end",
-        "audio": "sound-J-",
-        "display": "j",
-        "word1": {
-            "word": "cage",
-            "display": "ca<span>ge</span>",
-            "audio": "cage.mp3",
-            "image": "cage.png"
-        },
-        "word2": {
-            "word": "bridge",
-            "display": "ca<span>ge</span>",
-            "audio": "bridge.mp3",
-            "image": "bridge.png"
-        },
-        "word3": {
-            "word": "orange",
-            "display": "ca<span>ge</span>",
-            "audio": "orange.mp3",
-            "image": "orange.png"
-        },
-        "quiz-words": [
-            "fridge",
-            "bandage",
-            "cabbage",
-            "judge",
-            "fringe"
-        ],
-        "color": {
-            "all": "green",
-            "vowel": "green",
-            "K": "black"
-        },
-        "grade": "K-only"
-    },
-    {
         "id": "J-juh",
         "audio": "sound-J-",
         "display": "j",
@@ -2127,6 +2091,42 @@
         "grade": "K"
     },
     {
+        "id": "j-soft-end",
+        "audio": "sound-J-",
+        "display": "j",
+        "word1": {
+            "word": "cage",
+            "display": "ca<span>ge</span>",
+            "audio": "cage.mp3",
+            "image": "cage.png"
+        },
+        "word2": {
+            "word": "bridge",
+            "display": "brid<span>ge</span>",
+            "audio": "bridge.mp3",
+            "image": "bridge.png"
+        },
+        "word3": {
+            "word": "orange",
+            "display": "oran<span>ge</span>",
+            "audio": "orange.mp3",
+            "image": "orange.png"
+        },
+        "quiz-words": [
+            "fridge",
+            "bandage",
+            "cabbage",
+            "judge",
+            "fringe"
+        ],
+        "color": {
+            "all": "green",
+            "vowel": "green",
+            "K": "black"
+        },
+        "grade": "K-only"
+    },
+    {
         "id": "k-begin",
         "audio": "sound-K-",
         "display": "k",
@@ -2138,7 +2138,7 @@
         },
         "word2": {
             "word": "kayak",
-            "display": "<span>k</span>aya<span>k</span>",
+            "display": "<span>k</span>ayak",
             "audio": "kayak.mp3",
             "image": "kayak.png"
         },
