@@ -15,20 +15,19 @@
 
 .column {
   float: left;
-  text-align: right;
+  text-align: center;
   width: 48vh;
   transform: translateX(-21vh);
 }
 
 .column .text {
   font-size: 4.8vh;
-  margin-left: 3vh;
   font-family: 'ComicSans';
   cursor: pointer;
   position: absolute;
   top: 55vh;
   z-index: 999;
-  transform: translateX(-13vh);
+  margin-left: 21vh;
 }
 
 .letter {
@@ -80,6 +79,9 @@
     opacity: 0.2;
 }
 
+.row {
+  padding-left: 10vh;
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -97,7 +99,7 @@
 
 .animate {
   transition: all .5s;
-  transform: translate(-22vh, -2vh) scale(1.12) !important;
+  transform: translate(-21vh, -1vh) scale(1.12) !important;
 }
 .animate-one {
   transition: all .5s;

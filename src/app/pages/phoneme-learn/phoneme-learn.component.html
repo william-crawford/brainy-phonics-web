@@ -5,13 +5,13 @@
 	 	<div class='letter' [ngClass]="{'animate-one': oneAnimate, 'animate-two': twoAnimate, 'animate-three': threeAnimate}" (click)='playAudioA()'>{{phoneme.display}}</div>
     	<div class='row'>
 	    	<div class='column' [ngClass]="{'animate': ex1Animate}">
-				<img src={{img1}} class='word-image' (click)='playEx1Audio()'>
+				<img src={{img1}} class='word-image one' (click)='playEx1Audio()'>
 				<br>
 				<div class='column text' (click)='playEx1Audio()' [innerHtml]='word1'></div>
 			</div>
 
 			<div class='column' [ngClass]="{'animate': ex2Animate}">
-				<img src={{img2}} class='word-image' (click)='playEx2Audio()'>
+				<img src={{img2}} class='word-image two' (click)='playEx2Audio()'>
 				<br>
 				<div class='column text' (click)='playEx2Audio()' [innerHtml]='word2'></div>
 			</div>

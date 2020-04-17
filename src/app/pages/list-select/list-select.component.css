@@ -15,6 +15,9 @@
     background-size: 21vh 26vh;
 }
 
+.app-card {
+    height: 0vh;
+}
 .cardList {
     display: flex;
     height: 97vh;
@@ -42,6 +45,7 @@
     font-family: 'ComicSans';
     font-size: 12vh;
     border-bottom: 3vh solid #DEDEDE;
+    overflow: hidden;
 }
 
 p {
