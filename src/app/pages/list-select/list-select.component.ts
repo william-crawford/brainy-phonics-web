@@ -97,17 +97,13 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
                 temp.style.marginLeft = '7vh';
             }
         } else {
-            if (this.list === 'phoneme' || this.list === 'vowelConsonants') {
+            if (this.list === 'phoneme' || 'vowelConsonants') {
                 var igh = <HTMLElement> document.getElementById('I-IGH').firstChild.lastChild;
                 igh.style.transform = 'translate(25vh, -20vh)';
-            } 
-            if (this.list === 'phoneme' || this.list === 'vowelPairs') {
+            }
+            if (this.list === 'phoneme' || 'vowelPairs') {
                 var aw = <HTMLElement> document.getElementById('A-AW').firstChild.lastChild;
                 aw.style.transform = 'translate(24vh, -20vh)';
-            } 
-            if (this.list === 'vowels') {
-                document.getElementById('Y-i').style.color = 'black';
-                document.getElementById('Y-e').style.color = '#73EC12';
             }
         }
     }
@@ -202,7 +198,11 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
     }
 
     setClass(item) {
-        return item.color;
+        if (this.list === 'phoneme' || 'consonants' || 'vowelConsonants' || 'vowelPairs') {
+            return item.color.all;
+        } else if (this.list === 'vowels') {
+            return item.color.vowel;
+        }
     }
 
     setID(item) {

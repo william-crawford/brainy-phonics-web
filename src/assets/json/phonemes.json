@@ -30,7 +30,10 @@
             "face",
             "whale"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Pat a c(a)ke; pat a c(a)ke; B(a)ker's man;</br>B(a)ke me a c(a)ke as fast as you can.</br>Pit it and pat it and mark it with B;</br>And put it in the oven for B(a)by and me.",
         "category": "V",
         "grade": "K"
@@ -66,7 +69,10 @@
             "cactus",
             "statue"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "rhyme": "B(a)t; b(a)t;</br>Come under my h(a)t;</br>And I'll give you a slice of bacon;</br>And when I bake;</br>I'll give you a cake;</br>If I am not mistaken.",
         "category": "V",
         "grade": "K"
@@ -101,7 +107,10 @@
             "walrus",
             "ball"
         ],
-        "color": "purple",
+        "color": {
+            "all": "purple",
+            "vowel": "purple"
+        },
         "rhyme": "Children call me F(a)ther Goose,</br>Because when I w(a)nt to w(a)nder,</br>I ride through the air</br>On a very fine gander.</br>",
         "category": "V",
         "grade": "K"
@@ -131,7 +140,10 @@
             "gazelle",
             "balance beam"
         ],
-        "color": "orange",
+        "color": {
+            "all": "orange",
+            "vowel": "orange"
+        },
         "rhyme": "(A)round the bush, Willie,</br>(A)round the bee hive.</br>(A)round the bush, Willie,</br>I'll meet you (a)live.",
         "category": "V",
         "grade": "K"
@@ -166,7 +178,10 @@
             "chainsaw",
             "mailman"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "R(ai)n, r(ai)n, go to Sp(ai)n,</br>Never come back again.</br>R(ai)n, r(ai)n, go away,</br>Come again another day.</br>Little Johny wants to play.",
         "category": "VP"
     },
@@ -197,7 +212,10 @@
             "blanket",
             "kangaroo"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Fr(an)kie Frog was afraid of (an)ts\u2014</br>He flopped on (an) (an)thill and up did pr(an)ce!</br>To shake fire (an)ts from his underp(an)ts,</br>Fr(an)kie Frog d(an)ced to Paris, Fr(an)ce!</br>",
         "category": "VC"
     },
@@ -230,7 +248,10 @@
             "hard hat",
             "saint bernard"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Twinkle, twinkle, little st(ar),</br>How I wonder what you (ar)e.</br>Up above the world so high,</br>Like a diamond in the sky.",
         "category": "VC"
     },
@@ -261,7 +282,10 @@
             "caught",
             "haul"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Little Polly Flinders<br>Sat among the cinders,<br>Warming her pretty little toes.<br>Her mother came and c(au)ght her,</br>Whipped her little d(au)ghter</br>For spoiling her nice new clothes.",
         "category": "VP"
     },
@@ -293,7 +317,10 @@
             "macaw parrot",
             "see saw"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "See s(aw), Margery D(aw),</br>Jacky shall have a new master.</br>Jacky will earn just a penny a day,</br>Because he will work no faster.",
         "category": "VP"
     },
@@ -320,7 +347,10 @@
             "daydreaming",
             "daybreak"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "How many d(ay)s has my baby to pl(ay)?</br>Saturd(ay); Sund(ay); Mond(ay);</br>Tuesd(ay); Wednesd(ay); Thursd(ay); Frid(ay);</br>Saturd(ay); Sund(ay); Mond(ay).",
         "category": "VP"
     },
@@ -350,7 +380,10 @@
             "box",
             "beaver"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "grade": "K-only"
     },
     {
@@ -379,7 +412,10 @@
             "rob",
             "bathrub"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "grade": "K-only"
     },
     {
@@ -413,7 +449,10 @@
             "zebra",
             "balance"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Rock-a-(b)ye; (B)aby; on the tree top;</br>When the wind (b)lows the cradle will rock;</br>When the (b)ough (b)reaks the cradle will fall;</br>and down will come (B)aby; cradle; and all.",
         "category": "C"
     },
@@ -440,7 +479,10 @@
             "blackberries",
             "blew"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Little Boy (Bl)ue; come (bl)ow your horn;</br>The sheep's in the meadow; the cow's in the corn.</br>Where is the boy who minds the sheep?</br>Under the haystack fast asleep.</br>Will you wake him?</br>No; not I;</br>For if I do he's sure to cry.",
         "category": "CB"
     },
@@ -472,7 +514,10 @@
             "brother",
             "brown"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "London (Br)idge is falling down,</br>Falling down, falling down.</br>London (Br)idge is falling down.</br>My fair lady.</br></br>Build it up with stones and (br)icks,</br>Stones and (br)icks, stones and (br)icks.</br>Build it up with stones and (br)icks,</br>My fair lady.",
         "category": "CB"
     },
@@ -502,7 +547,10 @@
             "candy",
             "car"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "grade": "K-only"
     },
     {
@@ -531,7 +579,10 @@
             "bionic",
             "clinic"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "grade": "K-only"
     },
     {
@@ -565,7 +616,10 @@
             "suitcase",
             "car"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Little Robin Redbreast sat upon a tree;<br>Up went the Kitty-(C)at; and down went he;</br>Down came Kitty-(C)at; away Robin ran;</br>Says little Robin Redbreast:</br>\"(C)atch me if you (c)an!\"",
         "category": "C"
     },
@@ -597,7 +651,10 @@
             "sauce pan",
             "dancing"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "rhyme": "(C)elery, lettu(c)e, and ri(c)e aren\u2019t my dream,</br>But you scream, I scream, we all scream</br>for i(c)e cream!</br>",
         "category": "C"
     },
@@ -628,7 +685,10 @@
             "ostrich",
             "chainsaw"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Cross pat(ch); pull the lat(ch);</br>Sit by the fire and spin;</br>Take a cup and drink it up;</br>Then call your neighbors in.",
         "category": "CB"
     },
@@ -660,7 +720,10 @@
             "hedge clippers",
             "four-leaf clover"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Tickety-tock, (cl)imb up the (cl)ock,</br>Don\u2019t let the time get dirty.</br>Tickety-tock we (cl)eaned the (cl)ock,</br>Now one o\u2019(cl)ock looks pretty.</br>",
         "category": "CB"
     },
@@ -691,7 +754,10 @@
             "cranberries",
             "screws"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "There was a (cr)ooked man;</br>And he walked a (cr)ooked mile;</br>He found a (cr)ooked sixpence;</br>Against a (cr)ooked tile;</br>He bought a (cr)ooked cat;</br>Which caught a (cr)ooked mouse;</br>And they all lived together;</br>In a little (cr)ooked house.",
         "category": "CB"
     },
@@ -721,7 +787,10 @@
             "duck",
             "dandelion"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "grade": "K-only"
     },
     {
@@ -750,7 +819,10 @@
             "wind",
             "sled"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "grade": "K-only"
     },
     {
@@ -784,7 +856,10 @@
             "spider",
             "proud"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "(D)iddle; (d)iddle; (d)umpling; my son John;</br>Went to be(d) with his trousers on;</br>One stocking off; and one stocking on;</br>(D)iddle; (d)iddle; (d)umpling; my son John.",
         "category": "C"
     },
@@ -813,7 +888,10 @@
             "laundress",
             "cauldron"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Three chil(dr)en sliding on the ice;</br>All on a winter's day;</br>As it fell out; they all fell in;</br>The rest they ran away.",
         "category": "CB"
     },
@@ -848,7 +926,10 @@
             "three",
             "wheelchair"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Little Bo-p(ee)p has lost her sh(ee)p;</br>And doesn't know where to find them;</br>Leave them alone; and they'll come home;</br>Wagging their tails behind them.",
         "category": "V",
         "grade": "K"
@@ -882,7 +963,10 @@
             "present",
             "question"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "rhyme": "Hick(e)ty; pick(e)ty; my black h(e)n;</br>She lays (e)ggs for gentlem(e)n;</br>Gentlem(e)n come (e)very day;</br>To see what my black h(e)n does lay.",
         "category": "V",
         "grade": "K"
@@ -914,7 +998,10 @@
             "mittens",
             "quiet"
         ],
-        "color": "orange",
+        "color": {
+            "all": "orange",
+            "vowel": "orange"
+        },
         "rhyme": "The el(e)phant want(e)d to cheat on her di(e)t</br>Found one gold(e)n cookie in the warm ov(e)n,</br>One in the gard(e)n, two in a torn pock(e)t,</br>Three hid in the kitch(e)n, that made sev(e)n,</br>Bought two at the mark(e)t, spied one in a bask(e)t,</br>Plus one she kept froz(e)n, that was elev(e)n,</br>And one from her lock(e)t, made twelve, a full doz(e)n</br>When she started to eat them it felt like pure heav(e)n!</br>",
         "category": "V",
         "grade": "K"
@@ -950,7 +1037,10 @@
             "green beans",
             "balance beam"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Jack Sprat would (ea)t no fat;</br>His wife would (ea)t no l(ea)n;</br>And so between the two of them;</br>They licked the platter cl(ea)n.</br>",
         "category": "VP"
     },
@@ -985,7 +1075,10 @@
             "feather",
             "spider"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Pet(er); Pet(er); pumpkin eat(er);</br>Had a wife and couldn't keep h(er);</br>He put h(er) in a pumpkin shell;</br>And then he kept h(er) very well.",
         "category": "VC"
     },
@@ -1018,7 +1111,10 @@
             "pretzel",
             "bucket"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Lucy Lock(et) lost her pock(et);</br>Kitty Fisher found it.</br>There was not a penny in it;</br>But a ribbon round it.",
         "category": "VC"
     },
@@ -1047,7 +1143,10 @@
             "blew",
             "jewelry"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "The hungry cuckoo fl(ew)</br>Then found a cash(ew)</br>His beak couldn\u2019t ch(ew).</br>What could he do?</br>He br(ew)ed cash(ew) st(ew)</br>Which smelled really P U!</br>But tasted great with barbecue.</br></br>",
         "category": "VP"
     },
@@ -1077,7 +1176,10 @@
             "find",
             "firefly"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "grade": "K-only"
     },
     {
@@ -1106,7 +1208,10 @@
             "surf",
             "wolf"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "grade": "K-only"
     },
     {
@@ -1140,7 +1245,10 @@
             "leaf",
             "surfboard"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Little Miss Mu(ff)et;</br>Sat on a tu(ff)et;</br>Eating some curds and whey.</br>Along came a spider;</br>And sat down beside her;</br>And frightened Miss Mu(ff)et away.",
         "category": "C"
     },
@@ -1171,7 +1279,10 @@
             "flashlight",
             "flame"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "A hungry (fl)y (fl)ew in a (fl)ower,</br>Then dreamed of sweets for half an hour.</br>A (fl)ea (fl)oating by yelled, \u201cStay awake!</br>I just baked us a snow(fl)ake cake!\u201d</br>",
         "category": "CB"
     },
@@ -1201,7 +1312,10 @@
             "fridge",
             "frog pads"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "On (Fr)iday night, </br>My (fr)iend and I</br>Had (fr)ozen (fr)ench-(fr)y soup</br>And (fr)og leg pie.</br></br>(Fr)ied ice cream</br>And fish heads in a cup,</br>I hope some medicine </br>Will help me throw up.</br>",
         "category": "CB"
     },
@@ -1231,7 +1345,10 @@
             "go-kart",
             "gazelle"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "grade": "K-only"
     },
     {
@@ -1260,7 +1377,10 @@
             "dog",
             "dig"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "grade": "K-only"
     },
     {
@@ -1294,7 +1414,10 @@
             "bulldog",
             "seagulls"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "(G)oosey; (g)oosey; (g)ander; where do you wander?</br>Upstairs and downstairs and in my lady's chamber;</br>There I met an old man who wouldn't say his prayers;</br>I took him by his hind le(g)s and threw him downstairs.",
         "category": "C"
     },
@@ -1324,7 +1447,10 @@
             "syringe",
             "bandage"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "rhyme": "(G)eorgie Por(g)ie, pudding and pie,</br>Kissed the girls and made them cry.</br>When the boys came out to play,</br>(G)eorgie Por(g)ie ran away.",
         "category": "C"
     },
@@ -1354,7 +1480,10 @@
             "glum",
             "spyglass"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "A (gl)ass of juice</br>And a (gl)azed donut,</br>Put (gl)ad in the heart</br>And a (gl)ow in the gut.",
         "category": "CB"
     },
@@ -1387,7 +1516,10 @@
             "grandfather",
             "grandfather clock"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "(Gr)ouchy (gr)emlin\u2019s (gr)umpy tummy (gr)owled,</br>\u201cI\u2019m hun(gr)y, feed me, feed me,\u201d it howled.</br>When a (gr)inning (gr)izzly (gr)abbed it tight,</br>(Gr)umpy tummy squeeeezed out of sight.</br>",
         "category": "CB"
     },
@@ -1417,7 +1549,10 @@
             "hippo",
             "hose"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "grade": "K-only"
     },
     {
@@ -1451,7 +1586,10 @@
             "hot",
             "hit"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "(H)umpty Dumpty sat on a wall;</br>(H)umpty Dumpty (h)ad a great fall;</br>All the king's (h)orses and all the king's men;</br>Couldn't put (H)umpty Dumpty together again.",
         "category": "C"
     },
@@ -1484,7 +1622,10 @@
             "diving",
             "five"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Three bl(i)nd m(i)ce, three bl(i)nd m(i)ce,</br>See how they run, see how they run.</br>They all ran after the farmer's w(i)fe,</br>She cut off their tails with a carving kn(i)fe.</br>Did you ever see such a s(i)ght in your l(i)fe</br>As three bl(i)nd m(i)ce?",
         "category": "V",
         "grade": "K"
@@ -1520,7 +1661,10 @@
             "sing",
             "ostrich"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "rhyme": "Jack; be n(i)mble; Jack; be qu(i)ck.</br>Jack; jump over the candlest(i)ck.",
         "category": "V",
         "grade": "K"
@@ -1547,7 +1691,10 @@
         "quiz-words": [
             ""
         ],
-        "color": "orange",
+        "color": {
+            "all": "orange",
+            "vowel": "orange"
+        },
         "rhyme": "Oh, do you know the muff(i)n-man,</br>The muff(i)n-man, the muff(i)n-man?</br>Do you know the muff(i)n-man</br>Who lives in Drury Lane?</br></br>Yes, I know the muff(i)n-man,</br>The muff(i)n-man, the muff(i)n-man.</br>Yes, I know the muff(i)n-man</br>Who lives in Drury Lane.",
         "category": "V",
         "grade": "K"
@@ -1578,7 +1725,10 @@
             "blackberries",
             "diesel truck"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Cranberr(ie)s for yummy muffins,</br>And also berr(ie)s blue,</br>Strawberr(ie)s for scrumptious jelly,</br>Raspberr(ie)s and blackberr(ie)s too!",
         "category": "VP"
     },
@@ -1609,7 +1759,10 @@
             "pie man",
             "bow tie"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "rhyme": "There was an old woman lived under the hill;<br>And if she's not gone she lives there still;<br>Baked apples she sold; and cranberry p(ie)s;</br>And she's the old woman who never told l(ie)s.",
         "category": "VP"
     },
@@ -1639,7 +1792,10 @@
             "fight",
             "flight"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Star l(igh)t, star br(igh)t,</br>First star I see ton(igh)t,</br>I wish I may, I wish I m(igh)t,</br>Have the wish I wish ton(igh)t.",
         "category": "VC"
     },
@@ -1669,7 +1825,10 @@
             "silly",
             "pencil"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Jack and J(ill) went up the h(ill);</br>To fetch a pail of water;</br>Jack fell down and broke his crown;</br>And J(ill) came tumbling after.",
         "category": "VC"
     },
@@ -1699,7 +1858,10 @@
             "stir",
             "shirt"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "On her b(ir)thday the g(ir)l</br>Wh(ir)led her pearls, sw(ir)led her sk(ir)t,</br>Gave her sh(ir)t tail a tw(ir)l,</br>St(ir)red her toe in the d(ir)t,</br>Until, so I heard,</br>She looked just like a b(ir)d!</br>",
         "category": "VC"
     },
@@ -1729,7 +1891,10 @@
             "judge",
             "fringe"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "grade": "K-only"
     },
     {
@@ -1759,7 +1924,10 @@
             "jack in the box",
             "judge"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Here am I; Little (j)umping (J)oan;</br>When nobody's with me;</br>I'm always alone.",
         "category": "C"
     },
@@ -1789,7 +1957,10 @@
             "kitchen",
             "kimono"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "grade": "K-only"
     },
     {
@@ -1818,7 +1989,10 @@
             "duck",
             "kayak"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "grade": "K-only"
     },
     {
@@ -1850,7 +2024,10 @@
             "monkey",
             "blanket"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Lucy Loc(k)et lost her poc(k)et,</br>(K)itty Fisher found it;</br>There was not a penny in it,</br>But a ribbon round it.</br>",
         "category": "C"
     },
@@ -1880,7 +2057,10 @@
             "lock",
             "lamb"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "grade": "K-only"
     },
     {
@@ -1909,7 +2089,10 @@
             "pool",
             "nail"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "grade": "K-only"
     },
     {
@@ -1943,7 +2126,10 @@
             "bull",
             "wolf"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Mary had a (l)ittle (l)amb,</br>Its f(l)eece was white as snow,</br>And everywhere that Mary went,</br>The (l)amb was sure to go.",
         "category": "C"
     },
@@ -1977,7 +2163,10 @@
             "fiddle",
             "beagle"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "The sow came in with the sadd(le);</br>The litt(le) pig rocked the crad(le);</br>The dish jumped up on the tab(le);</br>To see the pot swallow the lad(le).",
         "category": "VC"
     },
@@ -2007,7 +2196,10 @@
             "moth",
             "moon"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "grade": "K-only"
     },
     {
@@ -2036,7 +2228,10 @@
             "palm",
             "glum"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "grade": "K-only"
     },
     {
@@ -2070,7 +2265,10 @@
             "camel",
             "jump"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "One (m)isty; (m)oisty (m)orning;</br>When cloudy was the weather;</br>I happened to (m)eet an old (m)an clothed all in leather.</br>He began to co(m)pli(m)ent; and I began to grin;</br>How do you do; and how do you do?</br>And how do you do again?",
         "category": "C"
     },
@@ -2100,7 +2298,10 @@
             "nurse",
             "nose"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "grade": "K-only"
     },
     {
@@ -2129,7 +2330,10 @@
             "fan",
             "nun"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "grade": "K-only"
     },
     {
@@ -2163,7 +2367,10 @@
             "swan",
             "canary"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "(N)eedles a(n)d pi(n)s,</br>(N)eedles a(n)d pi(n)s.</br>Whe(n) a ma(n) marries,</br>his trouble begi(n)s.",
         "category": "C"
     },
@@ -2198,7 +2405,10 @@
             "dachshund",
             "grandfather"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Ha(nd)y-spa(nd)y; Jacky da(nd)y;</br>Loves plum cake a(nd) sugar ca(nd)y.</br>He bought some at a grocer's shop;</br>A(nd) pleased ran away going hop; hop; hop.",
         "category": "CB"
     },
@@ -2229,7 +2439,10 @@
             "flying carpet",
             "dancing"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Si(ng) a so(ng) of sixpence, a pocket full of rye,</br>Four and twenty blackbirds baked in a pie.</br>When the pie was opened the birds began to si(ng),</br>Now wasn\u2019t this a dainty dish to set before the ki(ng)?</br></br>The ki(ng) was in the parlor counti(ng) out his money;</br>The queen was in the kitchen eati(ng) bread and honey;</br>The maid was in the garden ha(ng)i(ng) out the clothes,</br>And alo(ng) came a blackbird and nipped off her nose.</br>",
         "category": "CB"
     },
@@ -2261,7 +2474,10 @@
             "tank truck",
             "monkey wrench"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "There was an old woman; and what do you thi(nk)?</br>She lived upon nothing but foods and dri(nk);</br>Food and dri(nk) made up most of her diet;</br>And yet this old woman could never be quiet.",
         "category": "CB"
     },
@@ -2296,7 +2512,10 @@
             "volcano",
             "robot"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "(O)ld King C(o)le;</br>Was a merry (o)ld s(o)ul;</br>And a merry (o)ld s(o)ul was he;</br>He called for his pipe;</br>And he called for his b(o)wl;</br>And he called for his fiddlers three.",
         "category": "V",
         "grade": "K"
@@ -2332,7 +2551,10 @@
             "trolley",
             "crayon"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "rhyme": "H(o)t cr(o)ss buns, h(o)t cr(o)ss buns.</br>One a penny, two a penny,</br>H(o)t cr(o)ss buns!</br></br>If your daughters do n(o)t like them,</br>Give them to your sons.</br>One a penny, two a penny,</br>H(o)t cr(o)ss buns!",
         "category": "V",
         "grade": "K"
@@ -2366,7 +2588,10 @@
             "grandmother",
             "monkey bars"
         ],
-        "color": "orange",
+        "color": {
+            "all": "orange",
+            "vowel": "orange"
+        },
         "rhyme": "He l(o)ves me.</br>He d(o)esn't!</br>He'll have me.</br>He won't!</br></br>He would if he could,</br>But he can't, so he won't!",
         "category": "V",
         "grade": "K"
@@ -2402,7 +2627,10 @@
             "coonskin cap",
             "tool belt"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "The man in the m(oo)n came down t(oo) s(oo)n;</br>To inquire the way to Norridge;</br>The man in the south; he burnt his mouth;</br>With eating cold plum porridge.",
         "category": "VP"
     },
@@ -2433,7 +2661,10 @@
             "bookcase",
             "book"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "rhyme": "Little Bopeep never underst(oo)d,</br>When little Miss Red Riding H(oo)d</br>Went trick-or-treat in our neighborh(oo)d</br>With little Mister Captain H(oo)k,</br>It wasn\u2019t c(oo)kies or candy they t(oo)k,</br>Each picked a little picture b(oo)k.</br>",
         "category": "VP"
     },
@@ -2463,7 +2694,10 @@
             "boat trailer",
             "front loader"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Little Nanny Ettic(oa)t;</br>In a white pettic(oa)t;</br>And a red nose;</br>The longer she stands;</br>The shorter she grows.",
         "category": "VP"
     },
@@ -2493,7 +2727,10 @@
             "toilet paper",
             "six-point-star"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "A toy box you put toys in.<br>Pin a balloon and you\u2019ll sp(oi)l it.</br>A pan\u2019s for putting (oi)ly c(oi)ns in.</br>To clean them add water and b(oi)l it.</br>Time out\u2019s for putting n(oi)sy boys in.</br>P(oi)son? Pour it in the t(oi)let!</br>",
         "category": "VP"
     },
@@ -2523,7 +2760,10 @@
             "tortilla",
             "forest"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Little Jack H(or)ner;</br>Sat in a c(or)ner;</br>Eating a Christmas pie;</br>He put in his thumb;</br>And pulled out a plum;</br>And said: \"What a good boy am I!\"",
         "category": "VC"
     },
@@ -2555,7 +2795,10 @@
             "bloodhound",
             "cloudy"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "I'm a little teapot,</br>short and st(ou)t.</br>Here is my handle,</br>here is my sp(ou)t.</br></br>When I see the teacups,</br>hear me sh(ou)t:</br>\"Tip me over,</br>And pour me (ou)t!\"</br>",
         "category": "VP"
     },
@@ -2586,7 +2829,10 @@
             "crowbar",
             "lawnmower"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "The north wind does bl(ow);</br>And we shall have sn(ow);</br>And what will poor robin do then?</br>Poor thing!</br></br>He'll sit in the barn;</br>And keep himself warm;</br>And hide his head under his wing.</br>Poor thing!",
         "category": "VP"
     },
@@ -2619,7 +2865,10 @@
             "shower",
             "wedding gown"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "rhyme": "Daffy-d(ow)n-dilly has come to t(ow)n,</br>With a green petticoat</br>and a bright yellow g(ow)n.</br>",
         "category": "VP"
     },
@@ -2648,7 +2897,10 @@
             "boyfriend",
             "royal"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "A b(oy) needs a t(oy)</br>That he can enj(oy)</br>Or he'll have to ann(oy) a grown-up,</br>Climb on the highb(oy),</br>Find a pile to destr(oy),</br>Or play cowb(oy) till doggie has thrown-up.</br>",
         "category": "VP"
     },
@@ -2678,7 +2930,10 @@
             "pizza",
             "polar bear"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "grade": "K-only"
     },
     {
@@ -2707,7 +2962,10 @@
             "harp",
             "chimp"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "grade": "K-only"
     },
     {
@@ -2741,7 +2999,10 @@
             "purse",
             "trumpet"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "(P)ease (p)orridge hot; (p)ease (p)orridge cold;</br>(P)ease (p)orridge in the (p)ot; nine days old.</br>Some like it hot; some like it cold;</br>Some like it in the (p)ot; nine days old.</br>S(p)ell me that in four letters:</br>I will: T H A T.",
         "category": "C"
     },
@@ -2770,7 +3031,10 @@
             "snow plow",
             "plug"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "No kid likes peas piled on (pl)ates,</br>But (pl)aced in straws they\u2019re (pl)enty fun.</br>Blow so they shoot past people\u2019s faces</br>(Pl)ay, (pl)ay, (pl)ay, then run, run, run!</br>",
         "category": "CB"
     },
@@ -2798,7 +3062,10 @@
             "proposing",
             "spray"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "As I was going up (Pr)imrose Hill;</br>(Pr)imrose Hill was dirty;</br>There I met a (pr)etty girl;</br>And she gave me a curtsey.</br>Little girl; (pr)etty girl;</br>Blessings be upon you;</br>If I had half-a-dollar a day;</br>I'd spend it all on you.",
         "category": "CB"
     },
@@ -2828,7 +3095,10 @@
             "quarter",
             "quiver"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "grade": "K-only"
     },
     {
@@ -2860,7 +3130,10 @@
             "badminton racquet",
             "carpenter's square"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "(Q)ueen Croc napped on her (q)uilt,</br>Mama duck (q)uacked, \u201cBe (q)uiet!\u201d</br>\u201cWhat?\u201d (Q)uacked the duckling.</br>\u201c(Q)uit!\u201d Mama (q)uacked, \u201cDucks are her diet!\u201d</br>",
         "category": "VC"
     },
@@ -2890,7 +3163,10 @@
             "rainbow",
             "rabbit"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "grade": "K-only"
     },
     {
@@ -2919,7 +3195,10 @@
             "beaver",
             "dozer"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "grade": "K-only"
     },
     {
@@ -2952,7 +3231,10 @@
             "firetruck,walrus",
             "throne"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "(R)ing a(r)ound the (r)oses,</br>A pocket full of posies.</br>Ashes, ashes,</br>We all fall down.</br></br>Picking up the daisies,</br>Picking up the daisies.</br>Ashes, ashes,</br>We all stand up!",
         "category": "C"
     },
@@ -2982,7 +3264,10 @@
             "soap",
             "seal"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "grade": "K-only"
     },
     {
@@ -3016,7 +3301,10 @@
             "purse",
             "squirrel"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "(S)imple (S)imon met a pieman;</br>Going to the Fair;</br>(S)ays (S)imple (S)imon to the pieman:</br>\"Please let me ta(s)te your ware.\"</br></br>(S)ay(s) the pieman to (S)imple (S)imon:</br>\"Show me fir(s)t your penny.\"</br>(S)ays (S)imple (S)imon to the pieman:</br>\"Indeed I have not any.\"",
         "category": "C"
     },
@@ -3050,7 +3338,10 @@
             "walnuts",
             "binoculars"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "rhyme": "Scissor(s) and string,</br>Scissor(s) and string.</br>When a man'(s) single,</br>he live(s) like a king.",
         "category": "C"
     },
@@ -3085,7 +3376,10 @@
             "dish",
             "cushion"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "There was an old woman who lived in a (sh)oe;</br>(Sh)e had so many children (sh)e didn't know what to do.</br>(Sh)e gave them some broth without any bread;</br>Then whipped them all soundly and put them to bed.",
         "category": "CB"
     },
@@ -3119,7 +3413,10 @@
             "skirt",
             "basketball"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "There once was old woman tossed up in a ba(sk)et,</br>Seventeen times as high as the moon.</br>Where she was going I couldn't but a(sk) it,</br>For in her hand she carried a broom.",
         "category": "CB"
     },
@@ -3148,7 +3445,10 @@
             "sleepy dog",
             "ballet slippers"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "To bed; to bed; says (Sl)eepy Head;</br>\"Let's stay awhile;\" says (Sl)ow;</br>\"Put on the pot;\" says Hungry Ned;</br>\"We'll eat before we go.\"",
         "category": "CB"
     },
@@ -3176,7 +3476,10 @@
             "wasp",
             "spray"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "I (sp)ied a dirty blue jay</br>On a '(sp)ecially hot (sp)ring day.</br>He (sp)lished and (sp)lashed in a birdbath,</br>Then (sp)eedily flew away.",
         "category": "CB"
     },
@@ -3211,7 +3514,10 @@
             "straw",
             "street sweeper"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Robin and Richard<br>Were two lazy men;</br>They (st)ayed in bed</br>Till the clock (st)ruck ten.</br>Then up jumps Robin</br>And looks at the sky:</br>\u201cOh, brother Richard,</br>The sun\u2019s very high.</br>You walk fir(st)</br>With the bottle and bag,</br>And I\u2019ll ride later</br>On the gray horse nag.\u201d</br>",
         "category": "CB"
     },
@@ -3240,7 +3546,10 @@
             "street sweeper",
             "swimming"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "(Sw)an (sw)am over the sea,</br>(Sw)im (sw)an (sw)im!</br>(Sw)an (sw)am back again,</br>Well (sw)um (sw)an!",
         "category": "CB"
     },
@@ -3270,7 +3579,10 @@
             "tuba",
             "teeter-totter"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "grade": "K-only"
     },
     {
@@ -3299,7 +3611,10 @@
             "hunt",
             "goat"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "grade": "K-only"
     },
     {
@@ -3333,7 +3648,10 @@
             "town",
             "sweet"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "(T)o marke(t); (t)o marke(t); (t)o buy a fa(t) pig;</br>Home again; home again; jigge(t)y; jig.</br></br>(T)o marke(t); (t)o marke(t); (t)o buy a fa(t) hog;</br>Home again; home again; jigge(t)y; jog.",
         "category": "C"
     },
@@ -3364,7 +3682,10 @@
             "brother",
             "grandmother"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Bye; baby bunting;<br>Fa(th)er's gone a-hunting;</br>Mo(th)er's gone a-milking;</br>Sister's gone a-silking;</br>And Bro(th)er's gone for a rabbit skin;</br>To wrap little baby bunting in.",
         "category": "CB"
     },
@@ -3394,7 +3715,10 @@
             "throw",
             "thumb"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "rhyme": "(Th)ree wise men of Go(th)am</br>Went to sea in a bowl,</br>And if the bowl had been stronger,</br>My song had been longer.",
         "category": "CB"
     },
@@ -3430,7 +3754,10 @@
             "trowel",
             "troll"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Mis(tr)ess Mary; quite con(tr)ary;</br>How does your garden grow?</br>With silver bells and cockle shells;</br>And pretty maids all in a row.",
         "category": "CB"
     },
@@ -3460,7 +3787,10 @@
             "SUV",
             "music"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "He balanced a c(u)cumber on his nose,</br>But should have (u)sed binoc(u)lars to watch the roads.</br>A (u)nicycle\u2019s dangerous when clowns can\u2019t see\u2014</br>Quick call an amb(u)lance:  one, two, three!</br>",
         "category": "V",
         "grade": "K"
@@ -3494,7 +3824,10 @@
             "blue",
             "tuba"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "rhyme": "Little Betty Bl(u)e</br>Lost her holiday shoe.</br>What shall little Betty do?</br></br>Buy her another,</br>To match the other,</br>And then she'll walk upon two.",
         "category": "V"
     },
@@ -3529,7 +3862,10 @@
             "judge",
             "jump"
         ],
-        "color": "orange",
+        "color": {
+            "all": "orange",
+            "vowel": "orange"
+        },
         "rhyme": "S(u)e played a big bl(u)e t(u)ba,</br>J(u)lius played one too,</br>With their two bl(u)e t(u)bas,</br>What did those two do?</br>He blew his bl(u)e t(u)ba loud!</br>She blew hers too!</br>",
         "category": "V",
         "grade": "K"
@@ -3562,7 +3898,10 @@
             "furniture",
             "tape measure"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "To (ur)ge her to p(ur)r</br>Lin rubs kitty cat's f(ur);</br>When Lin topples the (ur)n</br>Kitty makes a bl(ur).</br>",
         "category": "VC"
     },
@@ -3592,7 +3931,10 @@
             "volleyball",
             "vegetables"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "grade": "K-only"
     },
     {
@@ -3621,7 +3963,10 @@
             "shovel",
             "excavator"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "As I was going to St. I(v)es;</br>I met a man with se(v)en wi(v)es.</br>E(v)ery wife had se(v)en sacks;</br>E(v)ery sack had se(v)en cats;</br>E(v)ery cat had se(v)en kits.</br>Kits; cats; sacks and wi(v)es;</br>How many were going to St. I(v)es?",
         "category": "C"
     },
@@ -3651,7 +3996,10 @@
             "waterfall",
             "walnuts"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "grade": "K-only"
     },
     {
@@ -3685,7 +4033,10 @@
             "wash",
             "watermelon"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "(W)ee (W)illie (W)inkie runs through the town;</br>Upstairs and downstairs; in his nightgown;</br>Tapping at the (w)indo(w); crying at the lock;</br>Are the children all in bed? It's now eight o'clock?",
         "category": "C"
     },
@@ -3716,7 +4067,10 @@
             "white spider",
             "wheel"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Bill claimed a bully (wh)acked and (wh)opped his rib.</br>Mom said, \u201c(Wh)at?  (Wh)o?  (Wh)en?  (Wh)ere?\u201d</br>Kim said, \u201cThat\u2019s a (wh)opper, a big fat fib.\u201d</br>Bill said, \u201c(Wh)atever!\u201d -- (wh)ich means: I don\u2019t care.</br>",
         "category": "CB"
     },
@@ -3746,7 +4100,10 @@
             "exciting",
             "explode"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "grade": "K-only"
     },
     {
@@ -3775,7 +4132,10 @@
             "lynx",
             "wax"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "green"
+        },
         "grade": "K-only"
     },
     {
@@ -3805,7 +4165,10 @@
             "jack in the box",
             "sixteen"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "DUM diddle DEE doh,</br>O(x) wore a tu(x)edo,</br>The dancer bo(x)ed with T-Re(x).</br>Jack popped from a mailbo(x),</br>First swung his hand a(x)e,</br>Next tattled that red fo(x)</br>Had pooped in the sandbo(x)</br>Then all of them ta(x)ied away.</br>",
         "category": "C"
     },
@@ -3835,7 +4198,10 @@
             "youngster",
             "yacht"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "grade": "K-only"
     },
     {
@@ -3864,7 +4230,10 @@
             "barnyard",
             "yacht"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "Bah; bah; black sheep;<br>Have (y)ou any wool?</br>(Y)es sir; (Y)es sir;</br>Three bags full.</br></br>One for my master;</br>And one for my dame;</br>And one for the little boy</br>Who lives down the lane.",
         "category": "C"
     },
@@ -3896,7 +4265,10 @@
             "eyebrow",
             "flying carpet"
         ],
-        "color": "green",
+        "color": {
+            "all": "green",
+            "vowel": "black"
+        },
         "rhyme": "Cr(y)baby, cr(y)baby,</br>Cr(y)baby, wh(y)!?</br>Stick your finger in your e(y)e,</br>Then tell your mother it was I?",
         "category": "V",
         "grade": "K"
@@ -3932,7 +4304,10 @@
             "key",
             "celery"
         ],
-        "color": "purple",
+        "color": {
+            "all": "purple",
+            "vowel": "green"
+        },
         "rhyme": "Ride away; Ride away;<br>Johnn(y) shall ride;</br>And he shall have kitt(y) cat;</br>Tied to one side.</br>And he shall have pupp(y) dog;</br>Tied to the other;</br>And Johnn(y) shall ride;</br>To see his grandmother.",
         "category": "V",
         "grade": "K"
@@ -3963,7 +4338,10 @@
             "zither",
             "zeppelin"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "grade": "K-only"
     },
     {
@@ -3992,7 +4370,10 @@
             "gauze",
             "maize"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "grade": "K-only"
     },
     {
@@ -4021,7 +4402,10 @@
             "gazelle",
             "hazelnuts"
         ],
-        "color": "black",
+        "color": {
+            "all": "black",
+            "vowel": "black"
+        },
         "rhyme": "You\u2019re hard-working not la(z)y,</br>And brainy smart, not cra(z)y.</br>That\u2019s why you won this pu(zz)le pri(z)e.</br>Did your head grow one more si(z)e?</br>",
         "category": "C"
     }
