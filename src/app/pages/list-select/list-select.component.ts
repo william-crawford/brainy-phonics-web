@@ -74,14 +74,32 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
         }
 
         this.instruction = new Audio();
-        this.instruction.src = '/assets/audio/00_Button_Audio_Complete_a_whole_puzzle_(Phonics_only).mp3';
+        if (this.list === 'alphabet') {
+            this.instruction.src = '/assets/audio/00_Button_Audio_Win_A_Green_Ball_(Alphabet_Letters).mp3';
+        } else {
+            this.instruction.src = '/assets/audio/00_Button_Audio_Complete_a_whole_puzzle_(Phonics_only).mp3';
+        }
         this.instruction.load();
-        this.playAudio();
+        
         this.dataProgress = [];
         this.cardItemCount = 0;
     }
 
     ngOnInit() {
+        if (this.list === 'alphabet') {
+            if (!this.progressService.getReceivedInstructions('hasReceivedAlphabetInstruction')) {
+                this.playAudio();
+                this.progressService.setReceivedInstructions('hasReceivedAlphabetInstruction', true);
+            }
+        } else {
+            if (!this.progressService.getReceivedInstructions('hasReceivedPhonemeInstruction')) {
+                this.playAudio();
+                this.progressService.setReceivedInstructions('hasReceivedPhonemeInstruction', true);
+            }
+        }
+
+
+        
         if (this.activatedRoute.snapshot.queryParamMap.get('list') == 'alphabet') {
             document.getElementById('puzzle').classList.add('hide');
             for (var i = 0; i < Object.keys(document.getElementsByClassName('bottom')).length - 1; i++) {
