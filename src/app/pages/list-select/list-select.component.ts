@@ -250,4 +250,13 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
             return item.word1.image; 
         }
     }
+
+    quiz(item) {
+        this.transferLetterService.setData(item);
+        if (this.list == 'alphabet') {
+            this.router.navigate(['alphabet-quiz'], {queryParams: {quizAll: true}});
+        } else {
+            this.router.navigate(['phoneme-quiz'], {queryParams: {list: this.list, quizAll: true}});
+        }
+    }
 }

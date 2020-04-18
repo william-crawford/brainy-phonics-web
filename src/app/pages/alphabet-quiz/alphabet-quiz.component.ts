@@ -1,10 +1,11 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
-import {Router} from '@angular/router';
+import {ActivatedRoute, Router} from '@angular/router';
 import {ElementRef} from '@angular/core';
 import {delay} from 'q';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import {ProgressService} from '../../services/progress.service';
+import {UserDataService} from '../../services/user-data.service';
 import {AlphabetLettersService} from '../../services/alphabet-letters.service';
 import * as example from '../../../assets/json/quiz-examples.json';
 import { Location } from '@angular/common';
@@ -24,27 +25,43 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
 
     letterPlayAudio: boolean;
     letterAudio: HTMLAudioElement;
+    correctSound: HTMLAudioElement;
 
     letter: AlphabetLetter;
     letterList: AlphabetLetter[];
     isFirstAttempt: boolean;
+
+    quizAll: string;
+    key: number;
     hasGuessed: boolean;
+
 
     ex1: AlphabetLetter;
     ex2: AlphabetLetter;
     ex3: AlphabetLetter;
     ex4: AlphabetLetter;
-    empty = new AlphabetLetter(' ', '/assets/audio/phonemes/sound-A.mp3', 0);
+    empty = new AlphabetLetter(' ', '/assets/audio/buttons/incorrect.mp3', 0);
 
     constructor(
         private transferService: TransferLetterService,
+        private userDataService:UserDataService,
         private letterProgressService: ProgressService,
         private alphabetLettersService: AlphabetLettersService,
         private router: Router,
-        private location: Location
+        private location: Location,
+        private activatedRoute: ActivatedRoute,
     ) {
-        this.letter = this.transferService.getData() as AlphabetLetter;
+        this.quizAll = this.activatedRoute.snapshot.queryParamMap.get('quizAll');
+
         this.letterList = this.alphabetLettersService.dataImport();
+
+        if (this.quizAll === 'true') {
+            var key = Math.floor(Math.random() * 25);
+            this.key = key;
+            this.letter = this.letterList[key] as AlphabetLetter;
+        } else {
+            this.letter = this.transferService.getData() as AlphabetLetter;
+        }
 
         if (!this.letter) {
             this.router.navigateByUrl('/alphabet-list-all');
@@ -58,11 +75,17 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
 
         // audio
         this.letterPlayAudio = true;
+        console.log(this.quizAll);
+        console.log(this.letter);
     };
 
     ngOnInit() {
+        //sound for correct answer choice
+        this.correctSound = new Audio();
+        this.correctSound.src = `/assets/audio/buttons/correct.mp3`;
+
         this.letterAudio = new Audio();
-        this.letterAudio.src = '/assets/audio/phonemes/sound-A.mp3';
+        this.letterAudio.src = `/assets/audio/letters/${this.letter.audio}`;
         this.letterAudio.load();
         this.letterAudio.onended = () => {
             this.letterAnimate1 = false;
@@ -74,6 +97,7 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
         this.playAudio();
         this.isFirstAttempt = true;
         this.hasGuessed = false;
+
         //randomized randomExamples
         this.loadNew();
     }
@@ -91,6 +115,7 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
     }
 
     correctAnswer(correct : AlphabetLetter) {
+        this.playCorrect();
         if (correct == this.ex1) {
             this.letterAnimate1 = true;
             this.ex2 = this.empty;
@@ -127,7 +152,17 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
             };
         };
 
-        this.letterAudio.play();
+        //this.letterAudio.play();
+
+        // Choose new random alphabet
+        if (this.quizAll) {
+            var key = Math.floor(Math.random() * 25);
+            this.key = key;
+            this.letter = this.letterList[key] as AlphabetLetter;
+
+            this.letterAudio.src = `/assets/audio/letters/${this.letter.audio}`;
+        }
+
         delay(300).then(() => {
             this.loadNew();
         });
@@ -164,7 +199,10 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
         this.ex3 = randomExamples[2];
         this.ex4 = randomExamples[3];
 
-        this.playAudio();
+        delay(500).then(() => {
+            this.playAudio();
+        });
+
         this.isFirstAttempt = true;
     }
 
@@ -195,6 +233,10 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
 
     playAudio() {
         this.letterAudio.play();
+    }
+
+    playCorrect() {
+        this.correctSound.play();
     }
 
     goBack() {
