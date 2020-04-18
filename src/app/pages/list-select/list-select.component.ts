@@ -74,14 +74,32 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
         }
 
         this.instruction = new Audio();
-        this.instruction.src = '/assets/audio/00_Button_Audio_Complete_a_whole_puzzle_(Phonics_only).mp3';
+        if (this.list === 'alphabet') {
+            this.instruction.src = '/assets/audio/00_Button_Audio_Win_A_Green_Ball_(Alphabet_Letters).mp3';
+        } else {
+            this.instruction.src = '/assets/audio/00_Button_Audio_Complete_a_whole_puzzle_(Phonics_only).mp3';
+        }
         this.instruction.load();
-        this.playAudio();
+        
         this.dataProgress = [];
         this.cardItemCount = 0;
     }
 
     ngOnInit() {
+        if (this.list === 'alphabet') {
+            if (!this.progressService.getReceivedInstructions('hasReceivedAlphabetInstruction')) {
+                this.playAudio();
+                this.progressService.setReceivedInstructions('hasReceivedAlphabetInstruction', true);
+            }
+        } else {
+            if (!this.progressService.getReceivedInstructions('hasReceivedPhonemeInstruction')) {
+                this.playAudio();
+                this.progressService.setReceivedInstructions('hasReceivedPhonemeInstruction', true);
+            }
+        }
+
+
+        
         if (this.activatedRoute.snapshot.queryParamMap.get('list') == 'alphabet') {
             document.getElementById('puzzle').classList.add('hide');
             for (var i = 0; i < Object.keys(document.getElementsByClassName('bottom')).length - 1; i++) {
@@ -103,7 +121,9 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
             }
             if (this.list === 'phoneme' || this.list === 'vowelPairs') {
                 var aw = <HTMLElement> document.getElementById('A-AW').firstChild.lastChild;
+                var ow = <HTMLElement> document.getElementById('O-ohw').firstChild.lastChild;
                 aw.style.transform = 'translate(24vh, -20vh)';
+                ow.style.transform = 'translate(24vh, -20vh)';
             }
         }
     }
@@ -124,8 +144,9 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
         }
     }
 
-    showProgress(item): void{
-        let numStars;
+    showProgress(item): void {
+        let numGoldStars;
+        let numSilverStars;
         let elem = document.getElementsByClassName("cardListItem")[this.cardItemCount];
         let queryStatement;
 
@@ -134,43 +155,54 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
                 this.cardItemCount++;
                 if (this.list === 'alphabet') {
                     queryStatement = "letter" + item.letter;
-                    numStars = this.progressService.getStarsFromKey(queryStatement);
+                    numGoldStars = this.progressService.getGoldStarsFromKey(queryStatement);
+                    numSilverStars = this.progressService.getSilverStarsFromKey(queryStatement);
                 } else {
-                    queryStatement = "phoneme" + item.id;
-                    numStars = this.progressService.getStarsFromKey(queryStatement);
+                    queryStatement= "phoneme" + item.id;
+                    numGoldStars = this.progressService.getGoldStarsFromKey(queryStatement);
+                    numSilverStars = this.progressService.getSilverStarsFromKey(queryStatement);
                 }
-                if (numStars > 0) {
+
+               
+                if (numGoldStars + numSilverStars > 0) {
                     this.dataProgress.push(item);
                 }
 
-                if (this.progressService.getActiveStatus(queryStatement) == 1) {
-                    for (let i = 0; i < numStars; i++) {
-                        let img = document.createElement('img');
-                        img.setAttribute("src", '/assets/img/progress/Gold-Star-Blank.png')
-                        img.setAttribute("width", "50px")
-                        img.setAttribute("height", "50px")
-                        img.style.marginBottom = "30px";
-                        elem.appendChild(img);
-                    }
-                } else {
-                    // return silver star
-                    for (let i = 0; i < numStars; i++) {
-                        let img = document.createElement('img');
-                        img.setAttribute("src", '/assets/img/progress/Silver-Star-Blank.png')
-                        img.setAttribute("width", "50px")
-                        img.setAttribute("height", "50px")
-                        img.style.marginBottom = "30px";
-                        elem.appendChild(img);
-                    }
+                if (numGoldStars >= 5 && this.list == "alphabet") {
+                    this.progressService.setCheckMark(queryStatement, true);
                 }
+
+                // if (this.progressService.getActiveStatus(queryStatement) == 1) {
+                    for (let i = 0; i < numGoldStars; i++) {
+                        let img = document.createElement('img');
+                        img.style.transform = 'translateY(-33vh)';
+                        img.setAttribute("src", '/assets/img/progress/Gold-Star-Blank.png')
+                        img.setAttribute("width", '25px')
+                        img.setAttribute("height", '25px')
+                        img.style.marginLeft = '2vh';
+                        elem.appendChild(img);
+                    }
+                // } else {
+                    // return silver star
+                    for (let i = 0; i < numSilverStars; i++) {
+                        let img = document.createElement('img');
+                        img.style.transform = 'translateY(-33vh)';
+                        img.setAttribute("src", '/assets/img/progress/Silver-Star-Blank.png')
+                        img.setAttribute("width", '25px')
+                        img.setAttribute("height", '25px')
+                        img.style.marginLeft = '2vh';
+                        elem.appendChild(img);
+                    }
+                // }
 
                 // show checkmark: if letters (5 stars have been earned), if phonemes (puzzle has been finished)
                 if (this.progressService.getCheckMark(queryStatement)) {
                     let img = document.createElement('img');
-                    img.setAttribute("src", '/assets/img/progress/check_mark.jpg')
-                    img.setAttribute("width", "50px")
-                    img.setAttribute("height", "50px")
-                    img.style.marginBottom = "30px";
+                    img.style.transform = 'translateY(-34vh)';
+                    img.setAttribute("src", '/assets/img/progress/check_mark.png')
+                    img.setAttribute("width", '46px')
+                    img.setAttribute("height", '46px')
+                    img.style.marginLeft = '13vh';
                     elem.appendChild(img);
                 }
             }
@@ -215,7 +247,7 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
         if (this.list === 'alphabet') {
             return;
         } else {
-            return '../../assets/img/sight-words/' + item.word1.word + '.png';
+            return item.word1.image; 
         }
     }
 

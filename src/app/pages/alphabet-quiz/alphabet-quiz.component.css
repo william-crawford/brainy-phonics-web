@@ -26,50 +26,25 @@
   clear: both;
 }
 
-.letter {
-    font-size: 19.4vh;
-    font-family: 'ComicSans';
-    cursor: pointer;
-}
-
-.letter2 {
-    font-size: 19.4vh;
-    font-family: 'ComicSans';
-    cursor: pointer;
-}
-
-.letter3 {
-    font-size: 19.4vh;
-    font-family: 'ComicSans';
-    cursor: pointer;
-}
-
+.letter, 
+.letter2, 
+.letter3, 
 .letter4 {
     font-size: 19.4vh;
-    font-family: 'ComicSans';
     cursor: pointer;
 }
 
-.animateLetter1 {
+.animateLetter1,
+.animateLetter3 {
   transition: all 0.5s linear;
   transform: translate(22vh, 10vh) scale(1.12) !important;
 }
 
-.animateLetter2 {
+.animateLetter2,
+.animateLetter4 {
   transition: all 0.5s linear;
   transform: translate(-22vh, 10vh) scale(1.12) !important;
 }
-
-.animateLetter3 {
-  transition: all 0.5s linear;
-  transform: translate(22vh, -10vh) scale(1.12) !important;
-}
-
-.animateLetter4 {
-  transition: all 0.5s linear;
-  transform: translate(-22vh, -10vh) scale(1.12) !important;
-}
-
 
 /* Buttons */
 #forward {

@@ -30,8 +30,11 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
     letter: AlphabetLetter;
     letterList: AlphabetLetter[];
     isFirstAttempt: boolean;
+
     quizAll: string;
     key: number;
+    hasGuessed: boolean;
+
 
     ex1: AlphabetLetter;
     ex2: AlphabetLetter;
@@ -93,6 +96,8 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
 
         this.playAudio();
         this.isFirstAttempt = true;
+        this.hasGuessed = false;
+
         //randomized randomExamples
         this.loadNew();
     }
@@ -163,18 +168,24 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
         });
 
         if(this.isFirstAttempt) {
-            if(this.letterProgressService.getActiveStatus("letter" + this.letter.letter)) {
-            //add stars to progress if select correct letter on first attempt and active status is true
-            this.letterProgressService.saveStarsToKey("letter" + this.letter.letter, 1);
-            } else {
-                this.letterProgressService.setActiveStatus("letter" + this.letter.letter, true)
+            //add stars to progress if select correct letter on first attempt
+            this.letterProgressService.saveStarsToKey("letter" + this.letter.letter + "gold", 1);
+            if (this.letterProgressService.getSilverStarsFromKey("letter" + this.letter.letter) > 0) {
+                this.letterProgressService.saveStarsToKey("letter" + this.letter.letter + "silv", -1);
             }
         }
     }
 
     incorrectAnswer() {
-        this.isFirstAttempt = false;
-        this.letterProgressService.setActiveStatus("letter" + this.letter.letter, false)
+        if(!this.hasGuessed) {
+            this.hasGuessed = true;
+            this.isFirstAttempt = false;
+            const goldStarNum = this.letterProgressService.getGoldStarsFromKey("letter" + this.letter.letter)
+            if (goldStarNum > 0 && goldStarNum < 5) {
+                this.letterProgressService.saveStarsToKey("letter" + this.letter.letter + "gold", -1);
+                this.letterProgressService.saveStarsToKey("letter" + this.letter.letter + "silv", 1);
+            }
+        } 
     }
 
     loadNew() {

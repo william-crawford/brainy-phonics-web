@@ -37,11 +37,10 @@
     margin-right: 32px;
     border-radius: 2.8vh;
     cursor: pointer;
-    border: none;
     background-color: #FFFFFF;
-    font-family: 'ComicSans';
     font-size: 12vh;
     border-bottom: 3vh solid #DEDEDE;
+    overflow: hidden;
 }
 
 p {
@@ -52,7 +51,7 @@ p {
     display: none;
 }
 
-.list-bottom {
+.alphabet-list-bottom {
     transform: translateY(13vh);
 }
 
