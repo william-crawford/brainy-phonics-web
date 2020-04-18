@@ -44,7 +44,7 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
 
     constructor(
         private transferService: TransferLetterService,
-        private userDataService:UserDataService,
+        private userDataService: UserDataService,
         private letterProgressService: ProgressService,
         private alphabetLettersService: AlphabetLettersService,
         private router: Router,
@@ -75,8 +75,6 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
 
         // audio
         this.letterPlayAudio = true;
-        console.log(this.quizAll);
-        console.log(this.letter);
     };
 
     ngOnInit() {
@@ -168,11 +166,14 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
         });
 
         if(this.isFirstAttempt) {
+            this.userDataService.addCoins(2);
             //add stars to progress if select correct letter on first attempt
             this.letterProgressService.saveStarsToKey("letter" + this.letter.letter + "gold", 1);
             if (this.letterProgressService.getSilverStarsFromKey("letter" + this.letter.letter) > 0) {
                 this.letterProgressService.saveStarsToKey("letter" + this.letter.letter + "silv", -1);
             }
+        } else {
+            this.userDataService.addCoins(1);
         }
     }
 
@@ -185,7 +186,7 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
                 this.letterProgressService.saveStarsToKey("letter" + this.letter.letter + "gold", -1);
                 this.letterProgressService.saveStarsToKey("letter" + this.letter.letter + "silv", 1);
             }
-        } 
+        }
     }
 
     loadNew() {

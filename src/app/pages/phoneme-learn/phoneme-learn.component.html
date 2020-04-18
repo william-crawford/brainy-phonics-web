@@ -1,7 +1,7 @@
 <div id='background'>
     <div id='main-body'>
-        <button mat-icon-button class='back-button' id='back'></button>
-        <button mat-icon-button class='after-button' id='forward'></button>
+        <button mat-icon-button class='back-button' id='back' (click)='prev($event)' style="z-index: 99; cursor: pointer"></button>
+        <button mat-icon-button class='after-button' id='forward' (click)='next($event)' style="z-index: 99; cursor: pointer"></button>
 	 	<div class='letter' [ngClass]="{'animate-one': oneAnimate, 'animate-two': twoAnimate, 'animate-three': threeAnimate}" (click)='playAudioA()'>{{phoneme.display}}</div>
     	<div class='row'>
 	    	<div class='column' [ngClass]="{'animate': ex1Animate}">

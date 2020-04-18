@@ -68,11 +68,11 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     isFirstAttempt: boolean;
     hasGuessed: boolean;
 
-	constructor(
-        private transferService:TransferLetterService,
-        private userDataService:UserDataService,
+    constructor(
+        private transferService: TransferLetterService,
+        private userDataService: UserDataService,
         private phonemeProgressService: ProgressService,
-        private elem:ElementRef,
+        private elem: ElementRef,
         private router: Router,
         private location: Location,
         private activatedRoute: ActivatedRoute,
@@ -266,11 +266,14 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         }
 
         if (this.isFirstAttempt) {
+            this.userDataService.addCoins(2);
             //add stars to progress if select correct phoneme on first attempt
             this.phonemeProgressService.saveStarsToKey("phoneme" + this.phoneme.id + "gold", 1);
             if (this.phonemeProgressService.getSilverStarsFromKey("phoneme" + this.phoneme.id) > 0) {
                 this.phonemeProgressService.saveStarsToKey("phoneme" + this.phoneme.id + "silv", -1);
             }
+        } else {
+            this.userDataService.addCoins(1);
         }
 
         this.correctAudio.play();

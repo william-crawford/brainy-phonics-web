@@ -13,6 +13,15 @@ export class TransferLetterService {
     }
 
     private data: Phoneme | AlphabetLetter;
+    private list: Phoneme[] | AlphabetLetter[];
+
+    setList(list: Phoneme[] | AlphabetLetter[]) {
+        this.list = list;
+    }
+
+    getList(): Phoneme[] | AlphabetLetter[] {
+        return this.list;
+    }
 
     setData(data) {
         this.data = data;

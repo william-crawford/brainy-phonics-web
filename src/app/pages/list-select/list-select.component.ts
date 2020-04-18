@@ -72,6 +72,7 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
         } else if (list === 'kindergarten') {
             this.data = this.kindergartenService.dataLoad();
         }
+        this.transferLetterService.setList(this.data);
 
         this.instruction = new Audio();
         if (this.list === 'alphabet') {
@@ -163,7 +164,7 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
                     numSilverStars = this.progressService.getSilverStarsFromKey(queryStatement);
                 }
 
-               
+
                 if (numGoldStars + numSilverStars > 0) {
                     this.dataProgress.push(item);
                 }
@@ -175,7 +176,11 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
                 // if (this.progressService.getActiveStatus(queryStatement) == 1) {
                     for (let i = 0; i < numGoldStars; i++) {
                         let img = document.createElement('img');
-                        img.style.transform = 'translateY(-33vh)';
+                        if (this.list === 'alphabet') {
+                            img.style.transform = 'translateY(-21vh)';
+                        } else {
+                            img.style.transform = 'translateY(-33vh)';
+                        }
                         img.setAttribute("src", '/assets/img/progress/Gold-Star-Blank.png')
                         img.setAttribute("width", '25px')
                         img.setAttribute("height", '25px')
@@ -186,7 +191,11 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
                     // return silver star
                     for (let i = 0; i < numSilverStars; i++) {
                         let img = document.createElement('img');
-                        img.style.transform = 'translateY(-33vh)';
+                        if (this.list === 'alphabet') {
+                            img.style.transform = 'translateY(-21vh)';
+                        } else {
+                            img.style.transform = 'translateY(-33vh)';
+                        }
                         img.setAttribute("src", '/assets/img/progress/Silver-Star-Blank.png')
                         img.setAttribute("width", '25px')
                         img.setAttribute("height", '25px')
@@ -198,7 +207,11 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
                 // show checkmark: if letters (5 stars have been earned), if phonemes (puzzle has been finished)
                 if (this.progressService.getCheckMark(queryStatement)) {
                     let img = document.createElement('img');
-                    img.style.transform = 'translateY(-34vh)';
+                    if (this.list === 'alphabet') {
+                        img.style.transform = 'translateY(-22vh)';
+                    } else {
+                        img.style.transform = 'translateY(-33vh)';
+                    }
                     img.setAttribute("src", '/assets/img/progress/check_mark.png')
                     img.setAttribute("width", '46px')
                     img.setAttribute("height", '46px')
