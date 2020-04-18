@@ -57,11 +57,9 @@
     display: block;
     position: absolute;
     margin-left: 10vh;
-    /* cursor: pointer; */
     margin-bottom: 3.5vh;
     border: none;
     margin-top: 15vh;
-    opacity: 0.2;
 }
 
 .after-button {
@@ -70,11 +68,9 @@
     display: block;
     position: absolute;
     margin-left: 103vh;
-    /* cursor: pointer; */
     margin-bottom: 3.5vh;
     border: none;
     margin-top: 15vh;
-    opacity: 0.2;
 }
 
 .row {
