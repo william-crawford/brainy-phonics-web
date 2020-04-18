@@ -27,32 +27,10 @@ export class ProgressService {
 
   //initial each input with { stars: 0, active: false, checkmark: false }
   prepareNewKeyProgress(): any {
-    return {'stars': 1,
+    return {'gold_stars': 0,
+            'silver_stars': 0,
             'active': true, 
             'checkmark':false}
-  }
-
-  getActiveStatus(key): any {
-    if (this.storage.get(key) != null) {
-      return this.storage.get(key).active;
-    } else {
-      return 0;
-    }
-  }
-
-  setActiveStatus(key, val): void {
-    let input;
-    if(this.storage.get(key) != null) {
-      const currentStatus = this.storage.get(key).active;
-  
-      input = { 'stars': this.storage.get(key).stars,
-                'active': val,
-                'checkmark':this.storage.get(key).checkmark}
-      
-    } else {
-      input = this.prepareNewKeyProgress();
-    }
-    this.storage.set(key, input);
   }
 
   getCheckMark(key): any {
@@ -66,46 +44,58 @@ export class ProgressService {
   setCheckMark(key, val): any {
     let input;
     if(this.storage.get(key) != null) {
-      const currentStatus = this.storage.get(key).checkmark;
-      input = { 'stars': 5,
+      input = { 'gold_stars': 5,
+                'silver_stars': 0,
                 'active': this.storage.get(key).active,
                 'checkmark': val}
-    } else {
-      input = this.prepareNewKeyProgress();
     }
-    this.storage.set(key, input);
+    return this.storage.set(key, input);
   }
 
   saveStarsToKey(key, val): void {
+    let actualKey = key.slice(0, -4)
     let input;
-    if(this.storage.get(key) == null) {
+    if(this.storage.get(actualKey) == null) {
       input = this.prepareNewKeyProgress();
-    } else {
-      if (this.storage.get(key).active == true) {
-        let currentStars = this.storage.get(key).stars;
-        if (currentStars + val >= 5 && key.includes("letter")) {
-          this.setCheckMark(key, true);
-          return;
-        } else if (currentStars + val >= 5) {
-          input = { 'stars': 5,
-          'active':this.storage.get(key).active,
-          'checkmark':this.storage.get(key).checkmark}
-        } else {
-          input = { 'stars': this.storage.get(key).stars + val,
-          'active':this.storage.get(key).active,
-          'checkmark':this.storage.get(key).checkmark}
-        }
+      if(key.includes("gold")) {
+        input.gold_stars += val;
       } else {
-        input = this.storage.get(key)
+        input.silver_stars += val;
+      }
+    } else {
+      input = this.storage.get(actualKey);
+      if(key.includes("gold")) {
+        if (input.gold_stars + val >= 5 && actualKey.includes("letter")) {
+          input.checkmark = true;
+          input.gold_stars = 5;
+        } else if (input.gold_stars + val >= 5) {
+          input.gold_stars = 5;
+        } else {
+          input.gold_stars += val;
+        }
+      } else if (input.gold_stars + val < 5) {
+        if (input.silver_stars + val >= 5) {
+          input.silver_stars = 5;
+        } else {
+          input.silver_stars += val;
+        }
       }
     }
-    this.storage.set(key, input);
+    this.storage.set(actualKey, input);
   }
 
-  getStarsFromKey(key): any {
+  getGoldStarsFromKey(key): any {
     let stars = 0;
     if (this.storage.get(key) != null) {
-      stars = this.storage.get(key).stars;
+      stars = this.storage.get(key).gold_stars;
+    }
+    return stars;
+  }
+
+  getSilverStarsFromKey(key): any {
+    let stars = 0;
+    if (this.storage.get(key) != null) {
+      stars = this.storage.get(key).silver_stars;
     }
     return stars;
   }

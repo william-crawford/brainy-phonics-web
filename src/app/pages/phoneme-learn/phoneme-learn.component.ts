@@ -85,9 +85,11 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
 
         this.phonemeAudio = new Audio();
         // this.phonemeAudio.src = this.phoneme.audio;
-        this.phonemeAudio.src = '../../assets/audio/phonemes/sound-A-ah.mp3';
+        //this.phonemeAudio.src = `/assets/audio/phonemes/${this.phoneme.audio}`;
+        this.phonemeAudio.src = '/assets/audio/phonemes/sound-A-ah.mp3';
         this.phonemeAudio.load();
 
+        console.log(this.phoneme.audio);
         this.ex1Audio = new Audio();
         this.ex1Audio.src = this.phoneme.word1.audio;
         this.ex1Audio.load();

@@ -47,7 +47,7 @@ export class PuzzlesComponent implements OnInit, AfterViewInit {
 
   select(item: Phoneme) {
     this.transferLetterService.setData(item);
-    if (this.progressService.getStarsFromKey('phoneme' + item.id) == 5) {
+    if (this.progressService.getGoldStarsFromKey('phoneme' + item.id) == 5) {
       this.router.navigate(['puzzle']);
     } else {
       this.router.navigate(['phoneme-learn']);

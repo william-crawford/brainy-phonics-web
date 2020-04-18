@@ -31,7 +31,7 @@ export class AlphabetLearnComponent implements OnInit, OnDestroy {
 
     ngOnInit() {
         this.letterAudio = new Audio();
-        this.letterAudio.src = '/assets/audio/phonemes/sound-A.mp3';
+        this.letterAudio.src = `/assets/audio/letters/${this.letter.audio}`;
         this.letterAudio.load();
 
         this.letterAudio.onended = () => {

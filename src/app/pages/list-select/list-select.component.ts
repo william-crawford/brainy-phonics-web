@@ -145,8 +145,9 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
         }
     }
 
-    showProgress(item): void{
-        let numStars;
+    showProgress(item): void {
+        let numGoldStars;
+        let numSilverStars;
         let elem = document.getElementsByClassName("cardListItem")[this.cardItemCount];
         let queryStatement;
 
@@ -155,43 +156,54 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
                 this.cardItemCount++;
                 if (this.list === 'alphabet') {
                     queryStatement = "letter" + item.letter;
-                    numStars = this.progressService.getStarsFromKey(queryStatement);
+                    numGoldStars = this.progressService.getGoldStarsFromKey(queryStatement);
+                    numSilverStars = this.progressService.getSilverStarsFromKey(queryStatement);
                 } else {
-                    queryStatement = "phoneme" + item.id;
-                    numStars = this.progressService.getStarsFromKey(queryStatement);
+                    queryStatement= "phoneme" + item.id;
+                    numGoldStars = this.progressService.getGoldStarsFromKey(queryStatement);
+                    numSilverStars = this.progressService.getSilverStarsFromKey(queryStatement);
                 }
-                if (numStars > 0) {
+
+
+                if (numGoldStars + numSilverStars > 0) {
                     this.dataProgress.push(item);
                 }
 
-                if (this.progressService.getActiveStatus(queryStatement) == 1) {
-                    for (let i = 0; i < numStars; i++) {
-                        let img = document.createElement('img');
-                        img.setAttribute("src", '/assets/img/progress/Gold-Star-Blank.png')
-                        img.setAttribute("width", "50px")
-                        img.setAttribute("height", "50px")
-                        img.style.marginBottom = "30px";
-                        elem.appendChild(img);
-                    }
-                } else {
-                    // return silver star
-                    for (let i = 0; i < numStars; i++) {
-                        let img = document.createElement('img');
-                        img.setAttribute("src", '/assets/img/progress/Silver-Star-Blank.png')
-                        img.setAttribute("width", "50px")
-                        img.setAttribute("height", "50px")
-                        img.style.marginBottom = "30px";
-                        elem.appendChild(img);
-                    }
+                if (numGoldStars >= 5 && this.list == "alphabet") {
+                    this.progressService.setCheckMark(queryStatement, true);
                 }
+
+                // if (this.progressService.getActiveStatus(queryStatement) == 1) {
+                    for (let i = 0; i < numGoldStars; i++) {
+                        let img = document.createElement('img');
+                        img.style.transform = 'translateY(-33vh)';
+                        img.setAttribute("src", '/assets/img/progress/Gold-Star-Blank.png')
+                        img.setAttribute("width", '25px')
+                        img.setAttribute("height", '25px')
+                        img.style.marginLeft = '2vh';
+                        elem.appendChild(img);
+                    }
+                // } else {
+                    // return silver star
+                    for (let i = 0; i < numSilverStars; i++) {
+                        let img = document.createElement('img');
+                        img.style.transform = 'translateY(-33vh)';
+                        img.setAttribute("src", '/assets/img/progress/Silver-Star-Blank.png')
+                        img.setAttribute("width", '25px')
+                        img.setAttribute("height", '25px')
+                        img.style.marginLeft = '2vh';
+                        elem.appendChild(img);
+                    }
+                // }
 
                 // show checkmark: if letters (5 stars have been earned), if phonemes (puzzle has been finished)
                 if (this.progressService.getCheckMark(queryStatement)) {
                     let img = document.createElement('img');
+                    img.style.transform = 'translateY(-34vh)';
                     img.setAttribute("src", '/assets/img/progress/check_mark.png')
-                    img.setAttribute("width", "50px")
-                    img.setAttribute("height", "50px")
-                    img.style.marginBottom = "30px";
+                    img.setAttribute("width", '46px')
+                    img.setAttribute("height", '46px')
+                    img.style.marginLeft = '13vh';
                     elem.appendChild(img);
                 }
             }
@@ -237,6 +249,15 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
             return;
         } else {
             return item.word1.image; 
+        }
+    }
+
+    quiz(item) {
+        this.transferLetterService.setData(item);
+        if (this.list == 'alphabet') {
+            this.router.navigate(['alphabet-quiz'], {queryParams: {quizAll: true}});
+        } else {
+            this.router.navigate(['phoneme-quiz'], {queryParams: {list: this.list, quizAll: true}});
         }
     }
 }
