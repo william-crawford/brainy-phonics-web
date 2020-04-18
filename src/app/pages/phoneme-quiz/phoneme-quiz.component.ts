@@ -188,9 +188,9 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
 
         if (this.phoneme.puzzlePiecesEarned == 12) {
             this.phonemeProgressService.setCheckMark("phoneme" + this.phoneme.id, true);
-        }
-
-        if(this.isFirstAttempt) {
+        } 
+        
+        if (this.isFirstAttempt) {
             //add stars to progress if select correct phoneme on first attempt
             this.phonemeProgressService.saveStarsToKey("phoneme" + this.phoneme.id + "gold", 1);
             if (this.phonemeProgressService.getSilverStarsFromKey("phoneme" + this.phoneme.id) > 0) {

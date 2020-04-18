@@ -144,7 +144,7 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
         }
     }
 
-    showProgress(item): void{
+    showProgress(item): void {
         let numGoldStars;
         let numSilverStars;
         let elem = document.getElementsByClassName("cardListItem")[this.cardItemCount];
@@ -172,31 +172,25 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
                     this.progressService.setCheckMark(queryStatement, true);
                 }
 
-                // used for stars and checkmarks
-                const starImageSize = "30px";
-                const checkImageSize = "40px";
-                const progressImgBottom = "30px";
-                const progressImgLeft = "5px";
-
                 // if (this.progressService.getActiveStatus(queryStatement) == 1) {
                     for (let i = 0; i < numGoldStars; i++) {
                         let img = document.createElement('img');
+                        img.style.transform = 'translateY(-33vh)';
                         img.setAttribute("src", '/assets/img/progress/Gold-Star-Blank.png')
-                        img.setAttribute("width", starImageSize)
-                        img.setAttribute("height", starImageSize)
-                        img.style.marginBottom = progressImgBottom;
-                        img.style.marginLeft = progressImgLeft;
+                        img.setAttribute("width", '25px')
+                        img.setAttribute("height", '25px')
+                        img.style.marginLeft = '2vh';
                         elem.appendChild(img);
                     }
                 // } else {
                     // return silver star
                     for (let i = 0; i < numSilverStars; i++) {
                         let img = document.createElement('img');
+                        img.style.transform = 'translateY(-33vh)';
                         img.setAttribute("src", '/assets/img/progress/Silver-Star-Blank.png')
-                        img.setAttribute("width", starImageSize)
-                        img.setAttribute("height", starImageSize)
-                        img.style.marginBottom = progressImgBottom;
-                        img.style.marginLeft = progressImgLeft;
+                        img.setAttribute("width", '25px')
+                        img.setAttribute("height", '25px')
+                        img.style.marginLeft = '2vh';
                         elem.appendChild(img);
                     }
                 // }
@@ -204,11 +198,11 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
                 // show checkmark: if letters (5 stars have been earned), if phonemes (puzzle has been finished)
                 if (this.progressService.getCheckMark(queryStatement)) {
                     let img = document.createElement('img');
+                    img.style.transform = 'translateY(-34vh)';
                     img.setAttribute("src", '/assets/img/progress/check_mark.png')
-                    img.setAttribute("width", checkImageSize)
-                    img.setAttribute("height", checkImageSize)
-                    img.style.marginBottom = progressImgBottom;
-                    img.style.marginLeft = "30%";
+                    img.setAttribute("width", '46px')
+                    img.setAttribute("height", '46px')
+                    img.style.marginLeft = '13vh';
                     elem.appendChild(img);
                 }
             }
