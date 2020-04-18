@@ -6,6 +6,7 @@ import * as data from '../../../assets/json/phoneme-examples.json';
 import {Location} from '@angular/common';
 import {Phoneme} from '../../types/phoneme';
 import {SightWord} from '../../types/sight-word';
+import {AlphabetLetter} from '../../types/alphabet-letter';
 
 @Component({
     templateUrl: 'phoneme-learn.component.html',
@@ -68,8 +69,8 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
         this.location.back();
     }
 
-    showQuiz(){
-        this.router.navigateByUrl('/phoneme-quiz')
+    showQuiz() {
+        this.router.navigateByUrl('/phoneme-quiz');
     }
 
     ngOnInit() {
@@ -244,5 +245,73 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
         };
 
         this.ex3Audio.play();
+    }
+
+    prev(event: MouseEvent) {
+        event.stopPropagation();
+        const currentIndex = this.transferService.getList().findIndex((value: Phoneme | AlphabetLetter) => {
+            return (value as Phoneme).id === this.phoneme.id;
+        });
+        if (currentIndex === 0) {
+            return;
+        }
+
+        this.ex1Audio.onended = null;
+        this.ex2Audio.onended = null;
+        this.ex3Audio.onended = null;
+
+        this.ex1Audio.pause();
+        this.ex2Audio.pause();
+        this.ex3Audio.pause();
+
+        this.phoneme = this.transferService.getList()[currentIndex - 1] as Phoneme;
+        this.img1 = this.phoneme.word1.image;
+        this.img2 = this.phoneme.word2.image;
+        this.img3 = this.phoneme.word3.image;
+        this.word1 = this.phoneme.word1.display;
+        this.word2 = this.phoneme.word2.display;
+        this.word3 = this.phoneme.word3.display;
+        this.phonemePlayAudio = true;
+        this.oneAnimate = false;
+        this.twoAnimate = false;
+        this.threeAnimate = false;
+        this.ex1Animate = false;
+        this.ex2Animate = false;
+        this.ex3Animate = false;
+        this.ngOnInit();
+    }
+
+    next(event: MouseEvent) {
+        event.stopPropagation();
+        const currentIndex = this.transferService.getList().findIndex((value: Phoneme | AlphabetLetter) => {
+            return (value as Phoneme).id === this.phoneme.id;
+        });
+        if (currentIndex === this.transferService.getList().length - 1) {
+            return;
+        }
+
+        this.ex1Audio.onended = null;
+        this.ex2Audio.onended = null;
+        this.ex3Audio.onended = null;
+
+        this.ex1Audio.pause();
+        this.ex2Audio.pause();
+        this.ex3Audio.pause();
+
+        this.phoneme = this.transferService.getList()[currentIndex + 1] as Phoneme;
+        this.img1 = this.phoneme.word1.image;
+        this.img2 = this.phoneme.word2.image;
+        this.img3 = this.phoneme.word3.image;
+        this.word1 = this.phoneme.word1.display;
+        this.word2 = this.phoneme.word2.display;
+        this.word3 = this.phoneme.word3.display;
+        this.phonemePlayAudio = true;
+        this.oneAnimate = false;
+        this.twoAnimate = false;
+        this.threeAnimate = false;
+        this.ex1Animate = false;
+        this.ex2Animate = false;
+        this.ex3Animate = false;
+        this.ngOnInit();
     }
 }

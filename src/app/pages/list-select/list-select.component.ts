@@ -72,6 +72,7 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
         } else if (list === 'kindergarten') {
             this.data = this.kindergartenService.dataLoad();
         }
+        this.transferLetterService.setList(this.data);
 
         this.instruction = new Audio();
         if (this.list === 'alphabet') {

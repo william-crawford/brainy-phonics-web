@@ -45,11 +45,11 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     puzzleComplete: boolean = false;
     isFirstAttempt: boolean;
 
-	constructor(
-        private transferService:TransferLetterService,
-        private userDataService:UserDataService,
+    constructor(
+        private transferService: TransferLetterService,
+        private userDataService: UserDataService,
         private phonemeProgressService: ProgressService,
-        private elem:ElementRef,
+        private elem: ElementRef,
         private router: Router,
         private location: Location
     ) {
@@ -69,20 +69,25 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         }
 
         // Random number generator that accepts a seed
-        var LCG=s=>()=>(2**31-1&(s=Math.imul(48271,s)))/2**31;
+        var LCG = s => () => (2 ** 31 - 1 & (s = Math.imul(48271, s))) / 2 ** 31;
 
         // Generate seed for rng based on phoneme id
-        var hashCode = s => s.split('').reduce((a,b)=>{a=((a<<5)-a)+b.charCodeAt(0);return a&a},0);
+        var hashCode = s => s.split('').reduce((a, b) => {
+            a = ((a << 5) - a) + b.charCodeAt(0);
+            return a & a;
+        }, 0);
         var hash = hashCode(this.phoneme.id);
         var rng = LCG(hash);
 
         // Shuffle order of puzzle pieces being displayed
-        this.puzzlePieceImages.sort(function() {return rng() - 0.5});
-        this.phoneme.puzzlePiecesEarned = userDataService.getPuzzlePieces(this.phoneme.id)
+        this.puzzlePieceImages.sort(function() {
+            return rng() - 0.5;
+        });
+        this.phoneme.puzzlePiecesEarned = userDataService.getPuzzlePieces(this.phoneme.id);
 
     }
 
-    goBack(){
+    goBack() {
         this.transferService.setData(this.phoneme);
         this.location.back();
     }
@@ -151,7 +156,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     }
 
     playAudio() {
-        this.stopAudioAndAnimation()
+        this.stopAudioAndAnimation();
 
         this.phonemeAnimate = true;
         this.phonemeAudio.play();
@@ -185,16 +190,19 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         this.loadNew();
 
         if (this.phoneme.puzzlePiecesEarned == 12) {
-            this.phonemeProgressService.setCheckMark("phoneme" + this.phoneme.id, true);
+            this.phonemeProgressService.setCheckMark('phoneme' + this.phoneme.id, true);
         }
 
-        if(this.isFirstAttempt) {
-            if(this.phonemeProgressService.getActiveStatus("phoneme" + this.phoneme.id)) {
-            //add stars to progress if select correct phoneme on first attempt and active status is true
-            this.phonemeProgressService.saveStarsToKey("phoneme" + this.phoneme.id, 1);
+        if (this.isFirstAttempt) {
+            this.userDataService.addCoins(2);
+            if (this.phonemeProgressService.getActiveStatus('phoneme' + this.phoneme.id)) {
+                // add stars to progress if select correct phoneme on first attempt and active status is true
+                this.phonemeProgressService.saveStarsToKey('phoneme' + this.phoneme.id, 1);
             } else {
-                this.phonemeProgressService.setActiveStatus("phoneme" + this.phoneme.id, true)
+                this.phonemeProgressService.setActiveStatus('phoneme' + this.phoneme.id, true);
             }
+        } else {
+            this.userDataService.addCoins(1);
         }
     }
 
@@ -223,7 +231,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     }
 
     generateExamples() {
-        var positiveExamples = data.find(o => o.id == this.phoneme.id)["quiz-words"];
+        var positiveExamples = data.find(o => o.id == this.phoneme.id)['quiz-words'];
 
         var positiveExample = positiveExamples[Math.floor(Math.random() * positiveExamples.length)];
         return [
@@ -243,7 +251,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     }
 
     randomQuizWord() {
-        var quizWords = data[Math.floor(Math.random() * data.length)]["quiz-words"];
+        var quizWords = data[Math.floor(Math.random() * data.length)]['quiz-words'];
         return quizWords[Math.floor(Math.random() * quizWords.length)];
     }
 
@@ -276,7 +284,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
 
     incorrectAnswer() {
         this.isFirstAttempt = false;
-        this.phonemeProgressService.setActiveStatus("phoneme" + this.phoneme.id, false)
+        this.phonemeProgressService.setActiveStatus('phoneme' + this.phoneme.id, false);
     }
 
     playEx1Audio() {

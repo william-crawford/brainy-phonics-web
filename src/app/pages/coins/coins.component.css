@@ -1,9 +1,9 @@
 #background {
-	background-color: #FFFFFF !important;
+    background-color: #FFFFFF !important;
 }
 
 #side-menu {
-	background-color: #6EC7D4 !important;
+    background-color: #6EC7D4 !important;
 }
 
 #main-body {
@@ -11,12 +11,20 @@
     height: 0vh;
     padding-left: 40vh;
     position: relative;
-  }
-  
-  .column {
+}
+
+.column {
     float: left;
     text-align: right;
-    width: 48vh;
+    width: 100%;
+    height: 92.5vh;
     transform: translateX(-21vh);
-  }
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.row > img{
+    padding: 2vh;
+}

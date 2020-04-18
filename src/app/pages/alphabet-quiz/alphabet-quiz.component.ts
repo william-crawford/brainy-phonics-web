@@ -9,6 +9,7 @@ import {AlphabetLettersService} from '../../services/alphabet-letters.service';
 import * as example from '../../../assets/json/quiz-examples.json';
 import { Location } from '@angular/common';
 import {AlphabetLetter} from '../../types/alphabet-letter';
+import {UserDataService} from '../../services/user-data.service';
 
 
 @Component({
@@ -39,6 +40,7 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
         private transferService: TransferLetterService,
         private letterProgressService: ProgressService,
         private alphabetLettersService: AlphabetLettersService,
+        private userDataService: UserDataService,
         private router: Router,
         private location: Location
     ) {
@@ -132,12 +134,15 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
         });
 
         if(this.isFirstAttempt) {
+            this.userDataService.addCoins(2);
             if(this.letterProgressService.getActiveStatus("letter" + this.letter.letter)) {
             //add stars to progress if select correct letter on first attempt and active status is true
             this.letterProgressService.saveStarsToKey("letter" + this.letter.letter, 1);
             } else {
-                this.letterProgressService.setActiveStatus("letter" + this.letter.letter, true)
+                this.letterProgressService.setActiveStatus("letter" + this.letter.letter, true);
             }
+        } else {
+            this.userDataService.addCoins(1);
         }
     }
 
