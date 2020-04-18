@@ -215,7 +215,16 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
         if (this.list === 'alphabet') {
             return;
         } else {
-            return '../../assets/img/sight-words/' + item.word1.word + '.png'; 
+            return '../../assets/img/sight-words/' + item.word1.word + '.png';
+        }
+    }
+
+    quiz(item) {
+        this.transferLetterService.setData(item);
+        if (this.list == 'alphabet') {
+            this.router.navigate(['alphabet-quiz'], {queryParams: {quizAll: true}});
+        } else {
+            this.router.navigate(['phoneme-quiz'], {queryParams: {list: this.list, quizAll: true}});
         }
     }
 }

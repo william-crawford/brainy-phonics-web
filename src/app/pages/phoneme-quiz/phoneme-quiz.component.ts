@@ -1,5 +1,5 @@
 import {Component, ElementRef, OnDestroy, OnInit} from '@angular/core';
-import {Router} from '@angular/router';
+import {ActivatedRoute, Router} from '@angular/router';
 import {delay} from 'q';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import {UserDataService} from '../../services/user-data.service';
@@ -7,6 +7,19 @@ import data from '../../../assets/json/phonemes.json';
 import {ProgressService} from '../../services/progress.service';
 import {Location} from '@angular/common';
 import {Phoneme} from '../../types/phoneme';
+import {Vowels} from '../../types/vowels';
+import {ConsonantBlends} from '../../types/consonantBlends';
+import {Consonants} from '../../types/consonants';
+import {VowelConsonantBlends} from '../../types/vowelConsonantBlends';
+import {VowelPairs} from '../../types/vowelPairs';
+import {Kindergarten} from '../../types/kindergarten';
+import {PhonemesService} from '../../services/phonemes.service';
+import {VowelsService} from '../../services/vowels.service';
+import {ConsonantBlendsService} from '../../services/consonantBlends.service';
+import {ConsonantsService} from '../../services/consonants.service';
+import {VowelConsonantBlendsService} from '../../services/vowelConsonantBlends.service';
+import {VowelPairsService} from '../../services/vowelPairs.service';
+import {KindergartenService} from '../../services/kindergarten.service';
 
 @Component({
     templateUrl: 'phoneme-quiz.component.html',
@@ -31,16 +44,21 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     ex3PlayAudio: boolean;
     ex3Audio: HTMLAudioElement;
 
-    correctAnswer: number;
+    data: Phoneme[] | Vowels[] | ConsonantBlends[] | Consonants[] | VowelConsonantBlends[] | VowelPairs[] | Kindergarten[];
+    phoneme: Phoneme | Vowels | ConsonantBlends | Consonants | VowelConsonantBlends | VowelPairs | Kindergarten;
+    list: string;
+    quizAll: string;
+    key: number;
+    begin: boolean = false;
 
-    phoneme = this.transferService.getData() as Phoneme;
+    correctAnswer: number;
 
     img1: string;
     img2: string;
     img3: string;
 
     puzzlePieceImages: string[] = [];
-    puzzleDirectory: string = '../../assets/img/puzzle-pieces/puzzle-' + this.phoneme.id;
+    puzzleDirectory: string;
     puzzleAnimate: boolean = false;
     puzzleComplete: boolean = false;
     isFirstAttempt: boolean;
@@ -51,9 +69,57 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         private phonemeProgressService: ProgressService,
         private elem:ElementRef,
         private router: Router,
-        private location: Location
+        private location: Location,
+        private activatedRoute: ActivatedRoute,
+
+        private phonemesService: PhonemesService,
+        private vowelsService: VowelsService,
+        private consonantBlendsService: ConsonantBlendsService,
+        private consonantsService: ConsonantsService,
+        private vowelConsonantBlendsService: VowelConsonantBlendsService,
+        private vowelPairsService: VowelPairsService,
+        private kindergartenService: KindergartenService,
     ) {
-        this.phoneme = this.transferService.getData() as Phoneme;
+        this.quizAll = this.activatedRoute.snapshot.queryParamMap.get('quizAll');
+        // Sets random phoneme if selected Quiz-all function
+        if (this.quizAll === 'true') {
+            let list = this.activatedRoute.snapshot.queryParamMap.get('list');
+            this.list = list;
+
+            // Chooses a random phoneme that belongs in its category
+            var key = 0;
+
+            if (!list || list === '') {
+                this.router.navigate(['']);
+            } else if (list === 'phoneme') {
+                key = Math.floor(Math.random() * 92);
+                this.data = this.phonemesService.dataLoad();
+            } else if (list === 'vowels') {
+                key = Math.floor(Math.random() * 17);
+                this.data = this.vowelsService.dataLoad();
+            } else if (list === 'consonantBlends') {
+                key = Math.floor(Math.random() * 15);
+                this.data = this.consonantBlendsService.dataLoad();
+            } else if (list === 'consonants') {
+                key = Math.floor(Math.random() * 22);
+                this.data = this.consonantsService.dataLoad();
+            } else if (list === 'vowelConsonants') {
+                key = Math.floor(Math.random() * 10);
+                this.data = this.vowelConsonantBlendsService.dataLoad();
+            } else if (list === 'vowelPairs') {
+                key = Math.floor(Math.random() * 15);
+                this.data = this.vowelPairsService.dataLoad();
+            } else if (list === 'kindergarten') {
+                key = Math.floor(Math.random() * 53);
+                this.data = this.kindergartenService.dataLoad();
+            }
+            this.key = key;
+            this.phoneme = this.data[key];
+        } else {
+            this.phoneme = this.transferService.getData() as Phoneme;
+        }
+
+        this.puzzleDirectory = '../../assets/img/puzzle-pieces/puzzle-' + this.phoneme.id;
         this.phonemePlayAudio = true;
         this.phonemeAnimate = false;
         this.ex1Animate = false;
@@ -79,6 +145,8 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         // Shuffle order of puzzle pieces being displayed
         this.puzzlePieceImages.sort(function() {return rng() - 0.5});
         this.phoneme.puzzlePiecesEarned = userDataService.getPuzzlePieces(this.phoneme.id)
+
+        console.log(this.phoneme.id);
 
     }
 
@@ -126,6 +194,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         };
 
         this.isFirstAttempt = true;
+        console.log(this.phoneme.id);
     }
 
     ngOnDestroy() {
@@ -187,6 +256,10 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         this.userDataService.addPuzzlePieces(this.phoneme.id, 2);
         this.phoneme.puzzlePiecesEarned = this.userDataService.getPuzzlePieces(this.phoneme.id);
 
+        if (this.quizAll) {
+            this.loadNewPhoneme();
+        }
+
         this.puzzleAnimate = true;
         delay(500).then(() => {
             this.puzzleAnimate = false;
@@ -202,6 +275,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
                 this.phonemeProgressService.setActiveStatus("phoneme" + this.phoneme.id, true)
             }
         }
+        console.log(this.phoneme.id);
     }
 
     loadNew() {
@@ -225,7 +299,33 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         this.ex3Audio.load();
 
         this.playAudio();
+        console.log(this.phoneme.id);
+    }
 
+    // Function for Quiz-All; selects a new random phoneme to quiz on;
+    loadNewPhoneme() {
+    // Chooses a random phoneme that belongs in its category
+    var key = 0;
+
+    if (!this.list || this.list === '') {
+        this.router.navigate(['']);
+    } else if (this.list === 'phoneme') {
+        key = Math.floor(Math.random() * 92);
+    } else if (this.list === 'vowels') {
+        key = Math.floor(Math.random() * 17);
+    } else if (this.list === 'consonantBlends') {
+        key = Math.floor(Math.random() * 15);
+    } else if (this.list === 'consonants') {
+        key = Math.floor(Math.random() * 22);
+    } else if (this.list === 'vowelConsonants') {
+        key = Math.floor(Math.random() * 10);
+    } else if (this.list === 'vowelPairs') {
+        key = Math.floor(Math.random() * 15);
+    } else if (this.list === 'kindergarten') {
+        key = Math.floor(Math.random() * 53);
+    }
+    this.key = key;
+    this.phoneme = this.data[key];
     }
 
     generateExamples() {
