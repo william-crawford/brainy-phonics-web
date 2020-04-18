@@ -453,7 +453,7 @@
             "sob",
             "bulb",
             "rob",
-            "bathrub"
+            "bathtub"
         ],
         "color": {
             "all": "green",
@@ -1325,7 +1325,7 @@
         "quiz-words": [
             "hoof",
             "leaf",
-            "calf",
+            "white calf",
             "surf",
             "wolf"
         ],
@@ -1858,7 +1858,7 @@
             "image": "family.png"
         },
         "quiz-words": [
-            ""
+            
         ],
         "color": {
             "all": "orange",
@@ -3553,7 +3553,8 @@
             "polar bear",
             "rake",
             "squirrel",
-            "firetruck,walrus",
+            "firetruck",
+            "walrus",
             "throne"
         ],
         "color": {
@@ -3702,7 +3703,7 @@
             "nose",
             "present",
             "raccoons",
-            "Frisbee",
+            "frisbee",
             "boots",
             "gloves",
             "crayons",
@@ -4196,7 +4197,7 @@
             "statue",
             "cucumber",
             "ambulance",
-            "SUV",
+            "suv",
             "music"
         ],
         "color": {
@@ -4573,7 +4574,7 @@
             "image": "six.png"
         },
         "quiz-words": [
-            "T-rex",
+            "trex",
             "box",
             "fix",
             "lynx",
