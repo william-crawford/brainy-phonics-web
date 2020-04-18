@@ -145,7 +145,8 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
     }
 
     showProgress(item): void{
-        let numStars;
+        let numGoldStars;
+        let numSilverStars;
         let elem = document.getElementsByClassName("cardListItem")[this.cardItemCount];
         let queryStatement;
 
@@ -154,13 +155,21 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
                 this.cardItemCount++;
                 if (this.list === 'alphabet') {
                     queryStatement = "letter" + item.letter;
-                    numStars = this.progressService.getStarsFromKey(queryStatement);
+                    numGoldStars = this.progressService.getGoldStarsFromKey(queryStatement);
+                    numSilverStars = this.progressService.getSilverStarsFromKey(queryStatement);
                 } else {
-                    queryStatement = "phoneme" + item.id;
-                    numStars = this.progressService.getStarsFromKey(queryStatement);
+                    queryStatement= "phoneme" + item.id;
+                    numGoldStars = this.progressService.getGoldStarsFromKey(queryStatement);
+                    numSilverStars = this.progressService.getSilverStarsFromKey(queryStatement);
                 }
-                if (numStars > 0) {
+
+               
+                if (numGoldStars + numSilverStars > 0) {
                     this.dataProgress.push(item);
+                }
+
+                if (numGoldStars >= 5 && this.list == "alphabet") {
+                    this.progressService.setCheckMark(queryStatement, true);
                 }
 
                 // used for stars and checkmarks
@@ -169,8 +178,8 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
                 const progressImgBottom = "30px";
                 const progressImgLeft = "5px";
 
-                if (this.progressService.getActiveStatus(queryStatement) == 1) {
-                    for (let i = 0; i < numStars; i++) {
+                // if (this.progressService.getActiveStatus(queryStatement) == 1) {
+                    for (let i = 0; i < numGoldStars; i++) {
                         let img = document.createElement('img');
                         img.setAttribute("src", '/assets/img/progress/Gold-Star-Blank.png')
                         img.setAttribute("width", starImageSize)
@@ -179,9 +188,9 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
                         img.style.marginLeft = progressImgLeft;
                         elem.appendChild(img);
                     }
-                } else {
+                // } else {
                     // return silver star
-                    for (let i = 0; i < numStars; i++) {
+                    for (let i = 0; i < numSilverStars; i++) {
                         let img = document.createElement('img');
                         img.setAttribute("src", '/assets/img/progress/Silver-Star-Blank.png')
                         img.setAttribute("width", starImageSize)
@@ -190,7 +199,7 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
                         img.style.marginLeft = progressImgLeft;
                         elem.appendChild(img);
                     }
-                }
+                // }
 
                 // show checkmark: if letters (5 stars have been earned), if phonemes (puzzle has been finished)
                 if (this.progressService.getCheckMark(queryStatement)) {

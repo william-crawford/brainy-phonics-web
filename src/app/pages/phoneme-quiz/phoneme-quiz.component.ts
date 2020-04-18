@@ -44,6 +44,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     puzzleAnimate: boolean = false;
     puzzleComplete: boolean = false;
     isFirstAttempt: boolean;
+    hasGuessed: boolean;
 
 	constructor(
         private transferService:TransferLetterService,
@@ -126,6 +127,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         };
 
         this.isFirstAttempt = true;
+        this.hasGuessed = false;
     }
 
     ngOnDestroy() {
@@ -189,11 +191,10 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         }
 
         if(this.isFirstAttempt) {
-            if(this.phonemeProgressService.getActiveStatus("phoneme" + this.phoneme.id)) {
-            //add stars to progress if select correct phoneme on first attempt and active status is true
-            this.phonemeProgressService.saveStarsToKey("phoneme" + this.phoneme.id, 1);
-            } else {
-                this.phonemeProgressService.setActiveStatus("phoneme" + this.phoneme.id, true)
+            //add stars to progress if select correct phoneme on first attempt
+            this.phonemeProgressService.saveStarsToKey("phoneme" + this.phoneme.id + "gold", 1);
+            if (this.phonemeProgressService.getSilverStarsFromKey("phoneme" + this.phoneme.id) > 0) {
+                this.phonemeProgressService.saveStarsToKey("phoneme" + this.phoneme.id + "silv", -1);
             }
         }
     }
@@ -275,8 +276,15 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     }
 
     incorrectAnswer() {
-        this.isFirstAttempt = false;
-        this.phonemeProgressService.setActiveStatus("phoneme" + this.phoneme.id, false)
+        if(!this.hasGuessed) {
+            this.hasGuessed = true;
+            this.isFirstAttempt = false;
+            const goldStarNum = this.phonemeProgressService.getGoldStarsFromKey("phoneme" + this.phoneme.id)
+            if (goldStarNum > 0 && goldStarNum < 5) {
+                this.phonemeProgressService.saveStarsToKey("phoneme" + this.phoneme.id + "gold", -1);
+                this.phonemeProgressService.saveStarsToKey("phoneme" + this.phoneme.id + "silv", 1);
+            }
+        } 
     }
 
     playEx1Audio() {
