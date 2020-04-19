@@ -7,7 +7,6 @@ import {Consonants} from '../../types/consonants';
 import {VowelConsonantBlends} from '../../types/vowelConsonantBlends';
 import {VowelPairs} from '../../types/vowelPairs';
 import {Kindergarten} from '../../types/kindergarten';
-import {SightWord} from '../../types/sight-word';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import {AlphabetLettersService} from '../../services/alphabet-letters.service';
 import {ProgressService} from '../../services/progress.service';
@@ -131,6 +130,7 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
 
     ngOnDestroy() {
         this.instruction.pause();
+        this.instruction = null;
     }
 
     getDisplay(item): string {
@@ -173,7 +173,6 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
                     this.progressService.setCheckMark(queryStatement, true);
                 }
 
-                // if (this.progressService.getActiveStatus(queryStatement) == 1) {
                     for (let i = 0; i < numGoldStars; i++) {
                         let img = document.createElement('img');
                         if (this.list === 'alphabet') {
@@ -187,8 +186,7 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
                         img.style.marginLeft = '2vh';
                         elem.appendChild(img);
                     }
-                // } else {
-                    // return silver star
+
                     for (let i = 0; i < numSilverStars; i++) {
                         let img = document.createElement('img');
                         if (this.list === 'alphabet') {
@@ -202,7 +200,6 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
                         img.style.marginLeft = '2vh';
                         elem.appendChild(img);
                     }
-                // }
 
                 // show checkmark: if letters (5 stars have been earned), if phonemes (puzzle has been finished)
                 if (this.progressService.getCheckMark(queryStatement)) {

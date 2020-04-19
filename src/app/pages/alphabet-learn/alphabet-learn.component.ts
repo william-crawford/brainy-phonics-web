@@ -43,6 +43,7 @@ export class AlphabetLearnComponent implements OnInit, OnDestroy {
 
     ngOnDestroy() {
         this.letterAudio.pause();
+        this.letterAudio = null;
     }
 
     playAudio() {

@@ -58,8 +58,8 @@ export class VowelPairsService {
               new SightWord(
                 data[i].word3.word,
                 data[i].word3.display,
-                `../../assets/audio/sight-words/${data[i].word3.audio}`,
-                `../../assets/img/sight-words/${data[i].word3.image}`
+                `/assets/audio/sight-words/${data[i].word3.audio}`,
+                `/assets/img/sight-words/${data[i].word3.image}`
               ),
               data[i]['quiz-words'],
               data[i].color,

@@ -1,5 +1,4 @@
 import { Injectable, Inject } from '@angular/core';
-import {Router} from '@angular/router';
 import {SESSION_STORAGE, WebStorageService} from 'angular-webstorage-service';
 
 const coinKey = 'COINS';

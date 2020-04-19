@@ -2,10 +2,8 @@ import {Component, ElementRef, OnDestroy, OnInit} from '@angular/core';
 import {Router} from '@angular/router';
 import {delay} from 'q';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
-import * as data from '../../../assets/json/phoneme-examples.json';
 import {Location} from '@angular/common';
 import {Phoneme} from '../../types/phoneme';
-import {SightWord} from '../../types/sight-word';
 import {AlphabetLetter} from '../../types/alphabet-letter';
 
 @Component({
@@ -50,7 +48,6 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
         private location: Location
     ) {
         this.phoneme = this.transferService.getData() as Phoneme;
-        console.log(this.phoneme.quizWords);
         this.img1 = this.phoneme.word1.image;
         this.img2 = this.phoneme.word2.image;
         this.img3 = this.phoneme.word3.image;
@@ -85,12 +82,9 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
         }
 
         this.phonemeAudio = new Audio();
-        // this.phonemeAudio.src = this.phoneme.audio;
-        //this.phonemeAudio.src = `/assets/audio/phonemes/${this.phoneme.audio}`;
-        this.phonemeAudio.src = '/assets/audio/phonemes/sound-A-ah.mp3';
+        this.phonemeAudio.src = this.phoneme.audio;
         this.phonemeAudio.load();
 
-        console.log(this.phoneme.audio);
         this.ex1Audio = new Audio();
         this.ex1Audio.src = this.phoneme.word1.audio;
         this.ex1Audio.load();
@@ -142,6 +136,10 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
         this.ex1Audio.pause();
         this.ex2Audio.pause();
         this.ex3Audio.pause();
+        this.phonemeAudio = null;
+        this.ex1Audio = null;
+        this.ex2Audio = null;
+        this.ex3Audio = null;
     }
 
     playAudio() {

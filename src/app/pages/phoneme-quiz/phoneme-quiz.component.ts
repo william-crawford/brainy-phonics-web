@@ -169,9 +169,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         this.correctAudio.load()
 
         this.phonemeAudio = new Audio();
-        // this.phonemeAudio.src = '/assets/audio/phonemes/sound-' + this.phoneme.id + '.mp3';
-        // this.phonemeAudio.src = '/assets/audio/phonemes/sound-' + this.phoneme.id + '.mp3';
-        this.phonemeAudio.src = '/assets/audio/phonemes/sound-A.mp3';
+        this.phonemeAudio.src = this.phoneme.audio;
         this.phonemeAudio.load();
 
         this.ex1Audio = new Audio();
@@ -361,7 +359,6 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
             positiveExample = positiveExamples[Math.floor(Math.random() * positiveExamples.length)];
         }
         while(badExamples.includes(positiveExample));
-        // while(false);
         return [
             positiveExample,
             this.generateNegativeExample(positiveExamples),

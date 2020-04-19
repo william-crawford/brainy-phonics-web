@@ -1,9 +1,5 @@
 import { Injectable, Inject } from '@angular/core';
-import { StorageServiceModule} from 'angular-webstorage-service';
 import {SESSION_STORAGE, WebStorageService} from 'angular-webstorage-service';
-import {TransferLetterService} from './transfer-letter-service.service';
-import {AlphabetLettersService} from './alphabet-letters.service';
-import {AlphabetLetter} from '../types/alphabet-letter';
 
 @Injectable({
   providedIn: 'root'

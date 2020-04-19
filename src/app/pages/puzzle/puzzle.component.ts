@@ -38,6 +38,7 @@ export class PuzzleComponent implements OnInit, OnDestroy {
 
   ngOnDestroy() {
     this.rhyme.pause();
+    this.rhyme = null;
   }
 
   playAudio() {

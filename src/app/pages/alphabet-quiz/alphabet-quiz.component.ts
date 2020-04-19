@@ -1,13 +1,10 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
-import {RouterModule, Routes} from '@angular/router';
 import {ActivatedRoute, Router} from '@angular/router';
-import {ElementRef} from '@angular/core';
 import {delay} from 'q';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import {ProgressService} from '../../services/progress.service';
 import {UserDataService} from '../../services/user-data.service';
 import {AlphabetLettersService} from '../../services/alphabet-letters.service';
-import * as example from '../../../assets/json/quiz-examples.json';
 import { Location } from '@angular/common';
 import {AlphabetLetter} from '../../types/alphabet-letter';
 
@@ -102,6 +99,7 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
 
     ngOnDestroy() {
         this.letterAudio.pause();
+        this.letterAudio = null;
     }
 
     check(selected : AlphabetLetter) {
@@ -149,8 +147,6 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
                 this.letterAnimate4 = false;
             };
         };
-
-        //this.letterAudio.play();
 
         // Choose new random alphabet
         if (this.quizAll) {

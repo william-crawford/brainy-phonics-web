@@ -42,24 +42,24 @@ export class ConsonantBlendsService {
             new ConsonantBlends(
               data[i].id,
               data[i].display,
-              `../../assets/audio/phonemes/${data[i].audio}`,
+              `/assets/audio/phonemes/${data[i].audio}`,
               new SightWord(
                 data[i].word1.word,
                 data[i].word1.display,
-                `../../assets/audio/sight-words/${data[i].word1.audio}`,
-                `../../assets/img/sight-words/${data[i].word1.image}`
+                `/assets/audio/sight-words/${data[i].word1.audio}`,
+                `/assets/img/sight-words/${data[i].word1.image}`
               ),
               new SightWord(
                 data[i].word2.word,
                 data[i].word2.display,
-                `../../assets/audio/sight-words/${data[i].word2.audio}`,
-                `../../assets/img/sight-words/${data[i].word2.image}`
+                `/assets/audio/sight-words/${data[i].word2.audio}`,
+                `/assets/img/sight-words/${data[i].word2.image}`
               ),
               new SightWord(
                 data[i].word3.word,
                 data[i].word3.display,
-                `../../assets/audio/sight-words/${data[i].word3.audio}`,
-                `../../assets/img/sight-words/${data[i].word3.image}`
+                `/assets/audio/sight-words/${data[i].word3.audio}`,
+                `/assets/img/sight-words/${data[i].word3.image}`
               ),
               data[i]['quiz-words'],
               data[i].color,
