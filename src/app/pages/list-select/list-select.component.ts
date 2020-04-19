@@ -1,4 +1,4 @@
-import {Component, OnDestroy, OnInit} from '@angular/core';
+import {Component, OnDestroy, OnInit, AfterViewInit} from '@angular/core';
 import {AlphabetLetter} from '../../types/alphabet-letter';
 import {Phoneme} from '../../types/phoneme';
 import {Vowels} from '../../types/vowels';
@@ -26,7 +26,7 @@ import {Location} from '@angular/common';
     templateUrl: './list-select.component.html',
     styleUrls: ['./list-select.component.css']
 })
-export class ListSelectComponent implements OnInit, OnDestroy {
+export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
 
     instruction: HTMLAudioElement;
     list: string;
@@ -72,20 +72,59 @@ export class ListSelectComponent implements OnInit, OnDestroy {
         } else if (list === 'kindergarten') {
             this.data = this.kindergartenService.dataLoad();
         }
+        this.transferLetterService.setList(this.data);
 
         this.instruction = new Audio();
-        this.instruction.src = '/assets/audio/00_Button_Audio_Complete_a_whole_puzzle_(Phonics_only).mp3';
+        if (this.list === 'alphabet') {
+            this.instruction.src = '/assets/audio/00_Button_Audio_Win_A_Green_Ball_(Alphabet_Letters).mp3';
+        } else {
+            this.instruction.src = '/assets/audio/00_Button_Audio_Complete_a_whole_puzzle_(Phonics_only).mp3';
+        }
         this.instruction.load();
-        this.playAudio();
+        
         this.dataProgress = [];
         this.cardItemCount = 0;
     }
 
     ngOnInit() {
+        if (this.list === 'alphabet') {
+            if (!this.progressService.getReceivedInstructions('hasReceivedAlphabetInstruction')) {
+                this.playAudio();
+                this.progressService.setReceivedInstructions('hasReceivedAlphabetInstruction', true);
+            }
+        } else {
+            if (!this.progressService.getReceivedInstructions('hasReceivedPhonemeInstruction')) {
+                this.playAudio();
+                this.progressService.setReceivedInstructions('hasReceivedPhonemeInstruction', true);
+            }
+        }
+
+
+        
         if (this.activatedRoute.snapshot.queryParamMap.get('list') == 'alphabet') {
             document.getElementById('puzzle').classList.add('hide');
             for (var i = 0; i < Object.keys(document.getElementsByClassName('bottom')).length - 1; i++) {
                 document.getElementsByClassName('bottom')[i].classList.add('alphabet-list-bottom');
+            }
+        }
+    }
+
+    ngAfterViewInit() {
+        if (this.list === 'alphabet') {
+            for (var i = 0; i < document.getElementsByClassName('app-card').length; i++) {
+                var temp = <HTMLElement> document.getElementsByClassName('app-card')[i];
+                temp.style.marginLeft = '7vh';
+            }
+        } else {
+            if (this.list === 'phoneme' || this.list === 'vowelConsonants') {
+                var igh = <HTMLElement> document.getElementById('I-IGH').firstChild.lastChild;
+                igh.style.transform = 'translate(25vh, -20vh)';
+            }
+            if (this.list === 'phoneme' || this.list === 'vowelPairs') {
+                var aw = <HTMLElement> document.getElementById('A-AW').firstChild.lastChild;
+                var ow = <HTMLElement> document.getElementById('O-ohw').firstChild.lastChild;
+                aw.style.transform = 'translate(24vh, -20vh)';
+                ow.style.transform = 'translate(24vh, -20vh)';
             }
         }
     }
@@ -106,8 +145,9 @@ export class ListSelectComponent implements OnInit, OnDestroy {
         }
     }
 
-    showProgress(item): void{
-        let numStars;
+    showProgress(item): void {
+        let numGoldStars;
+        let numSilverStars;
         let elem = document.getElementsByClassName("cardListItem")[this.cardItemCount];
         let queryStatement;
 
@@ -116,43 +156,66 @@ export class ListSelectComponent implements OnInit, OnDestroy {
                 this.cardItemCount++;
                 if (this.list === 'alphabet') {
                     queryStatement = "letter" + item.letter;
-                    numStars = this.progressService.getStarsFromKey(queryStatement);
+                    numGoldStars = this.progressService.getGoldStarsFromKey(queryStatement);
+                    numSilverStars = this.progressService.getSilverStarsFromKey(queryStatement);
                 } else {
-                    queryStatement = "phoneme" + item.id;
-                    numStars = this.progressService.getStarsFromKey(queryStatement);
+                    queryStatement= "phoneme" + item.id;
+                    numGoldStars = this.progressService.getGoldStarsFromKey(queryStatement);
+                    numSilverStars = this.progressService.getSilverStarsFromKey(queryStatement);
                 }
-                if (numStars > 0) {
+
+
+                if (numGoldStars + numSilverStars > 0) {
                     this.dataProgress.push(item);
                 }
 
-                if (this.progressService.getActiveStatus(queryStatement) == 1) {
-                    for (let i = 0; i < numStars; i++) {
-                        let img = document.createElement('img');
-                        img.setAttribute("src", '/assets/img/progress/Gold-Star-Blank.png')
-                        img.setAttribute("width", "50px")
-                        img.setAttribute("height", "50px")
-                        img.style.marginBottom = "30px";
-                        elem.appendChild(img);
-                    }
-                } else {
-                    // return silver star
-                    for (let i = 0; i < numStars; i++) {
-                        let img = document.createElement('img');
-                        img.setAttribute("src", '/assets/img/progress/Silver-Star-Blank.png')
-                        img.setAttribute("width", "50px")
-                        img.setAttribute("height", "50px")
-                        img.style.marginBottom = "30px";
-                        elem.appendChild(img);
-                    }
+                if (numGoldStars >= 5 && this.list == "alphabet") {
+                    this.progressService.setCheckMark(queryStatement, true);
                 }
+
+                // if (this.progressService.getActiveStatus(queryStatement) == 1) {
+                    for (let i = 0; i < numGoldStars; i++) {
+                        let img = document.createElement('img');
+                        if (this.list === 'alphabet') {
+                            img.style.transform = 'translateY(-21vh)';
+                        } else {
+                            img.style.transform = 'translateY(-33vh)';
+                        }
+                        img.setAttribute("src", '/assets/img/progress/Gold-Star-Blank.png')
+                        img.setAttribute("width", '25px')
+                        img.setAttribute("height", '25px')
+                        img.style.marginLeft = '2vh';
+                        elem.appendChild(img);
+                    }
+                // } else {
+                    // return silver star
+                    for (let i = 0; i < numSilverStars; i++) {
+                        let img = document.createElement('img');
+                        if (this.list === 'alphabet') {
+                            img.style.transform = 'translateY(-21vh)';
+                        } else {
+                            img.style.transform = 'translateY(-33vh)';
+                        }
+                        img.setAttribute("src", '/assets/img/progress/Silver-Star-Blank.png')
+                        img.setAttribute("width", '25px')
+                        img.setAttribute("height", '25px')
+                        img.style.marginLeft = '2vh';
+                        elem.appendChild(img);
+                    }
+                // }
 
                 // show checkmark: if letters (5 stars have been earned), if phonemes (puzzle has been finished)
                 if (this.progressService.getCheckMark(queryStatement)) {
                     let img = document.createElement('img');
-                    img.setAttribute("src", '/assets/img/progress/check_mark.jpg')
-                    img.setAttribute("width", "50px")
-                    img.setAttribute("height", "50px")
-                    img.style.marginBottom = "30px";
+                    if (this.list === 'alphabet') {
+                        img.style.transform = 'translateY(-22vh)';
+                    } else {
+                        img.style.transform = 'translateY(-33vh)';
+                    }
+                    img.setAttribute("src", '/assets/img/progress/check_mark.png')
+                    img.setAttribute("width", '46px')
+                    img.setAttribute("height", '46px')
+                    img.style.marginLeft = '13vh';
                     elem.appendChild(img);
                 }
             }
@@ -177,5 +240,36 @@ export class ListSelectComponent implements OnInit, OnDestroy {
 
     goBack() {
         this.location.back();
+    }
+
+    setClass(item) {
+        if (this.list === 'vowels') {
+            return item.color.vowel;
+        } else if (this.list === 'kindergarten') {
+            return item.color.K;
+        } else if (this.list !== 'alphabet') {
+            return item.color.all;
+        }
+    }
+
+    setID(item) {
+        return item.id;
+    }
+
+    getImage(item) {
+        if (this.list === 'alphabet') {
+            return;
+        } else {
+            return item.word1.image; 
+        }
+    }
+
+    quiz(item) {
+        this.transferLetterService.setData(item);
+        if (this.list == 'alphabet') {
+            this.router.navigate(['alphabet-quiz'], {queryParams: {quizAll: true}});
+        } else {
+            this.router.navigate(['phoneme-quiz'], {queryParams: {list: this.list, quizAll: true}});
+        }
     }
 }

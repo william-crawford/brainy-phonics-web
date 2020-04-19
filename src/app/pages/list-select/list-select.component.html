@@ -2,9 +2,9 @@
     <div id='main-body'>
         <div class='column'>
             <div class="cardList">
-                <app-card class="cardListItem" (click)='select(item)' *ngFor="let item of data" >
+                <app-card class="cardListItem {{ setClass(item) }}" id='{{ setID(item) }}' (click)='select(item)' *ngFor="let item of data" >
                     <p>{{ getDisplay(item)}} </p>
-                    
+                    <img src='{{ getImage(item) }}' class='word-image'>
                 </app-card>
             </div>
         </div>
@@ -14,8 +14,10 @@
         <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>
         <button mat-icon-button class='icon' id='home' routerLink='/'></button>
         <button mat-icon-button class='icon bottom' id='repeat' (click)='playAudio()'></button>
-        <button mat-icon-button class='icon bottom' id='quiz'></button>
+        <button mat-icon-button class='icon bottom' id='quiz' (click)='quiz(item)'></button>
         <button mat-icon-button class='icon bottom' id='bank' routerLink='/coins'></button>
         <button mat-icon-button class='icon bottom' id='puzzle' routerLink='/puzzles'></button>
     </div>
 </div>
+
+

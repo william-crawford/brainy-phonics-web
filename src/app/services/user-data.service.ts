@@ -12,11 +12,11 @@ export class UserDataService {
   private completePuzzles = [];
   private puzzlePiecesEarned = {};
 
-  addCoins(amount) {
+  addCoins(amount: number) {
     this.coins += amount;
   }
 
-  getCoins() {
+  getCoins(): number {
     return this.coins;
   }
 

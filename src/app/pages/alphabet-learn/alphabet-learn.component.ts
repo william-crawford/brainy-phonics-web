@@ -3,6 +3,7 @@ import {AlphabetLetter} from '../../types/alphabet-letter';
 import {Router} from '@angular/router';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import {Location} from '@angular/common';
+import {Phoneme} from '../../types/phoneme';
 
 @Component({
     selector: 'app-alphabet-learn',
@@ -30,7 +31,7 @@ export class AlphabetLearnComponent implements OnInit, OnDestroy {
 
     ngOnInit() {
         this.letterAudio = new Audio();
-        this.letterAudio.src = '/assets/audio/phonemes/sound-A.mp3';
+        this.letterAudio.src = `/assets/audio/letters/${this.letter.audio}`;
         this.letterAudio.load();
 
         this.letterAudio.onended = () => {
@@ -57,5 +58,37 @@ export class AlphabetLearnComponent implements OnInit, OnDestroy {
 
     goBack() {
         this.location.back();
+    }
+
+    prev(event: MouseEvent) {
+        event.stopPropagation();
+        const currentIndex = this.transferService.getList().findIndex((value: Phoneme | AlphabetLetter) => {
+            return (value as AlphabetLetter).letter === this.letter.letter;
+        });
+        if (currentIndex === 0) {
+            return;
+        }
+
+        this.letter = this.transferService.getList()[currentIndex - 1] as AlphabetLetter;
+        this.letterAnimate = false;
+        this.letterPlayAudio = true;
+
+        this.ngOnInit();
+    }
+
+    next(event: MouseEvent) {
+        event.stopPropagation();
+        const currentIndex = this.transferService.getList().findIndex((value: Phoneme | AlphabetLetter) => {
+            return (value as AlphabetLetter).letter === this.letter.letter;
+        });
+        if (currentIndex === this.transferService.getList().length - 1) {
+            return;
+        }
+
+        this.letter = this.transferService.getList()[currentIndex + 1] as AlphabetLetter;
+        this.letterAnimate = false;
+        this.letterPlayAudio = true;
+
+        this.ngOnInit();
     }
 }

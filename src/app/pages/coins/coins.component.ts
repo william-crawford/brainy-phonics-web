@@ -3,31 +3,35 @@ import {UserDataService} from '../../services/user-data.service';
 import {Location} from '@angular/common';
 
 @Component({
-  selector: 'app-coins',
-  templateUrl: './coins.component.html',
-  styleUrls: ['./coins.component.css']
+    selector: 'app-coins',
+    templateUrl: './coins.component.html',
+    styleUrls: ['./coins.component.css']
 })
-export class CoinsComponent implements OnInit {
-  coins: number;
+export class CoinsComponent {
+    coins: number;
+    cars: number;
+    bags: number;
+    stacks: number;
+    golds: number;
+    silvers: number;
 
-  constructor(
-    private userDataService: UserDataService,
-    private location: Location
-  ) {
-    this.coins = userDataService.getCoins();
-   }
+    constructor(
+        private userDataService: UserDataService,
+        private location: Location
+    ) {
+        this.coins = userDataService.getCoins();
+        this.cars = Math.floor(this.coins / 250);
+        this.bags = Math.floor((this.coins % 250) / 50);
+        this.stacks = Math.floor((this.coins % 50) / 10);
+        this.golds = Math.floor((this.coins % 10) / 2);
+        this.silvers = Math.floor(this.coins % 2);
+    }
 
-  ngOnInit() {
-    // display image depending on how many coins user has accumulated
+    numberToIterable(num: number) {
+        return Array(num).fill('');
+    }
 
-    // 1 gold coin = 2 silver coins
-    // 1 stack coins = 5 gold 
-    // 1 bag of coins = 5 stacks 
-    // 1 armored car = 5 bags 
-    // 1 bank = 5 armored cars
-  }
-
-  goBack() {
-    this.location.back();
-  }
+    goBack() {
+        this.location.back();
+    }
 }
