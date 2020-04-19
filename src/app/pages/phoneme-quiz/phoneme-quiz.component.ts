@@ -50,6 +50,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
 
     data: Phoneme[] | Vowels[] | ConsonantBlends[] | Consonants[] | VowelConsonantBlends[] | VowelPairs[] | Kindergarten[];
     phoneme: Phoneme | Vowels | ConsonantBlends | Consonants | VowelConsonantBlends | VowelPairs | Kindergarten;
+    quizPhoneme: Phoneme;
     list: string;
     quizAll: string;
     key: number;
@@ -62,6 +63,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     img3: string;
 
     puzzlePieceImages: string[] = [];
+    piecesToAnimate: number = 0;
     puzzleDirectory: string;
     puzzleAnimate: boolean = false;
     puzzleComplete: boolean = false;
@@ -150,10 +152,6 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
 
         // Shuffle order of puzzle pieces being displayed
         this.puzzlePieceImages.sort(function() {return rng() - 0.5});
-        this.phoneme.puzzlePiecesEarned = userDataService.getPuzzlePieces(this.phoneme.id)
-
-        console.log(this.phoneme.id);
-
     }
 
     goBack(){
@@ -163,7 +161,8 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
 
     ngOnInit() {
 
-        this.phoneme = data.find(o => o.id == this.phoneme.id)
+        this.quizPhoneme = data.find(o => o.id == this.phoneme.id)
+        this.phoneme.puzzlePiecesEarned = this.userDataService.getPuzzlePieces(this.phoneme.id)
 
         this.correctAudio = new Audio();
         this.correctAudio.src = '/assets/audio/buttons/correct.mp3';
@@ -257,15 +256,9 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     }
 
     onCorrect() {
-        this.userDataService.addCoins(1);
-        this.userDataService.addPuzzlePieces(this.phoneme.id, 2);
-        this.phoneme.puzzlePiecesEarned = this.userDataService.getPuzzlePieces(this.phoneme.id);
-
-        if (this.phoneme.puzzlePiecesEarned == 12) {
-            this.phonemeProgressService.setCheckMark("phoneme" + this.phoneme.id, true);
-        }
-
+        var initialPuzzlePieces = this.phoneme.puzzlePiecesEarned;
         if (this.isFirstAttempt) {
+            this.userDataService.addPuzzlePieces(this.phoneme.id, 2);
             this.userDataService.addCoins(2);
             //add stars to progress if select correct phoneme on first attempt
             this.phonemeProgressService.saveStarsToKey("phoneme" + this.phoneme.id + "gold", 1);
@@ -273,8 +266,12 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
                 this.phonemeProgressService.saveStarsToKey("phoneme" + this.phoneme.id + "silv", -1);
             }
         } else {
+            this.userDataService.addPuzzlePieces(this.phoneme.id, 1);
             this.userDataService.addCoins(1);
         }
+
+        this.phoneme.puzzlePiecesEarned = this.userDataService.getPuzzlePieces(this.phoneme.id);
+        this.piecesToAnimate = this.phoneme.puzzlePiecesEarned - initialPuzzlePieces;
 
         this.correctAudio.play();
 
@@ -315,7 +312,6 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         this.ex2Audio.load();
         this.ex3Audio.load();
 
-        console.log(this.phoneme.id);
     }
 
     // Function for Quiz-All; selects a new random phoneme to quiz on;
@@ -342,11 +338,11 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         }
         this.key = key;
         this.phoneme = this.data[key];
-        this.phoneme = data.find(o => o.id == this.phoneme.id);
+        this.quizPhoneme = data.find(o => o.id == this.phoneme.id);
     }
 
     generateExamples() {
-        var positiveExamples = this.phoneme["quiz-words"];
+        var positiveExamples = this.quizPhoneme["quiz-words"];
         positiveExamples = [].concat(
             positiveExamples,
             [
