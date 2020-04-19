@@ -273,6 +273,10 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         this.phoneme.puzzlePiecesEarned = this.userDataService.getPuzzlePieces(this.phoneme.id);
         this.piecesToAnimate = this.phoneme.puzzlePiecesEarned - initialPuzzlePieces;
 
+        if (this.phoneme.puzzlePiecesEarned == 12) {
+            this.phonemeProgressService.setCheckMark("phoneme" + this.phoneme.id, true);
+        }
+
         this.correctAudio.play();
 
         if (this.quizAll) {
