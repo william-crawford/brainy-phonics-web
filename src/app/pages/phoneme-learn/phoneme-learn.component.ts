@@ -50,6 +50,7 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
         private location: Location
     ) {
         this.phoneme = this.transferService.getData() as Phoneme;
+        console.log(this.phoneme.quizWords);
         this.img1 = this.phoneme.word1.image;
         this.img2 = this.phoneme.word2.image;
         this.img3 = this.phoneme.word3.image;

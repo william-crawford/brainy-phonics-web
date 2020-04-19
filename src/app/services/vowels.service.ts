@@ -61,6 +61,7 @@ export class VowelsService {
                 `../../assets/audio/sight-words/${data[i].word3.audio}`,
                 `../../assets/img/sight-words/${data[i].word3.image}`
               ),
+              data[i]['quiz-words'],
               data[i].color,
               data[i].category,
               0,
