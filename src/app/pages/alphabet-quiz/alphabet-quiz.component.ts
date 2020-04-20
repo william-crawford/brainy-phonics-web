@@ -111,7 +111,6 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
     }
 
     correctAnswer(correct : AlphabetLetter) {
-        this.playCorrect();
         if (correct == this.ex1) {
             this.letterAnimate1 = true;
             this.ex2 = this.empty;
@@ -133,7 +132,6 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
             this.ex3 = this.empty;
             this.ex1 = this.empty;
         }
-
 
         this.letterAudio.onended = () => {
             this.letterAnimate1 = false;
@@ -157,7 +155,11 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
             this.letterAudio.src = `/assets/audio/letters/${this.letter.audio}`;
         }
 
-        delay(300).then(() => {
+        delay(200).then(() => {
+            this.correctSound.play();
+            delay(800).then(() => {
+                this.playAudio();
+            });
             this.loadNew();
         });
 
@@ -196,9 +198,9 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
         this.ex3 = randomExamples[2];
         this.ex4 = randomExamples[3];
 
-        delay(500).then(() => {
-            this.playAudio();
-        });
+        // delay(500).then(() => {
+        //     this.playAudio();
+        // });
 
         this.isFirstAttempt = true;
     }
@@ -230,10 +232,6 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
 
     playAudio() {
         this.letterAudio.play();
-    }
-
-    playCorrect() {
-        this.correctSound.play();
     }
 
     goBack() {
