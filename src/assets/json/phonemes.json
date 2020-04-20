@@ -1832,8 +1832,8 @@
         "word2": {
             "word": "hard hat",
             "display": "<span>h</span>ard <span>h</span>at",
-            "audio": "hard hat.mp3",
-            "image": "hard hat.png"
+            "audio": "hardhat.mp3",
+            "image": "hardhat.png"
         },
         "word3": {
             "word": "greyhound",
@@ -2914,8 +2914,8 @@
         "word3": {
             "word": "polar bear",
             "display": "p<span>o</span>lar bear",
-            "audio": "polar bear.mp3",
-            "image": "polar bear.png"
+            "audio": "polarbear.mp3",
+            "image": "polarbear.png"
         },
         "quiz-words": [
             "yo-yo",
@@ -3295,8 +3295,8 @@
         "word3": {
             "word": "bow and arrow",
             "display": "b<span>ow</span> and arr<span>ow</span>",
-            "audio": "bow and arrow.mp3",
-            "image": "bow and arrow.png"
+            "audio": "bowandarrow.mp3",
+            "image": "bowandarrow.png"
         },
         "quiz-words": [
             "window",
@@ -3670,10 +3670,10 @@
         "audio": "ERROR",
         "display": "r",
         "word1": {
-            "word": "raccoon",
+            "word": "raccoons",
             "display": "<span>r</span>accoon",
-            "audio": "raccoon.mp3",
-            "image": "raccoon.png"
+            "audio": "raccoons.mp3",
+            "image": "raccoons.png"
         },
         "word2": {
             "word": "robot",
@@ -3739,7 +3739,7 @@
     },
     {
         "id": "R-ruh",
-        "audio": "ERROR",
+        "audio": "phoneme-R-ruh.mp3",
         "display": "r",
         "word1": {
             "word": "raccoons",
@@ -3762,7 +3762,7 @@
         "quiz-words": [
             "rainbow",
             "rabbit",
-            "bow and arrows",
+            "bow and arrow",
             "rocket",
             "polar bear",
             "rake",
@@ -4804,8 +4804,8 @@
         "word2": {
             "word": "ax",
             "display": "a<span>x</span>",
-            "audio": "ax.mp3",
-            "image": "ax.png"
+            "audio": "axe.mp3",
+            "image": "axe.png"
         },
         "word3": {
             "word": "exam",
@@ -4840,8 +4840,8 @@
         "word2": {
             "word": "ax",
             "display": "a<span>x</span>",
-            "audio": "ax.mp3",
-            "image": "ax.png"
+            "audio": "axe.mp3",
+            "image": "axe.png"
         },
         "word3": {
             "word": "six",
