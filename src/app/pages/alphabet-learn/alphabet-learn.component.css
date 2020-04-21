@@ -19,11 +19,9 @@
     display: block;
     position: absolute;
     margin-left: 10vh;
-    /* cursor: pointer; */
     margin-bottom: 3.5vh;
     border: none;
     margin-top: 45vh;
-    opacity: 0.2;
 }
 
 .after-button {
@@ -32,16 +30,13 @@
     display: block;
     position: absolute;
     margin-left: 103vh;
-    /* cursor: pointer; */
     margin-bottom: 3.5vh;
     border: none;
     margin-top: 45vh;
-    opacity: 0.2;
 }
 
 .letter {
   font-size: 19.4vh;
-  font-family: 'ComicSans';
   padding-top: -10vh;
   margin-left: 44vh;
   padding-top: 30vh;

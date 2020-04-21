@@ -1,50 +1,55 @@
-import { Injectable } from '@angular/core';
-import {Router} from '@angular/router';
+import { Injectable, Inject } from '@angular/core';
+import {SESSION_STORAGE, WebStorageService} from 'angular-webstorage-service';
+
+const coinKey = 'COINS';
+const completePuzzlesKey = 'COMPLETED_PUZZLES';
+const puzzlePiecesEarnedKey = 'PUZZLE_PIECES_EARNED';
 
 @Injectable({
   providedIn: 'root'
 })
 export class UserDataService {
 
-  constructor() { }
+  constructor(@Inject(SESSION_STORAGE) private storage: WebStorageService) { }
 
-  private coins = 0;
-  private completePuzzles = [];
-  private puzzlePiecesEarned = {};
-
-  addCoins(amount) {
-    this.coins += amount;
+  addCoins(amount: number) {
+    this.storage.set(coinKey, this.getCoins() + amount);
   }
 
-  getCoins() {
-    return this.coins;
+  getCoins(): number {
+    return this.storage.get(coinKey) || 0;
   }
 
   savePuzzle(puzzlePhoneme) {
-    this.completePuzzles.push(puzzlePhoneme);
+    var completePuzzles = this.getPuzzles();
+    completePuzzles.push(puzzlePhoneme);
+    this.storage.set(completePuzzlesKey, completePuzzles);
   }
 
   getPuzzles() {
-    return this.completePuzzles;
+    return this.storage.get(completePuzzlesKey) || [];
   }
 
   addPuzzlePieces(puzzlePhoneme, amount) {
-    if (puzzlePhoneme in this.puzzlePiecesEarned) {
-      this.puzzlePiecesEarned[puzzlePhoneme] += amount;
-      if (this.puzzlePiecesEarned[puzzlePhoneme] >= 12) {
-        this.puzzlePiecesEarned[puzzlePhoneme] = 12;
-        if (!(puzzlePhoneme in this.completePuzzles)) {
+    var puzzlePiecesEarned = this.storage.get(puzzlePiecesEarnedKey) || {};
+    if (puzzlePhoneme in puzzlePiecesEarned) {
+      puzzlePiecesEarned[puzzlePhoneme] += amount;
+      if (puzzlePiecesEarned[puzzlePhoneme] >= 12) {
+        puzzlePiecesEarned[puzzlePhoneme] = 12;
+        if (!(this.getPuzzles().includes(puzzlePhoneme))) {
           this.savePuzzle(puzzlePhoneme);
         }
       }
     } else {
-      this.puzzlePiecesEarned[puzzlePhoneme] = amount;
+      puzzlePiecesEarned[puzzlePhoneme] = amount;
     }
+    this.storage.set(puzzlePiecesEarnedKey, puzzlePiecesEarned);
   }
 
   getPuzzlePieces(puzzlePhoneme) {
-    if (puzzlePhoneme in this.puzzlePiecesEarned) {
-      return this.puzzlePiecesEarned[puzzlePhoneme];
+    var puzzlePiecesEarned = this.storage.get(puzzlePiecesEarnedKey) || {};
+    if (puzzlePhoneme in puzzlePiecesEarned) {
+      return puzzlePiecesEarned[puzzlePhoneme];
     } else {
       return 0;
     }

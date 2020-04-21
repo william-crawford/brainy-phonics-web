@@ -1,7 +1,26 @@
 <div id='background'>
     <div id='main-body'>
         <div class='column'>
-            <h2>hello you are in coins</h2>
+            <div class='row'>
+                <img src="/assets/img/rewards/armored-car.png" *ngFor="let i of numberToIterable(cars)"
+                     style="height: 20vh"/>
+            </div>
+            <div class='row'>
+                <img src="/assets/img/rewards/money_bag_new.png" *ngFor="let i of numberToIterable(bags)"
+                     style="height: 15vh"/>
+            </div>
+            <div class='row'>
+                <img src="/assets/img/rewards/stack_of_coins_5.png" *ngFor="let i of numberToIterable(stacks)"
+                     style="height: 11vh"/>
+            </div>
+            <div class='row'>
+                <img src="/assets/img/rewards/coin_gold_new.png" *ngFor="let i of numberToIterable(golds)"
+                     style="height: 5vh"/>
+            </div>
+            <div class='row'>
+                <img src="/assets/img/rewards/silver_coin_new.png" *ngFor="let i of numberToIterable(silvers)"
+                     style="height: 5vh"/>
+            </div>
         </div>
     </div>
 

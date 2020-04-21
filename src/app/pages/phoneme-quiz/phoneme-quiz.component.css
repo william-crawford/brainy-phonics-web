@@ -1,9 +1,9 @@
 #background {
-	background-color: #FFFFFF !important;
+	background-color: #FFFFFF;
 }
 
 #side-menu {
-	background-color: #6EC7D4 !important;
+	background-color: #6EC7D4;
 }
 
 #main-body {
@@ -47,13 +47,8 @@
     opacity: 1;
 }
 
-.answer-pane {
-
-}
-
 .letter {
   font-size: 19.4vh;
-  font-family: 'ComicSans';
   padding-top: -10vh;
   padding-bottom: 10vh;
   cursor: pointer;
@@ -78,7 +73,7 @@
   width: 30vh;
   height: 30vh;
   transition: all .5s;
-  transform: scale(1) !important;
+  transform: scale(1);
 }
 
 .word-image-top {
@@ -93,25 +88,31 @@
 }
 
 .animate {
-  transition: all .5s;
-  transform: scale(1.12) !important;
+  transition: all .75s;
+  transform: scale(1.12);
 }
+
+.animate-default {
+  transition: all .5s;
+  transform: scale(1);
+}
+
 .animate-one {
   transition: all .5s;
-  transform: scale(1.12) !important;
+  transform: scale(1.12);
 }
 .animate-two {
   transition: all .5s;
-  transform: scale(1.12) !important;
+  transform: scale(1.12);
 }
 .animate-three {
   transition: all .5s;
-  transform: scale(1.12) !important;
+  transform: scale(1.12);
 }
 
 .animate-puzzle {
   transition: all .5s;
-  transform: scale(1.12) !important;
+  transform: scale(1.12);
 }
 
 /* Text */

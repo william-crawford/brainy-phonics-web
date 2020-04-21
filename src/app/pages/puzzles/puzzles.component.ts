@@ -33,7 +33,6 @@ export class PuzzlesComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit() {
-    console.log(this.userDataService.getPuzzles());
   // set background for completed puzzles
     for (var i = 0; i < this.userDataService.getPuzzles().length; i++) {
       document.getElementById(this.userDataService.getPuzzles()[i]).style.background = "url('../../assets/img/puzzle-pieces/puzzle-"+this.userDataService.getPuzzles()[i]+"/puzzle-"+this.userDataService.getPuzzles()[i]+"-composite.png')";
@@ -48,8 +47,7 @@ export class PuzzlesComponent implements OnInit, AfterViewInit {
 
   select(item: Phoneme) {
     this.transferLetterService.setData(item);
-    if (this.progressService.getStarsFromKey('phoneme' + item.id) == 5) {
-      console.log("true");
+    if (this.progressService.getGoldStarsFromKey('phoneme' + item.id) == 5) {
       this.router.navigate(['puzzle']);
     } else {
       this.router.navigate(['phoneme-learn']);
@@ -60,7 +58,7 @@ export class PuzzlesComponent implements OnInit, AfterViewInit {
     this.location.back();
   }
 
-  setClass(item: Phoneme) {
+  setID(item: Phoneme) {
     return item.id;
   }
 }

@@ -1,12 +1,10 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
-import {RouterModule, Routes} from '@angular/router';
-import {Router} from '@angular/router';
-import {ElementRef} from '@angular/core';
+import {ActivatedRoute, Router} from '@angular/router';
 import {delay} from 'q';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import {ProgressService} from '../../services/progress.service';
+import {UserDataService} from '../../services/user-data.service';
 import {AlphabetLettersService} from '../../services/alphabet-letters.service';
-import * as example from '../../../assets/json/quiz-examples.json';
 import { Location } from '@angular/common';
 import {AlphabetLetter} from '../../types/alphabet-letter';
 
@@ -24,26 +22,43 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
 
     letterPlayAudio: boolean;
     letterAudio: HTMLAudioElement;
+    correctSound: HTMLAudioElement;
 
     letter: AlphabetLetter;
     letterList: AlphabetLetter[];
     isFirstAttempt: boolean;
 
+    quizAll: string;
+    key: number;
+    hasGuessed: boolean;
+
+
     ex1: AlphabetLetter;
     ex2: AlphabetLetter;
     ex3: AlphabetLetter;
     ex4: AlphabetLetter;
-    empty = new AlphabetLetter(' ', '/assets/audio/phonemes/sound-A.mp3', 0);
+    empty = new AlphabetLetter(' ', '/assets/audio/buttons/incorrect.mp3', 0);
 
     constructor(
         private transferService: TransferLetterService,
+        private userDataService: UserDataService,
         private letterProgressService: ProgressService,
         private alphabetLettersService: AlphabetLettersService,
         private router: Router,
-        private location: Location
+        private location: Location,
+        private activatedRoute: ActivatedRoute,
     ) {
-        this.letter = this.transferService.getData() as AlphabetLetter;
+        this.quizAll = this.activatedRoute.snapshot.queryParamMap.get('quizAll');
+
         this.letterList = this.alphabetLettersService.dataImport();
+
+        if (this.quizAll === 'true') {
+            var key = Math.floor(Math.random() * 25);
+            this.key = key;
+            this.letter = this.letterList[key] as AlphabetLetter;
+        } else {
+            this.letter = this.transferService.getData() as AlphabetLetter;
+        }
 
         if (!this.letter) {
             this.router.navigateByUrl('/alphabet-list-all');
@@ -60,8 +75,12 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
     };
 
     ngOnInit() {
+        //sound for correct answer choice
+        this.correctSound = new Audio();
+        this.correctSound.src = `/assets/audio/buttons/correct.mp3`;
+
         this.letterAudio = new Audio();
-        this.letterAudio.src = '/assets/audio/phonemes/sound-A.mp3';
+        this.letterAudio.src = `/assets/audio/letters/${this.letter.audio}`;
         this.letterAudio.load();
         this.letterAudio.onended = () => {
             this.letterAnimate1 = false;
@@ -72,6 +91,7 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
 
         this.playAudio();
         this.isFirstAttempt = true;
+        this.hasGuessed = false;
 
         //randomized randomExamples
         this.loadNew();
@@ -79,6 +99,7 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
 
     ngOnDestroy() {
         this.letterAudio.pause();
+        this.letterAudio = null;
     }
 
     check(selected : AlphabetLetter) {
@@ -112,7 +133,6 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
             this.ex1 = this.empty;
         }
 
-
         this.letterAudio.onended = () => {
             this.letterAnimate1 = false;
             this.letterAnimate2 = false;
@@ -126,24 +146,45 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
             };
         };
 
-        this.letterAudio.play();
-        delay(300).then(() => {
+        // Choose new random alphabet
+        if (this.quizAll) {
+            var key = Math.floor(Math.random() * 25);
+            this.key = key;
+            this.letter = this.letterList[key] as AlphabetLetter;
+
+            this.letterAudio.src = `/assets/audio/letters/${this.letter.audio}`;
+        }
+
+        delay(200).then(() => {
+            this.correctSound.play();
+            delay(800).then(() => {
+                this.playAudio();
+            });
             this.loadNew();
         });
 
         if(this.isFirstAttempt) {
-            if(this.letterProgressService.getActiveStatus("letter" + this.letter.letter)) {
-            //add stars to progress if select correct letter on first attempt and active status is true
-            this.letterProgressService.saveStarsToKey("letter" + this.letter.letter, 1);
-            } else {
-                this.letterProgressService.setActiveStatus("letter" + this.letter.letter, true)
+            this.userDataService.addCoins(2);
+            //add stars to progress if select correct letter on first attempt
+            this.letterProgressService.saveStarsToKey("letter" + this.letter.letter + "gold", 1);
+            if (this.letterProgressService.getSilverStarsFromKey("letter" + this.letter.letter) > 0) {
+                this.letterProgressService.saveStarsToKey("letter" + this.letter.letter + "silv", -1);
             }
+        } else {
+            this.userDataService.addCoins(1);
         }
     }
 
     incorrectAnswer() {
-        this.isFirstAttempt = false;
-        this.letterProgressService.setActiveStatus("letter" + this.letter.letter, false)
+        if(!this.hasGuessed) {
+            this.hasGuessed = true;
+            this.isFirstAttempt = false;
+            const goldStarNum = this.letterProgressService.getGoldStarsFromKey("letter" + this.letter.letter)
+            if (goldStarNum > 0 && goldStarNum < 5) {
+                this.letterProgressService.saveStarsToKey("letter" + this.letter.letter + "gold", -1);
+                this.letterProgressService.saveStarsToKey("letter" + this.letter.letter + "silv", 1);
+            }
+        }
     }
 
     loadNew() {
@@ -157,7 +198,10 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
         this.ex3 = randomExamples[2];
         this.ex4 = randomExamples[3];
 
-        this.playAudio();
+        // delay(500).then(() => {
+        //     this.playAudio();
+        // });
+
         this.isFirstAttempt = true;
     }
 
