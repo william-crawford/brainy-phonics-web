@@ -426,7 +426,7 @@
     },
     {
         "id": "B-begin",
-        "audio": "ERROR",
+        "audio": "phoneme-B-buh.mp3",
         "display": "b",
         "word1": {
             "word": "boy",
@@ -462,7 +462,7 @@
     },
     {
         "id": "B-end",
-        "audio": "ERROR",
+        "audio": "phoneme-B-buh.mp3",
         "display": "b",
         "word1": {
             "word": "cub",
@@ -619,7 +619,7 @@
     },
     {
         "id": "C-hard-begin",
-        "audio": "ERROR",
+        "audio": "phoneme-C-kuh.mp3",
         "display": "c",
         "word1": {
             "word": "cat",
@@ -655,7 +655,7 @@
     },
     {
         "id": "C-hard-end",
-        "audio": "ERROR",
+        "audio": "phoneme-C-kuh.mp3",
         "display": "c",
         "word1": {
             "word": "music",
@@ -897,7 +897,7 @@
     },
     {
         "id": "D-begin",
-        "audio": "ERROR",
+        "audio": "phoneme-D-duh.mp3",
         "display": "d",
         "word1": {
             "word": "dog",
@@ -933,7 +933,7 @@
     },
     {
         "id": "D-end",
-        "audio": "ERROR",
+        "audio": "phoneme-D-duh.mp3",
         "display": "d",
         "word1": {
             "word": "bird",
@@ -1354,7 +1354,7 @@
     },
     {
         "id": "F-begin",
-        "audio": "ERROR",
+        "audio": "phoneme-F-fuh.mp3",
         "display": "f",
         "word1": {
             "word": "fox",
@@ -1390,7 +1390,7 @@
     },
     {
         "id": "F-end",
-        "audio": "ERROR",
+        "audio": "phoneme-F-fuh.mp3",
         "display": "f",
         "word1": {
             "word": "scarf",
@@ -1549,7 +1549,7 @@
     },
     {
         "id": "G-hard-begin",
-        "audio": "ERROR",
+        "audio": "phoneme-G-guh.mp3",
         "display": "g",
         "word1": {
             "word": "goose",
@@ -1585,7 +1585,7 @@
     },
     {
         "id": "G-hard-end",
-        "audio": "ERROR",
+        "audio": "phoneme-G-guh.mp3",
         "display": "g",
         "word1": {
             "word": "frog",
@@ -1785,7 +1785,7 @@
     },
     {
         "id": "H-begin",
-        "audio": "ERROR",
+        "audio": "phoneme-H-huh.mp3",
         "display": "h",
         "word1": {
             "word": "hug",
@@ -2267,7 +2267,7 @@
     },
     {
         "id": "K-begin",
-        "audio": "ERROR",
+        "audio": "phoneme-H-huh.mp3",
         "display": "k",
         "word1": {
             "word": "key",
@@ -2303,7 +2303,7 @@
     },
     {
         "id": "K-end",
-        "audio": "ERROR",
+        "audio": "phoneme-K-kuh.mp3",
         "display": "k",
         "word1": {
             "word": "elk",
@@ -2381,7 +2381,7 @@
     },
     {
         "id": "L-begin",
-        "audio": "ERROR",
+        "audio": "phoneme-L-lll.mp3",
         "display": "l",
         "word1": {
             "word": "love",
@@ -2417,7 +2417,7 @@
     },
     {
         "id": "L-end",
-        "audio": "ERROR",
+        "audio": "phoneme-L-lll.mp3",
         "display": "l",
         "word1": {
             "word": "owl",
@@ -2540,7 +2540,7 @@
     },
     {
         "id": "M-begin",
-        "audio": "ERROR",
+        "audio": "phoneme-M-mmm.mp3",
         "display": "m",
         "word1": {
             "word": "monkey",
@@ -2576,7 +2576,7 @@
     },
     {
         "id": "M-end",
-        "audio": "ERROR",
+        "audio": "phoneme-M-mmm.mp3",
         "display": "m",
         "word1": {
             "word": "swim",
@@ -2656,7 +2656,7 @@
     },
     {
         "id": "N-begin",
-        "audio": "ERROR",
+        "audio": "phoneme-N-nnn.mp3",
         "display": "n",
         "word1": {
             "word": "noise",
@@ -2692,7 +2692,7 @@
     },
     {
         "id": "N-end",
-        "audio": "ERROR",
+        "audio": "phoneme-N-nnn.mp3",
         "display": "n",
         "word1": {
             "word": "rain",
@@ -3398,7 +3398,7 @@
     },
     {
         "id": "P-begin",
-        "audio": "ERROR",
+        "audio": "phoneme-P-puh.mp3",
         "display": "p",
         "word1": {
             "word": "puppy",
@@ -3434,7 +3434,7 @@
     },
     {
         "id": "P-end",
-        "audio": "ERROR",
+        "audio": "phoneme-P-puh.mp3",
         "display": "p",
         "word1": {
             "word": "drop",
@@ -3589,7 +3589,7 @@
     },
     {
         "id": "Q-begin",
-        "audio": "ERROR",
+        "audio": "phoneme-Q-qwuh.mp3",
         "display": "q",
         "word1": {
             "word": "queen",
@@ -3667,7 +3667,7 @@
     },
     {
         "id": "R-begin",
-        "audio": "ERROR",
+        "audio": "phoneme-R-ruh.mp3",
         "display": "r",
         "word1": {
             "word": "raccoons",
@@ -3703,7 +3703,7 @@
     },
     {
         "id": "R-end",
-        "audio": "ERROR",
+        "audio": "phoneme-R-ruh.mp3",
         "display": "r",
         "word1": {
             "word": "door",
@@ -3783,7 +3783,7 @@
     },
     {
         "id": "S-begin",
-        "audio": "ERROR",
+        "audio": "phoneme-S-sss.mp3",
         "display": "s",
         "word1": {
             "word": "suitcase",
@@ -4186,7 +4186,7 @@
     },
     {
         "id": "T-begin",
-        "audio": "ERROR",
+        "audio": "phoneme-T-tttt.mp3",
         "display": "t",
         "word1": {
             "word": "toe",
@@ -4222,7 +4222,7 @@
     },
     {
         "id": "T-end",
-        "audio": "ERROR",
+        "audio": "phoneme-T-tttt.mp3",
         "display": "t",
         "word1": {
             "word": "net",
@@ -4598,7 +4598,7 @@
     },
     {
         "id": "V-begin",
-        "audio": "ERROR",
+        "audio": "phoneme-V-vv.mp3",
         "display": "v",
         "word1": {
             "word": "volcano",
@@ -4673,7 +4673,7 @@
     },
     {
         "id": "W-begin",
-        "audio": "ERROR",
+        "audio": "phoneme-W-wuh.mp3",
         "display": "w",
         "word1": {
             "word": "wagon",
@@ -4793,7 +4793,7 @@
     },
     {
         "id": "X-begin",
-        "audio": "ERROR",
+        "audio": "phoneme-X-ks.mp3",
         "display": "x",
         "word1": {
             "word": "excavator",
@@ -4829,7 +4829,7 @@
     },
     {
         "id": "X-end",
-        "audio": "ERROR",
+        "audio": "phoneme-X-ks.mp3",
         "display": "x",
         "word1": {
             "word": "fox",
@@ -4905,7 +4905,7 @@
     },
     {
         "id": "Y-begin",
-        "audio": "ERROR",
+        "audio": "phoneme-Y-yuh.mp3",
         "display": "y",
         "word1": {
             "word": "yellow",
@@ -5071,7 +5071,7 @@
     },
     {
         "id": "Z-begin",
-        "audio": "ERROR",
+        "audio": "phoneme-Z-zzz.mp3",
         "display": "z",
         "word1": {
             "word": "zebra",
@@ -5107,7 +5107,7 @@
     },
     {
         "id": "Z-end",
-        "audio": "ERROR",
+        "audio": "phoneme-Z-zzz.mp3",
         "display": "z",
         "word1": {
             "word": "quiz",
