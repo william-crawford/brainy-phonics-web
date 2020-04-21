@@ -305,7 +305,8 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         delay(1000).then(() => {
             this.playAudio();
         });
-
+        
+        this.isFirstAttempt = true;
     }
 
     loadNew() {
