@@ -37,7 +37,7 @@
     flex: 0 1 calc(33.3% - 4.7vh);
     height: 38vh;
     margin-top: 5vh;
-    margin-right: 32px;
+    margin-right: 4.7vh;
     border-radius: 2.8vh;
     cursor: pointer;
     background-color: #FFFFFF;
@@ -79,33 +79,31 @@ p {
     -webkit-appearance: none;
     width: 9.5vh;
     background-color: #f4f5f6;
-    box-shadow: 0px 0px 2px rgba(0,0,0,0.3);
+    /* background-color: #d3e3ee; */
+    box-shadow: 0vh 0vh .3vh rgba(0,0,0,0.3);
 }
 ::-webkit-scrollbar-thumb {
     background-color: #3475ae;
     border: 0.5vh solid #fff;
     border-radius: 1.5vh;
-    box-shadow: 0px 0px 2px rgba(0,0,0,0.3);
+    box-shadow: 0vh 0vh .3vh rgba(0,0,0,0.3);
 }
-
 ::-webkit-scrollbar-button {
     background-size: 100%;
     border: 0.5vh solid #fff;
     border-radius: 1.5vh;
     height: 9.5vh;
     background-color: #3475ae;
-    box-shadow: 0px 0px 2px rgba(0,0,0,0.3);
+    box-shadow: 0vh 0vh .3vh rgba(0,0,0,0.3);
 }
 ::-webkit-scrollbar-button:decrement {
-    background-image: url('../../../assets/img/buttons/up.png');
+    background-image: url('../../../assets/img/buttons/scroll-up.png');
     background-position: center;
 }
-
 ::-webkit-scrollbar-button:increment {
-    background-image: url('../../../assets/img/buttons/down.png');
+    background-image: url('../../../assets/img/buttons/scroll-down.png');
     background-position: center;
 }
-
 ::-webkit-scrollbar-button:increment:start,
 ::-webkit-scrollbar-button:decrement:end {
     display: none;

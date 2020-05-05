@@ -1,5 +1,6 @@
 #background {
-	background-color: #FFFFFF !important;
+  background-color: #FFFFFF !important;
+  overflow: visible !important;
 }
 
 #side-menu {
@@ -9,7 +10,7 @@
 #main-body {
     width: 164vh;
     height: 0vh;
-    padding-left: 22vh;
+    padding-left: 17vh;
     position: relative;
   }
 
@@ -19,15 +20,15 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
-    overflow: scroll;
+    overflow-x: scroll;
 }
 
 /* Item sizing */
 .cardListItem {
-  width: 32vh;
-  height: 42vh;
-  margin-top: 4.5vh;
-  margin-right: 32px;
+  width: 30vh;
+  height: 39vh;
+  margin-top: 3.5vh;
+  margin-left: 4vh;
   cursor: pointer;
   border: none;
   background-color: #ECF9EF;
@@ -41,4 +42,39 @@
 
 #background {
   overflow: visible;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  height: 9.5vh;
+  background-color: #f4f5f6;
+  /* background-color: #d3e3ee; */
+  box-shadow: 0vh 0vh .3vh rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+  background-color: #3475ae;
+  border: 0.5vh solid #fff;
+  border-radius: 1.5vh;
+  box-shadow: 0vh 0vh .3vh rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-button {
+  background-size: 100%;
+  border: 0.5vh solid #fff;
+  border-radius: 1.5vh;
+  width: 9.5vh;
+  background-color: #3475ae;
+  box-shadow: 0vh 0vh .3vh rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-button:decrement {
+  background-image: url('../../../assets/img/buttons/scroll-left.png');
+  background-position: center;
+}
+::-webkit-scrollbar-button:increment {
+  background-image: url('../../../assets/img/buttons/scroll-right.png');
+  background-position: center;
+}
+::-webkit-scrollbar-button:increment:start,
+::-webkit-scrollbar-button:decrement:end {
+  display: none;
 }
