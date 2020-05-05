@@ -1,3 +1,6 @@
+#background {
+    overflow: visible !important;
+}
 #main-body {
     width: 169.7vh;
     height: 0vh;
@@ -21,7 +24,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 /* Column Gap */
@@ -31,7 +34,7 @@
 
 /* Item sizing */
 .cardListItem {
-    flex: 0 1 calc(33.3% - 6.5vh);
+    flex: 0 1 calc(33.3% - 4.7vh);
     height: 38vh;
     margin-top: 5vh;
     margin-right: 32px;
@@ -69,4 +72,41 @@ p {
 .word-image {
     width: 50%;
     transform: translate(22vh, -20vh);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 9.5vh;
+    background-color: #f4f5f6;
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+    background-color: #3475ae;
+    border: 0.5vh solid #fff;
+    border-radius: 1.5vh;
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.3);
+}
+
+::-webkit-scrollbar-button {
+    background-size: 100%;
+    border: 0.5vh solid #fff;
+    border-radius: 1.5vh;
+    height: 9.5vh;
+    background-color: #3475ae;
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-button:decrement {
+    background-image: url('../../../assets/img/buttons/up.png');
+    background-position: center;
+}
+
+::-webkit-scrollbar-button:increment {
+    background-image: url('../../../assets/img/buttons/down.png');
+    background-position: center;
+}
+
+::-webkit-scrollbar-button:increment:start,
+::-webkit-scrollbar-button:decrement:end {
+    display: none;
 }
