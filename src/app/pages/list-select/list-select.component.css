@@ -78,12 +78,11 @@ p {
 ::-webkit-scrollbar {
     -webkit-appearance: none;
     width: 9.5vh;
-    background-color: #f4f5f6;
-    /* background-color: #d3e3ee; */
+    background-color: #e6f6f7;
     box-shadow: 0vh 0vh .3vh rgba(0,0,0,0.3);
 }
 ::-webkit-scrollbar-thumb {
-    background-color: #3475ae;
+    background-color: #60a0bd;
     border: 0.5vh solid #fff;
     border-radius: 1.5vh;
     box-shadow: 0vh 0vh .3vh rgba(0,0,0,0.3);
@@ -93,7 +92,7 @@ p {
     border: 0.5vh solid #fff;
     border-radius: 1.5vh;
     height: 9.5vh;
-    background-color: #3475ae;
+    background-color: #60a0bd;
     box-shadow: 0vh 0vh .3vh rgba(0,0,0,0.3);
 }
 ::-webkit-scrollbar-button:decrement {
