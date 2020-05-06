@@ -168,7 +168,6 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     }
 
     ngOnInit() {
-
         this.quizPhoneme = data.find(o => o.id == this.phoneme.id)
         this.phoneme.puzzlePiecesEarned = this.userDataService.getPuzzlePieces(this.phoneme.id)
 
@@ -184,7 +183,26 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         this.ex2Audio = new Audio();
         this.ex3Audio = new Audio();
 
-        this.loadNew();
+        this.correctAnswer = Math.floor(Math.random() * 3);
+
+        var examples = this.generateExamples();
+        var temp = examples[this.correctAnswer];
+        examples[this.correctAnswer] = examples[0];
+        examples[0] = temp;
+
+        this.img1 = '/assets/img/sight-words/' + examples[0] + '.png';
+        this.img2 = '/assets/img/sight-words/' + examples[1] + '.png';
+        this.img3 = '/assets/img/sight-words/' + examples[2] + '.png';
+
+        this.ex1Audio.src = '/assets/audio/sight-words/' + examples[0] + '.mp3';
+        this.ex2Audio.src = '/assets/audio/sight-words/' + examples[1] + '.mp3';
+        this.ex3Audio.src = '/assets/audio/sight-words/' + examples[2] + '.mp3';
+
+        this.ex1Audio.load();
+        this.ex2Audio.load();
+        this.ex3Audio.load();
+        
+        this.playAudio();
 
         this.phonemeAudio.onended = () => {
             this.phonemeAnimate = false;
@@ -210,8 +228,6 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         this.ex3Audio.onended = () => {
             this.ex3Animate = false;
         };
-
-        this.playAudio();
 
         this.isFirstAttempt = true;
         this.hasGuessed = false;
@@ -254,24 +270,9 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     }
 
     playAudio() {
-        this.stopAudioAndAnimation()
+        this.stopAudioAndAnimation();
 
         this.phonemeAnimate = true;
-        this.phonemeAudio.play();
-    }
-
-    playPhonemeAudio() {
-        this.phonemeAnimate = true;
-        this.phonemeAudio.onended = () => {
-            this.phonemeAnimate = false;
-            this.phonemeAudio.onended = () => {
-                this.phonemeAnimate = false;
-                this.ex1Animate = true;
-                delay(250).then(() => {
-                    this.ex1Audio.play();
-                });
-            };
-        };
         this.phonemeAudio.play();
     }
 
@@ -293,41 +294,47 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         this.phoneme.puzzlePiecesEarned = this.userDataService.getPuzzlePieces(this.phoneme.id);
         this.piecesToAnimate = this.phoneme.puzzlePiecesEarned - initialPuzzlePieces;
 
-
         this.correctAudio.play();
 
         if (this.phoneme.puzzlePiecesEarned == 12) {
-            this.phonemeProgressService.setCheckMark("phoneme" + this.phoneme.id, true);
-            if (this.quizAll) {
-                this.loadNewPhoneme();
-            }
-            this.loadNew();
-    
+            // Add checkmark
+            this.phonemeProgressService.setCheckMark("phoneme" + this.phoneme.id, true);   
+            
+            // Update puzzle view
             this.puzzleAnimate = true;
             delay(900).then(() => {
                 this.puzzleAnimate = false;
                 this.changeDetectorRef.detectChanges();
             });
-            delay(1100).then(() => {
-                this.openModal();
-            });
+
+            // Open rhyme modal
+            if (this.quizAll) {
+                delay(1100).then(() => {
+                    this.openModal();
+                });
+            } else {
+                this.loadNew();
+                delay(1100).then(() => {
+                    this.openModal();
+                });
+            }
         } else {
-            if (this.quizAll) {
-                this.loadNewPhoneme();
-            }
-            this.loadNew();
-    
+            // Update puzzle view
             this.puzzleAnimate = true;
             delay(900).then(() => {
                 this.puzzleAnimate = false;
                 this.changeDetectorRef.detectChanges();
             });
-            
-            delay(1000).then(() => {
-                this.playAudio();
-            });
-            
             this.isFirstAttempt = true;
+
+            // Update examples
+            if (this.quizAll) {
+                delay(900).then(() => {
+                    this.loadNewPhoneme();
+                });
+            } else {
+                this.loadNew();
+            }
         }
     }
 
@@ -351,6 +358,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         this.ex2Audio.load();
         this.ex3Audio.load();
 
+        this.playAudio();
     }
 
     // Function for Quiz-All; selects a new random phoneme to quiz on;
@@ -378,6 +386,23 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         this.key = key;
         this.phoneme = this.data[key];
         this.quizPhoneme = data.find(o => o.id == this.phoneme.id);
+
+        // Update phoneme references
+        this.puzzleDirectory = '../../assets/img/puzzle-pieces/puzzle-' + this.phoneme.id;
+        this.phoneme.puzzlePiecesEarned = this.userDataService.getPuzzlePieces(this.phoneme.id)
+        for (let i = 0; i <= 3; i++) {
+            for (let j = 0; j <= 2; j++) {
+                this.puzzlePieceImages.push(
+                    this.puzzleDirectory + '/puzzle-' + this.phoneme.id + '-row' + i + '-col' + j + '.png'
+                );
+            }
+        }
+        this.phonemeAudio.src = this.phoneme.audio;
+        this.phonemeAudio.load();
+        this.puzzleimg = '../../assets/img/puzzle-pieces/puzzle-'+ this.phoneme.id +'/puzzle-' + this.phoneme.id + '-composite.png';
+        this.text = this.phoneme.rhyme.replace(/[(]/g, '<span>').replace(/[)]/g, '</span>').replace(/;/g, ',');
+
+        this.loadNew();
     }
 
     generateExamples() {
@@ -460,45 +485,6 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         }
     }
 
-    playEx1Audio() {
-        this.ex1Animate = true;
-        this.ex1Audio.onended = () => {
-            this.ex1Animate = false;
-            this.ex1Audio.onended = () => {
-                this.ex1Animate = false;
-                this.ex2Animate = true;
-                delay(250).then(() => {
-                    this.ex2Audio.play();
-                });
-            };
-        };
-        this.ex1Audio.play();
-    }
-
-    playEx2Audio() {
-        this.ex2Animate = true;
-        this.ex2Audio.onended = () => {
-            this.ex2Animate = false;
-            this.ex2Audio.onended = () => {
-                this.ex2Animate = false;
-                this.ex3Animate = true;
-                delay(250).then(() => {
-                    this.ex3Audio.play();
-                });
-            };
-        };
-        this.ex2Audio.play();
-    }
-
-    playEx3Audio() {
-        this.ex3Animate = true;
-        this.ex3Audio.onended = () => {
-            this.ex3Animate = false;
-        };
-
-        this.ex3Audio.play();
-    }
-
     openModal() {
         this.modalService.open('rhyme-modal');
         this.rhyme = new Audio();
@@ -516,9 +502,8 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         this.modalService.close('rhyme-modal');
         this.rhyme.pause();
         this.rhyme = null;
-
-        delay(1000).then(() => {
-            this.playAudio();
-        });
+        if (this.quizAll) {
+            this.loadNewPhoneme();
+        }
     }
 }
