@@ -3,6 +3,7 @@ import {Location} from '@angular/common';
 import {Injectable} from '@angular/core';
 import {Phoneme} from '../../types/phoneme';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
+import {ActivatedRoute, Router} from '@angular/router';
 
 @Component({
   templateUrl: './puzzle.component.html',
@@ -18,8 +19,13 @@ export class PuzzleComponent implements OnInit, OnDestroy {
 
   constructor(
     private transferService: TransferLetterService,
-    private location: Location
+    private location: Location,
+    private router: Router,
+    private activatedRoute: ActivatedRoute
+    
   ) { 
+    let from = this.activatedRoute.snapshot.queryParamMap.get('from');
+
     // get phoneme data
     this.phoneme = this.transferService.getData() as Phoneme;
     this.img = '../../assets/img/puzzle-pieces/puzzle-'+ this.phoneme.id +'/puzzle-' + this.phoneme.id + '-composite.png';
@@ -29,6 +35,11 @@ export class PuzzleComponent implements OnInit, OnDestroy {
     this.rhyme = new Audio();
     this.rhyme.src = '../../assets/audio/rhymes/puzzle-' + this.phoneme.id +'-rhyme.mp3';
     this.rhyme.load();
+    if (from == 'quiz') {
+      this.rhyme.onended = () => {
+        this.goBack();
+      };
+    }
     this.playAudio();
   }
 
@@ -48,6 +59,7 @@ export class PuzzleComponent implements OnInit, OnDestroy {
 }
 
   goBack() {
+    this.transferService.setData(this.phoneme);
     this.location.back();
   }
 }

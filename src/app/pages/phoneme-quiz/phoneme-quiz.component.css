@@ -133,25 +133,3 @@ p {
     background: url('../../../assets/img/buttons/forward.png') no-repeat scroll 0 0 transparent;
     background-size: 9.5vh 9.5vh;
 }
-
-/* Modal */
-#puzzle-image {
-  width: 68vh;
-  height: 90vh;
-  margin: 3vh 0 0 10vh;
-  vertical-align: middle;
-}
-#rhyme {
-  font-family: Arial, Helvetica, sans-serif !important;
-  display: inline-block;
-  text-align: left;
-  width: 80vh;
-  font-size: 3.3vh;
-  margin: 3vh 0 0 5vh;
-  vertical-align: middle;
-  line-height: 5.5vh;
-}
-#rhyme ::ng-deep span {
-  color: red;
-  font-family: Arial, Helvetica, sans-serif !important;
-}

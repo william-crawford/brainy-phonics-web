@@ -1499,8 +1499,8 @@
         "word3": {
             "word": "frying pan",
             "display": "<span>fr</span>ying pan",
-            "audio": "frying pan.mp3",
-            "image": "frying pan.png"
+            "audio": "fryingpan.mp3",
+            "image": "fryingpan.png"
         },
         "quiz-words": [
             "fridge",
@@ -2874,8 +2874,8 @@
         "word3": {
             "word": "polar bear",
             "display": "p<span>o</span>lar bear",
-            "audio": "polarbear.mp3",
-            "image": "polarbear.png"
+            "audio": "polar bear.mp3",
+            "image": "polar bear.png"
         },
         "quiz-words": [
             "yo-yo",
@@ -3668,8 +3668,8 @@
         "word3": {
             "word": "polar bear",
             "display": "pola<span>r</span> bea<span>r</span>",
-            "audio": "polarbear.mp3",
-            "image": "polarbear.png"
+            "audio": "polar bear.mp3",
+            "image": "polar bear.png"
         },
         "quiz-words": [
             "car",

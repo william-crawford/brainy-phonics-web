@@ -22,11 +22,10 @@ import {VowelConsonantBlendsService} from '../../services/vowelConsonantBlends.s
 import {VowelPairsService} from '../../services/vowelPairs.service';
 import {KindergartenService} from '../../services/kindergarten.service';
 import {ChangeDetectorRef} from '@angular/core';
-import {ModalService} from '../../services/modal.service';
 
 @Component({
     templateUrl: 'phoneme-quiz.component.html',
-    styleUrls: ['phoneme-quiz.component.css', '../../components/modal/modal.css']
+    styleUrls: ['phoneme-quiz.component.css']
 })
 
 export class PhonemeQuizComponent implements OnInit, OnDestroy {
@@ -47,6 +46,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     ex3PlayAudio: boolean;
     ex3Audio: HTMLAudioElement;
 
+    rhymeAudio: HTMLAudioElement;
     correctAudio: HTMLAudioElement;
 
     data: Phoneme[] | Vowels[] | ConsonantBlends[] | Consonants[] | VowelConsonantBlends[] | VowelPairs[] | Kindergarten[];
@@ -78,7 +78,6 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         private transferService: TransferLetterService,
         private userDataService: UserDataService,
         private phonemeProgressService: ProgressService,
-        private modalService: ModalService,
         private router: Router,
         private location: Location,
         private activatedRoute: ActivatedRoute,
@@ -164,12 +163,15 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
 
     goBack(){
         this.transferService.setData(this.phoneme);
-        this.location.back();
+        window.history.go(-1);
     }
 
     ngOnInit() {
         this.quizPhoneme = data.find(o => o.id == this.phoneme.id)
         this.phoneme.puzzlePiecesEarned = this.userDataService.getPuzzlePieces(this.phoneme.id)
+        if (this.phoneme.puzzlePiecesEarned == 12) {
+            this.puzzleComplete = true;
+        }
 
         this.correctAudio = new Audio();
         this.correctAudio.src = '/assets/audio/buttons/correct.mp3';
@@ -190,13 +192,13 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         examples[this.correctAnswer] = examples[0];
         examples[0] = temp;
 
-        this.img1 = '/assets/img/sight-words/' + examples[0] + '.png';
-        this.img2 = '/assets/img/sight-words/' + examples[1] + '.png';
-        this.img3 = '/assets/img/sight-words/' + examples[2] + '.png';
+        this.img1 = '/assets/img/sight-words/' + examples[0].replace(/\s/g, '') + '.png';
+        this.img2 = '/assets/img/sight-words/' + examples[1].replace(/\s/g, '') + '.png';
+        this.img3 = '/assets/img/sight-words/' + examples[2].replace(/\s/g, '') + '.png';
 
-        this.ex1Audio.src = '/assets/audio/sight-words/' + examples[0] + '.mp3';
-        this.ex2Audio.src = '/assets/audio/sight-words/' + examples[1] + '.mp3';
-        this.ex3Audio.src = '/assets/audio/sight-words/' + examples[2] + '.mp3';
+        this.ex1Audio.src = '/assets/audio/sight-words/' + examples[0].replace(/\s/g, '') + '.mp3';
+        this.ex2Audio.src = '/assets/audio/sight-words/' + examples[1].replace(/\s/g, '') + '.mp3';
+        this.ex3Audio.src = '/assets/audio/sight-words/' + examples[2].replace(/\s/g, '') + '.mp3';
 
         this.ex1Audio.load();
         this.ex2Audio.load();
@@ -249,6 +251,11 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         this.ex3Audio.pause();
         this.ex3Audio = null;
         this.ex3Animate = false;
+
+        if (this.rhymeAudio) {
+            this.rhymeAudio.pause();
+            this.rhymeAudio = null;
+        }
     }
 
     stopAudioAndAnimation() {
@@ -298,7 +305,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
 
         if (this.phoneme.puzzlePiecesEarned == 12) {
             // Add checkmark
-            this.phonemeProgressService.setCheckMark("phoneme" + this.phoneme.id, true);   
+            this.phonemeProgressService.setCheckMark("phoneme" + this.phoneme.id, true);
             
             // Update puzzle view
             this.puzzleAnimate = true;
@@ -306,17 +313,13 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
                 this.puzzleAnimate = false;
                 this.changeDetectorRef.detectChanges();
             });
-
-            // Open rhyme modal
-            if (this.quizAll) {
-                delay(1100).then(() => {
-                    this.openModal();
-                });
+            if (this.puzzleComplete == false) {
+                //Navigate to rhyme page
+                this.transferService.setData(this.phoneme);
+                this.router.navigate(['puzzle'], { queryParams: { 'from': 'quiz' } });
             } else {
+                this.puzzleComplete = true;
                 this.loadNew();
-                delay(1100).then(() => {
-                    this.openModal();
-                });
             }
         } else {
             // Update puzzle view
@@ -330,7 +333,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
             // Update examples
             if (this.quizAll) {
                 delay(900).then(() => {
-                    this.loadNewPhoneme();
+                    window.location.reload();
                 });
             } else {
                 this.loadNew();
@@ -359,50 +362,6 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         this.ex3Audio.load();
 
         this.playAudio();
-    }
-
-    // Function for Quiz-All; selects a new random phoneme to quiz on;
-    loadNewPhoneme() {
-        // Chooses a random phoneme that belongs in its category
-        var key = 0;
-
-        if (!this.list || this.list === '') {
-            this.router.navigate(['']);
-        } else if (this.list === 'phoneme') {
-            key = Math.floor(Math.random() * 92);
-        } else if (this.list === 'vowels') {
-            key = Math.floor(Math.random() * 17);
-        } else if (this.list === 'consonantBlends') {
-            key = Math.floor(Math.random() * 15);
-        } else if (this.list === 'consonants') {
-            key = Math.floor(Math.random() * 22);
-        } else if (this.list === 'vowelConsonants') {
-            key = Math.floor(Math.random() * 10);
-        } else if (this.list === 'vowelPairs') {
-            key = Math.floor(Math.random() * 15);
-        } else if (this.list === 'kindergarten') {
-            key = Math.floor(Math.random() * 53);
-        }
-        this.key = key;
-        this.phoneme = this.data[key];
-        this.quizPhoneme = data.find(o => o.id == this.phoneme.id);
-
-        // Update phoneme references
-        this.puzzleDirectory = '../../assets/img/puzzle-pieces/puzzle-' + this.phoneme.id;
-        this.phoneme.puzzlePiecesEarned = this.userDataService.getPuzzlePieces(this.phoneme.id)
-        for (let i = 0; i <= 3; i++) {
-            for (let j = 0; j <= 2; j++) {
-                this.puzzlePieceImages.push(
-                    this.puzzleDirectory + '/puzzle-' + this.phoneme.id + '-row' + i + '-col' + j + '.png'
-                );
-            }
-        }
-        this.phonemeAudio.src = this.phoneme.audio;
-        this.phonemeAudio.load();
-        this.puzzleimg = '../../assets/img/puzzle-pieces/puzzle-'+ this.phoneme.id +'/puzzle-' + this.phoneme.id + '-composite.png';
-        this.text = this.phoneme.rhyme.replace(/[(]/g, '<span>').replace(/[)]/g, '</span>').replace(/;/g, ',');
-
-        this.loadNew();
     }
 
     generateExamples() {
@@ -482,28 +441,6 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
                 this.phonemeProgressService.saveStarsToKey("phoneme" + this.phoneme.id + "gold", -1);
                 this.phonemeProgressService.saveStarsToKey("phoneme" + this.phoneme.id + "silv", 1);
             }
-        }
-    }
-
-    openModal() {
-        this.modalService.open('rhyme-modal');
-        this.rhyme = new Audio();
-        this.rhyme.src = '../../assets/audio/rhymes/puzzle-' + this.phoneme.id +'-rhyme.mp3';
-        this.rhyme.load();
-        this.rhyme.play();
-        this.rhyme.onended = () => {
-            delay(100).then(() => {
-                this.closeModal();
-            });
-        };
-    }
-
-    closeModal() {
-        this.modalService.close('rhyme-modal');
-        this.rhyme.pause();
-        this.rhyme = null;
-        if (this.quizAll) {
-            this.loadNewPhoneme();
         }
     }
 }
