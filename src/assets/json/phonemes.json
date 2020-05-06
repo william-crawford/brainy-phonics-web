@@ -3241,10 +3241,10 @@
             "image": "snow.png"
         },
         "word3": {
-            "word": "bow and arrow",
+            "word": "bow and arrows",
             "display": "b<span>ow</span> and arr<span>ow</span>",
-            "audio": "bowandarrow.mp3",
-            "image": "bowandarrow.png"
+            "audio": "bow and arrows.mp3",
+            "image": "bow and arrows.png"
         },
         "quiz-words": [
             "window",
@@ -3710,7 +3710,7 @@
         "quiz-words": [
             "rainbow",
             "rabbit",
-            "bow and arrow",
+            "bow and arrows",
             "rocket",
             "polar bear",
             "rake",
@@ -4854,7 +4854,7 @@
             "image": "yellow.png"
         },
         "word2": {
-            "word": "yoyo",
+            "word": "yo-yo",
             "display": "<span>y</span>oyo",
             "audio": "yoyo.mp3",
             "image": "yoyo.png"
