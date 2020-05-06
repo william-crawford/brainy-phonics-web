@@ -24,7 +24,16 @@
     				<img src={{img3}} class='word-image word-image-bottom' (click)='onClick3()'>
     				<br>
     			</div>
-    		</div>
+            </div>
+            <modal id="rhyme-modal">
+                <div class="modal">
+                    <div class="modal-body">
+                        <img src={{puzzleimg}} id='puzzle-image'>
+                        <div id='rhyme' [innerHtml]='text'></div>
+                    </div>
+                </div>
+                <div class="modal-background"></div>
+            </modal>
         </div>
 	</div>
 
