@@ -37,7 +37,7 @@ export class ConsonantBlendsService {
     const data: Array<any> = json.default.valueOf();
 
     for (var i = 0; i < data.length; i++) {
-        if (data[i].category === "CB") {
+        if (data[i].category.includes("CB")) {
             temp.push(
             new ConsonantBlends(
               data[i].id,

@@ -37,7 +37,7 @@ export class PhonemesService {
     const data: Array<any> = json.default.valueOf();
 
     for (var i = 0; i < data.length; i++) {
-        if (data[i].grade !== "K-only") {
+        if (!data[i].grade.includes("K-only")) {
             temp.push(
             new Phoneme(
               data[i].id,

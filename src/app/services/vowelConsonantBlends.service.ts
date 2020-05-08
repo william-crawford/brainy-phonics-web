@@ -37,7 +37,7 @@ export class VowelConsonantBlendsService {
     const data: Array<any> = json.default.valueOf();
 
     for (var i = 0; i < data.length; i++) {
-        if (data[i].category === "VC") {
+        if (data[i].category.includes("VC")) {
             temp.push(
             new VowelConsonantBlends(
               data[i].id,

@@ -37,7 +37,7 @@ export class KindergartenService {
     const data: Array<any> = json.default.valueOf();
 
     for (var i = 0; i < data.length; i++) {
-        if (data[i].grade === "K" || data[i].grade === "K-only") {
+        if (data[i].grade.includes("K") || data[i].grade.includes("K-only")) {
             temp.push(
             new Kindergarten(
               data[i].id,

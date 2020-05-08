@@ -37,7 +37,7 @@ export class VowelPairsService {
     const data: Array<any> = json.default.valueOf();
 
     for (var i = 0; i < data.length; i++) {
-        if (data[i].category === "VP") {
+        if (data[i].category.includes("VP")) {
             temp.push(
             new VowelPairs(
               data[i].id,

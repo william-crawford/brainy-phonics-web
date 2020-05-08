@@ -37,7 +37,7 @@ export class ConsonantsService {
     const data: Array<any> = json.default.valueOf();
 
     for (var i = 0; i < data.length; i++) {
-        if (data[i].category === "C") {
+        if (data[i].category.includes("C")) {
             temp.push(
             new Consonants(
               data[i].id,

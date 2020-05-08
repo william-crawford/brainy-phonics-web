@@ -10,10 +10,10 @@
             "image": "ape.png"
         },
         "word2": {
-            "word": "volcano",
-            "display": "volc<span>a</span>no",
-            "audio": "volcano.mp3",
-            "image": "volcano.png"
+            "word": "make",
+            "display": "m<span>a</span>ke",
+            "audio": "make.mp3",
+            "image": "make.png"
         },
         "word3": {
             "word": "cake",
@@ -23,17 +23,11 @@
         },
         "quiz-words": [
             "skate",
-            "tail",
-            "suitcase",
-            "crayons",
-            "baby",
-            "grapes",
-            "playground",
-            "jay",
-            "cradle",
+            "crane",
             "face",
             "whale",
-            "crane"
+            "baby",
+            "cradle"
         ],
         "color": {
             "all": "black",
@@ -41,8 +35,8 @@
             "K": "black"
         },
         "rhyme": "Pat a c(a)ke; pat a c(a)ke; B(a)ker's man;</br>B(a)ke me a c(a)ke as fast as you can.</br>Pit it and pat it and mark it with B;</br>And put it in the oven for B(a)by and me.",
-        "category": "V",
-        "grade": "K"
+        "category": ["V"],
+        "grade": ["K"]
     },
     {
         "id": "A-short",
@@ -61,16 +55,15 @@
             "image": "cat.png"
         },
         "word3": {
-            "word": "wagon",
-            "display": "w<span>a</span>gon",
-            "audio": "wagon.mp3",
-            "image": "wagon.png"
+            "word": "ax",
+            "display": "<span>a</span>x",
+            "audio": "ax.mp3",
+            "image": "ax.png"
         },
         "quiz-words": [
-            "axe",
+            "clam",
             "taxi",
             "wagon",
-            "clam",
             "hamster",
             "raccoons",
             "camel",
@@ -84,60 +77,56 @@
             "K": "green"
         },
         "rhyme": "B(a)t; b(a)t;</br>Come under my h(a)t;</br>And I'll give you a slice of bacon;</br>And when I bake;</br>I'll give you a cake;</br>If I am not mistaken.",
-        "category": "V",
-        "grade": "K"
+        "category": ["V"],
+        "grade": ["K"]
     },
     {
         "id": "A-ahh",
         "audio": "phoneme-A-ahh.mp3",
         "display": "a",
         "word1": {
+            "word": "ball",
+            "display": "b<span>a</span>ll",
+            "audio": "ball.mp3",
+            "image": "ball.png"
+        },
+        "word2": {
+            "word": "fall",
+            "display": "f<span>a</span>ll",
+            "audio": "fall.mp3",
+            "image": "fall.png"
+        },
+        "word3": {
             "word": "swan",
             "display": "sw<span>a</span>n",
             "audio": "swan.mp3",
             "image": "swan.png"
         },
-        "word2": {
-            "word": "father",
-            "display": "f<span>a</span>ther",
-            "audio": "father.mp3",
-            "image": "father.png"
-        },
-        "word3": {
-            "word": "squash",
-            "display": "squ<span>a</span>sh",
-            "audio": "squash.mp3",
-            "image": "squash.png"
-        },
         "quiz-words": [
-            "saw",
-            "swan",
-            "fall",
-            "hawk",
+            "small",
+            "father",
             "walnuts",
-            "fall",
-            "draw",
             "walrus",
-            "ball"
+            "squash"
         ],
         "color": {
-            "all": "purple",
-            "vowel": "purple",
-            "K": "purple"
+            "all": "pink",
+            "vowel": "pink",
+            "K": "pink"
         },
         "rhyme": "Children call me F(a)ther Goose,</br>Because when I w(a)nt to w(a)nder,</br>I ride through the air</br>On a very fine gander.</br>",
-        "category": "V",
-        "grade": "K"
+        "category": ["V"],
+        "grade": ["K"]
     },
     {
         "id": "A-schwa",
         "audio": "phoneme-A-schwa.mp3",
         "display": "a",
         "word1": {
-            "word": "canoe",
-            "display": "c<span>a</span>noe",
-            "audio": "canoe.mp3",
-            "image": "canoe.png"
+            "word": "sofa",
+            "display": "sof<span>a</span>",
+            "audio": "sofa.mp3",
+            "image": "sofa.png"
         },
         "word2": {
             "word": "zebra",
@@ -146,25 +135,26 @@
             "image": "zebra.png"
         },
         "word3": {
-            "word": "sofa",
-            "display": "sof<span>a</span>",
-            "audio": "sofa.mp3",
-            "image": "sofa.png"
+            "word": "afraid",
+            "display": "af<span>a</span>id",
+            "audio": "afraid.mp3",
+            "image": "afraid.png"
         },
         "quiz-words": [
-            "afraid",
-            "excavator",
-            "gazelle",
-            "balance beam"
+            "panda",
+            "oval",
+            "canoe",
+            "tuba",
+            "gazelle"
         ],
         "color": {
-            "all": "orange",
-            "vowel": "orange",
-            "K": "orange"
+            "all": "red",
+            "vowel": "red",
+            "2nd": "red"
         },
         "rhyme": "(A)round the bush, Willie,</br>(A)round the bee hive.</br>(A)round the bush, Willie,</br>I'll meet you (a)live.",
-        "category": "V",
-        "grade": "K"
+        "category": ["V"],
+        "grade": ["2nd"]
     },
     {
         "id": "A-AI",
@@ -189,65 +179,58 @@
             "image": "rainbow.png"
         },
         "quiz-words": [
-            "snail",
-            "airplane",
-            "chair",
-            "saint bernard",
-            "wheelchair",
-            "afraid",
+            "sail",
             "paint",
-            "chainsaw",
-            "mailman"
+            "snail",
+            "afraid",
+            "mermaid"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "1st": "black"
         },
         "rhyme": "R(ai)n, r(ai)n, go to Sp(ai)n,</br>Never come back again.</br>R(ai)n, r(ai)n, go away,</br>Come again another day.</br>Little Johny wants to play.",
-        "category": "VP",
-        "grade": [
-            []
-        ]
+        "category": ["VP"],
+        "grade": ["1st"]
     },
     {
         "id": "A-AN",
         "audio": "phoneme-A-AN.mp3",
         "display": "an",
         "word1": {
+            "word": "ant",
+            "display": "<span>an</span>t",
+            "audio": "ant.mp3",
+            "image": "ant.png"
+        },
+        "word2": {
             "word": "man",
             "display": "m<span>an</span>",
             "audio": "man.mp3",
             "image": "man.png"
         },
-        "word2": {
-            "word": "hand",
-            "display": "h<span>an</span>d",
-            "audio": "hand.mp3",
-            "image": "hand.png"
-        },
         "word3": {
-            "word": "candy",
-            "display": "c<span>an</span>dy",
-            "audio": "candy.mp3",
-            "image": "candy.png"
+            "word": "van",
+            "display": "v<span>an</span>",
+            "audio": "van.mp3",
+            "image": "van.png"
         },
         "quiz-words": [
+            "hand",
             "panda",
-            "sandbox",
-            "van",
-            "frying pan",
-            "blanket",
-            "kangaroo"
+            "pansy",
+            "bandage",
+            "sandbox"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "3rd": "black"
         },
         "rhyme": "Fr(an)kie Frog was afraid of (an)ts\u2014</br>He flopped on (an) (an)thill and up did pr(an)ce!</br>To shake fire (an)ts from his underp(an)ts,</br>Fr(an)kie Frog d(an)ced to Paris, Fr(an)ce!</br>",
-        "category": "VC",
-        "grade": [
-            []
-        ]
+        "category": ["VC"],
+        "grade": ["3rd" ]
     },
     {
         "id": "A-AR",
@@ -260,76 +243,108 @@
             "image": "arm.png"
         },
         "word2": {
-            "word": "star",
-            "display": "st<span>ar</span>",
-            "audio": "star.mp3",
-            "image": "star.png"
+            "word": "stars",
+            "display": "st<span>ar</span>s",
+            "audio": "stars.mp3",
+            "image": "stars.png"
         },
         "word3": {
-            "word": "garden",
-            "display": "g<span>ar</span>den",
-            "audio": "garden.mp3",
-            "image": "garden.png"
+            "word": "barn",
+            "display": "b<span>ar</span>n",
+            "audio": "barn.mp3",
+            "image": "barn.png"
         },
         "quiz-words": [
-            "car",
-            "armadillo",
+            "harp",
             "scarf",
-            "barn",
-            "carpet",
-            "dark",
-            "hard hat",
-            "saint bernard"
+            "target",
+            "go-kart",
+            "cardinal"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "2nd": "black"
         },
         "rhyme": "Twinkle, twinkle, little st(ar),</br>How I wonder what you (ar)e.</br>Up above the world so high,</br>Like a diamond in the sky.",
-        "category": "VC",
-        "grade": [
-            []
-        ]
+        "category": ["VC"],
+        "grade": ["2nd"]
+    },
+    {
+        "id": "A-AR-long",
+        "audio": "phoneme-A-AR-long.mp3",
+        "display": "ar",
+        "word1": {
+            "word": "bare",
+            "display": "b<span>ar</span>e",
+            "audio": "bare.mp3",
+            "image": "bare.png"
+        },
+        "word2": {
+            "word": "mare",
+            "display": "m<span>ar</span>e",
+            "audio": "mare.mp3",
+            "image": "mare.png"
+        },
+        "word3": {
+            "word": "hare",
+            "display": "h<span>ar</span>e",
+            "audio": "hare.mp3",
+            "image": "hare.png"
+        },
+        "quiz-words": [
+            "scare",
+            "parrot",
+            "carrot",
+            "canary",
+            "marionette"
+        ],
+        "color": {
+            "all": "green",
+            "vowel": "green",
+            "2nd": "green"
+        },
+        "rhyme": "",
+        "category": ["VC"],
+        "grade": ["2nd"]
     },
     {
         "id": "A-AU",
         "audio": "phoneme-A-AU.mp3",
         "display": "au",
         "word1": {
-            "word": "daughter",
-            "display": "d<span>au</span>ghter",
-            "audio": "daughter.mp3",
-            "image": "daughter.png"
+            "word": "haul",
+            "display": "h<span>au</span>l",
+            "audio": "haul.mp3",
+            "image": "haul.png"
         },
         "word2": {
-            "word": "laundress",
-            "display": "l<span>au</span>ndress",
-            "audio": "laundress.mp3",
-            "image": "laundress.png"
+            "word": "gauze",
+            "display": "g<span>au</span>ze",
+            "audio": "gauze.mp3",
+            "image": "gauze.png"
         },
         "word3": {
-            "word": "sauce pan",
-            "display": "s<span>au</span>ce pan",
-            "audio": "sauce pan.mp3",
-            "image": "sauce pan.png"
+            "word": "faucet",
+            "display": "f<span>au</span>cet",
+            "audio": "faucet.mp3",
+            "image": "faucet.png"
         },
         "quiz-words": [
+            "centaur",
+            "dinosaur",
             "astronaut",
-            "sauce pan",
-            "cauldron",
-            "faucet",
-            "caught",
-            "haul"
+            "naughty",
+            "caught"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "2nd": "black"
         },
         "rhyme": "Little Polly Flinders<br>Sat among the cinders,<br>Warming her pretty little toes.<br>Her mother came and c(au)ght her,</br>Whipped her little d(au)ghter</br>For spoiling her nice new clothes.",
-        "category": "VP",
-        "grade": [
-            []
-        ]
+        "category": ["VP"],
+        "grade": ["2nd"]
     },
     {
         "id": "A-AW",
@@ -348,29 +363,26 @@
             "image": "hawk.png"
         },
         "word3": {
-            "word": "draw",
-            "display": "dr<span>aw</span>",
-            "audio": "draw.mp3",
-            "image": "draw.png"
+            "word": "paws",
+            "display": "p<span>aw</span>s",
+            "audio": "paws.mp3",
+            "image": "paws.png"
         },
         "quiz-words": [
-            "chainsaw",
-            "strawberries",
+            "claws",
             "yawn",
-            "straw",
-            "claw hammer",
-            "macaw parrot",
-            "see saw"
+            "draw",
+            "seesaw",
+            "straw"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "2nd": "black"
         },
         "rhyme": "See s(aw), Margery D(aw),</br>Jacky shall have a new master.</br>Jacky will earn just a penny a day,</br>Because he will work no faster.",
-        "category": "VP",
-        "grade": [
-            []
-        ]
+        "category": ["VP"],
+        "grade": ["2nd"]
     },
     {
         "id": "A-AY",
@@ -383,30 +395,31 @@
             "image": "jay.png"
         },
         "word2": {
-            "word": "crayons",
-            "display": "cr<span>ay</span>ons",
-            "audio": "crayons.mp3",
-            "image": "crayons.png"
+            "word": "ray",
+            "display": "r<span>ay</span>",
+            "audio": "ray.mp3",
+            "image": "ray.png"
         },
         "word3": {
-            "word": "playground",
-            "display": "pl<span>ay</span>ground",
-            "audio": "playground.mp3",
-            "image": "playground.png"
+            "word": "play",
+            "display": "pl<span>ay</span>",
+            "audio": "play.mp3",
+            "image": "play.png"
         },
         "quiz-words": [
-            "daydreaming",
-            "daybreak"
+            "say",
+            "hay",
+            "spray",
+            "crayons",
+            "birthday"
         ],
         "color": {
             "all": "black",
             "vowel": "black"
         },
         "rhyme": "How many d(ay)s has my baby to pl(ay)?</br>Saturd(ay); Sund(ay); Mond(ay);</br>Tuesd(ay); Wednesd(ay); Thursd(ay); Frid(ay);</br>Saturd(ay); Sund(ay); Mond(ay).",
-        "category": "VP",
-        "grade": [
-            []
-        ]
+        "category": ["VP"],
+        "grade": ["1st"]
     },
     {
         "id": "B-begin",
@@ -442,7 +455,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "Rock-a-(b)ye; (B)aby; on the tree top;</br>When the wind (b)lows the cradle will rock;</br>When the (b)ough (b)reaks the cradle will fall;</br>and down will come (B)aby; cradle; and all.",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "B-end",
@@ -474,11 +489,13 @@
             "bathtub"
         ],
         "color": {
-            "all": "green",
-            "vowel": "green",
+            "all": "black",
+            "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "B-buh",
@@ -519,46 +536,46 @@
             "vowel": "black"
         },
         "rhyme": "Rock-a-(b)ye; (B)aby; on the tree top;</br>When the wind (b)lows the cradle will rock;</br>When the (b)ough (b)reaks the cradle will fall;</br>and down will come (B)aby; cradle; and all.",
-        "category": "C",
-        "grade": [
-            []
-        ]
+        "category": ["C"],
+        "grade": [ ]
     },
     {
         "id": "B-BL",
         "audio": "phoneme-B-BL.mp3",
         "display": "bl",
         "word1": {
+            "word": "blow",
+            "display": "<span>bl</span>ow",
+            "audio": "blow.mp3",
+            "image": "blow.png"
+        },
+        "word2": {
             "word": "blue",
             "display": "<span>bl</span>ue",
             "audio": "blue.mp3",
             "image": "blue.png"
         },
-        "word2": {
-            "word": "blanket",
-            "display": "<span>bl</span>anket",
-            "audio": "blanket.mp3",
-            "image": "blanket.png"
-        },
         "word3": {
-            "word": "bloodhound",
-            "display": "<span>bl</span>oodhound",
-            "audio": "bloodhound.mp3",
-            "image": "bloodhound.png"
+            "word": "blush",
+            "display": "<span>bl</span>ush",
+            "audio": "blush.mp3",
+            "image": "blush.png"
         },
         "quiz-words": [
-            "blackberries",
-            "blew"
+            "block",
+            "blaze",
+            "black",
+            "blanket",
+            "bloodhound"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "1st": "black"
         },
         "rhyme": "Little Boy (Bl)ue; come (bl)ow your horn;</br>The sheep's in the meadow; the cow's in the corn.</br>Where is the boy who minds the sheep?</br>Under the haystack fast asleep.</br>Will you wake him?</br>No; not I;</br>For if I do he's sure to cry.",
-        "category": "CB",
-        "grade": [
-            []
-        ]
+        "category": ["CB"],
+        "grade": ["1st"]
     },
     {
         "id": "B-BR",
@@ -571,10 +588,10 @@
             "image": "bridge.png"
         },
         "word2": {
-            "word": "break",
-            "display": "<span>br</span>eak",
-            "audio": "break.mp3",
-            "image": "break.png"
+            "word": "broom",
+            "display": "<span>br</span>oom",
+            "audio": "broom.mp3",
+            "image": "broom.png"
         },
         "word3": {
             "word": "brush",
@@ -583,23 +600,20 @@
             "image": "brush.png"
         },
         "quiz-words": [
-            "zebra",
-            "gingerbread man",
-            "umbrellas",
-            "sombrero",
-            "eyebrow",
+            "brown",
+            "bride",
+            "bread",
             "brother",
-            "brown"
+            "brighten"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "1st": "black"
         },
         "rhyme": "London (Br)idge is falling down,</br>Falling down, falling down.</br>London (Br)idge is falling down.</br>My fair lady.</br></br>Build it up with stones and (br)icks,</br>Stones and (br)icks, stones and (br)icks.</br>Build it up with stones and (br)icks,</br>My fair lady.",
-        "category": "CB",
-        "grade": [
-            []
-        ]
+        "category": ["CB"],
+        "grade": ["1st"]
     },
     {
         "id": "C-hard-begin",
@@ -635,7 +649,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "Little Robin Redbreast sat upon a tree;<br>Up went the Kitty-(C)at; and down went he;</br>Down came Kitty-(C)at; away Robin ran;</br>Says little Robin Redbreast:</br>\"(C)atch me if you (c)an!\"",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "C-hard-end",
@@ -667,11 +683,13 @@
             "clinic"
         ],
         "color": {
-            "all": "green",
-            "vowel": "green",
+            "all": "black",
+            "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "C-kuh",
@@ -712,10 +730,8 @@
             "vowel": "black"
         },
         "rhyme": "Little Robin Redbreast sat upon a tree;<br>Up went the Kitty-(C)at; and down went he;</br>Down came Kitty-(C)at; away Robin ran;</br>Says little Robin Redbreast:</br>\"(C)atch me if you (c)an!\"",
-        "category": "C",
-        "grade": [
-            []
-        ]
+        "category": ["C"],
+        "grade": [ ]
     },
     {
         "id": "C-sss",
@@ -753,60 +769,174 @@
             "vowel": "green"
         },
         "rhyme": "(C)elery, lettu(c)e, and ri(c)e aren\u2019t my dream,</br>But you scream, I scream, we all scream</br>for i(c)e cream!</br>",
-        "category": "C",
-        "grade": [
-            []
-        ]
+        "category": ["C"],
+        "grade": [ ]
     },
     {
-        "id": "C-CH",
+        "id": "C-CH-begin",
         "audio": "phoneme-C-CH.mp3",
         "display": "ch",
         "word1": {
-            "word": "chipmunk",
-            "display": "<span>ch</span>ipmunk",
-            "audio": "chipmunk.mp3",
-            "image": "chipmunk.png"
+            "word": "chest",
+            "display": "<span>ch</span>est",
+            "audio": "chest.mp3",
+            "image": "chest.png"
         },
         "word2": {
-            "word": "chimney",
-            "display": "<span>ch</span>imney",
-            "audio": "chimney.mp3",
-            "image": "chimney.png"
+            "word": "cheese",
+            "display": "<span>ch</span>eese",
+            "audio": "cheese.mp3",
+            "image": "cheese.png"
         },
         "word3": {
+            "word": "chisel",
+            "display": "<span>ch</span>isel",
+            "audio": "chisel.mp3",
+            "image": "chisel.png"
+        },
+        "quiz-words": [
+            "chickens",
+            "chimney",
+            "chipmunk",
+            "chopsticks",
+            "cherry-picker"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "1st": "black"
+        },
+        "rhyme": "Cross pat(ch); pull the lat(ch);</br>Sit by the fire and spin;</br>Take a cup and drink it up;</br>Then call your neighbors in.",
+        "category": ["CD"],
+        "grade": ["1st"]
+    },
+    {
+        "id": "C-CH-end",
+        "audio": "phoneme-C-CH.mp3",
+        "display": "ch",
+        "word1": {
+            "word": "beach",
+            "display": "bea<span>ch</span>",
+            "audio": "beach.mp3",
+            "image": "beach.png"
+        },
+        "word2": {
             "word": "catch",
             "display": "cat<span>ch</span>",
             "audio": "catch.mp3",
             "image": "catch.png"
         },
+        "word3": {
+            "word": "sasquatch",
+            "display": "sasquat<span>ch</span>",
+            "audio": "sasquatch.mp3",
+            "image": "sasquatch.png"
+        },
         "quiz-words": [
-            "catcher",
-            "chair",
-            "hatchet",
-            "wheelchair",
             "ostrich",
-            "chainsaw"
+            "scratch",
+            "wrench",
+            "sandwich",
+            "bench",
+            "wristwatch",
+            "much"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "1st": "black"
         },
         "rhyme": "Cross pat(ch); pull the lat(ch);</br>Sit by the fire and spin;</br>Take a cup and drink it up;</br>Then call your neighbors in.",
-        "category": "CB",
-        "grade": [
-            []
-        ]
+        "category": ["CD"],
+        "grade": ["1st"]
+    },
+    {
+        "id": "C-CK",
+        "audio": "phoneme-C-CK.mp3",
+        "display": "ck",
+        "word1": {
+            "word": "kick",
+            "display": "ki<span>ck</span>",
+            "audio": "kick.mp3",
+            "image": "kick.png"
+        },
+        "word2": {
+            "word": "truck",
+            "display": "tru<span>ck</span>",
+            "audio": "truck.mp3",
+            "image": "truck.png"
+        },
+        "word3": {
+            "word": "backpack",
+            "display": "ba<span>ck</span>pa<span>ck</span>",
+            "audio": "backpack.mp3",
+            "image": "backpack.png"
+        },
+        "quiz-words": [
+            "lock",
+            "duck",
+            "peacock",
+            "hammock",
+            "hockey stick",
+            "puck"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "3rd": "black"
+        },
+        "rhyme": "",
+        "category": ["CD"],
+        "grade": ["3rd"]
+    },
+    {
+        "id": "C-CK-silent",
+        "audio": "phoneme-C-CK-silent.mp3",
+        "display": "ck",
+        "word1": {
+            "word": "sick",
+            "display": "si<span>ck</span>",
+            "audio": "sick.mp3",
+            "image": "sick.png"
+        },
+        "word2": {
+            "word": "trick",
+            "display": "tri<span>ck</span>",
+            "audio": "trick.mp3",
+            "image": "trick.png"
+        },
+        "word3": {
+            "word": "snack",
+            "display": "sna<span>ck</span>pa<span>ck</span>",
+            "audio": "snack.mp3",
+            "image": "snack.png"
+        },
+        "quiz-words": [
+            "trick",
+            "wick",
+            "rocket",
+            "backpack",
+            "brick layer or brick mason"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "2nd": "black",
+            "3rd": "green"
+        },
+        "rhyme": "",
+        "category": ["CD"],
+        "grade": ["2nd"]
     },
     {
         "id": "C-CL",
         "audio": "phoneme-C-CL.mp3",
         "display": "cl",
         "word1": {
-            "word": "clown",
-            "display": "<span>cl</span>own",
-            "audio": "clown.mp3",
-            "image": "clown.png"
+            "word": "claws",
+            "display": "<span>cl</span>aws",
+            "audio": "claws.mp3",
+            "image": "claws.png"
         },
         "word2": {
             "word": "clam",
@@ -821,23 +951,20 @@
             "image": "climb.png"
         },
         "quiz-words": [
-            "cloud",
-            "claw hammer",
-            "clam",
-            "cleats",
+            "clean",
             "clarinet",
-            "hedge clippers",
-            "four-leaf clover"
+            "cloudy",
+            "clueless",
+            "clinic"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "1st": "black"
         },
         "rhyme": "Tickety-tock, (cl)imb up the (cl)ock,</br>Don\u2019t let the time get dirty.</br>Tickety-tock we (cl)eaned the (cl)ock,</br>Now one o\u2019(cl)ock looks pretty.</br>",
-        "category": "CB",
-        "grade": [
-            []
-        ]
+        "category": ["CB"],
+        "grade": ["1st"]
     },
     {
         "id": "C-CR",
@@ -850,34 +977,32 @@
             "image": "crab.png"
         },
         "word2": {
-            "word": "crane",
-            "display": "<span>cr</span>ane",
-            "audio": "crane.mp3",
-            "image": "crane.png"
+            "word": "cry",
+            "display": "<span>cr</span>y",
+            "audio": "cry.mp3",
+            "image": "cry.png"
         },
         "word3": {
-            "word": "cradle",
-            "display": "<span>cr</span>adle",
-            "audio": "cradle.mp3",
-            "image": "cradle.png"
+            "word": "croc",
+            "display": "<span>cr</span>oc",
+            "audio": "croc.mp3",
+            "image": "croc.png"
         },
         "quiz-words": [
+            "cranky",
+            "cradle",
             "crayons",
-            "cry",
-            "scratch",
-            "ice cream",
-            "cranberries",
-            "screws"
+            "crosswalk",
+            "crutches"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "1st": "black"
         },
         "rhyme": "There was a (cr)ooked man;</br>And he walked a (cr)ooked mile;</br>He found a (cr)ooked sixpence;</br>Against a (cr)ooked tile;</br>He bought a (cr)ooked cat;</br>Which caught a (cr)ooked mouse;</br>And they all lived together;</br>In a little (cr)ooked house.",
-        "category": "CB",
-        "grade": [
-            []
-        ]
+        "category": ["CB"],
+        "grade": ["1st"]
     },
     {
         "id": "D-begin",
@@ -913,7 +1038,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "(D)iddle; (d)iddle; (d)umpling; my son John;</br>Went to be(d) with his trousers on;</br>One stocking off; and one stocking on;</br>(D)iddle; (d)iddle; (d)umpling; my son John.",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "D-end",
@@ -945,11 +1072,13 @@
             "sled"
         ],
         "color": {
-            "all": "green",
-            "vowel": "green",
+            "all": "black",
+            "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "(D)iddle; (d)iddle; (d)umpling; my son John;</br>Went to be(d) with his trousers on;</br>One stocking off; and one stocking on;</br>(D)iddle; (d)iddle; (d)umpling; my son John.",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "D-duh",
@@ -990,20 +1119,18 @@
             "vowel": "black"
         },
         "rhyme": "(D)iddle; (d)iddle; (d)umpling; my son John;</br>Went to be(d) with his trousers on;</br>One stocking off; and one stocking on;</br>(D)iddle; (d)iddle; (d)umpling; my son John.",
-        "category": "C",
-        "grade": [
-            []
-        ]
+        "category": ["C"],
+        "grade": [ ]
     },
     {
         "id": "D-DR",
         "audio": "phoneme-D-DR.mp3",
         "display": "dr",
         "word1": {
-            "word": "drink",
-            "display": "<span>dr</span>ink",
-            "audio": "drink.mp3",
-            "image": "drink.png"
+            "word": "draw",
+            "display": "<span>dr</span>aw",
+            "audio": "draw.mp3",
+            "image": "draw.png"
         },
         "word2": {
             "word": "drop",
@@ -1012,60 +1139,55 @@
             "image": "drop.png"
         },
         "word3": {
-            "word": "drill",
-            "display": "<span>dr</span>ill",
-            "audio": "drill.mp3",
-            "image": "drill.png"
+            "word": "bass drum",
+            "display": "bass <span>dr</span>um",
+            "audio": "bass drum.mp3",
+            "image": "bass drum.png"
         },
         "quiz-words": [
-            "drum",
-            "draw",
-            "laundress",
-            "cauldron"
+            "drill",
+            "dragon",
+            "driver",
+            "dribble",
+            "dresses"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "1st": "black"
         },
         "rhyme": "Three chil(dr)en sliding on the ice;</br>All on a winter's day;</br>As it fell out; they all fell in;</br>The rest they ran away.",
-        "category": "CB",
-        "grade": [
-            []
-        ]
+        "category": ["CB"],
+        "grade": ["1st"]
     },
     {
         "id": "E-long",
         "audio": "phoneme-E-long.mp3",
         "display": "e",
         "word1": {
-            "word": "key",
-            "display": "k<span>e</span>y",
-            "audio": "key.mp3",
-            "image": "key.png"
+            "word": "me",
+            "display": "m<span>e</span>",
+            "audio": "me.mp3",
+            "image": "me.png"
         },
         "word2": {
-            "word": "zebra",
-            "display": "z<span>e</span>bra",
-            "audio": "zebra.mp3",
-            "image": "zebra.png"
+            "word": "he",
+            "display": "h<span>e</span>",
+            "audio": "he.mp3",
+            "image": "he.png"
         },
         "word3": {
-            "word": "tree",
-            "display": "tr<span>ee</span>",
-            "audio": "tree.mp3",
-            "image": "tree.png"
+            "word": "we",
+            "display": "w<span>e</span>",
+            "audio": "we.mp3",
+            "image": "we.png"
         },
         "quiz-words": [
-            "monkey",
-            "frisbee",
-            "trolley",
-            "queen",
-            "chimney",
-            "jeep",
-            "sleepy",
-            "sweet",
-            "three",
-            "wheelchair"
+            "she",
+            "key",
+            "zebra",
+            "tree",
+            "three"
         ],
         "color": {
             "all": "black",
@@ -1073,8 +1195,8 @@
             "K": "black"
         },
         "rhyme": "Little Bo-p(ee)p has lost her sh(ee)p;</br>And doesn't know where to find them;</br>Leave them alone; and they'll come home;</br>Wagging their tails behind them.",
-        "category": "V",
-        "grade": "K"
+        "category": ["V"],
+        "grade": ["K"]
     },
     {
         "id": "E-short",
@@ -1100,10 +1222,10 @@
         },
         "quiz-words": [
             "sled",
+            "bell",
             "yellow",
             "jelly-jars",
             "jellyfish",
-            "bell",
             "pretzel",
             "present",
             "question"
@@ -1114,8 +1236,8 @@
             "K": "green"
         },
         "rhyme": "Hick(e)ty; pick(e)ty; my black h(e)n;</br>She lays (e)ggs for gentlem(e)n;</br>Gentlem(e)n come (e)very day;</br>To see what my black h(e)n does lay.",
-        "category": "V",
-        "grade": "K"
+        "category": ["V"],
+        "grade": ["K"]
     },
     {
         "id": "E-schwa",
@@ -1128,10 +1250,10 @@
             "image": "camel.png"
         },
         "word2": {
-            "word": "hatchet",
-            "display": "hatch<span>e</span>t",
-            "audio": "hatchet.mp3",
-            "image": "hatchet.png"
+            "word": "oven",
+            "display": "ov<span>e</span>n",
+            "audio": "oven.mp3",
+            "image": "oven.png"
         },
         "word3": {
             "word": "kitten",
@@ -1140,21 +1262,58 @@
             "image": "kitten.png"
         },
         "quiz-words": [
-            "oven",
-            "carpet",
             "shovel",
-            "squirrel",
+            "rocket",
             "mittens",
-            "quiet"
+            "garden",
+            "piglet"
         ],
         "color": {
-            "all": "orange",
-            "vowel": "orange",
-            "K": "orange"
+            "all": "pink",
+            "vowel": "pink",
+            "2nd": "pink"
         },
         "rhyme": "The el(e)phant want(e)d to cheat on her di(e)t</br>Found one gold(e)n cookie in the warm ov(e)n,</br>One in the gard(e)n, two in a torn pock(e)t,</br>Three hid in the kitch(e)n, that made sev(e)n,</br>Bought two at the mark(e)t, spied one in a bask(e)t,</br>Plus one she kept froz(e)n, that was elev(e)n,</br>And one from her lock(e)t, made twelve, a full doz(e)n</br>When she started to eat them it felt like pure heav(e)n!</br>",
-        "category": "V",
-        "grade": "K"
+        "category": ["V"],
+        "grade": ["2nd"]
+    },
+    {
+        "id": "E-EI",
+        "audio": "phoneme-E-EI.mp3",
+        "display": "ei",
+        "word1": {
+            "word": "veil",
+            "display": "v<span>ei</span>l",
+            "audio": "veil.mp3",
+            "image": "veil.png"
+        },
+        "word2": {
+            "word": "eight",
+            "display": "<span>ei</span>ght",
+            "audio": "eight.mp3",
+            "image": "eight.png"
+        },
+        "word3": {
+            "word": "weigh",
+            "display": "w<span>ei</span>gh",
+            "audio": "weigh.mp3",
+            "image": "weigh.png"
+        },
+        "quiz-words": [
+            "sleigh",
+            "neighbor",
+            "reins",
+            "beige",
+            "freight"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "3rd": "black"
+        },
+        "rhyme": "",
+        "category": ["VP"],
+        "grade": ["3rd"]
     },
     {
         "id": "E-EA",
@@ -1167,10 +1326,10 @@
             "image": "eat.png"
         },
         "word2": {
-            "word": "eagle",
-            "display": "<span>ea</span>gle",
-            "audio": "eagle.mp3",
-            "image": "eagle.png"
+            "word": "beak",
+            "display": "b<span>ea</span>k",
+            "audio": "beak.mp3",
+            "image": "beak.png"
         },
         "word3": {
             "word": "leaf",
@@ -1179,70 +1338,134 @@
             "image": "leaf.png"
         },
         "quiz-words": [
-            "beaver",
-            "seagulls",
             "steal",
-            "ice cream",
+            "read",
+            "beach",
             "beagle",
-            "teapot",
-            "guinea pig",
-            "peas",
-            "green beans",
-            "balance beam"
+            "beaver"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "1st": "black"
         },
         "rhyme": "Jack Sprat would (ea)t no fat;</br>His wife would (ea)t no l(ea)n;</br>And so between the two of them;</br>They licked the platter cl(ea)n.</br>",
-        "category": "VP",
-        "grade": [
-            []
-        ]
+        "category": ["VP"],
+        "grade": ["1st"]
+    },
+    {
+        "id": "E-EA-short",
+        "audio": "phoneme-E-EA-short.mp3",
+        "display": "ea",
+        "word1": {
+            "word": "head",
+            "display": "h<span>ea</span>d",
+            "audio": "head.mp3",
+            "image": "head.png"
+        },
+        "word2": {
+            "word": "bear",
+            "display": "b<span>ea</span>r",
+            "audio": "bear.mp3",
+            "image": "bear.png"
+        },
+        "word3": {
+            "word": "pear",
+            "display": "p<span>ea</span>r",
+            "audio": "pear.mp3",
+            "image": "pear.png"
+        },
+        "quiz-words": [
+            "bread",
+            "spread",
+            "feather",
+            "sweater",
+            "weather"
+        ],
+        "color": {
+            "all": "green",
+            "vowel": "green",
+            "2nd": "green"
+        },
+        "rhyme": "",
+        "category": ["VP"],
+        "grade": ["2nd"]
+    },
+    {
+        "id": "E-EE",
+        "audio": "phoneme-E-EE.mp3",
+        "display": "ee",
+        "word1": {
+            "word": "bee",
+            "display": "b<span>ee</span>",
+            "audio": "bee.mp3",
+            "image": "bee.png"
+        },
+        "word2": {
+            "word": "tree",
+            "display": "tr<span>ee</span>",
+            "audio": "tree.mp3",
+            "image": "tree.png"
+        },
+        "word3": {
+            "word": "jeep",
+            "display": "j<span>ee</span>p",
+            "audio": "jeep.mp3",
+            "image": "jeep.png"
+        },
+        "quiz-words": [
+            "feet",
+            "cheek",
+            "sheep",
+            "geese",
+            "queen"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "1st": "black"
+        },
+        "rhyme": "",
+        "category": ["VP"],
+        "grade": ["1st"]
     },
     {
         "id": "E-ER",
         "audio": "phoneme-E-ER.mp3",
         "display": "er",
         "word1": {
-            "word": "boxer",
-            "display": "box<span>er</span>",
-            "audio": "boxer.mp3",
-            "image": "boxer.png"
+            "word": "fern",
+            "display": "f<span>er</span>n",
+            "audio": "fern.mp3",
+            "image": "fern.png"
         },
         "word2": {
-            "word": "catcher",
-            "display": "catch<span>er</span>",
-            "audio": "catcher.mp3",
-            "image": "catcher.png"
+            "word": "tiger",
+            "display": "tig<span>er</span>",
+            "audio": "tiger.mp3",
+            "image": "tiger.png"
         },
         "word3": {
-            "word": "teeter-totter",
-            "display": "teet<span>er</span>-tott<span>er</span>",
-            "audio": "teeter-totter.mp3",
-            "image": "teeter-totter.png"
+            "word": "zipper",
+            "display": "zipp<span>er</span>",
+            "audio": "zipper.mp3",
+            "image": "zipper.png"
         },
         "quiz-words": [
-            "flower",
             "dozer",
-            "hamster",
-            "juggler",
-            "beaver",
-            "butterfly",
-            "silver",
-            "finger",
-            "feather",
-            "spider"
+            "shower",
+            "mermaid",
+            "paper",
+            "waterfall"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "2nd": "black"
         },
         "rhyme": "Pet(er); Pet(er); pumpkin eat(er);</br>Had a wife and couldn't keep h(er);</br>He put h(er) in a pumpkin shell;</br>And then he kept h(er) very well.",
-        "category": "VC",
-        "grade": [
-            []
-        ]
+        "category": ["VC"],
+        "grade": ["2nd"]
     },
     {
         "id": "E-ET",
@@ -1255,36 +1478,70 @@
             "image": "net.png"
         },
         "word2": {
-            "word": "pet",
-            "display": "p<span>et</span>",
-            "audio": "pet.mp3",
-            "image": "pet.png"
+            "word": "jet",
+            "display": "j<span>et</span>",
+            "audio": "jet.mp3",
+            "image": "jet.png"
         },
         "word3": {
-            "word": "rocket",
-            "display": "rock<span>et</span>",
-            "audio": "rocket.mp3",
-            "image": "rocket.png"
+            "word": "yeti",
+            "display": "y<span>et</span>i",
+            "audio": "yeti.mp3",
+            "image": "yeti.png"
         },
         "quiz-words": [
-            "trumpet",
-            "basket",
-            "blanket",
-            "life jacket",
-            "hatchet",
-            "carpet",
+            "vet",
+            "pets",
             "pretzel",
-            "bucket"
+            "lettuce",
+            "machette"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "3rd": "black"
         },
         "rhyme": "Lucy Lock(et) lost her pock(et);</br>Kitty Fisher found it.</br>There was not a penny in it;</br>But a ribbon round it.",
-        "category": "VC",
-        "grade": [
-            []
-        ]
+        "category": ["VC"],
+        "grade": ["3rd" ]
+    },
+    {
+        "id": "E-ET-unstressed",
+        "audio": "phoneme-E-ET-unstressed.mp3",
+        "display": "et",
+        "word1": {
+            "word": "target",
+            "display": "targ<span>et</span>",
+            "audio": "target.mp3",
+            "image": "target.png"
+        },
+        "word2": {
+            "word": "hornet",
+            "display": "horn<span>et</span>",
+            "audio": "hornet.mp3",
+            "image": "hornet.png"
+        },
+        "word3": {
+            "word": "piglet",
+            "display": "pigl<span>et/span>",
+            "audio": "piglet.mp3",
+            "image": "piglet.png"
+        },
+        "quiz-words": [
+            "hatchet",
+            "faucet",
+            "bucket",
+            "ferret",
+            "flying carpet"
+        ],
+        "color": {
+            "all": "green",
+            "vowel": "green",
+            "3rd": "green"
+        },
+        "rhyme": "Lucy Lock(et) lost her pock(et);</br>Kitty Fisher found it.</br>There was not a penny in it;</br>But a ribbon round it.",
+        "category": ["VC"],
+        "grade": ["3rd" ]
     },
     {
         "id": "E-EW",
@@ -1297,32 +1554,32 @@
             "image": "flew.png"
         },
         "word2": {
-            "word": "screws",
-            "display": "scr<span>ew</span>s",
-            "audio": "screws.mp3",
-            "image": "screws.png"
+            "word": "blew",
+            "display": "bl<span>ew</span>",
+            "audio": "blew.mp3",
+            "image": "blew.png"
         },
         "word3": {
-            "word": "stew pot",
-            "display": "st<span>ew</span> pot",
-            "audio": "stew pot.mp3",
-            "image": "stew pot.png"
+            "word": "chew",
+            "display": "ch<span>ew</span>",
+            "audio": "chew.mp3",
+            "image": "chew.png"
         },
         "quiz-words": [
-            "cashew",
             "threw",
-            "blew",
-            "jewelry"
+            "screws",
+            "cashew",
+            "crewcut",
+            "stew pot"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "2nd": "black"
         },
         "rhyme": "The hungry cuckoo fl(ew)</br>Then found a cash(ew)</br>His beak couldn\u2019t ch(ew).</br>What could he do?</br>He br(ew)ed cash(ew) st(ew)</br>Which smelled really P U!</br>But tasted great with barbecue.</br></br>",
-        "category": "VP",
-        "grade": [
-            []
-        ]
+        "category": ["VP"],
+        "grade": ["2nd"]
     },
     {
         "id": "F-begin",
@@ -1358,7 +1615,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "Little Miss Mu(ff)et;</br>Sat on a tu(ff)et;</br>Eating some curds and whey.</br>Along came a spider;</br>And sat down beside her;</br>And frightened Miss Mu(ff)et away.",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "F-end",
@@ -1390,11 +1649,13 @@
             "wolf"
         ],
         "color": {
-            "all": "green",
-            "vowel": "green",
+            "all": "black",
+            "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "Little Miss Mu(ff)et;</br>Sat on a tu(ff)et;</br>Eating some curds and whey.</br>Along came a spider;</br>And sat down beside her;</br>And frightened Miss Mu(ff)et away.",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "F-fuh",
@@ -1435,20 +1696,18 @@
             "vowel": "black"
         },
         "rhyme": "Little Miss Mu(ff)et;</br>Sat on a tu(ff)et;</br>Eating some curds and whey.</br>Along came a spider;</br>And sat down beside her;</br>And frightened Miss Mu(ff)et away.",
-        "category": "C",
-        "grade": [
-            []
-        ]
+        "category": ["C"],
+        "grade": [ ]
     },
     {
         "id": "F-FL",
         "audio": "phoneme-F-FL.mp3",
         "display": "fl",
         "word1": {
-            "word": "flower",
-            "display": "<span>fl</span>ower",
-            "audio": "flower.mp3",
-            "image": "flower.png"
+            "word": "flu",
+            "display": "<span>fl</span>u",
+            "audio": "flu.mp3",
+            "image": "flu.png"
         },
         "word2": {
             "word": "fly",
@@ -1463,22 +1722,20 @@
             "image": "flag.png"
         },
         "quiz-words": [
-            "butterfly",
-            "flew",
+            "float",
             "flute",
-            "housefly",
-            "flashlight",
-            "flame"
+            "flippers",
+            "flamingo",
+            "flatbed"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "1st": "black"
         },
         "rhyme": "A hungry (fl)y (fl)ew in a (fl)ower,</br>Then dreamed of sweets for half an hour.</br>A (fl)ea (fl)oating by yelled, \u201cStay awake!</br>I just baked us a snow(fl)ake cake!\u201d</br>",
-        "category": "CB",
-        "grade": [
-            []
-        ]
+        "category": ["CB"],
+        "grade": ["1st"]
     },
     {
         "id": "F-FR",
@@ -1491,33 +1748,70 @@
             "image": "frog.png"
         },
         "word2": {
-            "word": "frisbee",
-            "display": "<span>fr</span>isbee",
-            "audio": "frisbee.mp3",
-            "image": "frisbee.png"
+            "word": "fry",
+            "display": "<span>fr</span>y",
+            "audio": "fry.mp3",
+            "image": "fry.png"
         },
         "word3": {
-            "word": "frying pan",
-            "display": "<span>fr</span>ying pan",
-            "audio": "fryingpan.mp3",
-            "image": "fryingpan.png"
+            "word": "fro",
+            "display": "<span>fr</span>o",
+            "audio": "fro.mp3",
+            "image": "fro.png"
         },
         "quiz-words": [
+            "friends",
+            "fruit",
             "fridge",
-            "front loader",
-            "afraid",
-            "fridge",
-            "frog pads"
+            "fringe",
+            "frontloader"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "1st": "black"
         },
         "rhyme": "On (Fr)iday night, </br>My (fr)iend and I</br>Had (fr)ozen (fr)ench-(fr)y soup</br>And (fr)og leg pie.</br></br>(Fr)ied ice cream</br>And fish heads in a cup,</br>I hope some medicine </br>Will help me throw up.</br>",
-        "category": "CB",
-        "grade": [
-            []
-        ]
+        "category": ["CB"],
+        "grade": ["1st"]
+    },
+    {
+        "id": "F-FT",
+        "audio": "phoneme-F-FT.mp3",
+        "display": "ft",
+        "word1": {
+            "word": "gift",
+            "display": "gi<span>ft</span>",
+            "audio": "gift.mp3",
+            "image": "gift.png"
+        },
+        "word2": {
+            "word": "soft",
+            "display": "so<span>ft</span>",
+            "audio": "soft.mp3",
+            "image": "soft.png"
+        },
+        "word3": {
+            "word": "left",
+            "display": "le<span>ft</span>",
+            "audio": "left.mp3",
+            "image": "left.png"
+        },
+        "quiz-words": [
+            "forklift",
+            "snowdrift",
+            "airlift",
+            "aircraft",
+            "watercraft"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "2nd": "black"
+        },
+        "rhyme": "",
+        "category": ["CB"],
+        "grade": ["2nd"]
     },
     {
         "id": "G-hard-begin",
@@ -1553,7 +1847,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "(G)oosey; (g)oosey; (g)ander; where do you wander?</br>Upstairs and downstairs and in my lady's chamber;</br>There I met an old man who wouldn't say his prayers;</br>I took him by his hind le(g)s and threw him downstairs.",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "G-hard-end",
@@ -1585,11 +1881,13 @@
             "dig"
         ],
         "color": {
-            "all": "green",
-            "vowel": "green",
+            "all": "black",
+            "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "(G)oosey; (g)oosey; (g)ander; where do you wander?</br>Upstairs and downstairs and in my lady's chamber;</br>There I met an old man who wouldn't say his prayers;</br>I took him by his hind le(g)s and threw him downstairs.",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "G-guh",
@@ -1630,10 +1928,8 @@
             "vowel": "black"
         },
         "rhyme": "(G)oosey; (g)oosey; (g)ander; where do you wander?</br>Upstairs and downstairs and in my lady's chamber;</br>There I met an old man who wouldn't say his prayers;</br>I took him by his hind le(g)s and threw him downstairs.",
-        "category": "C",
-        "grade": [
-            []
-        ]
+        "category": ["C"],
+        "grade": [ ]
     },
     {
         "id": "G-juh",
@@ -1669,49 +1965,159 @@
             "vowel": "green"
         },
         "rhyme": "(G)eorgie Por(g)ie, pudding and pie,</br>Kissed the girls and made them cry.</br>When the boys came out to play,</br>(G)eorgie Por(g)ie ran away.",
-        "category": "C",
-        "grade": [
-            []
-        ]
+        "category": ["C"],
+        "grade": [ ]
+    },
+    {
+        "id": "G-GH",
+        "audio": "phoneme-G-GH.mp3",
+        "display": "gh",
+        "word1": {
+            "word": "laugh",
+            "display": "lau<span>gh</span>",
+            "audio": "laugh.mp3",
+            "image": "laugh.png"
+        },
+        "word2": {
+            "word": "tough",
+            "display": "tou<span>gh</span>",
+            "audio": "tough.mp3",
+            "image": "tough.png"
+        },
+        "word3": {
+            "word": "rough",
+            "display": "rou<span>gh</span>",
+            "audio": "rough.mp3",
+            "image": "rough.png"
+        },
+        "quiz-words": [
+            "cough",
+            "enough",
+            "water trough"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "3rd": "black"
+        },
+        "rhyme": "",
+        "category": ["CD"],
+        "grade": ["3rd"]
+    },
+    {
+        "id": "G-GH-silent",
+        "audio": "phoneme-G-GH-silent.mp3",
+        "display": "gh",
+        "word1": {
+            "word": "high",
+            "display": "hi<span>gh</span>",
+            "audio": "high.mp3",
+            "image": "high.png"
+        },
+        "word2": {
+            "word": "right",
+            "display": "ri<span>gh</span>t",
+            "audio": "right.mp3",
+            "image": "right.png"
+        },
+        "word3": {
+            "word": "eight",
+            "display": "ei<span>gh</span>t",
+            "audio": "eight.mp3",
+            "image": "eight.png"
+        },
+        "quiz-words": [
+            "sleigh",
+            "tight",
+            "flight",
+            "straight",
+            "nightgown"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "2nd": "black",
+            "3rd": "green"
+        },
+        "rhyme": "",
+        "category": ["CD"],
+        "grade": ["2nd"]
     },
     {
         "id": "G-GL",
         "audio": "phoneme-G-GL.mp3",
         "display": "gl",
         "word1": {
-            "word": "gloves",
-            "display": "<span>gl</span>oves",
-            "audio": "gloves.mp3",
-            "image": "gloves.png"
+            "word": "glad",
+            "display": "<span>gl</span>ad",
+            "audio": "glad.mp3",
+            "image": "glad.png"
         },
         "word2": {
-            "word": "glass",
-            "display": "<span>gl</span>ass",
-            "audio": "glass.mp3",
-            "image": "glass.png"
+            "word": "glum",
+            "display": "<span>gl</span>um",
+            "audio": "glum.mp3",
+            "image": "glum.png"
         },
         "word3": {
-            "word": "juggler",
-            "display": "jug<span>gl</span>er",
-            "audio": "juggler.mp3",
-            "image": "juggler.png"
+            "word": "glow",
+            "display": "<span>gl</span>ow",
+            "audio": "glow.mp3",
+            "image": "glow.png"
         },
         "quiz-words": [
+            "glue",
+            "glove",
+            "glass",
             "globe",
-            "glow",
-            "sunglasses",
-            "glum",
-            "spyglass"
+            "glazed"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "1st": "black"
         },
         "rhyme": "A (gl)ass of juice</br>And a (gl)azed donut,</br>Put (gl)ad in the heart</br>And a (gl)ow in the gut.",
-        "category": "CB",
-        "grade": [
-            []
-        ]
+        "category": ["CB"],
+        "grade": ["1st"]
+    },
+    {
+        "id": "G-GN-silent",
+        "audio": "phoneme-G-GN-silent.mp3",
+        "display": "gn",
+        "word1": {
+            "word": "gnaw",
+            "display": "<span>gn</span>aw",
+            "audio": "gnaw.mp3",
+            "image": "gnaw.png"
+        },
+        "word2": {
+            "word": "gnome",
+            "display": "<span>gn</span>ome",
+            "audio": "gnome.mp3",
+            "image": "gnome.png"
+        },
+        "word3": {
+            "word": "gnat",
+            "display": "<span>gn</span>at",
+            "audio": "gnat.mp3",
+            "image": "gnat.png"
+        },
+        "quiz-words": [
+            "align",
+            "foreign",
+            "gnarly",
+            "sovereign",
+            "gnu"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "3rd": "black"
+        },
+        "rhyme": "",
+        "category": ["CD"],
+        "grade": ["3rd"]
     },
     {
         "id": "G-GR",
@@ -1724,36 +2130,32 @@
             "image": "grapes.png"
         },
         "word2": {
-            "word": "grass",
-            "display": "<span>gr</span>ass",
-            "audio": "grass.mp3",
-            "image": "grass.png"
+            "word": "grow",
+            "display": "<span>gr</span>ow",
+            "audio": "grow.mp3",
+            "image": "grow.png"
         },
         "word3": {
-            "word": "angry",
-            "display": "an<span>gr</span>y",
-            "audio": "angry.mp3",
-            "image": "angry.png"
+            "word": "greyhound",
+            "display": "<span>gr</span>eyhound",
+            "audio": "greyhound.mp3",
+            "image": "greyhound.png"
         },
         "quiz-words": [
-            "greyhound",
-            "playground",
-            "green beans",
-            "grizzly bear",
+            "green",
             "grasshopper",
             "grandmother",
-            "grandfather",
-            "grandfather clock"
+            "grandfather clock",
+            "grizzly bear"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "1st": "black"
         },
         "rhyme": "(Gr)ouchy (gr)emlin\u2019s (gr)umpy tummy (gr)owled,</br>\u201cI\u2019m hun(gr)y, feed me, feed me,\u201d it howled.</br>When a (gr)inning (gr)izzly (gr)abbed it tight,</br>(Gr)umpy tummy squeeeezed out of sight.</br>",
-        "category": "CB",
-        "grade": [
-            []
-        ]
+        "category": ["CB"],
+        "grade": ["1st"]
     },
     {
         "id": "H-begin",
@@ -1789,7 +2191,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "H-huh",
@@ -1830,10 +2234,45 @@
             "vowel": "black"
         },
         "rhyme": "(H)umpty Dumpty sat on a wall;</br>(H)umpty Dumpty (h)ad a great fall;</br>All the king's (h)orses and all the king's men;</br>Couldn't put (H)umpty Dumpty together again.",
-        "category": "C",
-        "grade": [
-            []
-        ]
+        "category": ["C"],
+        "grade": [ ]
+    },
+        {
+        "id": "H-silent",
+        "audio": "phoneme-H-silent.mp3",
+        "display": "h",
+        "word1": {
+            "word": "hour",
+            "display": "<span>h</span>our",
+            "audio": "hour.mp3",
+            "image": "hour.png"
+        },
+        "word2": {
+            "word": "ghost",
+            "display": "g<span>h</span>ost",
+            "audio": "ghost.mp3",
+            "image": "ghost.png"
+        },
+        "word3": {
+            "word": "rhyme",
+            "display": "r<span>h</span>yme",
+            "audio": "rhyme.mp3",
+            "image": "rhyme.png"
+        },
+        "quiz-words": [
+            "honor",
+            "exhaust",
+            "rhythm",
+            "gherkin",
+            "rhinoceros"
+        ],
+        "color": {
+            "all": "green",
+            "3rd": "green"
+        },
+        "rhyme": "",
+        "category": ["CD"],
+        "grade": ["3rd"]
     },
     {
         "id": "I-long",
@@ -1846,26 +2285,25 @@
             "image": "ice.png"
         },
         "word2": {
-            "word": "climb",
-            "display": "cl<span>i</span>mb",
-            "audio": "climb.mp3",
-            "image": "climb.png"
+            "word": "five",
+            "display": "f<span>i</span>ve",
+            "audio": "five.mp3",
+            "image": "five.png"
         },
         "word3": {
-            "word": "life jacket",
-            "display": "l<span>i</span>fe jacket",
-            "audio": "life jacket.mp3",
-            "image": "life jacket.png"
+            "word": "lion",
+            "display": "l<span>i</span>on",
+            "audio": "lion.mp3",
+            "image": "lion.png"
         },
         "quiz-words": [
-            "lion",
+            "mice",
             "slide",
-            "tricycle",
-            "spider",
-            "ice cream",
+            "climb",
             "bride",
-            "diving",
-            "five"
+            "drive",
+            "tricycle",
+            "spider"
         ],
         "color": {
             "all": "black",
@@ -1873,8 +2311,8 @@
             "K": "black"
         },
         "rhyme": "Three bl(i)nd m(i)ce, three bl(i)nd m(i)ce,</br>See how they run, see how they run.</br>They all ran after the farmer's w(i)fe,</br>She cut off their tails with a carving kn(i)fe.</br>Did you ever see such a s(i)ght in your l(i)fe</br>As three bl(i)nd m(i)ce?",
-        "category": "V",
-        "grade": "K"
+        "category": ["V"],
+        "grade": ["K"]
     },
     {
         "id": "I-short",
@@ -1901,13 +2339,11 @@
         "quiz-words": [
             "lizard",
             "window",
-            "frisbee",
+            "frisbie",
             "slippers",
             "chimney",
-            "swing",
             "fiddle",
             "unicycle",
-            "sing",
             "ostrich"
         ],
         "color": {
@@ -1916,8 +2352,8 @@
             "K": "green"
         },
         "rhyme": "Jack; be n(i)mble; Jack; be qu(i)ck.</br>Jack; jump over the candlest(i)ck.",
-        "category": "V",
-        "grade": "K"
+        "category": ["V"],
+        "grade": ["K"]
     },
     {
         "id": "I-schwa",
@@ -1936,179 +2372,366 @@
             "image": "pencil.png"
         },
         "word3": {
-            "word": "family",
-            "display": "fam<span>i</span>ly",
-            "audio": "family.mp3",
-            "image": "family.png"
+            "word": "robin",
+            "display": "rob<span>i</span>n",
+            "audio": "robin.mp3",
+            "image": "robin.png"
         },
         "quiz-words": [
-            
+            "gossip",
+            "tennis",
+            "artist",
+            "muffins",
+            "nostril"
         ],
         "color": {
-            "all": "orange",
-            "vowel": "orange",
-            "K": "orange"
+            "all": "pink",
+            "vowel": "pink",
+            "2nd": "pink"
         },
         "rhyme": "Oh, do you know the muff(i)n-man,</br>The muff(i)n-man, the muff(i)n-man?</br>Do you know the muff(i)n-man</br>Who lives in Drury Lane?</br></br>Yes, I know the muff(i)n-man,</br>The muff(i)n-man, the muff(i)n-man.</br>Yes, I know the muff(i)n-man</br>Who lives in Drury Lane.",
-        "category": "V",
-        "grade": "K"
+        "category": ["V"],
+        "grade": "2nd"
     },
     {
         "id": "I-ee",
         "audio": "phoneme-I-ee.mp3",
+        "display": "i",
+        "word1": {
+            "word": "taxi",
+            "display": "tax<span>i</span>",
+            "audio": "taxi.mp3",
+            "image": "taxi.png"
+        },
+        "word2": {
+            "word": "yeti",
+            "display": "yet<span>i</span>",
+            "audio": "yeti.mp3",
+            "image": "yeti.png"
+        },
+        "word3": {
+            "word": "skis",
+            "display": "sk<span>i</span>s",
+            "audio": "skis.mp3",
+            "image": "skis.png"
+        },
+        "quiz-words": [
+            "sari",
+            "trio",
+            "piano",
+            "alien",
+            "machine"
+        ],
+        "color": {
+            "all": "pink",
+            "vowel": "pink",
+            "K": "pink"
+        },
+        "rhyme": "Cranberr(ie)s for yummy muffins,</br>And also berr(ie)s blue,</br>Strawberr(ie)s for scrumptious jelly,</br>Raspberr(ie)s and blackberr(ie)s too!",
+        "category": ["V"],
+        "grade": "K"
+    },
+    {
+        "id": "I-IE",
+        "audio": "phoneme-I-IE.mp3",
         "display": "ie",
         "word1": {
+            "word": "thief",
+            "display": "th<span>ie</span>f",
+            "audio": "thief.mp3",
+            "image": "thief.png"
+        },
+        "word2": {
             "word": "collie",
             "display": "coll<span>ie</span>",
             "audio": "collie.mp3",
             "image": "collie.png"
         },
-        "word2": {
-            "word": "cookies",
-            "display": "cook<span>ie</span>s",
-            "audio": "cookies.mp3",
-            "image": "cookies.png"
-        },
         "word3": {
-            "word": "strawberries",
-            "display": "strawberr<span>ie</span>s",
-            "audio": "strawberries.mp3",
-            "image": "strawberries.png"
+            "word": "diesel truck",
+            "display": "d<span>ie</span>sel truck",
+            "audio": "diesel truck.mp3",
+            "image": "diesel truck.png"
         },
         "quiz-words": [
-            "beanie cap",
-            "groceries",
-            "labrador retriever",
-            "blackberries",
-            "diesel truck"
+            "hoodie",
+            "cookies",
+            "babies",
+            "berries",
+            "coastie"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "3rd": "black"
         },
         "rhyme": "Cranberr(ie)s for yummy muffins,</br>And also berr(ie)s blue,</br>Strawberr(ie)s for scrumptious jelly,</br>Raspberr(ie)s and blackberr(ie)s too!",
-        "category": "VP",
-        "grade": [
-            []
-        ]
-    },
-    {
-        "id": "I-ie",
-        "audio": "phoneme-I-ie.mp3",
-        "display": "ie",
-        "word1": {
-            "word": "tie",
-            "display": "t<span>ie</span>",
-            "audio": "tie.mp3",
-            "image": "tie.png"
-        },
-        "word2": {
-            "word": "quiet",
-            "display": "qu<span>ie</span>t",
-            "audio": "quiet.mp3",
-            "image": "quiet.png"
-        },
-        "word3": {
-            "word": "pie",
-            "display": "p<span>ie</span>",
-            "audio": "pie.mp3",
-            "image": "pie.png"
-        },
-        "quiz-words": [
-            "flies",
-            "spies",
-            "butterflies",
-            "cries",
-            "pie man",
-            "bow tie"
-        ],
-        "color": {
-            "all": "green",
-            "vowel": "green"
-        },
-        "rhyme": "There was an old woman lived under the hill;<br>And if she's not gone she lives there still;<br>Baked apples she sold; and cranberry p(ie)s;</br>And she's the old woman who never told l(ie)s.",
-        "category": "VP",
-        "grade": [
-            []
-        ]
+        "category": ["VP"],
+        "grade": "3rd"
     },
     {
         "id": "I-IGH",
         "audio": "phoneme-I-IGH.mp3",
         "display": "igh",
         "word1": {
-            "word": "light",
-            "display": "l<span>igh</span>t",
-            "audio": "light.mp3",
-            "image": "light.png"
+            "word": "high",
+            "display": "h<span>igh</span>",
+            "audio": "high.mp3",
+            "image": "high.png"
         },
         "word2": {
-            "word": "frightened",
-            "display": "fr<span>igh</span>tened",
-            "audio": "frightened.mp3",
-            "image": "frightened.png"
+            "word": "thigh",
+            "display": "th<span>igh</span>",
+            "audio": "thigh.mp3",
+            "image": "thigh.png"
         },
         "word3": {
-            "word": "nightgown",
-            "display": "n<span>igh</span>tgown",
-            "audio": "nightgown.mp3",
-            "image": "nightgown.png"
+            "word": "right",
+            "display": "r<span>igh</span>t",
+            "audio": "right.mp3",
+            "image": "right.png"
         },
         "quiz-words": [
-            "lightning",
-            "night",
-            "flashlight",
             "fight",
-            "flight"
+            "tight",
+            "night",
+            "brighten",
+            "lightening"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "3rd": "black"
         },
         "rhyme": "Star l(igh)t, star br(igh)t,</br>First star I see ton(igh)t,</br>I wish I may, I wish I m(igh)t,</br>Have the wish I wish ton(igh)t.",
-        "category": "VC",
-        "grade": [
-            []
-        ]
+        "category": ["VC"],
+        "grade": ["3rd" ]
+    },
+    {
+        "id": "I-IL-long",
+        "audio": "phoneme-I-IL-long.mp3",
+        "display": "il",
+        "word1": {
+            "word": "wild",
+            "display": "w<span>il</span>d",
+            "audio": "wild.mp3",
+            "image": "wild.png"
+        },
+        "word2": {
+            "word": "child",
+            "display": "ch<span>il</span>d",
+            "audio": "child.mp3",
+            "image": "child.png"
+        },
+        "word3": {
+            "word": "pilot",
+            "display": "p<span>il</span>ot",
+            "audio": "pilot.mp3",
+            "image": "pilot.png"
+        },
+        "quiz-words": [
+            "smile",
+            "reptile",
+            "crocodile",
+            "silent",
+            "agile"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "3rd": "black"
+        },
+        "rhyme": "",
+        "category": ["VC"],
+        "grade": ["3rd"]
     },
     {
         "id": "I-IL",
         "audio": "phoneme-I-IL.mp3",
         "display": "il",
         "word1": {
-            "word": "spill",
-            "display": "sp<span>il</span>l",
-            "audio": "spill.mp3",
-            "image": "spill.png"
+            "word": "milk",
+            "display": "m<span>il</span>k",
+            "audio": "milk.mp3",
+            "image": "milk.png"
         },
         "word2": {
-            "word": "drill",
-            "display": "dr<span>il</span>l",
-            "audio": "drill.mp3",
-            "image": "drill.png"
+            "word": "lily",
+            "display": "l<span>il</span>y",
+            "audio": "lily.mp3",
+            "image": "lily.png"
         },
         "word3": {
-            "word": "silver",
-            "display": "s<span>il</span>ver",
-            "audio": "silver.mp3",
-            "image": "silver.png"
+            "word": "tilt",
+            "display": "t<span>il</span>t",
+            "audio": "tilt.mp3",
+            "image": "tilt.png"
         },
         "quiz-words": [
-            "hilly",
-            "armadillo",
             "stilts",
-            "silly",
-            "pencil"
+            "build",
+            "silver",
+            "military",
+            "children"
+        ],
+        "color": {
+            "all": "green",
+            "vowel": "green",
+            "3rd": "green"
+        },
+        "rhyme": "Jack and J(ill) went up the h(ill);</br>To fetch a pail of water;</br>Jack fell down and broke his crown;</br>And J(ill) came tumbling after.",
+        "category": ["VC"],
+        "grade": ["3rd" ]
+    },
+    {
+        "id": "I-ILD",
+        "audio": "phoneme-I-ILD.mp3",
+        "display": "ild",
+        "word1": {
+            "word": "wild",
+            "display": "w<span>ild</span>",
+            "audio": "wild.mp3",
+            "image": "wild.png"
+        },
+        "word2": {
+            "word": "child",
+            "display": "ch<span>ild</span>",
+            "audio": "child.mp3",
+            "image": "child.png"
+        },
+        "word3": {
+            "word": "mild",
+            "display": "m<span>ild</span>",
+            "audio": "mild.mp3",
+            "image": "mild.png"
+        },
+        "quiz-words": [
+            "wildcat",
+            "wildfowl",
+            "wildrice",
+            "grandchild"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "3rd": "black"
         },
-        "rhyme": "Jack and J(ill) went up the h(ill);</br>To fetch a pail of water;</br>Jack fell down and broke his crown;</br>And J(ill) came tumbling after.",
-        "category": "VC",
-        "grade": [
-            []
-        ]
+        "rhyme": "",
+        "category": ["VC"],
+        "grade": ["3rd" ]
+    },
+    {
+        "id": "I-IND-long",
+        "audio": "phoneme-I-IND-long.mp3",
+        "display": "ind",
+        "word1": {
+            "word": "kind",
+            "display": "k<span>ind</span>",
+            "audio": "kind.mp3",
+            "image": "kind.png"
+        },
+        "word2": {
+            "word": "find",
+            "display": "f<span>ind</span>",
+            "audio": "find.mp3",
+            "image": "find.png"
+        },
+        "word3": {
+            "word": "blind",
+            "display": "bl<span>ind</span>",
+            "audio": "blind.mp3",
+            "image": "blind.png"
+        },
+        "quiz-words": [
+            "behind",
+            "remind",
+            "hindquarters",
+            "hindmost"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "3rd": "black"
+        },
+        "rhyme": "",
+        "category": ["VC"],
+        "grade": ["3rd" ]
+    },
+    {
+        "id": "I-IND-short",
+        "audio": "phoneme-I-IND-short.mp3",
+        "display": "ind",
+        "word1": {
+            "word": "windy",
+            "display": "w<span>ind</span>y",
+            "audio": "windy.mp3",
+            "image": "windy.png"
+        },
+        "word2": {
+            "word": "window",
+            "display": "w<span>ind</span>ow",
+            "audio": "window.mp3",
+            "image": "window.png"
+        },
+        "word3": {
+            "word": "windmill",
+            "display": "w<span>ind</span>mill",
+            "audio": "windmill.mp3",
+            "image": "windmill.png"
+        },
+        "quiz-words": [
+            "index finger",
+            "Indian corn or maize",
+            "kindergarten",
+            "windsurfer",
+            "woodwind instruments"
+        ],
+        "color": {
+            "all": "green",
+            "vowel": "green",
+            "3rd": "green"
+        },
+        "rhyme": "",
+        "category": ["VC"],
+        "grade": ["3rd" ]
+    },
+    {
+        "id": "I-ION",
+        "audio": "phoneme-I-ION.mp3",
+        "display": "ion",
+        "word1": {
+            "word": "cushion",
+            "display": "cush<span>ion</span>",
+            "audio": "cushion.mp3",
+            "image": "cushion.png"
+        },
+        "word2": {
+            "word": "fashion",
+            "display": "fash<span>ion</span>",
+            "audio": "fashion.mp3",
+            "image": "fashion.png"
+        },
+        "word3": {
+            "word": "addition",
+            "display": "addit<span>ion</span>",
+            "audio": "addition.mp3",
+            "image": "addition.png"
+        },
+        "quiz-words": [
+            "graduation",
+            "construction",
+            "percussion",
+            "question",
+            "congratulations"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "3rd": "black"
+        },
+        "rhyme": "",
+        "category": ["VC"],
+        "grade": ["3rd" ]
     },
     {
         "id": "I-IR",
@@ -2127,27 +2750,26 @@
             "image": "girl.png"
         },
         "word3": {
-            "word": "birthday cake",
-            "display": "b<span>ir</span>thday cake",
-            "audio": "birthday cake.mp3",
-            "image": "birthday cake.png"
+            "word": "shirt",
+            "display": "sh<span>ir</span>t",
+            "audio": "shirt.mp3",
+            "image": "shirt.png"
         },
         "quiz-words": [
-            "giraffe",
-            "thirsty",
+            "skirt",
             "circle",
-            "stir",
-            "shirt"
+            "giraffe",
+            "birthday",
+            "squirrel"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "2nd": "black"
         },
         "rhyme": "On her b(ir)thday the g(ir)l</br>Wh(ir)led her pearls, sw(ir)led her sk(ir)t,</br>Gave her sh(ir)t tail a tw(ir)l,</br>St(ir)red her toe in the d(ir)t,</br>Until, so I heard,</br>She looked just like a b(ir)d!</br>",
-        "category": "VC",
-        "grade": [
-            []
-        ]
+        "category": ["VC"],
+        "grade": ["2nd"]
     },
     {
         "id": "J-juh",
@@ -2186,8 +2808,8 @@
             "K": "black"
         },
         "rhyme": "Here am I; Little (j)umping (J)oan;</br>When nobody's with me;</br>I'm always alone.",
-        "category": "C",
-        "grade": "K"
+        "category": ["C"],
+        "grade": ["K"]
     },
     {
         "id": "j-soft-end",
@@ -2219,11 +2841,13 @@
             "fringe"
         ],
         "color": {
-            "all": "green",
-            "vowel": "green",
+            "all": "black",
+            "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "K-begin",
@@ -2259,7 +2883,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "Lucy Loc(k)et lost her poc(k)et,</br>(K)itty Fisher found it;</br>There was not a penny in it,</br>But a ribbon round it.</br>",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "K-end",
@@ -2291,11 +2917,13 @@
             "kayak"
         ],
         "color": {
-            "all": "green",
-            "vowel": "green",
+            "all": "black",
+            "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "Lucy Loc(k)et lost her poc(k)et,</br>(K)itty Fisher found it;</br>There was not a penny in it,</br>But a ribbon round it.</br>",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "K-kuh",
@@ -2334,10 +2962,46 @@
             "vowel": "black"
         },
         "rhyme": "Lucy Loc(k)et lost her poc(k)et,</br>(K)itty Fisher found it;</br>There was not a penny in it,</br>But a ribbon round it.</br>",
-        "category": "C",
-        "grade": [
-            []
-        ]
+        "category": ["C"],
+        "grade": [ ]
+    },
+    {
+        "id": "K-KN-silent",
+        "audio": "phoneme-K-KN-silent.mp3",
+        "display": "kn",
+        "word1": {
+            "word": "knot",
+            "display": "<span>kn</span>ot",
+            "audio": "knot.mp3",
+            "image": "knot.png"
+        },
+        "word2": {
+            "word": "knee",
+            "display": "<span>kn</span>ee",
+            "audio": "knee.mp3",
+            "image": "knee.png"
+        },
+        "word3": {
+            "word": "knit",
+            "display": "<span>kn</span>it",
+            "audio": "knit.mp3",
+            "image": "knit.png"
+        },
+        "quiz-words": [
+            "know",
+            "knock",
+            "knives",
+            "kneel",
+            "knuckles"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "2nd": "black"
+        },
+        "rhyme": "",
+        "category": ["CD"],
+        "grade": ["2nd"]
     },
     {
         "id": "L-begin",
@@ -2373,7 +3037,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "Mary had a (l)ittle (l)amb,</br>Its f(l)eece was white as snow,</br>And everywhere that Mary went,</br>The (l)amb was sure to go.",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "L-end",
@@ -2405,11 +3071,13 @@
             "nail"
         ],
         "color": {
-            "all": "green",
-            "vowel": "green",
+            "all": "black",
+            "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "Mary had a (l)ittle (l)amb,</br>Its f(l)eece was white as snow,</br>And everywhere that Mary went,</br>The (l)amb was sure to go.",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "L-lll",
@@ -2450,10 +3118,46 @@
             "vowel": "black"
         },
         "rhyme": "Mary had a (l)ittle (l)amb,</br>Its f(l)eece was white as snow,</br>And everywhere that Mary went,</br>The (l)amb was sure to go.",
-        "category": "C",
-        "grade": [
-            []
-        ]
+        "category": ["C"],
+        "grade": [ ]
+    },
+    {
+        "id": "L-LD",
+        "audio": "phoneme-L-LD.mp3",
+        "display": "ld",
+        "word1": {
+            "word": "old",
+            "display": "gi<span>ft</span>",
+            "audio": "gift.mp3",
+            "image": "gift.png"
+        },
+        "word2": {
+            "word": "wild",
+            "display": "so<span>ft</span>",
+            "audio": "soft.mp3",
+            "image": "soft.png"
+        },
+        "word3": {
+            "word": "build",
+            "display": "le<span>ft</span>",
+            "audio": "left.mp3",
+            "image": "left.png"
+        },
+        "quiz-words": [
+            "child",
+            "hold",
+            "gold",
+            "cold",
+            "scold"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "2nd": "black"
+        },
+        "rhyme": "",
+        "category": ["CB"],
+        "grade": ["2nd"]
     },
     {
         "id": "L-LE",
@@ -2493,10 +3197,84 @@
             "vowel": "black"
         },
         "rhyme": "The sow came in with the sadd(le);</br>The litt(le) pig rocked the crad(le);</br>The dish jumped up on the tab(le);</br>To see the pot swallow the lad(le).",
-        "category": "VC",
-        "grade": [
-            []
-        ]
+        "category": ["VC"],
+        "grade": [ ]
+    },
+    {
+        "id": "L-LF",
+        "audio": "phoneme-L-LF.mp3",
+        "display": "lf",
+        "word1": {
+            "word": "elf",
+            "display": "e<span>lf</span>",
+            "audio": "elf.mp3",
+            "image": "elf.png"
+        },
+        "word2": {
+            "word": "calf",
+            "display": "ca<span>lf</span>",
+            "audio": "calf.mp3",
+            "image": "calf.png"
+        },
+        "word3": {
+            "word": "wolf",
+            "display": "wo<span>lf</span>",
+            "audio": "wolf.mp3",
+            "image": "wolf.png"
+        },
+        "quiz-words": [
+            "half",
+            "golf",
+            "shelf",
+            "myself",
+            "yourself"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "2nd": "black"
+        },
+        "rhyme": "",
+        "category": ["CB"],
+        "grade": ["2nd"]
+    },
+    {
+        "id": "L-LT",
+        "audio": "phoneme-L-LT.mp3",
+        "display": "lt",
+        "word1": {
+            "word": "colt",
+            "display": "co<span>lt</span>",
+            "audio": "colt.mp3",
+            "image": "colt.png"
+        },
+        "word2": {
+            "word": "belt",
+            "display": "be<span>lt</span>",
+            "audio": "belt.mp3",
+            "image": "belt.png"
+        },
+        "word3": {
+            "word": "halt",
+            "display": "ha<span>lt</span>",
+            "audio": "halt.mp3",
+            "image": "halt.png"
+        },
+        "quiz-words": [
+            "bolt",
+            "salt",
+            "tilt",
+            "stilt",
+            "adult"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "2nd": "black"
+        },
+        "rhyme": "",
+        "category": ["CB"],
+        "grade": ["2nd"]
     },
     {
         "id": "M-begin",
@@ -2532,7 +3310,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "One (m)isty; (m)oisty (m)orning;</br>When cloudy was the weather;</br>I happened to (m)eet an old (m)an clothed all in leather.</br>He began to co(m)pli(m)ent; and I began to grin;</br>How do you do; and how do you do?</br>And how do you do again?",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "M-end",
@@ -2564,11 +3344,13 @@
             "glum"
         ],
         "color": {
-            "all": "green",
-            "vowel": "green",
+            "all": "black",
+            "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "One (m)isty; (m)oisty (m)orning;</br>When cloudy was the weather;</br>I happened to (m)eet an old (m)an clothed all in leather.</br>He began to co(m)pli(m)ent; and I began to grin;</br>How do you do; and how do you do?</br>And how do you do again?",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "M-mmm",
@@ -2609,10 +3391,84 @@
             "vowel": "black"
         },
         "rhyme": "One (m)isty; (m)oisty (m)orning;</br>When cloudy was the weather;</br>I happened to (m)eet an old (m)an clothed all in leather.</br>He began to co(m)pli(m)ent; and I began to grin;</br>How do you do; and how do you do?</br>And how do you do again?",
-        "category": "C",
-        "grade": [
-            []
-        ]
+        "category": ["C"],
+        "grade": [ ]
+    },
+    {
+        "id": "M-MB-silent",
+        "audio": "phoneme-M-MB-silent.mp3",
+        "display": "mb",
+        "word1": {
+            "word": "lamb",
+            "display": "la<span>mb</span>",
+            "audio": "lamb.mp3",
+            "image": "lamb.png"
+        },
+        "word2": {
+            "word": "comb",
+            "display": "co<span>mb</span>",
+            "audio": "comb.mp3",
+            "image": "comb.png"
+        },
+        "word3": {
+            "word": "thumb",
+            "display": "thu<span>mb</span>",
+            "audio": "thumb.mp3",
+            "image": "thumb.png"
+        },
+        "quiz-words": [
+            "limb",
+            "crumb",
+            "climb",
+            "plumber",
+            "doorjamb"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "3rd": "black"
+        },
+        "rhyme": "",
+        "category": ["CD"],
+        "grade": ["3rd"]
+    },
+    {
+        "id": "M-MP",
+        "audio": "phoneme-M-MP.mp3",
+        "display": "mp",
+        "word1": {
+            "word": "ump",
+            "display": "u<span>mp</span>",
+            "audio": "ump.mp3",
+            "image": "ump.png"
+        },
+        "word2": {
+            "word": "chimp",
+            "display": "chi<span>mp</span>",
+            "audio": "chimp.mp3",
+            "image": "chimp.png"
+        },
+        "word3": {
+            "word": "camp",
+            "display": "ca<span>mp</span>",
+            "audio": "camp.mp3",
+            "image": "camp.png"
+        },
+        "quiz-words": [
+            "rump",
+            "lamp",
+            "jump",
+            "stump",
+            "dump"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "2nd": "black"
+        },
+        "rhyme": "",
+        "category": ["CB"],
+        "grade": ["2nd"]
     },
     {
         "id": "N-begin",
@@ -2648,7 +3504,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "(N)eedles a(n)d pi(n)s,</br>(N)eedles a(n)d pi(n)s.</br>Whe(n) a ma(n) marries,</br>his trouble begi(n)s.",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "N-end",
@@ -2680,11 +3538,13 @@
             "nun"
         ],
         "color": {
-            "all": "green",
-            "vowel": "green",
+            "all": "black",
+            "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "(N)eedles a(n)d pi(n)s,</br>(N)eedles a(n)d pi(n)s.</br>Whe(n) a ma(n) marries,</br>his trouble begi(n)s.",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "N-nnn",
@@ -2725,135 +3585,159 @@
             "vowel": "black"
         },
         "rhyme": "(N)eedles a(n)d pi(n)s,</br>(N)eedles a(n)d pi(n)s.</br>Whe(n) a ma(n) marries,</br>his trouble begi(n)s.",
-        "category": "C",
-        "grade": [
-            []
-        ]
+        "category": ["C"],
+        "grade": [ ]
     },
     {
         "id": "N-ND",
         "audio": "phoneme-N-ND.mp3",
         "display": "nd",
         "word1": {
+            "word": "wind",
+            "display": "wi<span>nd</span>",
+            "audio": "wind.mp3",
+            "image": "wind.png"
+        },
+        "word2": {
+            "word": "pond",
+            "display": "po<span>nd</span>box",
+            "audio": "pond.mp3",
+            "image": "pond.png"
+        },
+        "word3": {
             "word": "hand",
-            "display": "ha<span>nd</span>",
+            "display": "ha<span>nd</span>a",
             "audio": "hand.mp3",
             "image": "hand.png"
         },
-        "word2": {
-            "word": "sandbox",
-            "display": "sa<span>nd</span>box",
-            "audio": "sandbox.mp3",
-            "image": "sandbox.png"
-        },
-        "word3": {
-            "word": "panda",
-            "display": "pa<span>nd</span>a",
-            "audio": "panda.mp3",
-            "image": "panda.png"
-        },
         "quiz-words": [
-            "candy",
-            "greyhound",
-            "playground",
-            "bloodhound",
-            "candlestick",
-            "dandelion",
-            "sandal",
-            "sandwich",
-            "dachshund",
-            "grandfather"
+            "round",
+            "behind",
+            "hound",
+            "diamond",
+            "woodwind"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "2nd": "black"
         },
         "rhyme": "Ha(nd)y-spa(nd)y; Jacky da(nd)y;</br>Loves plum cake a(nd) sugar ca(nd)y.</br>He bought some at a grocer's shop;</br>A(nd) pleased ran away going hop; hop; hop.",
-        "category": "CB",
-        "grade": [
-            []
-        ]
+        "category": ["CB"],
+        "grade": ["2nd"]
     },
     {
         "id": "N-NG",
         "audio": "phoneme-N-NG.mp3",
         "display": "ng",
         "word1": {
-            "word": "king",
-            "display": "ki<span>ng</span>",
-            "audio": "king.mp3",
-            "image": "king.png"
+            "word": "wing",
+            "display": "wi<span>ng</span>",
+            "audio": "wing.mp3",
+            "image": "wing.png"
         },
         "word2": {
-            "word": "finger",
-            "display": "fi<span>ng</span>er",
-            "audio": "finger.mp3",
-            "image": "finger.png"
+            "word": "bang",
+            "display": "ba<span>ng</span>",
+            "audio": "bang.mp3",
+            "image": "bang.png"
         },
         "word3": {
-            "word": "sing",
-            "display": "si<span>ng</span>",
-            "audio": "sing.mp3",
-            "image": "sing.png"
+            "word": "strong",
+            "display": "stro<span>ng</span>",
+            "audio": "strong.mp3",
+            "image": "strong.png"
         },
         "quiz-words": [
-            "swing",
-            "lightning",
-            "angry",
-            "fishing net",
-            "flying carpet",
-            "dancing"
+            "king",
+            "fang",
+            "young",
+            "long",
+            "swing"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "1st": "black"
         },
         "rhyme": "Si(ng) a so(ng) of sixpence, a pocket full of rye,</br>Four and twenty blackbirds baked in a pie.</br>When the pie was opened the birds began to si(ng),</br>Now wasn\u2019t this a dainty dish to set before the ki(ng)?</br></br>The ki(ng) was in the parlor counti(ng) out his money;</br>The queen was in the kitchen eati(ng) bread and honey;</br>The maid was in the garden ha(ng)i(ng) out the clothes,</br>And alo(ng) came a blackbird and nipped off her nose.</br>",
-        "category": "CB",
-        "grade": [
-            []
-        ]
+        "category": ["CD"],
+        "grade": "1st"
     },
     {
         "id": "N-NK",
         "audio": "phoneme-N-NK.mp3",
         "display": "nk",
         "word1": {
-            "word": "skunk",
-            "display": "sku<span>nk</span>",
-            "audio": "skunk.mp3",
-            "image": "skunk.png"
+            "word": "tank",
+            "display": "ta<span>nk</span>",
+            "audio": "tank.mp3",
+            "image": "tank.png"
         },
         "word2": {
-            "word": "monkey",
-            "display": "mo<span>nk</span>ey",
-            "audio": "monkey.mp3",
-            "image": "monkey.png"
+            "word": "pink",
+            "display": "pi<span>nk</span>",
+            "audio": "pink.mp3",
+            "image": "pink.png"
         },
         "word3": {
-            "word": "drink",
-            "display": "dri<span>nk</span>",
-            "audio": "drink.mp3",
-            "image": "drink.png"
+            "word": "trunk",
+            "display": "tru<span>nk</span>",
+            "audio": "trunk.mp3",
+            "image": "trunk.png"
         },
         "quiz-words": [
-            "chipmunk",
-            "blanket",
-            "pink",
-            "bunk bed",
-            "monkey bars",
-            "tank truck",
-            "monkey wrench"
+            "bank",
+            "skunk",
+            "drink",
+            "think",
+            "chipmunk"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "2nd": "black"
+        },
+        "rhyme": "There was an old woman; and what do you thi(nk)?</br>She lived upon nothing but foods and dri(nk);</br>Food and dri(nk) made up most of her diet;</br>And yet this old woman could never be quiet.",
+        "category": ["CB"],
+        "grade": ["2nd"]
+    },
+    {
+        "id": "N-NT",
+        "audio": "phoneme-N-NT.mp3",
+        "display": "nt",
+        "word1": {
+            "word": "ant",
+            "display": "a<span>nt</span>",
+            "audio": "ant.mp3",
+            "image": "ant.png"
+        },
+        "word2": {
+            "word": "tent",
+            "display": "te<span>nt</span>",
+            "audio": "tent.mp3",
+            "image": "tent.png"
+        },
+        "word3": {
+            "word": "point",
+            "display": "poi<span>nt</span>",
+            "audio": "point.mp3",
+            "image": "point.png"
+        },
+        "quiz-words": [
+            "plant",
+            "hydrant",
+            "paint",
+            "present",
+            "equipment"
         ],
         "color": {
             "all": "black",
             "vowel": "black"
         },
-        "rhyme": "There was an old woman; and what do you thi(nk)?</br>She lived upon nothing but foods and dri(nk);</br>Food and dri(nk) made up most of her diet;</br>And yet this old woman could never be quiet.",
-        "category": "CB",
-        "grade": [
-            []
-        ]
+        "rhyme": "",
+        "category": ["CB"],
+        "grade": ["2nd"]
     },
     {
         "id": "O-long",
@@ -2866,28 +3750,23 @@
             "image": "old.png"
         },
         "word2": {
-            "word": "mole",
-            "display": "m<span>o</span>le",
-            "audio": "mole.mp3",
-            "image": "mole.png"
+            "word": "yo-yo",
+            "display": "y<span>o</span>-y<span>o</span>",
+            "audio": "yoyo.mp3",
+            "image": "yoyo.png"
         },
         "word3": {
-            "word": "polar bear",
-            "display": "p<span>o</span>lar bear",
-            "audio": "polar bear.mp3",
-            "image": "polar bear.png"
+            "word": "no",
+            "display": "n<span>o</span>",
+            "audio": "no.mp3",
+            "image": "no.png"
         },
         "quiz-words": [
-            "yo-yo",
-            "nose",
+            "ovals",
             "sofa",
-            "gold",
-            "dozer",
-            "toe",
-            "throne",
-            "armadillo",
-            "volcano",
-            "robot"
+            "mole",
+            "nose",
+            "dozer"
         ],
         "color": {
             "all": "black",
@@ -2895,18 +3774,18 @@
             "K": "black"
         },
         "rhyme": "(O)ld King C(o)le;</br>Was a merry (o)ld s(o)ul;</br>And a merry (o)ld s(o)ul was he;</br>He called for his pipe;</br>And he called for his b(o)wl;</br>And he called for his fiddlers three.",
-        "category": "V",
-        "grade": "K"
+        "category": ["V"],
+        "grade": ["K"]
     },
     {
         "id": "O-short",
         "audio": "phoneme-O-short.mp3",
         "display": "o",
         "word1": {
-            "word": "ostrich",
-            "display": "<span>o</span>strich",
-            "audio": "ostrich.mp3",
-            "image": "ostrich.png"
+            "word": "fox",
+            "display": "f<span>o</span>x",
+            "audio": "fox.mp3",
+            "image": "fox.png"
         },
         "word2": {
             "word": "pot",
@@ -2915,22 +3794,18 @@
             "image": "pot.png"
         },
         "word3": {
-            "word": "trolley",
-            "display": "tr<span>o</span>lley",
-            "audio": "trolley.mp3",
-            "image": "trolley.png"
+            "word": "hot",
+            "display": "h<span>o</span>t",
+            "audio": "hot.mp3",
+            "image": "hot.png"
         },
         "quiz-words": [
-            "fox",
-            "hot",
-            "boxer",
             "drop",
-            "sandbox",
-            "rocket",
             "moth",
             "frog",
             "trolley",
-            "crayon"
+            "ostrich",
+            "boxer"
         ],
         "color": {
             "all": "green",
@@ -2938,18 +3813,18 @@
             "K": "green"
         },
         "rhyme": "H(o)t cr(o)ss buns, h(o)t cr(o)ss buns.</br>One a penny, two a penny,</br>H(o)t cr(o)ss buns!</br></br>If your daughters do n(o)t like them,</br>Give them to your sons.</br>One a penny, two a penny,</br>H(o)t cr(o)ss buns!",
-        "category": "V",
-        "grade": "K"
+        "category": ["V"],
+        "grade": ["K"]
     },
     {
         "id": "O-uh",
         "audio": "phoneme-O-uh.mp3",
         "display": "o",
         "word1": {
-            "word": "onion",
-            "display": "<span>o</span>nion",
-            "audio": "onion.mp3",
-            "image": "onion.png"
+            "word": "lion",
+            "display": "li<span>o</span>n",
+            "audio": "lion.mp3",
+            "image": "lion.png"
         },
         "word2": {
             "word": "oven",
@@ -2965,106 +3840,19 @@
         },
         "quiz-words": [
             "love",
-            "monkey",
-            "glove",
             "mother",
+            "glove",
             "shovel",
-            "monkey wrench",
-            "grandmother",
-            "monkey bars"
+            "monkey"
         ],
         "color": {
-            "all": "orange",
-            "vowel": "orange",
-            "K": "orange"
+            "all": "pink",
+            "vowel": "pink",
+            "2nd": "pink"
         },
         "rhyme": "He l(o)ves me.</br>He d(o)esn't!</br>He'll have me.</br>He won't!</br></br>He would if he could,</br>But he can't, so he won't!",
-        "category": "V",
-        "grade": "K"
-    },
-    {
-        "id": "O-ew",
-        "audio": "phoneme-O-ew.mp3",
-        "display": "oo",
-        "word1": {
-            "word": "spoon",
-            "display": "sp<span>oo</span>n",
-            "audio": "spoon.mp3",
-            "image": "spoon.png"
-        },
-        "word2": {
-            "word": "raccoons",
-            "display": "racc<span>oo</span>ns",
-            "audio": "raccoons.mp3",
-            "image": "raccoons.png"
-        },
-        "word3": {
-            "word": "boots",
-            "display": "b<span>oo</span>ts",
-            "audio": "boots.mp3",
-            "image": "boots.png"
-        },
-        "quiz-words": [
-            "kangaroo",
-            "poodle",
-            "goose",
-            "school bus",
-            "balloon",
-            "moon",
-            "broom",
-            "stool",
-            "coonskin cap",
-            "tool belt"
-        ],
-        "color": {
-            "all": "black",
-            "vowel": "black"
-        },
-        "rhyme": "The man in the m(oo)n came down t(oo) s(oo)n;</br>To inquire the way to Norridge;</br>The man in the south; he burnt his mouth;</br>With eating cold plum porridge.",
-        "category": "VP",
-        "grade": [
-            []
-        ]
-    },
-    {
-        "id": "O-uuh",
-        "audio": "phoneme-O-uuh.mp3",
-        "display": "oo",
-        "word1": {
-            "word": "cookies",
-            "display": "c<span>oo</span>kies",
-            "audio": "cookies.mp3",
-            "image": "cookies.png"
-        },
-        "word2": {
-            "word": "wood",
-            "display": "w<span>oo</span>d",
-            "audio": "wood.mp3",
-            "image": "wood.png"
-        },
-        "word3": {
-            "word": "foot",
-            "display": "f<span>oo</span>t",
-            "audio": "foot.mp3",
-            "image": "foot.png"
-        },
-        "quiz-words": [
-            "football",
-            "crook",
-            "crooked",
-            "footstool",
-            "bookcase",
-            "book"
-        ],
-        "color": {
-            "all": "green",
-            "vowel": "green"
-        },
-        "rhyme": "Little Bopeep never underst(oo)d,</br>When little Miss Red Riding H(oo)d</br>Went trick-or-treat in our neighborh(oo)d</br>With little Mister Captain H(oo)k,</br>It wasn\u2019t c(oo)kies or candy they t(oo)k,</br>Each picked a little picture b(oo)k.</br>",
-        "category": "VP",
-        "grade": [
-            []
-        ]
+        "category": ["V"],
+        "grade": ["2nd"]
     },
     {
         "id": "O-OA",
@@ -3090,20 +3878,19 @@
         },
         "quiz-words": [
             "soap",
-            "soccer goal",
-            "toaster",
-            "boat trailer",
-            "front loader"
+            "toad",
+            "foal",
+            "float",
+            "toaster"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "1st": "black"
         },
         "rhyme": "Little Nanny Ettic(oa)t;</br>In a white pettic(oa)t;</br>And a red nose;</br>The longer she stands;</br>The shorter she grows.",
-        "category": "VP",
-        "grade": [
-            []
-        ]
+        "category": ["VP"],
+        "grade": ["1st"]
     },
     {
         "id": "O-OI",
@@ -3116,123 +3903,394 @@
             "image": "coin.png"
         },
         "word2": {
-            "word": "poison",
-            "display": "p<span>oi</span>son",
-            "audio": "poison.mp3",
-            "image": "poison.png"
+            "word": "point",
+            "display": "p<span>oi</span>nt",
+            "audio": "point.mp3",
+            "image": "point.png"
         },
         "word3": {
-            "word": "noise",
-            "display": "n<span>oi</span>se",
-            "audio": "noise.mp3",
-            "image": "noise.png"
+            "word": "choice",
+            "display": "ch<span>oi</span>ce",
+            "audio": "choice.mp3",
+            "image": "choice.png"
         },
         "quiz-words": [
+            "voice",
+            "noise",
             "toilet",
-            "five-point-star",
-            "fencing foil",
-            "toilet paper",
-            "six-point-star"
+            "poison",
+            "oink-oink"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "2nd": "black"
         },
         "rhyme": "A toy box you put toys in.<br>Pin a balloon and you\u2019ll sp(oi)l it.</br>A pan\u2019s for putting (oi)ly c(oi)ns in.</br>To clean them add water and b(oi)l it.</br>Time out\u2019s for putting n(oi)sy boys in.</br>P(oi)son? Pour it in the t(oi)let!</br>",
-        "category": "VP",
-        "grade": [
-            []
-        ]
+        "category": ["VP"],
+        "grade": ["2nd"]
+    },
+    {
+        "id": "O-OLD",
+        "audio": "phoneme-O-OLD.mp3",
+        "display": "old",
+        "word1": {
+            "word": "old",
+            "display": "<span>old</span>",
+            "audio": "old.mp3",
+            "image": "old.png"
+        },
+        "word2": {
+            "word": "cold",
+            "display": "c<span>old</span>",
+            "audio": "cold.mp3",
+            "image": "cold.png"
+        },
+        "word3": {
+            "word": "gold",
+            "display": "g<span>old</span>",
+            "audio": "gold.mp3",
+            "image": "gold.png"
+        },
+        "quiz-words": [
+            "told",
+            "sold",
+            "hold",
+            "scold",
+            "soldier"
+        ],
+        "color": {
+            "all": "pink",
+            "vowel": "pink",
+            "2nd": "pink"
+        },
+        "rhyme": "",
+        "category": ["V"],
+        "grade": ["2nd"]
+    },
+    {
+        "id": "O-ew",
+        "audio": "phoneme-O-ew.mp3",
+        "display": "oo",
+        "word1": {
+            "word": "zoo",
+            "display": "z<span>oo</span>",
+            "audio": "zoo.mp3",
+            "image": "zoo.png"
+        },
+        "word2": {
+            "word": "moon",
+            "display": "m<span>oo</span>n",
+            "audio": "moon.mp3",
+            "image": "moon.png"
+        },
+        "word3": {
+            "word": "hoofs",
+            "display": "h<span>oo</span>fs",
+            "audio": "hoofs.mp3",
+            "image": "hoofs.png"
+        },
+        "quiz-words": [
+            "tools",
+            "boots",
+            "broom",
+            "stool",
+            "moose",
+            "goose",
+            "spoon",
+            "tooth",
+            "raccoon",
+            "balloon",
+            "poodle",
+            "school",
+            "rooster",
+            "bedroom"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "1st": "black"
+        },
+        "rhyme": "The man in the m(oo)n came down t(oo) s(oo)n;</br>To inquire the way to Norridge;</br>The man in the south; he burnt his mouth;</br>With eating cold plum porridge.",
+        "category": ["VP"],
+        "grade": ["1st"]
+    },
+    {
+        "id": "O-uuh",
+        "audio": "phoneme-O-uuh.mp3",
+        "display": "oo",
+        "word1": {
+            "word": "cook",
+            "display": "c<span>oo</span>k",
+            "audio": "cook.mp3",
+            "image": "cook.png"
+        },
+        "word2": {
+            "word": "wood",
+            "display": "w<span>oo</span>d",
+            "audio": "wood.mp3",
+            "image": "wood.png"
+        },
+        "word3": {
+            "word": "foot",
+            "display": "f<span>oo</span>t",
+            "audio": "foot.mp3",
+            "image": "foot.png"
+        },
+        "quiz-words": [
+            "look",
+            "book",
+            "hoodie",
+            "cookies",
+            "bigfoot",
+            "football"
+        ],
+        "color": {
+            "all": "green",
+            "vowel": "green",
+            "1st": "green"
+        },
+        "rhyme": "Little Bopeep never underst(oo)d,</br>When little Miss Red Riding H(oo)d</br>Went trick-or-treat in our neighborh(oo)d</br>With little Mister Captain H(oo)k,</br>It wasn\u2019t c(oo)kies or candy they t(oo)k,</br>Each picked a little picture b(oo)k.</br>",
+        "category": ["VP"],
+        "grade": ["1st"]
+    },
+    {
+        "id": "O-OLD",
+        "audio": "phoneme-O-OLD.mp3",
+        "display": "old",
+        "word1": {
+            "word": "old",
+            "display": "<span>old</span>",
+            "audio": "old.mp3",
+            "image": "old.png"
+        },
+        "word2": {
+            "word": "cold",
+            "display": "c<span>old</span>",
+            "audio": "cold.mp3",
+            "image": "cold.png"
+        },
+        "word3": {
+            "word": "gold",
+            "display": "g<span>old</span>",
+            "audio": "gold.mp3",
+            "image": "gold.png"
+        },
+        "quiz-words": [
+            "told",
+            "sold",
+            "hold",
+            "scold",
+            "soldier"
+        ],
+        "color": {
+            "all": "pink",
+            "vowel": "pink",
+            "2nd": "pink"
+        },
+        "rhyme": "",
+        "category": ["V"],
+        "grade": ["2nd"]
     },
     {
         "id": "O-OR",
         "audio": "phoneme-O-OR.mp3",
         "display": "or",
         "word1": {
-            "word": "fork",
-            "display": "f<span>or</span>k",
-            "audio": "fork.mp3",
-            "image": "fork.png"
-        },
-        "word2": {
-            "word": "storm",
-            "display": "st<span>or</span>m",
-            "audio": "storm.mp3",
-            "image": "storm.png"
-        },
-        "word3": {
             "word": "corn",
             "display": "c<span>or</span>n",
             "audio": "corn.mp3",
             "image": "corn.png"
         },
+        "word2": {
+            "word": "horns",
+            "display": "h<span>or</span>ns",
+            "audio": "horns.mp3",
+            "image": "horns.png"
+        },
+        "word3": {
+            "word": "orca",
+            "display": "o<span>or</span>ca",
+            "audio": "orca.mp3",
+            "image": "orca.png"
+        },
         "quiz-words": [
-            "excavator",
+            "sports",
             "hornet",
-            "popcorn",
-            "tortilla",
-            "forest"
+            "unicorn",
+            "uniform",
+            "porcupine"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "2nd": "black"
         },
         "rhyme": "Little Jack H(or)ner;</br>Sat in a c(or)ner;</br>Eating a Christmas pie;</br>He put in his thumb;</br>And pulled out a plum;</br>And said: \"What a good boy am I!\"",
-        "category": "VC",
-        "grade": [
-            []
-        ]
+        "category": ["VC"],
+        "grade": ["2nd"]
+    },
+    {
+        "id": "O-OR-schwa",
+        "audio": "phoneme-O-OR-schwa.mp3",
+        "display": "or",
+        "word1": {
+            "word": "work",
+            "display": "w<span>or</span>k",
+            "audio": "work.mp3",
+            "image": "work.png"
+        },
+        "word2": {
+            "word": "worms",
+            "display": "w<span>or</span>ms",
+            "audio": "worms.mp3",
+            "image": "worms.png"
+        },
+        "word3": {
+            "word": "tractor",
+            "display": "tract<span>or</span>",
+            "audio": "tractor.mp3",
+            "image": "tractor.png"
+        },
+        "quiz-words": [
+            "mirror",
+            "sailor",
+            "gator",
+            "gorilla",
+            "excavator"
+        ],
+        "color": {
+            "all": "green",
+            "vowel": "green",
+            "2nd": "green"
+        },
+        "rhyme": "",
+        "category": ["VC"],
+        "grade": ["2nd"]
+    },
+    {
+        "id": "O-OST-short",
+        "audio": "phoneme-O-OST-short.mp3",
+        "display": "ost",
+        "word1": {
+            "word": "cost",
+            "display": "c<span>ost</span>",
+            "audio": "cost.mp3",
+            "image": "cost.png"
+        },
+        "word2": {
+            "word": "frost",
+            "display": "fr<span>ost</span>",
+            "audio": "frost.mp3",
+            "image": "frost.png"
+        },
+        "word3": {
+            "word": "ostrich",
+            "display": "<span>ost</span>rich",
+            "audio": "ostrich.mp3",
+            "image": "ostrich.png"
+        },
+        "quiz-words": [
+            "nostrils",
+            "costume",
+            "frosting",
+            "hostile",
+            "posture"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "3rd": "black"
+        },
+        "rhyme": "",
+        "category": ["CV"],
+        "grade": ["3rd"]
+    },
+    {
+        "id": "O-OST-long",
+        "audio": "phoneme-O-OST-long.mp3",
+        "display": "ost",
+        "word1": {
+            "word": "most",
+            "display": "m<span>ost</span>",
+            "audio": "most.mp3",
+            "image": "most.png"
+        },
+        "word2": {
+            "word": "ghost",
+            "display": "gh<span>ost</span>",
+            "audio": "ghost.mp3",
+            "image": "ghost.png"
+        },
+        "word3": {
+            "word": "postage",
+            "display": "p<span>ost</span>age",
+            "audio": "postage.mp3",
+            "image": "postage.png"
+        },
+        "quiz-words": [
+            "goalpost",
+            "almost",
+            "postman",
+            "gatepost",
+            "hindmost"
+        ],
+        "color": {
+            "all": "green",
+            "vowel": "green",
+            "3rd": "green"
+        },
+        "rhyme": "",
+        "category": ["CV"],
+        "grade": ["3rd"]
     },
     {
         "id": "O-OU",
         "audio": "phoneme-O-OU.mp3",
         "display": "ou",
         "word1": {
+            "word": "house",
+            "display": "h<span>ou</span>se",
+            "audio": "house.mp3",
+            "image": "house.png"
+        },
+        "word2": {
             "word": "mouth",
             "display": "m<span>ou</span>th",
             "audio": "mouth.mp3",
             "image": "mouth.png"
         },
-        "word2": {
-            "word": "cloud",
-            "display": "cl<span>ou</span>d",
-            "audio": "cloud.mp3",
-            "image": "cloud.png"
-        },
         "word3": {
-            "word": "mouse",
-            "display": "m<span>ou</span>se",
-            "audio": "mouse.mp3",
-            "image": "mouse.png"
+            "word": "proud",
+            "display": "pr<span>ou</span>d",
+            "audio": "proud.mp3",
+            "image": "proud.png"
         },
         "quiz-words": [
-            "proud",
-            "playground",
-            "greyhound",
-            "doll house",
-            "mountain",
+            "snout",
+            "mouse",
+            "cloudy",
             "bloodhound",
-            "cloudy"
+            "mountain"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "2nd": "black"
         },
         "rhyme": "I'm a little teapot,</br>short and st(ou)t.</br>Here is my handle,</br>here is my sp(ou)t.</br></br>When I see the teacups,</br>hear me sh(ou)t:</br>\"Tip me over,</br>And pour me (ou)t!\"</br>",
-        "category": "VP",
-        "grade": [
-            []
-        ]
+        "category": ["VP"],
+        "grade": ["2nd"]
     },
     {
         "id": "O-ohw",
         "audio": "phoneme-O-ohw.mp3",
         "display": "ow",
         "word1": {
-            "word": "rainbow",
-            "display": "rainb<span>ow</span>",
-            "audio": "rainbow.mp3",
-            "image": "rainbow.png"
+            "word": "blow",
+            "display": "bl<span>ow</span>",
+            "audio": "blow.mp3",
+            "image": "blow.png"
         },
         "word2": {
             "word": "snow",
@@ -3241,28 +4299,26 @@
             "image": "snow.png"
         },
         "word3": {
-            "word": "bow and arrows",
-            "display": "b<span>ow</span> and arr<span>ow</span>",
-            "audio": "bow and arrows.mp3",
-            "image": "bow and arrows.png"
+            "word": "throw",
+            "display": "thr<span>ow</span>",
+            "audio": "throw.mp3",
+            "image": "throw.png"
         },
         "quiz-words": [
+            "tow",
+            "elbow",
             "window",
-            "yellow",
-            "bowl",
-            "throw",
-            "crowbar",
-            "lawnmower"
+            "rainbow",
+            "pillow"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "2nd": "black"
         },
         "rhyme": "The north wind does bl(ow);</br>And we shall have sn(ow);</br>And what will poor robin do then?</br>Poor thing!</br></br>He'll sit in the barn;</br>And keep himself warm;</br>And hide his head under his wing.</br>Poor thing!",
-        "category": "VP",
-        "grade": [
-            []
-        ]
+        "category": ["VP"],
+        "grade": ["2nd"]
     },
     {
         "id": "O-ow",
@@ -3289,22 +4345,18 @@
         "quiz-words": [
             "clown",
             "flower",
-            "brown",
-            "eyebrow",
             "trowel",
-            "nightgown",
             "shower",
-            "wedding gown"
+            "nightgown"
         ],
         "color": {
             "all": "green",
-            "vowel": "green"
+            "vowel": "green",
+            "2nd": "green"
         },
         "rhyme": "Daffy-d(ow)n-dilly has come to t(ow)n,</br>With a green petticoat</br>and a bright yellow g(ow)n.</br>",
-        "category": "VP",
-        "grade": [
-            []
-        ]
+        "category": ["VP"],
+        "grade": ["2nd"]
     },
     {
         "id": "O-OY",
@@ -3329,20 +4381,20 @@
             "image": "oyster.png"
         },
         "quiz-words": [
-            "cowboy",
             "joy",
-            "boyfriend",
-            "royal"
+            "cowboy",
+            "destroy",
+            "royal",
+            "boyfriend"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "2nd": "black"
         },
         "rhyme": "A b(oy) needs a t(oy)</br>That he can enj(oy)</br>Or he'll have to ann(oy) a grown-up,</br>Climb on the highb(oy),</br>Find a pile to destr(oy),</br>Or play cowb(oy) till doggie has thrown-up.</br>",
-        "category": "VP",
-        "grade": [
-            []
-        ]
+        "category": ["VP"],
+        "grade": ["2nd" ]
     },
     {
         "id": "P-begin",
@@ -3378,7 +4430,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "(P)ease (p)orridge hot; (p)ease (p)orridge cold;</br>(P)ease (p)orridge in the (p)ot; nine days old.</br>Some like it hot; some like it cold;</br>Some like it in the (p)ot; nine days old.</br>S(p)ell me that in four letters:</br>I will: T H A T.",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "P-end",
@@ -3410,11 +4464,13 @@
             "chimp"
         ],
         "color": {
-            "all": "green",
-            "vowel": "green",
+            "all": "black",
+            "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "(P)ease (p)orridge hot; (p)ease (p)orridge cold;</br>(P)ease (p)orridge in the (p)ot; nine days old.</br>Some like it hot; some like it cold;</br>Some like it in the (p)ot; nine days old.</br>S(p)ell me that in four letters:</br>I will: T H A T.",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "P-puh",
@@ -3455,48 +4511,125 @@
             "vowel": "black"
         },
         "rhyme": "(P)ease (p)orridge hot; (p)ease (p)orridge cold;</br>(P)ease (p)orridge in the (p)ot; nine days old.</br>Some like it hot; some like it cold;</br>Some like it in the (p)ot; nine days old.</br>S(p)ell me that in four letters:</br>I will: T H A T.",
-        "category": "C",
-        "grade": [
-            []
-        ]
+        "category": ["C"],
+        "grade": [ ]
+    },
+    {
+        "id": "P-PH-begin",
+        "audio": "phoneme-P-PH.mp3",
+        "display": "ph",
+        "word1": {
+            "word": "phone",
+            "display": "<span>ph</span>one",
+            "audio": "phone.mp3",
+            "image": "phone.png"
+        },
+        "word2": {
+            "word": "phonics",
+            "display": "<span>ph</span>onics",
+            "audio": "phonics.mp3",
+            "image": "phonics.png"
+        },
+        "word3": {
+            "word": "phantom",
+            "display": "<span>ph</span>antom",
+            "audio": "phantom.mp3",
+            "image": "phantom.png"
+        },
+        "quiz-words": [
+            "philtrum",
+            "physician",
+            "pharoah",
+            "pheasant",
+            "phoenix"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "3rd": "black"
+        },
+        "rhyme": "",
+        "category": ["CD"],
+        "grade": ["3rd"]
+    },
+    {
+        "id": "P-PH-end",
+        "audio": "phoneme-P-PH.mp3",
+        "display": "ph",
+        "word1": {
+            "word": "nymph",
+            "display": "nym<span>ph</span>",
+            "audio": "nymph.mp3",
+            "image": "nymph.png"
+        },
+        "word2": {
+            "word": "digraph",
+            "display": "digra<span>ph</span>",
+            "audio": "digraph.mp3",
+            "image": "digraph.png"
+        },
+        "word3": {
+            "word": "triumph",
+            "display": "trium<span>ph</span>",
+            "audio": "triumph.mp3",
+            "image": "triumph.png"
+        },
+        "quiz-words": [
+            "phonograph",
+            "epitaph",
+            "autograph",
+            "caliph",
+            "sylph",
+            "graph",
+            "photograph",
+            "paragraph"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "3rd": "black"
+        },
+        "rhyme": "",
+        "category": ["CD"],
+        "grade": ["3rd"]
     },
     {
         "id": "P-PL",
         "audio": "phoneme-P-PL.mp3",
         "display": "pl",
         "word1": {
+            "word": "play",
+            "display": "<span>pl</span>ay",
+            "audio": "play.mp3",
+            "image": "play.png"
+        },
+        "word2": {
             "word": "plug",
             "display": "<span>pl</span>ug",
             "audio": "plug.mp3",
             "image": "plug.png"
         },
-        "word2": {
-            "word": "playground",
-            "display": "<span>pl</span>ayground",
-            "audio": "playground.mp3",
-            "image": "playground.png"
-        },
         "word3": {
-            "word": "airplane",
-            "display": "air<span>pl</span>ane",
-            "audio": "airplane.mp3",
-            "image": "airplane.png"
+            "word": "plum",
+            "display": "air<span>pl</span>um",
+            "audio": "plum.mp3",
+            "image": "plum.png"
         },
         "quiz-words": [
-            "plum",
-            "guitar player",
+            "places",
+            "pliers",
+            "plumber",
             "snow plow",
-            "plug"
+            "playground"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "1st": "black"
         },
         "rhyme": "No kid likes peas piled on (pl)ates,</br>But (pl)aced in straws they\u2019re (pl)enty fun.</br>Blow so they shoot past people\u2019s faces</br>(Pl)ay, (pl)ay, (pl)ay, then run, run, run!</br>",
-        "category": "CB",
-        "grade": [
-            []
-        ]
+        "category": ["CB"],
+        "grade": ["1st"]
     },
     {
         "id": "P-PR",
@@ -3509,31 +4642,32 @@
             "image": "proud.png"
         },
         "word2": {
-            "word": "pretzel",
-            "display": "<span>pr</span>etzel",
-            "audio": "pretzel.mp3",
-            "image": "pretzel.png"
+            "word": "prize",
+            "display": "<span>pr</span>ize",
+            "audio": "prize.mp3",
+            "image": "prize.png"
         },
         "word3": {
-            "word": "present",
-            "display": "<span>pr</span>esent",
-            "audio": "present.mp3",
-            "image": "present.png"
+            "word": "protect",
+            "display": "<span>pr</span>otect",
+            "audio": "protect.mp3",
+            "image": "protect.png"
         },
         "quiz-words": [
-            "sprinkler",
-            "proposing",
-            "spray"
+            "pretend",
+            "primates",
+            "present",
+            "pretzel",
+            "proposing"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "1st": "black"
         },
         "rhyme": "As I was going up (Pr)imrose Hill;</br>(Pr)imrose Hill was dirty;</br>There I met a (pr)etty girl;</br>And she gave me a curtsey.</br>Little girl; (pr)etty girl;</br>Blessings be upon you;</br>If I had half-a-dollar a day;</br>I'd spend it all on you.",
-        "category": "CB",
-        "grade": [
-            []
-        ]
+        "category": ["CB"],
+        "grade": ["1st"]
     },
     {
         "id": "Q-begin",
@@ -3569,7 +4703,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "(Q)ueen Croc napped on her (q)uilt,</br>Mama duck (q)uacked, \u201cBe (q)uiet!\u201d</br>\u201cWhat?\u201d (Q)uacked the duckling.</br>\u201c(Q)uit!\u201d Mama (q)uacked, \u201cDucks are her diet!\u201d</br>",
+        "category": ["VC"],
+        "grade": ["K-only"]
     },
     {
         "id": "Q-qwuh",
@@ -3608,10 +4744,8 @@
             "vowel": "black"
         },
         "rhyme": "(Q)ueen Croc napped on her (q)uilt,</br>Mama duck (q)uacked, \u201cBe (q)uiet!\u201d</br>\u201cWhat?\u201d (Q)uacked the duckling.</br>\u201c(Q)uit!\u201d Mama (q)uacked, \u201cDucks are her diet!\u201d</br>",
-        "category": "VC",
-        "grade": [
-            []
-        ]
+        "category": ["C"],
+        "grade": [ ]
     },
     {
         "id": "R-begin",
@@ -3647,7 +4781,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "(R)ing a(r)ound the (r)oses,</br>A pocket full of posies.</br>Ashes, ashes,</br>We all fall down.</br></br>Picking up the daisies,</br>Picking up the daisies.</br>Ashes, ashes,</br>We all stand up!",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "R-end",
@@ -3679,11 +4815,13 @@
             "dozer"
         ],
         "color": {
-            "all": "green",
-            "vowel": "green",
+            "all": "black",
+            "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "(R)ing a(r)ound the (r)oses,</br>A pocket full of posies.</br>Ashes, ashes,</br>We all fall down.</br></br>Picking up the daisies,</br>Picking up the daisies.</br>Ashes, ashes,</br>We all stand up!",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "R-ruh",
@@ -3724,10 +4862,8 @@
             "vowel": "black"
         },
         "rhyme": "(R)ing a(r)ound the (r)oses,</br>A pocket full of posies.</br>Ashes, ashes,</br>We all fall down.</br></br>Picking up the daisies,</br>Picking up the daisies.</br>Ashes, ashes,</br>We all stand up!",
-        "category": "C",
-        "grade": [
-            []
-        ]
+        "category": ["C"],
+        "grade": [ ]
     },
     {
         "id": "S-begin",
@@ -3763,7 +4899,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "(S)imple (S)imon met a pieman;</br>Going to the Fair;</br>(S)ays (S)imple (S)imon to the pieman:</br>\"Please let me ta(s)te your ware.\"</br></br>(S)ay(s) the pieman to (S)imple (S)imon:</br>\"Show me fir(s)t your penny.\"</br>(S)ays (S)imple (S)imon to the pieman:</br>\"Indeed I have not any.\"",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "s-end",
@@ -3799,7 +4937,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "(S)imple (S)imon met a pieman;</br>Going to the Fair;</br>(S)ays (S)imple (S)imon to the pieman:</br>\"Please let me ta(s)te your ware.\"</br></br>(S)ay(s) the pieman to (S)imple (S)imon:</br>\"Show me fir(s)t your penny.\"</br>(S)ays (S)imple (S)imon to the pieman:</br>\"Indeed I have not any.\"",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "S-sss",
@@ -3840,10 +4980,8 @@
             "vowel": "black"
         },
         "rhyme": "(S)imple (S)imon met a pieman;</br>Going to the Fair;</br>(S)ays (S)imple (S)imon to the pieman:</br>\"Please let me ta(s)te your ware.\"</br></br>(S)ay(s) the pieman to (S)imple (S)imon:</br>\"Show me fir(s)t your penny.\"</br>(S)ays (S)imple (S)imon to the pieman:</br>\"Indeed I have not any.\"",
-        "category": "C",
-        "grade": [
-            []
-        ]
+        "category": ["C"],
+        "grade": [ ]
     },
     {
         "id": "S-zz",
@@ -3883,57 +5021,201 @@
             "vowel": "green"
         },
         "rhyme": "Scissor(s) and string,</br>Scissor(s) and string.</br>When a man'(s) single,</br>he live(s) like a king.",
-        "category": "C",
-        "grade": [
-            []
-        ]
+        "category": ["C"],
+        "grade": [ ]
     },
     {
-        "id": "S-SH",
-        "audio": "phoneme-S-SH.mp3",
-        "display": "sh",
+        "id": "S-SC",
+        "audio": "phoneme-S-SC.mp3",
+        "display": "sc",
         "word1": {
-            "word": "shoes",
-            "display": "<span>sh</span>oes",
-            "audio": "shoes.mp3",
-            "image": "shoes.png"
+            "word": "scarf",
+            "display": "<span>sc</span>arf",
+            "audio": "scarf.mp3",
+            "image": "scarf.png"
         },
         "word2": {
-            "word": "shovel",
-            "display": "<span>sh</span>ovel",
-            "audio": "shovel.mp3",
-            "image": "shovel.png"
+            "word": "scold",
+            "display": "<span>sc</span>old",
+            "audio": "scold.mp3",
+            "image": "scold.png"
         },
         "word3": {
-            "word": "fish",
-            "display": "fi<span>sh</span>",
-            "audio": "fish.mp3",
-            "image": "fish.png"
+            "word": "scare",
+            "display": "<span>sc</span>are",
+            "audio": "scare.mp3",
+            "image": "scare.png"
         },
         "quiz-words": [
-            "brush",
-            "jellyfish",
-            "squash",
-            "fishing net",
-            "eyelash",
-            "sheep",
-            "starfish",
-            "flashlight",
-            "dish",
-            "cushion"
+            "scowl",
+            "scalp",
+            "scale",
+            "scuba",
+            "school bus"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "1st": "black"
         },
-        "rhyme": "There was an old woman who lived in a (sh)oe;</br>(Sh)e had so many children (sh)e didn't know what to do.</br>(Sh)e gave them some broth without any bread;</br>Then whipped them all soundly and put them to bed.",
-        "category": "CB",
-        "grade": [
-            []
-        ]
+        "rhyme": "",
+        "category": ["CB"],
+        "grade": ["1st"]
     },
     {
-        "id": "S-SK",
+        "id": "S-SC-silent",
+        "audio": "phoneme-S-SC-silent.mp3",
+        "display": "sc",
+        "word1": {
+            "word": "scent",
+            "display": "<span>sc</span>ent",
+            "audio": "scent.mp3",
+            "image": "scent.png"
+        },
+        "word2": {
+            "word": "scene",
+            "display": "<span>sc</span>ene",
+            "audio": "scene.mp3",
+            "image": "scene.png"
+        },
+        "word3": {
+            "word": "science",
+            "display": "<span>sc</span>ience",
+            "audio": "science.mp3",
+            "image": "science.png"
+        },
+        "quiz-words": [
+            "muscles",
+            "scissors",
+            "ascend",
+            "descend",
+            "crescents"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "3rd": "green"
+        },
+        "rhyme": "",
+        "category": ["CD"],
+        "grade": ["3rd"]
+    },
+    {
+        "id": "S-SCR",
+        "audio": "phoneme-S-SCR.mp3",
+        "display": "scr",
+        "word1": {
+            "word": "scrub",
+            "display": "<span>sc</span>rub",
+            "audio": "scrub.mp3",
+            "image": "scrub.png"
+        },
+        "word2": {
+            "word": "scratch",
+            "display": "<span>sc</span>ratch",
+            "audio": "scratch.mp3",
+            "image": "scratch.png"
+        },
+        "word3": {
+            "word": "scream",
+            "display": "<span>sc</span>ream",
+            "audio": "scream.mp3",
+            "image": "scream.png"
+        },
+        "quiz-words": [
+            "scrubs",
+            "screws",
+            "screwdriver",
+            "scraper",
+            "scribble"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "2nd": "black"
+        },
+        "rhyme": "",
+        "category": ["CB"],
+        "grade": ["2nd"]
+    },
+    {
+        "id": "S-SH-begin",
+        "audio": "phoneme-S-SH.mp3",
+        "display": "sh",
+        "word1": {
+            "word": "shapes",
+            "display": "<span>sh</span>apes",
+            "audio": "shapes.mp3",
+            "image": "shapes.png"
+        },
+        "word2": {
+            "word": "sheep",
+            "display": "<span>sh</span>eep",
+            "audio": "sheep.mp3",
+            "image": "sheep.png"
+        },
+        "word3": {
+            "word": "shark",
+            "display": "<span>sh</span>ark",
+            "audio": "shark.mp3",
+            "image": "shark.png"
+        },
+        "quiz-words": [
+            "shin",
+            "shirt",
+            "shoes",
+            "shell",
+            "shoulders"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "1st": "black"
+        },
+        "rhyme": "There was an old woman who lived in a (sh)oe;</br>(Sh)e had so many children (sh)e didn't know what to do.</br>(Sh)e gave them some broth without any bread;</br>Then whipped them all soundly and put them to bed.",
+        "category": ["CD"],
+        "grade": ["1st"]
+    },
+    {
+        "id": "S-SH-end",
+        "audio": "phoneme-S-SH.mp3",
+        "display": "sh",
+        "word1": {
+            "word": "bush",
+            "display": "bu<span>sh</span>",
+            "audio": "bush.mp3",
+            "image": "bush.png"
+        },
+        "word2": {
+            "word": "wash",
+            "display": "wa<span>sh</span>",
+            "audio": "wash.mp3",
+            "image": "wash.png"
+        },
+        "word3": {
+            "word": "leash",
+            "display": "lea<span>sh</span>",
+            "audio": "leash.mp3",
+            "image": "leash.png"
+        },
+        "quiz-words": [
+            "squash",
+            "radish",
+            "ticklish",
+            "starfish",
+            "eyelash"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "1st": "black"
+        },
+        "rhyme": "There was an old woman who lived in a (sh)oe;</br>(Sh)e had so many children (sh)e didn't know what to do.</br>(Sh)e gave them some broth without any bread;</br>Then whipped them all soundly and put them to bed.",
+        "category": ["CD"],
+        "grade": ["1st"]
+    },
+    {
+        "id": "S-SK-begin",
         "audio": "phoneme-S-SK.mp3",
         "display": "sk",
         "word1": {
@@ -3949,31 +5231,64 @@
             "image": "skunk.png"
         },
         "word3": {
-            "word": "basket",
-            "display": "ba<span>sk</span>et",
-            "audio": "basket.mp3",
-            "image": "basket.png"
+            "word": "ski",
+            "display": "<span>sk</span>i",
+            "audio": "ski.mp3",
+            "image": "ski.png"
         },
         "quiz-words": [
-            "skis",
-            "skateboard",
-            "sky",
-            "coonskin cap",
+            "skinny",
             "skip",
-            "desk",
-            "mask of frog",
+            "sky",
             "skirt",
-            "basketball"
+            "skeleton"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "1st": "black"
         },
         "rhyme": "There once was old woman tossed up in a ba(sk)et,</br>Seventeen times as high as the moon.</br>Where she was going I couldn't but a(sk) it,</br>For in her hand she carried a broom.",
-        "category": "CB",
-        "grade": [
-            []
-        ]
+        "category": ["CB"],
+        "grade": ["1st"]
+    },
+    {
+        "id": "S-SK-end",
+        "audio": "phoneme-S-SK.mp3",
+        "display": "sk",
+        "word1": {
+            "word": "ask",
+            "display": "a<span>sk</span>",
+            "audio": "ask.mp3",
+            "image": "ask.png"
+        },
+        "word2": {
+            "word": "desk",
+            "display": "de<span>sk</span>",
+            "audio": "desk.mp3",
+            "image": "desk.png"
+        },
+        "word3": {
+            "word": "tusk",
+            "display": "tu<span>sk</span>",
+            "audio": "tusk.mp3",
+            "image": "tusk.png"
+        },
+        "quiz-words": [
+            "mask",
+            "disk",
+            "dusk",
+            "husk",
+            "mollusk"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "grade": "black"
+        },
+        "rhyme": "There once was old woman tossed up in a ba(sk)et,</br>Seventeen times as high as the moon.</br>Where she was going I couldn't but a(sk) it,</br>For in her hand she carried a broom.",
+        "category": ["CB"],
+        "grade": ["1st"]
     },
     {
         "id": "S-SL",
@@ -3986,123 +5301,346 @@
             "image": "sled.png"
         },
         "word2": {
-            "word": "slippers",
-            "display": "<span>sl</span>ippers",
-            "audio": "slippers.mp3",
-            "image": "slippers.png"
+            "word": "slip",
+            "display": "<span>sl</span>ip",
+            "audio": "slip.mp3",
+            "image": "slip.png"
         },
         "word3": {
-            "word": "slide",
-            "display": "<span>sl</span>ide",
-            "audio": "slide.mp3",
-            "image": "slide.png"
+            "word": "slow",
+            "display": "<span>sl</span>ow",
+            "audio": "slow.mp3",
+            "image": "slow.png"
         },
         "quiz-words": [
+            "slide",
+            "slice",
             "sleepy",
-            "sledge hammer",
-            "sleepy dog",
-            "ballet slippers"
+            "sleigh",
+            "slippers"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "1st": "black"
         },
         "rhyme": "To bed; to bed; says (Sl)eepy Head;</br>\"Let's stay awhile;\" says (Sl)ow;</br>\"Put on the pot;\" says Hungry Ned;</br>\"We'll eat before we go.\"",
-        "category": "CB",
-        "grade": [
-            []
-        ]
+        "category": ["CB"],
+        "grade": ["1st"]
+    },
+    {
+        "id": "S-SM",
+        "audio": "phoneme-S-SM.mp3",
+        "display": "sm",
+        "word1": {
+            "word": "small",
+            "display": "<span>sm</span>all",
+            "audio": "small.mp3",
+            "image": "small.png"
+        },
+        "word2": {
+            "word": "smell",
+            "display": "<span>sm</span>ell",
+            "audio": "smell.mp3",
+            "image": "smell.png"
+        },
+        "word3": {
+            "word": "smile",
+            "display": "<span>sm</span>ile",
+            "audio": "smile.mp3",
+            "image": "smile.png"
+        },
+        "quiz-words": [
+            "smash",
+            "smoke",
+            "smart",
+            "smooth",
+            "smooch"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "1st": "black"
+        },
+        "rhyme": "",
+        "category": ["CB"],
+        "grade": ["1st"]
+    },
+    {
+        "id": "S-SN",
+        "audio": "phoneme-S-SN.mp3",
+        "display": "sn",
+        "word1": {
+            "word": "snow",
+            "display": "<span>sn</span>ow",
+            "audio": "snow.mp3",
+            "image": "snow.png"
+        },
+        "word2": {
+            "word": "sneak",
+            "display": "<span>sn</span>eak",
+            "audio": "sneak.mp3",
+            "image": "sneak.png"
+        },
+        "word3": {
+            "word": "snake",
+            "display": "<span>sn</span>ake",
+            "audio": "snake.mp3",
+            "image": "snake.png"
+        },
+        "quiz-words": [
+            "snout",
+            "snail",
+            "snap",
+            "snack",
+            "snare drum"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "1st": "black"
+        },
+        "rhyme": "",
+        "category": ["CB"],
+        "grade": ["1st"]
     },
     {
         "id": "S-SP",
         "audio": "phoneme-S-SP.mp3",
         "display": "sp",
         "word1": {
-            "word": "spider",
-            "display": "<span>sp</span>ider",
-            "audio": "spider.mp3",
-            "image": "spider.png"
-        },
-        "word2": {
-            "word": "spoon",
-            "display": "<span>sp</span>oon",
-            "audio": "spoon.mp3",
-            "image": "spoon.png"
-        },
-        "word3": {
             "word": "spill",
             "display": "<span>sp</span>ill",
             "audio": "spill.mp3",
             "image": "spill.png"
         },
+        "word2": {
+            "word": "sports",
+            "display": "<span>sp</span>orts",
+            "audio": "sports.mp3",
+            "image": "sports.png"
+        },
+        "word3": {
+            "word": "spider",
+            "display": "<span>sp</span>ider",
+            "audio": "spider.mp3",
+            "image": "spider.png"
+        },
         "quiz-words": [
-            "sprinkler",
-            "wasp",
-            "spray"
+            "speak",
+            "spyglass",
+            "spade",
+            "spoon",
+            "cocker spaniel"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "1st": "black"
         },
         "rhyme": "I (sp)ied a dirty blue jay</br>On a '(sp)ecially hot (sp)ring day.</br>He (sp)lished and (sp)lashed in a birdbath,</br>Then (sp)eedily flew away.",
-        "category": "CB",
-        "grade": [
-            []
-        ]
+        "category": ["CB"],
+        "grade": ["1st"]
     },
     {
-        "id": "S-ST",
+        "id": "S-SPL",
+        "audio": "phoneme-S-SPL.mp3",
+        "display": "spl",
+        "word1": {
+            "word": "split",
+            "display": "<span>sp</span>lit",
+            "audio": "split.mp3",
+            "image": "split.png"
+        },
+        "word2": {
+            "word": "splat",
+            "display": "<span>sp</span>lat",
+            "audio": "splat.mp3",
+            "image": "splat.png"
+        },
+        "word3": {
+            "word": "splash",
+            "display": "<span>sp</span>lash",
+            "audio": "splash.mp3",
+            "image": "splash.png"
+        },
+        "quiz-words": [
+            "splits",
+            "splinter",
+            "splatter",
+            "splendid",
+            "splendor"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "2nd": "black"
+        },
+        "rhyme": "",
+        "category": ["CB"],
+        "grade": ["2nd"]
+    },
+    {
+        "id": "S-SPR",
+        "audio": "phoneme-S-SPR.mp3",
+        "display": "spr",
+        "word1": {
+            "word": "spread",
+            "display": "<span>sp</span>read",
+            "audio": "spread.mp3",
+            "image": "spread.png"
+        },
+        "word2": {
+            "word": "spruce",
+            "display": "<span>sp</span>ruce",
+            "audio": "spruce.mp3",
+            "image": "spruce.png"
+        },
+        "word3": {
+            "word": "sprain",
+            "display": "<span>sp</span>rain",
+            "audio": "sprain.mp3",
+            "image": "sprain.png"
+        },
+        "quiz-words": [
+            "sprawl",
+            "sprout",
+            "spray",
+            "sprinters",
+            "sprinkler"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "2nd": "black"
+        },
+        "rhyme": "",
+        "category": ["CB"],
+        "grade": ["2nd"]
+    },
+    {
+        "id": "S-ST-begin",
         "audio": "phoneme-S-ST.mp3",
         "display": "st",
         "word1": {
-            "word": "stilts",
-            "display": "<span>st</span>ilts",
-            "audio": "stilts.mp3",
-            "image": "stilts.png"
+            "word": "stop",
+            "display": "<span>st</span>op",
+            "audio": "stop.mp3",
+            "image": "stop.png"
         },
         "word2": {
-            "word": "steal",
-            "display": "<span>st</span>eal",
-            "audio": "steal.mp3",
-            "image": "steal.png"
+            "word": "step",
+            "display": "<span>st</span>ep",
+            "audio": "step.mp3",
+            "image": "step.png"
         },
         "word3": {
-            "word": "statue",
-            "display": "<span>st</span>atue",
-            "audio": "statue.mp3",
-            "image": "statue.png"
+            "word": "stick",
+            "display": "<span>st</span>ick",
+            "audio": "stick.mp3",
+            "image": "stick.png"
         },
         "quiz-words": [
-            "star",
-            "hamster",
+            "stilts",
             "storm",
-            "ostrich",
-            "strawberries",
-            "toaster",
             "stool",
-            "stew pot",
-            "straw",
-            "street sweeper"
+            "stump",
+            "stinger"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "1st": "black"
         },
         "rhyme": "Robin and Richard<br>Were two lazy men;</br>They (st)ayed in bed</br>Till the clock (st)ruck ten.</br>Then up jumps Robin</br>And looks at the sky:</br>\u201cOh, brother Richard,</br>The sun\u2019s very high.</br>You walk fir(st)</br>With the bottle and bag,</br>And I\u2019ll ride later</br>On the gray horse nag.\u201d</br>",
-        "category": "CB",
-        "grade": [
-            []
-        ]
+        "category": ["CB"],
+        "grade": ["1st"]
+    },
+    {
+        "id": "S-ST-end",
+        "audio": "phoneme-S-ST.mp3",
+        "display": "st",
+        "word1": {
+            "word": "fast",
+            "display": "fa<span>st</span>",
+            "audio": "fast.mp3",
+            "image": "fast.png"
+        },
+        "word2": {
+            "word": "rest",
+            "display": "re<span>st</span>",
+            "audio": "rest.mp3",
+            "image": "rest.png"
+        },
+        "word3": {
+            "word": "cast",
+            "display": "ca<span>st</span>",
+            "audio": "cast.mp3",
+            "image": "cast.png"
+        },
+        "quiz-words": [
+            "first",
+            "chest",
+            "artist",
+            "wrist",
+            "forest"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "1st": "black"
+        },
+        "rhyme": "Robin and Richard<br>Were two lazy men;</br>They (st)ayed in bed</br>Till the clock (st)ruck ten.</br>Then up jumps Robin</br>And looks at the sky:</br>\u201cOh, brother Richard,</br>The sun\u2019s very high.</br>You walk fir(st)</br>With the bottle and bag,</br>And I\u2019ll ride later</br>On the gray horse nag.\u201d</br>",
+        "category": ["CB"],
+        "grade": ["1st"]
+    },
+    {
+        "id": "S-STR",
+        "audio": "phoneme-S-STR.mp3",
+        "display": "str",
+        "word1": {
+            "word": "strong",
+            "display": "<span>str</span>ong",
+            "audio": "strong.mp3",
+            "image": "strong.png"
+        },
+        "word2": {
+            "word": "straw",
+            "display": "<span>str</span>aw",
+            "audio": "straw.mp3",
+            "image": "straw.png"
+        },
+        "word3": {
+            "word": "string",
+            "display": "<span>str</span>ing",
+            "audio": "string.mp3",
+            "image": "string.png"
+        },
+        "quiz-words": [
+            "stripes",
+            "strings",
+            "straight",
+            "structures",
+            "street-sweeper"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "2nd": "black"
+        },
+        "rhyme": "",
+        "category": ["CB"],
+        "grade": ["2nd"]
     },
     {
         "id": "S-SW",
         "audio": "phoneme-S-SW.mp3",
         "display": "sw",
         "word1": {
-            "word": "sweet",
-            "display": "<span>sw</span>eet",
-            "audio": "sweet.mp3",
-            "image": "sweet.png"
+            "word": "swim",
+            "display": "<span>sw</span>im",
+            "audio": "swim.mp3",
+            "image": "swim.png"
         },
         "word2": {
             "word": "swing",
@@ -4117,20 +5655,20 @@
             "image": "swan.png"
         },
         "quiz-words": [
-            "swim",
-            "sweet potato",
-            "street sweeper",
-            "swimming"
+            "sweets",
+            "swine",
+            "sweater",
+            "side-swept",
+            "street sweeper"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "1st": "black"
         },
         "rhyme": "(Sw)an (sw)am over the sea,</br>(Sw)im (sw)an (sw)im!</br>(Sw)an (sw)am back again,</br>Well (sw)um (sw)an!",
-        "category": "CB",
-        "grade": [
-            []
-        ]
+        "category": ["CB"],
+        "grade": ["1st"]
     },
     {
         "id": "T-begin",
@@ -4166,7 +5704,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "(T)o marke(t); (t)o marke(t); (t)o buy a fa(t) pig;</br>Home again; home again; jigge(t)y; jig.</br></br>(T)o marke(t); (t)o marke(t); (t)o buy a fa(t) hog;</br>Home again; home again; jigge(t)y; jog.",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "T-end",
@@ -4198,11 +5738,13 @@
             "goat"
         ],
         "color": {
-            "all": "green",
-            "vowel": "green",
+            "all": "black",
+            "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "(T)o marke(t); (t)o marke(t); (t)o buy a fa(t) pig;</br>Home again; home again; jigge(t)y; jig.</br></br>(T)o marke(t); (t)o marke(t); (t)o buy a fa(t) hog;</br>Home again; home again; jigge(t)y; jog.",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "T-tttt",
@@ -4243,163 +5785,230 @@
             "vowel": "black"
         },
         "rhyme": "(T)o marke(t); (t)o marke(t); (t)o buy a fa(t) pig;</br>Home again; home again; jigge(t)y; jig.</br></br>(T)o marke(t); (t)o marke(t); (t)o buy a fa(t) hog;</br>Home again; home again; jigge(t)y; jog.",
-        "category": "C",
-        "grade": [
-            []
-        ]
+        "category": ["C"],
+        "grade": [ ]
+    },
+    {
+        "id": "T-TCH-silent",
+        "audio": "phoneme-T-TCH-silent.mp3",
+        "display": "tch",
+        "word1": {
+            "word": "pitch",
+            "display": "pi<span>tch</span>",
+            "audio": "pitch.mp3",
+            "image": "pitch.png"
+        },
+        "word2": {
+            "word": "catch",
+            "display": "ca<span>tch</span>",
+            "audio": "catch.mp3",
+            "image": "catch.png"
+        },
+        "word3": {
+            "word": "match",
+            "display": "ma<span>tch</span>",
+            "audio": "match.mp3",
+            "image": "match.png"
+        },
+        "quiz-words": [
+            "hitch",
+            "hatchet",
+            "itches",
+            "crutches",
+            "wristwatch"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "3rd": "black"
+        },
+        "rhyme": "",
+        "category": ["CD"],
+        "grade": ["3rd"]
     },
     {
         "id": "T-the",
         "audio": "phoneme-T-the.mp3",
         "display": "th",
         "word1": {
-            "word": "father",
-            "display": "fa<span>th</span>er",
-            "audio": "father.mp3",
-            "image": "father.png"
+            "word": "them",
+            "display": "<span>th</span>em",
+            "audio": "them.mp3",
+            "image": "them.png"
         },
         "word2": {
-            "word": "mother",
-            "display": "mo<span>th</span>er",
-            "audio": "mother.mp3",
-            "image": "mother.png"
+            "word": "there",
+            "display": "<span>th</span>ere",
+            "audio": "there.mp3",
+            "image": "there.png"
         },
         "word3": {
-            "word": "feather",
-            "display": "fea<span>th</span>er",
-            "audio": "feather.mp3",
-            "image": "feather.png"
+            "word": "these",
+            "display": "<span>th</span>ese",
+            "audio": "these.mp3",
+            "image": "these.png"
         },
         "quiz-words": [
-            "clothes",
-            "weather",
-            "grandfather clock",
-            "tetherball",
-            "brother",
-            "grandmother"
+            "they",
+            "those",
+            "that",
+            "this",
+            "their"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "3rd": "black"
         },
         "rhyme": "Bye; baby bunting;<br>Fa(th)er's gone a-hunting;</br>Mo(th)er's gone a-milking;</br>Sister's gone a-silking;</br>And Bro(th)er's gone for a rabbit skin;</br>To wrap little baby bunting in.",
-        "category": "CB",
-        "grade": [
-            []
-        ]
+        "category": ["CD"],
+        "grade": ["3rd"]
     },
     {
-        "id": "T-th",
+        "id": "T-th-begin",
         "audio": "phoneme-T-th.mp3",
         "display": "th",
         "word1": {
+            "word": "throw",
+            "display": "<span>th</span>row",
+            "audio": "throw.mp3",
+            "image": "throw.png"
+        },
+        "word2": {
+            "word": "thieves",
+            "display": "<span>th</span>ieves",
+            "audio": "thieves.mp3",
+            "image": "thieves.png"
+        },
+        "word3": {
             "word": "throne",
             "display": "<span>th</span>rone",
             "audio": "throne.mp3",
             "image": "throne.png"
         },
-        "word2": {
-            "word": "three",
-            "display": "<span>th</span>ree",
-            "audio": "three.mp3",
-            "image": "three.png"
+        "quiz-words": [
+            "think",
+            "thirsty",
+            "thick",
+            "thumbs",
+            "thumbnail"
+        ],
+        "color": {
+            "all": "green",
+            "vowel": "green",
+            "1st": "black",
+            "3rd": "green"
         },
-        "word3": {
+        "rhyme": "(Th)ree wise men of Go(th)am</br>Went to sea in a bowl,</br>And if the bowl had been stronger,</br>My song had been longer.",
+        "category": ["CD"],
+        "grade": ["1st"]
+    },
+    {
+        "id": "T-TH-end",
+        "audio": "phoneme-T-TH.mp3",
+        "display": "th",
+        "word1": {
             "word": "moth",
             "display": "mo<span>th</span>",
             "audio": "moth.mp3",
             "image": "moth.png"
         },
+        "word2": {
+            "word": "path",
+            "display": "pa<span>th</span>",
+            "audio": "path.mp3",
+            "image": "path.png"
+        },
+        "word3": {
+            "word": "teeth",
+            "display": "tee<span>th</span>",
+            "audio": "teeth.mp3",
+            "image": "teeth.png"
+        },
         "quiz-words": [
             "mouth",
-            "birthday cake",
-            "path",
-            "throw",
-            "thumb"
+            "both",
+            "tooth",
+            "shoulder-length",
+            "bath tub"
         ],
         "color": {
-            "all": "green",
-            "vowel": "green"
+            "all": "black",
+            "vowel": "black",
+            "1st": "green"
         },
-        "rhyme": "(Th)ree wise men of Go(th)am</br>Went to sea in a bowl,</br>And if the bowl had been stronger,</br>My song had been longer.",
-        "category": "CB",
-        "grade": [
-            []
-        ]
+        "rhyme": "",
+        "category": ["CD"],
+        "grade": ["1st"]
     },
     {
         "id": "T-TR",
         "audio": "phoneme-T-TR.mp3",
         "display": "tr",
         "word1": {
-            "word": "tricycle",
-            "display": "<span>tr</span>icycle",
-            "audio": "tricycle.mp3",
-            "image": "tricycle.png"
+            "word": "trunk",
+            "display": "<span>tr</span>unk",
+            "audio": "trunk.mp3",
+            "image": "trunk.png"
         },
         "word2": {
-            "word": "tree",
-            "display": "<span>tr</span>ee",
-            "audio": "tree.mp3",
-            "image": "tree.png"
+            "word": "tractor",
+            "display": "<span>tr</span>actor",
+            "audio": "tractor.mp3",
+            "image": "tractor.png"
         },
         "word3": {
-            "word": "firetruck",
-            "display": "fire<span>tr</span>uck",
-            "audio": "firetruck.mp3",
-            "image": "firetruck.png"
+            "word": "tricky",
+            "display": "fire<span>tr</span>icky",
+            "audio": "tricky.mp3",
+            "image": "tricky.png"
         },
         "quiz-words": [
             "trumpet",
-            "trolley",
-            "ostrich",
-            "tank truck",
-            "troubles",
-            "boat trailer",
-            "trombone",
-            "triangle",
-            "tree stump",
-            "trowel",
-            "troll"
+            "tricycle",
+            "triceratops",
+            "triangles",
+            "trash truck"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "1st": "black"
         },
         "rhyme": "Mis(tr)ess Mary; quite con(tr)ary;</br>How does your garden grow?</br>With silver bells and cockle shells;</br>And pretty maids all in a row.",
-        "category": "CB",
-        "grade": [
-            []
-        ]
+        "category": ["CB"],
+        "grade": ["1st"]
     },
     {
         "id": "U-long",
         "audio": "phoneme-U-long.mp3",
         "display": "u",
         "word1": {
-            "word": "unicycle",
-            "display": "<span>u</span>nicycle",
-            "audio": "unicycle.mp3",
-            "image": "unicycle.png"
+            "word": "cute",
+            "display": "c<span>u</span>te",
+            "audio": "cute.mp3",
+            "image": "cute.png"
         },
         "word2": {
-            "word": "binoculars",
-            "display": "binoc<span>u</span>lars",
-            "audio": "binoculars.mp3",
-            "image": "binoculars.png"
+            "word": "bugle",
+            "display": "b<span>u</span>gle",
+            "audio": "bugle.mp3",
+            "image": "bugle.png"
         },
         "word3": {
-            "word": "unicorn",
-            "display": "<span>u</span>nicorn",
-            "audio": "unicorn.mp3",
-            "image": "unicorn.png"
+            "word": "huge",
+            "display": "h<span>u</span>ge",
+            "audio": "huge.mp3",
+            "image": "huge.png"
         },
         "quiz-words": [
+            "music",
             "statue",
-            "cucumber",
+            "unicorn",
+            "unicycle",
+            "binoculars",
             "ambulance",
-            "suv",
-            "music"
+            "SUV"
         ],
         "color": {
             "all": "black",
@@ -4407,8 +6016,8 @@
             "K": "black"
         },
         "rhyme": "He balanced a c(u)cumber on his nose,</br>But should have (u)sed binoc(u)lars to watch the roads.</br>A (u)nicycle\u2019s dangerous when clowns can\u2019t see\u2014</br>Quick call an amb(u)lance:  one, two, three!</br>",
-        "category": "V",
-        "grade": "K"
+        "category": ["V"],
+        "grade": ["K"]
     },
     {
         "id": "U-uu",
@@ -4421,36 +6030,33 @@
             "image": "tuba.png"
         },
         "word2": {
-            "word": "blue",
-            "display": "bl<span>u</span>e",
-            "audio": "blue.mp3",
-            "image": "blue.png"
+            "word": "rude",
+            "display": "r<span>u</span>de",
+            "audio": "rude.mp3",
+            "image": "rude.png"
         },
         "word3": {
-            "word": "dune buggy",
-            "display": "d<span>u</span>ne buggy",
-            "audio": "dune buggy.mp3",
-            "image": "dune buggy.png"
+            "word": "flu",
+            "display": "fl<span>u</span>",
+            "audio": "flu.mp3",
+            "image": "flu.png"
         },
         "quiz-words": [
+            "blue",
+            "glue",
             "flute",
             "suit",
-            "tissue",
-            "fruits",
-            "suitcase",
-            "dune buggy",
-            "blue",
-            "tuba"
+            "spruce",
+            "tissue"
         ],
         "color": {
             "all": "green",
-            "vowel": "green"
+            "vowel": "green",
+            "K": "green"
         },
         "rhyme": "Little Betty Bl(u)e</br>Lost her holiday shoe.</br>What shall little Betty do?</br></br>Buy her another,</br>To match the other,</br>And then she'll walk upon two.",
-        "category": "V",
-        "grade": [
-            []
-        ]
+        "category": ["V"],
+        "grade": ["K"]
     },
     {
         "id": "U-short",
@@ -4463,78 +6069,108 @@
             "image": "bug.png"
         },
         "word2": {
-            "word": "bucket",
-            "display": "b<span>u</span>cket",
-            "audio": "bucket.mp3",
-            "image": "bucket.png"
+            "word": "bus",
+            "display": "b<span>u</span>s",
+            "audio": "bus.mp3",
+            "image": "bus.png"
         },
         "word3": {
-            "word": "chipmunk",
-            "display": "chipm<span>u</span>nk",
-            "audio": "chipmunk.mp3",
-            "image": "chipmunk.png"
+            "word": "cut",
+            "display": "c<span>u</span>t",
+            "audio": "cut.mp3",
+            "image": "cut.png"
         },
         "quiz-words": [
-            "cut",
+            "jump",
+            "trunk",
             "brush",
-            "bubble",
-            "firetruck",
-            "plug",
-            "rug",
-            "plum",
-            "golf club",
-            "judge",
-            "jump"
+            "muzzle",
+            "bucket"
         ],
         "color": {
-            "all": "orange",
-            "vowel": "orange",
-            "K": "orange"
+            "all": "pink",
+            "vowel": "pink",
+            "2nd": "pink"
         },
         "rhyme": "S(u)e played a big bl(u)e t(u)ba,</br>J(u)lius played one too,</br>With their two bl(u)e t(u)bas,</br>What did those two do?</br>He blew his bl(u)e t(u)ba loud!</br>She blew hers too!</br>",
-        "category": "V",
-        "grade": "K"
+        "category": ["V"],
+        "grade": ["2nd"]
+    },
+    {
+        "id": "U-schwa",
+        "audio": "phoneme-U-short.mp3",
+        "display": "u",
+        "word1": {
+            "word": "bug",
+            "display": "b<span>u</span>g",
+            "audio": "bug.mp3",
+            "image": "bug.png"
+        },
+        "word2": {
+            "word": "bus",
+            "display": "b<span>u</span>s",
+            "audio": "bus.mp3",
+            "image": "bus.png"
+        },
+        "word3": {
+            "word": "cut",
+            "display": "c<span>u</span>t",
+            "audio": "cut.mp3",
+            "image": "cut.png"
+        },
+        "quiz-words": [
+            "jump",
+            "plum",
+            "plus",
+            "brush",
+            "bucket"
+        ],
+        "color": {
+            "all": "red",
+            "vowel": "red",
+            "K": "red"
+        },
+        "rhyme": "S(u)e played a big bl(u)e t(u)ba,</br>J(u)lius played one too,</br>With their two bl(u)e t(u)bas,</br>What did those two do?</br>He blew his bl(u)e t(u)ba loud!</br>She blew hers too!</br>",
+        "category": ["V"],
+        "grade": ["K"]
     },
     {
         "id": "U-UR",
         "audio": "phoneme-U-UR.mp3",
         "display": "ur",
         "word1": {
-            "word": "turtle",
-            "display": "t<span>ur</span>tle",
-            "audio": "turtle.mp3",
-            "image": "turtle.png"
+            "word": "burn",
+            "display": "b<span>ur</span>n",
+            "audio": "burn.mp3",
+            "image": "burn.png"
         },
         "word2": {
-            "word": "purse",
-            "display": "p<span>ur</span>se",
-            "audio": "purse.mp3",
-            "image": "purse.png"
+            "word": "surf",
+            "display": "s<span>ur</span>f",
+            "audio": "surf.mp3",
+            "image": "surf.png"
         },
         "word3": {
-            "word": "surfboard",
-            "display": "s<span>ur</span>fboard",
-            "audio": "surfboard.mp3",
-            "image": "surfboard.png"
+            "word": "nurse",
+            "display": "n<span>ur</span>se",
+            "audio": "nurse.mp3",
+            "image": "nurse.png"
         },
         "quiz-words": [
-            "curl",
-            "burn",
-            "hamburger",
-            "purple",
-            "turkey",
-            "furniture",
-            "tape measure"
+            "purse",
+            "burro",
+            "turtle",
+            "burrito",
+            "hamburger"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "2nd": "black"
         },
         "rhyme": "To (ur)ge her to p(ur)r</br>Lin rubs kitty cat's f(ur);</br>When Lin topples the (ur)n</br>Kitty makes a bl(ur).</br>",
-        "category": "VC",
-        "grade": [
-            []
-        ]
+        "category": ["VC"],
+        "grade": ["2nd"]
     },
     {
         "id": "V-begin",
@@ -4570,7 +6206,9 @@
             "vowel": "green",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "As I was going to St. I(v)es;</br>I met a man with se(v)en wi(v)es.</br>E(v)ery wife had se(v)en sacks;</br>E(v)ery sack had se(v)en cats;</br>E(v)ery cat had se(v)en kits.</br>Kits; cats; sacks and wi(v)es;</br>How many were going to St. I(v)es?",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "V-vv",
@@ -4606,10 +6244,8 @@
             "vowel": "black"
         },
         "rhyme": "As I was going to St. I(v)es;</br>I met a man with se(v)en wi(v)es.</br>E(v)ery wife had se(v)en sacks;</br>E(v)ery sack had se(v)en cats;</br>E(v)ery cat had se(v)en kits.</br>Kits; cats; sacks and wi(v)es;</br>How many were going to St. I(v)es?",
-        "category": "C",
-        "grade": [
-            []
-        ]
+        "category": ["C"],
+        "grade": [ ]
     },
     {
         "id": "W-begin",
@@ -4645,7 +6281,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "(W)ee (W)illie (W)inkie runs through the town;</br>Upstairs and downstairs; in his nightgown;</br>Tapping at the (w)indo(w); crying at the lock;</br>Are the children all in bed? It's now eight o'clock?",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "W-wuh",
@@ -4686,26 +6324,24 @@
             "vowel": "black"
         },
         "rhyme": "(W)ee (W)illie (W)inkie runs through the town;</br>Upstairs and downstairs; in his nightgown;</br>Tapping at the (w)indo(w); crying at the lock;</br>Are the children all in bed? It's now eight o'clock?",
-        "category": "C",
-        "grade": [
-            []
-        ]
+        "category": ["C"],
+        "grade": [ ]
     },
     {
         "id": "W-WH",
         "audio": "phoneme-W-WH.mp3",
         "display": "wh",
         "word1": {
-            "word": "whistle",
-            "display": "<span>wh</span>istle",
-            "audio": "whistle.mp3",
-            "image": "whistle.png"
+            "word": "white",
+            "display": "<span>wh</span>ite",
+            "audio": "white.mp3",
+            "image": "white.png"
         },
         "word2": {
-            "word": "wheelchair",
-            "display": "<span>wh</span>eelchair",
-            "audio": "wheelchair.mp3",
-            "image": "wheelchair.png"
+            "word": "whiskers",
+            "display": "<span>wh</span>iskers",
+            "audio": "whiskers.mp3",
+            "image": "whiskers.png"
         },
         "word3": {
             "word": "whale",
@@ -4714,22 +6350,58 @@
             "image": "whale.png"
         },
         "quiz-words": [
-            "white cat",
-            "whisper",
-            "white calf",
-            "wheelbarrow",
-            "white spider",
-            "wheel"
+            "whistle",
+            "wheelchair",
+            "wheat-bread",
+            "wheel",
+            "whisper"
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "1st": "black"
         },
         "rhyme": "Bill claimed a bully (wh)acked and (wh)opped his rib.</br>Mom said, \u201c(Wh)at?  (Wh)o?  (Wh)en?  (Wh)ere?\u201d</br>Kim said, \u201cThat\u2019s a (wh)opper, a big fat fib.\u201d</br>Bill said, \u201c(Wh)atever!\u201d -- (wh)ich means: I don\u2019t care.</br>",
-        "category": "CB",
-        "grade": [
-            []
-        ]
+        "category": ["CD"],
+        "grade": ["1st"]
+    },
+    {
+        "id": "W-WR-silent",
+        "audio": "phoneme-W-WR-silent.mp3",
+        "display": "wr",
+        "word1": {
+            "word": "wrap",
+            "display": "<span>wr</span>ap",
+            "audio": "wrap.mp3",
+            "image": "wrap.png"
+        },
+        "word2": {
+            "word": "write",
+            "display": "<span>wr</span>ite",
+            "audio": "write.mp3",
+            "image": "write.png"
+        },
+        "word3": {
+            "word": "wrong",
+            "display": "<span>wr</span>ong",
+            "audio": "wrong.mp3",
+            "image": "wrong.png"
+        },
+        "quiz-words": [
+            "wreck",
+            "wrenches",
+            "wrinkle",
+            "wreath",
+            "wriggle"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "2nd": "black"
+        },
+        "rhyme": "",
+        "category": ["CD"],
+        "grade": ["2nd"]
     },
     {
         "id": "X-begin",
@@ -4744,8 +6416,8 @@
         "word2": {
             "word": "ax",
             "display": "a<span>x</span>",
-            "audio": "axe.mp3",
-            "image": "axe.png"
+            "audio": "ax.mp3",
+            "image": "ax.png"
         },
         "word3": {
             "word": "exam",
@@ -4765,7 +6437,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "DUM diddle DEE doh,</br>O(x) wore a tu(x)edo,</br>The dancer bo(x)ed with T-Re(x).</br>Jack popped from a mailbo(x),</br>First swung his hand a(x)e,</br>Next tattled that red fo(x)</br>Had pooped in the sandbo(x)</br>Then all of them ta(x)ied away.</br>",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "X-end",
@@ -4780,8 +6454,8 @@
         "word2": {
             "word": "ax",
             "display": "a<span>x</span>",
-            "audio": "axe.mp3",
-            "image": "axe.png"
+            "audio": "ax.mp3",
+            "image": "ax.png"
         },
         "word3": {
             "word": "six",
@@ -4797,11 +6471,13 @@
             "wax"
         ],
         "color": {
-            "all": "green",
-            "vowel": "green",
+            "all": "black",
+            "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "DUM diddle DEE doh,</br>O(x) wore a tu(x)edo,</br>The dancer bo(x)ed with T-Re(x).</br>Jack popped from a mailbo(x),</br>First swung his hand a(x)e,</br>Next tattled that red fo(x)</br>Had pooped in the sandbo(x)</br>Then all of them ta(x)ied away.</br>",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "X-ks",
@@ -4820,10 +6496,10 @@
             "image": "fox.png"
         },
         "word3": {
-            "word": "axe",
-            "display": "a<span>x</span>e",
-            "audio": "axe.mp3",
-            "image": "axe.png"
+            "word": "ax",
+            "display": "a<span>x</span>",
+            "audio": "ax.mp3",
+            "image": "ax.png"
         },
         "quiz-words": [
             "sandbox",
@@ -4838,13 +6514,11 @@
             "vowel": "black"
         },
         "rhyme": "DUM diddle DEE doh,</br>O(x) wore a tu(x)edo,</br>The dancer bo(x)ed with T-Re(x).</br>Jack popped from a mailbo(x),</br>First swung his hand a(x)e,</br>Next tattled that red fo(x)</br>Had pooped in the sandbo(x)</br>Then all of them ta(x)ied away.</br>",
-        "category": "C",
-        "grade": [
-            []
-        ]
+        "category": ["C"],
+        "grade": [ ]
     },
     {
-        "id": "Y-begin",
+        "id": "Y-yuh",
         "audio": "phoneme-Y-yuh.mp3",
         "display": "y",
         "word1": {
@@ -4877,46 +6551,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
-    },
-    {
-        "id": "Y-yuh",
-        "audio": "phoneme-Y-yuh.mp3",
-        "display": "y",
-        "word1": {
-            "word": "yellow",
-            "display": "<span>y</span>ellow",
-            "audio": "yellow.mp3",
-            "image": "yellow.png"
-        },
-        "word2": {
-            "word": "yo-yo",
-            "display": "<span>y</span>o-<span>y</span>o",
-            "audio": "yo-yo.mp3",
-            "image": "yo-yo.png"
-        },
-        "word3": {
-            "word": "crayons",
-            "display": "cra<span>y</span>ons",
-            "audio": "crayons.mp3",
-            "image": "crayons.png"
-        },
-        "quiz-words": [
-            "kayak",
-            "yawn",
-            "guitar player",
-            "barnyard",
-            "yacht"
-        ],
-        "color": {
-            "all": "black",
-            "vowel": "black"
-        },
-        "rhyme": "Bah; bah; black sheep;<br>Have (y)ou any wool?</br>(Y)es sir; (Y)es sir;</br>Three bags full.</br></br>One for my master;</br>And one for my dame;</br>And one for the little boy</br>Who lives down the lane.",
-        "category": "C",
-        "grade": [
-            []
-        ]
+        "rhyme": "",
+        "category": ["C"],
+        "grade": ["K"]
     },
     {
         "id": "Y-i",
@@ -4941,22 +6578,20 @@
             "image": "sky.png"
         },
         "quiz-words": [
-            "butterfly",
-            "frying pan",
-            "unicycle",
-            "eyelash",
-            "flying squirrel",
-            "eyebrow",
-            "flying carpet"
+            "fry",
+            "eye",
+            "why",
+            "spy",
+            "buy"
         ],
         "color": {
             "all": "green",
             "vowel": "black",
-            "K": "black"
+            "1st": "black"
         },
         "rhyme": "Cr(y)baby, cr(y)baby,</br>Cr(y)baby, wh(y)!?</br>Stick your finger in your e(y)e,</br>Then tell your mother it was I?",
-        "category": "V",
-        "grade": "K"
+        "category": ["V"],
+        "grade": ["1st"]
     },
     {
         "id": "Y-e",
@@ -4975,31 +6610,64 @@
             "image": "candy.png"
         },
         "word3": {
-            "word": "sleepy",
-            "display": "sleep<span>y</span>",
-            "audio": "sleepy.mp3",
-            "image": "sleepy.png"
+            "word": "lazy",
+            "display": "laz<span>y</span>",
+            "audio": "lazy.mp3",
+            "image": "lazy.png"
         },
         "quiz-words": [
+            "pony",
             "bunny",
             "puppy",
-            "canary",
-            "monkey",
-            "family",
-            "chimney",
-            "trolley",
-            "angry",
-            "key",
-            "celery"
+            "kitty",
+            "tricky"
         ],
         "color": {
-            "all": "purple",
+            "all": "pink",
             "vowel": "green",
-            "K": "green"
+            "1st": "green"
         },
         "rhyme": "Ride away; Ride away;<br>Johnn(y) shall ride;</br>And he shall have kitt(y) cat;</br>Tied to one side.</br>And he shall have pupp(y) dog;</br>Tied to the other;</br>And Johnn(y) shall ride;</br>To see his grandmother.",
-        "category": "V",
-        "grade": "K"
+        "category": ["V"],
+        "grade": ["1st"]
+    },
+    {
+        "id": "Y-ey",
+        "audio": "phoneme-Y-ey.mp3",
+        "display": "ey",
+        "word1": {
+            "word": "key",
+            "display": "k<span>ey</span>",
+            "audio": "key.mp3",
+            "image": "key.png"
+        },
+        "word2": {
+            "word": "money",
+            "display": "mon<span>ey</span>",
+            "audio": "money.mp3",
+            "image": "money.png"
+        },
+        "word3": {
+            "word": "monkey",
+            "display": "monk<span>ey</span>",
+            "audio": "monkey.mp3",
+            "image": "monkey.png"
+        },
+        "quiz-words": [
+            "donkey",
+            "turkey",
+            "chimney",
+            "hockey",
+            "trolley"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "1st": "black"
+        },
+        "rhyme": "",
+        "category": ["V"],
+        "grade": ["1st"]
     },
     {
         "id": "Z-begin",
@@ -5035,7 +6703,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "You\u2019re hard-working not la(z)y,</br>And brainy smart, not cra(z)y.</br>That\u2019s why you won this pu(zz)le pri(z)e.</br>Did your head grow one more si(z)e?</br>",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "Z-end",
@@ -5071,7 +6741,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "grade": "K-only"
+        "rhyme": "You\u2019re hard-working not la(z)y,</br>And brainy smart, not cra(z)y.</br>That\u2019s why you won this pu(zz)le pri(z)e.</br>Did your head grow one more si(z)e?</br>",
+        "category": ["C"],
+        "grade": ["K-only"]
     },
     {
         "id": "Z-zzz",
@@ -5107,9 +6779,7 @@
             "vowel": "black"
         },
         "rhyme": "You\u2019re hard-working not la(z)y,</br>And brainy smart, not cra(z)y.</br>That\u2019s why you won this pu(zz)le pri(z)e.</br>Did your head grow one more si(z)e?</br>",
-        "category": "C",
-        "grade": [
-            []
-        ]
+        "category": ["C"],
+        "grade": [ ]
     }
 ]

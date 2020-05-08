@@ -37,7 +37,7 @@ export class VowelsService {
     const data: Array<any> = json.default.valueOf();
 
     for (var i = 0; i < data.length; i++) {
-        if (data[i].category === "V") {
+        if (data[i].category.includes("V")) {
             temp.push(
             new Vowels(
               data[i].id,
