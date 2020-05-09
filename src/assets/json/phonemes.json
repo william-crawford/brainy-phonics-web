@@ -646,7 +646,7 @@
             "K": "black"
         },
         "rhyme": "Little Robin Redbreast sat upon a tree;<br>Up went the Kitty-(C)at; and down went he;</br>Down came Kitty-(C)at; away Robin ran;</br>Says little Robin Redbreast:</br>\"(C)atch me if you (c)an!\"",
-        "category": ["C-begin"],
+        "category": ["C-begin", "CG"],
         "grade": []
     },
     {
@@ -684,7 +684,7 @@
             "K": "black"
         },
         "rhyme": "Little Robin Redbreast sat upon a tree;<br>Up went the Kitty-(C)at; and down went he;</br>Down came Kitty-(C)at; away Robin ran;</br>Says little Robin Redbreast:</br>\"(C)atch me if you (c)an!\"",
-        "category": ["C-end"],
+        "category": ["C-end", "CG"],
         "grade": []
     },
     {
@@ -723,7 +723,7 @@
             "vowel": "green"
         },
         "rhyme": "(C)elery, lettu(c)e, and ri(c)e aren\u2019t my dream,</br>But you scream, I scream, we all scream</br>for i(c)e cream!</br>",
-        "category": ["C"],
+        "category": ["CG"],
         "grade": []
     },
     {
@@ -753,7 +753,7 @@
             "chimney",
             "chipmunk",
             "chopsticks",
-            "cherry-picker"
+            "cherry-picker truck"
         ],
         "color": {
             "all": "black",
@@ -1596,7 +1596,7 @@
             "flute",
             "flippers",
             "flamingo",
-            "flatbed"
+            "flatbed tow truck"
         ],
         "color": {
             "all": "black",
@@ -1718,7 +1718,7 @@
             "K": "black"
         },
         "rhyme": "(G)oosey; (g)oosey; (g)ander; where do you wander?</br>Upstairs and downstairs and in my lady's chamber;</br>There I met an old man who wouldn't say his prayers;</br>I took him by his hind le(g)s and threw him downstairs.",
-        "category": ["C-begin"],
+        "category": ["C-begin", "CG"],
         "grade": []
     },
     {
@@ -1756,7 +1756,7 @@
             "K": "black"
         },
         "rhyme": "(G)oosey; (g)oosey; (g)ander; where do you wander?</br>Upstairs and downstairs and in my lady's chamber;</br>There I met an old man who wouldn't say his prayers;</br>I took him by his hind le(g)s and threw him downstairs.",
-        "category": ["C-end"],
+        "category": ["C-end", "CG"],
         "grade": []
     },
     {
@@ -1793,7 +1793,7 @@
             "vowel": "green"
         },
         "rhyme": "(G)eorgie Por(g)ie, pudding and pie,</br>Kissed the girls and made them cry.</br>When the boys came out to play,</br>(G)eorgie Por(g)ie ran away.",
-        "category": ["C"],
+        "category": ["CG"],
         "grade": []
     },
     {
@@ -2937,7 +2937,7 @@
             "vowel": "black"
         },
         "rhyme": "The sow came in with the sadd(le);</br>The litt(le) pig rocked the crad(le);</br>The dish jumped up on the tab(le);</br>To see the pot swallow the lad(le).",
-        "category": ["VC"],
+        "category": ["VC-2"],
         "grade": []
     },
     {
@@ -5606,15 +5606,14 @@
         },
         "quiz-words": [
             "jump",
-            "plum",
-            "plus",
+            "trunk",
             "brush",
+            "muzzle",
             "bucket"
         ],
         "color": {
-            "all": "red",
-            "vowel": "red",
-            "K": "red"
+            "all": "pink",
+            "vowel": "pink"
         },
         "rhyme": "S(u)e played a big bl(u)e t(u)ba,</br>J(u)lius played one too,</br>With their two bl(u)e t(u)bas,</br>What did those two do?</br>He blew his bl(u)e t(u)ba loud!</br>She blew hers too!</br>",
         "category": ["V-schwa"],
