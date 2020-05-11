@@ -993,7 +993,7 @@
             "K": "black"
         },
         "rhyme": "(D)iddle; (d)iddle; (d)umpling; my son John;</br>Went to be(d) with his trousers on;</br>One stocking off; and one stocking on;</br>(D)iddle; (d)iddle; (d)umpling; my son John.",
-        "category": ["C-begin", "CB", "C"],
+        "category": ["C-begin", "C"],
         "grade": ["1st"]
     },
     {
@@ -5730,7 +5730,7 @@
             "K": "black"
         },
         "rhyme": "(W)ee (W)illie (W)inkie runs through the town;</br>Upstairs and downstairs; in his nightgown;</br>Tapping at the (w)indo(w); crying at the lock;</br>Are the children all in bed? It's now eight o'clock?",
-        "category": ["C-begin", "V"],
+        "category": ["C-begin", "C"],
         "grade": ["Pre-K", "K"]
     },
     {

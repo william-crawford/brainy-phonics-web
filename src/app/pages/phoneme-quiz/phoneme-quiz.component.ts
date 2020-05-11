@@ -8,19 +8,7 @@ import badExamples from '../../../assets/json/bad-assets.json';
 import {ProgressService} from '../../services/progress.service';
 import {Location} from '@angular/common';
 import {Phoneme} from '../../types/phoneme';
-import {Vowels} from '../../types/vowels';
-import {ConsonantBlends} from '../../types/consonantBlends';
-import {Consonants} from '../../types/consonants';
-import {VowelConsonantBlends} from '../../types/vowelConsonantBlends';
-import {VowelPairs} from '../../types/vowelPairs';
-import {Kindergarten} from '../../types/kindergarten';
 import {PhonemesService} from '../../services/phonemes.service';
-import {VowelsService} from '../../services/vowels.service';
-import {ConsonantBlendsService} from '../../services/consonantBlends.service';
-import {ConsonantsService} from '../../services/consonants.service';
-import {VowelConsonantBlendsService} from '../../services/vowelConsonantBlends.service';
-import {VowelPairsService} from '../../services/vowelPairs.service';
-import {KindergartenService} from '../../services/kindergarten.service';
 import {ChangeDetectorRef} from '@angular/core';
 
 @Component({
@@ -49,8 +37,8 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     rhymeAudio: HTMLAudioElement;
     correctAudio: HTMLAudioElement;
 
-    data: Phoneme[] | Vowels[] | ConsonantBlends[] | Consonants[] | VowelConsonantBlends[] | VowelPairs[] | Kindergarten[];
-    phoneme: Phoneme | Vowels | ConsonantBlends | Consonants | VowelConsonantBlends | VowelPairs | Kindergarten;
+    data: Phoneme[];
+    phoneme: Phoneme;
     quizPhoneme: Phoneme;
     list: string;
     quizAll: string;
@@ -83,12 +71,6 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         private activatedRoute: ActivatedRoute,
 
         private phonemesService: PhonemesService,
-        private vowelsService: VowelsService,
-        private consonantBlendsService: ConsonantBlendsService,
-        private consonantsService: ConsonantsService,
-        private vowelConsonantBlendsService: VowelConsonantBlendsService,
-        private vowelPairsService: VowelPairsService,
-        private kindergartenService: KindergartenService,
         private changeDetectorRef: ChangeDetectorRef
     ) {
         this.quizAll = this.activatedRoute.snapshot.queryParamMap.get('quizAll');
@@ -104,26 +86,20 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
                 this.router.navigate(['']);
             } else if (list === 'phoneme') {
                 key = Math.floor(Math.random() * 92);
-                this.data = this.phonemesService.dataLoad();
             } else if (list === 'vowels') {
                 key = Math.floor(Math.random() * 17);
-                this.data = this.vowelsService.dataLoad();
             } else if (list === 'consonantBlends') {
                 key = Math.floor(Math.random() * 15);
-                this.data = this.consonantBlendsService.dataLoad();
             } else if (list === 'consonants') {
                 key = Math.floor(Math.random() * 22);
-                this.data = this.consonantsService.dataLoad();
             } else if (list === 'vowelConsonants') {
                 key = Math.floor(Math.random() * 10);
-                this.data = this.vowelConsonantBlendsService.dataLoad();
             } else if (list === 'vowelPairs') {
                 key = Math.floor(Math.random() * 15);
-                this.data = this.vowelPairsService.dataLoad();
             } else if (list === 'kindergarten') {
                 key = Math.floor(Math.random() * 53);
-                this.data = this.kindergartenService.dataLoad();
             }
+            this.data = this.phonemesService.dataLoad(list);
             this.key = key;
             this.phoneme = this.data[key];
             this.puzzleimg = '../../assets/img/puzzle-pieces/puzzle-'+ this.phoneme.id +'/puzzle-' + this.phoneme.id + '-composite.png';

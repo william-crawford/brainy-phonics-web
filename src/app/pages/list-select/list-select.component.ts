@@ -1,22 +1,10 @@
 import {Component, OnDestroy, OnInit, AfterViewInit} from '@angular/core';
 import {AlphabetLetter} from '../../types/alphabet-letter';
 import {Phoneme} from '../../types/phoneme';
-import {Vowels} from '../../types/vowels';
-import {ConsonantBlends} from '../../types/consonantBlends';
-import {Consonants} from '../../types/consonants';
-import {VowelConsonantBlends} from '../../types/vowelConsonantBlends';
-import {VowelPairs} from '../../types/vowelPairs';
-import {Kindergarten} from '../../types/kindergarten';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import {AlphabetLettersService} from '../../services/alphabet-letters.service';
 import {ProgressService} from '../../services/progress.service';
 import {PhonemesService} from '../../services/phonemes.service';
-import {VowelsService} from '../../services/vowels.service';
-import {ConsonantBlendsService} from '../../services/consonantBlends.service';
-import {ConsonantsService} from '../../services/consonants.service';
-import {VowelConsonantBlendsService} from '../../services/vowelConsonantBlends.service';
-import {VowelPairsService} from '../../services/vowelPairs.service';
-import {KindergartenService} from '../../services/kindergarten.service';
 import {ActivatedRoute, Router} from '@angular/router';
 import {Location} from '@angular/common';
 
@@ -30,7 +18,7 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
     instruction: HTMLAudioElement;
     list: string;
     // filled with test data to be overridden later
-    data: AlphabetLetter[] | Phoneme[] | Vowels[] | ConsonantBlends[] | Consonants[] | VowelConsonantBlends[] | VowelPairs[] | Kindergarten[];
+    data: AlphabetLetter[] | Phoneme[];
     dataProgress: any[];
     cardItemCount: number;
 
@@ -39,12 +27,6 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
         private alphabetLettersService: AlphabetLettersService,
         private progressService: ProgressService,
         private phonemesService: PhonemesService,
-        private vowelsService: VowelsService,
-        private consonantBlendsService: ConsonantBlendsService,
-        private consonantsService: ConsonantsService,
-        private vowelConsonantBlendsService: VowelConsonantBlendsService,
-        private vowelPairsService: VowelPairsService,
-        private kindergartenService: KindergartenService,
 
         private router: Router,
         private activatedRoute: ActivatedRoute,
@@ -54,23 +36,9 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
         this.list = list;
         if (!list || list === '') {
             this.router.navigate(['']);
-        } else if (list === 'phoneme') {
-            this.data = this.phonemesService.dataLoad();
-        } else if (list === 'alphabet') {
-            this.data = this.alphabetLettersService.dataImport();
-        } else if (list === 'vowels') {
-            this.data = this.vowelsService.dataLoad();
-        } else if (list === 'consonantBlends') {
-            this.data = this.consonantBlendsService.dataLoad();
-        } else if (list === 'consonants') {
-            this.data = this.consonantsService.dataLoad();
-        } else if (list === 'vowelConsonants') {
-            this.data = this.vowelConsonantBlendsService.dataLoad();
-        } else if (list === 'vowelPairs') {
-            this.data = this.vowelPairsService.dataLoad();
-        } else if (list === 'kindergarten') {
-            this.data = this.kindergartenService.dataLoad();
-        }
+        } else {
+            this.data = this.phonemesService.dataLoad(list);
+        } 
         this.transferLetterService.setList(this.data);
 
         this.instruction = new Audio();

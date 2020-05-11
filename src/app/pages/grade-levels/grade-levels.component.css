@@ -59,13 +59,3 @@
     display: table;
     clear: both;
   }
-
-  .no-click {
-    width: 64vh;
-    height: 24vh;
-    margin-top: 5vh;
-    border: none;
-    margin-left: auto;
-    pointer-events: none;
-    opacity: 0.3;
-}
