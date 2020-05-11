@@ -267,7 +267,7 @@
             "3rd": "black"
         },
         "rhyme": "Fr(an)kie Frog was afraid of (an)ts\u2014</br>He flopped on (an) (an)thill and up did pr(an)ce!</br>To shake fire (an)ts from his underp(an)ts,</br>Fr(an)kie Frog d(an)ced to Paris, Fr(an)ce!</br>",
-        "category": ["VC-2", "V", "VC],
+        "category": ["VC-2", "V", "VC"],
         "grade": ["3rd"]
     },
     {
@@ -570,7 +570,7 @@
             "1st": "black"
         },
         "rhyme": "Little Boy (Bl)ue; come (bl)ow your horn;</br>The sheep's in the meadow; the cow's in the corn.</br>Where is the boy who minds the sheep?</br>Under the haystack fast asleep.</br>Will you wake him?</br>No; not I;</br>For if I do he's sure to cry.",
-        "category": ["CB-begin" "CB", "C"],
+        "category": ["CB-begin", "CB", "C"],
         "grade": ["1st"]
     },
     {
