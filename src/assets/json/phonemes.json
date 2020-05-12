@@ -5317,10 +5317,10 @@
         "audio": "phoneme-T-th.mp3",
         "display": "th",
         "word1": {
-            "word": "throw",
-            "display": "<span>th</span>row",
-            "audio": "throw.mp3",
-            "image": "throw.png"
+            "word": "throne",
+            "display": "<span>th</span>rone",
+            "audio": "throne.mp3",
+            "image": "throne.png"
         },
         "word2": {
             "word": "thieves",
@@ -5329,10 +5329,10 @@
             "image": "thieves.png"
         },
         "word3": {
-            "word": "throne",
-            "display": "<span>th</span>rone",
-            "audio": "throne.mp3",
-            "image": "throne.png"
+            "word": "throw",
+            "display": "<span>th</span>row",
+            "audio": "throw.mp3",
+            "image": "throw.png"
         },
         "quiz-words": [
             "think",

@@ -27,6 +27,53 @@
     overflow-y: scroll;
 }
 
+#I-IND-long img {
+    transform: translate(24.5vh, -20vh); 
+}
+#I-IND-short img {
+    width: 45%;
+    transform: translate(26vh, -19vh);
+}
+#I-ION img {
+    transform: translate(25vh, -20vh);
+}
+#I-ILD img {
+    transform: translate(23.1vh, -20vh);
+}
+#N-NG img {
+    transform: translate(23vh, -20vh);
+}
+#O-ew img {
+    transform: translate(23vh, -20vh);
+}
+#P-PH-begin img {
+    transform: translate(23.5vh, -20vh);
+}
+#S-SCR img {
+    transform: translate(25vh, -20vh);
+}
+#S-SM img {
+    transform: translate(23vh, -20vh);
+}
+#S-SPL img {
+    transform: translate(24vh, -20vh);
+}
+#S-SPR img {
+    transform: translate(25vh, -20vh);
+}
+#S-SW img {
+    transform: translate(23vh, -20vh);
+}
+#T-TCH-silent img {
+    transform: translate(26vh, -20vh);
+}
+#W-WH img {
+    transform: translate(24vh, -20vh);
+}
+#W-WR-silent img {
+    transform: translate(23.5vh, -20vh);
+}
+
 /* Column Gap */
 .cardList > * {
     box-sizing: border-box;
