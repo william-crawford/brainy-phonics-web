@@ -36,7 +36,7 @@
         },
         "rhyme": "Pat a c(a)ke; pat a c(a)ke; B(a)ker's man;</br>B(a)ke me a c(a)ke as fast as you can.</br>Pit it and pat it and mark it with B;</br>And put it in the oven for B(a)by and me.",
         "category": ["V-long", "V"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "A-e",
@@ -116,7 +116,7 @@
         },
         "rhyme": "B(a)t; b(a)t;</br>Come under my h(a)t;</br>And I'll give you a slice of bacon;</br>And when I bake;</br>I'll give you a cake;</br>If I am not mistaken.",
         "category": ["V-short", "V"],
-        "grade": ["K"]
+        "grade": ["K", "1st"]
     },
     {
         "id": "A-ahh",
@@ -154,7 +154,7 @@
         },
         "rhyme": "Children call me F(a)ther Goose,</br>Because when I w(a)nt to w(a)nder,</br>I ride through the air</br>On a very fine gander.</br>",
         "category": ["V-short", "V"],
-        "grade": ["K"]
+        "grade": ["K", "1st"]
     },
     {
         "id": "A-schwa",
@@ -192,7 +192,7 @@
         },
         "rhyme": "(A)round the bush, Willie,</br>(A)round the bee hive.</br>(A)round the bush, Willie,</br>I'll meet you (a)live.",
         "category": ["V-schwa", "V"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "A-AI",
@@ -230,7 +230,7 @@
         },
         "rhyme": "R(ai)n, r(ai)n, go to Sp(ai)n,</br>Never come back again.</br>R(ai)n, r(ai)n, go away,</br>Come again another day.</br>Little Johny wants to play.",
         "category": ["VP", "V"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "A-AN",
@@ -306,7 +306,7 @@
         },
         "rhyme": "Twinkle, twinkle, little st(ar),</br>How I wonder what you (ar)e.</br>Up above the world so high,</br>Like a diamond in the sky.",
         "category": ["R", "V", "VC"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "A-AR-long",
@@ -344,7 +344,7 @@
         },
         "rhyme": "",
         "category": ["R", "V", "VC"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "A-AU",
@@ -382,7 +382,7 @@
         },
         "rhyme": "Little Polly Flinders<br>Sat among the cinders,<br>Warming her pretty little toes.<br>Her mother came and c(au)ght her,</br>Whipped her little d(au)ghter</br>For spoiling her nice new clothes.",
         "category": ["VP", "V"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "A-AW",
@@ -420,7 +420,7 @@
         },
         "rhyme": "See s(aw), Margery D(aw),</br>Jacky shall have a new master.</br>Jacky will earn just a penny a day,</br>Because he will work no faster.",
         "category": ["VP", "V"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "A-AY",
@@ -457,7 +457,7 @@
         },
         "rhyme": "How many d(ay)s has my baby to pl(ay)?</br>Saturd(ay); Sund(ay); Mond(ay);</br>Tuesd(ay); Wednesd(ay); Thursd(ay); Frid(ay);</br>Saturd(ay); Sund(ay); Mond(ay).",
         "category": ["VP", "V"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "B-begin",
@@ -495,7 +495,7 @@
         },
         "rhyme": "Rock-a-(b)ye; (B)aby; on the tree top;</br>When the wind (b)lows the cradle will rock;</br>When the (b)ough (b)reaks the cradle will fall;</br>and down will come (B)aby; cradle; and all.",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "B-end",
@@ -533,7 +533,7 @@
         },
         "rhyme": "Rock-a-(b)ye; (B)aby; on the tree top;</br>When the wind (b)lows the cradle will rock;</br>When the (b)ough (b)reaks the cradle will fall;</br>and down will come (B)aby; cradle; and all.",
         "category": ["C-end", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "B-BL",
@@ -571,7 +571,7 @@
         },
         "rhyme": "Little Boy (Bl)ue; come (bl)ow your horn;</br>The sheep's in the meadow; the cow's in the corn.</br>Where is the boy who minds the sheep?</br>Under the haystack fast asleep.</br>Will you wake him?</br>No; not I;</br>For if I do he's sure to cry.",
         "category": ["CB-begin", "CB", "C"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "B-BR",
@@ -609,7 +609,7 @@
         },
         "rhyme": "London (Br)idge is falling down,</br>Falling down, falling down.</br>London (Br)idge is falling down.</br>My fair lady.</br></br>Build it up with stones and (br)icks,</br>Stones and (br)icks, stones and (br)icks.</br>Build it up with stones and (br)icks,</br>My fair lady.",
         "category": ["CB-begin", "CB", "C"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "C-hard-begin",
@@ -647,7 +647,7 @@
         },
         "rhyme": "Little Robin Redbreast sat upon a tree;<br>Up went the Kitty-(C)at; and down went he;</br>Down came Kitty-(C)at; away Robin ran;</br>Says little Robin Redbreast:</br>\"(C)atch me if you (c)an!\"",
         "category": ["C-begin", "CG", "C"],
-        "grade": ["Pre-K", "K", "2nd"]
+        "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
         "id": "C-hard-end",
@@ -685,7 +685,7 @@
         },
         "rhyme": "Little Robin Redbreast sat upon a tree;<br>Up went the Kitty-(C)at; and down went he;</br>Down came Kitty-(C)at; away Robin ran;</br>Says little Robin Redbreast:</br>\"(C)atch me if you (c)an!\"",
         "category": ["C-end", "CG", "C"],
-        "grade": ["Pre-K", "K", "2nd"]
+        "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
         "id": "C-sss",
@@ -724,7 +724,7 @@
         },
         "rhyme": "(C)elery, lettu(c)e, and ri(c)e aren\u2019t my dream,</br>But you scream, I scream, we all scream</br>for i(c)e cream!</br>",
         "category": ["CG", "C"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "C-CH-begin",
@@ -762,7 +762,7 @@
         },
         "rhyme": "Cross pat(ch); pull the lat(ch);</br>Sit by the fire and spin;</br>Take a cup and drink it up;</br>Then call your neighbors in.",
         "category": ["CD-begin", "CD", "C"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "C-CH-end",
@@ -802,7 +802,7 @@
         },
         "rhyme": "Cross pat(ch); pull the lat(ch);</br>Sit by the fire and spin;</br>Take a cup and drink it up;</br>Then call your neighbors in.",
         "category": ["CD-end", "CD", "C"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "C-CK",
@@ -840,8 +840,8 @@
             "3rd": "black"
         },
         "rhyme": "",
-        "category": ["CD-end"],
-        "grade": []
+        "category": ["CD-end", "CD", "C"],
+        "grade": ["3rd"]
     },
     {
         "id": "C-CK-silent",
@@ -880,7 +880,7 @@
         },
         "rhyme": "",
         "category": ["C-silent", "C"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "C-CL",
@@ -918,7 +918,7 @@
         },
         "rhyme": "Tickety-tock, (cl)imb up the (cl)ock,</br>Don\u2019t let the time get dirty.</br>Tickety-tock we (cl)eaned the (cl)ock,</br>Now one o\u2019(cl)ock looks pretty.</br>",
         "category": ["CB-begin", "CB", "C"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "C-CR",
@@ -956,7 +956,7 @@
         },
         "rhyme": "There was a (cr)ooked man;</br>And he walked a (cr)ooked mile;</br>He found a (cr)ooked sixpence;</br>Against a (cr)ooked tile;</br>He bought a (cr)ooked cat;</br>Which caught a (cr)ooked mouse;</br>And they all lived together;</br>In a little (cr)ooked house.",
         "category": ["CB-begin", "CB", "C"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "D-begin",
@@ -994,7 +994,7 @@
         },
         "rhyme": "(D)iddle; (d)iddle; (d)umpling; my son John;</br>Went to be(d) with his trousers on;</br>One stocking off; and one stocking on;</br>(D)iddle; (d)iddle; (d)umpling; my son John.",
         "category": ["C-begin", "C"],
-        "grade": ["1st"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "D-end",
@@ -1032,7 +1032,7 @@
         },
         "rhyme": "(D)iddle; (d)iddle; (d)umpling; my son John;</br>Went to be(d) with his trousers on;</br>One stocking off; and one stocking on;</br>(D)iddle; (d)iddle; (d)umpling; my son John.",
         "category": ["C-end", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "D-DR",
@@ -1070,7 +1070,7 @@
         },
         "rhyme": "Three chil(dr)en sliding on the ice;</br>All on a winter's day;</br>As it fell out; they all fell in;</br>The rest they ran away.",
         "category": ["CB-begin", "CB", "C"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "E-long",
@@ -1108,7 +1108,7 @@
         },
         "rhyme": "Little Bo-p(ee)p has lost her sh(ee)p;</br>And doesn't know where to find them;</br>Leave them alone; and they'll come home;</br>Wagging their tails behind them.",
         "category": ["V-long", "V"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "E-short",
@@ -1149,7 +1149,7 @@
         },
         "rhyme": "Hick(e)ty; pick(e)ty; my black h(e)n;</br>She lays (e)ggs for gentlem(e)n;</br>Gentlem(e)n come (e)very day;</br>To see what my black h(e)n does lay.",
         "category": ["V-short", "V"],
-        "grade": ["K"]
+        "grade": ["K", "1st"]
     },
     {
         "id": "E-schwa",
@@ -1187,7 +1187,7 @@
         },
         "rhyme": "The el(e)phant want(e)d to cheat on her di(e)t</br>Found one gold(e)n cookie in the warm ov(e)n,</br>One in the gard(e)n, two in a torn pock(e)t,</br>Three hid in the kitch(e)n, that made sev(e)n,</br>Bought two at the mark(e)t, spied one in a bask(e)t,</br>Plus one she kept froz(e)n, that was elev(e)n,</br>And one from her lock(e)t, made twelve, a full doz(e)n</br>When she started to eat them it felt like pure heav(e)n!</br>",
         "category": ["V-schwa", "V"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "E-EI",
@@ -1263,7 +1263,7 @@
         },
         "rhyme": "Jack Sprat would (ea)t no fat;</br>His wife would (ea)t no l(ea)n;</br>And so between the two of them;</br>They licked the platter cl(ea)n.</br>",
         "category": ["VP", "V"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "E-EA-short",
@@ -1301,7 +1301,7 @@
         },
         "rhyme": "",
         "category": ["VP", "V"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "E-EE",
@@ -1339,7 +1339,7 @@
         },
         "rhyme": "",
         "category": ["VP", "V"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "E-ER",
@@ -1377,7 +1377,7 @@
         },
         "rhyme": "Pet(er); Pet(er); pumpkin eat(er);</br>Had a wife and couldn't keep h(er);</br>He put h(er) in a pumpkin shell;</br>And then he kept h(er) very well.",
         "category": ["R", "V", "VC"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "E-ET-stressed",
@@ -1491,7 +1491,7 @@
         },
         "rhyme": "The hungry cuckoo fl(ew)</br>Then found a cash(ew)</br>His beak couldn\u2019t ch(ew).</br>What could he do?</br>He br(ew)ed cash(ew) st(ew)</br>Which smelled really P U!</br>But tasted great with barbecue.</br></br>",
         "category": ["VP", "V"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "F-begin",
@@ -1529,7 +1529,7 @@
         },
         "rhyme": "Little Miss Mu(ff)et;</br>Sat on a tu(ff)et;</br>Eating some curds and whey.</br>Along came a spider;</br>And sat down beside her;</br>And frightened Miss Mu(ff)et away.",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "F-end",
@@ -1567,7 +1567,7 @@
         },
         "rhyme": "Little Miss Mu(ff)et;</br>Sat on a tu(ff)et;</br>Eating some curds and whey.</br>Along came a spider;</br>And sat down beside her;</br>And frightened Miss Mu(ff)et away.",
         "category": ["C-end", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "F-FL",
@@ -1605,7 +1605,7 @@
         },
         "rhyme": "A hungry (fl)y (fl)ew in a (fl)ower,</br>Then dreamed of sweets for half an hour.</br>A (fl)ea (fl)oating by yelled, \u201cStay awake!</br>I just baked us a snow(fl)ake cake!\u201d</br>",
         "category": ["CB-begin", "CB", "C"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "F-FR",
@@ -1643,7 +1643,7 @@
         },
         "rhyme": "On (Fr)iday night, </br>My (fr)iend and I</br>Had (fr)ozen (fr)ench-(fr)y soup</br>And (fr)og leg pie.</br></br>(Fr)ied ice cream</br>And fish heads in a cup,</br>I hope some medicine </br>Will help me throw up.</br>",
         "category": ["CB-begin", "CB", "C"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "F-FT",
@@ -1681,7 +1681,7 @@
         },
         "rhyme": "",
         "category": ["CB-end", "CB", "C"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "G-hard-begin",
@@ -1719,7 +1719,7 @@
         },
         "rhyme": "(G)oosey; (g)oosey; (g)ander; where do you wander?</br>Upstairs and downstairs and in my lady's chamber;</br>There I met an old man who wouldn't say his prayers;</br>I took him by his hind le(g)s and threw him downstairs.",
         "category": ["C-begin", "CG", "C"],
-        "grade": ["Pre-K", "K", "2nd"]
+        "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
         "id": "G-hard-end",
@@ -1757,7 +1757,7 @@
         },
         "rhyme": "(G)oosey; (g)oosey; (g)ander; where do you wander?</br>Upstairs and downstairs and in my lady's chamber;</br>There I met an old man who wouldn't say his prayers;</br>I took him by his hind le(g)s and threw him downstairs.",
         "category": ["C-end", "CG", "C"],
-        "grade": ["Pre-K", "K", "2nd"]
+        "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
         "id": "G-juh",
@@ -1794,7 +1794,7 @@
         },
         "rhyme": "(G)eorgie Por(g)ie, pudding and pie,</br>Kissed the girls and made them cry.</br>When the boys came out to play,</br>(G)eorgie Por(g)ie ran away.",
         "category": ["CG", "C"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "G-GH",
@@ -1907,7 +1907,7 @@
         },
         "rhyme": "A (gl)ass of juice</br>And a (gl)azed donut,</br>Put (gl)ad in the heart</br>And a (gl)ow in the gut.",
         "category": ["CB-begin", "CB", "C"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "G-GN-silent",
@@ -1983,7 +1983,7 @@
         },
         "rhyme": "(Gr)ouchy (gr)emlin\u2019s (gr)umpy tummy (gr)owled,</br>\u201cI\u2019m hun(gr)y, feed me, feed me,\u201d it howled.</br>When a (gr)inning (gr)izzly (gr)abbed it tight,</br>(Gr)umpy tummy squeeeezed out of sight.</br>",
         "category": ["CB-begin", "CB", "C"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "H-begin",
@@ -2021,7 +2021,7 @@
         },
         "rhyme": "(H)umpty Dumpty sat on a wall;</br>(H)umpty Dumpty (h)ad a great fall;</br>All the king's (h)orses and all the king's men;</br>Couldn't put (H)umpty Dumpty together again.",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
         {
         "id": "H-silent",
@@ -2098,7 +2098,7 @@
         },
         "rhyme": "Three bl(i)nd m(i)ce, three bl(i)nd m(i)ce,</br>See how they run, see how they run.</br>They all ran after the farmer's w(i)fe,</br>She cut off their tails with a carving kn(i)fe.</br>Did you ever see such a s(i)ght in your l(i)fe</br>As three bl(i)nd m(i)ce?",
         "category": ["V-long", "V"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "I-e",
@@ -2177,7 +2177,7 @@
         },
         "rhyme": "Jack; be n(i)mble; Jack; be qu(i)ck.</br>Jack; jump over the candlest(i)ck.",
         "category": ["V-short", "V"],
-        "grade": ["K"]
+        "grade": ["K", "1st"]
     },
     {
         "id": "I-schwa",
@@ -2215,7 +2215,7 @@
         },
         "rhyme": "Oh, do you know the muff(i)n-man,</br>The muff(i)n-man, the muff(i)n-man?</br>Do you know the muff(i)n-man</br>Who lives in Drury Lane?</br></br>Yes, I know the muff(i)n-man,</br>The muff(i)n-man, the muff(i)n-man.</br>Yes, I know the muff(i)n-man</br>Who lives in Drury Lane.",
         "category": ["V-schwa", "V"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "I-ee",
@@ -2253,7 +2253,7 @@
         },
         "rhyme": "Cranberr(ie)s for yummy muffins,</br>And also berr(ie)s blue,</br>Strawberr(ie)s for scrumptious jelly,</br>Raspberr(ie)s and blackberr(ie)s too!",
         "category": ["V-short", "V"],
-        "grade": ["K"]
+        "grade": ["K", "1st"]
     },
     {
         "id": "I-IE",
@@ -2593,7 +2593,7 @@
         },
         "rhyme": "On her b(ir)thday the g(ir)l</br>Wh(ir)led her pearls, sw(ir)led her sk(ir)t,</br>Gave her sh(ir)t tail a tw(ir)l,</br>St(ir)red her toe in the d(ir)t,</br>Until, so I heard,</br>She looked just like a b(ir)d!</br>",
         "category": ["R", "VC", "V"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "j-begin",
@@ -2631,7 +2631,7 @@
         },
         "rhyme": "Here am I; Little (j)umping (J)oan;</br>When nobody's with me;</br>I'm always alone.",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "j-end",
@@ -2669,7 +2669,7 @@
         },
         "rhyme": "",
         "category": ["C-end", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "K-begin",
@@ -2707,7 +2707,7 @@
         },
         "rhyme": "Lucy Loc(k)et lost her poc(k)et,</br>(K)itty Fisher found it;</br>There was not a penny in it,</br>But a ribbon round it.</br>",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "K-end",
@@ -2745,7 +2745,7 @@
         },
         "rhyme": "Lucy Loc(k)et lost her poc(k)et,</br>(K)itty Fisher found it;</br>There was not a penny in it,</br>But a ribbon round it.</br>",
         "category": ["C-end", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "K-KN-silent",
@@ -2783,7 +2783,7 @@
         },
         "rhyme": "",
         "category": ["C-silent", "C"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "L-begin",
@@ -2821,7 +2821,7 @@
         },
         "rhyme": "Mary had a (l)ittle (l)amb,</br>Its f(l)eece was white as snow,</br>And everywhere that Mary went,</br>The (l)amb was sure to go.",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "L-end",
@@ -2859,7 +2859,7 @@
         },
         "rhyme": "Mary had a (l)ittle (l)amb,</br>Its f(l)eece was white as snow,</br>And everywhere that Mary went,</br>The (l)amb was sure to go.",
         "category": ["C-end", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "L-LD",
@@ -2897,7 +2897,7 @@
         },
         "rhyme": "",
         "category": ["CB-end", "CB", "C"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "L-LE",
@@ -2976,7 +2976,7 @@
         },
         "rhyme": "",
         "category": ["CB-end", "C", "CB"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "L-LT",
@@ -3014,7 +3014,7 @@
         },
         "rhyme": "",
         "category": ["CB-end", "C", "CB"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "M-begin",
@@ -3052,7 +3052,7 @@
         },
         "rhyme": "One (m)isty; (m)oisty (m)orning;</br>When cloudy was the weather;</br>I happened to (m)eet an old (m)an clothed all in leather.</br>He began to co(m)pli(m)ent; and I began to grin;</br>How do you do; and how do you do?</br>And how do you do again?",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "M-end",
@@ -3090,7 +3090,7 @@
         },
         "rhyme": "One (m)isty; (m)oisty (m)orning;</br>When cloudy was the weather;</br>I happened to (m)eet an old (m)an clothed all in leather.</br>He began to co(m)pli(m)ent; and I began to grin;</br>How do you do; and how do you do?</br>And how do you do again?",
         "category": ["C-end", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "M-MB-silent",
@@ -3166,7 +3166,7 @@
         },
         "rhyme": "",
         "category": ["CB-end", "C", "CB"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "N-begin",
@@ -3204,7 +3204,7 @@
         },
         "rhyme": "(N)eedles a(n)d pi(n)s,</br>(N)eedles a(n)d pi(n)s.</br>Whe(n) a ma(n) marries,</br>his trouble begi(n)s.",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "N-end",
@@ -3242,7 +3242,7 @@
         },
         "rhyme": "(N)eedles a(n)d pi(n)s,</br>(N)eedles a(n)d pi(n)s.</br>Whe(n) a ma(n) marries,</br>his trouble begi(n)s.",
         "category": ["C-end", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "N-ND",
@@ -3280,7 +3280,7 @@
         },
         "rhyme": "Ha(nd)y-spa(nd)y; Jacky da(nd)y;</br>Loves plum cake a(nd) sugar ca(nd)y.</br>He bought some at a grocer's shop;</br>A(nd) pleased ran away going hop; hop; hop.",
         "category": ["CB-end", "CB", "C"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "N-NG",
@@ -3318,7 +3318,7 @@
         },
         "rhyme": "Si(ng) a so(ng) of sixpence, a pocket full of rye,</br>Four and twenty blackbirds baked in a pie.</br>When the pie was opened the birds began to si(ng),</br>Now wasn\u2019t this a dainty dish to set before the ki(ng)?</br></br>The ki(ng) was in the parlor counti(ng) out his money;</br>The queen was in the kitchen eati(ng) bread and honey;</br>The maid was in the garden ha(ng)i(ng) out the clothes,</br>And alo(ng) came a blackbird and nipped off her nose.</br>",
         "category": ["CD-end", "CD", "C"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "N-NK",
@@ -3356,7 +3356,7 @@
         },
         "rhyme": "There was an old woman; and what do you thi(nk)?</br>She lived upon nothing but foods and dri(nk);</br>Food and dri(nk) made up most of her diet;</br>And yet this old woman could never be quiet.",
         "category": ["CB-end", "C", "CB"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "N-NT",
@@ -3393,7 +3393,7 @@
         },
         "rhyme": "",
         "category": ["CB-end", "C", "CB"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "O-long",
@@ -3431,7 +3431,7 @@
         },
         "rhyme": "(O)ld King C(o)le;</br>Was a merry (o)ld s(o)ul;</br>And a merry (o)ld s(o)ul was he;</br>He called for his pipe;</br>And he called for his b(o)wl;</br>And he called for his fiddlers three.",
         "category": ["V-long", "V"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "O-e",
@@ -3508,7 +3508,7 @@
         },
         "rhyme": "H(o)t cr(o)ss buns, h(o)t cr(o)ss buns.</br>One a penny, two a penny,</br>H(o)t cr(o)ss buns!</br></br>If your daughters do n(o)t like them,</br>Give them to your sons.</br>One a penny, two a penny,</br>H(o)t cr(o)ss buns!",
         "category": ["V-short", "V"],
-        "grade": ["K"]
+        "grade": ["K", "1st"]
     },
     {
         "id": "O-uh",
@@ -3546,7 +3546,7 @@
         },
         "rhyme": "He l(o)ves me.</br>He d(o)esn't!</br>He'll have me.</br>He won't!</br></br>He would if he could,</br>But he can't, so he won't!",
         "category": ["V-schwa", "V"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "O-OA",
@@ -3584,7 +3584,7 @@
         },
         "rhyme": "Little Nanny Ettic(oa)t;</br>In a white pettic(oa)t;</br>And a red nose;</br>The longer she stands;</br>The shorter she grows.",
         "category": ["VP", "V"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "O-OI",
@@ -3622,7 +3622,7 @@
         },
         "rhyme": "A toy box you put toys in.<br>Pin a balloon and you\u2019ll sp(oi)l it.</br>A pan\u2019s for putting (oi)ly c(oi)ns in.</br>To clean them add water and b(oi)l it.</br>Time out\u2019s for putting n(oi)sy boys in.</br>P(oi)son? Pour it in the t(oi)let!</br>",
         "category": ["VP", "V"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "O-OLD",
@@ -3707,7 +3707,7 @@
         },
         "rhyme": "The man in the m(oo)n came down t(oo) s(oo)n;</br>To inquire the way to Norridge;</br>The man in the south; he burnt his mouth;</br>With eating cold plum porridge.",
         "category": ["VP", "V"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "O-uuh",
@@ -3746,7 +3746,7 @@
         },
         "rhyme": "Little Bopeep never underst(oo)d,</br>When little Miss Red Riding H(oo)d</br>Went trick-or-treat in our neighborh(oo)d</br>With little Mister Captain H(oo)k,</br>It wasn\u2019t c(oo)kies or candy they t(oo)k,</br>Each picked a little picture b(oo)k.</br>",
         "category": ["VP", "V"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "O-OR-long",
@@ -3784,7 +3784,7 @@
         },
         "rhyme": "Little Jack H(or)ner;</br>Sat in a c(or)ner;</br>Eating a Christmas pie;</br>He put in his thumb;</br>And pulled out a plum;</br>And said: \"What a good boy am I!\"",
         "category": ["R", "V", "VC"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "O-OR-schwa",
@@ -3822,7 +3822,7 @@
         },
         "rhyme": "",
         "category": ["R", "V", "VC"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "O-OST-short",
@@ -3936,7 +3936,7 @@
         },
         "rhyme": "I'm a little teapot,</br>short and st(ou)t.</br>Here is my handle,</br>here is my sp(ou)t.</br></br>When I see the teacups,</br>hear me sh(ou)t:</br>\"Tip me over,</br>And pour me (ou)t!\"</br>",
         "category": ["VP", "V"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "O-ohw",
@@ -3974,7 +3974,7 @@
         },
         "rhyme": "The north wind does bl(ow);</br>And we shall have sn(ow);</br>And what will poor robin do then?</br>Poor thing!</br></br>He'll sit in the barn;</br>And keep himself warm;</br>And hide his head under his wing.</br>Poor thing!",
         "category": ["VP", "V"],
-        "grade": ["1st", "2nd"]
+        "grade": ["1st", "2nd" ,"3rd"]
     },
     {
         "id": "O-ow",
@@ -4012,7 +4012,7 @@
         },
         "rhyme": "Daffy-d(ow)n-dilly has come to t(ow)n,</br>With a green petticoat</br>and a bright yellow g(ow)n.</br>",
         "category": ["VP", "V"],
-        "grade": ["1st", "2nd"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "O-OY",
@@ -4050,7 +4050,7 @@
         },
         "rhyme": "A b(oy) needs a t(oy)</br>That he can enj(oy)</br>Or he'll have to ann(oy) a grown-up,</br>Climb on the highb(oy),</br>Find a pile to destr(oy),</br>Or play cowb(oy) till doggie has thrown-up.</br>",
         "category": ["VP", "V"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "P-begin",
@@ -4088,7 +4088,7 @@
         },
         "rhyme": "(P)ease (p)orridge hot; (p)ease (p)orridge cold;</br>(P)ease (p)orridge in the (p)ot; nine days old.</br>Some like it hot; some like it cold;</br>Some like it in the (p)ot; nine days old.</br>S(p)ell me that in four letters:</br>I will: T H A T.",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "P-end",
@@ -4126,7 +4126,7 @@
         },
         "rhyme": "(P)ease (p)orridge hot; (p)ease (p)orridge cold;</br>(P)ease (p)orridge in the (p)ot; nine days old.</br>Some like it hot; some like it cold;</br>Some like it in the (p)ot; nine days old.</br>S(p)ell me that in four letters:</br>I will: T H A T.",
         "category": ["C-end", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "P-PH-begin",
@@ -4243,7 +4243,7 @@
         },
         "rhyme": "No kid likes peas piled on (pl)ates,</br>But (pl)aced in straws they\u2019re (pl)enty fun.</br>Blow so they shoot past people\u2019s faces</br>(Pl)ay, (pl)ay, (pl)ay, then run, run, run!</br>",
         "category": ["CB-begin", "CB", "C"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "P-PR",
@@ -4281,7 +4281,7 @@
         },
         "rhyme": "As I was going up (Pr)imrose Hill;</br>(Pr)imrose Hill was dirty;</br>There I met a (pr)etty girl;</br>And she gave me a curtsey.</br>Little girl; (pr)etty girl;</br>Blessings be upon you;</br>If I had half-a-dollar a day;</br>I'd spend it all on you.",
         "category": ["CB-begin", "CB", "C"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd"]
     },
     {
         "id": "Q-begin",
@@ -4319,7 +4319,7 @@
         },
         "rhyme": "(Q)ueen Croc napped on her (q)uilt,</br>Mama duck (q)uacked, \u201cBe (q)uiet!\u201d</br>\u201cWhat?\u201d (Q)uacked the duckling.</br>\u201c(Q)uit!\u201d Mama (q)uacked, \u201cDucks are her diet!\u201d</br>",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "R-begin",
@@ -4357,7 +4357,7 @@
         },
         "rhyme": "(R)ing a(r)ound the (r)oses,</br>A pocket full of posies.</br>Ashes, ashes,</br>We all fall down.</br></br>Picking up the daisies,</br>Picking up the daisies.</br>Ashes, ashes,</br>We all stand up!",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "R-end",
@@ -4395,7 +4395,7 @@
         },
         "rhyme": "(R)ing a(r)ound the (r)oses,</br>A pocket full of posies.</br>Ashes, ashes,</br>We all fall down.</br></br>Picking up the daisies,</br>Picking up the daisies.</br>Ashes, ashes,</br>We all stand up!",
         "category": ["C-end", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "S-begin",
@@ -4433,7 +4433,7 @@
         },
         "rhyme": "(S)imple (S)imon met a pieman;</br>Going to the Fair;</br>(S)ays (S)imple (S)imon to the pieman:</br>\"Please let me ta(s)te your ware.\"</br></br>(S)ay(s) the pieman to (S)imple (S)imon:</br>\"Show me fir(s)t your penny.\"</br>(S)ays (S)imple (S)imon to the pieman:</br>\"Indeed I have not any.\"",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "s-end",
@@ -4471,7 +4471,7 @@
         },
         "rhyme": "(S)imple (S)imon met a pieman;</br>Going to the Fair;</br>(S)ays (S)imple (S)imon to the pieman:</br>\"Please let me ta(s)te your ware.\"</br></br>(S)ay(s) the pieman to (S)imple (S)imon:</br>\"Show me fir(s)t your penny.\"</br>(S)ays (S)imple (S)imon to the pieman:</br>\"Indeed I have not any.\"",
         "category": ["C-end", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "S-zz",
@@ -4550,7 +4550,7 @@
         },
         "rhyme": "",
         "category": ["CB-begin", "C", "CB"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "S-SC-silent",
@@ -4588,7 +4588,7 @@
         },
         "rhyme": "",
         "category": ["C-silent", "C"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "S-SCR",
@@ -4626,7 +4626,7 @@
         },
         "rhyme": "",
         "category": ["CB-3", "C", "CB"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "S-SH-begin",
@@ -4664,7 +4664,7 @@
         },
         "rhyme": "There was an old woman who lived in a (sh)oe;</br>(Sh)e had so many children (sh)e didn't know what to do.</br>(Sh)e gave them some broth without any bread;</br>Then whipped them all soundly and put them to bed.",
         "category": ["CD-begin", "CD", "C"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd"]
     },
     {
         "id": "S-SH-end",
@@ -4702,7 +4702,7 @@
         },
         "rhyme": "There was an old woman who lived in a (sh)oe;</br>(Sh)e had so many children (sh)e didn't know what to do.</br>(Sh)e gave them some broth without any bread;</br>Then whipped them all soundly and put them to bed.",
         "category": ["CD-end", "CD", "C"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "S-SK-begin",
@@ -4740,7 +4740,7 @@
         },
         "rhyme": "There once was old woman tossed up in a ba(sk)et,</br>Seventeen times as high as the moon.</br>Where she was going I couldn't but a(sk) it,</br>For in her hand she carried a broom.",
         "category": ["CB-begin", "CB", "C"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "S-SK-end",
@@ -4778,7 +4778,7 @@
         },
         "rhyme": "There once was old woman tossed up in a ba(sk)et,</br>Seventeen times as high as the moon.</br>Where she was going I couldn't but a(sk) it,</br>For in her hand she carried a broom.",
         "category": ["CB-end", "CB", "C"],
-        "grade": ["1st", "2nd"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "S-SL",
@@ -4816,7 +4816,7 @@
         },
         "rhyme": "To bed; to bed; says (Sl)eepy Head;</br>\"Let's stay awhile;\" says (Sl)ow;</br>\"Put on the pot;\" says Hungry Ned;</br>\"We'll eat before we go.\"",
         "category": ["CB-begin", "CB", "C"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "S-SM",
@@ -4854,7 +4854,7 @@
         },
         "rhyme": "",
         "category": ["CB-begin", "CB", "C"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "S-SN",
@@ -4892,7 +4892,7 @@
         },
         "rhyme": "",
         "category": ["CB-begin", "CB", "C"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "S-SP",
@@ -4930,7 +4930,7 @@
         },
         "rhyme": "I (sp)ied a dirty blue jay</br>On a '(sp)ecially hot (sp)ring day.</br>He (sp)lished and (sp)lashed in a birdbath,</br>Then (sp)eedily flew away.",
         "category": ["CB-begin", "CB", "C"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "S-SPL",
@@ -4968,7 +4968,7 @@
         },
         "rhyme": "",
         "category": ["CB-3", "CB", "C"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "S-SPR",
@@ -5006,7 +5006,7 @@
         },
         "rhyme": "",
         "category": ["CB-3", "CB", "C"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "S-ST-begin",
@@ -5044,7 +5044,7 @@
         },
         "rhyme": "Robin and Richard<br>Were two lazy men;</br>They (st)ayed in bed</br>Till the clock (st)ruck ten.</br>Then up jumps Robin</br>And looks at the sky:</br>\u201cOh, brother Richard,</br>The sun\u2019s very high.</br>You walk fir(st)</br>With the bottle and bag,</br>And I\u2019ll ride later</br>On the gray horse nag.\u201d</br>",
         "category": ["CB-begin", "CB", "C"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "S-ST-end",
@@ -5082,7 +5082,7 @@
         },
         "rhyme": "Robin and Richard<br>Were two lazy men;</br>They (st)ayed in bed</br>Till the clock (st)ruck ten.</br>Then up jumps Robin</br>And looks at the sky:</br>\u201cOh, brother Richard,</br>The sun\u2019s very high.</br>You walk fir(st)</br>With the bottle and bag,</br>And I\u2019ll ride later</br>On the gray horse nag.\u201d</br>",
         "category": ["CB-end", "CB", "C"],
-        "grade": ["1st", "2nd"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "S-STR",
@@ -5120,7 +5120,7 @@
         },
         "rhyme": "",
         "category": ["CB-3", "CB", "C"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "S-SW",
@@ -5158,7 +5158,7 @@
         },
         "rhyme": "(Sw)an (sw)am over the sea,</br>(Sw)im (sw)an (sw)im!</br>(Sw)an (sw)am back again,</br>Well (sw)um (sw)an!",
         "category": ["CB-begin", "CB", "C"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "T-begin",
@@ -5196,7 +5196,7 @@
         },
         "rhyme": "(T)o marke(t); (t)o marke(t); (t)o buy a fa(t) pig;</br>Home again; home again; jigge(t)y; jig.</br></br>(T)o marke(t); (t)o marke(t); (t)o buy a fa(t) hog;</br>Home again; home again; jigge(t)y; jog.",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "T-end",
@@ -5234,7 +5234,7 @@
         },
         "rhyme": "(T)o marke(t); (t)o marke(t); (t)o buy a fa(t) pig;</br>Home again; home again; jigge(t)y; jig.</br></br>(T)o marke(t); (t)o marke(t); (t)o buy a fa(t) hog;</br>Home again; home again; jigge(t)y; jog.",
         "category": ["C-end", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "T-TCH-silent",
@@ -5310,7 +5310,7 @@
         },
         "rhyme": "Bye; baby bunting;<br>Fa(th)er's gone a-hunting;</br>Mo(th)er's gone a-milking;</br>Sister's gone a-silking;</br>And Bro(th)er's gone for a rabbit skin;</br>To wrap little baby bunting in.",
         "category": ["CD-begin", "CD", "C"],
-        "grade": ["1st", "3rd"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "T-th-begin",
@@ -5349,7 +5349,7 @@
         },
         "rhyme": "(Th)ree wise men of Go(th)am</br>Went to sea in a bowl,</br>And if the bowl had been stronger,</br>My song had been longer.",
         "category": ["CD-begin", "CD", "C"],
-        "grade": ["1st", "3rd"]
+        "grade": ["1st", "2nd" "3rd"]
     },
     {
         "id": "T-TH-end",
@@ -5387,7 +5387,7 @@
         },
         "rhyme": "",
         "category": ["CD-end", "CD", "C"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "T-TR",
@@ -5425,7 +5425,7 @@
         },
         "rhyme": "Mis(tr)ess Mary; quite con(tr)ary;</br>How does your garden grow?</br>With silver bells and cockle shells;</br>And pretty maids all in a row.",
         "category": ["CB-begin", "CB", "C"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "U-long",
@@ -5465,7 +5465,7 @@
         },
         "rhyme": "He balanced a c(u)cumber on his nose,</br>But should have (u)sed binoc(u)lars to watch the roads.</br>A (u)nicycle\u2019s dangerous when clowns can\u2019t see\u2014</br>Quick call an amb(u)lance:  one, two, three!</br>",
         "category": ["V-long", "V"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "U-e",
@@ -5542,7 +5542,7 @@
         },
         "rhyme": "Little Betty Bl(u)e</br>Lost her holiday shoe.</br>What shall little Betty do?</br></br>Buy her another,</br>To match the other,</br>And then she'll walk upon two.",
         "category": ["V-long", "V"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "U-short",
@@ -5580,7 +5580,7 @@
         },
         "rhyme": "S(u)e played a big bl(u)e t(u)ba,</br>J(u)lius played one too,</br>With their two bl(u)e t(u)bas,</br>What did those two do?</br>He blew his bl(u)e t(u)ba loud!</br>She blew hers too!</br>",
         "category": ["V-short", "V"],
-        "grade": ["K"]
+        "grade": ["K", "1st"]
     },
     {
         "id": "U-schwa",
@@ -5617,7 +5617,7 @@
         },
         "rhyme": "S(u)e played a big bl(u)e t(u)ba,</br>J(u)lius played one too,</br>With their two bl(u)e t(u)bas,</br>What did those two do?</br>He blew his bl(u)e t(u)ba loud!</br>She blew hers too!</br>",
         "category": ["V-schwa", "V"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "U-UR",
@@ -5655,7 +5655,7 @@
         },
         "rhyme": "To (ur)ge her to p(ur)r</br>Lin rubs kitty cat's f(ur);</br>When Lin topples the (ur)n</br>Kitty makes a bl(ur).</br>",
         "category": ["R", "V", "VC"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "V-begin",
@@ -5693,7 +5693,7 @@
         },
         "rhyme": "As I was going to St. I(v)es;</br>I met a man with se(v)en wi(v)es.</br>E(v)ery wife had se(v)en sacks;</br>E(v)ery sack had se(v)en cats;</br>E(v)ery cat had se(v)en kits.</br>Kits; cats; sacks and wi(v)es;</br>How many were going to St. I(v)es?",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "W-begin",
@@ -5731,7 +5731,7 @@
         },
         "rhyme": "(W)ee (W)illie (W)inkie runs through the town;</br>Upstairs and downstairs; in his nightgown;</br>Tapping at the (w)indo(w); crying at the lock;</br>Are the children all in bed? It's now eight o'clock?",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "W-WH",
@@ -5769,7 +5769,7 @@
         },
         "rhyme": "Bill claimed a bully (wh)acked and (wh)opped his rib.</br>Mom said, \u201c(Wh)at?  (Wh)o?  (Wh)en?  (Wh)ere?\u201d</br>Kim said, \u201cThat\u2019s a (wh)opper, a big fat fib.\u201d</br>Bill said, \u201c(Wh)atever!\u201d -- (wh)ich means: I don\u2019t care.</br>",
         "category": ["CD-begin", "CD", "C"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "W-WR-silent",
@@ -5807,7 +5807,7 @@
         },
         "rhyme": "",
         "category": ["C-silent", "C"],
-        "grade": ["2nd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "X-begin",
@@ -5845,7 +5845,7 @@
         },
         "rhyme": "DUM diddle DEE doh,</br>O(x) wore a tu(x)edo,</br>The dancer bo(x)ed with T-Re(x).</br>Jack popped from a mailbo(x),</br>First swung his hand a(x)e,</br>Next tattled that red fo(x)</br>Had pooped in the sandbo(x)</br>Then all of them ta(x)ied away.</br>",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "X-end",
@@ -5883,7 +5883,7 @@
         },
         "rhyme": "DUM diddle DEE doh,</br>O(x) wore a tu(x)edo,</br>The dancer bo(x)ed with T-Re(x).</br>Jack popped from a mailbo(x),</br>First swung his hand a(x)e,</br>Next tattled that red fo(x)</br>Had pooped in the sandbo(x)</br>Then all of them ta(x)ied away.</br>",
         "category": ["C-end", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "Y-yuh",
@@ -5921,7 +5921,7 @@
         },
         "rhyme": "",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "Y-i",
@@ -5959,7 +5959,7 @@
         },
         "rhyme": "Cr(y)baby, cr(y)baby,</br>Cr(y)baby, wh(y)!?</br>Stick your finger in your e(y)e,</br>Then tell your mother it was I?",
         "category": ["Y", "V"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "Y-e",
@@ -5997,7 +5997,7 @@
         },
         "rhyme": "Ride away; Ride away;<br>Johnn(y) shall ride;</br>And he shall have kitt(y) cat;</br>Tied to one side.</br>And he shall have pupp(y) dog;</br>Tied to the other;</br>And Johnn(y) shall ride;</br>To see his grandmother.",
         "category": ["Y", "V"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "Y-ey",
@@ -6035,7 +6035,7 @@
         },
         "rhyme": "",
         "category": ["Y", "V", "VP"],
-        "grade": ["1st"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "Z-begin",
@@ -6073,7 +6073,7 @@
         },
         "rhyme": "You\u2019re hard-working not la(z)y,</br>And brainy smart, not cra(z)y.</br>That\u2019s why you won this pu(zz)le pri(z)e.</br>Did your head grow one more si(z)e?</br>",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     },
     {
         "id": "Z-end",
@@ -6111,6 +6111,6 @@
         },
         "rhyme": "You\u2019re hard-working not la(z)y,</br>And brainy smart, not cra(z)y.</br>That\u2019s why you won this pu(zz)le pri(z)e.</br>Did your head grow one more si(z)e?</br>",
         "category": ["C-end", "C"],
-        "grade": ["Pre-K", "K"]
+        "grade": ["Pre-K", "K", "1st"]
     }
 ]
