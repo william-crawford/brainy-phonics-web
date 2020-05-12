@@ -310,7 +310,7 @@
     },
     {
         "id": "A-AR-long",
-        "audio": "phoneme-A-AR-long.mp3",
+        "audio": "phoneme-A-AR-long.m4a",
         "display": "ar",
         "word1": {
             "word": "bare",
@@ -845,7 +845,7 @@
     },
     {
         "id": "C-CK-silent",
-        "audio": "phoneme-C-CK-silent.mp3",
+        "audio": "phoneme-C-CK-silent.m4a",
         "display": "ck",
         "word1": {
             "word": "sick",
@@ -1191,7 +1191,7 @@
     },
     {
         "id": "E-EI",
-        "audio": "phoneme-E-EI.mp3",
+        "audio": "phoneme-E-EI.m4a",
         "display": "ei",
         "word1": {
             "word": "veil",
@@ -1267,7 +1267,7 @@
     },
     {
         "id": "E-EA-short",
-        "audio": "phoneme-E-EA-short.mp3",
+        "audio": "phoneme-E-EA-short.m4a",
         "display": "ea",
         "word1": {
             "word": "head",
@@ -1282,10 +1282,10 @@
             "image": "bear.png"
         },
         "word3": {
-            "word": "pear",
-            "display": "p<span>ea</span>r",
-            "audio": "pear.mp3",
-            "image": "pear.png"
+            "word": "pears",
+            "display": "p<span>ea</span>rs",
+            "audio": "pears.mp3",
+            "image": "pears.png"
         },
         "quiz-words": [
             "bread",
@@ -1419,7 +1419,7 @@
     },
     {
         "id": "E-ET-unstressed",
-        "audio": "phoneme-E-ET-unstressed.mp3",
+        "audio": "phoneme-E-ET-unstressed.m4a",
         "display": "et",
         "word1": {
             "word": "target",
@@ -2257,7 +2257,7 @@
     },
     {
         "id": "I-IE",
-        "audio": "phoneme-I-IE.mp3",
+        "audio": "phoneme-I-IE.m4a",
         "display": "ie",
         "word1": {
             "word": "thief",
@@ -2514,44 +2514,6 @@
             "all": "green",
             "vowel": "green",
             "3rd": "green"
-        },
-        "rhyme": "",
-        "category": ["VC-3", "V", "VC"],
-        "grade": ["3rd"]
-    },
-    {
-        "id": "I-ION",
-        "audio": "phoneme-I-ION.mp3",
-        "display": "ion",
-        "word1": {
-            "word": "cushion",
-            "display": "cush<span>ion</span>",
-            "audio": "cushion.mp3",
-            "image": "cushion.png"
-        },
-        "word2": {
-            "word": "fashion",
-            "display": "fash<span>ion</span>",
-            "audio": "fashion.mp3",
-            "image": "fashion.png"
-        },
-        "word3": {
-            "word": "addition",
-            "display": "addit<span>ion</span>",
-            "audio": "addition.mp3",
-            "image": "addition.png"
-        },
-        "quiz-words": [
-            "graduation",
-            "construction",
-            "percussion",
-            "question",
-            "congratulations"
-        ],
-        "color": {
-            "all": "black",
-            "vowel": "black",
-            "3rd": "black"
         },
         "rhyme": "",
         "category": ["VC-3", "V", "VC"],
@@ -3788,7 +3750,7 @@
     },
     {
         "id": "O-OR-schwa",
-        "audio": "phoneme-O-OR-schwa.mp3",
+        "audio": "phoneme-O-OR-schwa.m4a",
         "display": "or",
         "word1": {
             "word": "work",
@@ -5388,6 +5350,44 @@
         "rhyme": "",
         "category": ["CD-end", "CD", "C"],
         "grade": ["1st", "2nd", "3rd"]
+    },
+    {
+        "id": "T-TION",
+        "audio": "phoneme-T-TION.mp3",
+        "display": "tion",
+        "word1": {
+            "word": "cushion",
+            "display": "cush<span>ion</span>",
+            "audio": "cushion.mp3",
+            "image": "cushion.png"
+        },
+        "word2": {
+            "word": "fashion",
+            "display": "fash<span>ion</span>",
+            "audio": "fashion.mp3",
+            "image": "fashion.png"
+        },
+        "word3": {
+            "word": "addition",
+            "display": "addit<span>ion</span>",
+            "audio": "addition.mp3",
+            "image": "addition.png"
+        },
+        "quiz-words": [
+            "graduation",
+            "construction",
+            "percussion",
+            "question",
+            "congratulations"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "3rd": "black"
+        },
+        "rhyme": "",
+        "category": ["VC-3", "V", "VC"],
+        "grade": ["3rd"]
     },
     {
         "id": "T-TR",
