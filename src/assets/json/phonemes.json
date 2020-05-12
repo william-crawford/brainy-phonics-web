@@ -328,7 +328,7 @@
             "word": "hare",
             "display": "h<span>ar</span>e",
             "audio": "hare.mp3",
-            "image": "hare.png"
+            "image": "rabbit.png"
         },
         "quiz-words": [
             "scare",
@@ -861,7 +861,7 @@
         },
         "word3": {
             "word": "snack",
-            "display": "sna<span>ck</span>pa<span>ck</span>",
+            "display": "sna<span>ck</span>",
             "audio": "snack.mp3",
             "image": "snack.png"
         },
@@ -1435,9 +1435,9 @@
         },
         "word3": {
             "word": "piglet",
-            "display": "pigl<span>et/span>",
+            "display": "pigl<span>et</span>",
             "audio": "piglet.mp3",
-            "image": "piglet.png"
+            "image": "pig.png"
         },
         "quiz-words": [
             "hatchet",
@@ -2489,7 +2489,7 @@
             "word": "windy",
             "display": "w<span>ind</span>y",
             "audio": "windy.mp3",
-            "image": "windy.png"
+            "image": "wind.png"
         },
         "word2": {
             "word": "window",
@@ -2867,21 +2867,21 @@
         "display": "ld",
         "word1": {
             "word": "old",
-            "display": "gi<span>ft</span>",
-            "audio": "gift.mp3",
-            "image": "gift.png"
+            "display": "o<span>ld</span>",
+            "audio": "old.mp3",
+            "image": "old.png"
         },
         "word2": {
             "word": "wild",
-            "display": "so<span>ft</span>",
-            "audio": "soft.mp3",
-            "image": "soft.png"
+            "display": "wi<span>ld</span>",
+            "audio": "wild.mp3",
+            "image": "wild.png"
         },
         "word3": {
             "word": "build",
-            "display": "le<span>ft</span>",
-            "audio": "left.mp3",
-            "image": "left.png"
+            "display": "bui<span>ld</span>",
+            "audio": "build.mp3",
+            "image": "build.png"
         },
         "quiz-words": [
             "child",
@@ -2986,7 +2986,7 @@
             "word": "colt",
             "display": "co<span>lt</span>",
             "audio": "colt.mp3",
-            "image": "colt.png"
+            "image": "foal.png"
         },
         "word2": {
             "word": "belt",
@@ -3256,13 +3256,13 @@
         },
         "word2": {
             "word": "pond",
-            "display": "po<span>nd</span>box",
+            "display": "po<span>nd</span>",
             "audio": "pond.mp3",
             "image": "pond.png"
         },
         "word3": {
             "word": "hand",
-            "display": "ha<span>nd</span>a",
+            "display": "ha<span>nd</span>",
             "audio": "hand.mp3",
             "image": "hand.png"
         },
@@ -3681,8 +3681,8 @@
         "word3": {
             "word": "hoofs",
             "display": "h<span>oo</span>fs",
-            "audio": "hoofs.mp3",
-            "image": "hoofs.png"
+            "audio": "hoof.mp3",
+            "image": "hoof.png"
         },
         "quiz-words": [
             "tools",
@@ -3766,7 +3766,7 @@
         },
         "word3": {
             "word": "orca",
-            "display": "o<span>or</span>ca",
+            "display": "<span>or</span>ca",
             "audio": "orca.mp3",
             "image": "orca.png"
         },
@@ -4148,7 +4148,7 @@
             "word": "phantom",
             "display": "<span>ph</span>antom",
             "audio": "phantom.mp3",
-            "image": "phantom.png"
+            "image": "ghost.png"
         },
         "quiz-words": [
             "philtrum",
@@ -4186,7 +4186,7 @@
             "word": "triumph",
             "display": "trium<span>ph</span>",
             "audio": "triumph.mp3",
-            "image": "triumph.png"
+            "image": "prize.png"
         },
         "quiz-words": [
             "phonograph",
@@ -4265,7 +4265,7 @@
             "word": "protect",
             "display": "<span>pr</span>otect",
             "audio": "protect.mp3",
-            "image": "protect.png"
+            "image": "stop.png"
         },
         "quiz-words": [
             "pretend",
@@ -4838,7 +4838,7 @@
             "word": "smile",
             "display": "<span>sm</span>ile",
             "audio": "smile.mp3",
-            "image": "smile.png"
+            "image": "glad.png"
         },
         "quiz-words": [
             "smash",
@@ -5244,7 +5244,7 @@
             "word": "pitch",
             "display": "pi<span>tch</span>",
             "audio": "pitch.mp3",
-            "image": "pitch.png"
+            "image": "throw.png"
         },
         "word2": {
             "word": "catch",
@@ -5353,7 +5353,7 @@
     },
     {
         "id": "T-TH-end",
-        "audio": "phoneme-T-TH.mp3",
+        "audio": "phoneme-T-th.mp3",
         "display": "th",
         "word1": {
             "word": "moth",
@@ -5407,7 +5407,7 @@
         },
         "word3": {
             "word": "tricky",
-            "display": "fire<span>tr</span>icky",
+            "display": "<span>tr</span>icky",
             "audio": "tricky.mp3",
             "image": "tricky.png"
         },
@@ -5981,7 +5981,7 @@
             "word": "lazy",
             "display": "laz<span>y</span>",
             "audio": "lazy.mp3",
-            "image": "lazy.png"
+            "image": "rest.png"
         },
         "quiz-words": [
             "pony",

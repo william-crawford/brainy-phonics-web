@@ -15,8 +15,6 @@ export class Phoneme {
     puzzlePiecesEarned: number;
     rhyme: string;
     grade: string;
-    
-
 
     constructor(id: string, display: string, audio: string, word1: SightWord, word2: SightWord, word3: SightWord, quizWords: [string], color: string, category: string, stars: number, puzzlePiecesEarned: number, rhyme: string, grade: string) {
         this.id = id;
