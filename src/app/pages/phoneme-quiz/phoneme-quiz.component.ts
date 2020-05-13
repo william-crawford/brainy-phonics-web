@@ -101,7 +101,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
             } else if (list === 'kindergarten') {
                 key = Math.floor(Math.random() * 53);
             }
-            this.data = this.phonemesService.dataLoad(list);
+            this.data = this.phonemesService.dataLoad(list, false);
             this.key = key;
             this.phoneme = this.data[key];
             this.puzzleimg = '../../assets/img/puzzle-pieces/puzzle-'+ this.phoneme.id +'/puzzle-' + this.phoneme.id + '-composite.png';

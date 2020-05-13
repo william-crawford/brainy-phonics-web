@@ -2,9 +2,9 @@
     <div id='main-body'>
         <div class='column'>
                 <button mat-icon-button class='category_button' id='lowercase_alphabetical' (mouseenter)='playAudio($event)' [routerLink]="['/list-select']" [queryParams]="{'list' : 'prek'}"></button>
-                <button mat-icon-button class='category_button' id='lowercase_bmras' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list' : 'prek'}"></button>
+                <button mat-icon-button class='category_button' id='lowercase_bmras' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list' : 'prek', 'reordered': 'true'}"></button>
                 <button mat-icon-button class='category_button' id='uppercase_alphabetical' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list' : 'prek', 'capital': 'true'}"></button>
-                <button mat-icon-button class='category_button' id='uppercase_bmras' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list' : 'prek', 'capital': 'true'}"></button>
+                <button mat-icon-button class='category_button' id='uppercase_bmras' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list' : 'prek', 'capital': 'true', 'reordered': 'true'}"></button>
         </div>
     </div>
 

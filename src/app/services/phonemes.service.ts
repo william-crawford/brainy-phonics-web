@@ -3,6 +3,7 @@ import { Phoneme } from '../types/phoneme';
 import { BehaviorSubject, Observable } from 'rxjs';
 
 import * as json from '../../assets/json/phonemes.json';
+import * as jsonReordered from '../../assets/json/phonemes-reordered.json';
 import { SightWord } from '../types/sight-word';
 
 @Injectable({
@@ -31,9 +32,14 @@ export class PhonemesService {
     this.phonemes = this._phonemes.asObservable();
   }
 
-  dataLoad(list) {
+  dataLoad(list, reordered) {
     const temp = [];
-    const data: Array<any> = json.default.valueOf();
+    let data: Array<any> = [];
+    if (reordered) {
+      data = jsonReordered.default.valueOf();
+    } else {
+      data = json.default.valueOf();
+    }
 
     for (var i = 0; i < data.length; i++) {
       if (list == 'phoneme') {

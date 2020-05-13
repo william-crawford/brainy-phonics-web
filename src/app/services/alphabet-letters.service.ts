@@ -3,6 +3,7 @@ import {AlphabetLetter} from '../types/alphabet-letter';
 import {BehaviorSubject, Observable} from 'rxjs';
 
 import * as json from '../../assets/json/letters.json';
+import * as jsonReordered from '../../assets/json/letters-reordered.json';
 
 @Injectable({
   providedIn: 'root'
@@ -28,9 +29,14 @@ export class AlphabetLettersService {
     this.letters = this._letters.asObservable();
   }
 
-  dataImport() {
+  dataImport(reordered) {
     const temp = [];
-    const data: Array<any> = json.default.valueOf();
+    let data: Array<any> = [];
+    if (reordered) {
+      data = jsonReordered.default.valueOf();
+    } else {
+      data = json.default.valueOf();
+    }
     data.forEach(letter => {
       temp.push(new AlphabetLetter(letter.letter, `/assets/audio/letters/${letter.audio}`, 0));
     });

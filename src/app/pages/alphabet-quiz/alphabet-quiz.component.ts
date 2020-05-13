@@ -49,7 +49,7 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy, AfterViewInit {
     ) {
         this.quizAll = this.activatedRoute.snapshot.queryParamMap.get('quizAll');
         this.capital = this.activatedRoute.snapshot.queryParamMap.get('capital');
-        this.letterList = this.alphabetLettersService.dataImport();
+        this.letterList = this.alphabetLettersService.dataImport(false);
 
         if (this.quizAll === 'true') {
             var key = Math.floor(Math.random() * 25);

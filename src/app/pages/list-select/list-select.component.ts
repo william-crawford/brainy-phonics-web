@@ -39,9 +39,17 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
         if (!list || list === '') {
             this.router.navigate(['']);
         } else if (list == 'alphabet') {
-           this.data = this.alphabetLettersService.dataImport();
+            if (this.activatedRoute.snapshot.queryParamMap.get('reordered')) {
+                this.data = this.alphabetLettersService.dataImport(true);
+            } else {
+                this.data = this.alphabetLettersService.dataImport(false);
+            }
         } else {
-            this.data = this.phonemesService.dataLoad(list);
+            if (this.activatedRoute.snapshot.queryParamMap.get('reordered')) {
+                this.data = this.phonemesService.dataLoad(list, true);
+            } else {
+                this.data = this.phonemesService.dataLoad(list, false);
+            }
         }
         this.transferLetterService.setList(this.data);
 
