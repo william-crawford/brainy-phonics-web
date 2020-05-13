@@ -1,0 +1,17 @@
+<div id='background'>
+    <div id='main-body'>
+        <div class='column'>
+            <div class='row'>
+                <button mat-icon-button class='category_button' id='names' (mouseenter)='playAudio($event)' routerLink='/k-names-details'></button>
+                <button mat-icon-button class='category_button' id='sounds' (mouseenter)='playAudio($event)' routerLink='/k-sounds-details'></button>
+            </div>
+        </div>
+    </div>
+
+    <div id='side-menu'>
+        <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>
+        <button mat-icon-button class='icon' id='home' routerLink='/'></button>
+        <button mat-icon-button class='icon bottom' id='bank' routerLink='/coins'></button>
+        <button mat-icon-button class='icon bottom' id='puzzle' routerLink='/puzzles'></button>
+    </div>
+</div>
