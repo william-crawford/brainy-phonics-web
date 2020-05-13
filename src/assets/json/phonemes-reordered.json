@@ -560,7 +560,7 @@
         },
         "quiz-words": [
             "panda",
-            "oval",
+            "ovals",
             "canoe",
             "tuba",
             "gazelle"
@@ -708,7 +708,7 @@
             "word": "hare",
             "display": "h<span>ar</span>e",
             "audio": "hare.mp3",
-            "image": "rabbit.png"
+            "image": "hare.png"
         },
         "quiz-words": [
             "scare",
@@ -1125,7 +1125,7 @@
             "word": "smile",
             "display": "<span>sm</span>ile",
             "audio": "smile.mp3",
-            "image": "glad.png"
+            "image": "smile.png"
         },
         "quiz-words": [
             "smash",
@@ -1648,7 +1648,7 @@
             "word": "pitch",
             "display": "pi<span>tch</span>",
             "audio": "pitch.mp3",
-            "image": "throw.png"
+            "image": "pitch.png"
         },
         "word2": {
             "word": "catch",
@@ -2501,7 +2501,7 @@
         "quiz-words": [
             "lizard",
             "window",
-            "frisbie",
+            "frisbee",
             "slippers",
             "chimney",
             "fiddle",
@@ -2991,7 +2991,7 @@
             "word": "phantom",
             "display": "<span>ph</span>antom",
             "audio": "phantom.mp3",
-            "image": "ghost.png"
+            "image": "phantom.png"
         },
         "quiz-words": [
             "philtrum",
@@ -3029,7 +3029,7 @@
             "word": "triumph",
             "display": "trium<span>ph</span>",
             "audio": "triumph.mp3",
-            "image": "prize.png"
+            "image": "triumph.png"
         },
         "quiz-words": [
             "phonograph",
@@ -3108,7 +3108,7 @@
             "word": "protect",
             "display": "<span>pr</span>otect",
             "audio": "protect.mp3",
-            "image": "stop.png"
+            "image": "protect.png"
         },
         "quiz-words": [
             "pretend",
@@ -4710,7 +4710,7 @@
             "word": "colt",
             "display": "co<span>lt</span>",
             "audio": "colt.mp3",
-            "image": "foal.png"
+            "image": "colt.png"
         },
         "word2": {
             "word": "belt",
@@ -5608,7 +5608,7 @@
             "pets",
             "pretzel",
             "lettuce",
-            "machette"
+            "machete"
         ],
         "color": {
             "all": "black",
@@ -5639,7 +5639,7 @@
             "word": "piglet",
             "display": "pigl<span>et</span>",
             "audio": "piglet.mp3",
-            "image": "pig.png"
+            "image": "piglet.png"
         },
         "quiz-words": [
             "hatchet",
@@ -5791,7 +5791,7 @@
             "word": "lazy",
             "display": "laz<span>y</span>",
             "audio": "lazy.mp3",
-            "image": "rest.png"
+            "image": "lazy.png"
         },
         "quiz-words": [
             "pony",

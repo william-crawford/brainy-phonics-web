@@ -180,7 +180,7 @@
         },
         "quiz-words": [
             "panda",
-            "oval",
+            "ovals",
             "canoe",
             "tuba",
             "gazelle"
@@ -328,7 +328,7 @@
             "word": "hare",
             "display": "h<span>ar</span>e",
             "audio": "hare.mp3",
-            "image": "rabbit.png"
+            "image": "hare.png"
         },
         "quiz-words": [
             "scare",
@@ -1406,7 +1406,7 @@
             "pets",
             "pretzel",
             "lettuce",
-            "machette"
+            "machete"
         ],
         "color": {
             "all": "black",
@@ -1437,7 +1437,7 @@
             "word": "piglet",
             "display": "pigl<span>et</span>",
             "audio": "piglet.mp3",
-            "image": "pig.png"
+            "image": "piglet.png"
         },
         "quiz-words": [
             "hatchet",
@@ -1481,7 +1481,7 @@
             "threw",
             "screws",
             "cashew",
-            "crewcut",
+            "crew cut",
             "stew pot"
         ],
         "color": {
@@ -1631,7 +1631,7 @@
         },
         "quiz-words": [
             "friends",
-            "fruit",
+            "fruits",
             "fridge",
             "fringe",
             "frontloader"
@@ -2163,7 +2163,7 @@
         "quiz-words": [
             "lizard",
             "window",
-            "frisbie",
+            "frisbee",
             "slippers",
             "chimney",
             "fiddle",
@@ -2320,7 +2320,7 @@
             "tight",
             "night",
             "brighten",
-            "lightening"
+            "lightning"
         ],
         "color": {
             "all": "black",
@@ -2355,7 +2355,7 @@
         },
         "quiz-words": [
             "smile",
-            "reptile",
+            "reptiles",
             "crocodile",
             "silent",
             "agile"
@@ -2432,7 +2432,7 @@
         "quiz-words": [
             "wildcat",
             "wildfowl",
-            "wildrice",
+            "wild rice",
             "grandchild"
         ],
         "color": {
@@ -2948,7 +2948,7 @@
             "word": "colt",
             "display": "co<span>lt</span>",
             "audio": "colt.mp3",
-            "image": "foal.png"
+            "image": "colt.png"
         },
         "word2": {
             "word": "belt",
@@ -3420,7 +3420,7 @@
         "quiz-words": [
             "mole",
             "rose",
-            "bone",
+            "bones",
             "oboe",
             "potatoes"
         ],
@@ -3655,7 +3655,7 @@
             "goose",
             "spoon",
             "tooth",
-            "raccoon",
+            "raccoons",
             "balloon",
             "poodle",
             "school",
@@ -3736,7 +3736,7 @@
             "sports",
             "hornet",
             "unicorn",
-            "uniform",
+            "uniforms",
             "porcupine"
         ],
         "color": {
@@ -3809,7 +3809,7 @@
             "image": "ostrich.png"
         },
         "quiz-words": [
-            "nostrils",
+            "nostril",
             "costume",
             "frosting",
             "hostile",
@@ -4110,12 +4110,12 @@
             "word": "phantom",
             "display": "<span>ph</span>antom",
             "audio": "phantom.mp3",
-            "image": "ghost.png"
+            "image": "phantom.png"
         },
         "quiz-words": [
             "philtrum",
             "physician",
-            "pharoah",
+            "pharaoh",
             "pheasant",
             "phoenix"
         ],
@@ -4148,7 +4148,7 @@
             "word": "triumph",
             "display": "trium<span>ph</span>",
             "audio": "triumph.mp3",
-            "image": "prize.png"
+            "image": "triumph.png"
         },
         "quiz-words": [
             "phonograph",
@@ -4227,7 +4227,7 @@
             "word": "protect",
             "display": "<span>pr</span>otect",
             "audio": "protect.mp3",
-            "image": "stop.png"
+            "image": "protect.png"
         },
         "quiz-words": [
             "pretend",
@@ -4800,7 +4800,7 @@
             "word": "smile",
             "display": "<span>sm</span>ile",
             "audio": "smile.mp3",
-            "image": "glad.png"
+            "image": "smile.png"
         },
         "quiz-words": [
             "smash",
@@ -5111,7 +5111,7 @@
             "swine",
             "sweater",
             "side-swept",
-            "street sweeper"
+            "street-sweeper"
         ],
         "color": {
             "all": "black",
@@ -5206,7 +5206,7 @@
             "word": "pitch",
             "display": "pi<span>tch</span>",
             "audio": "pitch.mp3",
-            "image": "throw.png"
+            "image": "pitch.png"
         },
         "word2": {
             "word": "catch",
@@ -5300,7 +5300,7 @@
             "think",
             "thirsty",
             "thick",
-            "thumbs",
+            "thumb",
             "thumbnail"
         ],
         "color": {
@@ -5340,7 +5340,7 @@
             "both",
             "tooth",
             "shoulder-length",
-            "bath tub"
+            "bathtub"
         ],
         "color": {
             "all": "black",
@@ -5981,7 +5981,7 @@
             "word": "lazy",
             "display": "laz<span>y</span>",
             "audio": "lazy.mp3",
-            "image": "rest.png"
+            "image": "lazy.png"
         },
         "quiz-words": [
             "pony",
