@@ -9,7 +9,7 @@
 #main-body {
   width: 169.7vh;
   height: 0vh;
-  padding-left: 20vh;
+  padding-left: 17vh;
   position: relative;
 }
 
@@ -23,7 +23,7 @@
     padding: 0;
     text-align: center;
     width: 48vh;
-    background-color: lightblue;
+    background-color: #ddf6f8;
 }
 
 .puzzle {
@@ -32,7 +32,7 @@
     margin: auto;
     width: 36vh;
     height: 48vh;
-    background-color: #6EC7D4;
+    background-color: #d3ecee;
 }
 
 .puzzle-image {
