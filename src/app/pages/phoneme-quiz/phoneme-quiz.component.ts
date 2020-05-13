@@ -1,4 +1,4 @@
-import {Component, ElementRef, OnDestroy, OnInit} from '@angular/core';
+import {Component, OnDestroy, OnInit, AfterViewInit} from '@angular/core';
 import {ActivatedRoute, Router} from '@angular/router';
 import {delay} from 'q';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
@@ -16,7 +16,7 @@ import {ChangeDetectorRef} from '@angular/core';
     styleUrls: ['phoneme-quiz.component.css']
 })
 
-export class PhonemeQuizComponent implements OnInit, OnDestroy {
+export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
 
     phonemeAnimate: boolean;
     phonemePlayAudio: boolean;
@@ -42,6 +42,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
     quizPhoneme: Phoneme;
     list: string;
     quizAll: string;
+    capital: string;
     key: number;
     begin: boolean = false;
 
@@ -74,6 +75,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
         private changeDetectorRef: ChangeDetectorRef
     ) {
         this.quizAll = this.activatedRoute.snapshot.queryParamMap.get('quizAll');
+        this.capital = this.activatedRoute.snapshot.queryParamMap.get('capital');
         // Sets random phoneme if selected Quiz-all function
         if (this.quizAll === 'true') {
             let list = this.activatedRoute.snapshot.queryParamMap.get('list');
@@ -209,6 +211,14 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy {
 
         this.isFirstAttempt = true;
         this.hasGuessed = false;
+    }
+
+    ngAfterViewInit() {
+        if (this.capital) {
+            var temp = <HTMLElement> document.getElementById('main-body');
+            temp.style.textTransform = 'uppercase';
+
+        }
     }
 
     ngOnDestroy() {

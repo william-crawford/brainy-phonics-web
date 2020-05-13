@@ -1,4 +1,4 @@
-import {Component, OnDestroy, OnInit} from '@angular/core';
+import {Component, OnDestroy, OnInit, AfterViewInit} from '@angular/core';
 import {ActivatedRoute, Router} from '@angular/router';
 import {delay} from 'q';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
@@ -8,13 +8,12 @@ import {AlphabetLettersService} from '../../services/alphabet-letters.service';
 import { Location } from '@angular/common';
 import {AlphabetLetter} from '../../types/alphabet-letter';
 
-
 @Component({
     templateUrl: 'alphabet-quiz.component.html',
     styleUrls: ['alphabet-quiz.component.css']
 })
 
-export class AlphabetQuizComponent implements OnInit, OnDestroy {
+export class AlphabetQuizComponent implements OnInit, OnDestroy, AfterViewInit {
     letterAnimate1: boolean;
     letterAnimate2: boolean;
     letterAnimate3: boolean;
@@ -29,9 +28,9 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
     isFirstAttempt: boolean;
 
     quizAll: string;
+    capital: string;
     key: number;
     hasGuessed: boolean;
-
 
     ex1: AlphabetLetter;
     ex2: AlphabetLetter;
@@ -49,7 +48,7 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
         private activatedRoute: ActivatedRoute,
     ) {
         this.quizAll = this.activatedRoute.snapshot.queryParamMap.get('quizAll');
-
+        this.capital = this.activatedRoute.snapshot.queryParamMap.get('capital');
         this.letterList = this.alphabetLettersService.dataImport();
 
         if (this.quizAll === 'true') {
@@ -95,6 +94,14 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy {
 
         //randomized randomExamples
         this.loadNew();
+    }
+
+    ngAfterViewInit() {
+        if (this.capital) {
+            var temp = <HTMLElement> document.getElementById('main-body');
+            temp.style.textTransform = 'uppercase';
+
+        }
     }
 
     ngOnDestroy() {

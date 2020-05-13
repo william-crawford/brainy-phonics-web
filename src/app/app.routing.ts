@@ -11,10 +11,16 @@ import {GradeLevelsComponent} from './pages/grade-levels';
 import {CoinsComponent} from './pages/coins/coins.component';
 import {PuzzlesComponent} from './pages/puzzles/puzzles.component';
 import {PuzzleComponent} from './pages/puzzle/puzzle.component';
+import { PrekCategoriesComponent } from './pages/prek-categories';
+import { PrekSoundsDetailsComponent } from './pages/prek-categories/prek-sounds-details';
+import { PrekNamesDetailsComponent } from './pages/prek-categories/prek-names-details';
 
 const routes: Routes = [
     {path: '', component: HomeComponent},
     {path: 'phoneme-categories', component: PhonemeCategoriesComponent},
+    {path: 'prek-categories', component: PrekCategoriesComponent},
+    {path: 'prek-sounds-details', component: PrekSoundsDetailsComponent},
+    {path: 'prek-names-details', component: PrekNamesDetailsComponent},
     {path: 'alphabet-learn', component: AlphabetLearnComponent},
     {path: 'alphabet-quiz', component: AlphabetQuizComponent},
     {path: 'list-select', component: ListSelectComponent},

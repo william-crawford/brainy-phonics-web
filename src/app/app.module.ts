@@ -17,6 +17,9 @@ import {GradeLevelsComponent} from './pages/grade-levels';
 import {CoinsComponent} from './pages/coins/coins.component';
 import {PuzzlesComponent} from './pages/puzzles/puzzles.component';
 import {PuzzleComponent} from './pages/puzzle/puzzle.component';
+import { PrekCategoriesComponent } from './pages/prek-categories';
+import { PrekSoundsDetailsComponent } from './pages/prek-categories/prek-sounds-details';
+import { PrekNamesDetailsComponent } from './pages/prek-categories/prek-names-details';
 
 @NgModule({
   declarations: [
@@ -32,7 +35,10 @@ import {PuzzleComponent} from './pages/puzzle/puzzle.component';
     GradeLevelsComponent,
     CoinsComponent,
     PuzzlesComponent,
-    PuzzleComponent
+    PuzzleComponent,
+    PrekCategoriesComponent,
+    PrekSoundsDetailsComponent,
+    PrekNamesDetailsComponent
 
   ],
   imports: [

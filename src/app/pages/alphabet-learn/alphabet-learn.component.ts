@@ -1,6 +1,6 @@
-import {Component, OnDestroy, OnInit} from '@angular/core';
+import {Component, OnDestroy, OnInit, AfterViewInit} from '@angular/core';
 import {AlphabetLetter} from '../../types/alphabet-letter';
-import {Router} from '@angular/router';
+import {ActivatedRoute, Router} from '@angular/router';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import {Location} from '@angular/common';
 import {Phoneme} from '../../types/phoneme';
@@ -11,15 +11,22 @@ import {Phoneme} from '../../types/phoneme';
     styleUrls: ['./alphabet-learn.component.css']
 })
 
-export class AlphabetLearnComponent implements OnInit, OnDestroy {
+export class AlphabetLearnComponent implements OnInit, OnDestroy, AfterViewInit {
     letterAnimate: boolean;
     letterPlayAudio: boolean;
     letterAudio: HTMLAudioElement;
 
     letter: AlphabetLetter;
+    capital: string;
 
-    constructor(private transferService: TransferLetterService, private router: Router, private location: Location) {
+    constructor(
+        private transferService: TransferLetterService,
+        private router: Router,
+        private activatedRoute: ActivatedRoute,
+        private location: Location
+    ) {
         this.letter = this.transferService.getData() as AlphabetLetter;
+        this.capital = this.activatedRoute.snapshot.queryParamMap.get('capital');
         if (!this.letter) {
             this.router.navigateByUrl('/alphabet-list-all');
         }
@@ -41,6 +48,14 @@ export class AlphabetLearnComponent implements OnInit, OnDestroy {
         this.playAudio();
     }
 
+    ngAfterViewInit() {
+        if (this.capital) {
+            var temp = <HTMLElement> document.getElementById('main-body');
+            temp.style.textTransform = 'uppercase';
+
+        }
+    }
+    
     ngOnDestroy() {
         this.letterAudio.pause();
         this.letterAudio = null;
@@ -91,5 +106,13 @@ export class AlphabetLearnComponent implements OnInit, OnDestroy {
         this.letterPlayAudio = true;
 
         this.ngOnInit();
+    }
+
+    takeQuiz() {
+        if (this.capital) {
+            this.router.navigate(['alphabet-quiz'], {queryParams: {capital: true}});
+        } else {
+            this.router.navigateByUrl('/alphabet-quiz');
+        }
     }
 }

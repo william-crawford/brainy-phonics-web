@@ -1,4 +1,5 @@
 import {Component} from '@angular/core';
+import {Location} from '@angular/common';
 
 @Component({
     templateUrl: 'grade-levels.component.html',
@@ -8,6 +9,9 @@ import {Component} from '@angular/core';
 export class GradeLevelsComponent {
     grade: HTMLAudioElement;
 
+    constructor(private location: Location) {
+    }
+    
     playAudio(event) {
         this.grade = new Audio();
         this.grade.src = '/assets/audio/buttons/' + event.target.id + '.mp3';
@@ -15,5 +19,9 @@ export class GradeLevelsComponent {
             this.grade.load();
             this.grade.play();
         }
+    }
+
+    goBack() {
+        this.location.back();
     }
 }

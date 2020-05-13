@@ -17,6 +17,7 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
 
     instruction: HTMLAudioElement;
     list: string;
+    capital: string;
     // filled with test data to be overridden later
     data: AlphabetLetter[] | Phoneme[];
     dataProgress: any[];
@@ -34,11 +35,14 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
     ) {
         let list = this.activatedRoute.snapshot.queryParamMap.get('list');
         this.list = list;
+        this.capital = this.activatedRoute.snapshot.queryParamMap.get('capital');
         if (!list || list === '') {
             this.router.navigate(['']);
+        } else if (list == 'alphabet') {
+           this.data = this.alphabetLettersService.dataImport();
         } else {
             this.data = this.phonemesService.dataLoad(list);
-        } 
+        }
         this.transferLetterService.setList(this.data);
 
         this.instruction = new Audio();
@@ -80,18 +84,13 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
         if (this.list === 'alphabet') {
             for (var i = 0; i < document.getElementsByClassName('app-card').length; i++) {
                 var temp = <HTMLElement> document.getElementsByClassName('app-card')[i];
-                temp.style.marginLeft = '7vh';
+                temp.style.marginLeft = '11vh';
             }
-        } else {
-            if (this.list === 'phoneme' || this.list === 'vowelConsonants') {
-                var igh = <HTMLElement> document.getElementById('I-IGH').firstChild.lastChild;
-                igh.style.transform = 'translate(25vh, -20vh)';
-            }
-            if (this.list === 'phoneme' || this.list === 'vowelPairs') {
-                var aw = <HTMLElement> document.getElementById('A-AW').firstChild.lastChild;
-                var ow = <HTMLElement> document.getElementById('O-ohw').firstChild.lastChild;
-                aw.style.transform = 'translate(24vh, -20vh)';
-                ow.style.transform = 'translate(24vh, -20vh)';
+        }
+        if (this.capital) {
+            for (var i = 0; i < document.getElementsByClassName('app-card').length; i++) {
+                var temp = <HTMLElement> document.getElementsByClassName('app-card')[i];
+                temp.style.textTransform = 'uppercase';
             }
         }
     }
@@ -191,9 +190,17 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
     select(item) {
         this.transferLetterService.setData(item);
         if (this.list == 'alphabet') {
-            this.router.navigate(['alphabet-learn']);
+            if (this.capital) {
+                this.router.navigate(['alphabet-learn'], {queryParams: {capital: true}});
+            } else {
+                this.router.navigate(['alphabet-learn']);
+            }
         } else {
-            this.router.navigate(['phoneme-learn']);
+            if (this.capital) {
+                this.router.navigate(['phoneme-learn'], {queryParams: {capital: true}});
+            } else {
+                this.router.navigate(['phoneme-learn']);
+            }
         }
     }
 
@@ -232,9 +239,17 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
     quiz(item) {
         this.transferLetterService.setData(item);
         if (this.list == 'alphabet') {
-            this.router.navigate(['alphabet-quiz'], {queryParams: {quizAll: true}});
+            if (this.capital) {
+                this.router.navigate(['alphabet-quiz'], {queryParams: {quizAll: true, capital: true}});
+            } else {
+                this.router.navigate(['alphabet-quiz'], {queryParams: {quizAll: true}});
+            }
         } else {
-            this.router.navigate(['phoneme-quiz'], {queryParams: {list: this.list, quizAll: true}});
+            if (this.capital) {
+                this.router.navigate(['phoneme-quiz'], {queryParams: {list: this.list, quizAll: true, capital: true}});
+            } else {
+                this.router.navigate(['phoneme-quiz'], {queryParams: {list: this.list, quizAll: true}});
+            }
         }
     }
 }

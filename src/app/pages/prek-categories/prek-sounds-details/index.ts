@@ -1,0 +1,1 @@
+export * from './prek-sounds-details.component';

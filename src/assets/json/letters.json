@@ -1,106 +1,106 @@
 [
   {
-      "letter": "Aa",
+      "letter": "a",
       "audio": "A.mp3"
   },
   {
-      "letter": "Bb",
+      "letter": "b",
       "audio": "B.mp3"
   },
   {
-      "letter": "Cc",
+      "letter": "c",
       "audio": "C.mp3"
   },
   {
-      "letter": "Dd",
+      "letter": "d",
       "audio": "D.mp3"
   },
   {
-      "letter": "Ee",
+      "letter": "e",
       "audio": "E.mp3"
   },
   {
-      "letter": "Ff",
+      "letter": "f",
       "audio": "F.mp3"
   },
   {
-      "letter": "Gg",
+      "letter": "g",
       "audio": "G.mp3"
   },
   {
-      "letter": "Hh",
+      "letter": "h",
       "audio": "H.mp3"
   },
   {
-      "letter": "Ii",
+      "letter": "i",
       "audio": "I.mp3"
   },
   {
-      "letter": "Jj",
+      "letter": "j",
       "audio": "J.mp3"
   },
   {
-      "letter": "Kk",
+      "letter": "k",
       "audio": "K.mp3"
   },
   {
-      "letter": "Ll",
+      "letter": "l",
       "audio": "L.mp3"
   },
   {
-      "letter": "Mm",
+      "letter": "m",
       "audio": "M.mp3"
   },
   {
-      "letter": "Nn",
+      "letter": "n",
       "audio": "N.mp3"
   },
   {
-      "letter": "Oo",
+      "letter": "o",
       "audio": "O.mp3"
   },
   {
-      "letter": "Pp",
+      "letter": "p",
       "audio": "P.mp3"
   },
   {
-      "letter": "Qq",
+      "letter": "q",
       "audio": "Q.mp3"
   },
   {
-      "letter": "Rr",
+      "letter": "r",
       "audio": "R.mp3"
   },
   {
-      "letter": "Ss",
+      "letter": "s",
       "audio": "S.mp3"
   },
   {
-      "letter": "Tt",
+      "letter": "t",
       "audio": "T.mp3"
   },
   {
-      "letter": "Uu",
+      "letter": "u",
       "audio": "U.mp3"
   },
   {
-      "letter": "Vv",
+      "letter": "v",
       "audio": "V.mp3"
   },
   {
-      "letter": "Ww",
+      "letter": "w",
       "audio": "W.mp3"
   },
   {
-      "letter": "Xx",
+      "letter": "x",
       "audio": "X.mp3"
   },
   {
-      "letter": "Yy",
+      "letter": "y",
       "audio": "Y.mp3"
   },
   {
-      "letter": "Zz",
+      "letter": "z",
       "audio": "Z.mp3"
   }
 ]

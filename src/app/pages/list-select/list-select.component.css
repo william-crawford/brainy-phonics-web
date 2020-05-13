@@ -73,7 +73,15 @@
 #W-WR-silent img {
     transform: translate(23.5vh, -20vh);
 }
-
+#I-IGH img {
+    transform: translate(25vh, -20vh);
+}
+#A-AW img {
+    transform: translate(24vh, -20vh);
+}
+#O-ohw img {
+    transform: translate(24vh, -20vh);
+}
 /* Column Gap */
 .cardList > * {
     box-sizing: border-box;
