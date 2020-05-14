@@ -2,8 +2,8 @@ import {Component} from '@angular/core';
 import {Location} from '@angular/common';
 
 @Component({
-    templateurl: 'k-categories.component.html',
-    styleUrls: [ 'k-categories.component.css'],
+    TemplateUrl: 'k-categories.component.html',
+    StyleUrls: [ 'k-categories.component.css'],
 })
 
 export class KCategoriesComponent {
