@@ -1,0 +1,1 @@
+export * from './second-digraphs-details.component';

@@ -41,6 +41,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
     phoneme: Phoneme;
     quizPhoneme: Phoneme;
     list: string;
+    grade: string;
     quizAll: string;
     capital: string;
     key: number;
@@ -75,6 +76,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
         private changeDetectorRef: ChangeDetectorRef
     ) {
         this.quizAll = this.activatedRoute.snapshot.queryParamMap.get('quizAll');
+        this.grade = this.activatedRoute.snapshot.queryParamMap.get('grade');
         this.capital = this.activatedRoute.snapshot.queryParamMap.get('capital');
         // Sets random phoneme if selected Quiz-all function
         if (this.quizAll === 'true') {
@@ -101,7 +103,11 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
             } else if (list === 'kindergarten') {
                 key = Math.floor(Math.random() * 53);
             }
-            this.data = this.phonemesService.dataLoad(list, false);
+            if (this.grade) {
+                this.data = this.phonemesService.dataLoad(list, this.grade, false);
+            } else {
+                this.data = this.phonemesService.dataLoad(list, '', false);
+            }
             this.key = key;
             this.phoneme = this.data[key];
             this.puzzleimg = '../../assets/img/puzzle-pieces/puzzle-'+ this.phoneme.id +'/puzzle-' + this.phoneme.id + '-composite.png';

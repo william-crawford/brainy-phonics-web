@@ -1,0 +1,1 @@
+export * from './second-vowels-details.component';

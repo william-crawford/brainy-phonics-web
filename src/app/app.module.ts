@@ -2,7 +2,7 @@ import {BrowserModule} from '@angular/platform-browser';
 import {HttpClientModule} from '@angular/common/http';
 import {NgModule} from '@angular/core';
 import {FlexLayoutModule} from '@angular/flex-layout';
-import { StorageServiceModule} from 'angular-webstorage-service';
+import {StorageServiceModule} from 'angular-webstorage-service';
 import {appRoutingModule} from './app.routing';
 import {AppComponent} from './app.component';
 import {HomeComponent} from './pages/home';
@@ -17,9 +17,14 @@ import {GradeLevelsComponent} from './pages/grade-levels';
 import {CoinsComponent} from './pages/coins/coins.component';
 import {PuzzlesComponent} from './pages/puzzles/puzzles.component';
 import {PuzzleComponent} from './pages/puzzle/puzzle.component';
-import { PrekCategoriesComponent } from './pages/prek-categories';
-import { PrekSoundsDetailsComponent } from './pages/prek-categories/prek-sounds-details';
-import { PrekNamesDetailsComponent } from './pages/prek-categories/prek-names-details';
+import {PrekCategoriesComponent} from './pages/prek-categories';
+import {PrekSoundsDetailsComponent} from './pages/prek-categories/prek-sounds-details';
+import {PrekNamesDetailsComponent} from './pages/prek-categories/prek-names-details';
+import {SecondCategoriesComponent} from './pages/second-categories';
+import {SecondVowelsDetailsComponent} from './pages/second-categories/second-vowels-details';
+import {SecondConsonantsDetailsComponent} from './pages/second-categories/second-consonants-details';
+import {SecondBlendsDetailsComponent} from './pages/second-categories/second-blends-details';
+import {SecondDigraphsDetailsComponent} from './pages/second-categories/second-digraphs-details';
 
 @NgModule({
   declarations: [
@@ -38,7 +43,12 @@ import { PrekNamesDetailsComponent } from './pages/prek-categories/prek-names-de
     PuzzleComponent,
     PrekCategoriesComponent,
     PrekSoundsDetailsComponent,
-    PrekNamesDetailsComponent
+    PrekNamesDetailsComponent,
+    SecondCategoriesComponent,
+    SecondVowelsDetailsComponent,
+    SecondConsonantsDetailsComponent,
+    SecondBlendsDetailsComponent,
+    SecondDigraphsDetailsComponent
 
   ],
   imports: [

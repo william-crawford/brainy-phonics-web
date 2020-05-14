@@ -17,6 +17,7 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
 
     instruction: HTMLAudioElement;
     list: string;
+    grade: string;
     capital: string;
     // filled with test data to be overridden later
     data: AlphabetLetter[] | Phoneme[];
@@ -35,6 +36,7 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
     ) {
         let list = this.activatedRoute.snapshot.queryParamMap.get('list');
         this.list = list;
+        this.grade = this.activatedRoute.snapshot.queryParamMap.get('grade');
         this.capital = this.activatedRoute.snapshot.queryParamMap.get('capital');
         if (!list || list === '') {
             this.router.navigate(['']);
@@ -46,9 +48,13 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
             }
         } else {
             if (this.activatedRoute.snapshot.queryParamMap.get('reordered')) {
-                this.data = this.phonemesService.dataLoad(list, true);
+                this.data = this.phonemesService.dataLoad(list, '', true);
             } else {
-                this.data = this.phonemesService.dataLoad(list, false);
+                if (this.grade) {
+                    this.data = this.phonemesService.dataLoad(list, this.grade, false);
+                } else {
+                    this.data = this.phonemesService.dataLoad(list, '', false);
+                }
             }
         }
         this.transferLetterService.setList(this.data);
@@ -223,12 +229,16 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
     }
 
     setClass(item) {
-        if (this.list === 'vowels') {
-            return item.color.vowel;
-        } else if (this.list === 'kindergarten') {
-            return item.color.K;
-        } else if (this.list !== 'alphabet') {
-            return item.color.all;
+        if (this.grade == '2nd') {
+            return item.color['2nd'];
+        } else {
+            if (this.list === 'vowels') {
+                return item.color.vowel;
+            } else if (this.list === 'kindergarten') {
+                return item.color.K;
+            } else if (this.list !== 'alphabet') {
+                return item.color.all;
+            }
         }
     }
 
@@ -254,9 +264,9 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
             }
         } else {
             if (this.capital) {
-                this.router.navigate(['phoneme-quiz'], {queryParams: {list: this.list, quizAll: true, capital: true}});
+                this.router.navigate(['phoneme-quiz'], {queryParams: {list: this.list, quizAll: true, capital: true, grade: this.grade}});
             } else {
-                this.router.navigate(['phoneme-quiz'], {queryParams: {list: this.list, quizAll: true}});
+                this.router.navigate(['phoneme-quiz'], {queryParams: {list: this.list, quizAll: true, grade: this.grade}});
             }
         }
     }

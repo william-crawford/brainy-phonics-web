@@ -25,7 +25,7 @@ export class PuzzlesComponent implements OnInit, AfterViewInit {
     private location: Location
 ) {
   // load phonemes data
-  this.data = this.phonemesService.dataLoad('phoneme', false);
+  this.data = this.phonemesService.dataLoad('phoneme', '', false);
 }
 
   ngOnInit() {
