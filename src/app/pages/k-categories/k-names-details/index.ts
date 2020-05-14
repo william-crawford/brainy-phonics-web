@@ -1,1 +1,1 @@
-export * from './prek-names-details.component';
+export * from './k-names-details.component';
