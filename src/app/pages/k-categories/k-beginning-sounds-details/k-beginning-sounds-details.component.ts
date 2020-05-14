@@ -6,7 +6,7 @@ import {Location} from '@angular/common';
     styleUrls: ['k-beginning-sounds-details.component.css']
 })
 
-export class SecondConsonantsDetailsComponent {
+export class KBeginningSoundsDetailsComponent {
     category: HTMLAudioElement;
 
     constructor(private location: Location) {
