@@ -1,0 +1,53 @@
+#main-body {
+    width: 169.7vh;
+    height: 0vh;
+    padding-left: 40vh;
+    position: relative;
+  }
+  
+  #background {
+      background-color: #FFFFFF !important;
+      background: url('../../../../assets/img/backgrounds/second_vowels_details.png') no-repeat scroll transparent;
+      background-position: center top;
+      background-size: 160vh;
+  }
+  
+  /* Second Categories */
+  #short {
+      background: url('../../../../assets/img/buttons/second_short.png') no-repeat scroll transparent;
+      background-size: 35vh;
+      cursor: pointer;
+      width: 35vh;
+  }
+  #long {
+    background: url('../../../../assets/img/buttons/second_long.png') no-repeat scroll transparent;
+    background-size: 32vh;
+    width: 31vh;
+    cursor: pointer;
+  }
+  #ysounds {
+    background: url('../../../../assets/img/buttons/second_ysounds.png') no-repeat scroll transparent;
+    background-size: 61vh;
+    margin-top: 4.5vh;
+    cursor: pointer;
+    width: 61vh;
+  }
+  #pairs {
+    background: url('../../../../assets/img/buttons/second_pairs.png') no-repeat scroll transparent;
+    background-size: 38vh;
+    margin-left: 33.5vh;
+    cursor: pointer;
+    margin-top: 4vh;
+    width: 36vh;
+  }
+
+  .column {
+    padding-top: 12vh;
+  }
+
+  .category_button {
+      margin: 4vh 0vh 0vh 33vh;
+      height: 12.5vh;
+      border: none;
+      display: inherit;
+  }
