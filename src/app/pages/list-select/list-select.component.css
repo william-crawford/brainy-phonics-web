@@ -21,10 +21,11 @@
 .cardList {
     display: flex;
     height: 97vh;
+    width: 165vh;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 #I-IND-long img {
