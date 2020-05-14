@@ -1,0 +1,17 @@
+<div id='background'>
+    <div id='main-body'>
+        <div class='column'>
+                <button mat-icon-button class='category_button' id='short' (mouseenter)='playAudio($event)' [routerLink]="['/list-select']" [queryParams]="{'grade' : '1st', 'list': 'V-short'}"></button>
+                <button mat-icon-button class='category_button' id='long' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'grade' : '1st', 'list': 'V-long'}"></button>
+                <button mat-icon-button class='category_button' id='pairs' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'grade' : '1st', 'list': 'VP'}"></button>
+                <button mat-icon-button class='category_button' id='ysounds' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'grade' : '1st', 'list': 'Y'}"></button>
+        </div>
+    </div>
+
+    <div id='side-menu'>
+        <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>
+        <button mat-icon-button class='icon' id='home' routerLink='/'></button>
+        <button mat-icon-button class='icon bottom' id='bank' routerLink='/coins'></button>
+        <button mat-icon-button class='icon bottom' id='puzzle' routerLink='/puzzles'></button>
+    </div>
+</div>
