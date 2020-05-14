@@ -48,7 +48,7 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
             }
         } else {
             if (this.activatedRoute.snapshot.queryParamMap.get('reordered')) {
-                this.data = this.phonemesService.dataLoad(list, '', true);
+                this.data = this.phonemesService.dataLoad(list, this.grade, true);
             } else {
                 if (this.grade) {
                     this.data = this.phonemesService.dataLoad(list, this.grade, false);
