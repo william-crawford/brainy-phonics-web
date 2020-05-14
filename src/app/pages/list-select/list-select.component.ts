@@ -46,12 +46,12 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
             }
         } else {
             if (this.activatedRoute.snapshot.queryParamMap.get('reordered')) {
-                this.data = this.phonemesService.dataLoad(list, true);
+                // this.data = this.phonemesService.dataLoad(list, true);
             } else {
                 this.data = this.phonemesService.dataLoad(list, false);
             }
         }
-        this.transferLetterService.setList(this.data);
+        // this.transferLetterService.setList(this.data);
 
         this.instruction = new Audio();
         if (this.list === 'alphabet') {
