@@ -8,36 +8,29 @@
   #background {
       background-color: #FFFFFF !important;
       background: url('../../../../assets/img/backgrounds/second_blend_details.png') no-repeat scroll transparent;
-      background-position: center top;
-      background-size: 160vh;
+      background-position: 18vh;
+      background-size: 180vh;
   }
   
   /* Second Categories */
   #begin {
       background: url('../../../../assets/img/buttons/second_blend_begin.png') no-repeat scroll transparent;
-      background-size: 35vh;
+      background-size: 80vh;
+      margin-top: 8vh;
       cursor: pointer;
-      width: 35vh;
+      width: 79vh;
   }
   #end {
     background: url('../../../../assets/img/buttons/second_blend_end.png') no-repeat scroll transparent;
-    background-size: 32vh;
-    width: 31vh;
+    background-size: 70vh;
+    width: 68vh;
     cursor: pointer;
-  }
-  #slr {
-    background: url('../../../../assets/img/buttons/second_blend_slr.png') no-repeat scroll transparent;
-    background-size: 61vh;
-    margin-top: 4.5vh;
-    cursor: pointer;
-    width: 61vh;
   }
   #three-letter {
     background: url('../../../../assets/img/buttons/second_blend_3.png') no-repeat scroll transparent;
-    background-size: 46vh;
+    background-size: 79vh;
     cursor: pointer;
-    margin-top: 3.3vh;
-    width: 45vh;
+    width: 77vh;
   }
 
   .column {
@@ -45,7 +38,7 @@
   }
 
   .category_button {
-      margin: 4vh 0vh 0vh 33vh;
+      margin: 9vh 0vh 0vh 16vh;
       height: 12.5vh;
       border: none;
       display: inherit;

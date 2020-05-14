@@ -8,21 +8,22 @@
   #background {
       background-color: #FFFFFF !important;
       background: url('../../../../assets/img/backgrounds/second_digraph_details.png') no-repeat scroll transparent;
-      background-position: center top;
-      background-size: 160vh;
+      background-position: 17vh;
+      background-size: 170vh;
   }
   
   /* Second Categories */
   #begin {
       background: url('../../../../assets/img/buttons/second_digraph_begin.png') no-repeat scroll transparent;
-      background-size: 35vh;
+      background-size: 90vh;
+      margin-top: 20vh;
       cursor: pointer;
-      width: 35vh;
+      width: 87vh;
   }
   #end {
     background: url('../../../../assets/img/buttons/second_digraph_end.png') no-repeat scroll transparent;
-    background-size: 32vh;
-    width: 31vh;
+    background-size: 77vh;
+    width: 75vh;
     cursor: pointer;
   }
 
@@ -31,8 +32,8 @@
   }
 
   .category_button {
-      margin: 4vh 0vh 0vh 33vh;
-      height: 12.5vh;
+      margin: 17vh 0vh 0vh 19vh;
+      height: 17vh;
       border: none;
       display: inherit;
   }
