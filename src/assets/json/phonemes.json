@@ -32,8 +32,8 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "K": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "Pat a c(a)ke; pat a c(a)ke; B(a)ker's man;</br>B(a)ke me a c(a)ke as fast as you can.</br>Pit it and pat it and mark it with B;</br>And put it in the oven for B(a)by and me.",
         "category": ["V-long", "V"],
@@ -113,11 +113,12 @@
         "color": {
             "all": "green",
             "vowel": "green",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "B(a)t; b(a)t;</br>Come under my h(a)t;</br>And I'll give you a slice of bacon;</br>And when I bake;</br>I'll give you a cake;</br>If I am not mistaken.",
         "category": ["V-short", "V"],
-        "grade": ["K", "1st", "2nd"]
+        "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
         "id": "A-ahh",
@@ -151,11 +152,12 @@
         "color": {
             "all": "pink",
             "vowel": "pink",
-            "K": "pink"
+            "2nd": "green",
+            "3rd": "green"
         },
         "rhyme": "Children call me F(a)ther Goose,</br>Because when I w(a)nt to w(a)nder,</br>I ride through the air</br>On a very fine gander.</br>",
         "category": ["V-short", "V"],
-        "grade": ["K", "1st"]
+        "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
         "id": "A-schwa",
@@ -228,7 +230,8 @@
             "all": "black",
             "vowel": "black",
             "1st": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "R(ai)n, r(ai)n, go to Sp(ai)n,</br>Never come back again.</br>R(ai)n, r(ai)n, go away,</br>Come again another day.</br>Little Johny wants to play.",
         "category": ["VP", "V"],
@@ -304,7 +307,8 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "Twinkle, twinkle, little st(ar),</br>How I wonder what you (ar)e.</br>Up above the world so high,</br>Like a diamond in the sky.",
         "category": ["R", "V", "VC"],
@@ -342,7 +346,8 @@
         "color": {
             "all": "green",
             "vowel": "green",
-            "2nd": "green"
+            "2nd": "green",
+            "3rd": "green"
         },
         "rhyme": "",
         "category": ["R", "V", "VC"],
@@ -380,7 +385,8 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "Little Polly Flinders<br>Sat among the cinders,<br>Warming her pretty little toes.<br>Her mother came and c(au)ght her,</br>Whipped her little d(au)ghter</br>For spoiling her nice new clothes.",
         "category": ["VP", "V"],
@@ -418,7 +424,8 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "See s(aw), Margery D(aw),</br>Jacky shall have a new master.</br>Jacky will earn just a penny a day,</br>Because he will work no faster.",
         "category": ["VP", "V"],
@@ -456,7 +463,8 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "How many d(ay)s has my baby to pl(ay)?</br>Saturd(ay); Sund(ay); Mond(ay);</br>Tuesd(ay); Wednesd(ay); Thursd(ay); Frid(ay);</br>Saturd(ay); Sund(ay); Mond(ay).",
         "category": ["VP", "V"],
@@ -761,7 +769,7 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "1st": "black"
+            "3rd": "black"
         },
         "rhyme": "Cross pat(ch); pull the lat(ch);</br>Sit by the fire and spin;</br>Take a cup and drink it up;</br>Then call your neighbors in.",
         "category": ["CD-begin", "CD", "C"],
@@ -1107,8 +1115,8 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "K": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "Little Bo-p(ee)p has lost her sh(ee)p;</br>And doesn't know where to find them;</br>Leave them alone; and they'll come home;</br>Wagging their tails behind them.",
         "category": ["V-long", "V"],
@@ -1149,11 +1157,12 @@
         "color": {
             "all": "green",
             "vowel": "green",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "Hick(e)ty; pick(e)ty; my black h(e)n;</br>She lays (e)ggs for gentlem(e)n;</br>Gentlem(e)n come (e)very day;</br>To see what my black h(e)n does lay.",
         "category": ["V-short", "V"],
-        "grade": ["K", "1st", "2nd"]
+        "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
         "id": "E-schwa",
@@ -1263,7 +1272,8 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "Jack Sprat would (ea)t no fat;</br>His wife would (ea)t no l(ea)n;</br>And so between the two of them;</br>They licked the platter cl(ea)n.</br>",
         "category": ["VP", "V"],
@@ -1301,7 +1311,8 @@
         "color": {
             "all": "green",
             "vowel": "green",
-            "2nd": "green"
+            "2nd": "green",
+            "3rd": "green"
         },
         "rhyme": "",
         "category": ["VP", "V"],
@@ -1339,7 +1350,8 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "",
         "category": ["VP", "V"],
@@ -1377,7 +1389,8 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "Pet(er); Pet(er); pumpkin eat(er);</br>Had a wife and couldn't keep h(er);</br>He put h(er) in a pumpkin shell;</br>And then he kept h(er) very well.",
         "category": ["R", "V", "VC"],
@@ -1491,7 +1504,8 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "The hungry cuckoo fl(ew)</br>Then found a cash(ew)</br>His beak couldn\u2019t ch(ew).</br>What could he do?</br>He br(ew)ed cash(ew) st(ew)</br>Which smelled really P U!</br>But tasted great with barbecue.</br></br>",
         "category": ["VP", "V"],
@@ -2098,8 +2112,8 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "K": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "Three bl(i)nd m(i)ce, three bl(i)nd m(i)ce,</br>See how they run, see how they run.</br>They all ran after the farmer's w(i)fe,</br>She cut off their tails with a carving kn(i)fe.</br>Did you ever see such a s(i)ght in your l(i)fe</br>As three bl(i)nd m(i)ce?",
         "category": ["V-long", "V"],
@@ -2178,11 +2192,12 @@
         "color": {
             "all": "green",
             "vowel": "green",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "Jack; be n(i)mble; Jack; be qu(i)ck.</br>Jack; jump over the candlest(i)ck.",
         "category": ["V-short", "V"],
-        "grade": ["K", "1st", "2nd"]
+        "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
         "id": "I-schwa",
@@ -2254,11 +2269,12 @@
         "color": {
             "all": "pink",
             "vowel": "pink",
-            "K": "pink"
+            "2nd": "green",
+            "3rd": "green"
         },
         "rhyme": "Cranberr(ie)s for yummy muffins,</br>And also berr(ie)s blue,</br>Strawberr(ie)s for scrumptious jelly,</br>Raspberr(ie)s and blackberr(ie)s too!",
         "category": ["V-short", "V"],
-        "grade": ["K", "1st"]
+        "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
         "id": "I-IE",
@@ -2556,7 +2572,8 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "On her b(ir)thday the g(ir)l</br>Wh(ir)led her pearls, sw(ir)led her sk(ir)t,</br>Gave her sh(ir)t tail a tw(ir)l,</br>St(ir)red her toe in the d(ir)t,</br>Until, so I heard,</br>She looked just like a b(ir)d!</br>",
         "category": ["R", "VC", "V"],
@@ -2901,7 +2918,8 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "3rd": "black"
         },
         "rhyme": "The sow came in with the sadd(le);</br>The litt(le) pig rocked the crad(le);</br>The dish jumped up on the tab(le);</br>To see the pot swallow the lad(le).",
         "category": ["VC-2", "V", "VC"],
@@ -3394,8 +3412,8 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "K": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "(O)ld King C(o)le;</br>Was a merry (o)ld s(o)ul;</br>And a merry (o)ld s(o)ul was he;</br>He called for his pipe;</br>And he called for his b(o)wl;</br>And he called for his fiddlers three.",
         "category": ["V-long", "V"],
@@ -3472,11 +3490,12 @@
         "color": {
             "all": "green",
             "vowel": "green",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "H(o)t cr(o)ss buns, h(o)t cr(o)ss buns.</br>One a penny, two a penny,</br>H(o)t cr(o)ss buns!</br></br>If your daughters do n(o)t like them,</br>Give them to your sons.</br>One a penny, two a penny,</br>H(o)t cr(o)ss buns!",
         "category": ["V-short", "V"],
-        "grade": ["K", "1st", "2nd"]
+        "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
         "id": "O-uh",
@@ -3548,7 +3567,8 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "Little Nanny Ettic(oa)t;</br>In a white pettic(oa)t;</br>And a red nose;</br>The longer she stands;</br>The shorter she grows.",
         "category": ["VP", "V"],
@@ -3586,7 +3606,8 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "A toy box you put toys in.<br>Pin a balloon and you\u2019ll sp(oi)l it.</br>A pan\u2019s for putting (oi)ly c(oi)ns in.</br>To clean them add water and b(oi)l it.</br>Time out\u2019s for putting n(oi)sy boys in.</br>P(oi)son? Pour it in the t(oi)let!</br>",
         "category": ["VP", "V"],
@@ -3671,7 +3692,8 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "The man in the m(oo)n came down t(oo) s(oo)n;</br>To inquire the way to Norridge;</br>The man in the south; he burnt his mouth;</br>With eating cold plum porridge.",
         "category": ["VP", "V"],
@@ -3710,7 +3732,8 @@
         "color": {
             "all": "green",
             "vowel": "green",
-            "2nd": "green"
+            "2nd": "green",
+            "3rd": "green"
         },
         "rhyme": "Little Bopeep never underst(oo)d,</br>When little Miss Red Riding H(oo)d</br>Went trick-or-treat in our neighborh(oo)d</br>With little Mister Captain H(oo)k,</br>It wasn\u2019t c(oo)kies or candy they t(oo)k,</br>Each picked a little picture b(oo)k.</br>",
         "category": ["VP", "V"],
@@ -3748,7 +3771,8 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "Little Jack H(or)ner;</br>Sat in a c(or)ner;</br>Eating a Christmas pie;</br>He put in his thumb;</br>And pulled out a plum;</br>And said: \"What a good boy am I!\"",
         "category": ["R", "V", "VC"],
@@ -3786,7 +3810,8 @@
         "color": {
             "all": "green",
             "vowel": "green",
-            "2nd": "green"
+            "2nd": "green",
+            "3rd": "green"
         },
         "rhyme": "",
         "category": ["R", "V", "VC"],
@@ -3900,7 +3925,8 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "I'm a little teapot,</br>short and st(ou)t.</br>Here is my handle,</br>here is my sp(ou)t.</br></br>When I see the teacups,</br>hear me sh(ou)t:</br>\"Tip me over,</br>And pour me (ou)t!\"</br>",
         "category": ["VP", "V"],
@@ -3938,7 +3964,8 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "The north wind does bl(ow);</br>And we shall have sn(ow);</br>And what will poor robin do then?</br>Poor thing!</br></br>He'll sit in the barn;</br>And keep himself warm;</br>And hide his head under his wing.</br>Poor thing!",
         "category": ["VP", "V"],
@@ -3976,7 +4003,8 @@
         "color": {
             "all": "green",
             "vowel": "green",
-            "2nd": "green"
+            "2nd": "green",
+            "3rd": "green"
         },
         "rhyme": "Daffy-d(ow)n-dilly has come to t(ow)n,</br>With a green petticoat</br>and a bright yellow g(ow)n.</br>",
         "category": ["VP", "V"],
@@ -4014,7 +4042,8 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "A b(oy) needs a t(oy)</br>That he can enj(oy)</br>Or he'll have to ann(oy) a grown-up,</br>Climb on the highb(oy),</br>Find a pile to destr(oy),</br>Or play cowb(oy) till doggie has thrown-up.</br>",
         "category": ["VP", "V"],
@@ -5312,7 +5341,6 @@
         "color": {
             "all": "green",
             "vowel": "green",
-            "1st": "black",
             "3rd": "green"
         },
         "rhyme": "(Th)ree wise men of Go(th)am</br>Went to sea in a bowl,</br>And if the bowl had been stronger,</br>My song had been longer.",
@@ -5467,8 +5495,8 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "K": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "He balanced a c(u)cumber on his nose,</br>But should have (u)sed binoc(u)lars to watch the roads.</br>A (u)nicycle\u2019s dangerous when clowns can\u2019t see\u2014</br>Quick call an amb(u)lance:  one, two, three!</br>",
         "category": ["V-long", "V"],
@@ -5545,8 +5573,8 @@
         "color": {
             "all": "green",
             "vowel": "green",
-            "K": "green",
-            "2nd": "green"
+            "2nd": "green",
+            "3rd": "green"
         },
         "rhyme": "Little Betty Bl(u)e</br>Lost her holiday shoe.</br>What shall little Betty do?</br></br>Buy her another,</br>To match the other,</br>And then she'll walk upon two.",
         "category": ["V-long", "V"],
@@ -5584,11 +5612,12 @@
         "color": {
             "all": "pink",
             "vowel": "pink",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "S(u)e played a big bl(u)e t(u)ba,</br>J(u)lius played one too,</br>With their two bl(u)e t(u)bas,</br>What did those two do?</br>He blew his bl(u)e t(u)ba loud!</br>She blew hers too!</br>",
         "category": ["V-short", "V"],
-        "grade": ["K", "1st", "2nd"]
+        "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
         "id": "U-schwa",
@@ -5660,7 +5689,8 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "To (ur)ge her to p(ur)r</br>Lin rubs kitty cat's f(ur);</br>When Lin topples the (ur)n</br>Kitty makes a bl(ur).</br>",
         "category": ["R", "V", "VC"],
@@ -5774,7 +5804,7 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "1st": "black"
+            "3rd": "black"
         },
         "rhyme": "Bill claimed a bully (wh)acked and (wh)opped his rib.</br>Mom said, \u201c(Wh)at?  (Wh)o?  (Wh)en?  (Wh)ere?\u201d</br>Kim said, \u201cThat\u2019s a (wh)opper, a big fat fib.\u201d</br>Bill said, \u201c(Wh)atever!\u201d -- (wh)ich means: I don\u2019t care.</br>",
         "category": ["CD-begin", "CD", "C"],
@@ -5965,7 +5995,8 @@
             "all": "green",
             "vowel": "black",
             "1st": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "Cr(y)baby, cr(y)baby,</br>Cr(y)baby, wh(y)!?</br>Stick your finger in your e(y)e,</br>Then tell your mother it was I?",
         "category": ["Y", "V"],
@@ -6004,7 +6035,8 @@
             "all": "pink",
             "vowel": "green",
             "1st": "green",
-            "2nd": "green"
+            "2nd": "green",
+            "3rd": "green"
         },
         "rhyme": "Ride away; Ride away;<br>Johnn(y) shall ride;</br>And he shall have kitt(y) cat;</br>Tied to one side.</br>And he shall have pupp(y) dog;</br>Tied to the other;</br>And Johnn(y) shall ride;</br>To see his grandmother.",
         "category": ["Y", "V"],
@@ -6043,7 +6075,8 @@
             "all": "black",
             "vowel": "black",
             "1st": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
         "rhyme": "",
         "category": ["Y", "V", "VP"],

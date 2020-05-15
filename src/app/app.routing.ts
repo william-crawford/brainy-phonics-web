@@ -19,6 +19,10 @@ import {SecondVowelsDetailsComponent} from './pages/second-categories/second-vow
 import {SecondConsonantsDetailsComponent} from './pages/second-categories/second-consonants-details';
 import {SecondBlendsDetailsComponent} from './pages/second-categories/second-blends-details';
 import {SecondDigraphsDetailsComponent} from './pages/second-categories/second-digraphs-details';
+import {ThirdCategoriesComponent} from './pages/third-categories';
+import {ThirdConsonantsDetailsComponent} from './pages/third-categories/third-consonants-details';
+import {ThirdVowelsDetailsComponent} from './pages/third-categories/third-vowels-details';
+import {ThirdVowelconsonantsDetailsComponent} from './pages/third-categories/third-vowelconsonants-details';
 
 const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -31,6 +35,10 @@ const routes: Routes = [
     {path: 'second-consonants-details', component: SecondConsonantsDetailsComponent},
     {path: 'second-blends-details', component: SecondBlendsDetailsComponent},
     {path: 'second-digraphs-details', component: SecondDigraphsDetailsComponent},
+    {path: 'third-categories', component: ThirdCategoriesComponent},
+    {path: 'third-consonants-details', component: ThirdConsonantsDetailsComponent},
+    {path: 'third-vowels-details', component: ThirdVowelsDetailsComponent},
+    {path: 'third-vowelconsonants-details', component: ThirdVowelconsonantsDetailsComponent},
     {path: 'alphabet-learn', component: AlphabetLearnComponent},
     {path: 'alphabet-quiz', component: AlphabetQuizComponent},
     {path: 'list-select', component: ListSelectComponent},

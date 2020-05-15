@@ -83,6 +83,15 @@
 #O-ohw img {
     transform: translate(24vh, -20vh);
 }
+#T-TION img {
+    transform: translate(26vh, -20vh);
+}
+#T-TION p {
+    transform: translateX(-4.5vh);
+}
+#O-OST-short img {
+    transform: translate(25vh, -20vh);
+}
 /* Column Gap */
 .cardList > * {
     box-sizing: border-box;

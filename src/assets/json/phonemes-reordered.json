@@ -412,7 +412,8 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "K": "black"
+            "K": "black",
+            "3rd": "black"
         },
         "rhyme": "Pat a c(a)ke; pat a c(a)ke; B(a)ker's man;</br>B(a)ke me a c(a)ke as fast as you can.</br>Pit it and pat it and mark it with B;</br>And put it in the oven for B(a)by and me.",
         "category": ["V-long", "V"],
@@ -496,7 +497,7 @@
         },
         "rhyme": "B(a)t; b(a)t;</br>Come under my h(a)t;</br>And I'll give you a slice of bacon;</br>And when I bake;</br>I'll give you a cake;</br>If I am not mistaken.",
         "category": ["V-short", "V"],
-        "grade": ["K", "1st", "2nd"]
+        "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
         "id": "A-ahh",
@@ -534,7 +535,7 @@
         },
         "rhyme": "Children call me F(a)ther Goose,</br>Because when I w(a)nt to w(a)nder,</br>I ride through the air</br>On a very fine gander.</br>",
         "category": ["V-short", "V"],
-        "grade": ["K", "1st"]
+        "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
         "id": "A-schwa",
@@ -2432,7 +2433,7 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "K": "black"
+            "3rd": "black"
         },
         "rhyme": "Three bl(i)nd m(i)ce, three bl(i)nd m(i)ce,</br>See how they run, see how they run.</br>They all ran after the farmer's w(i)fe,</br>She cut off their tails with a carving kn(i)fe.</br>Did you ever see such a s(i)ght in your l(i)fe</br>As three bl(i)nd m(i)ce?",
         "category": ["V-long", "V"],
@@ -2515,7 +2516,7 @@
         },
         "rhyme": "Jack; be n(i)mble; Jack; be qu(i)ck.</br>Jack; jump over the candlest(i)ck.",
         "category": ["V-short", "V"],
-        "grade": ["K", "1st", "2nd"]
+        "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
         "id": "I-schwa",
@@ -2591,7 +2592,7 @@
         },
         "rhyme": "Cranberr(ie)s for yummy muffins,</br>And also berr(ie)s blue,</br>Strawberr(ie)s for scrumptious jelly,</br>Raspberr(ie)s and blackberr(ie)s too!",
         "category": ["V-short", "V"],
-        "grade": ["K", "1st"]
+        "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
         "id": "I-IE",
@@ -3770,7 +3771,7 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "K": "black"
+            "3rd": "black"
         },
         "rhyme": "(O)ld King C(o)le;</br>Was a merry (o)ld s(o)ul;</br>And a merry (o)ld s(o)ul was he;</br>He called for his pipe;</br>And he called for his b(o)wl;</br>And he called for his fiddlers three.",
         "category": ["V-long", "V"],
@@ -3851,7 +3852,7 @@
         },
         "rhyme": "H(o)t cr(o)ss buns, h(o)t cr(o)ss buns.</br>One a penny, two a penny,</br>H(o)t cr(o)ss buns!</br></br>If your daughters do n(o)t like them,</br>Give them to your sons.</br>One a penny, two a penny,</br>H(o)t cr(o)ss buns!",
         "category": ["V-short", "V"],
-        "grade": ["K", "1st", "2nd"]
+        "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
         "id": "O-uh",
@@ -4888,7 +4889,7 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "K": "black"
+            "3rd": "black"
         },
         "rhyme": "He balanced a c(u)cumber on his nose,</br>But should have (u)sed binoc(u)lars to watch the roads.</br>A (u)nicycle\u2019s dangerous when clowns can\u2019t see\u2014</br>Quick call an amb(u)lance:  one, two, three!</br>",
         "category": ["V-long", "V"],
@@ -4965,7 +4966,7 @@
         "color": {
             "all": "green",
             "vowel": "green",
-            "K": "green"
+            "3rd": "green"
         },
         "rhyme": "Little Betty Bl(u)e</br>Lost her holiday shoe.</br>What shall little Betty do?</br></br>Buy her another,</br>To match the other,</br>And then she'll walk upon two.",
         "category": ["V-long", "V"],
@@ -5007,7 +5008,7 @@
         },
         "rhyme": "S(u)e played a big bl(u)e t(u)ba,</br>J(u)lius played one too,</br>With their two bl(u)e t(u)bas,</br>What did those two do?</br>He blew his bl(u)e t(u)ba loud!</br>She blew hers too!</br>",
         "category": ["V-short", "V"],
-        "grade": ["K", "1st", "2nd"]
+        "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
         "id": "U-schwa",
@@ -5306,7 +5307,8 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "K": "black"
+            "K": "black",
+            "3rd": "black"
         },
         "rhyme": "Little Bo-p(ee)p has lost her sh(ee)p;</br>And doesn't know where to find them;</br>Leave them alone; and they'll come home;</br>Wagging their tails behind them.",
         "category": ["V-long", "V"],
@@ -5351,7 +5353,7 @@
         },
         "rhyme": "Hick(e)ty; pick(e)ty; my black h(e)n;</br>She lays (e)ggs for gentlem(e)n;</br>Gentlem(e)n come (e)very day;</br>To see what my black h(e)n does lay.",
         "category": ["V-short", "V"],
-        "grade": ["K", "1st", "2nd"]
+        "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
         "id": "E-schwa",

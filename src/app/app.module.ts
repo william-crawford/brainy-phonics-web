@@ -25,6 +25,10 @@ import {SecondVowelsDetailsComponent} from './pages/second-categories/second-vow
 import {SecondConsonantsDetailsComponent} from './pages/second-categories/second-consonants-details';
 import {SecondBlendsDetailsComponent} from './pages/second-categories/second-blends-details';
 import {SecondDigraphsDetailsComponent} from './pages/second-categories/second-digraphs-details';
+import {ThirdCategoriesComponent} from './pages/third-categories';
+import {ThirdConsonantsDetailsComponent} from './pages/third-categories/third-consonants-details';
+import {ThirdVowelsDetailsComponent} from './pages/third-categories/third-vowels-details';
+import {ThirdVowelconsonantsDetailsComponent} from './pages/third-categories/third-vowelconsonants-details';
 
 @NgModule({
   declarations: [
@@ -48,7 +52,11 @@ import {SecondDigraphsDetailsComponent} from './pages/second-categories/second-d
     SecondVowelsDetailsComponent,
     SecondConsonantsDetailsComponent,
     SecondBlendsDetailsComponent,
-    SecondDigraphsDetailsComponent
+    SecondDigraphsDetailsComponent,
+    ThirdCategoriesComponent,
+    ThirdConsonantsDetailsComponent,
+    ThirdVowelsDetailsComponent,
+    ThirdVowelconsonantsDetailsComponent
 
   ],
   imports: [

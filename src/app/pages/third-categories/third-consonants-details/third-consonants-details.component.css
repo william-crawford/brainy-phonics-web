@@ -1,0 +1,53 @@
+#main-body {
+    width: 169.7vh;
+    height: 0vh;
+    padding-left: 40vh;
+    position: relative;
+  }
+  
+  #background {
+      background-color: #FFFFFF !important;
+      background: url('../../../../assets/img/backgrounds/third_consonants_details.png') no-repeat scroll transparent;
+      background-position: 18vh;
+      background-size: 183vh;
+  }
+  
+  /* Second Categories */
+  #blend-begin {
+      background: url('../../../../assets/img/buttons/third_blend_begin.png') no-repeat scroll transparent;
+      background-size: 80vh;
+      margin-top: 4vh;
+      cursor: pointer;
+      width: 79vh;
+  }
+  #blend-end {
+    background: url('../../../../assets/img/buttons/third_blend_end.png') no-repeat scroll transparent;
+    background-size: 71vh;
+    width: 69vh;
+    cursor: pointer;
+  }
+  #digraph-begin {
+    background: url('../../../../assets/img/buttons/third_digraph_begin.png') no-repeat scroll transparent;
+    background-size: 104vh;
+    margin-left: 17vh;
+    cursor: pointer;
+    width: 101vh;
+  }
+  #digraph-end {
+    background: url('../../../../assets/img/buttons/third_digraph_end.png') no-repeat scroll transparent;
+    background-size: 95vh;
+    cursor: pointer;
+    width: 92vh;
+  }
+
+  .column {
+    padding-top: 12vh;
+  }
+
+  .category_button {
+      margin: 5vh 0vh 0vh 16vh;
+      height: 14.5vh;
+      border: none;
+      display: inherit;
+  }
+  

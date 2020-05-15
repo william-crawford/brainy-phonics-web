@@ -1,0 +1,58 @@
+#main-body {
+    width: 169.7vh;
+    height: 0vh;
+    padding-left: 40vh;
+    position: relative;
+  }
+  
+#background {
+    background-color: #FFFFFF !important;
+    background: url('../../../assets/img/backgrounds/third_categories.png') no-repeat scroll transparent;
+    background-position: center top;
+    background-size: 148vh;
+}
+  
+/* Phonics Categories */
+#consonants {
+    background: url('../../../assets/img/buttons/second_consonants.png') no-repeat scroll transparent;
+    background-size: 45vh;
+    margin-top: 11vh;
+    background-position: center;
+    cursor: pointer;
+}
+#vowels {
+    background: url('../../../assets/img/buttons/second_vowels.png') no-repeat scroll transparent;
+    background-size: 45vh;
+    background-position: center;
+    cursor: pointer;
+}
+#vowelconsonants {
+    background: url('../../../assets/img/buttons/second_vowelconsonants.png') no-repeat scroll transparent;
+    background-size: 45vh;
+    background-position: center;
+    cursor: pointer;
+}
+#wordstructures {
+    background: url('../../../assets/img/buttons/wordstructures.png') no-repeat scroll transparent;
+    background-size: 45vh;
+    background-position: center;
+    cursor: pointer;
+}
+  
+.category_button {
+    width: 45vh;
+    height: 19.5vh;
+    margin: 1.6vh 0vh 0vh 35.5vh;
+    border: none;
+    display: inherit;
+}
+
+.column {
+    padding-top: 2.5vh;
+}
+/* Clear floats after the columns */
+.column:after {
+    content: "";
+    display: table;
+    clear: both;
+}
