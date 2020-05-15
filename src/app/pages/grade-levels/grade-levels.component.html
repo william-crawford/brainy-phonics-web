@@ -7,7 +7,7 @@
 
             </div>
             <div class='row'>
-                <button mat-icon-button class='grade_level' id='first' (mouseenter)='playAudio($event)' routerLink='first-categories'></button>
+                <button mat-icon-button class='grade_level' id='first' (mouseenter)='playAudio($event)' routerLink='/first-categories'></button>
                 <button mat-icon-button class='grade_level' id='second' (mouseenter)='playAudio($event)' routerLink='/second-categories'></button>
                 <button mat-icon-button class='grade_level' id='third' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list': '3rd'}"></button>
             </div>
