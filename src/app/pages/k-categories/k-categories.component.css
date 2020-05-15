@@ -25,6 +25,26 @@
     background-size: 55vh;
     cursor: pointer;
 }
+
+  #beginning-sounds {
+      background: url('../../../assets/img/buttons/names.png') no-repeat scroll transparent;
+      background-position: center;
+      background-size: 55vh;
+      cursor: pointer;
+  }
+  #ending-sounds {
+    background: url('../../../assets/img/buttons/sounds.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 55vh;
+    cursor: pointer;
+}
+
+  #vowels {
+    background: url('../../../assets/img/buttons/sounds.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 55vh;
+    cursor: pointer;
+}
   
   .category_button {
       width: 55vh;
