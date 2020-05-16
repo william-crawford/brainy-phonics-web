@@ -45,19 +45,19 @@
         "display": "a",
         "word1": {
             "word": "ape",
-            "display": "<span>a</span>pe",
+            "display": "<span>a</span>p<u>e</u>",
             "audio": "ape.mp3",
             "image": "ape.png"
         },
         "word2": {
             "word": "plane",
-            "display": "pl<span>a</span>ne",
+            "display": "pl<span>a</span>n<u>e</u>",
             "audio": "plane.mp3",
             "image": "plane.png"
         },
         "word3": {
             "word": "cake",
-            "display": "c<span>a</span>ke",
+            "display": "c<span>a</span>k<u>e</u>",
             "audio": "cake.mp3",
             "image": "cake.png"
         },
@@ -2125,19 +2125,19 @@
         "display": "i",
         "word1": {
             "word": "tie",
-            "display": "t<span>i</span>e",
+            "display": "t<span>i</span><u>e</u>",
             "audio": "tie.mp3",
             "image": "tie.png"
         },
         "word2": {
             "word": "pie",
-            "display": "p<span>i</span>e",
+            "display": "p<span>i</span><u>e</u>",
             "audio": "pie.mp3",
             "image": "pie.png"
         },
         "word3": {
             "word": "kite",
-            "display": "k<span>i</span>te",
+            "display": "k<span>i</span>t<u>e</u>",
             "audio": "kite.mp3",
             "image": "kite.png"
         },
@@ -3425,19 +3425,19 @@
         "display": "o",
         "word1": {
             "word": "toe",
-            "display": "t<span>o</span>e",
+            "display": "t<span>o</span><u>e</u>",
             "audio": "toe.mp3",
             "image": "toe.png"
         },
         "word2": {
             "word": "doe",
-            "display": "d<span>o</span>e",
+            "display": "d<span>o</span><u>e</u>",
             "audio": "doe.mp3",
             "image": "doe.png"
         },
         "word3": {
             "word": "hoe",
-            "display": "h<span>o</span>e",
+            "display": "h<span>o</span><u>e</u>",
             "audio": "hoe.mp3",
             "image": "hoe.png"
         },
@@ -5508,19 +5508,19 @@
         "display": "u",
         "word1": {
             "word": "blue",
-            "display": "bl<span>u</span>e",
+            "display": "bl<span>u</span><u>e</u>",
             "audio": "blue.mp3",
             "image": "blue.png"
         },
         "word2": {
             "word": "hues",
-            "display": "h<span>u</span>es",
+            "display": "h<span>u</span><u>e</u>s",
             "audio": "hues.mp3",
             "image": "hues.png"
         },
         "word3": {
             "word": "glue",
-            "display": "gl<span>u</span>e",
+            "display": "gl<span>u</span><u>e</u>",
             "audio": "glue.mp3",
             "image": "glue.png"
         },
