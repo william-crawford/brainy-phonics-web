@@ -8,8 +8,8 @@
   #background {
       background-color: #FFFFFF !important;
       background: url('../../../../assets/img/backgrounds/second_blend_details.png') no-repeat scroll transparent;
-      background-position: 18vh;
-      background-size: 180vh;
+      background-position: 16vh;
+      background-size: 176vh;
   }
   
   /* Second Categories */
@@ -38,7 +38,7 @@
   }
 
   .category_button {
-      margin: 9vh 0vh 0vh 16vh;
+      margin: 9vh 0vh 0vh 23vh;
       height: 12.5vh;
       border: none;
       display: inherit;
