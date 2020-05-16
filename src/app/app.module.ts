@@ -25,11 +25,11 @@ import {SecondVowelsDetailsComponent} from './pages/second-categories/second-vow
 import {SecondConsonantsDetailsComponent} from './pages/second-categories/second-consonants-details';
 import {SecondBlendsDetailsComponent} from './pages/second-categories/second-blends-details';
 import {SecondDigraphsDetailsComponent} from './pages/second-categories/second-digraphs-details';
-import { KCategoriesComponent } from './pages/k-categories/k-categories';
-import { KNamesDetailsComponent } from './pages/k-categories/k-names-details/k-names-details';
-import { KSoundsDetailsComponent } from './pages/k-categories/k-sounds-details/k-sounds-details';
-import { KEndingSoundsDetailsComponent } from './pages/k-categories/k-ending-sounds-details/k-ending-sounds-details';
-import { KBeginningSoundsDetailsComponent } from './pages/k-categories/k-beginning-sounds-details/k-beginning-sounds-details';
+import { KCategoriesComponent } from './pages/k-categories';
+import { KNamesDetailsComponent } from './pages/k-categories/k-names-details';
+import { KSoundsDetailsComponent } from './pages/k-categories/k-sounds-details';
+import { KEndingSoundsDetailsComponent } from './pages/k-categories/k-ending-sounds-details';
+import { KBeginningSoundsDetailsComponent } from './pages/k-categories/k-beginning-sounds-details';
 
 @NgModule({
   declarations: [
