@@ -227,8 +227,10 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy, AfterViewInit {
     playEx1Audio() {
         this.ex1Animate = true;
         this.ex1Audio.onended = () => {
+            console.log("line 230");
             this.ex1Animate = false;
             this.ex1Audio.onended = () => {
+                console.log('line 233');
                 this.ex1Animate = false;
                 this.ex2Animate = true;
                 delay(250).then(() => {
