@@ -14,6 +14,11 @@ import {PuzzleComponent} from './pages/puzzle/puzzle.component';
 import {PrekCategoriesComponent} from './pages/prek-categories';
 import {PrekSoundsDetailsComponent} from './pages/prek-categories/prek-sounds-details';
 import {PrekNamesDetailsComponent} from './pages/prek-categories/prek-names-details';
+import { KCategoriesComponent } from './pages/k-categories/k-categories';
+import { KNamesDetailsComponent } from './pages/k-categories/k-names-details/k-names-details';
+import { KSoundsDetailsComponent } from './pages/k-categories/k-sounds-details/k-sounds-details';
+import { KEndingSoundsDetailsComponent } from './pages/k-categories/k-ending-sounds-details/k-ending-sounds-details';
+import { KBeginningSoundsDetailsComponent } from './pages/k-categories/k-beginning-sounds-details/k-beginning-sounds-details';
 import {SecondCategoriesComponent} from './pages/second-categories';
 import {SecondVowelsDetailsComponent} from './pages/second-categories/second-vowels-details';
 import {SecondConsonantsDetailsComponent} from './pages/second-categories/second-consonants-details';
@@ -26,6 +31,9 @@ const routes: Routes = [
     {path: 'prek-categories', component: PrekCategoriesComponent},
     {path: 'prek-sounds-details', component: PrekSoundsDetailsComponent},
     {path: 'prek-names-details', component: PrekNamesDetailsComponent},
+    {path: 'k-categories', component: KCategoriesComponent},
+    {path: 'k-names-details', component: KNamesDetailsComponent},
+    {path: 'k-beginning-sounds-details', component: KSoundsDetailsComponent},
     {path: 'second-categories', component: SecondCategoriesComponent},
     {path: 'second-vowels-details', component: SecondVowelsDetailsComponent},
     {path: 'second-consonants-details', component: SecondConsonantsDetailsComponent},
