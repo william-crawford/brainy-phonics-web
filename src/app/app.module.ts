@@ -25,13 +25,6 @@ import {SecondVowelsDetailsComponent} from './pages/second-categories/second-vow
 import {SecondConsonantsDetailsComponent} from './pages/second-categories/second-consonants-details';
 import {SecondBlendsDetailsComponent} from './pages/second-categories/second-blends-details';
 import {SecondDigraphsDetailsComponent} from './pages/second-categories/second-digraphs-details';
-import { KCategoriesComponentComponent } from './kcategories-component/kcategories-component.component';
-import { KSoundsDetailsComponentComponent } from './ksounds-details-component/ksounds-details-component.component';
-import { KNamesDetailsComponentComponent } from './knames-details-component/knames-details-component.component';
-import { KEndingSoundsDetailsConponentComponent } from './kending-sounds-details-conponent/kending-sounds-details-conponent.component';
-import { KBeginningSoundsDetailsComponentComponent } from './kbeginning-sounds-details-component/kbeginning-sounds-details-component.component';
-import { FirstCategoriesComponentComponent } from './first-categories-component/first-categories-component.component';
-import { FirstVowelsDetailsComponentComponent } from './first-vowels-details-component/first-vowels-details-component.component';
 
 @NgModule({
   declarations: [
@@ -55,14 +48,7 @@ import { FirstVowelsDetailsComponentComponent } from './first-vowels-details-com
     SecondVowelsDetailsComponent,
     SecondConsonantsDetailsComponent,
     SecondBlendsDetailsComponent,
-    SecondDigraphsDetailsComponent,
-    KCategoriesComponentComponent,
-    KSoundsDetailsComponentComponent,
-    KNamesDetailsComponentComponent,
-    KEndingSoundsDetailsConponentComponent,
-    KBeginningSoundsDetailsComponentComponent,
-    FirstCategoriesComponentComponent,
-    FirstVowelsDetailsComponentComponent
+    SecondDigraphsDetailsComponent
 
   ],
   imports: [
