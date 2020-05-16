@@ -229,13 +229,11 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
     }
 
     setClass(item) {
-        if (this.grade != '') {
+        if (this.grade !== null) {
             return item.color[this.grade];
         } else {
             if (this.list === 'vowels') {
                 return item.color.vowel;
-            } else if (this.list === 'kindergarten') {
-                return item.color.K;
             } else if (this.list !== 'alphabet') {
                 return item.color.all;
             }

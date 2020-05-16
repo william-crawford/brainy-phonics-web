@@ -270,7 +270,6 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
 
     playAudio() {
         this.stopAudioAndAnimation();
-
         this.phonemeAnimate = true;
         this.phonemeAudio.play();
     }

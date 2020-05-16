@@ -92,6 +92,10 @@
 #O-OST-short img {
     transform: translate(25vh, -20vh);
 }
+#O-OST-long img {
+    transform: translate(27vh,-17vh);
+    width: 20vh;
+}
 /* Column Gap */
 .cardList > * {
     box-sizing: border-box;
