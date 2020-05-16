@@ -7,20 +7,20 @@
   
   #background {
       background-color: #FFFFFF !important;
-      background: url('../../../assets/img/backgrounds/k_categories.png') no-repeat scroll transparent;
+      background: url('../../../assets/img/backgrounds/first_categories.png') no-repeat scroll transparent;
       background-position: 30vh;
       background-size: 140vh;
   }
   
   /* Phonics Categories */
   #consonants {
-      background: url('../../../assets/img/buttons/names.png') no-repeat scroll transparent;
+      background: url('../../../assets/img/buttons/consonants.png') no-repeat scroll transparent;
       background-position: center;
       background-size: 55vh;
       cursor: pointer;
   }
   #vowels {
-    background: url('../../../assets/img/buttons/sounds.png') no-repeat scroll transparent;
+    background: url('../../../assets/img/buttons/vowels.png') no-repeat scroll transparent;
     background-position: center;
     background-size: 55vh;
     cursor: pointer;
