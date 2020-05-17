@@ -21,28 +21,28 @@
   }
   #long {
     background: url('../../../../assets/img/buttons/second_long.png') no-repeat scroll transparent;
-    background-size: 32vh;
+    background-size: 31.5vh;
     width: 31vh;
     cursor: pointer;
   }
   #ysounds {
     background: url('../../../../assets/img/buttons/second_ysounds.png') no-repeat scroll transparent;
-    background-size: 61vh;
+    background-size: 58.5vh;
     margin-top: 4.5vh;
     cursor: pointer;
     width: 61vh;
   }
   #schwa {
     background: url('../../../../assets/img/buttons/second_schwa.png') no-repeat scroll transparent;
-    background-size: 46vh;
+    background-size: 42.5vh;
     cursor: pointer;
     margin-top: 3.3vh;
     width: 45vh;
   }
   #pairs {
     background: url('../../../../assets/img/buttons/second_pairs.png') no-repeat scroll transparent;
-    background-size: 38vh;
-    margin-left: 33.5vh;
+    background-size: 35vh;
+    margin-left: 33.8vh;
     cursor: pointer;
     margin-top: 4vh;
     width: 36vh;
