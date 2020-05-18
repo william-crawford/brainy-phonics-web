@@ -34,9 +34,9 @@
   #uppercase_alphabetical {
     background: url('../../../../assets/img/buttons/k_beginning_sounds_capital_alphabetical.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 52vh;
+    background-size: 72vh;
     cursor: pointer;
-    width: 55vh;
+    width: 77vh;
     height: 13vh;
     margin-top: 5.5vh;
   }
