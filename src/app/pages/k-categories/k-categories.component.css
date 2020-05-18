@@ -14,33 +14,33 @@
   
   /* Phonics Categories */
   #names {
-      background: url('../../../assets/img/buttons/names.png') no-repeat scroll transparent;
+      background: url('../../../assets/img/buttons/k_letter_names.png') no-repeat scroll transparent;
       background-position: center;
       background-size: 55vh;
       cursor: pointer;
   }
   #sounds {
-    background: url('../../../assets/img/buttons/sounds.png') no-repeat scroll transparent;
+    background: url('../../../assets/img/buttons/k_letter_sounds.png') no-repeat scroll transparent;
     background-position: center;
     background-size: 55vh;
     cursor: pointer;
 }
 
   #beginning-sounds {
-      background: url('../../../assets/img/buttons/beginning-sounds.png') no-repeat scroll transparent;
+      background: url('../../../assets/img/buttons/k_beginning_sounds_button.png') no-repeat scroll transparent;
       background-position: center;
       background-size: 55vh;
       cursor: pointer;
   }
   #ending-sounds {
-    background: url('../../../assets/img/buttons/ending-sounds.png') no-repeat scroll transparent;
+    background: url('../../../assets/img/buttons/k_ending_sounds_button.png') no-repeat scroll transparent;
     background-position: center;
     background-size: 55vh;
     cursor: pointer;
 }
 
   #vowels {
-    background: url('../../../assets/img/buttons/vowels.png') no-repeat scroll transparent;
+    background: url('../../../assets/img/buttons/k_vowels_button.png') no-repeat scroll transparent;
     background-position: center;
     background-size: 55vh;
     cursor: pointer;
