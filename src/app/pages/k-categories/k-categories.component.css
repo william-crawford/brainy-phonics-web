@@ -60,7 +60,7 @@
   }
   
   .column {
-      padding-top: 2.5vh;
+      padding-top: 10vh;
   }
   /* Clear floats after the columns */
   .column:after {
