@@ -16,40 +16,40 @@
   #names {
       background: url('../../../assets/img/buttons/k_letter_names.png') no-repeat scroll transparent;
       background-position: center;
-      background-size: auto;
+      background-size: 100%;
       cursor: pointer;
   }
   #sounds {
     background: url('../../../assets/img/buttons/k_letter_sounds.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: auto;
+    background-size: 100%;
     cursor: pointer;
 }
 
   #beginning-sounds {
       background: url('../../../assets/img/buttons/k_beginning_sounds_button.png') no-repeat scroll transparent;
       background-position: center;
-      background-size: auto;
+      background-size: 100%;
       cursor: pointer;
   }
   #ending-sounds {
     background: url('../../../assets/img/buttons/k_ending_sounds_button.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: auto;
+    background-size: 100%;
     cursor: pointer;
 }
 
   #vowels {
     background: url('../../../assets/img/buttons/k_vowels_button.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: auto;
+    background-size: 100%;
     cursor: pointer;
 }
   
   .category_button {
       width: 28vh;
       height: 18vh;
-      margin: 28vh 5vh 0vh 0vh;
+      margin: 15vh 5vh 0vh 0vh;
       border: none;
       margin-left: auto;
   }
