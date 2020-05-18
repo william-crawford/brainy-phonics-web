@@ -2541,6 +2541,44 @@
         "grade": ["3rd"]
     },
     {
+        "id": "I-ION",
+        "audio": "phoneme-I-ION.mp3",
+        "display": "ion",
+        "word1": {
+            "word": "vision",
+            "display": "vis<span>ion</span>",
+            "audio": "vision.mp3",
+            "image": "vision.png"
+        },
+        "word2": {
+            "word": "cushion",
+            "display": "cush<span>ion</span>",
+            "audio": "cushion.mp3",
+            "image": "cushion.png"
+        },
+        "word3": {
+            "word": "fashion",
+            "display": "fash<span>ion</span>",
+            "audio": "fashion.mp3",
+            "image": "fashion.png"
+        },
+        "quiz-words": [
+            "confusion",
+            "division",
+            "illusion",
+            "percussion",
+            "collision"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "3rd": "black"
+        },
+        "rhyme": "",
+        "category": ["VC-3", "V", "VC"],
+        "grade": ["3rd"]
+    },
+    {
         "id": "I-IR",
         "audio": "phoneme-I-IR.mp3",
         "display": "ir",
@@ -5390,29 +5428,29 @@
         "audio": "phoneme-T-TION.mp3",
         "display": "tion",
         "word1": {
-            "word": "cushion",
-            "display": "cush<span>ion</span>",
-            "audio": "cushion.mp3",
-            "image": "cushion.png"
+            "word": "caution",
+            "display": "cau<span>tion</span>",
+            "audio": "caution.mp3",
+            "image": "caution.png"
         },
         "word2": {
-            "word": "fashion",
-            "display": "fash<span>ion</span>",
-            "audio": "fashion.mp3",
-            "image": "fashion.png"
-        },
-        "word3": {
             "word": "addition",
-            "display": "addit<span>ion</span>",
+            "display": "addi<span>tion</span>",
             "audio": "addition.mp3",
             "image": "addition.png"
         },
+        "word3": {
+            "word": "emotion",
+            "display": "emo<span>tion</span>",
+            "audio": "emotion.mp3",
+            "image": "emotion.png"
+        },
         "quiz-words": [
-            "graduation",
+            "eruption",
             "construction",
-            "percussion",
-            "question",
-            "congratulations"
+            "subtraction",
+            "graduation",
+            "education"
         ],
         "color": {
             "all": "black",

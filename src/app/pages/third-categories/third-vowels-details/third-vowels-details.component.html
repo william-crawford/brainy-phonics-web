@@ -3,16 +3,17 @@
         <div class='column'>
             <div class='row'>
                 <button mat-icon-button class='category_button' id='short' (mouseenter)='playAudio($event)' [routerLink]="['/list-select']" [queryParams]="{'grade' : '3rd', 'list': 'V-short'}"></button>
-                <button mat-icon-button class='category_button' id='pairs' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'grade' : '3rd', 'list': 'VP'}"></button>
+                <button mat-icon-button class='category_button' id='long' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'grade' : '3rd', 'list': 'V-long'}"></button>
             </div>
             <div class='row'>
-                <button mat-icon-button class='category_button' id='long' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'grade' : '3rd', 'list': 'V-long'}"></button>
+                <button mat-icon-button class='category_button' id='pairs' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'grade' : '3rd', 'list': 'VP'}"></button>
                 <button mat-icon-button class='category_button' id='y' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'grade' : '3rd', 'list': 'Y'}"></button>
             </div>
             <div class='row'>
+                <button mat-icon-button class='category_button' id='r' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'grade' : '3rd', 'list': 'R'}"></button>
                 <button mat-icon-button class='category_button' id='schwa' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'grade' : '3rd', 'list': 'V-schwa'}"></button>
-                <button mat-icon-button class='category_button' id='e' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'grade' : '3rd', 'list': 'E'}"></button>
             </div>
+            <button mat-icon-button class='category_button' id='e' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'grade' : '3rd', 'list': 'E'}"></button>
         </div>
     </div>
 
