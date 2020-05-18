@@ -7,14 +7,14 @@
   
   #background {
       background-color: #FFFFFF !important;
-      background: url('../../../../assets/img/backgrounds/prek_names_details.png') no-repeat scroll transparent;
+      background: url('../../../../assets/img/backgrounds/k_ending_sounds.png') no-repeat scroll transparent;
       background-position: center top;
       background-size: 132vh;
   }
   
   /* Pre-K Categories */
   #lowercase_alphabetical {
-      background: url('../../../../assets/img/buttons/lowercase_alphabetical.png') no-repeat scroll transparent;
+      background: url('../../../../assets/img/buttons/k_ending_sounds_alphabetical.png') no-repeat scroll transparent;
       background-position: center;
       background-size: 40vh;
       cursor: pointer;
@@ -23,7 +23,7 @@
       margin-top: 2.5vh;
   }
   #lowercase_bmras {
-    background: url('../../../../assets/img/buttons/lowercase_bmras.png') no-repeat scroll transparent;
+    background: url('../../../../assets/img/buttons/k_ending_sounds_bmras.png') no-repeat scroll transparent;
     background-position: center;
     background-size: 72vh;
     cursor: pointer;
@@ -32,7 +32,7 @@
     margin-top: 2vh;
   }
   #uppercase_alphabetical {
-    background: url('../../../../assets/img/buttons/uppercase_alphabetical.png') no-repeat scroll transparent;
+    background: url('../../../../assets/img/buttons/k_ending_sounds_capital_alphabetical.png') no-repeat scroll transparent;
     background-position: center;
     background-size: 52vh;
     cursor: pointer;
@@ -41,7 +41,7 @@
     margin-top: 5.5vh;
   }
   #uppercase_bmras {
-    background: url('../../../../assets/img/buttons/uppercase_bmras.png') no-repeat scroll transparent;
+    background: url('../../../../assets/img/buttons/k_ending_sounds_capital_bmras.png') no-repeat scroll transparent;
     background-position: center;
     background-size: 84vh;
     cursor: pointer;
