@@ -16,33 +16,33 @@
   #names {
       background: url('../../../assets/img/buttons/k_letter_names.png') no-repeat scroll transparent;
       background-position: center;
-      background-size: 55vh;
+      background-size: auto;
       cursor: pointer;
   }
   #sounds {
     background: url('../../../assets/img/buttons/k_letter_sounds.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 55vh;
+    background-size: auto;
     cursor: pointer;
 }
 
   #beginning-sounds {
       background: url('../../../assets/img/buttons/k_beginning_sounds_button.png') no-repeat scroll transparent;
       background-position: center;
-      background-size: 55vh;
+      background-size: auto;
       cursor: pointer;
   }
   #ending-sounds {
     background: url('../../../assets/img/buttons/k_ending_sounds_button.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 55vh;
+    background-size: auto;
     cursor: pointer;
 }
 
   #vowels {
     background: url('../../../assets/img/buttons/k_vowels_button.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 55vh;
+    background-size: auto;
     cursor: pointer;
 }
   
@@ -55,7 +55,7 @@
   }
   
   .row {
-    float: left;
+    float: center;
     margin-left: 3vh;
   }
   
