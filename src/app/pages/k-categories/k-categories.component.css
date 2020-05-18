@@ -66,6 +66,7 @@
   
   .column {
       padding-top: 35vh;
+      padding-left: 10 vh;
   }
   /* Clear floats after the columns */
   .column:after {
