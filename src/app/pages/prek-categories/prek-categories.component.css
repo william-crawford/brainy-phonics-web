@@ -23,7 +23,7 @@
     background: url('../../../assets/img/buttons/sounds_lowercase_bmras.png') no-repeat scroll transparent;
     background-size: 52vh;
     cursor: pointer;
-    margin-left: 9.5vh;
+    margin-left: 6.5vh;
 }
 #names_lowercase_alphabetical {
     background: url('../../../assets/img/buttons/names_lowercase_alphabetical.png') no-repeat scroll transparent;
@@ -34,7 +34,7 @@
     background: url('../../../assets/img/buttons/sounds_lowercase_alphabetical.png') no-repeat scroll transparent;
     background-size: 52vh;
     cursor: pointer;
-    margin-left: 9.5vh;
+    margin-left: 6.5vh;
 }
 #names_uppercase_bmras {
     background: url('../../../assets/img/buttons/names_uppercase_bmras.png') no-repeat scroll transparent;
@@ -45,7 +45,7 @@
     background: url('../../../assets/img/buttons/sounds_uppercase_bmras.png') no-repeat scroll transparent;
     background-size: 52vh;
     cursor: pointer;
-    margin-left: 9.5vh;
+    margin-left: 6.5vh;
 }
 #names_uppercase_alphabetical {
   background: url('../../../assets/img/buttons/names_uppercase_alphabetical.png') no-repeat scroll transparent;
@@ -56,7 +56,7 @@
   background: url('../../../assets/img/buttons/sounds_uppercase_alphabetical.png') no-repeat scroll transparent;
   background-size: 52vh;
   cursor: pointer;
-  margin-left: 9.5vh;
+  margin-left: 6.5vh;
 }
 
 .category_button {
