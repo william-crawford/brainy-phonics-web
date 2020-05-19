@@ -16,7 +16,7 @@
 #consonants {
     background: url('../../../assets/img/buttons/second_consonants.png') no-repeat scroll transparent;
     background-size: 45vh;
-    margin-top: 11vh;
+    margin-top: 16vh;
     background-position: center;
     cursor: pointer;
 }
@@ -32,17 +32,11 @@
     background-position: center;
     cursor: pointer;
 }
-#wordstructures {
-    background: url('../../../assets/img/buttons/wordstructures.png') no-repeat scroll transparent;
-    background-size: 45vh;
-    background-position: center;
-    cursor: pointer;
-}
   
 .category_button {
     width: 45vh;
     height: 19.5vh;
-    margin: 1.6vh 0vh 0vh 35.5vh;
+    margin: 6vh 0vh 0vh 35.5vh;
     border: none;
     display: inherit;
 }

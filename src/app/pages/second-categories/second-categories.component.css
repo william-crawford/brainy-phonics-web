@@ -16,7 +16,7 @@
 #consonants {
     background: url('../../../assets/img/buttons/second_consonants.png') no-repeat scroll transparent;
     background-size: 50vh;
-    margin-top: 19vh;
+    margin-top: 22vh;
     background-position: center;
     cursor: pointer;
 }
@@ -30,7 +30,7 @@
 .category_button {
     width: 50vh;
     height: 22vh;
-    margin: 9vh 0vh 0vh 33vh;
+    margin: 12vh 0vh 0vh 33vh;
     border: none;
     display: inherit;
 }
