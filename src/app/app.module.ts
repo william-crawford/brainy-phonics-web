@@ -29,10 +29,10 @@ import { KCategoriesComponent } from './pages/k-categories';
 import { KLettersDetailsComponent } from './pages/k-categories/k-letters-details';
 import { KEndingSoundsDetailsComponent } from './pages/k-categories/k-ending-sounds-details';
 import { KBeginningSoundsDetailsComponent } from './pages/k-categories/k-beginning-sounds-details';
-import { FirstCategoriesComponent } from './first-categories/first-categories.component';
-import { FirstLettersComponent } from './first-letters/first-letters.component';
-import { FirstConsonantsComponent } from './first-consonants/first-consonants.component';
-import { FirstVowelsComponent } from './first-vowels/first-vowels.component';
+import { FirstCategoriesComponent } from './pages/first-categories/first-categories.component';
+import { FirstLettersDetailsComponent } from './pages/first-categories/first-letters-details/first-letters-details.component';
+import { FirstConsonantsDetailsComponent } from './pages/first-categories/first-consonants-details/first-consonants-details.component';
+import { FirstVowelsDetailsComponent } from './pages/first-categories/first-vowels-details/first-vowels-details.component';
 
 @NgModule({
   declarations: [
@@ -62,9 +62,9 @@ import { FirstVowelsComponent } from './first-vowels/first-vowels.component';
     KEndingSoundsDetailsComponent,
     KBeginningSoundsDetailsComponent,
     FirstCategoriesComponent,
-    FirstLettersComponent,
-    FirstConsonantsComponent,
-    FirstVowelsComponent
+    FirstLettersDetailsComponent,
+    FirstConsonantsDetailsComponent,
+    FirstVowelsDetailsComponent
 
   ],
   imports: [
