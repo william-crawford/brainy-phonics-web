@@ -16,7 +16,7 @@
   #names_lowercase_alphabetical {
       background: url('../../../../assets/img/buttons/k_letters_names_alphabetical.png') no-repeat scroll transparent;
       background-position: center;
-      background-size: 40vh;
+      background-size: 20vh;
       cursor: pointer;
       width: 25vh;
       height: 14vh;
@@ -25,7 +25,7 @@
   #names_lowercase_bmras {
     background: url('../../../../assets/img/buttons/k_letters_names_bmras.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 72vh;
+    background-size: 52vh;
     cursor: pointer;
     width: 50vh;
     height: 21vh;
@@ -34,7 +34,7 @@
   #names_uppercase_alphabetical {
     background: url('../../../../assets/img/buttons/k_letters_names_capital_alphabetical.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 52vh;
+    background-size: 32vh;
     cursor: pointer;
     width: 25vh;
     height: 13vh;
@@ -43,7 +43,7 @@
   #names_uppercase_bmras {
     background: url('../../../../assets/img/buttons/k_letters_names_capital_bmras.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 84vh;
+    background-size: 64vh;
     cursor: pointer;
     width: 70vh;
     height: 22vh;
@@ -52,7 +52,7 @@
   #sounds_lowercase_alphabetical {
     background: url('../../../../assets/img/buttons/k_letters_sounds_alphabetical.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 40vh;
+    background-size: 20vh;
     cursor: pointer;
     width: 25vh;
     height: 14vh;
@@ -61,7 +61,7 @@
 #sounds_lowercase_bmras {
   background: url('../../../../assets/img/buttons/k_letters_sounds_bmras.png') no-repeat scroll transparent;
   background-position: center;
-  background-size: 72vh;
+  background-size: 52vh;
   cursor: pointer;
   width: 57vh;
   height: 21vh;
@@ -70,7 +70,7 @@
 #sounds_uppercase_alphabetical {
   background: url('../../../../assets/img/buttons/k_letters_sounds_capital_alphabetical.png') no-repeat scroll transparent;
   background-position: center;
-  background-size: 52vh;
+  background-size: 32vh;
   cursor: pointer;
   width: 35vh;
   height: 13vh;
@@ -79,7 +79,7 @@
 #sounds_uppercase_bmras {
   background: url('../../../../assets/img/buttons/k_letters_sounds_capital_bmras.png') no-repeat scroll transparent;
   background-position: center;
-  background-size: 84vh;
+  background-size: 64vh;
   cursor: pointer;
   width: 70vh;
   height: 22vh;
@@ -89,11 +89,15 @@
 
 
   .column {
-    padding-top: 12vh;
+    padding-top: 5vh;
+  }
+  
+  .column2{
+    padding-top: 5vh;
   }
 
   .category_button {
-      margin-left: 25vh;
+      margin-left: 12vh;
       border: none;
       display: inherit;
   }
