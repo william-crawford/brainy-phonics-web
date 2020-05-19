@@ -1899,7 +1899,7 @@
         },
         "rhyme": "",
         "category": ["C-silent", "C"],
-        "grade": ["3rd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "G-GL",
@@ -4019,7 +4019,7 @@
         },
         "rhyme": "The north wind does bl(ow);</br>And we shall have sn(ow);</br>And what will poor robin do then?</br>Poor thing!</br></br>He'll sit in the barn;</br>And keep himself warm;</br>And hide his head under his wing.</br>Poor thing!",
         "category": ["VP", "V"],
-        "grade": ["1st", "2nd" ,"3rd"]
+        "grade": ["2nd" ,"3rd"]
     },
     {
         "id": "O-ow",
@@ -4058,7 +4058,7 @@
         },
         "rhyme": "Daffy-d(ow)n-dilly has come to t(ow)n,</br>With a green petticoat</br>and a bright yellow g(ow)n.</br>",
         "category": ["VP", "V"],
-        "grade": ["1st", "2nd", "3rd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "O-OY",
@@ -4328,7 +4328,7 @@
         },
         "rhyme": "As I was going up (Pr)imrose Hill;</br>(Pr)imrose Hill was dirty;</br>There I met a (pr)etty girl;</br>And she gave me a curtsey.</br>Little girl; (pr)etty girl;</br>Blessings be upon you;</br>If I had half-a-dollar a day;</br>I'd spend it all on you.",
         "category": ["CB-begin", "CB", "C"],
-        "grade": ["1st", "2nd"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "Q-begin",
@@ -4711,7 +4711,7 @@
         },
         "rhyme": "There was an old woman who lived in a (sh)oe;</br>(Sh)e had so many children (sh)e didn't know what to do.</br>(Sh)e gave them some broth without any bread;</br>Then whipped them all soundly and put them to bed.",
         "category": ["CD-begin", "CD", "C"],
-        "grade": ["1st", "2nd"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "S-SH-end",
@@ -5357,7 +5357,7 @@
         },
         "rhyme": "Bye; baby bunting;<br>Fa(th)er's gone a-hunting;</br>Mo(th)er's gone a-milking;</br>Sister's gone a-silking;</br>And Bro(th)er's gone for a rabbit skin;</br>To wrap little baby bunting in.",
         "category": ["CD-begin", "CD", "C"],
-        "grade": ["1st", "2nd", "3rd"]
+        "grade": ["3rd"]
     },
     {
         "id": "T-th-begin",

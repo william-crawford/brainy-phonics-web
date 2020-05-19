@@ -2,9 +2,19 @@
     <div id='main-body'>
         <div class='column'>
             <div class='row'>
-                <button mat-icon-button class='category_button' id='names' (mouseenter)='playAudio($event)' routerLink='/prek-names-details'></button>
-                <button mat-icon-button class='category_button' id='sounds' (mouseenter)='playAudio($event)' routerLink='/prek-sounds-details'></button>
+                <button mat-icon-button class='category_button' id='names_lowercase_bmras' (mouseenter)='playAudio($event)' [routerLink]="['/list-select']" [queryParams]="{'list' : 'alphabet', 'reordered': 'true'}"></button>
+                <button mat-icon-button class='category_button' id='sounds_lowercase_bmras' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list' : 'sounds', 'grade': 'Pre-K', 'reordered': 'true'}"></button>
             </div>
+            <div class='row'>
+                <button mat-icon-button class='category_button' id='names_lowercase_alphabetical' (mouseenter)='playAudio($event)' [routerLink]="['/list-select']" [queryParams]="{'list' : 'alphabet'}"></button>
+                <button mat-icon-button class='category_button' id='sounds_lowercase_alphabetical' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list' : 'sounds', 'grade': 'Pre-K'}"></button>
+            </div>
+            <div class='row'>
+                <button mat-icon-button class='category_button' id='names_uppercase_bmras' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list' : 'alphabet', 'capital': 'true', 'reordered': 'true'}"></button>
+                <button mat-icon-button class='category_button' id='sounds_uppercase_bmras' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list' : 'sounds', 'grade': 'Pre-K', 'capital': 'true', 'reordered': 'true'}"></button>
+            </div>
+            <button mat-icon-button class='category_button' id='names_uppercase_alphabetical' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list' : 'alphabet', 'capital': 'true'}"></button>
+            <button mat-icon-button class='category_button' id='sounds_uppercase_alphabetical' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'list' : 'sounds', 'grade': 'Pre-K', 'capital': 'true'}"></button>
         </div>
     </div>
 

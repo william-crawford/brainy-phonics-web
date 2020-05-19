@@ -12,13 +12,9 @@ import {CoinsComponent} from './pages/coins/coins.component';
 import {PuzzlesComponent} from './pages/puzzles/puzzles.component';
 import {PuzzleComponent} from './pages/puzzle/puzzle.component';
 import {PrekCategoriesComponent} from './pages/prek-categories';
-import {PrekSoundsDetailsComponent} from './pages/prek-categories/prek-sounds-details';
-import {PrekNamesDetailsComponent} from './pages/prek-categories/prek-names-details';
 import {SecondCategoriesComponent} from './pages/second-categories';
 import {SecondVowelsDetailsComponent} from './pages/second-categories/second-vowels-details';
 import {SecondConsonantsDetailsComponent} from './pages/second-categories/second-consonants-details';
-import {SecondBlendsDetailsComponent} from './pages/second-categories/second-blends-details';
-import {SecondDigraphsDetailsComponent} from './pages/second-categories/second-digraphs-details';
 import {ThirdCategoriesComponent} from './pages/third-categories';
 import {ThirdConsonantsDetailsComponent} from './pages/third-categories/third-consonants-details';
 import {ThirdVowelsDetailsComponent} from './pages/third-categories/third-vowels-details';
@@ -28,13 +24,9 @@ const routes: Routes = [
     {path: '', component: HomeComponent},
     {path: 'phoneme-categories', component: PhonemeCategoriesComponent},
     {path: 'prek-categories', component: PrekCategoriesComponent},
-    {path: 'prek-sounds-details', component: PrekSoundsDetailsComponent},
-    {path: 'prek-names-details', component: PrekNamesDetailsComponent},
     {path: 'second-categories', component: SecondCategoriesComponent},
     {path: 'second-vowels-details', component: SecondVowelsDetailsComponent},
     {path: 'second-consonants-details', component: SecondConsonantsDetailsComponent},
-    {path: 'second-blends-details', component: SecondBlendsDetailsComponent},
-    {path: 'second-digraphs-details', component: SecondDigraphsDetailsComponent},
     {path: 'third-categories', component: ThirdCategoriesComponent},
     {path: 'third-consonants-details', component: ThirdConsonantsDetailsComponent},
     {path: 'third-vowels-details', component: ThirdVowelsDetailsComponent},
