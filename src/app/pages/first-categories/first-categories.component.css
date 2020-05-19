@@ -36,7 +36,6 @@
   .category_button {
       width: 28vh;
       height: 22vh;
-      margin: 5vh 5vh 0vh 0vh;
       border: none;
       margin-left: auto;
   }
@@ -44,6 +43,12 @@
   
   .column {
       float: center;
+      padding-top: 20vh;
+  }
+
+  .row{
+      margin-left: 50vh;
+      padding-top: 2.5vh;
   }
   /* Clear floats after the columns */
   .column:after {
