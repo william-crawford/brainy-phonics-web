@@ -13,34 +13,37 @@
   }
   
   /* Phonics Categories */
-  #consonants {
-      background: url('../../../assets/img/buttons/consonants.png') no-repeat scroll transparent;
+  #letters {
+      background: url('../../../assets/img/buttons/first_letters_button.png') no-repeat scroll transparent;
       background-position: center;
-      background-size: 55vh;
+      background-size: 100%;
+      cursor: pointer;
+  }
+
+  #consonants {
+      background: url('../../../assets/img/buttons/first_consonants_button.png') no-repeat scroll transparent;
+      background-position: center;
+      background-size: 100%;
       cursor: pointer;
   }
   #vowels {
-    background: url('../../../assets/img/buttons/vowels.png') no-repeat scroll transparent;
+    background: url('../../../assets/img/buttons/first_vowels_button.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 55vh;
+    background-size: 100%;
     cursor: pointer;
 }
   
   .category_button {
-      width: 55vh;
-      height: 35vh;
-      margin: 55vh 10vh 0vh 0vh;
+      width: 28vh;
+      height: 22vh;
+      margin: 5vh 5vh 0vh 0vh;
       border: none;
       margin-left: auto;
   }
-  
-  .row {
-    float: left;
-    margin-left: 3vh;
-  }
+
   
   .column {
-      padding-top: 2.5vh;
+      float: center;
   }
   /* Clear floats after the columns */
   .column:after {

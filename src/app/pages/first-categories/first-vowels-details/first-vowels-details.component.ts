@@ -1,27 +1,15 @@
-import {Component} from '@angular/core';
-import {Location} from '@angular/common';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-    templateUrl: 'first-vowels-details.component.html',
-    styleUrls: ['first-vowels-details.component.css']
+  selector: 'app-first-vowels',
+  templateUrl: './first-vowels.component.html',
+  styleUrls: ['./first-vowels.component.css']
 })
+export class FirstVowelsComponent implements OnInit {
 
-export class FirstVowelsDetailsComponent {
-    category: HTMLAudioElement;
+  constructor() { }
 
-    constructor(private location: Location) {
-    }
+  ngOnInit() {
+  }
 
-    playAudio(event) {
-        // this.category = new Audio();
-        // this.category.src = '/assets/audio/buttons/' + event.target.id + '.mp3';
-        // if (this.category.src !== undefined) {
-        //     this.category.load();
-        //     this.category.play();
-        // }
-    }
-
-    goBack() {
-        this.location.back();
-    }
 }

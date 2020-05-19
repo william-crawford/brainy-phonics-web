@@ -29,6 +29,10 @@ import { KCategoriesComponent } from './pages/k-categories';
 import { KLettersDetailsComponent } from './pages/k-categories/k-letters-details';
 import { KEndingSoundsDetailsComponent } from './pages/k-categories/k-ending-sounds-details';
 import { KBeginningSoundsDetailsComponent } from './pages/k-categories/k-beginning-sounds-details';
+import { FirstCategoriesComponent } from './first-categories/first-categories.component';
+import { FirstLettersComponent } from './first-letters/first-letters.component';
+import { FirstConsonantsComponent } from './first-consonants/first-consonants.component';
+import { FirstVowelsComponent } from './first-vowels/first-vowels.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +60,11 @@ import { KBeginningSoundsDetailsComponent } from './pages/k-categories/k-beginni
     KCategoriesComponent,
     KLettersDetailsComponent,
     KEndingSoundsDetailsComponent,
-    KBeginningSoundsDetailsComponent
+    KBeginningSoundsDetailsComponent,
+    FirstCategoriesComponent,
+    FirstLettersComponent,
+    FirstConsonantsComponent,
+    FirstVowelsComponent
 
   ],
   imports: [
