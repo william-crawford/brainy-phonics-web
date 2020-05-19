@@ -26,8 +26,7 @@ import {SecondConsonantsDetailsComponent} from './pages/second-categories/second
 import {SecondBlendsDetailsComponent} from './pages/second-categories/second-blends-details';
 import {SecondDigraphsDetailsComponent} from './pages/second-categories/second-digraphs-details';
 import { KCategoriesComponent } from './pages/k-categories';
-import { KNamesDetailsComponent } from './pages/k-categories/k-names-details';
-import { KSoundsDetailsComponent } from './pages/k-categories/k-sounds-details';
+import { KLettersDetailsComponent } from './pages/k-categories/k-letters-details';
 import { KEndingSoundsDetailsComponent } from './pages/k-categories/k-ending-sounds-details';
 import { KBeginningSoundsDetailsComponent } from './pages/k-categories/k-beginning-sounds-details';
 
@@ -55,8 +54,7 @@ import { KBeginningSoundsDetailsComponent } from './pages/k-categories/k-beginni
     SecondBlendsDetailsComponent,
     SecondDigraphsDetailsComponent,
     KCategoriesComponent,
-    KNamesDetailsComponent,
-    KSoundsDetailsComponent,
+    KLettersDetailsComponent,
     KEndingSoundsDetailsComponent,
     KBeginningSoundsDetailsComponent
 

@@ -1,0 +1,99 @@
+#main-body {
+    width: 169.7vh;
+    height: 0vh;
+    padding-left: 40vh;
+    position: relative;
+  }
+  
+  #background {
+      background-color: #FFFFFF !important;
+      background: url('../../../../assets/img/backgrounds/k_letters.png') no-repeat scroll transparent;
+      background-position: center top;
+      background-size: 132vh;
+  }
+  
+  /* Pre-K Categories */
+  #names_lowercase_alphabetical {
+      background: url('../../../../assets/img/buttons/k_letters_names_alphabetical.png') no-repeat scroll transparent;
+      background-position: center;
+      background-size: 40vh;
+      cursor: pointer;
+      width: 45vh;
+      height: 14vh;
+      margin-top: 2.5vh;
+  }
+  #names_lowercase_bmras {
+    background: url('../../../../assets/img/buttons/k_letters_names_bmras.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 72vh;
+    cursor: pointer;
+    width: 77vh;
+    height: 21vh;
+    margin-top: 2vh;
+  }
+  #names_uppercase_alphabetical {
+    background: url('../../../../assets/img/buttons/k_letters_names_capital_alphabetical.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 52vh;
+    cursor: pointer;
+    width: 55vh;
+    height: 13vh;
+    margin-top: 5.5vh;
+  }
+  #names_uppercase_bmras {
+    background: url('../../../../assets/img/buttons/k_letters_names_capital_bmras.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 84vh;
+    cursor: pointer;
+    width: 89vh;
+    height: 22vh;
+    margin-top: 4vh;
+  }
+  #sounds_lowercase_alphabetical {
+    background: url('../../../../assets/img/buttons/k_letters_sounds_alphabetical.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 40vh;
+    cursor: pointer;
+    width: 45vh;
+    height: 14vh;
+    margin-top: 2.5vh;
+}
+#sounds_lowercase_bmras {
+  background: url('../../../../assets/img/buttons/k_letters_sounds_bmras.png') no-repeat scroll transparent;
+  background-position: center;
+  background-size: 72vh;
+  cursor: pointer;
+  width: 77vh;
+  height: 21vh;
+  margin-top: 2vh;
+}
+#sounds_uppercase_alphabetical {
+  background: url('../../../../assets/img/buttons/k_letters_sounds_capital_alphabetical.png') no-repeat scroll transparent;
+  background-position: center;
+  background-size: 52vh;
+  cursor: pointer;
+  width: 55vh;
+  height: 13vh;
+  margin-top: 5.5vh;
+}
+#sounds_uppercase_bmras {
+  background: url('../../../../assets/img/buttons/k_letters_sounds_capital_bmras.png') no-repeat scroll transparent;
+  background-position: center;
+  background-size: 84vh;
+  cursor: pointer;
+  width: 89vh;
+  height: 22vh;
+  margin-top: 4vh;
+}
+
+
+
+  .column {
+    padding-top: 12vh;
+  }
+
+  .category_button {
+      margin-left: 25vh;
+      border: none;
+      display: inherit;
+  }

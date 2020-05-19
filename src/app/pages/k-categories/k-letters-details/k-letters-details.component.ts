@@ -2,11 +2,11 @@ import {Component} from '@angular/core';
 import {Location} from '@angular/common';
 
 @Component({
-    templateUrl: 'k-sounds-details.component.html',
-    styleUrls: [ 'k-sounds-details.component.css']
+    templateUrl: 'k-letters-details.component.html',
+    styleUrls: [ 'k-letters-details.component.css']
 })
 
-export class KSoundsDetailsComponent {
+export class KLettersDetailsComponent {
     category: HTMLAudioElement;
 
     constructor(private location: Location) {

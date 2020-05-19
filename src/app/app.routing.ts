@@ -15,8 +15,7 @@ import {PrekCategoriesComponent} from './pages/prek-categories';
 import {PrekSoundsDetailsComponent} from './pages/prek-categories/prek-sounds-details';
 import {PrekNamesDetailsComponent} from './pages/prek-categories/prek-names-details';
 import { KCategoriesComponent } from './pages/k-categories';
-import { KNamesDetailsComponent } from './pages/k-categories/k-names-details';
-import { KSoundsDetailsComponent } from './pages/k-categories/k-sounds-details';
+import { KLettersDetailsComponent } from './pages/k-categories/k-letters-details';
 import { KEndingSoundsDetailsComponent } from './pages/k-categories/k-ending-sounds-details';
 import { KBeginningSoundsDetailsComponent } from './pages/k-categories/k-beginning-sounds-details';
 import {SecondCategoriesComponent} from './pages/second-categories';
@@ -32,8 +31,7 @@ const routes: Routes = [
     {path: 'prek-sounds-details', component: PrekSoundsDetailsComponent},
     {path: 'prek-names-details', component: PrekNamesDetailsComponent},
     {path: 'k-categories', component: KCategoriesComponent},
-    {path: 'k-names-details', component: KNamesDetailsComponent},
-    {path: 'k-sounds-details', component: KSoundsDetailsComponent},
+    {path: 'k-letters-details', component: KLettersDetailsComponent},
     {path: 'k-beginning-sounds-details', component: KBeginningSoundsDetailsComponent},
     {path: 'k-ending-sounds-details', component: KEndingSoundsDetailsComponent},
     {path: 'second-categories', component: SecondCategoriesComponent},
