@@ -18,7 +18,7 @@
       background-position: center;
       background-size: 40vh;
       cursor: pointer;
-      width: 45vh;
+      width: 25vh;
       height: 14vh;
       margin-top: 2.5vh;
   }
@@ -27,7 +27,7 @@
     background-position: center;
     background-size: 72vh;
     cursor: pointer;
-    width: 77vh;
+    width: 50vh;
     height: 21vh;
     margin-top: 2vh;
   }
@@ -36,7 +36,7 @@
     background-position: center;
     background-size: 52vh;
     cursor: pointer;
-    width: 55vh;
+    width: 25vh;
     height: 13vh;
     margin-top: 5.5vh;
   }
@@ -45,7 +45,7 @@
     background-position: center;
     background-size: 84vh;
     cursor: pointer;
-    width: 89vh;
+    width: 70vh;
     height: 22vh;
     margin-top: 4vh;
   }
@@ -54,7 +54,7 @@
     background-position: center;
     background-size: 40vh;
     cursor: pointer;
-    width: 45vh;
+    width: 25vh;
     height: 14vh;
     margin-top: 2.5vh;
 }
@@ -63,7 +63,7 @@
   background-position: center;
   background-size: 72vh;
   cursor: pointer;
-  width: 77vh;
+  width: 57vh;
   height: 21vh;
   margin-top: 2vh;
 }
@@ -72,7 +72,7 @@
   background-position: center;
   background-size: 52vh;
   cursor: pointer;
-  width: 55vh;
+  width: 35vh;
   height: 13vh;
   margin-top: 5.5vh;
 }
@@ -81,7 +81,7 @@
   background-position: center;
   background-size: 84vh;
   cursor: pointer;
-  width: 89vh;
+  width: 70vh;
   height: 22vh;
   margin-top: 4vh;
 }
