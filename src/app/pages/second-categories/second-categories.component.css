@@ -26,12 +26,6 @@
     background-position: center;
     cursor: pointer;
 }
-#vowelconsonants {
-    background: url('../../../assets/img/buttons/second_vowelconsonants.png') no-repeat scroll transparent;
-    background-size: 50vh;
-    background-position: center;
-    cursor: pointer;
-}
   
 .category_button {
     width: 50vh;
