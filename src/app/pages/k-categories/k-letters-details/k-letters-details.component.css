@@ -16,88 +16,97 @@
   #names_lowercase_alphabetical {
       background: url('../../../../assets/img/buttons/k_letters_names_alphabetical.png') no-repeat scroll transparent;
       background-position: center;
-      background-size: 20vh;
+      background-size: 25vh;
       cursor: pointer;
       width: 25vh;
-      height: 14vh;
-      margin-top: 2.5vh;
+      height: 10vh;
   }
   #names_lowercase_bmras {
     background: url('../../../../assets/img/buttons/k_letters_names_bmras.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 52vh;
+    background-size: 25vh;
     cursor: pointer;
-    width: 50vh;
-    height: 21vh;
-    margin-top: 2vh;
+    width: 25vh;
+    height: 10vh;
   }
   #names_uppercase_alphabetical {
     background: url('../../../../assets/img/buttons/k_letters_names_capital_alphabetical.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 32vh;
+    background-size: 25vh;
     cursor: pointer;
     width: 25vh;
-    height: 13vh;
-    margin-top: 5.5vh;
+    height: 10vh;
   }
   #names_uppercase_bmras {
     background: url('../../../../assets/img/buttons/k_letters_names_capital_bmras.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 64vh;
+    background-size: 25vh;
     cursor: pointer;
-    width: 70vh;
-    height: 22vh;
-    margin-top: 4vh;
+    width: 25vh;
+    height: 10vh;
   }
   #sounds_lowercase_alphabetical {
     background: url('../../../../assets/img/buttons/k_letters_sounds_alphabetical.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 20vh;
+    background-size: 25vh;
     cursor: pointer;
     width: 25vh;
-    height: 14vh;
-    margin-top: 2.5vh;
+    height: 10vh;
 }
 #sounds_lowercase_bmras {
   background: url('../../../../assets/img/buttons/k_letters_sounds_bmras.png') no-repeat scroll transparent;
   background-position: center;
-  background-size: 52vh;
+  background-size: 25vh;
   cursor: pointer;
-  width: 57vh;
-  height: 21vh;
-  margin-top: 2vh;
+  width: 25vh;
+  height: 10vh;
 }
 #sounds_uppercase_alphabetical {
   background: url('../../../../assets/img/buttons/k_letters_sounds_capital_alphabetical.png') no-repeat scroll transparent;
   background-position: center;
-  background-size: 32vh;
+  background-size: 25vh;
   cursor: pointer;
-  width: 35vh;
-  height: 13vh;
-  margin-top: 5.5vh;
+  width: 25vh;
+  height: 10vh;
 }
 #sounds_uppercase_bmras {
   background: url('../../../../assets/img/buttons/k_letters_sounds_capital_bmras.png') no-repeat scroll transparent;
   background-position: center;
-  background-size: 64vh;
+  background-size: 25vh;
   cursor: pointer;
-  width: 70vh;
-  height: 22vh;
-  margin-top: 4vh;
+  width: 25vh;
+  height: 10vh;
 }
 
 
-
+.category_button {
+  width: 28vh;
+  height: 22vh;
+  margin: 5vh 5vh 0vh 0vh;
+  border: none;
+  margin-left: auto;
+}
   .column {
-    padding-top: 5vh;
+    float: left;
+    padding-top: 10vh;
   }
-  
+
   .column2{
-    padding-top: 5vh;
+    float: right;
+    padding-top: 10vh;
+    padding-right: 75vh;
   }
 
   .category_button {
       margin-left: 12vh;
+      margin-top: 2vh;
       border: none;
       display: inherit;
+  }
+
+  /* Clear floats after the columns */
+  .column:after {
+    content: "";
+    display: table;
+    clear: both;
   }
