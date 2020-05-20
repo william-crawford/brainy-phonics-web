@@ -18,13 +18,13 @@ import {CoinsComponent} from './pages/coins/coins.component';
 import {PuzzlesComponent} from './pages/puzzles/puzzles.component';
 import {PuzzleComponent} from './pages/puzzle/puzzle.component';
 import {PrekCategoriesComponent} from './pages/prek-categories';
-import {PrekSoundsDetailsComponent} from './pages/prek-categories/prek-sounds-details';
-import {PrekNamesDetailsComponent} from './pages/prek-categories/prek-names-details';
 import {SecondCategoriesComponent} from './pages/second-categories';
 import {SecondVowelsDetailsComponent} from './pages/second-categories/second-vowels-details';
 import {SecondConsonantsDetailsComponent} from './pages/second-categories/second-consonants-details';
-import {SecondBlendsDetailsComponent} from './pages/second-categories/second-blends-details';
-import {SecondDigraphsDetailsComponent} from './pages/second-categories/second-digraphs-details';
+import {ThirdCategoriesComponent} from './pages/third-categories';
+import {ThirdConsonantsDetailsComponent} from './pages/third-categories/third-consonants-details';
+import {ThirdVowelsDetailsComponent} from './pages/third-categories/third-vowels-details';
+import {ThirdVowelconsonantsDetailsComponent} from './pages/third-categories/third-vowelconsonants-details';
 
 @NgModule({
   declarations: [
@@ -42,13 +42,13 @@ import {SecondDigraphsDetailsComponent} from './pages/second-categories/second-d
     PuzzlesComponent,
     PuzzleComponent,
     PrekCategoriesComponent,
-    PrekSoundsDetailsComponent,
-    PrekNamesDetailsComponent,
     SecondCategoriesComponent,
     SecondVowelsDetailsComponent,
     SecondConsonantsDetailsComponent,
-    SecondBlendsDetailsComponent,
-    SecondDigraphsDetailsComponent
+    ThirdCategoriesComponent,
+    ThirdConsonantsDetailsComponent,
+    ThirdVowelsDetailsComponent,
+    ThirdVowelconsonantsDetailsComponent
 
   ],
   imports: [

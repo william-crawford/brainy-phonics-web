@@ -1,0 +1,1 @@
+export * from './third-vowels-details.component';

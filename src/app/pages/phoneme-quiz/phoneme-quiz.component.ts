@@ -270,8 +270,22 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
 
     playAudio() {
         this.stopAudioAndAnimation();
-
         this.phonemeAnimate = true;
+        this.phonemeAudio.play();
+    }
+
+    playPhonemeAudio() {
+        this.phonemeAnimate = true;
+        this.phonemeAudio.onended = () => {
+            this.phonemeAnimate = false;
+            this.phonemeAudio.onended = () => {
+                this.phonemeAnimate = false;
+                this.ex1Animate = true;
+                delay(250).then(() => {
+                    this.ex1Audio.play();
+                });
+            };
+        };
         this.phonemeAudio.play();
     }
 

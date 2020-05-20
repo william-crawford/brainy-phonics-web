@@ -1,0 +1,79 @@
+#main-body {
+  width: 169.7vh;
+  height: 0vh;
+  padding-left: 40vh;
+  position: relative;
+}
+
+#background {
+    background-color: #FFFFFF !important;
+    background: url('../../../../assets/img/backgrounds/third_vowels_details.png') no-repeat scroll transparent;
+    background-position: 14vh 2vh;
+    background-size: 173vh;
+}
+
+/* Phonics Categories */
+#short {
+    background: url('../../../../assets/img/buttons/third_vowels_short.png') no-repeat scroll transparent;
+    background-size: 34vh;
+    margin-top: 17vh;
+    cursor: pointer;
+    width: 32vh;
+}
+#long {
+    background: url('../../../../assets/img/buttons/third_vowels_long.png') no-repeat scroll transparent;
+    background-size: 30vh;
+    margin: 17vh 0vh 0vh 7vh;
+    cursor: pointer;
+    width: 28vh;
+}
+#schwa {
+    background: url('../../../../assets/img/buttons/third_vowels_schwa.png') no-repeat scroll transparent;
+    background-size: 41vh;
+    margin-left: 3vh;
+    cursor: pointer;
+    width: 39vh;
+}
+#pairs {
+    background: url('../../../../assets/img/buttons/third_vowels_pairs.png') no-repeat scroll transparent;
+    background-size: 33vh;
+    cursor: pointer;
+    width: 31vh;
+}
+#y {
+    background: url('../../../../assets/img/buttons/third_vowels_y.png') no-repeat scroll transparent;
+    background-size: 55.5vh;
+    margin-left: 8vh;
+    cursor: pointer;
+    width: 54vh;
+}
+#e {
+    background: url('../../../../assets/img/buttons/third_vowels_e.png') no-repeat scroll transparent;
+    background-size: 44vh;
+    margin-left: 62vh;
+    cursor: pointer;
+    width: 43vh;
+}
+#r {
+    background: url('../../../../assets/img/buttons/third_vowels_r.png') no-repeat scroll transparent;
+    background-size: 38vh;
+    cursor: pointer;
+    width: 36vh;
+}
+
+.category_button {
+    width: 39vh;
+    height: 15.7vh;
+    margin: 4vh 0vh 0vh 23vh;
+    border: none;
+}
+
+.column {
+    padding-top: 2.5vh;
+}
+/* Clear floats after the columns */
+.column:after {
+  content: "";
+  display: table;
+  clear: both;
+}

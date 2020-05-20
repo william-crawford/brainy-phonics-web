@@ -120,6 +120,9 @@ h2 {
 p {
   font-size: 14px;
 }
+::ng-deep span {
+  color: red;
+}
 
 /* Buttons */
 #forward {
