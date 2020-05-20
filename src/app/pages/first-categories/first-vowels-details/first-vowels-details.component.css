@@ -7,38 +7,43 @@
   
   #background {
       background-color: #FFFFFF !important;
-      background: url('../../../../assets/img/backgrounds/second_vowels_details.png') no-repeat scroll transparent;
+      background: url('../../../../assets/img/backgrounds/first_vowels.png') no-repeat scroll transparent;
       background-position: center top;
-      background-size: 160vh;
+      background-size: 132vh;
   }
   
-  /* Second Categories */
+  /* First Categories */
   #short {
-      background: url('../../../../assets/img/buttons/second_short.png') no-repeat scroll transparent;
-      background-size: 35vh;
+      background: url('../../../../assets/img/buttons/first_vowels_short.png') no-repeat scroll transparent;
+      background-position: center;
+      background-size: 72vh;
       cursor: pointer;
-      width: 35vh;
+      width: 72vh;
+      height: 20vh;
   }
   #long {
-    background: url('../../../../assets/img/buttons/second_long.png') no-repeat scroll transparent;
-    background-size: 32vh;
-    width: 31vh;
+    background: url('../../../../assets/img/buttons/first_vowels_long.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 72vh;
     cursor: pointer;
-  }
-  #ysounds {
-    background: url('../../../../assets/img/buttons/second_ysounds.png') no-repeat scroll transparent;
-    background-size: 61vh;
-    margin-top: 4.5vh;
-    cursor: pointer;
-    width: 61vh;
+    width: 72vh;
+    height: 20vh;
   }
   #pairs {
-    background: url('../../../../assets/img/buttons/second_pairs.png') no-repeat scroll transparent;
-    background-size: 38vh;
-    margin-left: 33.5vh;
+    background: url('../../../../assets/img/buttons/first_vowels_pairs.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 75vh;
     cursor: pointer;
-    margin-top: 4vh;
-    width: 36vh;
+    width: 73vh;
+    height: 20vh;
+  }
+  #y_sounds {
+    background: url('../../../../assets/img/buttons/first_vowels_y_sounds.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 75vh;
+    cursor: pointer;
+    width: 73vh;
+    height: 20vh;
   }
 
   .column {
@@ -46,8 +51,7 @@
   }
 
   .category_button {
-      margin: 4vh 0vh 0vh 33vh;
-      height: 12.5vh;
+      margin-left: 40vh;
       border: none;
       display: inherit;
   }

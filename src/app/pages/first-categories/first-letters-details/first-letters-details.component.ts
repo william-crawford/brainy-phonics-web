@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 import { Location } from '@angular/common';
 
 @Component({
-  templateUrl: './first-categories.component.html',
-  styleUrls: ['./first-categories.component.css']
+  templateUrl: './first-letters-details.component.html',
+  styleUrls: ['./first-letters-details.component.css']
 })
-export class FirstCategoriesComponent {
+export class FirstLettersDetailsComponent {
   category: HTMLAudioElement;
     
   constructor(private location: Location) {

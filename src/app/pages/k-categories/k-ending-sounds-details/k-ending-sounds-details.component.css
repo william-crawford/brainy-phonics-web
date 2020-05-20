@@ -7,47 +7,49 @@
   
   #background {
       background-color: #FFFFFF !important;
-      background: url('../../../../assets/img/backgrounds/prek_names_details.png') no-repeat scroll transparent;
+      background: url('../../../../assets/img/backgrounds/k_ending_sounds.png') no-repeat scroll transparent;
       background-position: center top;
       background-size: 132vh;
   }
   
   /* Pre-K Categories */
   #lowercase_alphabetical {
-      background: url('../../../../assets/img/buttons/lowercase_alphabetical.png') no-repeat scroll transparent;
+      background: url('../../../../assets/img/buttons/k_ending_sounds_alphabetical.png') no-repeat scroll transparent;
       background-position: center;
-      background-size: 40vh;
+      background-size: 72vh;
       cursor: pointer;
-      width: 45vh;
-      height: 14vh;
+      width: 72vh;
+      height: 20vh;
       margin-top: 2.5vh;
+      margin-left: 30vh;
   }
   #lowercase_bmras {
-    background: url('../../../../assets/img/buttons/lowercase_bmras.png') no-repeat scroll transparent;
+    background: url('../../../../assets/img/buttons/k_ending_sounds_bmras.png') no-repeat scroll transparent;
     background-position: center;
     background-size: 72vh;
     cursor: pointer;
     width: 77vh;
     height: 21vh;
     margin-top: 2vh;
+    margin-left: 30vh;
   }
   #uppercase_alphabetical {
-    background: url('../../../../assets/img/buttons/uppercase_alphabetical.png') no-repeat scroll transparent;
+    background: url('../../../../assets/img/buttons/k_ending_sounds_capital_alphabetical.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 52vh;
+    background-size: 77vh;
     cursor: pointer;
-    width: 55vh;
-    height: 13vh;
-    margin-top: 5.5vh;
+    width: 77vh;
+    height: 18vh;
+    margin-left: 30vh;
   }
   #uppercase_bmras {
-    background: url('../../../../assets/img/buttons/uppercase_bmras.png') no-repeat scroll transparent;
+    background: url('../../../../assets/img/buttons/k_ending_sounds_capital_bmras.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 84vh;
+    background-size: 77vh;
     cursor: pointer;
     width: 89vh;
     height: 22vh;
-    margin-top: 4vh;
+    margin-left: 30vh;
   }
 
   .column {

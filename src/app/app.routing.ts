@@ -12,6 +12,14 @@ import {CoinsComponent} from './pages/coins/coins.component';
 import {PuzzlesComponent} from './pages/puzzles/puzzles.component';
 import {PuzzleComponent} from './pages/puzzle/puzzle.component';
 import {PrekCategoriesComponent} from './pages/prek-categories';
+import { KCategoriesComponent } from './pages/k-categories';
+import { KLettersDetailsComponent } from './pages/k-categories/k-letters-details';
+import { KEndingSoundsDetailsComponent } from './pages/k-categories/k-ending-sounds-details';
+import { KBeginningSoundsDetailsComponent } from './pages/k-categories/k-beginning-sounds-details';
+import { FirstCategoriesComponent } from './pages/first-categories/first-categories.component';
+import { FirstLettersDetailsComponent } from './pages/first-categories/first-letters-details/first-letters-details.component';
+import { FirstConsonantsDetailsComponent } from './pages/first-categories/first-consonants-details/first-consonants-details.component';
+import { FirstVowelsDetailsComponent } from './pages/first-categories/first-vowels-details/first-vowels-details.component';
 import {SecondCategoriesComponent} from './pages/second-categories';
 import {SecondVowelsDetailsComponent} from './pages/second-categories/second-vowels-details';
 import {SecondConsonantsDetailsComponent} from './pages/second-categories/second-consonants-details';
@@ -24,6 +32,14 @@ const routes: Routes = [
     {path: '', component: HomeComponent},
     {path: 'phoneme-categories', component: PhonemeCategoriesComponent},
     {path: 'prek-categories', component: PrekCategoriesComponent},
+    {path: 'k-categories', component: KCategoriesComponent},
+    {path: 'k-letters-details', component: KLettersDetailsComponent},
+    {path: 'k-beginning-sounds-details', component: KBeginningSoundsDetailsComponent},
+    {path: 'k-ending-sounds-details', component: KEndingSoundsDetailsComponent},
+    {path: 'first-categories', component: FirstCategoriesComponent},
+    {path: 'first-letters-details', component: FirstLettersDetailsComponent},
+    {path: 'first-consonants-details', component: FirstConsonantsDetailsComponent},
+    {path: 'first-vowels-details', component: FirstVowelsDetailsComponent},
     {path: 'second-categories', component: SecondCategoriesComponent},
     {path: 'second-vowels-details', component: SecondVowelsDetailsComponent},
     {path: 'second-consonants-details', component: SecondConsonantsDetailsComponent},
