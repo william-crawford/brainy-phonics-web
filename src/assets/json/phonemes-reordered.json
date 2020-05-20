@@ -1541,18 +1541,14 @@
             "image": "skis.png"
         },
         "word3": {
-            "word": "poison",
-            "display": "poi<span>s</span>on",
-            "audio": "poison.mp3",
-            "image": "poison.png"
+            "word": "boots",
+            "display": "boot<span>s</span>",
+            "audio": "boots.mp3",
+            "image": "boots.png"
         },
         "quiz-words": [
-            "nose",
-            "present",
-            "raccoons",
-            "frisbee",
-            "boots",
             "gloves",
+            "raccoons",
             "crayons",
             "walnuts",
             "binoculars"
@@ -1562,8 +1558,8 @@
             "vowel": "green"
         },
         "rhyme": "Scissor(s) and string,</br>Scissor(s) and string.</br>When a man'(s) single,</br>he live(s) like a king.",
-        "category": ["C"],
-        "grade": []
+        "category": ["C-end", "C"],
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "T-begin",
