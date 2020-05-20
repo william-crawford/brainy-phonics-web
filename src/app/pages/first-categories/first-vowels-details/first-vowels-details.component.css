@@ -1,0 +1,57 @@
+#main-body {
+    width: 169.7vh;
+    height: 0vh;
+    padding-left: 40vh;
+    position: relative;
+  }
+  
+  #background {
+      background-color: #FFFFFF !important;
+      background: url('../../../../assets/img/backgrounds/first_vowels.png') no-repeat scroll transparent;
+      background-position: center top;
+      background-size: 132vh;
+  }
+  
+  /* First Categories */
+  #short {
+      background: url('../../../../assets/img/buttons/first_vowels_short.png') no-repeat scroll transparent;
+      background-position: center;
+      background-size: 72vh;
+      cursor: pointer;
+      width: 72vh;
+      height: 20vh;
+  }
+  #long {
+    background: url('../../../../assets/img/buttons/first_vowels_long.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 72vh;
+    cursor: pointer;
+    width: 72vh;
+    height: 20vh;
+  }
+  #pairs {
+    background: url('../../../../assets/img/buttons/first_vowels_pairs.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 75vh;
+    cursor: pointer;
+    width: 73vh;
+    height: 20vh;
+  }
+  #y_sounds {
+    background: url('../../../../assets/img/buttons/first_vowels_y_sounds.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 75vh;
+    cursor: pointer;
+    width: 73vh;
+    height: 20vh;
+  }
+
+  .column {
+    padding-top: 12vh;
+  }
+
+  .category_button {
+      margin-left: 40vh;
+      border: none;
+      display: inherit;
+  }

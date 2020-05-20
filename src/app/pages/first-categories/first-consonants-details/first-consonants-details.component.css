@@ -1,0 +1,74 @@
+#main-body {
+    width: 169.7vh;
+    height: 0vh;
+    padding-left: 40vh;
+    position: relative;
+  }
+  
+  #background {
+      background-color: #FFFFFF !important;
+      background: url('../../../../assets/img/backgrounds/first_consonants.png') no-repeat scroll transparent;
+      background-position: center top;
+      background-size: 132vh;
+  }
+  
+  /* 1st Categories */
+  #sounds_beginning {
+      background: url('../../../../assets/img/buttons/first_sounds_beginning.png') no-repeat scroll transparent;
+      background-position: center;
+      background-size: 50vh;
+      cursor: pointer;
+      width: 50vh;
+      height: 8vh;
+  }
+  #sounds_ending {
+    background: url('../../../../assets/img/buttons/first_sounds_ending.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 45vh;
+    cursor: pointer;
+    width: 45vh;
+    height: 8vh;
+  }
+  #blends_beginning {
+    background: url('../../../../assets/img/buttons/first_blends_beginning.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 50vh;
+    cursor: pointer;
+    width: 50vh;
+    height: 8vh;
+  }
+  #blends_ending {
+    background: url('../../../../assets/img/buttons/first_blends_ending.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 45vh;
+    cursor: pointer;
+    width: 45vh;
+    height: 8vh;
+  }
+  #diagraphs_beginning {
+    background: url('../../../../assets/img/buttons/first_diagraphs_beginning.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 70vh;
+    cursor: pointer;
+    width: 70vh;
+    height: 10vh;
+  }
+  #diagraphs_ending {
+    background: url('../../../../assets/img/buttons/first_diagraphs_ending.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 65vh;
+    cursor: pointer;
+    width: 65vh;
+    height: 12vh;
+  }
+
+  .column {
+    padding-top: 10vh;
+  }
+
+  .category_button {
+      margin-left: 15vh;
+      margin-top: 2vh;
+      border: none;
+      display: inherit;
+  }
