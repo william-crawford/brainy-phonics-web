@@ -20,36 +20,30 @@
       cursor: pointer;
       width: 72vh;
       height: 20vh;
-      margin-top: 2.5vh;
-      margin-left: 30vh;
   }
   #long {
     background: url('../../../../assets/img/buttons/first_vowels_long.png') no-repeat scroll transparent;
     background-position: center;
     background-size: 72vh;
     cursor: pointer;
-    width: 77vh;
-    height: 21vh;
-    margin-top: 2vh;
-    margin-left: 30vh;
+    width: 72vh;
+    height: 20vh;
   }
   #pairs {
     background: url('../../../../assets/img/buttons/first_vowels_pairs.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 77vh;
+    background-size: 75vh;
     cursor: pointer;
-    width: 77vh;
-    height: 18vh;
-    margin-left: 30vh;
+    width: 73vh;
+    height: 20vh;
   }
   #y_sounds {
     background: url('../../../../assets/img/buttons/first_vowels_y_sounds.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 77vh;
+    background-size: 75vh;
     cursor: pointer;
-    width: 89vh;
-    height: 22vh;
-    margin-left: 30vh;
+    width: 73vh;
+    height: 20vh;
   }
 
   .column {
@@ -57,7 +51,7 @@
   }
 
   .category_button {
-      margin-left: 25vh;
+      margin-left: 40vh;
       border: none;
       display: inherit;
   }
