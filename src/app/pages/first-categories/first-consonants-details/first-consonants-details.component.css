@@ -16,66 +16,59 @@
   #sounds_beginning {
       background: url('../../../../assets/img/buttons/first_sounds_beginning.png') no-repeat scroll transparent;
       background-position: center;
-      background-size: 72vh;
+      background-size: 50vh;
       cursor: pointer;
-      width: 72vh;
-      height: 20vh;
-      margin-top: 2.5vh;
-      margin-left: 30vh;
+      width: 50vh;
+      height: 8vh;
   }
   #sounds_ending {
     background: url('../../../../assets/img/buttons/first_sounds_ending.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 72vh;
+    background-size: 45vh;
     cursor: pointer;
-    width: 77vh;
-    height: 21vh;
-    margin-top: 2vh;
-    margin-left: 30vh;
+    width: 45vh;
+    height: 8vh;
   }
-  #blends_beginnning {
+  #blends_beginning {
     background: url('../../../../assets/img/buttons/first_blends_beginning.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 77vh;
+    background-size: 50vh;
     cursor: pointer;
-    width: 77vh;
-    height: 18vh;
-    margin-left: 30vh;
+    width: 50vh;
+    height: 8vh;
   }
   #blends_ending {
     background: url('../../../../assets/img/buttons/first_blends_ending.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 77vh;
+    background-size: 45vh;
     cursor: pointer;
-    width: 89vh;
-    height: 22vh;
-    margin-left: 30vh;
+    width: 45vh;
+    height: 8vh;
   }
-  #diagraphs_beginnning {
+  #diagraphs_beginning {
     background: url('../../../../assets/img/buttons/first_diagraphs_beginning.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 77vh;
+    background-size: 70vh;
     cursor: pointer;
-    width: 77vh;
-    height: 18vh;
-    margin-left: 30vh;
+    width: 70vh;
+    height: 10vh;
   }
   #diagraphs_ending {
     background: url('../../../../assets/img/buttons/first_diagraphs_ending.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 77vh;
+    background-size: 65vh;
     cursor: pointer;
-    width: 89vh;
-    height: 22vh;
-    margin-left: 30vh;
+    width: 65vh;
+    height: 12vh;
   }
 
   .column {
-    padding-top: 12vh;
+    padding-top: 10vh;
   }
 
   .category_button {
-      margin-left: 25vh;
+      margin-left: 15vh;
+      margin-top: 2vh;
       border: none;
       display: inherit;
   }
