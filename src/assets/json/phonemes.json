@@ -113,6 +113,8 @@
         "color": {
             "all": "green",
             "vowel": "green",
+            "K": "black",
+            "1st": "black",
             "2nd": "black",
             "3rd": "black"
         },
@@ -152,6 +154,8 @@
         "color": {
             "all": "pink",
             "vowel": "pink",
+            "K": "green",
+            "1st": "green",
             "2nd": "green",
             "3rd": "green"
         },
@@ -1163,6 +1167,8 @@
         "color": {
             "all": "green",
             "vowel": "green",
+            "K": "black",
+            "1st": "black",
             "2nd": "black",
             "3rd": "black"
         },
@@ -2204,6 +2210,8 @@
         "color": {
             "all": "green",
             "vowel": "green",
+            "K": "black",
+            "1st": "black",
             "2nd": "black",
             "3rd": "black"
         },
@@ -2281,6 +2289,8 @@
         "color": {
             "all": "pink",
             "vowel": "pink",
+            "K": "green",
+            "1st": "green",
             "2nd": "green",
             "3rd": "green"
         },
@@ -3540,6 +3550,8 @@
         "color": {
             "all": "green",
             "vowel": "green",
+            "K": "black",
+            "1st": "black",
             "2nd": "black",
             "3rd": "black"
         },
@@ -3782,6 +3794,7 @@
         "color": {
             "all": "green",
             "vowel": "green",
+            "1st": "green",
             "2nd": "green",
             "3rd": "green"
         },
@@ -5658,6 +5671,8 @@
         "color": {
             "all": "pink",
             "vowel": "pink",
+            "K": "black",
+            "1st": "black",
             "2nd": "black",
             "3rd": "black"
         },

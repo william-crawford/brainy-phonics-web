@@ -16,38 +16,35 @@
   #lowercase_alphabetical {
       background: url('../../../../assets/img/buttons/k_beginning_sounds_alphabetical.png') no-repeat scroll transparent;
       background-position: center;
-      background-size: 72vh;
+      background-size: 65vh;
       cursor: pointer;
-      width: 77vh;
-      height: 14vh;
-      margin-top: 2.5vh;
+      width: 65vh;
+      height: 15vh;
+      margin-top: 0vh;
   }
   #lowercase_bmras {
     background: url('../../../../assets/img/buttons/k_beginning_sounds_bmras.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 72vh;
+    background-size: 62vh;
     cursor: pointer;
-    width: 77vh;
-    height: 21vh;
-    margin-top: 2vh;
+    width: 63vh;
+    height: 16vh;
   }
   #uppercase_alphabetical {
     background: url('../../../../assets/img/buttons/k_beginning_sounds_capital_alphabetical.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 72vh;
+    background-size: 80vh;
     cursor: pointer;
-    width: 77vh;
-    height: 13vh;
-    margin-top: 5.5vh;
+    width: 80vh;
+    height: 17vh;
   }
   #uppercase_bmras {
     background: url('../../../../assets/img/buttons/k_beginning_sounds_capital_bmras.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 84vh;
+    background-size: 77vh;
     cursor: pointer;
-    width: 89vh;
-    height: 22vh;
-    margin-top: 4vh;
+    width: 77vh;
+    height: 16vh;
   }
 
   .column {
@@ -55,7 +52,7 @@
   }
 
   .category_button {
-      margin-left: 25vh;
+      margin: 5.2vh 0vh 0vh 29vh;
       border: none;
       display: inherit;
   }

@@ -8,36 +8,37 @@
   #background {
       background-color: #FFFFFF !important;
       background: url('../../../assets/img/backgrounds/first_categories.png') no-repeat scroll transparent;
-      background-position: 30vh;
-      background-size: 140vh;
+      background-position: 20vh 0vh;
+      background-size: 160vh;
   }
   
   /* Phonics Categories */
   #letters {
       background: url('../../../assets/img/buttons/first_letters_button.png') no-repeat scroll transparent;
       background-position: center;
-      background-size: 100%;
+      background-size: 40vh;
       cursor: pointer;
+      margin-top: 3vh;
   }
 
   #consonants {
       background: url('../../../assets/img/buttons/first_consonants_button.png') no-repeat scroll transparent;
       background-position: center;
-      background-size: 100%;
+      background-size: 40vh;
       cursor: pointer;
   }
   #vowels {
     background: url('../../../assets/img/buttons/first_vowels_button.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 100%;
+    background-size: 40vh;
     cursor: pointer;
 }
   
   .category_button {
-      width: 28vh;
-      height: 22vh;
-      border: none;
-      margin-left: auto;
+    width: 40vh;
+    height: 17vh;
+    border: none;
+    margin: 5vh 0vh 0vh -8vh;
   }
 
   

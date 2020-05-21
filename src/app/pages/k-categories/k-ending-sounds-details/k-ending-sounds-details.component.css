@@ -9,47 +9,42 @@
       background-color: #FFFFFF !important;
       background: url('../../../../assets/img/backgrounds/k_ending_sounds.png') no-repeat scroll transparent;
       background-position: center top;
-      background-size: 132vh;
+      background-size: 127vh;
   }
   
   /* Pre-K Categories */
   #lowercase_alphabetical {
       background: url('../../../../assets/img/buttons/k_ending_sounds_alphabetical.png') no-repeat scroll transparent;
       background-position: center;
-      background-size: 72vh;
+      background-size: 60vh;
       cursor: pointer;
-      width: 72vh;
-      height: 20vh;
-      margin-top: 2.5vh;
-      margin-left: 30vh;
+      width: 60vh;
+      height: 15vh;
+      margin-top: 0.5vh;
   }
   #lowercase_bmras {
     background: url('../../../../assets/img/buttons/k_ending_sounds_bmras.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 72vh;
+    background-size: 65vh;
     cursor: pointer;
-    width: 77vh;
-    height: 21vh;
-    margin-top: 2vh;
-    margin-left: 30vh;
+    width: 65vh;
+    height: 16vh;
   }
   #uppercase_alphabetical {
     background: url('../../../../assets/img/buttons/k_ending_sounds_capital_alphabetical.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 77vh;
+    background-size: 75vh;
     cursor: pointer;
-    width: 77vh;
+    width: 75vh;
     height: 18vh;
-    margin-left: 30vh;
   }
   #uppercase_bmras {
     background: url('../../../../assets/img/buttons/k_ending_sounds_capital_bmras.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 77vh;
+    background-size: 75vh;
     cursor: pointer;
-    width: 89vh;
-    height: 22vh;
-    margin-left: 30vh;
+    width: 75vh;
+    height: 18vh;
   }
 
   .column {
@@ -57,7 +52,7 @@
   }
 
   .category_button {
-      margin-left: 25vh;
+      margin: 5vh 0vh 0vh 41vh;
       border: none;
       display: inherit;
   }

@@ -8,58 +8,60 @@
   #background {
       background-color: #FFFFFF !important;
       background: url('../../../../assets/img/backgrounds/first_consonants.png') no-repeat scroll transparent;
-      background-position: center top;
-      background-size: 132vh;
+      background-position: 27vh;
+      background-size: 138vh;
   }
   
   /* 1st Categories */
   #sounds_beginning {
       background: url('../../../../assets/img/buttons/first_sounds_beginning.png') no-repeat scroll transparent;
       background-position: center;
-      background-size: 50vh;
+      background-size: 63vh;
       cursor: pointer;
-      width: 50vh;
+      width: 63vh;
       height: 8vh;
   }
   #sounds_ending {
     background: url('../../../../assets/img/buttons/first_sounds_ending.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 45vh;
+    background-size: 53vh;
     cursor: pointer;
-    width: 45vh;
+    margin-left: 14.2vh;
+    width: 55vh;
     height: 8vh;
   }
   #blends_beginning {
     background: url('../../../../assets/img/buttons/first_blends_beginning.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 50vh;
+    background-size: 58vh;
     cursor: pointer;
-    width: 50vh;
-    height: 8vh;
+    width: 58vh;
+    height: 7vh;
   }
   #blends_ending {
     background: url('../../../../assets/img/buttons/first_blends_ending.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 45vh;
+    background-size: 52vh;
     cursor: pointer;
-    width: 45vh;
-    height: 8vh;
+    margin-left: 14.8vh;
+    width: 52vh;
+    height: 7vh;
   }
   #diagraphs_beginning {
     background: url('../../../../assets/img/buttons/first_diagraphs_beginning.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 70vh;
+    background-size: 83vh;
     cursor: pointer;
-    width: 70vh;
+    width: 83vh;
     height: 10vh;
   }
   #diagraphs_ending {
     background: url('../../../../assets/img/buttons/first_diagraphs_ending.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 65vh;
+    background-size: 75vh;
     cursor: pointer;
-    width: 65vh;
-    height: 12vh;
+    width: 75vh;
+    height: 10vh;
   }
 
   .column {
@@ -67,8 +69,7 @@
   }
 
   .category_button {
-      margin-left: 15vh;
-      margin-top: 2vh;
+      margin: 5vh 0vh 0vh 15vh;
       border: none;
       display: inherit;
   }

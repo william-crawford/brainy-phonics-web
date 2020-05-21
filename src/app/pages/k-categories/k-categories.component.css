@@ -16,34 +16,36 @@
   #letters {
       background: url('../../../assets/img/buttons/k_letters_button.png') no-repeat scroll transparent;
       background-position: center;
-      background-size: 100%;
+      margin-left: -10vh;
+      background-size: 38vh;
       cursor: pointer;
   }
 
   #beginning-sounds {
       background: url('../../../assets/img/buttons/k_beginning_sounds_button.png') no-repeat scroll transparent;
       background-position: center;
-      background-size: 100%;
+      background-size: 38vh;
       cursor: pointer;
   }
   #ending-sounds {
     background: url('../../../assets/img/buttons/k_ending_sounds_button.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 100%;
+    background-size: 38vh;
     cursor: pointer;
 }
 
   #vowels {
     background: url('../../../assets/img/buttons/k_vowels.png') no-repeat scroll transparent;
     background-position: center;
-    background-size: 100%;
+    margin-left: -10vh;
+    background-size: 38vh;
     cursor: pointer;
 }
   
   .category_button {
-      width: 28vh;
-      height: 22vh;
-      margin: 5vh 5vh 0vh 0vh;
+      width: 38vh;
+      height: 26vh;
+      margin: 1vh 5vh 0vh 0vh;
       border: none;
       margin-left: auto;
   }
