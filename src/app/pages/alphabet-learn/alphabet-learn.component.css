@@ -9,10 +9,6 @@
   position: relative;
 }
 
-#column {
-    width: 42vh;
-}
-
 .back-button {
     width: 9.5vh;
     height: 9.5vh;
@@ -37,12 +33,11 @@
 
 .letter {
   font-size: 19.4vh;
-  padding-top: -10vh;
-  margin-left: 44vh;
-  padding-top: 30vh;
+  margin-left: 49vh;
+  padding-top: 27.5vh;
   cursor: pointer;
   transition: all .5s;
-  transform: scale(1) translate(5.5vh, 3vh);
+  transform: scale(1) translate(5.5vh, 5vh);
 }
 
 .animateLetter {

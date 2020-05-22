@@ -36,7 +36,6 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy, AfterViewInit {
     ex2: AlphabetLetter;
     ex3: AlphabetLetter;
     ex4: AlphabetLetter;
-    empty = new AlphabetLetter(' ', '/assets/audio/buttons/incorrect.mp3', 0);
 
     constructor(
         private transferService: TransferLetterService,
@@ -120,24 +119,12 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy, AfterViewInit {
     correctAnswer(correct : AlphabetLetter) {
         if (correct == this.ex1) {
             this.letterAnimate1 = true;
-            this.ex2 = this.empty;
-            this.ex3 = this.empty;
-            this.ex4 = this.empty;
         } else if (correct == this.ex2) {
             this.letterAnimate2 = true;
-            this.ex1 = this.empty;
-            this.ex3 = this.empty;
-            this.ex4 = this.empty;
         } else if (correct == this.ex3) {
             this.letterAnimate3 = true;
-            this.ex2 = this.empty;
-            this.ex1 = this.empty;
-            this.ex4 = this.empty;
         } else {
             this.letterAnimate4 = true;
-            this.ex2 = this.empty;
-            this.ex3 = this.empty;
-            this.ex1 = this.empty;
         }
 
         this.letterAudio.onended = () => {
@@ -216,11 +203,8 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy, AfterViewInit {
         var copiedList = [...this.letterList];
 
         // remove selected alphabet from list
-        const index : number = copiedList.indexOf(current);
-
-        if (index !== -1) {
-            copiedList.splice(index, 1);
-        }
+        const index = copiedList.map(e => e.letter).indexOf(current.letter);
+        copiedList.splice(index, 1);
 
         // create list of 3 unique randomized examples
         var n = 3;
@@ -233,7 +217,6 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy, AfterViewInit {
             result[n] = copiedList[x in taken ? taken[x] : x];
             taken[x] = --len in taken ? taken[len] : len;
         }
-
         return result;
     }
 

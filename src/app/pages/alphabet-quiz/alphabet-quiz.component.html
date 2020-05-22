@@ -1,19 +1,12 @@
 <div id='background'>
     <div id='main-body'>
         <div class='column'>
-            <div class='row'>
-                <div class='letter' [ngClass]="{'animateLetter1': letterAnimate1}" (click)='check(ex1)'>{{ex1.letter}}
-                </div>
-                <div class='letter3' [ngClass]="{'animateLetter3': letterAnimate3}" (click)='check(ex3)'>{{ex3.letter}}
-                </div>
-            </div>
+            <div id='letter' [ngClass]="{'animateLetter1': letterAnimate1, 'letter-temp2': letterAnimate2, 'letter-temp3': letterAnimate3, 'letter-temp4': letterAnimate4}" (click)='check(ex1)'>{{ex1.letter}}</div>
+            <div id='letter3' [ngClass]="{'animateLetter3': letterAnimate3, 'letter-temp': letterAnimate1, 'letter-temp2': letterAnimate2, 'letter-temp4': letterAnimate4}" (click)='check(ex3)'>{{ex3.letter}}</div>
         </div>
-
         <div class='column'>
-            <div class='letter2' [ngClass]="{'animateLetter2': letterAnimate2}" (click)='check(ex2)'>{{ex2.letter}}
-            </div>
-            <div class='letter4' [ngClass]="{'animateLetter4': letterAnimate4}" (click)='check(ex4)'>{{ex4.letter}}
-            </div>
+            <div id='letter2' [ngClass]="{'animateLetter2': letterAnimate2, 'letter-temp': letterAnimate1, 'letter-temp3': letterAnimate3, 'letter-temp4': letterAnimate4}" (click)='check(ex2)'>{{ex2.letter}}</div>
+            <div id='letter4' [ngClass]="{'animateLetter4': letterAnimate4, 'letter-temp': letterAnimate1, 'letter-temp2': letterAnimate2, 'letter-temp3': letterAnimate3}" (click)='check(ex4)'>{{ex4.letter}}</div>
         </div>
     </div>
 
