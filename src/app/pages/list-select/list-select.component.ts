@@ -193,7 +193,7 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
                     img.setAttribute("src", '/assets/img/progress/check_mark.png')
                     img.setAttribute("width", '46px')
                     img.setAttribute("height", '46px')
-                    img.style.marginLeft = '13vh';
+                    img.style.marginLeft = '10vh';
                     elem.appendChild(img);
                 }
             }
