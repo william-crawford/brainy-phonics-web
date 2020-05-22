@@ -1323,6 +1323,7 @@
         "color": {
             "all": "green",
             "vowel": "green",
+            "1st": "green",
             "2nd": "green",
             "3rd": "green"
         },
@@ -4564,7 +4565,10 @@
         ],
         "color": {
             "all": "green",
-            "vowel": "green"
+            "vowel": "green",
+            "1st": "green",
+            "2nd": "green",
+            "3rd": "green"
         },
         "rhyme": "Scissor(s) and string,</br>Scissor(s) and string.</br>When a man'(s) single,</br>he live(s) like a king.",
         "category": ["C-end", "C"],
@@ -5437,8 +5441,7 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
-            "1st": "green"
+            "vowel": "black"
         },
         "rhyme": "",
         "category": ["CD-end", "CD", "C"],
@@ -5632,6 +5635,7 @@
         "color": {
             "all": "green",
             "vowel": "green",
+            "1st": "green",
             "2nd": "green",
             "3rd": "green"
         },
@@ -6140,7 +6144,7 @@
             "3rd": "black"
         },
         "rhyme": "",
-        "category": ["Y", "V", "VP"],
+        "category": ["Y", "V"],
         "grade": ["1st", "2nd", "3rd"]
     },
     {
