@@ -157,9 +157,13 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
                     for (let i = 0; i < numGoldStars; i++) {
                         let img = document.createElement('img');
                         if (this.list === 'alphabet') {
-                            img.style.transform = 'translateY(-21vh)';
+                            img.style.transform = 'translateY(-21.2vh)';
                         } else {
-                            img.style.transform = 'translateY(-33vh)';
+                            if (Object.keys(document.getElementsByTagName('app-card')).length > 6) {
+                                img.style.transform = 'translateY(-31.4vh)';
+                            } else {
+                                img.style.transform = 'translateY(-33vh)';
+                            }
                         }
                         img.setAttribute("src", '/assets/img/progress/Gold-Star-Blank.png')
                         img.setAttribute("width", '25px')
@@ -186,14 +190,22 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
                 if (this.progressService.getCheckMark(queryStatement)) {
                     let img = document.createElement('img');
                     if (this.list === 'alphabet') {
-                        img.style.transform = 'translateY(-22vh)';
+                        img.style.transform = 'translateY(-22.1vh)';
                     } else {
-                        img.style.transform = 'translateY(-33vh)';
+                        if (Object.keys(document.getElementsByTagName('app-card')).length > 6) {
+                            img.style.transform = 'translateY(-32.3vh)';
+                        } else {
+                            img.style.transform = 'translateY(-33.8vh)';
+                        }
                     }
                     img.setAttribute("src", '/assets/img/progress/check_mark.png')
                     img.setAttribute("width", '46px')
                     img.setAttribute("height", '46px')
-                    img.style.marginLeft = '10vh';
+                    if (Object.keys(document.getElementsByTagName('app-card')).length > 6) {
+                        img.style.marginLeft = '10.8vh';
+                    } else {
+                        img.style.marginLeft = '14vh';
+                    }
                     elem.appendChild(img);
                 }
             }
