@@ -475,7 +475,7 @@
         "grade": ["1st", "2nd", "3rd"]
     },
     {
-        "id": "B-begin",
+        "id": "B-buh-begin",
         "audio": "phoneme-B-buh.mp3",
         "display": "b",
         "word1": {
@@ -513,7 +513,7 @@
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "B-end",
+        "id": "B-buh-end",
         "audio": "phoneme-B-buh.mp3",
         "display": "b",
         "word1": {
@@ -627,7 +627,7 @@
         "grade": ["1st", "2nd", "3rd"]
     },
     {
-        "id": "C-hard-begin",
+        "id": "C-kuh-begin",
         "audio": "phoneme-C-kuh.mp3",
         "display": "c",
         "word1": {
@@ -667,7 +667,7 @@
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "C-hard-end",
+        "id": "C-kuh-end",
         "audio": "phoneme-C-kuh.mp3",
         "display": "c",
         "word1": {
@@ -980,7 +980,7 @@
         "grade": ["1st", "2nd", "3rd"]
     },
     {
-        "id": "D-begin",
+        "id": "D-duh-begin",
         "audio": "phoneme-D-duh.mp3",
         "display": "d",
         "word1": {
@@ -1018,7 +1018,7 @@
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "D-end",
+        "id": "D-duh-end",
         "audio": "phoneme-D-duh.mp3",
         "display": "d",
         "word1": {
@@ -1525,7 +1525,7 @@
         "grade": ["2nd", "3rd"]
     },
     {
-        "id": "F-begin",
+        "id": "F-fuh-begin",
         "audio": "phoneme-F-fuh.mp3",
         "display": "f",
         "word1": {
@@ -1563,7 +1563,7 @@
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "F-end",
+        "id": "F-fuh-end",
         "audio": "phoneme-F-fuh.mp3",
         "display": "f",
         "word1": {
@@ -1715,7 +1715,7 @@
         "grade": ["2nd", "3rd"]
     },
     {
-        "id": "G-hard-begin",
+        "id": "G-guh-begin",
         "audio": "phoneme-G-guh.mp3",
         "display": "g",
         "word1": {
@@ -1755,7 +1755,7 @@
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "G-hard-end",
+        "id": "G-guh-end",
         "audio": "phoneme-G-guh.mp3",
         "display": "g",
         "word1": {
@@ -2023,7 +2023,7 @@
         "grade": ["1st", "2nd", "3rd"]
     },
     {
-        "id": "H-begin",
+        "id": "H-huh-begin",
         "audio": "phoneme-H-huh.mp3",
         "display": "h",
         "word1": {
@@ -2641,7 +2641,7 @@
         "grade": ["2nd", "3rd"]
     },
     {
-        "id": "j-begin",
+        "id": "J-juh-begin",
         "audio": "phoneme-J-juh.mp3",
         "display": "j",
         "word1": {
@@ -2679,7 +2679,7 @@
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "j-end",
+        "id": "J-juh-end",
         "audio": "phoneme-J-juh.mp3",
         "display": "j",
         "word1": {
@@ -2717,8 +2717,8 @@
         "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "K-begin",
-        "audio": "phoneme-H-huh.mp3",
+        "id": "K-kuh-begin",
+        "audio": "phoneme-K-kuh.mp3",
         "display": "k",
         "word1": {
             "word": "key",
@@ -2755,7 +2755,7 @@
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "K-end",
+        "id": "K-kuh-end",
         "audio": "phoneme-K-kuh.mp3",
         "display": "k",
         "word1": {
@@ -2831,7 +2831,7 @@
         "grade": ["2nd", "3rd"]
     },
     {
-        "id": "L-begin",
+        "id": "L-lll-begin",
         "audio": "phoneme-L-lll.mp3",
         "display": "l",
         "word1": {
@@ -2869,7 +2869,7 @@
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "L-end",
+        "id": "L-lll-end",
         "audio": "phoneme-L-lll.mp3",
         "display": "l",
         "word1": {
@@ -3063,7 +3063,7 @@
         "grade": ["2nd", "3rd"]
     },
     {
-        "id": "M-begin",
+        "id": "M-mmm-begin",
         "audio": "phoneme-M-mmm.mp3",
         "display": "m",
         "word1": {
@@ -3101,7 +3101,7 @@
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "M-end",
+        "id": "M-mmm-end",
         "audio": "phoneme-M-mmm.mp3",
         "display": "m",
         "word1": {
@@ -3215,7 +3215,7 @@
         "grade": ["2nd", "3rd"]
     },
     {
-        "id": "N-begin",
+        "id": "N-nnn-begin",
         "audio": "phoneme-N-nnn.mp3",
         "display": "n",
         "word1": {
@@ -3253,7 +3253,7 @@
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "N-end",
+        "id": "N-nnn-end",
         "audio": "phoneme-N-nnn.mp3",
         "display": "n",
         "word1": {
@@ -4114,7 +4114,7 @@
         "grade": ["2nd", "3rd"]
     },
     {
-        "id": "P-begin",
+        "id": "P-puh-begin",
         "audio": "phoneme-P-puh.mp3",
         "display": "p",
         "word1": {
@@ -4152,7 +4152,7 @@
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "P-end",
+        "id": "P-puh-end",
         "audio": "phoneme-P-puh.mp3",
         "display": "p",
         "word1": {
@@ -4345,7 +4345,7 @@
         "grade": ["1st", "2nd", "3rd"]
     },
     {
-        "id": "Q-begin",
+        "id": "Q-qwuh-begin",
         "audio": "phoneme-Q-qwuh.mp3",
         "display": "q",
         "word1": {
@@ -4383,7 +4383,7 @@
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "R-begin",
+        "id": "R-ruh-begin",
         "audio": "phoneme-R-ruh.mp3",
         "display": "r",
         "word1": {
@@ -4421,7 +4421,7 @@
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "R-end",
+        "id": "R-ruh-end",
         "audio": "phoneme-R-ruh.mp3",
         "display": "r",
         "word1": {
@@ -4459,7 +4459,7 @@
         "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "S-begin",
+        "id": "S-sss-begin",
         "audio": "phoneme-S-sss.mp3",
         "display": "s",
         "word1": {
@@ -4497,7 +4497,7 @@
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "s-end",
+        "id": "S-sss-end",
         "audio": "phoneme-S-sss.mp3",
         "display": "s",
         "word1": {
@@ -5221,7 +5221,7 @@
         "grade": ["1st", "2nd", "3rd"]
     },
     {
-        "id": "T-begin",
+        "id": "T-tttt-begin",
         "audio": "phoneme-T-tttt.mp3",
         "display": "t",
         "word1": {
@@ -5259,7 +5259,7 @@
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "T-end",
+        "id": "T-tttt-end",
         "audio": "phoneme-T-tttt.mp3",
         "display": "t",
         "word1": {
@@ -5762,7 +5762,7 @@
         "grade": ["2nd", "3rd"]
     },
     {
-        "id": "V-begin",
+        "id": "V-vv-begin",
         "audio": "phoneme-V-vv.mp3",
         "display": "v",
         "word1": {
@@ -5800,7 +5800,7 @@
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "W-begin",
+        "id": "W-wuh-begin",
         "audio": "phoneme-W-wuh.mp3",
         "display": "w",
         "word1": {
@@ -5914,7 +5914,7 @@
         "grade": ["2nd", "3rd"]
     },
     {
-        "id": "X-begin",
+        "id": "X-ks-begin",
         "audio": "phoneme-X-ks.mp3",
         "display": "x",
         "word1": {
@@ -5952,7 +5952,7 @@
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "X-end",
+        "id": "X-ks-end",
         "audio": "phoneme-X-ks.mp3",
         "display": "x",
         "word1": {
@@ -6148,7 +6148,7 @@
         "grade": ["1st", "2nd", "3rd"]
     },
     {
-        "id": "Z-begin",
+        "id": "Z-zzz-begin",
         "audio": "phoneme-Z-zzz.mp3",
         "display": "z",
         "word1": {
@@ -6186,7 +6186,7 @@
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "Z-end",
+        "id": "Z-zzz-end",
         "audio": "phoneme-Z-zzz.mp3",
         "display": "z",
         "word1": {
