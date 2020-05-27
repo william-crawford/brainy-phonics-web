@@ -6,23 +6,27 @@ import {Component} from '@angular/core';
 })
 
 export class HomeComponent {
-  phonics: HTMLAudioElement;
+  audio: HTMLAudioElement;
 
   constructor() {
 
   }
 
   playAudio(event) {
-    if (event.target.id == 'phonics') {
-      this.phonics = new Audio();
-      this.phonics.src = '/assets/audio/buttons/phonics.mp3';
-      this.phonics.load();
-      this.phonics.play();
-    } else if (event.target.id == 'alphabet') {
-      this.phonics = new Audio();
-      this.phonics.src = '/assets/audio/buttons/alphabet_letters.mp3';
-      this.phonics.load();
-      this.phonics.play();
+    if (event.target.id === 'secret-stuff') {
+      this.audio = new Audio();
+        this.audio.src = '/assets/audio/buttons/' + event.target.id + '.m4a';
+        if (this.audio.src !== undefined) {
+            this.audio.load();
+            this.audio.play();
+        }
+    } else {
+      this.audio = new Audio();
+        this.audio.src = '/assets/audio/buttons/' + event.target.id + '.mp3';
+        if (this.audio.src !== undefined) {
+            this.audio.load();
+            this.audio.play();
+        }
     }
   }
 }

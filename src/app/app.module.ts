@@ -13,7 +13,6 @@ import {PhonemeQuizComponent} from './pages/phoneme-quiz';
 import {AlphabetLearnComponent} from './pages/alphabet-learn/alphabet-learn.component';
 import {AlphabetQuizComponent} from './pages/alphabet-quiz';
 import {ListSelectComponent} from './pages/list-select/list-select.component';
-import {GradeLevelsComponent} from './pages/grade-levels';
 import {CoinsComponent} from './pages/coins/coins.component';
 import {PuzzlesComponent} from './pages/puzzles/puzzles.component';
 import {PuzzleComponent} from './pages/puzzle/puzzle.component';
@@ -45,7 +44,6 @@ import { FirstVowelsDetailsComponent } from './pages/first-categories/first-vowe
     AlphabetLearnComponent,
     AlphabetQuizComponent,
     ListSelectComponent,
-    GradeLevelsComponent,
     CoinsComponent,
     PuzzlesComponent,
     PuzzleComponent,
