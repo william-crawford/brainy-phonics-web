@@ -1443,7 +1443,7 @@
             "vowel": "black",
             "3rd": "black"
         },
-        "rhyme": "Of just three syllables I’m made,</br>Of l(et)ters twenty-six.</br>Your debt to me could not be paid.</br>Using me well predicts</br>That you’ll do very well in school</br>And won’t soon forg(et) me.</br>Though I’m a very useful tool,</br>Y(et)is never g(et) me.</br>I’ve been here for two thousand years,</br>Help run the intern(et).</br>You learned me with your eyes and ears.</br>I am the —",
+        "rhyme": "Of just three syllables I’m made,<br>Of l(et)ters twenty-six.<br>Your debt to me could not be paid.<br>Using me well predicts<br>That you’ll do very well in school<br>And won’t soon forg(et) me.<br>Though I’m a very useful tool,<br>Y(et)is never g(et) me.<br>I’ve been here for two thousand years,<br>Help run the intern(et).<br>You learned me with your eyes and ears.<br>I am the —",
         "category": ["VC-2", "V", "VC"],
         "grade": ["3rd"]
     },
@@ -1904,7 +1904,7 @@
             "2nd": "black",
             "3rd": "green"
         },
-        "rhyme": "Read the riddle — find the kind of band,</br>Unlikely to play music, that can show ei(gh)t</br>Bri(gh)t colors, even more, be short, expand,</br>Be dou(gh)nut round or arrow strai(gh)t;</br>Each when ti(gh)t flies hi(gh).  To understand,</br>Read each line’s first letter.  Concentrate.",
+        "rhyme": "Read the riddle — find the kind of band,<br>Unlikely to play music, that can show ei(gh)t<br>Bri(gh)t colors, even more, be short, expand,<br>Be dou(gh)nut round or arrow strai(gh)t;<br>Each when ti(gh)t flies hi(gh). To understand,<br>Read each line’s first letter. Concentrate.",
         "category": ["C-silent", "C"],
         "grade": ["2nd", "3rd"]
     },
