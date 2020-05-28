@@ -32,6 +32,8 @@ import { FirstCategoriesComponent } from './pages/first-categories/first-categor
 import { FirstLettersDetailsComponent } from './pages/first-categories/first-letters-details/first-letters-details.component';
 import { FirstConsonantsDetailsComponent } from './pages/first-categories/first-consonants-details/first-consonants-details.component';
 import { FirstVowelsDetailsComponent } from './pages/first-categories/first-vowels-details/first-vowels-details.component';
+import { NobodysBetterComponent } from './pages/nobodys-better/nobodys-better.component';
+import { SecretStuffComponent } from './pages/secret-stuff/secret-stuff.component';
 
 @NgModule({
   declarations: [
@@ -62,8 +64,9 @@ import { FirstVowelsDetailsComponent } from './pages/first-categories/first-vowe
     FirstCategoriesComponent,
     FirstLettersDetailsComponent,
     FirstConsonantsDetailsComponent,
-    FirstVowelsDetailsComponent
-
+    FirstVowelsDetailsComponent,
+    NobodysBetterComponent,
+    SecretStuffComponent
   ],
   imports: [
     BrowserModule,

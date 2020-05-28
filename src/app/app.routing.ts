@@ -26,6 +26,8 @@ import {ThirdCategoriesComponent} from './pages/third-categories';
 import {ThirdConsonantsDetailsComponent} from './pages/third-categories/third-consonants-details';
 import {ThirdVowelsDetailsComponent} from './pages/third-categories/third-vowels-details';
 import {ThirdVowelconsonantsDetailsComponent} from './pages/third-categories/third-vowelconsonants-details';
+import { NobodysBetterComponent } from './pages/nobodys-better/nobodys-better.component';
+import { SecretStuffComponent } from './pages/secret-stuff/secret-stuff.component';
 
 const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -54,6 +56,8 @@ const routes: Routes = [
     {path: 'coins', component: CoinsComponent},
     {path: 'puzzles', component: PuzzlesComponent},
     {path: 'puzzle', component: PuzzleComponent},
+    {path: 'nobodys-better', component: NobodysBetterComponent},
+    {path: 'secret-stuff', component: SecretStuffComponent},
 
     // otherwise redirect to home
     {path: '**', redirectTo: ''}
