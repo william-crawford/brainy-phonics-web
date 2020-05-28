@@ -1,7 +1,7 @@
 <div id='background'>
     <div id='main-body'>
         <img src={{img}} id='puzzle-image'>
-        <div id='rhyme' [innerHtml]='text'></div>
+        <div [ngClass]="{'rhyme-small': small, 'rhyme-medium': medium, 'rhyme-large': large, 'rhyme-xlarge': xlarge}"[innerHtml]='text'></div>
     </div>
 
     <div id='side-menu'>

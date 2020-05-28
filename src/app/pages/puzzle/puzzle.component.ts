@@ -1,4 +1,4 @@
-import {Component,OnDestroy, OnInit} from '@angular/core';
+import {Component,OnDestroy, OnInit, AfterViewInit} from '@angular/core';
 import {Location} from '@angular/common';
 import {Injectable} from '@angular/core';
 import {Phoneme} from '../../types/phoneme';
@@ -10,12 +10,16 @@ import {ActivatedRoute, Router} from '@angular/router';
   styleUrls: ['./puzzle.component.css']
 })
 @Injectable()
-export class PuzzleComponent implements OnInit, OnDestroy {
+export class PuzzleComponent implements OnInit, OnDestroy, AfterViewInit {
 
   rhyme: HTMLAudioElement;
   img: string;
   text: string;
   phoneme: Phoneme;
+  small: Boolean;
+  medium: Boolean;
+  large: Boolean;
+  xlarge: Boolean;
 
   constructor(
     private transferService: TransferLetterService,
@@ -28,6 +32,15 @@ export class PuzzleComponent implements OnInit, OnDestroy {
 
     // get phoneme data
     this.phoneme = this.transferService.getData() as Phoneme;
+    if (this.phoneme.id === 'C-CK' || this.phoneme.id === 'M-MP'|| this.phoneme.id === 'N-NT') {
+      this.medium = true;
+    } else if (this.phoneme.id == 'P-PH-begin' || this.phoneme.id === 'S-ST-end') {
+      this.large = true;
+    } else if (this.phoneme.id === 'T-TH-end') {
+      this.xlarge = true;
+    } else {
+      this.small = true;
+    }
     this.img = '../../assets/img/puzzle-pieces/original-composites/puzzle-' + this.phoneme.id.replace(/-begin|-end|-stressed|-unstressed/,'') + '-composite.png';
     this.text = this.phoneme.rhyme.replace(/[(]/g, '<span>').replace(/[)]/g, '</span>').replace(/;/g, ',').replace(/\[/g, '(').replace(/]/g, ')')
 
@@ -41,10 +54,20 @@ export class PuzzleComponent implements OnInit, OnDestroy {
       };
     }
     this.playAudio();
+
   }
 
   ngOnInit() {
     
+  }
+
+  ngAfterViewInit() {
+    if (this.phoneme.id === 'C-CK') {
+      var background = <HTMLElement> document.getElementById('background');
+      var mainBody = <HTMLElement> document.getElementById('main-body');
+      background.style.width = '197vh'
+      mainBody.style.width = '176vh';
+    }
   }
 
   ngOnDestroy() {

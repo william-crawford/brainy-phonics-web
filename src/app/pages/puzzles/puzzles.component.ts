@@ -35,7 +35,7 @@ export class PuzzlesComponent implements OnInit, AfterViewInit {
   ngAfterViewInit() {
   // set background for completed puzzles
     for (var i = 0; i < this.userDataService.getPuzzles().length; i++) {
-      document.getElementById(this.userDataService.getPuzzles()[i]).style.background = "url('../../assets/img/puzzle-pieces/puzzle-"+this.userDataService.getPuzzles()[i]+"/puzzle-"+this.userDataService.getPuzzles()[i]+"-composite.png')";
+      document.getElementById(this.userDataService.getPuzzles()[i]).style.background = "url('../../assets/img/puzzle-pieces/puzzle-"+this.userDataService.getPuzzles()[i].replace(/-begin|-end|-stressed|-unstressed/,'')+"/puzzle-"+this.userDataService.getPuzzles()[i].replace(/-begin|-end|-stressed|-unstressed/,'')+"-composite.png')";
       document.getElementById(this.userDataService.getPuzzles()[i]).style.backgroundSize = '30vh 39vh';
       document.getElementById(this.userDataService.getPuzzles()[i]).style.color = 'transparent';
     }
