@@ -4414,7 +4414,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "Little Robin Redbreast (s)at upon a tree,<br>Up went the Kitty-Cat, and down went he,<br>Down came Kitty-Cat, away Robin ran;<br>(S)ays little Robin Redbreast: “Catch me if you can!”<br><br>Little Robin Redbreast jumped upon a spade,<br>Kitty-Cat jumped after him, and then he was afraid.<br>Little Robin chirped and (s)ang, and what did Kitty say?<br>Kitty-Cat (s)aid: “Meow, meow, meow,” and Robin flew away.",
+        "rhyme": "Little Robin Redbreast (s)at upon a tree,<br>Up went the Kitty-Cat, and down went he,<br>Down came Kitty-Cat, away Robin ran;<br>(S)ays little Robin Redbreast: “Catch me if you can!”<br><br>Little Robin Redbreast jumped upon a (s)pade,<br>Kitty-Cat jumped after him, and then he was afraid.<br>Little Robin chirped and (s)ang, and what did Kitty say?<br>Kitty-Cat (s)aid: “Meow, meow, meow,” and Robin flew away.",
         "category": ["C-begin", "C"],
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
@@ -5176,7 +5176,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "(T)was once upon a (t)ime, when Jenny Wren was young,<br>So daintily she danced and so prettily she sung,<br>Robin Redbreast lost his heart, for he was a gallant bird,<br>So he doffed his hat to Jenny Wren, requesting to be heard.<br><br>“O, dearest Jenny Wren, if you will but be mine,<br>You shall feed on cherry pie and drink new apple wine,<br>I’ll dress you like a goldfinch or any peacock gay,<br>So, dearest Jen, if you’ll be mine let us decide today.”<br><br>Jenny blushed behind her fan and thus declared her mind:<br>“Since, dearest Bob, I love you well, I’ll (t)ake your offer kind;<br>Cherry pie is very nice and so is apple wine,<br>But I must wear my plain brown gown and never go (t)oo fine.”",
+        "rhyme": "(T)was once upon a (t)ime, when Jenny Wren was young,<br>So daintily she danced and so prettily she sung,<br>Robin Redbreast lost his heart, for he was a gallant bird,<br>So he doffed his hat to Jenny Wren, requesting to be heard.<br>“O, dearest Jenny Wren, if you will but be mine,<br>You shall feed on cherry pie and drink new apple wine,<br>I’ll dress you like a goldfinch or any peacock gay,<br>So, dearest Jen, if you’ll be mine let us decide today.”<br>Jenny blushed behind her fan and thus declared her mind:<br>“Since, dearest Bob, I love you well, I’ll (t)ake your offer kind;<br>Cherry pie is very nice and so is apple wine,<br>But I must wear my plain brown gown and never go (t)oo fine.”",
         "category": ["C-begin", "C"],
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
@@ -5328,7 +5328,7 @@
             "vowel": "green",
             "3rd": "green"
         },
-        "rhyme": "The (th)in queen sat high on her (th)rone,<br>A (th)ick (th)imble shielding her (th)umb,<br>Admiring the fine (th)ing she’d sewn, <br>Wondering when the king would come.<br><br>The  glum king slouched toward his (th)rone,<br>And moaned and groaned and sucked one (th)umb,<br>Hurt playing baseball wi(th) a stone,<br>The  o(th)er just felt stiff and numb.<br><br>When she showed the gift she’d sewed<br>To (th)ank her, (th)ree times he leapt high<br>(Her kiss once changed him from a toad).<br>A baseball’s great for any guy!",
+        "rhyme": "The (th)in queen sat high on her (th)rone,<br>A (th)ick (th)imble shielding her (th)umb,<br>Admiring the fine (th)ing she’d sewn, <br>Wondering when the king would come.<br><br>The  glum king slouched toward his (th)rone,<br>And moaned and groaned and sucked one (th)umb,<br>Hurt playing baseball wi(th) a stone,<br>The  o(th)er just felt stiff and numb.<br><br>When she showed the gift she’d sewed<br>To (th)ank her, (th)ree times he leapt high<br>Her kiss once changed him from a toad.<br>A baseball’s great for any guy!",
         "category": ["CD-begin", "CD", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
