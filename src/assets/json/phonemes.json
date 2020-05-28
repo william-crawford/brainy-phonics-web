@@ -546,7 +546,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "Rock-a-(b)ye; (B)aby; on the tree top;</br>When the wind (b)lows the cradle will rock;</br>When the (b)ough (b)reaks the cradle will fall;</br>and down will come (B)aby; cradle; and all.",
+        "rhyme": "",
         "category": ["C-end", "C"],
         "grade": ["K", "1st", "2nd", "3rd"]
     },
@@ -702,7 +702,7 @@
             "2nd": "black",
             "3rd": "black"
         },
-        "rhyme": "Little Robin Redbreast sat upon a tree;<br>Up went the Kitty-(C)at; and down went he;</br>Down came Kitty-(C)at; away Robin ran;</br>Says little Robin Redbreast:</br>\"(C)atch me if you (c)an!\"",
+        "rhyme": "",
         "category": ["C-end", "CG", "C"],
         "grade": ["K", "1st", "2nd", "3rd"]
     },
@@ -860,7 +860,7 @@
             "vowel": "black",
             "3rd": "black"
         },
-        "rhyme": "An elf taught Pat how to make magic,</br>Gave Pat a small peaco(ck) made of old plastic,</br>Said, “Wish on it, blink, rub its nose then qui(ck) change,</br>Anything to whatever, no matter how strange.</br>Turning a hot dog to a dachshund was an easy tri(ck),</br>Changing a dragonfly to a dragon went super qui(ck).</br>Pat saw a bla(ck) bear just starting to crunch</br>On this du(ck)’s ne(ck), but dragon sna(ck)ed on that bear for lunch!</br>A shopper held spaghetti leaving a shop’s door,</br>But carried an octopus after just one step more!</br>A firefly and bee closed eyes for a kiss,</br>When Pat turned both to fairies they squealed, “What the he(ck)’s this!”</br>Pat played with magic for a fun-filled hour,</br>Then got hungry—and then the peaco(ck) lost its power.</br>When Pat wished for chocolate—Pat could’t have known— </br>The peaco(ck) turned to an un-magic ice cream cone.",
+        "rhyme": "An elf taught Pat how to make magic,<br>Gave Pat a small peaco(ck) made of old plastic,<br>Said, “Wish on it, blink, rub its nose then qui(ck) change,<br>Anything to whatever, no matter how strange.<br>Turning a hot dog to a dachshund was an easy tri(ck),<br>Changing a dragonfly to a dragon went super qui(ck).<br>Pat saw a bla(ck) bear just starting to crunch<br>On this du(ck)’s ne(ck), but dragon sna(ck)ed on that bear for lunch!<br>A shopper held spaghetti leaving a shop’s door,<br>But carried an octopus after just one step more!<br>A firefly and bee closed eyes for a kiss,<br>When Pat turned both to fairies they squealed, “What the he(ck)’s this!”<br>Pat played with magic for a fun-filled hour,<br>Then got hungry—and then the peaco(ck) lost its power.<br>When Pat wished for chocolate—Pat couldn’t have known— <br>The peaco(ck) turned to an un-magic ice cream cone.",
         "category": ["CD-end", "CD", "C"],
         "grade": ["3rd"]
     },
