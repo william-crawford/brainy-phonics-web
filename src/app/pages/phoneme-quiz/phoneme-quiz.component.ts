@@ -110,15 +110,15 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
             }
             this.key = key;
             this.phoneme = this.data[key];
-            this.puzzleimg = '../../assets/img/puzzle-pieces/puzzle-'+ this.phoneme.id.replace(/-begin|-end|-stressed|-unstressed/,'') +'/puzzle-' + this.phoneme.id.replace(/-begin|-end|-stressed|-unstressed/,'') + '-composite.png';
+            this.puzzleimg = '../../assets/img/puzzle-pieces/puzzle-'+ this.phoneme.id +'/puzzle-' + this.phoneme.id + '-composite.png';
             this.text = this.phoneme.rhyme.replace(/[(]/g, '<span>').replace(/[)]/g, '</span>').replace(/;/g, ',');
         } else {
             this.phoneme = this.transferService.getData() as Phoneme;
-            this.puzzleimg = '../../assets/img/puzzle-pieces/puzzle-'+ this.phoneme.id.replace(/-begin|-end|-stressed|-unstressed/,'') +'/puzzle-' + this.phoneme.id.replace(/-begin|-end|-stressed|-unstressed/,'') + '-composite.png';
+            this.puzzleimg = '../../assets/img/puzzle-pieces/puzzle-'+ this.phoneme.id +'/puzzle-' + this.phoneme.id + '-composite.png';
             this.text = this.phoneme.rhyme.replace(/[(]/g, '<span>').replace(/[)]/g, '</span>').replace(/;/g, ',');
         }
 
-        this.puzzleDirectory = '../../assets/img/puzzle-pieces/puzzle-' + this.phoneme.id.replace(/-begin|-end|-stressed|-unstressed/,'');
+        this.puzzleDirectory = '../../assets/img/puzzle-pieces/puzzle-' + this.phoneme.id;
         this.phonemePlayAudio = true;
         this.phonemeAnimate = false;
         this.ex1Animate = false;
@@ -128,7 +128,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
         for (let i = 0; i <= 3; i++) {
             for (let j = 0; j <= 2; j++) {
                 this.puzzlePieceImages.push(
-                    this.puzzleDirectory + '/puzzle-' + this.phoneme.id.replace(/-begin|-end|-stressed|-unstressed/,'') + '-row' + i + '-col' + j + '.png'
+                    this.puzzleDirectory + '/puzzle-' + this.phoneme.id + '-row' + i + '-col' + j + '.png'
                 );
             }
         }

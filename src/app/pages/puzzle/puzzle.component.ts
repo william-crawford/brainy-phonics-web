@@ -42,7 +42,7 @@ export class PuzzleComponent implements OnInit, OnDestroy, AfterViewInit {
     } else {
       this.small = true;
     }
-    this.img = '../../assets/img/puzzle-pieces/original-composites/puzzle-' + this.phoneme.id.replace(/-begin|-end|-stressed|-unstressed/,'') + '-composite.png';
+    this.img = '../../assets/img/puzzle-pieces/original-composites/puzzle-' + this.phoneme.id + '-composite.png';
     this.text = this.phoneme.rhyme.replace(/[(]/g, '<span>').replace(/[)]/g, '</span>').replace(/;/g, ',').replace(/\[/g, '(').replace(/]/g, ')')
 
     // play audio
