@@ -1518,7 +1518,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "Old King Cole, was a merry old soul,<br>And a merry old soul was he,<br>He called(f)or his pipe, and he called(f)or his bowl,<br>And he called(f)or his(f)iddlers three.<br>Every(f)iddler, he had a(f)ine(f)iddle,<br>And a very(f)ine(f)iddle had he.<br>Twee tweedle dee, tweedle dee, went the(f)iddlers three.<br>Oh, there’s none so rare,<br>As can compare<br>With King Cole<br>And his(f)iddlers three!",
+        "rhyme": "Old King Cole, was a merry old soul,<br>And a merry old soul was he,<br>He called (f)or his pipe, and he called (f)or his bowl,<br>And he called (f)or his (f)iddlers three.<br>Every (f)iddler, he had a (f)ine (f)iddle,<br>And a very (f)ine (f)iddle had he.<br>Twee tweedle dee, tweedle dee, went the (f)iddlers three.<br>Oh, there’s none so rare,<br>As can compare<br>With King Cole<br>And his (f)iddlers three!",
         "category": ["C-begin", "C"],
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
@@ -5176,7 +5176,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "Lucy Locke(t) los(t) her pocke(t),<b>Kitty Fisher found I(t);<br>There was no(t) a penny in I(t),<br>But a ribbon round i(t).",
+        "rhyme": "Lucy Locke(t) los(t) her pocke(t),<br>Kitty Fisher found I(t);<br>There was no(t) a penny in I(t),<br>But a ribbon round i(t).",
         "category": ["C-end", "C"],
         "grade": ["K", "1st", "2nd", "3rd"]
     },
