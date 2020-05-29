@@ -2486,44 +2486,6 @@
         "grade": ["3rd"]
     },
     {
-        "id": "I-IND-short",
-        "audio": "phoneme-I-IND-short.mp3",
-        "display": "ind",
-        "word1": {
-            "word": "windy",
-            "display": "w<span>ind</span>y",
-            "audio": "windy.mp3",
-            "image": "wind.png"
-        },
-        "word2": {
-            "word": "window",
-            "display": "w<span>ind</span>ow",
-            "audio": "window.mp3",
-            "image": "window.png"
-        },
-        "word3": {
-            "word": "windmill",
-            "display": "w<span>ind</span>mill",
-            "audio": "windmill.mp3",
-            "image": "windmill.png"
-        },
-        "quiz-words": [
-            "index finger",
-            "Indian corn or maize",
-            "kindergarten",
-            "windsurfer",
-            "woodwind instruments"
-        ],
-        "color": {
-            "all": "green",
-            "vowel": "green",
-            "3rd": "green"
-        },
-        "rhyme": "",
-        "category": ["VC-3", "V", "VC"],
-        "grade": ["3rd"]
-    },
-    {
         "id": "I-ION",
         "audio": "phoneme-I-ION.mp3",
         "display": "ion",
@@ -4338,7 +4300,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "",
+        "rhyme": "(R)ing-a-(r)ound the (r)oses,<br>A pocket full of posies,<br>Ashes! Ashes!<br>We all fall down.<br><br>(R)ising up with daisies,<br>(R)ising up with daisies,<br>(R)ising up with daisies,<br>We all (r)ise up!",
         "category": ["C-begin", "C"],
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
@@ -5945,7 +5907,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "",
+        "rhyme": "Baa, baa, black sheep, have (y)ou any wool?<br>(Y)es sir, (y)es sir, three bags full.<br>One for my master, one for my dame,<br>And one for the little boy,<br>Who lives down the lane.",
         "category": ["C-begin", "C"],
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
