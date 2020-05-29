@@ -1326,7 +1326,7 @@
             "2nd": "black",
             "3rd": "black"
         },
-        "rhyme": "",
+        "rhyme": "Little Bo-p(ee)p has lost her sh(ee)p;<br>And doesn't know where to find them;<br>Leave them alone; and they'll come home;<br>Wagging their tails behind them.",
         "category": ["VP", "V"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -1518,7 +1518,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "There was a man and he was poor,<br>But robbers came to rob him;<br>He climbed up to the chimney top,<br>And then they thought they had him.<br>But he got down on the other side,<br>And then they could not (f)ind him;<br>He ran (f)ourteen miles in (f)ifteen days,<br>And never looked behind him.",
+        "rhyme": "Old King Cole, was a merry old soul,<br>And a merry old soul was he,<br>He called(f)or his pipe, and he called(f)or his bowl,<br>And he called(f)or his(f)iddlers three.<br>Every(f)iddler, he had a(f)ine(f)iddle,<br>And a very(f)ine(f)iddle had he.<br>Twee tweedle dee, tweedle dee, went the(f)iddlers three.<br>Oh, there’s none so rare,<br>As can compare<br>With King Cole<br>And his(f)iddlers three!",
         "category": ["C-begin", "C"],
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
@@ -1556,7 +1556,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "Little Miss Mu(ff)et;<br>Sat on a tu(ff)et;<br>Eating some curds and whey.<br>Along came a spider;<br>And sat down beside her;<br>And frightened Miss Mu(ff)et away.",
+        "rhyme": "",
         "category": ["C-end", "C"],
         "grade": ["K", "1st", "2nd", "3rd"]
     },
@@ -2634,7 +2634,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "“Old woman, old woman, shall we go a-shearing?”<br>“Speak a little louder, sir, I’m very hard of hearing.”<br>“Old woman, old woman, shall I (k)iss you dearly?”<br>“Thank you, quite (k)indly sir, I hear very clearly.”",
+        "rhyme": "(K)itty-Cat sits by the fire;<br>Napping without a care.<br>In walks the little dog;<br>Says: “(K)itty, are you there?<br>How do you do, Mistress (K)itty?<br>Mistress (K)itty, how do you do?”<br>“I thank you (k)indly, little dog,<br>I do as well as you!”",
         "category": ["C-begin", "C"],
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
@@ -2672,7 +2672,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "Hickery, dickery, doc(k),<br>The mouse ran up the cloc(k);<br>The clock struc(k) one,<br>And down he did run,<br>Hickery, dickery, doc(k).",
+        "rhyme": "Little Bo-Peep has lost her sheep,<br>And can’t tell where to find them;<br>Let them alone, and they’ll come home,<br>And bring their tails behind them.<br><br>Little Bo-Peep fell fast asleep,<br>And dreamt she heard them bleating;<br>And when she awo(k)e, she found it a jo(k)e,<br>For still they were all fleeting.<br><br>Then up she too(k) her little croo(k),<br>Determined for to find them;<br>She found them indeed, but it made her heart bleed,<br>For they’d left all their tails behind them.",
         "category": ["C-end", "C"],
         "grade": ["K", "1st", "2nd", "3rd"]
     },
@@ -3018,7 +3018,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "",
+        "rhyme": "There was an old woman got tossed in a blanket<br>Seventeen times as high as the moon;<br>But where she was going no person could tell,<br>For under her ar(m) she carried a broo(m).<br><br>“Old woman, old woman, old woman,” said I,<br>“Where in the world are you flying so high?”<br>“To sweep the cobwebs fro(m) the sky,<br>And I’ll be with you by and by.",
         "category": ["C-end", "C"],
         "grade": ["K", "1st", "2nd", "3rd"]
     },
@@ -3132,7 +3132,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "I like little kitty, her coat is so warm,<br>And if I don’t hurt her she’ll do me (n)o harm;<br>So I’ll (n)ot pull her tail, (n)or drive her away,<br>But kitty and I very gently will play.",
+        "rhyme": "“Croak,” said the toad, “I’m hungry I think,<br>To-day I’ve had (n)othing to eat or to drink;<br>I’ll crawl to a garden and jump through the pales,<br>And there I’ll dine (n)icely on slugs and on snails.”<br><br>“Ho, ho!” quoth the frog, “is that what you mean?<br>Then I’ll hop away to the (n)ext meadow stream,<br>There I will drink, and eat worms and slugs too,<br>And then I shall have a good dinner like you.”",
         "category": ["C-begin", "C"],
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
@@ -4069,7 +4069,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "",
+        "rhyme": "Handy Pandy, Jack-a-Dandy,<br>Loves cu(p) cakes and sugar-candy;<br>He bought some at a grocer’s sho(p),<br>And out he came, ho(p), ho(p), ho(p).",
         "category": ["C-end", "C"],
         "grade": ["K", "1st", "2nd", "3rd"]
     },
@@ -4414,7 +4414,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "Kitty-Cat sit(s) by the fire;<br>Napping without a care.<br>In walk(s) the little dog;<br>Says: “Kitty, are you there?<br>How do you do, Mistre(ss) Kitty?<br>Mistre(ss) Kitty, how do you do?”<br>“I thank you kindly, little dog,<br>I do as well as you!”",
+        "rhyme": "Cat(s) like R, they say purrrrr.<br>Dogs do too, but they say grrrr,<br>Snake(s) like S, so they say hi(sss)<br>Bees like Zs, so they go buzzzz.",
         "category": ["C-end", "C"],
         "grade": ["K", "1st", "2nd", "3rd"]
     },
@@ -4492,7 +4492,7 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "The (sc)uba man yelled “(sc)at!”<br>And glowered at (Sc)aredy Cat,<br>She hid under a towel<br>While his face made a (sc)owl.<br>When (sc)uba man made a grab<br>She (sc)ratched his (sc)alp’s (sc)ab.<br>",
+        "rhyme": "The (sc)uba man yelled “(sc)at!”<br>And glowered at (Sc)aredy Cat,<br>She hid under a towel<br>While his face made a (sc)owl.<br>When (sc)uba man made a grab<br>She (sc)ratched his (sc)alp’s (sc)ab.",
         "category": ["CB-begin", "C", "CB"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -4530,7 +4530,7 @@
             "vowel": "black",
             "3rd": "green"
         },
-        "rhyme": "An evening (sc)ene, the cre(sc)ent moon,<br>(Sc)enting the misty dew,<br>Bright stars, the crickets’ chirping tune –<br>Each night the world seems new.<br>Some say the moon rises at night,<br>Others say it a(sc)ends,<br>Some say the moon sets when night ends,<br>Others say it de(sc)ends.<br>A(sc)end means rise, de(sc)end means set,<br>Either’s okay to say.<br>(Sc)ientists say people forget,<br>It does both night and day.",
+        "rhyme": "An evening (sc)ene, the crescent moon,<br>(Sc)enting the misty dew,<br>Bright stars, the crickets’ chirping tune –<br>Each night the world seems new.<br><br>Some say the moon rises at night,<br>Others say it a(sc)ends,<br>Some say the moon sets when night ends,<br>Others say it de(sc)ends.<br><br>A(sc)end means rise, de(sc)end means set,<br>Either’s okay to say.<br>(Sc)ientists say people forget.",
         "category": ["C-silent", "C"],
         "grade": ["2nd", "3rd"]
     },
@@ -5138,7 +5138,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "(T)was once upon a (t)ime, when Jenny Wren was young,<br>So daintily she danced and so prettily she sung,<br>Robin Redbreast lost his heart, for he was a gallant bird,<br>So he doffed his hat to Jenny Wren, requesting to be heard.<br>“O, dearest Jenny Wren, if you will but be mine,<br>You shall feed on cherry pie and drink new apple wine,<br>I’ll dress you like a goldfinch or any peacock gay,<br>So, dearest Jen, if you’ll be mine let us decide today.”<br>Jenny blushed behind her fan and thus declared her mind:<br>“Since, dearest Bob, I love you well, I’ll (t)ake your offer kind;<br>Cherry pie is very nice and so is apple wine,<br>But I must wear my plain brown gown and never go (t)oo fine.”",
+        "rhyme": "(T)homas A’(T)attamus took two (T)’s<br>(T)o (t)ie (t)wo (t)ubs (t)o (t)wo (t)all trees,<br>(T)o frighten the (t)errible (T)homas A’(T)attamus!<br>(T)ell me how many (T)’s there are in all that?",
         "category": ["C-begin", "C"],
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
@@ -5176,7 +5176,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "I had a little hen, the pretties(t) ever seen,<br>She washed me the dishes and kep(t) the house clean.<br>She wen(t) to the garden to fetch me a flower,<br>And always go(t) home in less than an hour.<br>She baked me my bread, she brewed me my tea,<br>She sa(t) by the fire and sang swee(t) songs to me.",
+        "rhyme": "Lucy Locke(t) los(t) her pocke(t),<b>Kitty Fisher found I(t);<br>There was no(t) a penny in I(t),<br>But a ribbon round i(t).",
         "category": ["C-end", "C"],
         "grade": ["K", "1st", "2nd", "3rd"]
     },
@@ -5332,44 +5332,6 @@
         "grade": ["1st", "2nd", "3rd"]
     },
     {
-        "id": "T-TION",
-        "audio": "phoneme-T-TION.mp3",
-        "display": "tion",
-        "word1": {
-            "word": "caution",
-            "display": "cau<span>tion</span>",
-            "audio": "caution.mp3",
-            "image": "caution.png"
-        },
-        "word2": {
-            "word": "addition",
-            "display": "addi<span>tion</span>",
-            "audio": "addition.mp3",
-            "image": "addition.png"
-        },
-        "word3": {
-            "word": "emotion",
-            "display": "emo<span>tion</span>",
-            "audio": "emotion.mp3",
-            "image": "emotion.png"
-        },
-        "quiz-words": [
-            "eruption",
-            "construction",
-            "subtraction",
-            "graduation",
-            "education"
-        ],
-        "color": {
-            "all": "black",
-            "vowel": "black",
-            "3rd": "black"
-        },
-        "rhyme": "",
-        "category": ["VC-3", "V", "VC"],
-        "grade": ["3rd"]
-    },
-    {
         "id": "T-TR",
         "audio": "phoneme-T-TR.mp3",
         "display": "tr",
@@ -5523,7 +5485,7 @@
             "2nd": "green",
             "3rd": "green"
         },
-        "rhyme": "Little Betty Bl(u)e<br>Lost her holiday shoe.<br>What shall little Betty do?<br><br>Buy her another,<br>To match the other,<br>And then she'll walk upon two.",
+        "rhyme": "S(u)e played a big bl(u)e t(u)ba,</br>J(u)lius played one too,</br>With their two bl(u)e t(u)bas,</br>What did those two do?</br>He blew his bl(u)e t(u)ba loud!</br>She blew hers too!",
         "category": ["V-long", "V"],
         "grade": ["1st", "2nd", "3rd"]
     },
