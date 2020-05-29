@@ -5564,7 +5564,7 @@
             "2nd": "black",
             "3rd": "black"
         },
-        "rhyme": "Ru(b) a du(b) du(b),<br>Three men in a tu(b);<br>And who do you think they be?<br>The butcher, the baker,<br>The candlestick-maker;<br>Turn’em out, knaves all three!",
+        "rhyme": "R(u)b a d(u)b d(u)b,<br>Three men in a t(u)b;<br>And who do you think they be?<br>The butcher, the baker,<br>The candlestick-maker;<br>Turn’em out, knaves all three!",
         "category": ["V-short", "V"],
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
@@ -5602,7 +5602,7 @@
             "vowel": "pink",
             "2nd": "black"
         },
-        "rhyme": "",
+        "rhyme": "R(u)b a d(u)b d(u)b,<br>Three men in a t(u)b;<br>And who do you think they be?<br>The butcher, the baker,<br>The candlestick-maker;<br>Turn’em out, knaves all three!",
         "category": ["V-schwa", "V"],
         "grade": ["2nd", "3rd"]
     },
