@@ -192,10 +192,6 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy, AfterViewInit {
         this.ex3 = randomExamples[2];
         this.ex4 = randomExamples[3];
 
-        // delay(500).then(() => {
-        //     this.playAudio();
-        // });
-
         this.isFirstAttempt = true;
     }
 
