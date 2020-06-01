@@ -153,7 +153,21 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
     }
 
     ngOnInit() {
-        this.quizPhoneme = data.find(o => o.id == this.phoneme.id)
+        this.quizPhoneme = {
+            id: this.phoneme.id,
+            audio: this.phoneme.audio,
+            display: this.phoneme.display,
+            word1: this.phoneme.word1,
+            word2: this.phoneme.word2,
+            word3: this.phoneme.word3,
+            quizWords: this.phoneme.quizWords,
+            color: this.phoneme.color,
+            rhyme: this.phoneme.rhyme,
+            category: this.phoneme.category,
+            grade: this.phoneme.grade,
+            puzzlePiecesEarned: this.phoneme.puzzlePiecesEarned,
+            stars: this.phoneme.stars
+        };
         this.phoneme.puzzlePiecesEarned = this.userDataService.getPuzzlePieces(this.phoneme.id)
         if (this.phoneme.puzzlePiecesEarned == 12) {
             this.puzzleComplete = true;

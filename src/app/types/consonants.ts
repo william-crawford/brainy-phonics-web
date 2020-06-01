@@ -1,7 +1,6 @@
 import {SightWord} from './sight-word';
-import { NumberSymbol } from '@angular/common';
 
-export class Phoneme {
+export class Consonants {
     id: string;         // unique identifier
     display: string;    // display string
     audio: string;      // url to audio
@@ -14,9 +13,11 @@ export class Phoneme {
     stars: number;
     puzzlePiecesEarned: number;
     rhyme: string;
-    grade: [string]
+    grade: [string];
+    
 
-    constructor(id: string, display: string, audio: string, word1: SightWord, word2: SightWord, word3: SightWord, quizWords: [string], color: string, category: [string], stars: number, puzzlePiecesEarned: number, rhyme: string,  grade: [string]) {
+
+    constructor(id: string, display: string, audio: string, word1: SightWord, word2: SightWord, word3: SightWord, quizWords: [string], color: string, category: [string], stars: number, puzzlePiecesEarned: number, rhyme: string, grade: [string]) {
         this.id = id;
         this.display = display;
         this.audio = audio;
