@@ -115,6 +115,25 @@
   transform: scale(1.12);
 }
 
+.ex-temp1,
+.ex-temp2,
+.ex-temp3 {
+  opacity: 0;
+}
+
+.animateEx1 {
+  transition: all 0.5s linear;
+  transform: translateY(17vh) scale(1.12) !important;
+}
+.animateEx2 {
+  transition: all 0.5s linear;
+  transform: translate(21vh, -17vh) scale(1.12) !important;
+}
+.animateEx3 {
+  transition: all 0.5s linear;
+  transform: translate(-21vh, -17vh) scale(1.12) !important;
+}
+
 /* Text */
 h2 {
   font-size: 20px;
