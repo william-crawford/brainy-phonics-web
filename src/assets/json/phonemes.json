@@ -353,7 +353,7 @@
             "2nd": "green",
             "3rd": "green"
         },
-        "rhyme": "",
+        "rhyme": "P(ar)rot said to Miss Can(ar)y,<br>“Come with me–leave this cage.<br>We’ll fly far off, then we’ll m(ar)ry,<br>Join the circus, star on stage.”<br><br>“I can’t. It’s all too sc(ar)y!”<br>She decl(ar)ed, “It sounds too strange.”<br>“I b(ar)ed my heart, will c(ar)ry<br>You quite safely. Don’t fear change.”<br><br>“I don’t d(ar)e,” she sighed. “I’m w(ar)y.<br>Can you love me through the bars?”<br>“I do,” he said. “I will.” There he<br>Kissed her–till both saw stars.",
         "category": ["R", "V", "VC"],
         "grade": ["2nd", "3rd"]
     },
@@ -1287,7 +1287,7 @@
             "2nd": "green",
             "3rd": "green"
         },
-        "rhyme": "",
+        "rhyme": "The best story Dad ever r(ea)d<br>Told how this gingerbr(ea)d<br>Cookie fled from the grandma, how<br>The grandad, cat, dog, horse, cow,<br>And boy chased him through a m(ea)dow<br>Till this sly fox said, “Hello.”<br>Pretending to be pl(ea)sant, nice.<br>The cookie didn’t know the price<br>He’d pay for smarting off. Inst(ea)d,<br>He should have used his h(ea)d,<br>Not brag, ‘Run, run, fast as you can,<br>You can’t catch me, I’m the Gingerbr(ea)d Man!’",
         "category": ["VP", "V"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -1556,7 +1556,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "",
+        "rhyme": "Turtle took a little walk,<br>Hoping no one would bother him.<br>When a dog said “Woo(f) woo(f) woo(f)” to talk,<br>Turtle acted dea(f) under a limb,<br>He nearly got stolen by a thie(f),<br>But bit his thumb hard!  When a re(f)<br>Reached down he ducked under a lea(f),<br>And finally got free outrunning a che(f).",
         "category": ["C-end", "C"],
         "grade": ["K", "1st", "2nd", "3rd"]
     },
@@ -2255,7 +2255,7 @@
             "2nd": "green",
             "3rd": "green"
         },
-        "rhyme": "",
+        "rhyme": "While eating hot chil(i),<br>They planned a safar(i)<br>To bring back a yet(i).<br>Both dressed in new khak(i),<br>Topped off with a kep(i),<br>But learned that their tax(i),<br>Had almost hit Bamb(i),<br><br>So instead took a jet sk(i)<br>And found a bik(i)n(i)!<br>[But just an emoj(i).]",
         "category": ["V-short", "V"],
         "grade": ["K", "1st", "2nd", "3rd"]
     },
@@ -3761,7 +3761,7 @@
             "2nd": "green",
             "3rd": "green"
         },
-        "rhyme": "",
+        "rhyme": "Jim tried art, but couldn’t col(or),<br>Tried music–singing didn’t w(or)k,<br>His dancing?  Duller and duller.<br>His golf coach quit, called him a jerk.<br>He got laughed off as an act(or).<br>But didn’t fear dirt, loved fresh air,<br>Began to farm w(or)ms with a tract(or).<br>Now he’s a famous millionaire!",
         "category": ["R", "V", "VC"],
         "grade": ["2nd", "3rd"]
     },
@@ -3799,7 +3799,7 @@
             "vowel": "black",
             "3rd": "black"
         },
-        "rhyme": "",
+        "rhyme": "My f(ost)er brother’s c(ost)ume,<br>A big gorilla, looked great!<br>But then inside the party room<br>Stood two more!  How could I locate<br>Him if I got l(ost)?  Then–bumped,<br>Pushed, j(ost)led – I did lose him!<br>Checked first the giant ape slumped<br>In the corner.  Nope, too slim.<br>Two left. One imp(ost)er.  Which one?<br>Stand or sit, their p(ost)ure seemed the same.<br>Both smelled ape-y, scratched their tails for fun,<br>Made rude noises, neither looked tame.<br>One mixed chocolate, vanilla,<br>Strawberry ice cream with his thumb.<br>Could mine be that gross a gorilla?<br>I guessed he could have been that dumb.<br>Then I recalled an (ost)rich offering him<br>Scissors, when we stood by the stair,<br>To give his facial hair a trim–<br>Finally knew him by his n(ost)ril hair.",
         "category": ["VC-3", "V", "VC"],
         "grade": ["3rd"]
     },
@@ -4300,7 +4300,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "(R)ing-a-(r)ound the (r)oses,<br>A pocket full of posies,<br>Ashes! Ashes!<br>We all fall down.<br><br>(R)ising up with daisies,<br>(R)ising up with daisies,<br>(R)ising up with daisies,<br>We all (r)ise up!",
+        "rhyme": "(R)ing around the (r)oses,<br>A pocketful of posies,<br>Ashes, Ashes, we all fall down!<br><br>(R)aising up with daisies,<br>(R)ising up with tulips,<br>Popping up with poppies,<br>We all pop up!",
         "category": ["C-begin", "C"],
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
@@ -4338,7 +4338,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "Ding—dong—bell, Kitty’s in the well.<br>Who put he(r) in? Little Johnny Green.<br>Who pulled he(r) out? Little Johnny Stout.<br>What a naughty boy was that<br>To try to drown poor kitty cat<br>Who neve(r) did him any harm,<br>And killed the mice in his fathe(r)’s barn.",
+        "rhyme": "A grizzly bea(r) might roa(r) a roa(rrrrrr),<br>A pola(r) bear might growl b(rrrrrr).<br>A chimp might blubbe(r) a bbbbbbbb<br>My grandpa su(r)e would sno(r)e a sno(rrrrrr)e.",
         "category": ["C-end", "C"],
         "grade": ["K", "1st", "2nd", "3rd"]
     },
@@ -4644,7 +4644,7 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "",
+        "rhyme": "Driving on an ocean drawbridge<br>She began to wi(sh) a wi(sh)<br>She’d find fre(sh) tuna in her fridge,<br>Then--sma(sh) ba(sh) ma(sh)--this fi(sh)<br><br>Slammed hard into her face!<br>A flying fi(sh)! Bright mind-lights went fla(sh),<br>Blinding her–she braked to stop someplace,<br>Then slap bang went cra(sh)!<br><br>A cop showed up, she blushed a blu(sh),<br>Sobbed her story. He said,<br>“Sounds fishy!” Smiled, seemed in no ru(sh).<br>But, once her leg healed, they wed.",
         "category": ["CD-end", "CD", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -4682,7 +4682,7 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "",
+        "rhyme": "If you (sk)ip in a (sk)irt<br>You better be (sk)illful,<br>(Sk)inning your knee can be<br>Terribly painful.<br>If you (sk)ate in long pants<br>Just be extra careful,<br>Tuck in your cuffs– <br>A (sk)id could be hurtful.<br>Be extra resourceful<br>And you’ll be successful!",
         "category": ["CB-begin", "CB", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -5641,7 +5641,7 @@
             "vowel": "green",
             "K": "black"
         },
-        "rhyme": "",
+        "rhyme": "When (V)ic dropped his (v)anilla cone,<br>In (v)ery weird (v)oice he moaned a groan.<br>Bigfoot offered some syrup for a trial.<br>“Yuck!” (V)ic roared.  “(V)inegar’s (v)ile!”<br>Giant Cyclops grinned big, said, “No!<br>Try that (v)ast upside down cone: (v)olcano!”",
         "category": ["C-begin", "C"],
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
@@ -5793,7 +5793,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "",
+        "rhyme": "I hate e(x)ams at school, <i>can’t sit<br>Still</i>! Look for some e(x)cuse to e(x)it.<br>Staying quiet’s e(x)tremely tough!<br>Yes, school’s ok to learn some stuff,<br>But not fireworks! Why things e(x)plode!<br>I’d e(x)ert myself if teachers showed<br>How to make firecrackers louder,<br>Could study fuses, stuffing, powder.<br>I e(x)pect I’d study till it hurt<br>To be a big e(x)plosion e(x)pert!",
         "category": ["C-begin", "C"],
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
@@ -5989,7 +5989,7 @@
             "2nd": "black",
             "3rd": "black"
         },
-        "rhyme": "",
+        "rhyme": "The monk(ey) was feeling hungry<br>And wanted to eat some hon(ey),<br>But didn’t have any mon(ey),<br>Then back of the store in the all(ey),<br>The lucky monk(ey) found a k(ey).<br>Inside the nos(ey) monk(ey),<br>Saw a cake, a pie, and cookie,<br>All made with the yummiest hon(ey),<br>And ate till he felt sleepy,<br>Then the boss came and made him flee!",
         "category": ["Y", "V"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -6027,7 +6027,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "",
+        "rhyme": "Buzzing hornets always scare me,<br>When they (z)igzag round my head,<br>(Z)ipping, (z)apping, like some carefree<br>(Z)any clowns!  I’ll (z)oom to bed,<br>Bury myself under the covers,<br>Have (z)ero patience, want them dead!<br>Wise up all you hornet lovers–<br>Switch to spiders instead.",
         "category": ["C-begin", "C"],
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
@@ -6065,7 +6065,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "",
+        "rhyme": "My sister’s great on every qui(z);<br>She loves jewelry and glit(z).<br>My brother’s a real football whi(z),<br>Loves tackling passers on a blit(z).<br>I’m class clown, love acting nuts,<br>Stumble bumbling like some dit(z),<br>Joking, acting like a klut(z),<br>Making gross sounds with my armpits.<br>Stuffing broccoli inside donuts,<br>Love making kids laugh with my wits.",
         "category": ["C-end", "C"],
         "grade": ["K", "1st", "2nd", "3rd"]
     }
