@@ -5,6 +5,11 @@
   position: relative;
 }
 
+#side-menu {
+  background: url('../../../assets/img/home-side-bar.png') no-repeat scroll 0 0 transparent;
+  background-size: 17.3vh 97vh;
+}
+
 #background {
     background-color: #FFFFFF !important;
 }
