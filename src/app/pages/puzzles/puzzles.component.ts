@@ -27,16 +27,6 @@ export class PuzzlesComponent implements OnInit, AfterViewInit {
 ) {
   // load phonemes data
   this.data = this.phonemesService.dataLoad('phoneme', '', false);
-  
-  var phonemeList = [];
-  for (var i = 0; i < this.data.length; i++) {
-    phonemeList.push({
-      Name: this.data[i].id,
-      SightWords: [this.data[i].word1.word, this.data[i].word2.word, this.data[i].word3.word],
-      Rhyme: this.data[i].rhyme
-    });
-  }
-  console.log(JSON.stringify(phonemeList));
 }
 
   ngOnInit() {
@@ -45,10 +35,16 @@ export class PuzzlesComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit() {
   // set background for completed puzzles
-    for (var i = 0; i < this.userDataService.getPuzzles().length; i++) {
-      document.getElementById(this.userDataService.getPuzzles()[i]).style.background = "url('../../assets/img/puzzle-pieces/puzzle-"+this.userDataService.getPuzzles()[i]+"/puzzle-"+this.userDataService.getPuzzles()[i]+"-composite.png')";
-      document.getElementById(this.userDataService.getPuzzles()[i]).style.backgroundSize = '30vh 39vh';
-      document.getElementById(this.userDataService.getPuzzles()[i]).style.color = 'transparent';
+    // for (var i = 0; i < this.userDataService.getPuzzles().length; i++) {
+    //   document.getElementById(this.userDataService.getPuzzles()[i]).style.background = "url('../../assets/img/puzzle-pieces/puzzle-"+this.userDataService.getPuzzles()[i]+"/puzzle-"+this.userDataService.getPuzzles()[i]+"-composite.png')";
+    //   document.getElementById(this.userDataService.getPuzzles()[i]).style.backgroundSize = '30vh 39vh';
+    //   document.getElementById(this.userDataService.getPuzzles()[i]).style.color = 'transparent';
+    // }
+    for (var i = 0; i < document.getElementsByClassName('app-card').length; i++) {
+      var temp = <HTMLElement> document.getElementsByClassName('cardListItem')[i];
+      temp.style.background = "url('../../assets/img/puzzle-pieces/puzzle-"+temp.id+"/puzzle-"+temp.id+"-composite.png')";
+      temp.style.backgroundSize = '30vh 39vh';
+      temp.style.color = 'transparent';
     }
   }
 
