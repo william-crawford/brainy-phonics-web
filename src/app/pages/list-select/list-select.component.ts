@@ -264,8 +264,7 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
         }
     }
 
-    quiz(item) {
-        this.transferLetterService.setData(item);
+    quiz() {
         if (this.list == 'alphabet') {
             if (this.capital) {
                 this.router.navigate(['alphabet-quiz'], {queryParams: {quizAll: true, capital: true}});

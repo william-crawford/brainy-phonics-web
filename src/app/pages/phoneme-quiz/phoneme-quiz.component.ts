@@ -80,22 +80,6 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
         private phonemesService: PhonemesService,
         private changeDetectorRef: ChangeDetectorRef
     ) {
-        this.phoneme = this.transferService.getData() as Phoneme;
-        this.quizPhoneme = {
-            id: this.phoneme.id,
-            audio: this.phoneme.audio,
-            display: this.phoneme.display,
-            word1: this.phoneme.word1,
-            word2: this.phoneme.word2,
-            word3: this.phoneme.word3,
-            quizWords: this.phoneme.quizWords,
-            color: this.phoneme.color,
-            rhyme: this.phoneme.rhyme,
-            category: this.phoneme.category,
-            grade: this.phoneme.grade,
-            puzzlePiecesEarned: this.phoneme.puzzlePiecesEarned,
-            stars: this.phoneme.stars
-        };
         this.quizAll = this.activatedRoute.snapshot.queryParamMap.get('quizAll');
         this.grade = this.activatedRoute.snapshot.queryParamMap.get('grade');
         this.capital = this.activatedRoute.snapshot.queryParamMap.get('capital');
@@ -107,50 +91,38 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
             // Chooses a random phoneme that belongs in its category
             var key = 0;
 
-            if (!list || list === '') {
-                this.router.navigate(['']);
-            } else if (list === 'phoneme') {
-                key = Math.floor(Math.random() * 92);
-            } else if (list === 'vowels') {
-                key = Math.floor(Math.random() * 17);
-            } else if (list === 'consonantBlends') {
-                key = Math.floor(Math.random() * 15);
-            } else if (list === 'consonants') {
-                key = Math.floor(Math.random() * 22);
-            } else if (list === 'vowelConsonants') {
-                key = Math.floor(Math.random() * 10);
-            } else if (list === 'vowelPairs') {
-                key = Math.floor(Math.random() * 15);
-            } else if (list === 'kindergarten') {
-                key = Math.floor(Math.random() * 53);
-            }
             if (this.grade) {
                 this.data = this.phonemesService.dataLoad(list, this.grade, false);
             } else {
                 this.data = this.phonemesService.dataLoad(list, '', false);
             }
-            this.key = key;
-            this.puzzleimg = '../../assets/img/puzzle-pieces/puzzle-'+ this.quizPhoneme.id +'/puzzle-' + this.quizPhoneme.id + '-composite.png';
-            this.text = this.quizPhoneme.rhyme.replace(/[(]/g, '<span>').replace(/[)]/g, '</span>').replace(/;/g, ',');
+
+            if (!list || list === '') {
+                this.router.navigate(['']);
+            } else {
+                key = Math.floor(Math.random() * this.data.length);
+            } 
+
+            this.phoneme = this.data[key];
+            this.puzzleimg = '../../assets/img/puzzle-pieces/puzzle-'+ this.phoneme.id +'/puzzle-' + this.phoneme.id + '-composite.png';
+            this.text = this.phoneme.rhyme.replace(/[(]/g, '<span>').replace(/[)]/g, '</span>').replace(/;/g, ',');
         } else {
-            this.puzzleimg = '../../assets/img/puzzle-pieces/puzzle-'+ this.quizPhoneme.id +'/puzzle-' + this.quizPhoneme.id + '-composite.png';
-            this.text = this.quizPhoneme.rhyme.replace(/[(]/g, '<span>').replace(/[)]/g, '</span>').replace(/;/g, ',');
+            this.phoneme = this.transferService.getData() as Phoneme;
+            this.puzzleimg = '../../assets/img/puzzle-pieces/puzzle-'+ this.phoneme.id +'/puzzle-' + this.phoneme.id + '-composite.png';
+            this.text = this.phoneme.rhyme.replace(/[(]/g, '<span>').replace(/[)]/g, '</span>').replace(/;/g, ',');
         }
 
-        this.puzzleDirectory = '../../assets/img/puzzle-pieces/puzzle-' + this.quizPhoneme.id;
+        this.puzzleDirectory = '../../assets/img/puzzle-pieces/puzzle-' + this.phoneme.id;
         this.phonemePlayAudio = true;
         this.phonemeAnimate = false;
         this.ex1Animate = false;
         this.ex2Animate = false;
         this.ex3Animate = false;
-        this.ex1CorrectAnimate = false;
-        this.ex2CorrectAnimate = false;
-        this.ex3CorrectAnimate = false;
 
         for (let i = 0; i <= 3; i++) {
             for (let j = 0; j <= 2; j++) {
                 this.puzzlePieceImages.push(
-                    this.puzzleDirectory + '/puzzle-' + this.quizPhoneme.id + '-row' + i + '-col' + j + '.png'
+                    this.puzzleDirectory + '/puzzle-' + this.phoneme.id + '-row' + i + '-col' + j + '.png'
                 );
             }
         }
@@ -428,7 +400,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
     }
 
     generateExamples() {
-        var positiveExamples = this.quizPhoneme.quizWords;
+        var positiveExamples = this.phoneme.quizWords;
         positiveExamples.concat(
             positiveExamples,
             [
