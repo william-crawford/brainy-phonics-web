@@ -423,120 +423,74 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
     }
 
     isValidNegativeExample(example, positiveExamples) {
-
         //Lockout for long/short vowels to make sure they don't have to go through the checks
-        if(this.phoneme.category.includes("V-short") || this.phoneme.category.includes("V-long"))
-        {
+        if (this.phoneme.category.includes("V-short") || this.phoneme.category.includes("V-long")) {
             return true; //returns true because the logic in the making of the list has been checked
         }
-        
-        if((this.phoneme.id == "G-GH" || this.phoneme.id.includes("F-fuh") || this.phoneme.id.includes("P-PH")) && (example.includes("f") || example.includes("ph") || example.includes("gh")))
-        {
+        if ((this.phoneme.id == "G-GH" || this.phoneme.id.includes("F-fuh") || this.phoneme.id.includes("P-PH")) && (example.includes("f") || example.includes("ph") || example.includes("gh"))) {
             return false;
         }
-
-        if((this.phoneme.id.includes("Z-zzz") || this.phoneme.id == "S-zz" || this.phoneme.id == "S-SC-silent") && (example.includes("s") || example.includes("z")))
-        {
+        if ((this.phoneme.id.includes("Z-zzz") || this.phoneme.id == "S-zz" || this.phoneme.id == "S-SC-silent") && (example.includes("s") || example.includes("z"))) {
             return false;
         }
-
-        if((this.phoneme.id == "A-AI" || this.phoneme.id == "E-EI") && (example.includes("ei") || example.includes("a")))
-        {
+        if ((this.phoneme.id == "A-AI" || this.phoneme.id == "E-EI") && (example.includes("ei") || example.includes("a"))) {
             return false;
         }
-
-        if((this.phoneme.id == "A-AU" || this.phoneme.id == "A-AW") && (example.includes("o") || example.includes("a")))
-        {
+        if ((this.phoneme.id == "A-AU" || this.phoneme.id == "A-AW") && (example.includes("o") || example.includes("a"))) {
             return false;
         }
-
-        if(this.phoneme.id == "A-AY" && example.includes("a"))
-        {
+        if (this.phoneme.id == "A-AY" && example.includes("a")) {
             return false;
         }
-
-        if (this.phoneme.id == "C-sss" && example.includes("s"))
-        {
+        if (this.phoneme.id == "C-sss" && example.includes("s")) {
             return false;
         }
-
-        if((this.phoneme.id.includes("C-CK") || this.phoneme.id.includes("K-kuh")) && (example.includes("c") || example.includes("k")))
-        {
+        if ((this.phoneme.id.includes("C-CK") || this.phoneme.id.includes("K-kuh")) && (example.includes("c") || example.includes("k"))) {
             return false;
         }
-
-        if (this.phoneme.category.includes("E") && example.includes("e"))
-        {
+        if (this.phoneme.category.includes("E") && example.includes("e")) {
             return false;
         }
-
-        if(this.phoneme.id.includes("E-E") && (example.includes('e') || example.includes('a')))
-        {
+        if (this.phoneme.id.includes("E-E") && (example.includes('e') || example.includes('a'))) {
             return false;
         }
-
-        if(this.phoneme.category.includes("R") && example.includes("r"))
-        {
+        if (this.phoneme.category.includes("R") && example.includes("r")) {
             return false;
         }
-
-        if(this.phoneme.id.includes("E-ET") && example.includes('et'))
-        {
+        if (this.phoneme.id.includes("E-ET") && example.includes('et')) {
             return false;
         }
-
-        if(this.phoneme.id == "E-EW" && (example.includes("o") || example.includes("u")))
-        {
+        if (this.phoneme.id == "E-EW" && (example.includes("o") || example.includes("u"))) {
             return false;
         }
-
-        if((this.phoneme.id.includes("N-silent") || this.phoneme.id.includes("N-nnn")) && example.includes("n"))
-        {
+        if ((this.phoneme.id.includes("N-silent") || this.phoneme.id.includes("N-nnn")) && example.includes("n")) {
             return false;
         }
-
-        if(this.phoneme.id.charAt(0) == "I" && (example.includes("i") || example.includes("e")))
-        {
+        if (this.phoneme.id.charAt(0) == "I" && (example.includes("i") || example.includes("e"))) {
             return false;
         }
-
-        if(this.phoneme.id == "L-LE" && example.includes("l"))
-        {
+        if (this.phoneme.id == "L-LE" && example.includes("l")) {
             return false;
         }
-
-        if((this.phoneme.id == "M-MB-silent" || this.phoneme.id.includes("M-mmm")) && example.includes("m"))
-        {
+        if ((this.phoneme.id == "M-MB-silent" || this.phoneme.id.includes("M-mmm")) && example.includes("m")) {
             return false;
         }
-
-        if(this.phoneme.id.includes("O") && (example.includes("o") || example.includes("u")))
-        {
+        if (this.phoneme.id.includes("O") && (example.includes("o") || example.includes("u"))) {
             return false;
         }
-
-        if(this.phoneme.id == "T-TCH-silent" && example.includes("ch"))
-        {
+        if (this.phoneme.id == "T-TCH-silent" && example.includes("ch")) {
             return false;
         }
-
-        if(this.phoneme.id.includes("TH") && example.includes("th"))
-        {
+        if (this.phoneme.id.includes("TH") && example.includes("th")) {
             return false;
         }
-
-        if(this.phoneme.id.includes("W-W") && example.includes("w"))
-        {
+        if (this.phoneme.id.includes("W-W") && example.includes("w")) {
             return false;
         }
-
-        if(this.phoneme.id == "W-WR-silent" && example.includes("r"))
-        {
+        if (this.phoneme.id == "W-WR-silent" && example.includes("r")) {
             return false;
         }
-
-        if(this.phoneme.category.includes("Y") && (example.includes("e") || example.includes("i")))
-        {
+        if (this.phoneme.category.includes("Y") && (example.includes("e") || example.includes("i"))) {
             return false;
         }
 
