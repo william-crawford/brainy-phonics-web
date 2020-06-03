@@ -3,7 +3,6 @@ import {ActivatedRoute, Router} from '@angular/router';
 import {delay} from 'q';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import {ProgressService} from '../../services/progress.service';
-import {UserDataService} from '../../services/user-data.service';
 import {AlphabetLettersService} from '../../services/alphabet-letters.service';
 import { Location } from '@angular/common';
 import {AlphabetLetter} from '../../types/alphabet-letter';
@@ -39,7 +38,6 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy, AfterViewInit {
 
     constructor(
         private transferService: TransferLetterService,
-        private userDataService: UserDataService,
         private letterProgressService: ProgressService,
         private alphabetLettersService: AlphabetLettersService,
         private router: Router,
@@ -157,20 +155,20 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy, AfterViewInit {
             this.loadNew();
         });
 
-        if(this.isFirstAttempt) {
-            this.userDataService.addCoins(2);
+        if (this.isFirstAttempt) {
+            this.letterProgressService.addCoins("letter" + this.letter.letter, 2);
             //add stars to progress if select correct letter on first attempt
             this.letterProgressService.saveStarsToKey("letter" + this.letter.letter + "gold", 1);
             if (this.letterProgressService.getSilverStarsFromKey("letter" + this.letter.letter) > 0) {
                 this.letterProgressService.saveStarsToKey("letter" + this.letter.letter + "silv", -1);
             }
         } else {
-            this.userDataService.addCoins(1);
+            this.letterProgressService.addCoins("letter" + this.letter.letter, 1);
         }
     }
 
     incorrectAnswer() {
-        if(!this.hasGuessed) {
+        if (!this.hasGuessed) {
             this.hasGuessed = true;
             this.isFirstAttempt = false;
             const goldStarNum = this.letterProgressService.getGoldStarsFromKey("letter" + this.letter.letter)
@@ -179,6 +177,7 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy, AfterViewInit {
                 this.letterProgressService.saveStarsToKey("letter" + this.letter.letter + "silv", 1);
             }
         }
+        this.letterProgressService.addIncorrectAnswer('letter' + this.letter.letter);
     }
 
     loadNew() {

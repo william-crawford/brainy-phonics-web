@@ -2,10 +2,9 @@ import {Component, OnDestroy, OnInit, AfterViewInit} from '@angular/core';
 import {ActivatedRoute, Router} from '@angular/router';
 import {delay} from 'q';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
-import {UserDataService} from '../../services/user-data.service';
+import {ProgressService} from '../../services/progress.service';
 import data from '../../../assets/json/phonemes.json';
 import badExamples from '../../../assets/json/bad-assets.json';
-import {ProgressService} from '../../services/progress.service';
 import {Location} from '@angular/common';
 import {Phoneme} from '../../types/phoneme';
 import {PhonemesService} from '../../services/phonemes.service';
@@ -71,7 +70,6 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
 
     constructor(
         private transferService: TransferLetterService,
-        private userDataService: UserDataService,
         private phonemeProgressService: ProgressService,
         private router: Router,
         private location: Location,
@@ -145,7 +143,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
     }
 
     ngOnInit() {
-        this.phoneme.puzzlePiecesEarned = this.userDataService.getPuzzlePieces(this.phoneme.id)
+        this.phoneme.puzzlePiecesEarned = this.phonemeProgressService.getPuzzlePieces(this.phoneme.id)
         if (this.phoneme.puzzlePiecesEarned == 12) {
             this.puzzleComplete = true;
         }
@@ -157,11 +155,9 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
         //Only generate the list if the phoneme selected is a vowel sound
 
         
-        if(this.phoneme.category.includes("V-long") || this.phoneme.category.includes("V-short"))
-        {
+        if (this.phoneme.category.includes("V-long") || this.phoneme.category.includes("V-short")) {
             data.forEach(element => {
-                if (element["category"].includes("V-long") && !element["id"].includes(this.phoneme.id.charAt(0)))
-                {
+                if (element["category"].includes("V-long") && !element["id"].includes(this.phoneme.id.charAt(0))) {
                     this.longVowelList = [].concat(this.longVowelList, element["quiz-words"])
                 }
             });
@@ -303,19 +299,19 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
     onCorrect() {
         var initialPuzzlePieces = this.phoneme.puzzlePiecesEarned;
         if (this.isFirstAttempt) {
-            this.userDataService.addPuzzlePieces(this.phoneme.id, 2);
-            this.userDataService.addCoins(2);
+            this.phonemeProgressService.addPuzzlePieces(this.phoneme.id, 2);
+            this.phonemeProgressService.addCoins("phoneme" + this.phoneme.id, 2);
             //add stars to progress if select correct phoneme on first attempt
             this.phonemeProgressService.saveStarsToKey("phoneme" + this.phoneme.id + "gold", 1);
             if (this.phonemeProgressService.getSilverStarsFromKey("phoneme" + this.phoneme.id) > 0) {
                 this.phonemeProgressService.saveStarsToKey("phoneme" + this.phoneme.id + "silv", -1);
             }
         } else {
-            this.userDataService.addPuzzlePieces(this.phoneme.id, 1);
-            this.userDataService.addCoins(1);
+            this.phonemeProgressService.addPuzzlePieces(this.phoneme.id, 1);
+            this.phonemeProgressService.addCoins("phoneme" + this.phoneme.id, 1);
         }
 
-        this.phoneme.puzzlePiecesEarned = this.userDataService.getPuzzlePieces(this.phoneme.id);
+        this.phoneme.puzzlePiecesEarned = this.phonemeProgressService.getPuzzlePieces(this.phoneme.id);
         this.piecesToAnimate = this.phoneme.puzzlePiecesEarned - initialPuzzlePieces;
 
         if (this.correctAnswer == 0) {
@@ -511,8 +507,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
 
         //Use only the long vowel list if the quiz phoneme is a vowel sound
 
-        if(this.phoneme.category.includes("V-long") || this.phoneme.category.includes("V-short"))
-        {
+        if (this.phoneme.category.includes("V-long") || this.phoneme.category.includes("V-short")) {
             quizWords = this.longVowelList;
         }
 
@@ -547,7 +542,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
     }
 
     incorrectAnswer() {
-        if(!this.hasGuessed) {
+        if (!this.hasGuessed) {
             this.hasGuessed = true;
             this.isFirstAttempt = false;
             const goldStarNum = this.phonemeProgressService.getGoldStarsFromKey("phoneme" + this.phoneme.id)
@@ -556,5 +551,6 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
                 this.phonemeProgressService.saveStarsToKey("phoneme" + this.phoneme.id + "silv", 1);
             }
         }
+        this.phonemeProgressService.addIncorrectAnswer('phoneme' + this.phoneme.id);
     }
 }
