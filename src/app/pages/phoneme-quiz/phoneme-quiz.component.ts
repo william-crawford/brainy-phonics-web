@@ -369,7 +369,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
                     window.location.reload();
                 });
             } else {
-                delay(1000).then(() => {
+                delay(1500).then(() => {
                     this.loadNew();
                 });
             }
