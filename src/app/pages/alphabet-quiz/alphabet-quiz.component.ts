@@ -125,12 +125,12 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy, AfterViewInit {
             this.letterAnimate4 = true;
         }
 
-        this.letterAudio.onended = () => {
+        this.correctSound.onended = () => {
             this.letterAnimate1 = false;
             this.letterAnimate2 = false;
             this.letterAnimate3 = false;
             this.letterAnimate4 = false;
-            this.letterAudio.onended = () => {
+            this.correctSound.onended = () => {
                 this.letterAnimate1 = false;
                 this.letterAnimate2 = false;
                 this.letterAnimate3 = false;
@@ -149,10 +149,11 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy, AfterViewInit {
 
         delay(200).then(() => {
             this.correctSound.play();
-            delay(800).then(() => {
-                this.playAudio();
-            });
             this.loadNew();
+        });
+
+        delay(2000).then(() => {
+            this.playAudio();
         });
 
         if (this.isFirstAttempt) {
