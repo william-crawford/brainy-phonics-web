@@ -781,7 +781,7 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "",
+        "rhyme": "If you bel(ch) when you mun(ch)<br>You need someone to tea(ch)<br>You decorum.<br>Otherwise when you lun(ch)<br>It should be at the bea(ch)<br>In a storm.<br>You could learn from a coa(ch)<br>How to swallow a roa(ch)<br>Up your nose.<br>When a hurricane blows<br>If you burp through your nose<br>No one knows.",
         "category": ["CD-end", "CD", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -823,45 +823,6 @@
         "rhyme": "An elf taught Pat how to make magic,<br>Gave Pat a small peaco(ck) made of old plastic,<br>Said, “Wish on it, blink, rub its nose then qui(ck) change,<br>Anything to whatever, no matter how strange.<br>Turning a hot dog to a dachshund was an easy tri(ck),<br>Changing a dragonfly to a dragon went super qui(ck).<br>Pat saw a bla(ck) bear just starting to crunch<br>On this du(ck)’s ne(ck), but dragon sna(ck)ed on that bear for lunch!<br>A shopper held spaghetti leaving a shop’s door,<br>But carried an octopus after just one step more!<br>A firefly and bee closed eyes for a kiss,<br>When Pat turned both to fairies they squealed, “What the he(ck)’s this!”<br>Pat played with magic for a fun-filled hour,<br>Then got hungry—and then the peaco(ck) lost its power.<br>When Pat wished for chocolate—Pat couldn’t have known— <br>The peaco(ck) turned to an un-magic ice cream cone.",
         "category": ["CD-end", "CD", "C"],
         "grade": ["3rd"]
-    },
-    {
-        "id": "C-CK-silent",
-        "audio": "phoneme-C-CK-silent.m4a",
-        "display": "ck",
-        "word1": {
-            "word": "sick",
-            "display": "si<span>ck</span>",
-            "audio": "sick.mp3",
-            "image": "sick.png"
-        },
-        "word2": {
-            "word": "trick",
-            "display": "tri<span>ck</span>",
-            "audio": "trick.mp3",
-            "image": "trick.png"
-        },
-        "word3": {
-            "word": "snack",
-            "display": "sna<span>ck</span>",
-            "audio": "snack.mp3",
-            "image": "snack.png"
-        },
-        "quiz-words": [
-            "trick",
-            "wick",
-            "rocket",
-            "backpack",
-            "brick layer or brick mason"
-        ],
-        "color": {
-            "all": "black",
-            "vowel": "black",
-            "2nd": "black",
-            "3rd": "green"
-        },
-        "rhyme": "Ja(ck), be nimble, Ja(ck), be qui(ck),<br>Ja(ck), jump over the candlesti(ck).",
-        "category": ["C-silent", "C"],
-        "grade": ["2nd", "3rd"]
     },
     {
         "id": "C-CL",
@@ -1175,44 +1136,6 @@
         "grade": ["2nd", "3rd"]
     },
     {
-        "id": "E-EI",
-        "audio": "phoneme-E-EI.m4a",
-        "display": "ei",
-        "word1": {
-            "word": "veil",
-            "display": "v<span>ei</span>l",
-            "audio": "veil.mp3",
-            "image": "veil.png"
-        },
-        "word2": {
-            "word": "eight",
-            "display": "<span>ei</span>ght",
-            "audio": "eight.mp3",
-            "image": "eight.png"
-        },
-        "word3": {
-            "word": "weigh",
-            "display": "w<span>ei</span>gh",
-            "audio": "weigh.mp3",
-            "image": "weigh.png"
-        },
-        "quiz-words": [
-            "sleigh",
-            "neighbor",
-            "reins",
-            "beige",
-            "freight"
-        ],
-        "color": {
-            "all": "black",
-            "vowel": "black",
-            "3rd": "black"
-        },
-        "rhyme": "Ever wonder how much fr(ei)ght<br>Santa’s (ei)ght r(ei)ndeer must haul<br>Every Christmas, and not be late?<br>Heeps of toys!  Imagine it all!<br>Do you think he w(ei)ghs the sl(ei)gh,<br>And himself too—he’s not thin—<br>Before he shouts, “Hi ho, away!”<br>He surely trusts the shape they’re in.<br>Could he put magic in the hay<br>They eat so they’ll fly strong.  Something good?<br>Magic oatmeal cookies?  He may.<br>They’d like that.  I know I would!",
-        "category": ["VP", "V"],
-        "grade": ["3rd"]
-    },
-    {
         "id": "E-EA-long",
         "audio": "phoneme-E-EA-long.mp3",
         "display": "ea",
@@ -1329,6 +1252,44 @@
         "rhyme": "Little Bo-p(ee)p has lost her sh(ee)p;<br>And doesn't know where to find them;<br>Leave them alone; and they'll come home;<br>Wagging their tails behind them.",
         "category": ["VP", "V"],
         "grade": ["1st", "2nd", "3rd"]
+    },
+    {
+        "id": "E-EI",
+        "audio": "phoneme-E-EI.m4a",
+        "display": "ei",
+        "word1": {
+            "word": "veil",
+            "display": "v<span>ei</span>l",
+            "audio": "veil.mp3",
+            "image": "veil.png"
+        },
+        "word2": {
+            "word": "eight",
+            "display": "<span>ei</span>ght",
+            "audio": "eight.mp3",
+            "image": "eight.png"
+        },
+        "word3": {
+            "word": "weigh",
+            "display": "w<span>ei</span>gh",
+            "audio": "weigh.mp3",
+            "image": "weigh.png"
+        },
+        "quiz-words": [
+            "sleigh",
+            "neighbor",
+            "reins",
+            "beige",
+            "freight"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "3rd": "black"
+        },
+        "rhyme": "Ever wonder how much fr(ei)ght<br>Santa’s (ei)ght r(ei)ndeer must haul<br>Every Christmas, and not be late?<br>Heeps of toys!  Imagine it all!<br>Do you think he w(ei)ghs the sl(ei)gh,<br>And himself too—he’s not thin—<br>Before he shouts, “Hi ho, away!”<br>He surely trusts the shape they’re in.<br>Could he put magic in the hay<br>They eat so they’ll fly strong.  Something good?<br>Magic oatmeal cookies?  He may.<br>They’d like that.  I know I would!",
+        "category": ["VP", "V"],
+        "grade": ["3rd"]
     },
     {
         "id": "E-ER",
@@ -2407,7 +2368,7 @@
             "vowel": "green",
             "3rd": "green"
         },
-        "rhyme": "",
+        "rhyme": "I sp(ill)ed m(il)k in the car one time<br>And thought I’d just not tell,<br>Cause one small sp(ill) is not a crime,<br>But then this f(il)thy smell<br>Began to stink the whole car up.<br>The stench just swelled and bu(il)t<br>Unt(il) it stunk like throw-up.<br>That’s when I felt the gu(il)t. <br>No matter how I snuck and hid,<br>They caught me, I got stuck,<br>Scrubbing that car clean. They forbid<br>M(il)k there now. Just my luck!",
         "category": ["VC-2", "V", "VC"],
         "grade": ["3rd"]
     },
@@ -3208,7 +3169,7 @@
             "vowel": "black",
             "2nd": "black"
         },
-        "rhyme": "",
+        "rhyme": "Once on a prete(nd) time didn’t you tell me<br>You once walked your dog to the park to run free,<br>Met an elf with a pet skunk come to play.<br>The pets scuffled a(nd) tussled every which way—<br>The dog chased the skunk rou(nd) a(nd) arou(nd),<br>The swings, towers, trash cans rou(nd) the playgrou(nd),<br>Under a see-saw the skunk tried to hide,<br>Then climbed up a(nd) tumbled back down the slide,<br>Upset a kid’s play pool, shook water a(nd) dripped<br>A slippery mud puddle, a(nd) the dog tripped<br>The clumsy queen who flopped a(nd) wallowed<br>A(nd) knocked down some poor doctor who followed<br>Trying to help, but flip-flopped down too,<br>Then the elf a(nd) the queen both muddy with goo,<br>Dragged down with the skunk, all three sunk<br>Down, in the oozy, slop-sloshery muck gunk.<br>How awfully— <i>fun</i> to sit sunk to the chin!<br>The dog a(nd) you grinned—a(nd) just <i>had</i> to jump in.<br>Grumpy grownups scrubbed clean the kids’ odds a(nd) e(nd)s,<br>But everyone made lots of new mud-loving frie(nd)s!",
         "category": ["CB-end", "CB", "C"],
         "grade": ["2nd", "3rd"]
     },
@@ -4224,7 +4185,7 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "As I was going up (Pr)imrose Hill;<br>(Pr)imrose Hill was dirty;<br>There I met a (pr)etty girl;<br>And she gave me a curtsey.<br>Little girl; (pr)etty girl;<br>Blessings be upon you;<br>If I had half-a-dollar a day;<br>I'd spend it all on you.",
+        "rhyme": "As I was going up (Pr)imrose Hill;<br>(Pr)imrose Hill was dirty;<br>There I met a (pr)etty girl;<br>And she gave me a curtsey.<br><br>Little girl; (pr)etty girl;<br>Blessings be upon you;<br>If I had half-a-dollar a day;<br>I'd spend it all on you.",
         "category": ["CB-begin", "CB", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -4454,7 +4415,7 @@
             "2nd": "green",
             "3rd": "green"
         },
-        "rhyme": "",
+        "rhyme": "Sci(ss)or(s) and string, sci(ss)or(s) and string,<br>When a man’(s) single he live(s) like a king.<br>Needle(s) and pin(s), needle(s) and pins,<br>When a man marrie(s) his trouble begin(s).",
         "category": ["C-end", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -4758,7 +4719,7 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "",
+        "rhyme": "The (sl)eepy (sl)ob started to (sl)ouch,<br>Then (sl)ipped and back (sl)id on the couch.<br>He (sl)urped (sl)obber in his (sl)umber,<br>So I conked him with lumber,<br>But that (sl)acker didn’t even squeal ‘Ouch!",
         "category": ["CB-begin", "CB", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -5252,12 +5213,12 @@
             "vowel": "black",
             "3rd": "black"
         },
-        "rhyme": "",
+        "rhyme": "I’d like to create a fantabulous zoo,<br>And (th)e bestest guest I’d invite (th)ere is you.<br>(th)is beast with a dog head and ant behind,<br>And a fly belly—is three in one combined.<br>(th)at beast with a hen middle, and a cat head,<br>And a bat for a tail-end, just <i>loves</i> gingerbread!<br>One with an ant head, a tubby piggy tummy,<br>And a hen backside, thinks your armpit is yummy.<br>One creature has an ant middle, and a wild piggy back,<br>(th)e face of a hen–Don’t let it attack!<br>One’s a fly at (th)e head and elk at (th)e belly,<br>And fox at (th)e tail end – it really poops smelly!<br>And one with a fox middle, a bug at (th)e rear,<br>Has (th)e head of some bat – (th)at I’d <i>never</i> get near.<br>Last, one with two heads, elk one front,<br>A bat middle, and a ram other front,<br>Hurts both my ears when it roars a double grunt!<br>Don’t you love (th)ese strange creatures in my weird zoo?<br>Wouldn’t you like me to put you (th)ere too?",
         "category": ["CD-begin", "CD", "C"],
         "grade": ["3rd"]
     },
     {
-        "id": "T-th-begin",
+        "id": "T-TH-begin",
         "audio": "phoneme-T-th.mp3",
         "display": "th",
         "word1": {
