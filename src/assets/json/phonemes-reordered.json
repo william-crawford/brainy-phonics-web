@@ -1,6 +1,6 @@
 [
     {
-        "id": "B-begin",
+        "id": "B-buh-begin",
         "audio": "phoneme-B-buh.mp3",
         "display": "b",
         "word1": {
@@ -33,12 +33,12 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "Rock-a-(b)ye; (B)aby; on the tree top;</br>When the wind (b)lows the cradle will rock;</br>When the (b)ough (b)reaks the cradle will fall;</br>and down will come (B)aby; cradle; and all.",
+        "rhyme": "Rock-a-(b)ye; (B)aby; on the tree top;<br>When the wind (b)lows the cradle will rock;<br>When the (b)ough (b)reaks the cradle will fall;<br>and down will come (B)aby; cradle; and all.",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K", "1st"]
+        "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "B-end",
+        "id": "B-buh-end",
         "audio": "phoneme-B-buh.mp3",
         "display": "b",
         "word1": {
@@ -71,9 +71,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "Rock-a-(b)ye; (B)aby; on the tree top;</br>When the wind (b)lows the cradle will rock;</br>When the (b)ough (b)reaks the cradle will fall;</br>and down will come (B)aby; cradle; and all.",
+        "rhyme": "Ru(b) a du(b) du(b),<br>Three men in a tu(b);<br>And who do you think they be?<br>The butcher, the baker,<br>The candlestick-maker;<br>Turn’em out, knaves all three!",
         "category": ["C-end", "C"],
-        "grade": ["K", "1st"]
+        "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
         "id": "B-BL",
@@ -109,7 +109,7 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "Little Boy (Bl)ue; come (bl)ow your horn;</br>The sheep's in the meadow; the cow's in the corn.</br>Where is the boy who minds the sheep?</br>Under the haystack fast asleep.</br>Will you wake him?</br>No; not I;</br>For if I do he's sure to cry.",
+        "rhyme": "Little Boy (Bl)ue; come (bl)ow your horn;<br>The sheep's in the meadow; the cow's in the corn.<br>Where is the boy who minds the sheep?<br>Under the haystack fast asleep.<br>Will you wake him?<br>No; not I;<br>For if I do he's sure to cry.",
         "category": ["CB-begin", "CB", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -147,12 +147,12 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "London (Br)idge is falling down,</br>Falling down, falling down.</br>London (Br)idge is falling down.</br>My fair lady.</br></br>Build it up with stones and (br)icks,</br>Stones and (br)icks, stones and (br)icks.</br>Build it up with stones and (br)icks,</br>My fair lady.",
+        "rhyme": "London (Br)idge is falling down,<br>Falling down, falling down.<br>London (Br)idge is falling down.<br>My fair lady.<br><br>Build it up with stones and (br)icks,<br>Stones and (br)icks, stones and (br)icks.<br>Build it up with stones and (br)icks,<br>My fair lady.",
         "category": ["CB-begin", "CB", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
     {
-        "id": "M-begin",
+        "id": "M-mmm-begin",
         "audio": "phoneme-M-mmm.mp3",
         "display": "m",
         "word1": {
@@ -185,12 +185,12 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "One (m)isty; (m)oisty (m)orning;</br>When cloudy was the weather;</br>I happened to (m)eet an old (m)an clothed all in leather.</br>He began to co(m)pli(m)ent; and I began to grin;</br>How do you do; and how do you do?</br>And how do you do again?",
+        "rhyme": "When good King Arthur ruled his land<br>He was a goodly king;<br>He stole three sacks of barley (m)eal<br>To (m)ake a bag-pudding.<br>A bag-pudding the king did (m)ake,<br>And stuffed it well with plums,<br>And in it put great lumps of fat<br>As big as my two thumbs.<br>The king and queen ate less than half,<br>Not (m)uch (m)ore, though they tried,<br>And what they could not eat that night<br>The queen next (m)orning fried.",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K", "1st"]
+        "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "M-end",
+        "id": "M-mmm-end",
         "audio": "phoneme-M-mmm.mp3",
         "display": "m",
         "word1": {
@@ -223,9 +223,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "One (m)isty; (m)oisty (m)orning;</br>When cloudy was the weather;</br>I happened to (m)eet an old (m)an clothed all in leather.</br>He began to co(m)pli(m)ent; and I began to grin;</br>How do you do; and how do you do?</br>And how do you do again?",
+        "rhyme": "There was an old woman got tossed in a blanket<br>Seventeen times as high as the moon;<br>But where she was going no person could tell,<br>For under her ar(m) she carried a broo(m).<br><br>“Old woman, old woman, old woman,” said I,<br>“Where in the world are you flying so high?”<br>“To sweep the cobwebs fro(m) the sky,<br>And I’ll be with you by and by.",
         "category": ["C-end", "C"],
-        "grade": ["K", "1st"]
+        "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
         "id": "M-MB-silent",
@@ -261,7 +261,7 @@
             "vowel": "black",
             "3rd": "black"
         },
-        "rhyme": "",
+        "rhyme": "I have many pointy teeth<br>But never eat a cru(mb),<br>And never ever bite or chew.<br>To hunger I am nu(mb).<br><br>With paper I make music—<br>Though people think it’s du(mb).<br>When la(mb)s grow up I groom their fleece,<br>Folks use me with their thu(mb).<br><br>One kind of me a rooster wears<br>Cap-like upon his dome.<br>Some fashionable folks do too.<br>You know me. I’m a — ",
         "category": ["C-silent", "C"],
         "grade": ["3rd"]
     },
@@ -299,12 +299,12 @@
             "vowel": "black",
             "2nd": "black"
         },
-        "rhyme": "",
+        "rhyme": "The big cha(mp) chi(mp) grinned to show his di(mp)le.<br>The little chi(mp) just watched.<br><br>The lu(mp)y cha(mp) chi(mp) frowned and popped a pi(mp)le.<br>The little chimp he watched.<br><br>The plu(mp) cha(mp) chi(mp) ju(mp)ed up and strutted.<br>The little chi(mp) only watched.<br><br>The clumsy cha(mp) chi(mp) hit a stu(mp) and stumbled.<br>The little chi(mp) kept watching.<br><br>The big cha(mp) chi(mp) bu(mp)ed his ru(mp) and got du(mp)ed.<br>The little chi(mp) si(mp)ly watched.<br><br>The gru(mp)y cha(mp) chi(mp) sta(mp)ed, sto(mp)ed, and li(mp)ed off.<br>The little chi(mp) grinned.",
         "category": ["CB-end", "C", "CB"],
         "grade": ["2nd", "3rd"]
     },
     {
-        "id": "R-begin",
+        "id": "R-ruh-begin",
         "audio": "phoneme-R-ruh.mp3",
         "display": "r",
         "word1": {
@@ -337,12 +337,12 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "(R)ing a(r)ound the (r)oses,</br>A pocket full of posies.</br>Ashes, ashes,</br>We all fall down.</br></br>Picking up the daisies,</br>Picking up the daisies.</br>Ashes, ashes,</br>We all stand up!",
+        "rhyme": "(R)ing around the (r)oses,<br>A pocketful of posies,<br>Ashes, Ashes, we all fall down!<br><br>(R)aising up with daisies,<br>(R)ising up with tulips,<br>Popping up with poppies,<br>We all pop up!",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K", "1st"]
+        "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "R-end",
+        "id": "R-ruh-end",
         "audio": "phoneme-R-ruh.mp3",
         "display": "r",
         "word1": {
@@ -375,9 +375,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "(R)ing a(r)ound the (r)oses,</br>A pocket full of posies.</br>Ashes, ashes,</br>We all fall down.</br></br>Picking up the daisies,</br>Picking up the daisies.</br>Ashes, ashes,</br>We all stand up!",
+        "rhyme": "A grizzly bea(r) might roa(r) a roa(rrrrrr),<br>A pola(r) bear might growl b(rrrrrr).<br>A chimp might blubbe(r) a bbbbbbbb<br>My grandpa su(r)e would sno(r)e a sno(rrrrrr)e.",
         "category": ["C-end", "C"],
-        "grade": ["K", "1st"]
+        "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
         "id": "A-long",
@@ -412,10 +412,10 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "K": "black",
+            "2nd": "black",
             "3rd": "black"
         },
-        "rhyme": "Pat a c(a)ke; pat a c(a)ke; B(a)ker's man;</br>B(a)ke me a c(a)ke as fast as you can.</br>Pit it and pat it and mark it with B;</br>And put it in the oven for B(a)by and me.",
+        "rhyme": "Pat a c(a)ke; pat a c(a)ke; B(a)ker's man;<br>B(a)ke me a c(a)ke as fast as you can.<br>Pit it and pat it and mark it with B;<br>And put it in the oven for B(a)by and me.",
         "category": ["V-long", "V"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -425,19 +425,19 @@
         "display": "a",
         "word1": {
             "word": "ape",
-            "display": "<span>a</span>pe",
+            "display": "<span>a</span>p<u>e</u>",
             "audio": "ape.mp3",
             "image": "ape.png"
         },
         "word2": {
             "word": "plane",
-            "display": "pl<span>a</span>ne",
+            "display": "pl<span>a</span>n<u>e</u>",
             "audio": "plane.mp3",
             "image": "plane.png"
         },
         "word3": {
             "word": "cake",
-            "display": "c<span>a</span>ke",
+            "display": "c<span>a</span>k<u>e</u>",
             "audio": "cake.mp3",
             "image": "cake.png"
         },
@@ -453,7 +453,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "Pat a c(a)ke; pat a c(a)ke; B(a)ker's man;</br>B(a)ke me a c(a)ke as fast as you can.</br>Pit it and pat it and mark it with B;</br>And put it in the oven for B(a)by and me.",
+        "rhyme": "Who m(a)de the str(a)nge par(a)de at my house?<br>—With a firetruck in front pulled by a mouse,<br>Bumped in back by some centaur slurping ice cream,<br>And bumblebee and rhino yoked as a team,<br>Hauling a trolley atop which a T-rex rode,<br>And giggled to see a cop kiss a toad,<br>And a wrestler and toddler danced together,<br>As an (a)pe tickled both with a peacock feather.<br>A penguin and rocketman on a rope hanging down,<br>Tossed eggs at a juggler who tried not to frown,<br>While a triceratops gobbled fresh gr(a)pes and burped,<br>At a peacock who spilled chocolate milk as it slurped,<br>And a str(a)nge smelling panda on a clock w(a)ved at me—<br>As I sat on a pretzel for an hour to sight-see.<br>Who could dream up a str(a)nge par(a)de of this kind?<br>Did I maybe just m(a)ke it all up in my mind?",
         "category": ["E", "V"],
         "grade": ["3rd"]
     },
@@ -493,9 +493,12 @@
         "color": {
             "all": "green",
             "vowel": "green",
-            "K": "green"
+            "K": "black",
+            "1st": "black",
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "B(a)t; b(a)t;</br>Come under my h(a)t;</br>And I'll give you a slice of bacon;</br>And when I bake;</br>I'll give you a cake;</br>If I am not mistaken.",
+        "rhyme": "B(a)t; b(a)t;<br>Come under my h(a)t;<br>And I'll give you a slice of bacon;<br>And when I bake;<br>I'll give you a cake;<br>If I am not mistaken.",
         "category": ["V-short", "V"],
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
@@ -531,9 +534,12 @@
         "color": {
             "all": "pink",
             "vowel": "pink",
-            "K": "pink"
+            "K": "green",
+            "1st": "green",
+            "2nd": "green",
+            "3rd": "green"
         },
-        "rhyme": "Children call me F(a)ther Goose,</br>Because when I w(a)nt to w(a)nder,</br>I ride through the air</br>On a very fine gander.</br>",
+        "rhyme": "Children call me F(a)ther Goose,<br>Because when I w(a)nt to w(a)nder,<br>I ride through the air<br>On a very fine gander.<br>",
         "category": ["V-short", "V"],
         "grade": ["K", "1st", "2nd", "3rd"]
     },
@@ -569,9 +575,9 @@
         "color": {
             "all": "red",
             "vowel": "red",
-            "2nd": "red"
+            "2nd": "black"
         },
-        "rhyme": "(A)round the bush, Willie,</br>(A)round the bee hive.</br>(A)round the bush, Willie,</br>I'll meet you (a)live.",
+        "rhyme": "(A)round the bush, Willie,<br>(A)round the bee hive.<br>(A)round the bush, Willie,<br>I'll meet you (a)live.",
         "category": ["V-schwa", "V"],
         "grade": ["2nd", "3rd"]
     },
@@ -607,9 +613,11 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "1st": "black"
+            "1st": "black",
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "R(ai)n, r(ai)n, go to Sp(ai)n,</br>Never come back again.</br>R(ai)n, r(ai)n, go away,</br>Come again another day.</br>Little Johny wants to play.",
+        "rhyme": "R(ai)n, r(ai)n, go to Sp(ai)n,<br>Never come back again.<br>R(ai)n, r(ai)n, go away,<br>Come again another day.<br>Little Johny wants to play.",
         "category": ["VP", "V"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -647,7 +655,7 @@
             "vowel": "black",
             "3rd": "black"
         },
-        "rhyme": "Fr(an)kie Frog was afraid of (an)ts\u2014</br>He flopped on (an) (an)thill and up did pr(an)ce!</br>To shake fire (an)ts from his underp(an)ts,</br>Fr(an)kie Frog d(an)ced to Paris, Fr(an)ce!</br>",
+        "rhyme": "Fr(an)kie Frog was afraid of (an)ts\u2014<br>He flopped on (an) (an)thill and up did pr(an)ce!<br>To shake fire (an)ts from his underp(an)ts,<br>Fr(an)kie Frog d(an)ced to Paris, Fr(an)ce!<br>",
         "category": ["VC-2", "V", "VC"],
         "grade": ["3rd"]
     },
@@ -683,9 +691,10 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "Twinkle, twinkle, little st(ar),</br>How I wonder what you (ar)e.</br>Up above the world so high,</br>Like a diamond in the sky.",
+        "rhyme": "Twinkle, twinkle, little st(ar),<br>How I wonder what you (ar)e.<br>Up above the world so high,<br>Like a diamond in the sky.",
         "category": ["R", "V", "VC"],
         "grade": ["2nd", "3rd"]
     },
@@ -721,9 +730,10 @@
         "color": {
             "all": "green",
             "vowel": "green",
-            "2nd": "green"
+            "2nd": "green",
+            "3rd": "green"
         },
-        "rhyme": "",
+        "rhyme": "P(ar)rot said to Miss Can(ar)y,<br>“Come with me–leave this cage.<br>We’ll fly far off, then we’ll m(ar)ry,<br>Join the circus, star on stage.”<br><br>“I can’t. It’s all too sc(ar)y!”<br>She decl(ar)ed, “It sounds too strange.”<br>“I b(ar)ed my heart, will c(ar)ry<br>You quite safely. Don’t fear change.”<br><br>“I don’t d(ar)e,” she sighed. “I’m w(ar)y.<br>Can you love me through the bars?”<br>“I do,” he said. “I will.” There he<br>Kissed her–till both saw stars.",
         "category": ["R", "V", "VC"],
         "grade": ["2nd", "3rd"]
     },
@@ -759,9 +769,10 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "Little Polly Flinders<br>Sat among the cinders,<br>Warming her pretty little toes.<br>Her mother came and c(au)ght her,</br>Whipped her little d(au)ghter</br>For spoiling her nice new clothes.",
+        "rhyme": "Little Polly Flinders<br>Sat among the cinders,<br>Warming her pretty little toes.<br>Her mother came and c(au)ght her,<br>Whipped her little d(au)ghter<br>For spoiling her nice new clothes.",
         "category": ["VP", "V"],
         "grade": ["2nd", "3rd"]
     },
@@ -797,9 +808,10 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "See s(aw), Margery D(aw),</br>Jacky shall have a new master.</br>Jacky will earn just a penny a day,</br>Because he will work no faster.",
+        "rhyme": "See s(aw), Margery D(aw),<br>Jacky shall have a new master.<br>Jacky will earn just a penny a day,<br>Because he will work no faster.",
         "category": ["VP", "V"],
         "grade": ["2nd", "3rd"]
     },
@@ -834,10 +846,166 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "How many d(ay)s has my baby to pl(ay)?</br>Saturd(ay); Sund(ay); Mond(ay);</br>Tuesd(ay); Wednesd(ay); Thursd(ay); Frid(ay);</br>Saturd(ay); Sund(ay); Mond(ay).",
+        "rhyme": "How many d(ay)s has my baby to pl(ay)?<br>Saturd(ay); Sund(ay); Mond(ay);<br>Tuesd(ay); Wednesd(ay); Thursd(ay); Frid(ay);<br>Saturd(ay); Sund(ay); Mond(ay).",
         "category": ["VP", "V"],
+        "grade": ["1st", "2nd", "3rd"]
+    },
+    {
+        "id": "S-sss-begin",
+        "audio": "phoneme-S-sss.mp3",
+        "display": "s",
+        "word1": {
+            "word": "suitcase",
+            "display": "<span>s</span>uitca<span>s</span>e",
+            "audio": "suitcase.mp3",
+            "image": "suitcase.png"
+        },
+        "word2": {
+            "word": "say",
+            "display": "<span>s</span>ay",
+            "audio": "say.mp3",
+            "image": "say.png"
+        },
+        "word3": {
+            "word": "sneak",
+            "display": "<span>s</span>neak",
+            "audio": "sneak.mp3",
+            "image": "sneak.png"
+        },
+        "quiz-words": [
+            "sing",
+            "sofa",
+            "sun",
+            "soap",
+            "seal"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "K": "black"
+        },
+        "rhyme": "Little Robin Redbreast (s)at upon a tree,<br>Up went the Kitty-Cat, and down went he,<br>Down came Kitty-Cat, away Robin ran;<br>(S)ays little Robin Redbreast: “Catch me if you can!”<br><br>Little Robin Redbreast jumped upon a (s)pade,<br>Kitty-Cat jumped after him, and then he was afraid.<br>Little Robin chirped and (s)ang, and what did Kitty say?<br>Kitty-Cat (s)aid: “Meow, meow, meow,” and Robin flew away.",
+        "category": ["C-begin", "C"],
+        "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
+    },
+    {
+        "id": "S-sss-end",
+        "audio": "phoneme-S-sss.mp3",
+        "display": "s",
+        "word1": {
+            "word": "bus",
+            "display": "bu<span>s</span>",
+            "audio": "bus.mp3",
+            "image": "bus.png"
+        },
+        "word2": {
+            "word": "dress",
+            "display": "dre<span>ss</span>",
+            "audio": "dress.mp3",
+            "image": "dress.png"
+        },
+        "word3": {
+            "word": "grapes",
+            "display": "grape<span>s</span>",
+            "audio": "grapes.mp3",
+            "image": "grapes.png"
+        },
+        "quiz-words": [
+            "stilts",
+            "kiss",
+            "moss",
+            "pets",
+            "ants"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "K": "black"
+        },
+        "rhyme": "Cat(s) like R, they say purrrrr.<br>Dogs do too, but they say grrrr,<br>Snake(s) like S, so they say hi(sss)<br>Bees like Zs, so they go buzzzz.",
+        "category": ["C-end", "C"],
+        "grade": ["K", "1st", "2nd", "3rd"]
+    },
+    {
+        "id": "S-zz",
+        "audio": "phoneme-S-zz.mp3",
+        "display": "s",
+        "word1": {
+            "word": "dogs",
+            "display": "dog<span>s</span>",
+            "audio": "dogs.mp3",
+            "image": "dogs.png"
+        },
+        "word2": {
+            "word": "skis",
+            "display": "ski<span>s</span>",
+            "audio": "skis.mp3",
+            "image": "skis.png"
+        },
+        "word3": {
+            "word": "boots",
+            "display": "boot<span>s</span>",
+            "audio": "boots.mp3",
+            "image": "boots.png"
+        },
+        "quiz-words": [
+            "gloves",
+            "raccoons",
+            "crayons",
+            "walnuts",
+            "binoculars"
+        ],
+        "color": {
+            "all": "green",
+            "vowel": "green",
+            "1st": "green",
+            "2nd": "green",
+            "3rd": "green"
+        },
+        "rhyme": "Scissor(s) and string,<br>Scissor(s) and string.<br>When a man'(s) single,<br>he live(s) like a king.",
+        "category": ["C-end", "C"],
+        "grade": ["1st", "2nd", "3rd"]
+    },
+    {
+        "id": "S-SC",
+        "audio": "phoneme-S-SC.mp3",
+        "display": "sc",
+        "word1": {
+            "word": "scarf",
+            "display": "<span>sc</span>arf",
+            "audio": "scarf.mp3",
+            "image": "scarf.png"
+        },
+        "word2": {
+            "word": "scold",
+            "display": "<span>sc</span>old",
+            "audio": "scold.mp3",
+            "image": "scold.png"
+        },
+        "word3": {
+            "word": "scare",
+            "display": "<span>sc</span>are",
+            "audio": "scare.mp3",
+            "image": "scare.png"
+        },
+        "quiz-words": [
+            "scowl",
+            "scalp",
+            "scale",
+            "scuba",
+            "school bus"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "1st": "black"
+        },
+        "rhyme": "The (sc)uba man yelled “(sc)at!”<br>And glowered at (Sc)aredy Cat,<br>She hid under a towel<br>While his face made a (sc)owl.<br>When (sc)uba man made a grab<br>She (sc)ratched his (sc)alp’s (sc)ab.",
+        "category": ["CB-begin", "C", "CB"],
         "grade": ["1st", "2nd", "3rd"]
     },
     {
@@ -874,7 +1042,7 @@
             "vowel": "black",
             "3rd": "green"
         },
-        "rhyme": "",
+        "rhyme": "An evening (sc)ene, the crescent moon,<br>(Sc)enting the misty dew,<br>Bright stars, the crickets’ chirping tune –<br>Each night the world seems new.<br><br>Some say the moon rises at night,<br>Others say it a(sc)ends,<br>Some say the moon sets when night ends,<br>Others say it de(sc)ends.<br><br>A(sc)end means rise, de(sc)end means set,<br>Either’s okay to say.<br>(Sc)ientists say people forget.",
         "category": ["C-silent", "C"],
         "grade": ["2nd", "3rd"]
     },
@@ -912,7 +1080,7 @@
             "vowel": "black",
             "2nd": "black"
         },
-        "rhyme": "",
+        "rhyme": "(Scr)aper asked (Scr)ewdriver,<br>“What do you do?”<br>(Scr)ewdriver said, “I (scr)ew (scr)ews.<br>What do you do?”<br>“I (scr)atch off bumpy (scr)ew heads,<br>(scr)ape rough surfaces clean.”<br>“(Scr)am!” (scr)eamed the (scr)ew heads.<br>“(Scr)raping (scr)ew heads is mean!”",
         "category": ["CB-3", "C", "CB"],
         "grade": ["2nd", "3rd"]
     },
@@ -950,9 +1118,9 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "There was an old woman who lived in a (sh)oe;</br>(Sh)e had so many children (sh)e didn't know what to do.</br>(Sh)e gave them some broth without any bread;</br>Then whipped them all soundly and put them to bed.",
+        "rhyme": "There was an old woman who lived in a (sh)oe;<br>(Sh)e had so many children (sh)e didn't know what to do.<br>(Sh)e gave them some broth without any bread;<br>Then whipped them all soundly and put them to bed.",
         "category": ["CD-begin", "CD", "C"],
-        "grade": ["1st", "2nd"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
         "id": "S-SH-end",
@@ -988,7 +1156,7 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "There was an old woman who lived in a (sh)oe;</br>(Sh)e had so many children (sh)e didn't know what to do.</br>(Sh)e gave them some broth without any bread;</br>Then whipped them all soundly and put them to bed.",
+        "rhyme": "Driving on an ocean drawbridge<br>She began to wi(sh) a wi(sh)<br>She’d find fre(sh) tuna in her fridge,<br>Then--sma(sh) ba(sh) ma(sh)--this fi(sh)<br><br>Slammed hard into her face!<br>A flying fi(sh)! Bright mind-lights went fla(sh),<br>Blinding her–she braked to stop someplace,<br>Then slap bang went cra(sh)!<br><br>A cop showed up, she blushed a blu(sh),<br>Sobbed her story. He said,<br>“Sounds fishy!” Smiled, seemed in no ru(sh).<br>But, once her leg healed, they wed.",
         "category": ["CD-end", "CD", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -1026,7 +1194,7 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "There once was old woman tossed up in a ba(sk)et,</br>Seventeen times as high as the moon.</br>Where she was going I couldn't but a(sk) it,</br>For in her hand she carried a broom.",
+        "rhyme": "If you (sk)ip in a (sk)irt<br>You better be (sk)illful,<br>(Sk)inning your knee can be<br>Terribly painful.<br>If you (sk)ate in long pants<br>Just be extra careful,<br>Tuck in your cuffs– <br>A (sk)id could be hurtful.<br>Be extra resourceful<br>And you’ll be successful!",
         "category": ["CB-begin", "CB", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -1064,7 +1232,7 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "There once was old woman tossed up in a ba(sk)et,</br>Seventeen times as high as the moon.</br>Where she was going I couldn't but a(sk) it,</br>For in her hand she carried a broom.",
+        "rhyme": "Could that monstrous lizard the basili(sk)<br>Really kill with just one glance? I wouldn’t ri(sk)<br>Trying to find out. Why, evenings at du(sk),<br>Does the sky turn pink? An elephant’s tu(sk),<br>How sharp is it?  Each a first rate question!<br>Not like those spelling, science, subtraction<br>Tests, all those un-fun questions teachers ask<br>That make you wish you had a magic ma(sk)",
         "category": ["CB-end", "CB", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -1102,7 +1270,7 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "To bed; to bed; says (Sl)eepy Head;</br>\"Let's stay awhile;\" says (Sl)ow;</br>\"Put on the pot;\" says Hungry Ned;</br>\"We'll eat before we go.\"",
+        "rhyme": "To bed; to bed; says (Sl)eepy Head;<br>\"Let's stay awhile;\" says (Sl)ow;<br>\"Put on the pot;\" says Hungry Ned;<br>\"We'll eat before we go.\"",
         "category": ["CB-begin", "CB", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -1140,7 +1308,7 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "",
+        "rhyme": "The (sm)all chimp girl (sm)elled nice,<br>And (sm)iled at chimp boy once, twice.<br>On her (sm)ooth cheek he (sm)acked<br>A (sm)oochy kiss.  She whacked his back right back!",
         "category": ["CB-begin", "CB", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -1178,7 +1346,7 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "",
+        "rhyme": "(Sn)owbird tried to (sn)eak<br>A chocolate (sn)owball (sn)ack,<br>But (sn)ow(sn)ail squeezed his beak<br>And stole the (sn)ack right back.",
         "category": ["CB-begin", "CB", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -1216,7 +1384,7 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "I (sp)ied a dirty blue jay</br>On a '(sp)ecially hot (sp)ring day.</br>He (sp)lished and (sp)lashed in a birdbath,</br>Then (sp)eedily flew away.",
+        "rhyme": "I (sp)ied a dirty blue jay<br>On a '(sp)ecially hot (sp)ring day.<br>He (sp)lished and (sp)lashed in a birdbath,<br>Then (sp)eedily flew away.",
         "category": ["CB-begin", "CB", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -1254,7 +1422,7 @@
             "vowel": "black",
             "2nd": "black"
         },
-        "rhyme": "",
+        "rhyme": "Squirrel fell (spl)at on a (spl)it stick,<br>Quick (spl)uttered out, “Oh no!<br>Then (spl)ashed down in a birdbath<br>(spl)attered water to and fro,<br>Howled “A (spl)inter’s in my forepaw!”<br>And di(spl)ayed his sore, sore toe.",
         "category": ["CB-3", "CB", "C"],
         "grade": ["2nd", "3rd"]
     },
@@ -1292,7 +1460,7 @@
             "vowel": "black",
             "2nd": "black"
         },
-        "rhyme": "",
+        "rhyme": "A (spr)y old (spr)inter raced ahead<br>But got stung by a bee,<br>Slipped on some slippery (spr)inkler (spr)ay,<br>Crashed through a rough (spr)uce tree,<br>Fell (spr)awling down and loudly howled,<br>“I won! — but (spr)ained my knee!”",
         "category": ["CB-3", "CB", "C"],
         "grade": ["2nd", "3rd"]
     },
@@ -1330,7 +1498,7 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "Robin and Richard<br>Were two lazy men;</br>They (st)ayed in bed</br>Till the clock (st)ruck ten.</br>Then up jumps Robin</br>And looks at the sky:</br>\u201cOh, brother Richard,</br>The sun\u2019s very high.</br>You walk fir(st)</br>With the bottle and bag,</br>And I\u2019ll ride later</br>On the gray horse nag.\u201d</br>",
+        "rhyme": "Robin and Richard<br>Were two lazy men;<br>They (st)ayed in bed<br>Till the clock (st)ruck ten.<br>Then up jumps Robin<br>And looks at the sky:<br>\u201cOh, brother Richard,<br>The sun\u2019s very high.<br>You walk fir(st)<br>With the bottle and bag,<br>And I\u2019ll ride later<br>On the gray horse nag.\u201d<br>",
         "category": ["CB-begin", "CB", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -1368,7 +1536,7 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "Robin and Richard<br>Were two lazy men;</br>They (st)ayed in bed</br>Till the clock (st)ruck ten.</br>Then up jumps Robin</br>And looks at the sky:</br>\u201cOh, brother Richard,</br>The sun\u2019s very high.</br>You walk fir(st)</br>With the bottle and bag,</br>And I\u2019ll ride later</br>On the gray horse nag.\u201d</br>",
+        "rhyme": "Once on a pretend time didn’t you tell me,<br>You ho(st)ed a happy pet-pair party?<br>You  decided on goodies to buy at the store, <br>With your favorite pet dog made a gue(st) li(st) of four,<br>Invited a cyclops with a pet pig to attend,<br>And a fairy paired with a pet parrot be(st) friend.<br>You spread a bright blanket with places for six,<br>And bowls for dog food, pig food, and a mix<br>Of treats for the picky parrot.  For the re(st)<br>Cold milk, cake on a platter, and the be(st)<br>Ice cream—chocolate, vanilla, strawberry—<br>Topped with sprinkles, nuts, a bright red cherry,<br>And butter-scotch syrup! Gosh it’s yummy,<br>Yum yummy in a tum, tum, tummy!<br>The dog, and pig, and parrot played so well,<br>And everyone loved it, so I heard tell. <br>The cyclops kept bragging that you were so clever, <br>And the fairy declared it the (best) party ever!",
         "category": ["CB-end", "CB", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -1406,7 +1574,7 @@
             "vowel": "black",
             "2nd": "black"
         },
-        "rhyme": "",
+        "rhyme": "(Str)eet sweeper swept the (str)eet,<br>Cleaned (str)aw, (str)ing, like a dream,<br>Then gobbled down his favorite treat,<br>Sweet (str)awberry ice cream.",
         "category": ["CB-3", "CB", "C"],
         "grade": ["2nd", "3rd"]
     },
@@ -1437,132 +1605,19 @@
             "swine",
             "sweater",
             "side-swept",
-            "street sweeper"
+            "street-sweeper"
         ],
         "color": {
             "all": "black",
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "(Sw)an (sw)am over the sea,</br>(Sw)im (sw)an (sw)im!</br>(Sw)an (sw)am back again,</br>Well (sw)um (sw)an!",
+        "rhyme": "(Sw)an (sw)am over the sea,<br>(Sw)im (sw)an (sw)im!<br>(Sw)an (sw)am back again,<br>Well (sw)um (sw)an!",
         "category": ["CB-begin", "CB", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
     {
-        "id": "S-begin",
-        "audio": "phoneme-S-sss.mp3",
-        "display": "s",
-        "word1": {
-            "word": "suitcase",
-            "display": "<span>s</span>uitca<span>s</span>e",
-            "audio": "suitcase.mp3",
-            "image": "suitcase.png"
-        },
-        "word2": {
-            "word": "say",
-            "display": "<span>s</span>ay",
-            "audio": "say.mp3",
-            "image": "say.png"
-        },
-        "word3": {
-            "word": "sneak",
-            "display": "<span>s</span>neak",
-            "audio": "sneak.mp3",
-            "image": "sneak.png"
-        },
-        "quiz-words": [
-            "sing",
-            "sofa",
-            "sun",
-            "soap",
-            "seal"
-        ],
-        "color": {
-            "all": "black",
-            "vowel": "black",
-            "K": "black"
-        },
-        "rhyme": "(S)imple (S)imon met a pieman;</br>Going to the Fair;</br>(S)ays (S)imple (S)imon to the pieman:</br>\"Please let me ta(s)te your ware.\"</br></br>(S)ay(s) the pieman to (S)imple (S)imon:</br>\"Show me fir(s)t your penny.\"</br>(S)ays (S)imple (S)imon to the pieman:</br>\"Indeed I have not any.\"",
-        "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K", "1st"]
-    },
-    {
-        "id": "s-end",
-        "audio": "phoneme-S-sss.mp3",
-        "display": "s",
-        "word1": {
-            "word": "bus",
-            "display": "bu<span>s</span>",
-            "audio": "bus.mp3",
-            "image": "bus.png"
-        },
-        "word2": {
-            "word": "dress",
-            "display": "dre<span>ss</span>",
-            "audio": "dress.mp3",
-            "image": "dress.png"
-        },
-        "word3": {
-            "word": "grapes",
-            "display": "grape<span>s</span>",
-            "audio": "grapes.mp3",
-            "image": "grapes.png"
-        },
-        "quiz-words": [
-            "stilts",
-            "kiss",
-            "moss",
-            "pets",
-            "ants"
-        ],
-        "color": {
-            "all": "black",
-            "vowel": "black",
-            "K": "black"
-        },
-        "rhyme": "(S)imple (S)imon met a pieman;</br>Going to the Fair;</br>(S)ays (S)imple (S)imon to the pieman:</br>\"Please let me ta(s)te your ware.\"</br></br>(S)ay(s) the pieman to (S)imple (S)imon:</br>\"Show me fir(s)t your penny.\"</br>(S)ays (S)imple (S)imon to the pieman:</br>\"Indeed I have not any.\"",
-        "category": ["C-end", "C"],
-        "grade": ["K", "1st"]
-    },
-    {
-        "id": "S-zz",
-        "audio": "phoneme-S-zz.mp3",
-        "display": "s",
-        "word1": {
-            "word": "dogs",
-            "display": "dog<span>s</span>",
-            "audio": "dogs.mp3",
-            "image": "dogs.png"
-        },
-        "word2": {
-            "word": "skis",
-            "display": "ski<span>s</span>",
-            "audio": "skis.mp3",
-            "image": "skis.png"
-        },
-        "word3": {
-            "word": "boots",
-            "display": "boot<span>s</span>",
-            "audio": "boots.mp3",
-            "image": "boots.png"
-        },
-        "quiz-words": [
-            "gloves",
-            "raccoons",
-            "crayons",
-            "walnuts",
-            "binoculars"
-        ],
-        "color": {
-            "all": "green",
-            "vowel": "green"
-        },
-        "rhyme": "Scissor(s) and string,</br>Scissor(s) and string.</br>When a man'(s) single,</br>he live(s) like a king.",
-        "category": ["C-end", "C"],
-        "grade": ["1st", "2nd", "3rd"]
-    },
-    {
-        "id": "T-begin",
+        "id": "T-tttt-begin",
         "audio": "phoneme-T-tttt.mp3",
         "display": "t",
         "word1": {
@@ -1595,12 +1650,12 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "(T)o marke(t); (t)o marke(t); (t)o buy a fa(t) pig;</br>Home again; home again; jigge(t)y; jig.</br></br>(T)o marke(t); (t)o marke(t); (t)o buy a fa(t) hog;</br>Home again; home again; jigge(t)y; jog.",
+        "rhyme": "(T)homas A’(T)attamus took two (T)’s<br>(T)o (t)ie (t)wo (t)ubs (t)o (t)wo (t)all trees,<br>(T)o frighten the (t)errible (T)homas A’(T)attamus!<br>(T)ell me how many (T)’s there are in all that?",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K", "1st"]
+        "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "T-end",
+        "id": "T-tttt-end",
         "audio": "phoneme-T-tttt.mp3",
         "display": "t",
         "word1": {
@@ -1633,9 +1688,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "(T)o marke(t); (t)o marke(t); (t)o buy a fa(t) pig;</br>Home again; home again; jigge(t)y; jig.</br></br>(T)o marke(t); (t)o marke(t); (t)o buy a fa(t) hog;</br>Home again; home again; jigge(t)y; jog.",
+        "rhyme": "Lucy Locke(t) los(t) her pocke(t),<br>Kitty Fisher found I(t);<br>There was no(t) a penny in I(t),<br>But a ribbon round i(t).",
         "category": ["C-end", "C"],
-        "grade": ["K", "1st"]
+        "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
         "id": "T-TCH-silent",
@@ -1671,7 +1726,7 @@
             "vowel": "black",
             "3rd": "black"
         },
-        "rhyme": "",
+        "rhyme": "They grow well in a garden pa(tch),<br>Taste yummy in a pie,<br>Broth, toast, and cheesey flavors ma(tch)<br>In soup— or slice and fry.<br>Their layers you can unatt(ach)<br>And see through if you try.<br>They never make you i(tch) or scra(tch)<br>But they can make you cry.<br>Grownups like-em more than young-uns,<br>These are—",
         "category": ["C-silent", "C"],
         "grade": ["3rd"]
     },
@@ -1709,9 +1764,9 @@
             "vowel": "black",
             "3rd": "black"
         },
-        "rhyme": "Bye; baby bunting;<br>Fa(th)er's gone a-hunting;</br>Mo(th)er's gone a-milking;</br>Sister's gone a-silking;</br>And Bro(th)er's gone for a rabbit skin;</br>To wrap little baby bunting in.",
+        "rhyme": "Bye; baby bunting;<br>Fa(th)er's gone a-hunting;<br>Mo(th)er's gone a-milking;<br>Sister's gone a-silking;<br>And Bro(th)er's gone for a rabbit skin;<br>To wrap little baby bunting in.",
         "category": ["CD-begin", "CD", "C"],
-        "grade": ["1st", "2nd", "3rd"]
+        "grade": ["3rd"]
     },
     {
         "id": "T-th-begin",
@@ -1739,21 +1794,20 @@
             "think",
             "thirsty",
             "thick",
-            "thumbs",
+            "thumb",
             "thumbnail"
         ],
         "color": {
             "all": "green",
             "vowel": "green",
-            "1st": "black",
             "3rd": "green"
         },
-        "rhyme": "(Th)ree wise men of Go(th)am</br>Went to sea in a bowl,</br>And if the bowl had been stronger,</br>My song had been longer.",
+        "rhyme": "The (th)in queen sat high on her (th)rone,<br>A (th)ick (th)imble shielding her (th)umb,<br>Admiring the fine (th)ing she’d sewn, <br>Wondering when the king would come.<br><br>The  glum king slouched toward his (th)rone,<br>And moaned and groaned and sucked one (th)umb,<br>Hurt playing baseball wi(th) a stone,<br>The  o(th)er just felt stiff and numb.<br><br>When she showed the gift she’d sewed<br>To (th)ank her, (th)ree times he leapt high<br>Her kiss once changed him from a toad.<br>A baseball’s great for any guy!",
         "category": ["CD-begin", "CD", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
     {
-        "id": "T-TH-end",
+        "id": "T-th-end",
         "audio": "phoneme-T-th.mp3",
         "display": "th",
         "word1": {
@@ -1779,54 +1833,15 @@
             "both",
             "tooth",
             "shoulder-length",
-            "bath tub"
+            "bathtub"
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
-            "1st": "green"
+            "vowel": "black"
         },
-        "rhyme": "",
+        "rhyme": "I don’t <i>think</i> it really happened last night,<br>After my ba(th), snuggling, both eyes squeezed tight,<br>I <i>thought</i> someone—or something—said,<br>“Stop!’ —inside…or maybe outside…my head.<br>I <i>believe</i> a teeny-tiny giraffe shadow,<br>Popped from the dark, hopped on the window,<br>And howled, “Don’t tickle me— you bucktoo(th) mo(th) you!”<br>That’s not normal!  Not what shadows should do!<br>Is it…?  This huge big-mou(th) mo(th) said, “I’m no mo(th) now,<br>So I’ll just tickle your noodle-neck anyhow!”<br>Wham! –and it changed to a sasquatch then!<br>What!?  And the other shadow, who had been<br>This giraffe, became a strange dino-bird!  Whaaat?!  I squeezed<br>My eyes tighter as sasquatch pranced and teased,<br>“NAH-nah-NAH-nah-NAH-NAH.” I spied<br>It zip benea(th) the bed, try to hide,<br>Then scramble to the ceiling, hip-hop<br>Over a shadow unicorn then snap-stop,<br>Catch its brea(th) to stretch its long fingers <i>every</i> where,<br>Tickling a weird centaur here, a goofy robot there.<br>This tickle-craziness made me crazy too,<br>And in tru(th) I knew only one thing to do!<br>I leapt from my bed, quick flashed on the light!<br>Shadows take flight from fright when it’s bright—<br>And stay far away, if you wave a flashlight!",
         "category": ["CD-end", "CD", "C"],
         "grade": ["1st", "2nd", "3rd"]
-    },
-    {
-        "id": "T-TION",
-        "audio": "phoneme-T-TION.mp3",
-        "display": "tion",
-        "word1": {
-            "word": "cushion",
-            "display": "cush<span>ion</span>",
-            "audio": "cushion.mp3",
-            "image": "cushion.png"
-        },
-        "word2": {
-            "word": "fashion",
-            "display": "fash<span>ion</span>",
-            "audio": "fashion.mp3",
-            "image": "fashion.png"
-        },
-        "word3": {
-            "word": "addition",
-            "display": "addit<span>ion</span>",
-            "audio": "addition.mp3",
-            "image": "addition.png"
-        },
-        "quiz-words": [
-            "graduation",
-            "construction",
-            "percussion",
-            "question",
-            "congratulations"
-        ],
-        "color": {
-            "all": "black",
-            "vowel": "black",
-            "3rd": "black"
-        },
-        "rhyme": "",
-        "category": ["VC-3", "V", "VC"],
-        "grade": ["3rd"]
     },
     {
         "id": "T-TR",
@@ -1862,12 +1877,12 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "Mis(tr)ess Mary; quite con(tr)ary;</br>How does your garden grow?</br>With silver bells and cockle shells;</br>And pretty maids all in a row.",
+        "rhyme": "Mis(tr)ess Mary; quite con(tr)ary;<br>How does your garden grow?<br>With silver bells and cockle shells;<br>And pretty maids all in a row.",
         "category": ["CB-begin", "CB", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
     {
-        "id": "G-hard-begin",
+        "id": "G-guh-begin",
         "audio": "phoneme-G-guh.mp3",
         "display": "g",
         "word1": {
@@ -1898,14 +1913,16 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "K": "black"
+            "K": "black",
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "(G)oosey; (g)oosey; (g)ander; where do you wander?</br>Upstairs and downstairs and in my lady's chamber;</br>There I met an old man who wouldn't say his prayers;</br>I took him by his hind le(g)s and threw him downstairs.",
+        "rhyme": "As I was (g)oing up Primrose Hill,<br>Primrose Hill was dirty;<br>There I met a pretty (g)irl,<br>And she (g)ave me a curtsey.<br><br>Little (g)irl, pretty (g)irl,<br>Blessings be upon you;<br>If I had half-a-dollar a day,<br>I’d spend it all on you.",
         "category": ["C-begin", "CG", "C"],
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "G-hard-end",
+        "id": "G-guh-end",
         "audio": "phoneme-G-guh.mp3",
         "display": "g",
         "word1": {
@@ -1936,9 +1953,11 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "K": "black"
+            "K": "black",
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "(G)oosey; (g)oosey; (g)ander; where do you wander?</br>Upstairs and downstairs and in my lady's chamber;</br>There I met an old man who wouldn't say his prayers;</br>I took him by his hind le(g)s and threw him downstairs.",
+        "rhyme": "To market, to market,<br>To buy a fat pi(g);<br>Home again, home again,<br>Jiggety ji(g).<br><br>To market, to market,<br>To buy a fat ho(g);<br>Home again, home again,<br>Jiggety jo(g).",
         "category": ["C-end", "CG", "C"],
         "grade": ["K", "1st", "2nd", "3rd"]
     },
@@ -1973,9 +1992,11 @@
         ],
         "color": {
             "all": "green",
-            "vowel": "green"
+            "vowel": "green",
+            "2nd": "green",
+            "3rd": "green"
         },
-        "rhyme": "(G)eorgie Por(g)ie, pudding and pie,</br>Kissed the girls and made them cry.</br>When the boys came out to play,</br>(G)eorgie Por(g)ie ran away.",
+        "rhyme": "(G)eorgie Por(g)ie, pudding and pie,<br>Kissed the girls and made them cry.<br>When the boys came out to play,<br>(G)eorgie Por(g)ie ran away.",
         "category": ["CG", "C"],
         "grade": ["2nd", "3rd"]
     },
@@ -2011,7 +2032,7 @@
             "vowel": "black",
             "3rd": "black"
         },
-        "rhyme": "",
+        "rhyme": "He looked kind of rou(gh).<br>And tried to act tou(gh),<br>To frighten the ballerina.<br><br>He was quite impolite<br>When he dared her to fi(gh)t,<br>And laughed like a goofy hyena.<br><br>Her quick fists made him cou(gh),<br>He splashed in a pig trou(gh),<br>Then she danced from the boxing arena.",
         "category": ["CD-end", "CD", "C"],
         "grade": ["3rd"]
     },
@@ -2050,9 +2071,9 @@
             "2nd": "black",
             "3rd": "green"
         },
-        "rhyme": "",
+        "rhyme": "Read the riddle — find the kind of band,<br>Unlikely to play music, that can show ei(gh)t<br>Bri(gh)t colors, even more, be short, expand,<br>Be dou(gh)nut round or arrow strai(gh)t;<br>Each when ti(gh)t flies hi(gh). To understand,<br>Read each line’s first letter. Concentrate.",
         "category": ["C-silent", "C"],
-        "grade": ["3rd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "G-GL",
@@ -2088,7 +2109,7 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "A (gl)ass of juice</br>And a (gl)azed donut,</br>Put (gl)ad in the heart</br>And a (gl)ow in the gut.",
+        "rhyme": "A (gl)ass of juice<br>And a (gl)azed donut,<br>Put (gl)ad in the heart<br>And a (gl)ow in the gut.",
         "category": ["CB-begin", "CB", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -2126,7 +2147,7 @@
             "vowel": "black",
             "3rd": "black"
         },
-        "rhyme": "",
+        "rhyme": "A screen can keep out tiny (gn)ats.<br>A (gn)ome’s a kind of elf.<br>A soverei(gn)’s a king or queen,<br>— In dreamland like yourself.<br><br>A beaver (gn)aws on bark for food,<br>A (gn)u’s a wildebeest.<br>A silent g is (gn)arly, dude!<br>— Or I think so at least.",
         "category": ["C-silent", "C"],
         "grade": ["3rd"]
     },
@@ -2164,12 +2185,12 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "(Gr)ouchy (gr)emlin\u2019s (gr)umpy tummy (gr)owled,</br>\u201cI\u2019m hun(gr)y, feed me, feed me,\u201d it howled.</br>When a (gr)inning (gr)izzly (gr)abbed it tight,</br>(Gr)umpy tummy squeeeezed out of sight.</br>",
+        "rhyme": "(Gr)ouchy (gr)emlin\u2019s (gr)umpy tummy (gr)owled,<br>\u201cI\u2019m hun(gr)y, feed me, feed me,\u201d it howled.<br>When a (gr)inning (gr)izzly (gr)abbed it tight,<br>(Gr)umpy tummy squeeeezed out of sight.<br>",
         "category": ["CB-begin", "CB", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
     {
-        "id": "N-begin",
+        "id": "N-nnn-begin",
         "audio": "phoneme-N-nnn.mp3",
         "display": "n",
         "word1": {
@@ -2202,12 +2223,12 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "(N)eedles a(n)d pi(n)s,</br>(N)eedles a(n)d pi(n)s.</br>Whe(n) a ma(n) marries,</br>his trouble begi(n)s.",
+        "rhyme": "“Croak,” said the toad, “I’m hungry I think,<br>To-day I’ve had (n)othing to eat or to drink;<br>I’ll crawl to a garden and jump through the pales,<br>And there I’ll dine (n)icely on slugs and on snails.”<br><br>“Ho, ho!” quoth the frog, “is that what you mean?<br>Then I’ll hop away to the (n)ext meadow stream,<br>There I will drink, and eat worms and slugs too,<br>And then I shall have a good dinner like you.”",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K", "1st"]
+        "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "N-end",
+        "id": "N-nnn-end",
         "audio": "phoneme-N-nnn.mp3",
         "display": "n",
         "word1": {
@@ -2240,9 +2261,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "(N)eedles a(n)d pi(n)s,</br>(N)eedles a(n)d pi(n)s.</br>Whe(n) a ma(n) marries,</br>his trouble begi(n)s.",
+        "rhyme": "Sing a song of sixpence, a pocket full of rye,<br>Four and twenty blackbirds baked i(n) a pie.<br>When the pie was opened the birds bega(n) to sing,<br>Now wasn’t this a dainty dish to set before the king?<br>The king was i(n) the parlor counting out his money;<br>The queen was i(n) the kitche(n) eating bread and honey;<br>The maid was i(n) the garde(n) hanging out the clothes,<br>And along came a blackbird and nipped off her nose.",
         "category": ["C-end", "C"],
-        "grade": ["K", "1st"]
+        "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
         "id": "N-ND",
@@ -2278,7 +2299,7 @@
             "vowel": "black",
             "2nd": "black"
         },
-        "rhyme": "Ha(nd)y-spa(nd)y; Jacky da(nd)y;</br>Loves plum cake a(nd) sugar ca(nd)y.</br>He bought some at a grocer's shop;</br>A(nd) pleased ran away going hop; hop; hop.",
+        "rhyme": "Ha(nd)y-spa(nd)y; Jacky da(nd)y;<br>Loves plum cake a(nd) sugar ca(nd)y.<br>He bought some at a grocer's shop;<br>A(nd) pleased ran away going hop; hop; hop.",
         "category": ["CB-end", "CB", "C"],
         "grade": ["2nd", "3rd"]
     },
@@ -2316,7 +2337,7 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "Si(ng) a so(ng) of sixpence, a pocket full of rye,</br>Four and twenty blackbirds baked in a pie.</br>When the pie was opened the birds began to si(ng),</br>Now wasn\u2019t this a dainty dish to set before the ki(ng)?</br></br>The ki(ng) was in the parlor counti(ng) out his money;</br>The queen was in the kitchen eati(ng) bread and honey;</br>The maid was in the garden ha(ng)i(ng) out the clothes,</br>And alo(ng) came a blackbird and nipped off her nose.</br>",
+        "rhyme": "Si(ng) a so(ng) of sixpence, a pocket full of rye,<br>Four and twenty blackbirds baked in a pie.<br>When the pie was opened the birds began to si(ng),<br>Now wasn\u2019t this a dainty dish to set before the ki(ng)?<br><br>The ki(ng) was in the parlor counti(ng) out his money;<br>The queen was in the kitchen eati(ng) bread and honey;<br>The maid was in the garden ha(ng)i(ng) out the clothes,<br>And alo(ng) came a blackbird and nipped off her nose.<br>",
         "category": ["CD-end", "CD", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -2354,7 +2375,7 @@
             "vowel": "black",
             "2nd": "black"
         },
-        "rhyme": "There was an old woman; and what do you thi(nk)?</br>She lived upon nothing but foods and dri(nk);</br>Food and dri(nk) made up most of her diet;</br>And yet this old woman could never be quiet.",
+        "rhyme": "There was an old woman; and what do you thi(nk)?<br>She lived upon nothing but foods and dri(nk);<br>Food and dri(nk) made up most of her diet;<br>And yet this old woman could never be quiet.",
         "category": ["CB-end", "C", "CB"],
         "grade": ["2nd", "3rd"]
     },
@@ -2391,7 +2412,7 @@
             "all": "black",
             "vowel": "black"
         },
-        "rhyme": "",
+        "rhyme": "The little kid got tired of bricks, ceme(nt),<br>hydra(nt)s, traffic wherever he we(nt),<br>Mom ra(nt)ing, ‘Don’t have an accide(nt)!’<br>He mea(nt) to camp awhile and hu(nt), we(nt)<br>Out back, picked a spot among the pla(nt)s,<br>Set up his homemade te(nt). His pa(nt)s<br>Felt itchy, but he saw no a(nt)s,<br>But suddenly a sideways glance<br>At <i>something</i> made him start to think<br>Bad thoughts, then <i>something</i> seemed to slink<br>Behind his te(nt).  He heard some weird clink,<br>Then  smelled some rotten skunky stink,<br>And seemed to hear a growly gru(nt).<br>Decided not to face or confro(nt)<br>Some beast in the back yard or the fro(nt),<br>So raced inside to conduct his hu(nt).",
         "category": ["CB-end", "C", "CB"],
         "grade": ["2nd", "3rd"]
     },
@@ -2429,9 +2450,10 @@
         "color": {
             "all": "black",
             "vowel": "black",
+            "2nd": "black",
             "3rd": "black"
         },
-        "rhyme": "Three bl(i)nd m(i)ce, three bl(i)nd m(i)ce,</br>See how they run, see how they run.</br>They all ran after the farmer's w(i)fe,</br>She cut off their tails with a carving kn(i)fe.</br>Did you ever see such a s(i)ght in your l(i)fe</br>As three bl(i)nd m(i)ce?",
+        "rhyme": "Three bl(i)nd m(i)ce, three bl(i)nd m(i)ce,<br>See how they run, see how they run.<br>They all ran after the farmer's w(i)fe,<br>She cut off their tails with a carving kn(i)fe.<br>Did you ever see such a s(i)ght in your l(i)fe<br>As three bl(i)nd m(i)ce?",
         "category": ["V-long", "V"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -2441,19 +2463,19 @@
         "display": "i",
         "word1": {
             "word": "tie",
-            "display": "t<span>i</span>e",
+            "display": "t<span>i</span><u>e</u>",
             "audio": "tie.mp3",
             "image": "tie.png"
         },
         "word2": {
             "word": "pie",
-            "display": "p<span>i</span>e",
+            "display": "p<span>i</span><u>e</u>",
             "audio": "pie.mp3",
             "image": "pie.png"
         },
         "word3": {
             "word": "kite",
-            "display": "k<span>i</span>te",
+            "display": "k<span>i</span>t<u>e</u>",
             "audio": "kite.mp3",
             "image": "kite.png"
         },
@@ -2469,7 +2491,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "Three bl(i)nd m(i)ce, three bl(i)nd m(i)ce,</br>See how they run, see how they run.</br>They all ran after the farmer's w(i)fe,</br>She cut off their tails with a carving kn(i)fe.</br>Did you ever see such a s(i)ght in your l(i)fe</br>As three bl(i)nd m(i)ce?",
+        "rhyme": "Airl(i)nes and railroads are big fans of m(i)ne.<br>Check out my face and you’ll see f(i)ve and n(i)ne.<br>Look at my hands, you’ll know I can’t clap though.<br>One hand of m(i)ne l(i)kes to be fast, one slow.<br>Can’t sing, but when I’m big will somet(i)mes ch(i)me.<br>Kids need me most when they don’t have the t(i)me.",
         "category": ["E", "V"],
         "grade": ["3rd"]
     },
@@ -2508,9 +2530,12 @@
         "color": {
             "all": "green",
             "vowel": "green",
-            "K": "green"
+            "K": "black",
+            "1st": "black",
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "Jack; be n(i)mble; Jack; be qu(i)ck.</br>Jack; jump over the candlest(i)ck.",
+        "rhyme": "Jack; be n(i)mble; Jack; be qu(i)ck.<br>Jack; jump over the candlest(i)ck.",
         "category": ["V-short", "V"],
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
@@ -2546,9 +2571,9 @@
         "color": {
             "all": "pink",
             "vowel": "pink",
-            "2nd": "pink"
+            "2nd": "black"
         },
-        "rhyme": "Oh, do you know the muff(i)n-man,</br>The muff(i)n-man, the muff(i)n-man?</br>Do you know the muff(i)n-man</br>Who lives in Drury Lane?</br></br>Yes, I know the muff(i)n-man,</br>The muff(i)n-man, the muff(i)n-man.</br>Yes, I know the muff(i)n-man</br>Who lives in Drury Lane.",
+        "rhyme": "Oh, do you know the muff(i)n-man,<br>The muff(i)n-man, the muff(i)n-man?<br>Do you know the muff(i)n-man<br>Who lives in Drury Lane?<br><br>Yes, I know the muff(i)n-man,<br>The muff(i)n-man, the muff(i)n-man.<br>Yes, I know the muff(i)n-man<br>Who lives in Drury Lane.",
         "category": ["V-schwa", "V"],
         "grade": ["2nd", "3rd"]
     },
@@ -2584,9 +2609,12 @@
         "color": {
             "all": "pink",
             "vowel": "pink",
-            "K": "pink"
+            "K": "green",
+            "1st": "green",
+            "2nd": "green",
+            "3rd": "green"
         },
-        "rhyme": "Cranberr(ie)s for yummy muffins,</br>And also berr(ie)s blue,</br>Strawberr(ie)s for scrumptious jelly,</br>Raspberr(ie)s and blackberr(ie)s too!",
+        "rhyme": "While eating hot chil(i),<br>They planned a safar(i)<br>To bring back a yet(i).<br>Both dressed in new khak(i),<br>Topped off with a kep(i),<br>But learned that their tax(i),<br>Had almost hit Bamb(i),<br><br>So instead took a jet sk(i)<br>And found a bik(i)n(i)!<br>[But just an emoj(i).]",
         "category": ["V-short", "V"],
         "grade": ["K", "1st", "2nd", "3rd"]
     },
@@ -2624,7 +2652,7 @@
             "vowel": "black",
             "3rd": "black"
         },
-        "rhyme": "Cranberr(ie)s for yummy muffins,</br>And also berr(ie)s blue,</br>Strawberr(ie)s for scrumptious jelly,</br>Raspberr(ie)s and blackberr(ie)s too!",
+        "rhyme": "Cranberr(ie)s for yummy muffins,<br>And also berr(ie)s blue,<br>Strawberr(ie)s for scrumptious jelly,<br>Raspberr(ie)s and blackberr(ie)s too!",
         "category": ["VP", "V"],
         "grade": ["3rd"]
     },
@@ -2655,14 +2683,14 @@
             "tight",
             "night",
             "brighten",
-            "lightening"
+            "lightning"
         ],
         "color": {
             "all": "black",
             "vowel": "black",
             "3rd": "black"
         },
-        "rhyme": "Star l(igh)t, star br(igh)t,</br>First star I see ton(igh)t,</br>I wish I may, I wish I m(igh)t,</br>Have the wish I wish ton(igh)t.",
+        "rhyme": "Star l(igh)t, star br(igh)t,<br>First star I see ton(igh)t,<br>I wish I may, I wish I m(igh)t,<br>Have the wish I wish ton(igh)t.",
         "category": ["VC-3", "V", "VC"],
         "grade": ["3rd"]
     },
@@ -2690,7 +2718,7 @@
         },
         "quiz-words": [
             "smile",
-            "reptile",
+            "reptiles",
             "crocodile",
             "silent",
             "agile"
@@ -2700,7 +2728,7 @@
             "vowel": "black",
             "3rd": "black"
         },
-        "rhyme": "",
+        "rhyme": "Though Granddad always says I should go slow,<br>I’ll race around his farm whenever I can,<br>Love climbing high hay p(il)es, peeking in the s(il)o,<br>Though smelling the s(il)age stink’s not in my plan.<br><br>I climb on his tractor, and tiller and plows,<br>Seeing his w(il)d bull and m(il)d cows brings sm(il)es,<br>And roosters and chickens, his boar pigs and sows.<br>Visiting’s super, despite all the m(il)es!",
         "category": ["VC-2", "V", "VC"],
         "grade": ["3rd"]
     },
@@ -2738,7 +2766,7 @@
             "vowel": "green",
             "3rd": "green"
         },
-        "rhyme": "Jack and J(ill) went up the h(ill);</br>To fetch a pail of water;</br>Jack fell down and broke his crown;</br>And J(ill) came tumbling after.",
+        "rhyme": "Jack and J(ill) went up the h(ill);<br>To fetch a pail of water;<br>Jack fell down and broke his crown;<br>And J(ill) came tumbling after.",
         "category": ["VC-2", "V", "VC"],
         "grade": ["3rd"]
     },
@@ -2767,7 +2795,7 @@
         "quiz-words": [
             "wildcat",
             "wildfowl",
-            "wildrice",
+            "wild rice",
             "grandchild"
         ],
         "color": {
@@ -2775,7 +2803,7 @@
             "vowel": "black",
             "3rd": "black"
         },
-        "rhyme": "",
+        "rhyme": "Sometimes a m(ild) ch(ild),<br>Now and then a w(ild) ch(ild),<br>Happy to be a grandch(ild),<br>Always a love ch(ild).",
         "category": ["VC-3", "V", "VC"],
         "grade": ["3rd"]
     },
@@ -2812,45 +2840,45 @@
             "vowel": "black",
             "3rd": "black"
         },
-        "rhyme": "",
+        "rhyme": "If you can’t see red or green you’ll f(ind)<br>That certainly you’re color bl(ind).<br>Sometimes do you quick glance beh(ind),<br>Fear f(ind)ing monsters of some k(ind)–<br>But don’t spot yetis–so don’t m(ind)?<br>Beware! You might be yeti-bl(ind).<br>",
         "category": ["VC-3", "V", "VC"],
         "grade": ["3rd"]
     },
     {
-        "id": "I-IND-short",
-        "audio": "phoneme-I-IND-short.mp3",
-        "display": "ind",
+        "id": "I-ION",
+        "audio": "phoneme-I-ION.mp3",
+        "display": "ion",
         "word1": {
-            "word": "windy",
-            "display": "w<span>ind</span>y",
-            "audio": "windy.mp3",
-            "image": "wind.png"
+            "word": "vision",
+            "display": "vis<span>ion</span>",
+            "audio": "vision.mp3",
+            "image": "vision.png"
         },
         "word2": {
-            "word": "window",
-            "display": "w<span>ind</span>ow",
-            "audio": "window.mp3",
-            "image": "window.png"
+            "word": "cushion",
+            "display": "cush<span>ion</span>",
+            "audio": "cushion.mp3",
+            "image": "cushion.png"
         },
         "word3": {
-            "word": "windmill",
-            "display": "w<span>ind</span>mill",
-            "audio": "windmill.mp3",
-            "image": "windmill.png"
+            "word": "fashion",
+            "display": "fash<span>ion</span>",
+            "audio": "fashion.mp3",
+            "image": "fashion.png"
         },
         "quiz-words": [
-            "index finger",
-            "Indian corn or maize",
-            "kindergarten",
-            "windsurfer",
-            "woodwind instruments"
+            "confusion",
+            "division",
+            "illusion",
+            "percussion",
+            "collision"
         ],
         "color": {
-            "all": "green",
-            "vowel": "green",
-            "3rd": "green"
+            "all": "black",
+            "vowel": "black",
+            "3rd": "black"
         },
-        "rhyme": "",
+        "rhyme": "The (ion) sound drives me nuts! Quest(ion):<br>How’d grown-ups decide ‘fash(ion)’,<br>‘Cush(ion)’, ‘collis(ion)’ all end (ion),<br>Not ‘ion’ ike ‘lion’? And that ‘quest(ion)’<br>Sounds a ‘tuh’ and then sounds (ion),<br>But ‘addit(ion)’ and ‘subtract(ion)’<br>‘Educat(ion)’ don’t. No ‘tuh’ just (ion).<br>One word for ‘stay away’? It’s ‘shun’!",
         "category": ["VC-3", "V", "VC"],
         "grade": ["3rd"]
     },
@@ -2886,14 +2914,15 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "On her b(ir)thday the g(ir)l</br>Wh(ir)led her pearls, sw(ir)led her sk(ir)t,</br>Gave her sh(ir)t tail a tw(ir)l,</br>St(ir)red her toe in the d(ir)t,</br>Until, so I heard,</br>She looked just like a b(ir)d!</br>",
+        "rhyme": "On her b(ir)thday the g(ir)l<br>Wh(ir)led her pearls, sw(ir)led her sk(ir)t,<br>Gave her sh(ir)t tail a tw(ir)l,<br>St(ir)red her toe in the d(ir)t,<br>Until, so I heard,<br>She looked just like a b(ir)d!<br>",
         "category": ["R", "VC", "V"],
         "grade": ["2nd", "3rd"]
     },
     {
-        "id": "P-begin",
+        "id": "P-puh-begin",
         "audio": "phoneme-P-puh.mp3",
         "display": "p",
         "word1": {
@@ -2926,12 +2955,12 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "(P)ease (p)orridge hot; (p)ease (p)orridge cold;</br>(P)ease (p)orridge in the (p)ot; nine days old.</br>Some like it hot; some like it cold;</br>Some like it in the (p)ot; nine days old.</br>S(p)ell me that in four letters:</br>I will: T H A T.",
+        "rhyme": "The sow came in with the saddle,<br>The little (p)ig rocked the cradle,<br>The dish jumped up on the table<br>To see the (p)ot swallow the ladle.<br>The spit that stood behind the door<br>Threw the (p)udding-stick on the floor.<br>“Gracious!” said the gridiron,<br>“Can’t you agree?<br>I’m the boss (p)oliceman,<br>Bring them to me!”",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K", "1st"]
+        "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "P-end",
+        "id": "P-puh-end",
         "audio": "phoneme-P-puh.mp3",
         "display": "p",
         "word1": {
@@ -2964,9 +2993,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "(P)ease (p)orridge hot; (p)ease (p)orridge cold;</br>(P)ease (p)orridge in the (p)ot; nine days old.</br>Some like it hot; some like it cold;</br>Some like it in the (p)ot; nine days old.</br>S(p)ell me that in four letters:</br>I will: T H A T.",
+        "rhyme": "Handy Pandy, Jack-a-Dandy,<br>Loves cu(p) cakes and sugar-candy;<br>He bought some at a grocer’s sho(p),<br>And out he came, ho(p), ho(p), ho(p).",
         "category": ["C-end", "C"],
-        "grade": ["K", "1st"]
+        "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
         "id": "P-PH-begin",
@@ -2993,7 +3022,7 @@
         "quiz-words": [
             "philtrum",
             "physician",
-            "pharoah",
+            "pharaoh",
             "pheasant",
             "phoenix"
         ],
@@ -3002,7 +3031,7 @@
             "vowel": "black",
             "3rd": "black"
         },
-        "rhyme": "",
+        "rhyme": "(Ph)oebe helped (Ph)il work on (ph)onics,<br>Told him (ph) is just a (ph)oneme,<br>‘Why not just write F? It’s tricks<br>Like that that make me want to scream!”<br><br>(Ph)il screamed. (Ph)oebe (ph)oned a doctor<br>[A (ph)ysician]. “Might be a (ph)ase,”<br>The doctor said, then he shocked her.<br>“Or maybe worse, do his eyes glaze<br><br>When he sees P H on a page?”<br>“Bright red!” she said. “Send a (ph)oto,<br>To my (ph)one,” he said. “Might be a stage,<br>He’s (ph)asing through. Let’s hope so.”<br><br>She did. The doctor sighed, then said,<br>“It’s a (ph)obia. Sad but true:<br>‘(Ph)onics (Ph)enome (Ph)obia, a dread<br>Disease I have. Most smart people do.”",
         "category": ["CD-begin", "CD", "C"],
         "grade": ["3rd"]
     },
@@ -3043,7 +3072,7 @@
             "vowel": "black",
             "3rd": "black"
         },
-        "rhyme": "",
+        "rhyme": "If you’ll end “nym(ph)” with a digra(ph),<br>Then write me a paragra(ph),<br>Sign it with your autogra(ph),<br>Record it for my phonogra(ph),<br>And selfie yourself a photogra(ph),<br>We’ll make that your epita(ph).",
         "category": ["CD-end", "CD", "C"],
         "grade": ["3rd"]
     },
@@ -3081,7 +3110,7 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "No kid likes peas piled on (pl)ates,</br>But (pl)aced in straws they\u2019re (pl)enty fun.</br>Blow so they shoot past people\u2019s faces</br>(Pl)ay, (pl)ay, (pl)ay, then run, run, run!</br>",
+        "rhyme": "No kid likes peas piled on (pl)ates,<br>But (pl)aced in straws they\u2019re (pl)enty fun.<br>Blow so they shoot past people\u2019s faces<br>(Pl)ay, (pl)ay, (pl)ay, then run, run, run!<br>",
         "category": ["CB-begin", "CB", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -3119,12 +3148,12 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "As I was going up (Pr)imrose Hill;</br>(Pr)imrose Hill was dirty;</br>There I met a (pr)etty girl;</br>And she gave me a curtsey.</br>Little girl; (pr)etty girl;</br>Blessings be upon you;</br>If I had half-a-dollar a day;</br>I'd spend it all on you.",
+        "rhyme": "As I was going up (Pr)imrose Hill;<br>(Pr)imrose Hill was dirty;<br>There I met a (pr)etty girl;<br>And she gave me a curtsey.<br>Little girl; (pr)etty girl;<br>Blessings be upon you;<br>If I had half-a-dollar a day;<br>I'd spend it all on you.",
         "category": ["CB-begin", "CB", "C"],
-        "grade": ["1st", "2nd"]
+        "grade": ["1st", "2nd", "3rd"]
     },
     {
-        "id": "C-hard-begin",
+        "id": "C-kuh-begin",
         "audio": "phoneme-C-kuh.mp3",
         "display": "c",
         "word1": {
@@ -3155,49 +3184,13 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "K": "black"
+            "K": "black",
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "Little Robin Redbreast sat upon a tree;<br>Up went the Kitty-(C)at; and down went he;</br>Down came Kitty-(C)at; away Robin ran;</br>Says little Robin Redbreast:</br>\"(C)atch me if you (c)an!\"",
+        "rhyme": "Little Robin Redbreast sat upon a tree;<br>Up went the Kitty-(C)at; and down went he;<br>Down came Kitty-(C)at; away Robin ran;<br>Says little Robin Redbreast:<br>\"(C)atch me if you (c)an!\"",
         "category": ["C-begin", "CG", "C"],
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
-    },
-    {
-        "id": "C-hard-end",
-        "audio": "phoneme-C-kuh.mp3",
-        "display": "c",
-        "word1": {
-            "word": "music",
-            "display": "musi<span>c</span>",
-            "audio": "music.mp3",
-            "image": "music.png"
-        },
-        "word2": {
-            "word": "magic",
-            "display": "magi<span>c</span>",
-            "audio": "magic.mp3",
-            "image": "magic.png"
-        },
-        "word3": {
-            "word": "picnic",
-            "display": "pi<span>c</span>ni<span>c</span>",
-            "audio": "picnic.mp3",
-            "image": "picnic.png"
-        },
-        "quiz-words": [
-            "doc",
-            "croc",
-            "disc",
-            "bionic",
-            "clinic"
-        ],
-        "color": {
-            "all": "black",
-            "vowel": "black",
-            "K": "black"
-        },
-        "rhyme": "Little Robin Redbreast sat upon a tree;<br>Up went the Kitty-(C)at; and down went he;</br>Down came Kitty-(C)at; away Robin ran;</br>Says little Robin Redbreast:</br>\"(C)atch me if you (c)an!\"",
-        "category": ["C-end", "CG", "C"],
-        "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
         "id": "C-sss",
@@ -3232,9 +3225,11 @@
         ],
         "color": {
             "all": "green",
-            "vowel": "green"
+            "vowel": "green",
+            "2nd": "green",
+            "3rd": "green"
         },
-        "rhyme": "(C)elery, lettu(c)e, and ri(c)e aren\u2019t my dream,</br>But you scream, I scream, we all scream</br>for i(c)e cream!</br>",
+        "rhyme": "(C)elery, lettu(c)e, and ri(c)e aren\u2019t my dream,<br>But you scream, I scream, we all scream<br>for i(c)e cream!<br>",
         "category": ["CG", "C"],
         "grade": ["2nd", "3rd"]
     },
@@ -3270,9 +3265,9 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "1st": "black"
+            "3rd": "black"
         },
-        "rhyme": "Cross pat(ch); pull the lat(ch);</br>Sit by the fire and spin;</br>Take a cup and drink it up;</br>Then call your neighbors in.",
+        "rhyme": "The (ch)ubby (ch)imp boy sat to (ch)at,<br>With the (ch)arming (ch)imp girl.<br>But slipped–he was no acrobat–<br>And fell in a twirling swirl.<br>She kissed his (ch)eek, that (ch)eered him up,<br>Then cooked yummy (ch)ili.<br>He said, “Let’s marry when we’re grown up.”<br>She said, “Don’t be silly!”",
         "category": ["CD-begin", "CD", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -3312,7 +3307,7 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "Cross pat(ch); pull the lat(ch);</br>Sit by the fire and spin;</br>Take a cup and drink it up;</br>Then call your neighbors in.",
+        "rhyme": "Cross pat(ch); pull the lat(ch);<br>Sit by the fire and spin;<br>Take a cup and drink it up;<br>Then call your neighbors in.",
         "category": ["CD-end", "CD", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -3351,7 +3346,7 @@
             "vowel": "black",
             "3rd": "black"
         },
-        "rhyme": "",
+        "rhyme": "An elf taught Pat how to make magic,<br>Gave Pat a small peaco(ck) made of old plastic,<br>Said, “Wish on it, blink, rub its nose then qui(ck) change,<br>Anything to whatever, no matter how strange.<br>Turning a hot dog to a dachshund was an easy tri(ck),<br>Changing a dragonfly to a dragon went super qui(ck).<br>Pat saw a bla(ck) bear just starting to crunch<br>On this du(ck)’s ne(ck), but dragon sna(ck)ed on that bear for lunch!<br>A shopper held spaghetti leaving a shop’s door,<br>But carried an octopus after just one step more!<br>A firefly and bee closed eyes for a kiss,<br>When Pat turned both to fairies they squealed, “What the he(ck)’s this!”<br>Pat played with magic for a fun-filled hour,<br>Then got hungry—and then the peaco(ck) lost its power.<br>When Pat wished for chocolate—Pat couldn’t have known— <br>The peaco(ck) turned to an un-magic ice cream cone.",
         "category": ["CD-end", "CD", "C"],
         "grade": ["3rd"]
     },
@@ -3390,7 +3385,7 @@
             "2nd": "black",
             "3rd": "green"
         },
-        "rhyme": "",
+        "rhyme": "Ja(ck), be nimble, Ja(ck), be qui(ck),<br>Ja(ck), jump over the candlesti(ck).",
         "category": ["C-silent", "C"],
         "grade": ["2nd", "3rd"]
     },
@@ -3428,7 +3423,7 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "Tickety-tock, (cl)imb up the (cl)ock,</br>Don\u2019t let the time get dirty.</br>Tickety-tock we (cl)eaned the (cl)ock,</br>Now one o\u2019(cl)ock looks pretty.</br>",
+        "rhyme": "Tickety-tock, (cl)imb up the (cl)ock,<br>Don\u2019t let the time get dirty.<br>Tickety-tock we (cl)eaned the (cl)ock,<br>Now one o\u2019(cl)ock looks pretty.<br>",
         "category": ["CB-begin", "CB", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -3466,12 +3461,12 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "There was a (cr)ooked man;</br>And he walked a (cr)ooked mile;</br>He found a (cr)ooked sixpence;</br>Against a (cr)ooked tile;</br>He bought a (cr)ooked cat;</br>Which caught a (cr)ooked mouse;</br>And they all lived together;</br>In a little (cr)ooked house.",
+        "rhyme": "There was a (cr)ooked man;<br>And he walked a (cr)ooked mile;<br>He found a (cr)ooked sixpence;<br>Against a (cr)ooked tile;<br>He bought a (cr)ooked cat;<br>Which caught a (cr)ooked mouse;<br>And they all lived together;<br>In a little (cr)ooked house.",
         "category": ["CB-begin", "CB", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
     {
-        "id": "H-begin",
+        "id": "H-huh-begin",
         "audio": "phoneme-H-huh.mp3",
         "display": "h",
         "word1": {
@@ -3504,9 +3499,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "(H)umpty Dumpty sat on a wall;</br>(H)umpty Dumpty (h)ad a great fall;</br>All the king's (h)orses and all the king's men;</br>Couldn't put (H)umpty Dumpty together again.",
+        "rhyme": "(H)umpty Dumpty sat on a wall;<br>(H)umpty Dumpty (h)ad a great fall;<br>All the king's (h)orses and all the king's men;<br>Couldn't put (H)umpty Dumpty together again.",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K", "1st"]
+        "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
         {
         "id": "H-silent",
@@ -3541,12 +3536,12 @@
             "all": "green",
             "3rd": "green"
         },
-        "rhyme": "",
+        "rhyme": "Hope you solve it! What cup holds no drinks?<br>Invisible, g(h)ostlike, at any time<br>Can choke you, like with r(h)ythmic heartbeats, links<br>Coming chain-like, for ex(h)austing (h)ours, chime<br>Under your skin, making you think: This stinks!<br>Pick each line’s first letter in this r(h)yme.",
         "category": ["C-silent", "C"],
         "grade": ["3rd"]
     },
     {
-        "id": "F-begin",
+        "id": "F-fuh-begin",
         "audio": "phoneme-F-fuh.mp3",
         "display": "f",
         "word1": {
@@ -3579,12 +3574,12 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "Little Miss Mu(ff)et;</br>Sat on a tu(ff)et;</br>Eating some curds and whey.</br>Along came a spider;</br>And sat down beside her;</br>And frightened Miss Mu(ff)et away.",
+        "rhyme": "Old King Cole, was a merry old soul,<br>And a merry old soul was he,<br>He called (f)or his pipe, and he called (f)or his bowl,<br>And he called (f)or his (f)iddlers three.<br>Every (f)iddler, he had a (f)ine (f)iddle,<br>And a very (f)ine (f)iddle had he.<br>Twee tweedle dee, tweedle dee, went the (f)iddlers three.<br>Oh, there’s none so rare,<br>As can compare<br>With King Cole<br>And his (f)iddlers three!",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K", "1st"]
+        "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "F-end",
+        "id": "F-fuh-end",
         "audio": "phoneme-F-fuh.mp3",
         "display": "f",
         "word1": {
@@ -3617,9 +3612,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "Little Miss Mu(ff)et;</br>Sat on a tu(ff)et;</br>Eating some curds and whey.</br>Along came a spider;</br>And sat down beside her;</br>And frightened Miss Mu(ff)et away.",
+        "rhyme": "Turtle took a little walk,<br>Hoping no one would bother him.<br>When a dog said “Woo(f) woo(f) woo(f)” to talk,<br>Turtle acted dea(f) under a limb,<br>He nearly got stolen by a thie(f),<br>But bit his thumb hard!  When a re(f)<br>Reached down he ducked under a lea(f),<br>And finally got free outrunning a che(f).",
         "category": ["C-end", "C"],
-        "grade": ["K", "1st"]
+        "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
         "id": "F-FL",
@@ -3655,7 +3650,7 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "A hungry (fl)y (fl)ew in a (fl)ower,</br>Then dreamed of sweets for half an hour.</br>A (fl)ea (fl)oating by yelled, \u201cStay awake!</br>I just baked us a snow(fl)ake cake!\u201d</br>",
+        "rhyme": "A hungry (fl)y (fl)ew in a (fl)ower,<br>Then dreamed of sweets for half an hour.<br>A (fl)ea (fl)oating by yelled, \u201cStay awake!<br>I just baked us a snow(fl)ake cake!\u201d<br>",
         "category": ["CB-begin", "CB", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -3683,7 +3678,7 @@
         },
         "quiz-words": [
             "friends",
-            "fruit",
+            "fruits",
             "fridge",
             "fringe",
             "frontloader"
@@ -3693,7 +3688,7 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "On (Fr)iday night, </br>My (fr)iend and I</br>Had (fr)ozen (fr)ench-(fr)y soup</br>And (fr)og leg pie.</br></br>(Fr)ied ice cream</br>And fish heads in a cup,</br>I hope some medicine </br>Will help me throw up.</br>",
+        "rhyme": "On (Fr)iday night, <br>My (fr)iend and I<br>Had (fr)ozen (fr)ench-(fr)y soup<br>And (fr)og leg pie.<br><br>(Fr)ied ice cream<br>And fish heads in a cup,<br>I hope some medicine <br>Will help me throw up.<br>",
         "category": ["CB-begin", "CB", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -3731,7 +3726,7 @@
             "vowel": "black",
             "2nd": "black"
         },
-        "rhyme": "",
+        "rhyme": "My gi(ft)’s to tell the truth, almost, though<br>I never speak, yet tell the truth one way,<br>Reversing it, like some backward photo.<br>Right for me’s le(ft). I’m hard, seem so(ft), play<br>Only my way. Break me for seven years of woe.<br>Read me for faceli(ft)s, just li(ft) me. You may.",
         "category": ["CB-end", "CB", "C"],
         "grade": ["2nd", "3rd"]
     },
@@ -3767,9 +3762,10 @@
         "color": {
             "all": "black",
             "vowel": "black",
+            "2nd": "black",
             "3rd": "black"
         },
-        "rhyme": "(O)ld King C(o)le;</br>Was a merry (o)ld s(o)ul;</br>And a merry (o)ld s(o)ul was he;</br>He called for his pipe;</br>And he called for his b(o)wl;</br>And he called for his fiddlers three.",
+        "rhyme": "(O)ld King C(o)le;<br>Was a merry (o)ld s(o)ul;<br>And a merry (o)ld s(o)ul was he;<br>He called for his pipe;<br>And he called for his b(o)wl;<br>And he called for his fiddlers three.",
         "category": ["V-long", "V"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -3779,26 +3775,26 @@
         "display": "o",
         "word1": {
             "word": "toe",
-            "display": "t<span>o</span>e",
+            "display": "t<span>o</span><u>e</u>",
             "audio": "toe.mp3",
             "image": "toe.png"
         },
         "word2": {
             "word": "doe",
-            "display": "d<span>o</span>e",
+            "display": "d<span>o</span><u>e</u>",
             "audio": "doe.mp3",
             "image": "doe.png"
         },
         "word3": {
             "word": "hoe",
-            "display": "h<span>o</span>e",
+            "display": "h<span>o</span><u>e</u>",
             "audio": "hoe.mp3",
             "image": "hoe.png"
         },
         "quiz-words": [
             "mole",
             "rose",
-            "bone",
+            "bones",
             "oboe",
             "potatoes"
         ],
@@ -3807,7 +3803,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "(O)ld King C(o)le;</br>Was a merry (o)ld s(o)ul;</br>And a merry (o)ld s(o)ul was he;</br>He called for his pipe;</br>And he called for his b(o)wl;</br>And he called for his fiddlers three.",
+        "rhyme": "Having less will make it bigger when it’s done.<br>One m(o)le will make many. That’s its r(o)le.<br>Lassos are just r(o)pes with one big one.<br>Each head like yours has five. It’s a —",
         "category": ["E", "V"],
         "grade": ["3rd"]
     },
@@ -3844,9 +3840,12 @@
         "color": {
             "all": "green",
             "vowel": "green",
-            "K": "green"
+            "K": "black",
+            "1st": "black",
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "H(o)t cr(o)ss buns, h(o)t cr(o)ss buns.</br>One a penny, two a penny,</br>H(o)t cr(o)ss buns!</br></br>If your daughters do n(o)t like them,</br>Give them to your sons.</br>One a penny, two a penny,</br>H(o)t cr(o)ss buns!",
+        "rhyme": "H(o)t cr(o)ss buns, h(o)t cr(o)ss buns.<br>One a penny, two a penny,<br>H(o)t cr(o)ss buns!<br><br>If your daughters do n(o)t like them,<br>Give them to your sons.<br>One a penny, two a penny,<br>H(o)t cr(o)ss buns!",
         "category": ["V-short", "V"],
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
@@ -3882,9 +3881,9 @@
         "color": {
             "all": "pink",
             "vowel": "pink",
-            "2nd": "pink"
+            "2nd": "black"
         },
-        "rhyme": "He l(o)ves me.</br>He d(o)esn't!</br>He'll have me.</br>He won't!</br></br>He would if he could,</br>But he can't, so he won't!",
+        "rhyme": "He l(o)ves me.<br>He d(o)esn't!<br>He'll have me.<br>He won't!<br><br>He would if he could,<br>But he can't, so he won't!",
         "category": ["V-schwa", "V"],
         "grade": ["2nd", "3rd"]
     },
@@ -3920,9 +3919,10 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "1st": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "Little Nanny Ettic(oa)t;</br>In a white pettic(oa)t;</br>And a red nose;</br>The longer she stands;</br>The shorter she grows.",
+        "rhyme": "Little Nanny Ettic(oa)t;<br>In a white pettic(oa)t;<br>And a red nose;<br>The longer she stands;<br>The shorter she grows.",
         "category": ["VP", "V"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -3958,9 +3958,10 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "A toy box you put toys in.<br>Pin a balloon and you\u2019ll sp(oi)l it.</br>A pan\u2019s for putting (oi)ly c(oi)ns in.</br>To clean them add water and b(oi)l it.</br>Time out\u2019s for putting n(oi)sy boys in.</br>P(oi)son? Pour it in the t(oi)let!</br>",
+        "rhyme": "A toy box you put toys in.<br>Pin a balloon and you\u2019ll sp(oi)l it.<br>A pan\u2019s for putting (oi)ly c(oi)ns in.<br>To clean them add water and b(oi)l it.<br>Time out\u2019s for putting n(oi)sy boys in.<br>P(oi)son? Pour it in the t(oi)let!<br>",
         "category": ["VP", "V"],
         "grade": ["2nd", "3rd"]
     },
@@ -3998,7 +3999,7 @@
             "vowel": "pink",
             "2nd": "pink"
         },
-        "rhyme": "",
+        "rhyme": "It is often t(old)<br>Some pilots are (old),<br>Some pilots are b(old),<br>But there are no (old) b(old) pilots.<br><br>It may also be t(old)<br>Some toilets are c(old),<br>Some toilets have m(old),<br>But (old) pilots don’t use c(old) m(old)y toilets.",
         "category": ["VC-3", "V", "VC"],
         "grade": ["3rd"]
     },
@@ -4033,7 +4034,7 @@
             "goose",
             "spoon",
             "tooth",
-            "raccoon",
+            "raccoons",
             "balloon",
             "poodle",
             "school",
@@ -4043,9 +4044,10 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "1st": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "The man in the m(oo)n came down t(oo) s(oo)n;</br>To inquire the way to Norridge;</br>The man in the south; he burnt his mouth;</br>With eating cold plum porridge.",
+        "rhyme": "The man in the m(oo)n came down t(oo) s(oo)n;<br>To inquire the way to Norridge;<br>The man in the south; he burnt his mouth;<br>With eating cold plum porridge.",
         "category": ["VP", "V"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -4082,9 +4084,11 @@
         "color": {
             "all": "green",
             "vowel": "green",
-            "1st": "green"
+            "1st": "green",
+            "2nd": "green",
+            "3rd": "green"
         },
-        "rhyme": "Little Bopeep never underst(oo)d,</br>When little Miss Red Riding H(oo)d</br>Went trick-or-treat in our neighborh(oo)d</br>With little Mister Captain H(oo)k,</br>It wasn\u2019t c(oo)kies or candy they t(oo)k,</br>Each picked a little picture b(oo)k.</br>",
+        "rhyme": "Little Bopeep never underst(oo)d,<br>When little Miss Red Riding H(oo)d<br>Went trick-or-treat in our neighborh(oo)d<br>With little Mister Captain H(oo)k,<br>It wasn\u2019t c(oo)kies or candy they t(oo)k,<br>Each picked a little picture b(oo)k.<br>",
         "category": ["VP", "V"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -4114,15 +4118,16 @@
             "sports",
             "hornet",
             "unicorn",
-            "uniform",
+            "uniforms",
             "porcupine"
         ],
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "Little Jack H(or)ner;</br>Sat in a c(or)ner;</br>Eating a Christmas pie;</br>He put in his thumb;</br>And pulled out a plum;</br>And said: \"What a good boy am I!\"",
+        "rhyme": "Little Jack H(or)ner;<br>Sat in a c(or)ner;<br>Eating a Christmas pie;<br>He put in his thumb;<br>And pulled out a plum;<br>And said: \"What a good boy am I!\"",
         "category": ["R", "V", "VC"],
         "grade": ["2nd", "3rd"]
     },
@@ -4158,9 +4163,10 @@
         "color": {
             "all": "green",
             "vowel": "green",
-            "2nd": "green"
+            "2nd": "green",
+            "3rd": "green"
         },
-        "rhyme": "",
+        "rhyme": "Jim tried art, but couldn’t col(or),<br>Tried music–singing didn’t w(or)k,<br>His dancing?  Duller and duller.<br>His golf coach quit, called him a jerk.<br>He got laughed off as an act(or).<br>But didn’t fear dirt, loved fresh air,<br>Began to farm w(or)ms with a tract(or).<br>Now he’s a famous millionaire!",
         "category": ["R", "V", "VC"],
         "grade": ["2nd", "3rd"]
     },
@@ -4187,7 +4193,7 @@
             "image": "ostrich.png"
         },
         "quiz-words": [
-            "nostrils",
+            "nostril",
             "costume",
             "frosting",
             "hostile",
@@ -4198,7 +4204,7 @@
             "vowel": "black",
             "3rd": "black"
         },
-        "rhyme": "",
+        "rhyme": "My f(ost)er brother’s c(ost)ume,<br>A big gorilla, looked great!<br>But then inside the party room<br>Stood two more!  How could I locate<br>Him if I got l(ost)?  Then–bumped,<br>Pushed, j(ost)led – I did lose him!<br>Checked first the giant ape slumped<br>In the corner.  Nope, too slim.<br>Two left. One imp(ost)er.  Which one?<br>Stand or sit, their p(ost)ure seemed the same.<br>Both smelled ape-y, scratched their tails for fun,<br>Made rude noises, neither looked tame.<br>One mixed chocolate, vanilla,<br>Strawberry ice cream with his thumb.<br>Could mine be that gross a gorilla?<br>I guessed he could have been that dumb.<br>Then I recalled an (ost)rich offering him<br>Scissors, when we stood by the stair,<br>To give his facial hair a trim–<br>Finally knew him by his n(ost)ril hair.",
         "category": ["VC-3", "V", "VC"],
         "grade": ["3rd"]
     },
@@ -4236,7 +4242,7 @@
             "vowel": "green",
             "3rd": "green"
         },
-        "rhyme": "",
+        "rhyme": "When you next meet a gh(ost)<br>And decide you should h(ost)<br>A gh(ost) Bar-B-Q.<br>Don’t feed them roast ribs<br>Unless m(ost) will bring bibs<br>Whatever you do!<br>If their mouths get all greasy<br>Using a gh(ost)-wipe’s too easy<br>And gh(ost) fights get booooooey!",
         "category": ["VC-3", "V", "VC"],
         "grade": ["3rd"]
     },
@@ -4272,9 +4278,10 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "I'm a little teapot,</br>short and st(ou)t.</br>Here is my handle,</br>here is my sp(ou)t.</br></br>When I see the teacups,</br>hear me sh(ou)t:</br>\"Tip me over,</br>And pour me (ou)t!\"</br>",
+        "rhyme": "I'm a little teapot,<br>short and st(ou)t.<br>Here is my handle,<br>here is my sp(ou)t.<br><br>When I see the teacups,<br>hear me sh(ou)t:<br>\"Tip me over,<br>And pour me (ou)t!\"<br>",
         "category": ["VP", "V"],
         "grade": ["2nd", "3rd"]
     },
@@ -4310,11 +4317,12 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "The north wind does bl(ow);</br>And we shall have sn(ow);</br>And what will poor robin do then?</br>Poor thing!</br></br>He'll sit in the barn;</br>And keep himself warm;</br>And hide his head under his wing.</br>Poor thing!",
+        "rhyme": "The north wind does bl(ow);<br>And we shall have sn(ow);<br>And what will poor robin do then?<br>Poor thing!<br><br>He'll sit in the barn;<br>And keep himself warm;<br>And hide his head under his wing.<br>Poor thing!",
         "category": ["VP", "V"],
-        "grade": ["1st", "2nd" ,"3rd"]
+        "grade": ["2nd" ,"3rd"]
     },
     {
         "id": "O-ow",
@@ -4348,11 +4356,12 @@
         "color": {
             "all": "green",
             "vowel": "green",
-            "2nd": "green"
+            "2nd": "green",
+            "3rd": "green"
         },
-        "rhyme": "Daffy-d(ow)n-dilly has come to t(ow)n,</br>With a green petticoat</br>and a bright yellow g(ow)n.</br>",
+        "rhyme": "Daffy-d(ow)n-dilly has come to t(ow)n,<br>With a green petticoat<br>and a bright yellow g(ow)n.<br>",
         "category": ["VP", "V"],
-        "grade": ["1st", "2nd", "3rd"]
+        "grade": ["2nd", "3rd"]
     },
     {
         "id": "O-OY",
@@ -4386,14 +4395,15 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "A b(oy) needs a t(oy)</br>That he can enj(oy)</br>Or he'll have to ann(oy) a grown-up,</br>Climb on the highb(oy),</br>Find a pile to destr(oy),</br>Or play cowb(oy) till doggie has thrown-up.</br>",
+        "rhyme": "A b(oy) needs a t(oy)<br>That he can enj(oy)<br>Or he'll have to ann(oy) a grown-up,<br>Climb on the highb(oy),<br>Find a pile to destr(oy),<br>Or play cowb(oy) till doggie has thrown-up.<br>",
         "category": ["VP", "V"],
         "grade": ["2nd", "3rd"]
     },
     {
-        "id": "D-begin",
+        "id": "D-duh-begin",
         "audio": "phoneme-D-duh.mp3",
         "display": "d",
         "word1": {
@@ -4426,12 +4436,12 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "(D)iddle; (d)iddle; (d)umpling; my son John;</br>Went to be(d) with his trousers on;</br>One stocking off; and one stocking on;</br>(D)iddle; (d)iddle; (d)umpling; my son John.",
+        "rhyme": "Cock a (d)oodle (d)o!<br>My mother’s lost her shoe;<br>My father’s lost his fiddle-stick,<br>And (d)oesn’t know what to do.<br><br>Cock a (d)oodle (d)o!<br>What is my mother to (d)o?<br>Till Father finds his fiddle-stick<br>She’ll (d)ance without her shoe!",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K", "1st"]
+        "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "D-end",
+        "id": "D-duh-end",
         "audio": "phoneme-D-duh.mp3",
         "display": "d",
         "word1": {
@@ -4464,9 +4474,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "(D)iddle; (d)iddle; (d)umpling; my son John;</br>Went to be(d) with his trousers on;</br>One stocking off; and one stocking on;</br>(D)iddle; (d)iddle; (d)umpling; my son John.",
+        "rhyme": "Peter, Peter, pumpkin eater,<br>Ha(d) a wife and couldn’t keep her;<br>He put her in a pumpkin shell,<br>And then he kept her very well.<br><br>Peter, Peter, pumpkin eater,<br>Ha(d) another, and didn’t love her;<br>Peter learne(d) to read and spell,<br>And then he love(d) her very well.",
         "category": ["C-end", "C"],
-        "grade": ["K", "1st"]
+        "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
         "id": "D-DR",
@@ -4502,12 +4512,12 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "Three chil(dr)en sliding on the ice;</br>All on a winter's day;</br>As it fell out; they all fell in;</br>The rest they ran away.",
+        "rhyme": "Three chil(dr)en sliding on the ice;<br>All on a winter's day;<br>As it fell out; they all fell in;<br>The rest they ran away.",
         "category": ["CB-begin", "CB", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
     {
-        "id": "L-begin",
+        "id": "L-lll-begin",
         "audio": "phoneme-L-lll.mp3",
         "display": "l",
         "word1": {
@@ -4540,12 +4550,12 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "Mary had a (l)ittle (l)amb,</br>Its f(l)eece was white as snow,</br>And everywhere that Mary went,</br>The (l)amb was sure to go.",
+        "rhyme": "I (l)ove you well, my (l)ittle brother,<br>And you are fond of me;<br>(L)et us be kind to one another,<br>As brothers ought to be.<br>You shall (l)earn to play with me,<br>And (l)earn to use my toys;<br>And then I think that we shall be <br>Two happy little boys.",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K", "1st"]
+        "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "L-end",
+        "id": "L-lll-end",
         "audio": "phoneme-L-lll.mp3",
         "display": "l",
         "word1": {
@@ -4578,9 +4588,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "Mary had a (l)ittle (l)amb,</br>Its f(l)eece was white as snow,</br>And everywhere that Mary went,</br>The (l)amb was sure to go.",
+        "rhyme": "Jack and Ji(ll) went up the hi(ll),<br>To fetch a pai(l) of water.<br>Jack fe(ll) down, and broke his crown,<br>And Ji(ll) came tumbling after.",
         "category": ["C-end", "C"],
-        "grade": ["K", "1st"]
+        "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
         "id": "L-LD",
@@ -4616,7 +4626,7 @@
             "vowel": "black",
             "2nd": "black"
         },
-        "rhyme": "",
+        "rhyme": "Catch it any chi(ld) can, but then can’t ho(ld)<br>Or throw it.  Around the world, young and o(ld)<br>Learn a mi(ld) one’s trouble.  We’ve all been to(ld)<br>Don’t get one.  We do.  It doesn’t help to sco(ld).",
         "category": ["CB-end", "CB", "C"],
         "grade": ["2nd", "3rd"]
     },
@@ -4655,9 +4665,10 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black"
+            "vowel": "black",
+            "3rd": "black"
         },
-        "rhyme": "The sow came in with the sadd(le);</br>The litt(le) pig rocked the crad(le);</br>The dish jumped up on the tab(le);</br>To see the pot swallow the lad(le).",
+        "rhyme": "The sow came in with the sadd(le);<br>The litt(le) pig rocked the crad(le);<br>The dish jumped up on the tab(le);<br>To see the pot swallow the lad(le).",
         "category": ["VC-2", "V", "VC"],
         "grade": ["3rd"]
     },
@@ -4695,7 +4706,7 @@
             "vowel": "black",
             "2nd": "black"
         },
-        "rhyme": "",
+        "rhyme": "An e(lf) and a ca(lf)<br>Went out to play go(lf),<br>But had only played ha(lf),<br>When the ca(lf) spied a wo(lf).<br>“Play the rest by yourse(lf),”<br>Said the ca(lf) to the e(lf).<br>“No way!” yelled the e(lf),<br>“Play my ha(lf) by yourse(lf)!”",
         "category": ["CB-end", "C", "CB"],
         "grade": ["2nd", "3rd"]
     },
@@ -4733,13 +4744,13 @@
             "vowel": "black",
             "2nd": "black"
         },
-        "rhyme": "",
+        "rhyme": "So close, you can’t leave me. I’m a copycat.<br>Ha(lt) and I stop, go and I will go.<br>At sunrise and sunset like spi(lt) dark, I grow.<br>Dark me(lt)s me, though I flee sun like a bat.<br>Order me away, I revo(lt). No, that<br>Won’t do, child or adu(lt), I’ll follow.",
         "category": ["CB-end", "C", "CB"],
         "grade": ["2nd", "3rd"]
     },
     {
-        "id": "K-begin",
-        "audio": "phoneme-H-huh.mp3",
+        "id": "K-kuh-begin",
+        "audio": "phoneme-K-kuh.mp3",
         "display": "k",
         "word1": {
             "word": "key",
@@ -4771,12 +4782,12 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "Lucy Loc(k)et lost her poc(k)et,</br>(K)itty Fisher found it;</br>There was not a penny in it,</br>But a ribbon round it.</br>",
+        "rhyme": "(K)itty-Cat sits by the fire;<br>Napping without a care.<br>In walks the little dog;<br>Says: “(K)itty, are you there?<br>How do you do, Mistress (K)itty?<br>Mistress (K)itty, how do you do?”<br>“I thank you (k)indly, little dog,<br>I do as well as you!”",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K", "1st"]
+        "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "K-end",
+        "id": "K-kuh-end",
         "audio": "phoneme-K-kuh.mp3",
         "display": "k",
         "word1": {
@@ -4809,9 +4820,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "Lucy Loc(k)et lost her poc(k)et,</br>(K)itty Fisher found it;</br>There was not a penny in it,</br>But a ribbon round it.</br>",
+        "rhyme": "Little Bo-Peep has lost her sheep,<br>And can’t tell where to find them;<br>Let them alone, and they’ll come home,<br>And bring their tails behind them.<br><br>Little Bo-Peep fell fast asleep,<br>And dreamt she heard them bleating;<br>And when she awo(k)e, she found it a jo(k)e,<br>For still they were all fleeting.<br><br>Then up she too(k) her little croo(k),<br>Determined for to find them;<br>She found them indeed, but it made her heart bleed,<br>For they’d left all their tails behind them.",
         "category": ["C-end", "C"],
-        "grade": ["K", "1st"]
+        "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
         "id": "K-KN-silent",
@@ -4847,7 +4858,7 @@
             "vowel": "black",
             "2nd": "black"
         },
-        "rhyme": "",
+        "rhyme": "Do you (kn)ow just what I am?<br>I help you with your bread and jam.<br>My thin back could (kn)ock your (kn)uckles.<br>I’m made of stuff like (kn)obs and buckles.<br>I am long and light and lean.<br>You should always keep me clean.<br>Kept in drawers by every housewife.<br>You (kn)ow me well.  I’m a —<br>",
         "category": ["C-silent", "C"],
         "grade": ["2nd", "3rd"]
     },
@@ -4885,9 +4896,10 @@
         "color": {
             "all": "black",
             "vowel": "black",
+            "2nd": "black",
             "3rd": "black"
         },
-        "rhyme": "He balanced a c(u)cumber on his nose,</br>But should have (u)sed binoc(u)lars to watch the roads.</br>A (u)nicycle\u2019s dangerous when clowns can\u2019t see\u2014</br>Quick call an amb(u)lance:  one, two, three!</br>",
+        "rhyme": "He balanced a c(u)cumber on his nose,<br>But should have (u)sed binoc(u)lars to watch the roads.<br>A (u)nicycle\u2019s dangerous when clowns can\u2019t see\u2014<br>Quick call an amb(u)lance:  one, two, three!<br>",
         "category": ["V-long", "V"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -4897,19 +4909,19 @@
         "display": "u",
         "word1": {
             "word": "blue",
-            "display": "bl<span>u</span>e",
+            "display": "bl<span>u</span><u>e</u>",
             "audio": "blue.mp3",
             "image": "blue.png"
         },
         "word2": {
             "word": "hues",
-            "display": "h<span>u</span>es",
+            "display": "h<span>u</span><u>e</u>s",
             "audio": "hues.mp3",
             "image": "hues.png"
         },
         "word3": {
             "word": "glue",
-            "display": "gl<span>u</span>e",
+            "display": "gl<span>u</span><u>e</u>",
             "audio": "glue.mp3",
             "image": "glue.png"
         },
@@ -4925,7 +4937,7 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "He balanced a c(u)cumber on his nose,</br>But should have (u)sed binoc(u)lars to watch the roads.</br>A (u)nicycle\u2019s dangerous when clowns can\u2019t see\u2014</br>Quick call an amb(u)lance:  one, two, three!</br>",
+        "rhyme": "Some aren’t worth much, but some have great val(u)e.<br>Each kept will be for friends a kind of gl(u)e.<br>Close friends who don’t keep them often arg(u)e.<br>Realize sharing them, even one cl(u)e,<br>Ends friendships, when just one friend’s untr(u)e.<br>Trust no one with one, some say, except a stat(u)e.",
         "category": ["E", "V"],
         "grade": ["3rd"]
     },
@@ -4962,9 +4974,11 @@
         "color": {
             "all": "green",
             "vowel": "green",
+            "1st": "green",
+            "2nd": "green",
             "3rd": "green"
         },
-        "rhyme": "Little Betty Bl(u)e</br>Lost her holiday shoe.</br>What shall little Betty do?</br></br>Buy her another,</br>To match the other,</br>And then she'll walk upon two.",
+        "rhyme": "S(u)e played a big bl(u)e t(u)ba,</br>J(u)lius played one too,</br>With their two bl(u)e t(u)bas,</br>What did those two do?</br>He blew his bl(u)e t(u)ba loud!</br>She blew hers too!",
         "category": ["V-long", "V"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -5000,9 +5014,12 @@
         "color": {
             "all": "pink",
             "vowel": "pink",
-            "2nd": "pink"
+            "K": "black",
+            "1st": "black",
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "S(u)e played a big bl(u)e t(u)ba,</br>J(u)lius played one too,</br>With their two bl(u)e t(u)bas,</br>What did those two do?</br>He blew his bl(u)e t(u)ba loud!</br>She blew hers too!</br>",
+        "rhyme": "R(u)b a d(u)b d(u)b,<br>Three men in a t(u)b;<br>And who do you think they be?<br>The butcher, the baker,<br>The candlestick-maker;<br>Turn’em out, knaves all three!",
         "category": ["V-short", "V"],
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
@@ -5037,9 +5054,10 @@
         ],
         "color": {
             "all": "pink",
-            "vowel": "pink"
+            "vowel": "pink",
+            "2nd": "black"
         },
-        "rhyme": "S(u)e played a big bl(u)e t(u)ba,</br>J(u)lius played one too,</br>With their two bl(u)e t(u)bas,</br>What did those two do?</br>He blew his bl(u)e t(u)ba loud!</br>She blew hers too!</br>",
+        "rhyme": "R(u)b a d(u)b d(u)b,<br>Three men in a t(u)b;<br>And who do you think they be?<br>The butcher, the baker,<br>The candlestick-maker;<br>Turn’em out, knaves all three!",
         "category": ["V-schwa", "V"],
         "grade": ["2nd", "3rd"]
     },
@@ -5075,14 +5093,15 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "To (ur)ge her to p(ur)r</br>Lin rubs kitty cat's f(ur);</br>When Lin topples the (ur)n</br>Kitty makes a bl(ur).</br>",
+        "rhyme": "To (ur)ge her to p(ur)r<br>Lin rubs kitty cat's f(ur);<br>When Lin topples the (ur)n<br>Kitty makes a bl(ur).<br>",
         "category": ["R", "V", "VC"],
         "grade": ["2nd", "3rd"]
     },
     {
-        "id": "j-begin",
+        "id": "J-juh-begin",
         "audio": "phoneme-J-juh.mp3",
         "display": "j",
         "word1": {
@@ -5115,50 +5134,12 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "Here am I; Little (j)umping (J)oan;</br>When nobody's with me;</br>I'm always alone.",
+        "rhyme": "Here am I; Little (j)umping (J)oan;<br>When nobody's with me;<br>I'm always alone.",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K", "1st"]
+        "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "j-end",
-        "audio": "phoneme-J-juh.mp3",
-        "display": "j",
-        "word1": {
-            "word": "cage",
-            "display": "ca<span>g</span>e",
-            "audio": "cage.mp3",
-            "image": "cage.png"
-        },
-        "word2": {
-            "word": "bridge",
-            "display": "brid<span>g</span>e",
-            "audio": "bridge.mp3",
-            "image": "bridge.png"
-        },
-        "word3": {
-            "word": "orange",
-            "display": "oran<span>g</span>e",
-            "audio": "orange.mp3",
-            "image": "orange.png"
-        },
-        "quiz-words": [
-            "fridge",
-            "bandage",
-            "cabbage",
-            "judge",
-            "fringe"
-        ],
-        "color": {
-            "all": "black",
-            "vowel": "black",
-            "K": "black"
-        },
-        "rhyme": "",
-        "category": ["C-end", "C"],
-        "grade": ["K", "1st"]
-    },
-    {
-        "id": "W-begin",
+        "id": "W-wuh-begin",
         "audio": "phoneme-W-wuh.mp3",
         "display": "w",
         "word1": {
@@ -5191,9 +5172,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "(W)ee (W)illie (W)inkie runs through the town;</br>Upstairs and downstairs; in his nightgown;</br>Tapping at the (w)indo(w); crying at the lock;</br>Are the children all in bed? It's now eight o'clock?",
+        "rhyme": "(W)ee (W)illie (W)inkie runs through the town;<br>Upstairs and downstairs; in his nightgown;<br>Tapping at the (w)indo(w); crying at the lock;<br>Are the children all in bed? It's now eight o'clock?",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K", "1st"]
+        "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
         "id": "W-WH",
@@ -5227,9 +5208,9 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "1st": "black"
+            "3rd": "black"
         },
-        "rhyme": "Bill claimed a bully (wh)acked and (wh)opped his rib.</br>Mom said, \u201c(Wh)at?  (Wh)o?  (Wh)en?  (Wh)ere?\u201d</br>Kim said, \u201cThat\u2019s a (wh)opper, a big fat fib.\u201d</br>Bill said, \u201c(Wh)atever!\u201d -- (wh)ich means: I don\u2019t care.</br>",
+        "rhyme": "Bill claimed a bully (wh)acked and (wh)opped his rib.<br>Mom said, \u201c(Wh)at?  (Wh)o?  (Wh)en?  (Wh)ere?\u201d<br>Kim said, \u201cThat\u2019s a (wh)opper, a big fat fib.\u201d<br>Bill said, \u201c(Wh)atever!\u201d -- (wh)ich means: I don\u2019t care.<br>",
         "category": ["CD-begin", "CD", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -5267,7 +5248,7 @@
             "vowel": "black",
             "2nd": "black"
         },
-        "rhyme": "",
+        "rhyme": "A thing that you can give, but must keep<br>Perfectly, or lose it. Don’t dream it’s cheap.<br>Right and (wr)ong in this are precious. (Wr)ite<br>Or speak it truthfully with all your might.<br>Make it with care, or (wr)eck a friendship.<br>If you (wr)iggle out—it’s a guilt trip.<br>So (wr)ap your mind around it: Be true.<br>Each first letter in this rhyme is a clue.",
         "category": ["C-silent", "C"],
         "grade": ["2nd", "3rd"]
     },
@@ -5303,10 +5284,10 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "K": "black",
+            "2nd": "black",
             "3rd": "black"
         },
-        "rhyme": "Little Bo-p(ee)p has lost her sh(ee)p;</br>And doesn't know where to find them;</br>Leave them alone; and they'll come home;</br>Wagging their tails behind them.",
+        "rhyme": "Little Bo-p(ee)p has lost her sh(ee)p;<br>And doesn't know where to find them;<br>Leave them alone; and they'll come home;<br>Wagging their tails behind them.",
         "category": ["V-long", "V"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -5345,9 +5326,12 @@
         "color": {
             "all": "green",
             "vowel": "green",
-            "K": "green"
+            "K": "black",
+            "1st": "black",
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "Hick(e)ty; pick(e)ty; my black h(e)n;</br>She lays (e)ggs for gentlem(e)n;</br>Gentlem(e)n come (e)very day;</br>To see what my black h(e)n does lay.",
+        "rhyme": "Hick(e)ty; pick(e)ty; my black h(e)n;<br>She lays (e)ggs for gentlem(e)n;<br>Gentlem(e)n come (e)very day;<br>To see what my black h(e)n does lay.",
         "category": ["V-short", "V"],
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
@@ -5383,9 +5367,9 @@
         "color": {
             "all": "pink",
             "vowel": "pink",
-            "2nd": "pink"
+            "2nd": "black"
         },
-        "rhyme": "The el(e)phant want(e)d to cheat on her di(e)t</br>Found one gold(e)n cookie in the warm ov(e)n,</br>One in the gard(e)n, two in a torn pock(e)t,</br>Three hid in the kitch(e)n, that made sev(e)n,</br>Bought two at the mark(e)t, spied one in a bask(e)t,</br>Plus one she kept froz(e)n, that was elev(e)n,</br>And one from her lock(e)t, made twelve, a full doz(e)n</br>When she started to eat them it felt like pure heav(e)n!</br>",
+        "rhyme": "The el(e)phant want(e)d to cheat on her di(e)t<br>Found one gold(e)n cookie in the warm ov(e)n,<br>One in the gard(e)n, two in a torn pock(e)t,<br>Three hid in the kitch(e)n, that made sev(e)n,<br>Bought two at the mark(e)t, spied one in a bask(e)t,<br>Plus one she kept froz(e)n, that was elev(e)n,<br>And one from her lock(e)t, made twelve, a full doz(e)n<br>When she started to eat them it felt like pure heav(e)n!<br>",
         "category": ["V-schwa", "V"],
         "grade": ["2nd", "3rd"]
     },
@@ -5423,7 +5407,7 @@
             "vowel": "black",
             "3rd": "black"
         },
-        "rhyme": "",
+        "rhyme": "Ever wonder how much fr(ei)ght<br>Santa’s (ei)ght r(ei)ndeer must haul<br>Every Christmas, and not be late?<br>Heeps of toys!  Imagine it all!<br>Do you think he w(ei)ghs the sl(ei)gh,<br>And himself too—he’s not thin—<br>Before he shouts, “Hi ho, away!”<br>He surely trusts the shape they’re in.<br>Could he put magic in the hay<br>They eat so they’ll fly strong.  Something good?<br>Magic oatmeal cookies?  He may.<br>They’d like that.  I know I would!",
         "category": ["VP", "V"],
         "grade": ["3rd"]
     },
@@ -5459,9 +5443,10 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "1st": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "Jack Sprat would (ea)t no fat;</br>His wife would (ea)t no l(ea)n;</br>And so between the two of them;</br>They licked the platter cl(ea)n.</br>",
+        "rhyme": "Jack Sprat would (ea)t no fat;<br>His wife would (ea)t no l(ea)n;<br>And so between the two of them;<br>They licked the platter cl(ea)n.<br>",
         "category": ["VP", "V"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -5497,9 +5482,11 @@
         "color": {
             "all": "green",
             "vowel": "green",
-            "2nd": "green"
+            "1st": "green",
+            "2nd": "green",
+            "3rd": "green"
         },
-        "rhyme": "",
+        "rhyme": "The best story Dad ever r(ea)d<br>Told how this gingerbr(ea)d<br>Cookie fled from the grandma, how<br>The grandad, cat, dog, horse, cow,<br>And boy chased him through a m(ea)dow<br>Till this sly fox said, “Hello.”<br>Pretending to be pl(ea)sant, nice.<br>The cookie didn’t know the price<br>He’d pay for smarting off. Inst(ea)d,<br>He should have used his h(ea)d,<br>Not brag, ‘Run, run, fast as you can,<br>You can’t catch me, I’m the Gingerbr(ea)d Man!’",
         "category": ["VP", "V"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -5535,9 +5522,10 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "1st": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "",
+        "rhyme": "Little Bo-p(ee)p has lost her sh(ee)p;<br>And doesn't know where to find them;<br>Leave them alone; and they'll come home;<br>Wagging their tails behind them.",
         "category": ["VP", "V"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -5573,9 +5561,10 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "Pet(er); Pet(er); pumpkin eat(er);</br>Had a wife and couldn't keep h(er);</br>He put h(er) in a pumpkin shell;</br>And then he kept h(er) very well.",
+        "rhyme": "Pet(er); Pet(er); pumpkin eat(er);<br>Had a wife and couldn't keep h(er);<br>He put h(er) in a pumpkin shell;<br>And then he kept h(er) very well.",
         "category": ["R", "V", "VC"],
         "grade": ["2nd", "3rd"]
     },
@@ -5613,7 +5602,7 @@
             "vowel": "black",
             "3rd": "black"
         },
-        "rhyme": "Lucy Lock(et) lost her pock(et);</br>Kitty Fisher found it.</br>There was not a penny in it;</br>But a ribbon round it.",
+        "rhyme": "Of just three syllables I’m made,<br>Of l(et)ters twenty-six.<br>Your debt to me could not be paid.<br>Using me well predicts<br>That you’ll do very well in school<br>And won’t soon forg(et) me.<br>Though I’m a very useful tool,<br>Y(et)is never g(et) me.<br>I’ve been here for two thousand years,<br>Help run the intern(et).<br>You learned me with your eyes and ears.<br>I am the —",
         "category": ["VC-2", "V", "VC"],
         "grade": ["3rd"]
     },
@@ -5651,7 +5640,7 @@
             "vowel": "green",
             "3rd": "green"
         },
-        "rhyme": "Lucy Lock(et) lost her pock(et);</br>Kitty Fisher found it.</br>There was not a penny in it;</br>But a ribbon round it.",
+        "rhyme": "Lucy Lock(et) lost her pock(et);<br>Kitty Fisher found it.<br>There was not a penny in it;<br>But a ribbon round it.",
         "category": ["VC-2", "V", "VC"],
         "grade": ["3rd"]
     },
@@ -5681,15 +5670,16 @@
             "threw",
             "screws",
             "cashew",
-            "crewcut",
+            "crew cut",
             "stew pot"
         ],
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "The hungry cuckoo fl(ew)</br>Then found a cash(ew)</br>His beak couldn\u2019t ch(ew).</br>What could he do?</br>He br(ew)ed cash(ew) st(ew)</br>Which smelled really P U!</br>But tasted great with barbecue.</br></br>",
+        "rhyme": "The hungry cuckoo fl(ew)<br>Then found a cash(ew)<br>His beak couldn\u2019t ch(ew).<br>What could he do?<br>He br(ew)ed cash(ew) st(ew)<br>Which smelled really P U!<br>But tasted great with barbecue.<br><br>",
         "category": ["VP", "V"],
         "grade": ["2nd", "3rd"]
     },
@@ -5727,9 +5717,9 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "",
+        "rhyme": "Baa, baa, black sheep, have (y)ou any wool?<br>(Y)es sir, (y)es sir, three bags full.<br>One for my master, one for my dame,<br>And one for the little boy,<br>Who lives down the lane.",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K", "1st"]
+        "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
         "id": "Y-i",
@@ -5763,9 +5753,11 @@
         "color": {
             "all": "green",
             "vowel": "black",
-            "1st": "black"
+            "1st": "black",
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "Cr(y)baby, cr(y)baby,</br>Cr(y)baby, wh(y)!?</br>Stick your finger in your e(y)e,</br>Then tell your mother it was I?",
+        "rhyme": "Cr(y)baby, cr(y)baby,<br>Cr(y)baby, wh(y)!?<br>Stick your finger in your e(y)e,<br>Then tell your mother it was I?",
         "category": ["Y", "V"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -5801,9 +5793,11 @@
         "color": {
             "all": "pink",
             "vowel": "green",
-            "1st": "green"
+            "1st": "green",
+            "2nd": "green",
+            "3rd": "green"
         },
-        "rhyme": "Ride away; Ride away;<br>Johnn(y) shall ride;</br>And he shall have kitt(y) cat;</br>Tied to one side.</br>And he shall have pupp(y) dog;</br>Tied to the other;</br>And Johnn(y) shall ride;</br>To see his grandmother.",
+        "rhyme": "Ride away; Ride away;<br>Johnn(y) shall ride;<br>And he shall have kitt(y) cat;<br>Tied to one side.<br>And he shall have pupp(y) dog;<br>Tied to the other;<br>And Johnn(y) shall ride;<br>To see his grandmother.",
         "category": ["Y", "V"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -5839,14 +5833,16 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "1st": "black"
+            "1st": "black",
+            "2nd": "black",
+            "3rd": "black"
         },
-        "rhyme": "",
-        "category": ["Y", "V", "VP"],
+        "rhyme": "The monk(ey) was feeling hungry<br>And wanted to eat some hon(ey),<br>But didn’t have any mon(ey),<br>Then back of the store in the all(ey),<br>The lucky monk(ey) found a k(ey).<br>Inside the nos(ey) monk(ey),<br>Saw a cake, a pie, and cookie,<br>All made with the yummiest hon(ey),<br>And ate till he felt sleepy,<br>Then the boss came and made him flee!",
+        "category": ["Y", "V"],
         "grade": ["1st", "2nd", "3rd"]
     },
     {
-        "id": "Z-begin",
+        "id": "Z-zzz-begin",
         "audio": "phoneme-Z-zzz.mp3",
         "display": "z",
         "word1": {
@@ -5879,12 +5875,12 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "You\u2019re hard-working not la(z)y,</br>And brainy smart, not cra(z)y.</br>That\u2019s why you won this pu(zz)le pri(z)e.</br>Did your head grow one more si(z)e?</br>",
+        "rhyme": "Buzzing hornets always scare me,<br>When they (z)igzag round my head,<br>(Z)ipping, (z)apping, like some carefree<br>(Z)any clowns!  I’ll (z)oom to bed,<br>Bury myself under the covers,<br>Have (z)ero patience, want them dead!<br>Wise up all you hornet lovers–<br>Switch to spiders instead.",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K", "1st"]
+        "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "Z-end",
+        "id": "Z-zzz-end",
         "audio": "phoneme-Z-zzz.mp3",
         "display": "z",
         "word1": {
@@ -5917,12 +5913,12 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "You\u2019re hard-working not la(z)y,</br>And brainy smart, not cra(z)y.</br>That\u2019s why you won this pu(zz)le pri(z)e.</br>Did your head grow one more si(z)e?</br>",
+        "rhyme": "My sister’s great on every qui(z);<br>She loves jewelry and glit(z).<br>My brother’s a real football whi(z),<br>Loves tackling passers on a blit(z).<br>I’m class clown, love acting nuts,<br>Stumble bumbling like some dit(z),<br>Joking, acting like a klut(z),<br>Making gross sounds with my armpits.<br>Stuffing broccoli inside donuts,<br>Love making kids laugh with my wits.",
         "category": ["C-end", "C"],
-        "grade": ["K", "1st"]
+        "grade": ["K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "V-begin",
+        "id": "V-vv-begin",
         "audio": "phoneme-V-vv.mp3",
         "display": "v",
         "word1": {
@@ -5955,12 +5951,12 @@
             "vowel": "green",
             "K": "black"
         },
-        "rhyme": "As I was going to St. I(v)es;</br>I met a man with se(v)en wi(v)es.</br>E(v)ery wife had se(v)en sacks;</br>E(v)ery sack had se(v)en cats;</br>E(v)ery cat had se(v)en kits.</br>Kits; cats; sacks and wi(v)es;</br>How many were going to St. I(v)es?",
+        "rhyme": "When (V)ic dropped his (v)anilla cone,<br>In (v)ery weird (v)oice he moaned a groan.<br>Bigfoot offered some syrup for a trial.<br>“Yuck!” (V)ic roared.  “(V)inegar’s (v)ile!”<br>Giant Cyclops grinned big, said, “No!<br>Try that (v)ast upside down cone: (v)olcano!”",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K", "1st"]
+        "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "Q-begin",
+        "id": "Q-qwuh-begin",
         "audio": "phoneme-Q-qwuh.mp3",
         "display": "q",
         "word1": {
@@ -5993,50 +5989,12 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "(Q)ueen Croc napped on her (q)uilt,</br>Mama duck (q)uacked, \u201cBe (q)uiet!\u201d</br>\u201cWhat?\u201d (Q)uacked the duckling.</br>\u201c(Q)uit!\u201d Mama (q)uacked, \u201cDucks are her diet!\u201d</br>",
+        "rhyme": "(Q)ueen Croc napped on her (q)uilt,<br>Mama duck (q)uacked, \u201cBe (q)uiet!\u201d<br>\u201cWhat?\u201d (Q)uacked the duckling.<br>\u201c(Q)uit!\u201d Mama (q)uacked, \u201cDucks are her diet!\u201d<br>",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K", "1st"]
+        "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "S-SC",
-        "audio": "phoneme-S-SC.mp3",
-        "display": "sc",
-        "word1": {
-            "word": "scarf",
-            "display": "<span>sc</span>arf",
-            "audio": "scarf.mp3",
-            "image": "scarf.png"
-        },
-        "word2": {
-            "word": "scold",
-            "display": "<span>sc</span>old",
-            "audio": "scold.mp3",
-            "image": "scold.png"
-        },
-        "word3": {
-            "word": "scare",
-            "display": "<span>sc</span>are",
-            "audio": "scare.mp3",
-            "image": "scare.png"
-        },
-        "quiz-words": [
-            "scowl",
-            "scalp",
-            "scale",
-            "scuba",
-            "school bus"
-        ],
-        "color": {
-            "all": "black",
-            "vowel": "black",
-            "1st": "black"
-        },
-        "rhyme": "",
-        "category": ["CB-begin", "C", "CB"],
-        "grade": ["1st", "2nd", "3rd"]
-    },
-    {
-        "id": "X-begin",
+        "id": "X-ks-begin",
         "audio": "phoneme-X-ks.mp3",
         "display": "x",
         "word1": {
@@ -6069,12 +6027,12 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "DUM diddle DEE doh,</br>O(x) wore a tu(x)edo,</br>The dancer bo(x)ed with T-Re(x).</br>Jack popped from a mailbo(x),</br>First swung his hand a(x)e,</br>Next tattled that red fo(x)</br>Had pooped in the sandbo(x)</br>Then all of them ta(x)ied away.</br>",
+        "rhyme": "I hate e(x)ams at school, <i>can’t sit<br>Still</i>! Look for some e(x)cuse to e(x)it.<br>Staying quiet’s e(x)tremely tough!<br>Yes, school’s ok to learn some stuff,<br>But not fireworks! Why things e(x)plode!<br>I’d e(x)ert myself if teachers showed<br>How to make firecrackers louder,<br>Could study fuses, stuffing, powder.<br>I e(x)pect I’d study till it hurt<br>To be a big e(x)plosion e(x)pert!",
         "category": ["C-begin", "C"],
-        "grade": ["Pre-K", "K", "1st"]
+        "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
     {
-        "id": "X-end",
+        "id": "X-ks-end",
         "audio": "phoneme-X-ks.mp3",
         "display": "x",
         "word1": {
@@ -6107,8 +6065,8 @@
             "vowel": "black",
             "K": "black"
         },
-        "rhyme": "DUM diddle DEE doh,</br>O(x) wore a tu(x)edo,</br>The dancer bo(x)ed with T-Re(x).</br>Jack popped from a mailbo(x),</br>First swung his hand a(x)e,</br>Next tattled that red fo(x)</br>Had pooped in the sandbo(x)</br>Then all of them ta(x)ied away.</br>",
+        "rhyme": "Dum diddle dee doh,<br>O(x) wore a tuxedo,<br>The dancer boxed with T-Re(x).<br>Jack popped from a mailbo(x),<br>First swung his hand a(x),<br>Next tattled that red fo(x)<br>Had pooped in the sandbo(x)—<br>Then all of them taxied away.",
         "category": ["C-end", "C"],
-        "grade": ["K", "1st"]
+        "grade": ["K", "1st", "2nd", "3rd"]
     }
 ]

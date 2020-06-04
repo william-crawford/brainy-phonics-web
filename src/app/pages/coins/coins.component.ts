@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {UserDataService} from '../../services/user-data.service';
+import {ProgressService} from '../../services/progress.service';
 import {Location} from '@angular/common';
 
 @Component({
@@ -16,10 +16,10 @@ export class CoinsComponent {
     silvers: number;
 
     constructor(
-        private userDataService: UserDataService,
+        private progressService: ProgressService,
         private location: Location
     ) {
-        this.coins = userDataService.getCoins();
+        this.coins = progressService.getCoins();
         this.cars = Math.floor(this.coins / 250);
         this.bags = Math.floor((this.coins % 250) / 50);
         this.stacks = Math.floor((this.coins % 50) / 10);

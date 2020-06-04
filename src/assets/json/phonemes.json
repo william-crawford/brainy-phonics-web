@@ -781,7 +781,7 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "Cross pat(ch); pull the lat(ch);<br>Sit by the fire and spin;<br>Take a cup and drink it up;<br>Then call your neighbors in.",
+        "rhyme": "",
         "category": ["CD-end", "CD", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -2407,7 +2407,7 @@
             "vowel": "green",
             "3rd": "green"
         },
-        "rhyme": "Jack and J(ill) went up the h(ill);<br>To fetch a pail of water;<br>Jack fell down and broke his crown;<br>And J(ill) came tumbling after.",
+        "rhyme": "",
         "category": ["VC-2", "V", "VC"],
         "grade": ["3rd"]
     },
@@ -2866,7 +2866,7 @@
             "vowel": "black",
             "3rd": "black"
         },
-        "rhyme": "The sow came in with the sadd(le);<br>The litt(le) pig rocked the crad(le);<br>The dish jumped up on the tab(le);<br>To see the pot swallow the lad(le).",
+        "rhyme": "The sow came in with the sadd(le);<br>The litt(le) pig rocked the crad(le);<br>The dish jumped up on the tab(le);<br>To see the pot swallow the lad(le).<br>The spit that stood behind the door<br>Threw the pudding-stick on the floor.<br>“Gracious!” said the gridiron,<br>“Can’t you agree?<br>I’m the boss policeman,<br>Bring them to me!”",
         "category": ["VC-2", "V", "VC"],
         "grade": ["3rd"]
     },
@@ -3208,7 +3208,7 @@
             "vowel": "black",
             "2nd": "black"
         },
-        "rhyme": "Ha(nd)y-spa(nd)y; Jacky da(nd)y;<br>Loves plum cake a(nd) sugar ca(nd)y.<br>He bought some at a grocer's shop;<br>A(nd) pleased ran away going hop; hop; hop.",
+        "rhyme": "",
         "category": ["CB-end", "CB", "C"],
         "grade": ["2nd", "3rd"]
     },
@@ -4454,7 +4454,7 @@
             "2nd": "green",
             "3rd": "green"
         },
-        "rhyme": "Scissor(s) and string,<br>Scissor(s) and string.<br>When a man'(s) single,<br>he live(s) like a king.",
+        "rhyme": "",
         "category": ["C-end", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -4758,7 +4758,7 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "To bed; to bed; says (Sl)eepy Head;<br>\"Let's stay awhile;\" says (Sl)ow;<br>\"Put on the pot;\" says Hungry Ned;<br>\"We'll eat before we go.\"",
+        "rhyme": "",
         "category": ["CB-begin", "CB", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
@@ -5252,7 +5252,7 @@
             "vowel": "black",
             "3rd": "black"
         },
-        "rhyme": "Bye; baby bunting;<br>Fa(th)er's gone a-hunting;<br>Mo(th)er's gone a-milking;<br>Sister's gone a-silking;<br>And Bro(th)er's gone for a rabbit skin;<br>To wrap little baby bunting in.",
+        "rhyme": "",
         "category": ["CD-begin", "CD", "C"],
         "grade": ["3rd"]
     },
@@ -5949,7 +5949,7 @@
             "2nd": "green",
             "3rd": "green"
         },
-        "rhyme": "Ride away; Ride away;<br>Johnn(y) shall ride;<br>And he shall have kitt(y) cat;<br>Tied to one side.<br>And he shall have pupp(y) dog;<br>Tied to the other;<br>And Johnn(y) shall ride;<br>To see his grandmother.",
+        "rhyme": "Am(y) likes to be naught(y).<br>Tomm(y)’s  often sleep(y).<br>Bill(y)’s sometimes sill(y).<br>Auntie’s often weep(y).<br>Uncle’s always hungr(y).<br>The bab(y) wets his napp(y).<br>Pupp(y) loves getting dirt(y).<br>Me–I’m just happ(y)!",
         "category": ["Y", "V"],
         "grade": ["1st", "2nd", "3rd"]
     },
