@@ -1136,44 +1136,6 @@
         "grade": ["2nd", "3rd"]
     },
     {
-        "id": "E-EI",
-        "audio": "phoneme-E-EI.m4a",
-        "display": "ei",
-        "word1": {
-            "word": "veil",
-            "display": "v<span>ei</span>l",
-            "audio": "veil.mp3",
-            "image": "veil.png"
-        },
-        "word2": {
-            "word": "eight",
-            "display": "<span>ei</span>ght",
-            "audio": "eight.mp3",
-            "image": "eight.png"
-        },
-        "word3": {
-            "word": "weigh",
-            "display": "w<span>ei</span>gh",
-            "audio": "weigh.mp3",
-            "image": "weigh.png"
-        },
-        "quiz-words": [
-            "sleigh",
-            "neighbor",
-            "reins",
-            "beige",
-            "freight"
-        ],
-        "color": {
-            "all": "black",
-            "vowel": "black",
-            "3rd": "black"
-        },
-        "rhyme": "Ever wonder how much fr(ei)ght<br>Santa’s (ei)ght r(ei)ndeer must haul<br>Every Christmas, and not be late?<br>Heeps of toys!  Imagine it all!<br>Do you think he w(ei)ghs the sl(ei)gh,<br>And himself too—he’s not thin—<br>Before he shouts, “Hi ho, away!”<br>He surely trusts the shape they’re in.<br>Could he put magic in the hay<br>They eat so they’ll fly strong.  Something good?<br>Magic oatmeal cookies?  He may.<br>They’d like that.  I know I would!",
-        "category": ["VP", "V"],
-        "grade": ["3rd"]
-    },
-    {
         "id": "E-EA-long",
         "audio": "phoneme-E-EA-long.mp3",
         "display": "ea",
@@ -1290,6 +1252,44 @@
         "rhyme": "Little Bo-p(ee)p has lost her sh(ee)p;<br>And doesn't know where to find them;<br>Leave them alone; and they'll come home;<br>Wagging their tails behind them.",
         "category": ["VP", "V"],
         "grade": ["1st", "2nd", "3rd"]
+    },
+    {
+        "id": "E-EI",
+        "audio": "phoneme-E-EI.m4a",
+        "display": "ei",
+        "word1": {
+            "word": "veil",
+            "display": "v<span>ei</span>l",
+            "audio": "veil.mp3",
+            "image": "veil.png"
+        },
+        "word2": {
+            "word": "eight",
+            "display": "<span>ei</span>ght",
+            "audio": "eight.mp3",
+            "image": "eight.png"
+        },
+        "word3": {
+            "word": "weigh",
+            "display": "w<span>ei</span>gh",
+            "audio": "weigh.mp3",
+            "image": "weigh.png"
+        },
+        "quiz-words": [
+            "sleigh",
+            "neighbor",
+            "reins",
+            "beige",
+            "freight"
+        ],
+        "color": {
+            "all": "black",
+            "vowel": "black",
+            "3rd": "black"
+        },
+        "rhyme": "Ever wonder how much fr(ei)ght<br>Santa’s (ei)ght r(ei)ndeer must haul<br>Every Christmas, and not be late?<br>Heeps of toys!  Imagine it all!<br>Do you think he w(ei)ghs the sl(ei)gh,<br>And himself too—he’s not thin—<br>Before he shouts, “Hi ho, away!”<br>He surely trusts the shape they’re in.<br>Could he put magic in the hay<br>They eat so they’ll fly strong.  Something good?<br>Magic oatmeal cookies?  He may.<br>They’d like that.  I know I would!",
+        "category": ["VP", "V"],
+        "grade": ["3rd"]
     },
     {
         "id": "E-ER",
@@ -5218,7 +5218,7 @@
         "grade": ["3rd"]
     },
     {
-        "id": "T-th-begin",
+        "id": "T-TH-begin",
         "audio": "phoneme-T-th.mp3",
         "display": "th",
         "word1": {
