@@ -423,6 +423,10 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
         if (this.phoneme.category.includes("V-short") || this.phoneme.category.includes("V-long")) {
             return true; //returns true because the logic in the making of the list has been checked
         }
+        if (example.includes(this.phoneme.id.charAt(0).toLowerCase))
+        {
+            return false;
+        }
         if ((this.phoneme.id == "G-GH" || this.phoneme.id.includes("F-fuh") || this.phoneme.id.includes("P-PH")) && (example.includes("f") || example.includes("ph") || example.includes("gh"))) {
             return false;
         }
