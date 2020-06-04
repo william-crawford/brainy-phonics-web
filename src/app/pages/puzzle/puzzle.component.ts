@@ -32,10 +32,9 @@ export class PuzzleComponent implements OnInit, OnDestroy, AfterViewInit {
 
     // get phoneme data
     this.phoneme = this.transferService.getData() as Phoneme;
-    console.log(this.phoneme.id);
     if (this.phoneme.id === 'C-CK' || this.phoneme.id === 'M-MP'|| this.phoneme.id === 'N-NT') {
       this.medium = true;
-    } else if (this.phoneme.id == 'P-PH-begin' || this.phoneme.id === 'S-ST-end' || this.phoneme.id === 'O-OST-short') {
+    } else if (this.phoneme.id == 'P-PH-begin' || this.phoneme.id === 'S-ST-end' || this.phoneme.id === 'O-OST-short' || this.phoneme.id === 'N-ND' || this.phoneme.id === 'T-the') {
       this.large = true;
     } else if (this.phoneme.id === 'T-TH-end') {
       this.xlarge = true;
