@@ -825,45 +825,6 @@
         "grade": ["3rd"]
     },
     {
-        "id": "C-CK-silent",
-        "audio": "phoneme-C-CK-silent.m4a",
-        "display": "ck",
-        "word1": {
-            "word": "sick",
-            "display": "si<span>ck</span>",
-            "audio": "sick.mp3",
-            "image": "sick.png"
-        },
-        "word2": {
-            "word": "trick",
-            "display": "tri<span>ck</span>",
-            "audio": "trick.mp3",
-            "image": "trick.png"
-        },
-        "word3": {
-            "word": "snack",
-            "display": "sna<span>ck</span>",
-            "audio": "snack.mp3",
-            "image": "snack.png"
-        },
-        "quiz-words": [
-            "trick",
-            "wick",
-            "rocket",
-            "backpack",
-            "brick layer or brick mason"
-        ],
-        "color": {
-            "all": "black",
-            "vowel": "black",
-            "2nd": "black",
-            "3rd": "green"
-        },
-        "rhyme": "Ja(ck), be nimble, Ja(ck), be qui(ck),<br>Ja(ck), jump over the candlesti(ck).",
-        "category": ["C-silent", "C"],
-        "grade": ["2nd", "3rd"]
-    },
-    {
         "id": "C-CL",
         "audio": "phoneme-C-CL.mp3",
         "display": "cl",
@@ -4224,7 +4185,7 @@
             "vowel": "black",
             "1st": "black"
         },
-        "rhyme": "As I was going up (Pr)imrose Hill;<br>(Pr)imrose Hill was dirty;<br>There I met a (pr)etty girl;<br>And she gave me a curtsey.<br>Little girl; (pr)etty girl;<br>Blessings be upon you;<br>If I had half-a-dollar a day;<br>I'd spend it all on you.",
+        "rhyme": "As I was going up (Pr)imrose Hill;<br>(Pr)imrose Hill was dirty;<br>There I met a (pr)etty girl;<br>And she gave me a curtsey.<br><br>Little girl; (pr)etty girl;<br>Blessings be upon you;<br>If I had half-a-dollar a day;<br>I'd spend it all on you.",
         "category": ["CB-begin", "CB", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
