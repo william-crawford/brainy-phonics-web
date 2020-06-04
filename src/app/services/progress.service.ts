@@ -176,13 +176,11 @@ export class ProgressService {
         input = this.storage.get(key);
         input.incorrect_answers++;
       }
-      console.log(input);
       this.storage.set(key, input);
     }
   }
 
   addTime(date, timeElapsed) {
-    console.log('date is:', date);
     // Time spent in current session (in ms)
     this.storage.set(timeKey, timeElapsed);
     // Time spent in application overall (in ms)
