@@ -13,7 +13,7 @@
 }
 
 /* Phonics Categories */
-#sound-begin {
+#beginning-sounds {
     background: url('../../../../assets/img/buttons/second_sound_begin.png') no-repeat scroll transparent;
     background-size: 65vh;
     margin: 17.5vh 0vh 0vh -6vh;
@@ -21,7 +21,7 @@
     cursor: pointer;
     width: 63vh;
 }
-#sound-end {
+#ending-sounds {
     background: url('../../../../assets/img/buttons/second_sound_end.png') no-repeat scroll transparent;
     background-size: 55vh;
     margin: 17.5vh 0vh 0vh 33vh;
@@ -35,39 +35,39 @@
     cursor: pointer;
     width: 78vh;
 }
-#blend-begin {
+#beginning-blends {
     background: url('../../../../assets/img/buttons/second_blend_begin.png') no-repeat scroll transparent;
     background-size: 61vh;
     cursor: pointer;
     width: 59vh;
 }
-#blend-end {
+#ending-blends {
     background: url('../../../../assets/img/buttons/second_blend_end.png') no-repeat scroll transparent;
     background-size: 50vh;
     margin-left: 37vh;
     cursor: pointer;
     width: 49vh;
 }
-#blend-three {
+#three-letter-blends {
     background: url('../../../../assets/img/buttons/second_blend_3.png') no-repeat scroll transparent;
     background-size: 60vh;
     cursor: pointer;
     width: 58vh;
 }
-#silent {
+#silent-consonants {
   background: url('../../../../assets/img/buttons/second_silent.png') no-repeat scroll transparent;
   background-size: 29vh;
   margin-left: 38vh;
   cursor: pointer;
   width: 28vh;
 }
-#digraph-begin {
+#beginning-digraphs {
   background: url('../../../../assets/img/buttons/second_digraph_begin.png') no-repeat scroll transparent;
   background-size: 91.5vh;
   cursor: pointer;
   width: 79vh;
 }
-#digraph-end {
+#ending-digraphs {
   background: url('../../../../assets/img/buttons/second_digraph_end.png') no-repeat scroll transparent;
   background-size: 73vh;
   display: block;

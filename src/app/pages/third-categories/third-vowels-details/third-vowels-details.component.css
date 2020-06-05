@@ -13,41 +13,41 @@
 }
 
 /* Phonics Categories */
-#short {
+#short_vowels {
     background: url('../../../../assets/img/buttons/third_vowels_short.png') no-repeat scroll transparent;
     background-size: 34vh;
     margin-top: 17vh;
     cursor: pointer;
     width: 32vh;
 }
-#long {
+#long_vowels {
     background: url('../../../../assets/img/buttons/third_vowels_long.png') no-repeat scroll transparent;
     background-size: 30vh;
     margin: 17vh 0vh 0vh 7vh;
     cursor: pointer;
     width: 28vh;
 }
-#schwa {
+#schwas {
     background: url('../../../../assets/img/buttons/third_vowels_schwa.png') no-repeat scroll transparent;
     background-size: 41vh;
     margin-left: 3vh;
     cursor: pointer;
     width: 39vh;
 }
-#pairs {
+#vowel_pairs {
     background: url('../../../../assets/img/buttons/third_vowels_pairs.png') no-repeat scroll transparent;
     background-size: 33vh;
     cursor: pointer;
     width: 31vh;
 }
-#y {
+#y_sounds {
     background: url('../../../../assets/img/buttons/third_vowels_y.png') no-repeat scroll transparent;
     background-size: 55.5vh;
     margin-left: 8vh;
     cursor: pointer;
     width: 54vh;
 }
-#e {
+#silent-e {
     background: url('../../../../assets/img/buttons/third_vowels_e.png') no-repeat scroll transparent;
     background-size: 44vh;
     margin-left: 62vh;

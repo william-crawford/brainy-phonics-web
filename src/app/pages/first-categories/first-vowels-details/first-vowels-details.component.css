@@ -13,7 +13,7 @@
   }
   
   /* First Categories */
-  #short {
+  #short_vowels {
       background: url('../../../../assets/img/buttons/first_vowels_short.png') no-repeat scroll transparent;
       background-position: center;
       background-size: 70vh;
@@ -22,7 +22,7 @@
       height: 15vh;
       margin-top: 4vh;
   }
-  #long {
+  #long_vowels {
     background: url('../../../../assets/img/buttons/first_vowels_long.png') no-repeat scroll transparent;
     background-position: center;
     background-size: 65vh;
@@ -30,7 +30,7 @@
     width: 65vh;
     height: 15vh;
   }
-  #pairs {
+  #vowel_pairs {
     background: url('../../../../assets/img/buttons/first_vowels_pairs.png') no-repeat scroll transparent;
     background-position: center;
     background-size: 66vh;

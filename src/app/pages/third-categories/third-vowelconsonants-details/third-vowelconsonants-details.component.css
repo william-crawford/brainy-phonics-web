@@ -13,20 +13,20 @@
   }
   
   /* Second Categories */
-  #rvowels {
+  #r {
       background: url('../../../../assets/img/buttons/third_r.png') no-repeat scroll transparent;
       background-size: 90vh;
       margin-top: 9vh;
       cursor: pointer;
       width: 88vh;
   }
-  #twoletter {
+  #two-letter-blends {
     background: url('../../../../assets/img/buttons/third_two.png') no-repeat scroll transparent;
     background-size: 77vh;
     width: 75vh;
     cursor: pointer;
   }
-  #threeletter {
+  #three-letter-blends {
     background: url('../../../../assets/img/buttons/third_three.png') no-repeat scroll transparent;
     background-size: 76.5vh;
     cursor: pointer;
