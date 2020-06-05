@@ -5,7 +5,6 @@ import {PhonemesService} from '../../services/phonemes.service';
 import {ActivatedRoute, Router} from '@angular/router';
 import {Location} from '@angular/common';
 import {ProgressService} from '../../services/progress.service';
-import { ThirdVowelsDetailsComponent } from '../third-categories/third-vowels-details';
 
 @Component({
   templateUrl: './puzzles.component.html',
@@ -25,6 +24,7 @@ export class PuzzlesComponent implements OnInit, AfterViewInit {
 ) {
   // load phonemes data
   this.data = this.phonemesService.dataLoad('phoneme', '', false);
+  console.log(this.data);
 }
 
   ngOnInit() {
