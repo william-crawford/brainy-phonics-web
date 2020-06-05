@@ -33,16 +33,10 @@ export class PuzzlesComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit() {
   // set background for completed puzzles
-    // for (var i = 0; i < this.progressService.getPuzzles().length; i++) {
-    //   document.getElementById(this.progressService.getPuzzles()[i]).style.background = "url('../../assets/img/puzzle-pieces/puzzle-"+this.progressService.getPuzzles()[i]+"/puzzle-"+this.progressService.getPuzzles()[i]+"-composite.png')";
-    //   document.getElementById(this.progressService.getPuzzles()[i]).style.backgroundSize = '30vh 39vh';
-    //   document.getElementById(this.progressService.getPuzzles()[i]).style.color = 'transparent';
-    // }
-    for (var i = 0; i < document.getElementsByClassName('app-card').length; i++) {
-      var temp = <HTMLElement> document.getElementsByClassName('cardListItem')[i];
-      temp.style.background = "url('../../assets/img/puzzle-pieces/puzzle-"+temp.id+"/puzzle-"+temp.id+"-composite.png')";
-      temp.style.backgroundSize = '30vh 39vh';
-      temp.style.color = 'transparent';
+    for (var i = 0; i < this.progressService.getPuzzles().length; i++) {
+      document.getElementById(this.progressService.getPuzzles()[i]).style.background = "url('../../assets/img/puzzle-pieces/puzzle-"+this.progressService.getPuzzles()[i]+"/puzzle-"+this.progressService.getPuzzles()[i]+"-composite.png')";
+      document.getElementById(this.progressService.getPuzzles()[i]).style.backgroundSize = '30vh 39vh';
+      document.getElementById(this.progressService.getPuzzles()[i]).style.color = 'transparent';
     }
   }
 
@@ -52,11 +46,11 @@ export class PuzzlesComponent implements OnInit, AfterViewInit {
 
   select(item: Phoneme) {
     this.transferLetterService.setData(item);
-    // if (this.progressService.getGoldStarsFromKey('phoneme' + item.id) == 5) {
+    if (this.progressService.getGoldStarsFromKey('phoneme' + item.id) == 5) {
       this.router.navigate(['puzzle']);
-    // } else {
-    //   this.router.navigate(['phoneme-learn']);
-    // }
+    } else {
+      this.router.navigate(['phoneme-learn']);
+    }
   }
 
   goBack() {
