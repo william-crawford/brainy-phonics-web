@@ -41,36 +41,6 @@ export class PhonemesService {
       data = json.default.valueOf();
     }
 
-    let imgArr = [];
-    let audioArr = [];
-    let bothArr = [];
-    for (var i = 0; i < data.length; i++) {
-      for (var j = 0; j < data[i]['quiz-words'].length; j++) {
-        var img = new XMLHttpRequest();
-        img.open('HEAD', "../../assets/img/sight-words/" + data[i]['quiz-words'][j] + ".png", false);
-        img.send();
-        var mp3 = new XMLHttpRequest();
-        mp3.open('HEAD', "../../assets/audio/sight-words/" + data[i]['quiz-words'][j] + ".mp3", false);
-        mp3.send();
-        if (!(img.status!=404) && !(mp3.status!=404)) {
-          if ((bothArr.indexOf(data[i]['quiz-words'][j]) == -1)) {
-            bothArr.push(data[i]['quiz-words'][j]);
-          }
-        } else if (!(img.status!=404)) {
-          if ((imgArr.indexOf(data[i]['quiz-words'][j]) == -1)) {
-            imgArr.push(data[i]['quiz-words'][j]);
-          }
-        } else if (!(mp3.status!=404)) {
-          if ((audioArr.indexOf(data[i]['quiz-words'][j]) == -1)) {
-            audioArr.push(data[i]['quiz-words'][j]);
-          }
-        }
-      }
-    }
-    console.log('imgArr:', imgArr.toString());
-    console.log('audioArr:', audioArr.toString());
-    console.log('bothArr:', bothArr.toString());
-
     for (var i = 0; i < data.length; i++) {
       if (grade !== '') {
         if (data[i].grade.includes(grade)) {
