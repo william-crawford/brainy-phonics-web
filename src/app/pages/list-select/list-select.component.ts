@@ -246,6 +246,12 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
         } else {
             if (this.list === 'vowels') {
                 return item.color.vowel;
+            } else if (this.list === 'consonants') {
+                return item.color.consonant;
+            } else if (this.list === 'vowelConsonants') {
+                return item.color.VC;
+            } else if (this.list === 'phoneme') {
+                return item.color.all;
             } else if (this.list !== 'alphabet') {
                 return item.color.all;
             }

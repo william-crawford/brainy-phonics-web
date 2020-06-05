@@ -137,6 +137,9 @@ p {
 .red {
     color: #ff0000;
 }
+.purple {
+    color: mediumpurple;
+}
 
 .word-image {
     width: 50%;

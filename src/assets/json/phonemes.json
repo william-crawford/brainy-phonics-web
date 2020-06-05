@@ -44,22 +44,22 @@
         "audio": "phoneme-A-long.mp3",
         "display": "a",
         "word1": {
-            "word": "ape",
-            "display": "<span>a</span>p<u>e</u>",
-            "audio": "ape.mp3",
-            "image": "ape.png"
-        },
-        "word2": {
             "word": "plane",
             "display": "pl<span>a</span>n<u>e</u>",
             "audio": "plane.mp3",
             "image": "plane.png"
         },
-        "word3": {
+        "word2": {
             "word": "cake",
             "display": "c<span>a</span>k<u>e</u>",
             "audio": "cake.mp3",
             "image": "cake.png"
+        },
+        "word3": {
+            "word": "ape",
+            "display": "<span>a</span>p<u>e</u>",
+            "audio": "ape.mp3",
+            "image": "ape.png"
         },
         "quiz-words": [
             "cage",
@@ -69,8 +69,8 @@
             "shapes"
         ],
         "color": {
-            "all": "black",
-            "vowel": "black",
+            "all": "green",
+            "vowel": "green",
             "K": "black"
         },
         "rhyme": "Who m(a)de the str(a)nge par(a)de at my house?<br>—With a firetruck in front pulled by a mouse,<br>Bumped in back by some centaur slurping ice cream,<br>And bumblebee and rhino yoked as a team,<br>Hauling a trolley atop which a T-rex rode,<br>And giggled to see a cop kiss a toad,<br>And a wrestler and toddler danced together,<br>As an (a)pe tickled both with a peacock feather.<br>A penguin and rocketman on a rope hanging down,<br>Tossed eggs at a juggler who tried not to frown,<br>While a triceratops gobbled fresh gr(a)pes and burped,<br>At a peacock who spilled chocolate milk as it slurped,<br>And a str(a)nge smelling panda on a clock w(a)ved at me—<br>As I sat on a pretzel for an hour to sight-see.<br>Who could dream up a str(a)nge par(a)de of this kind?<br>Did I maybe just m(a)ke it all up in my mind?",
@@ -111,8 +111,8 @@
             "statue"
         ],
         "color": {
-            "all": "green",
-            "vowel": "green",
+            "all": "pink",
+            "vowel": "pink",
             "K": "black",
             "1st": "black",
             "2nd": "black",
@@ -152,8 +152,8 @@
             "squash"
         ],
         "color": {
-            "all": "pink",
-            "vowel": "pink",
+            "all": "red",
+            "vowel": "red",
             "K": "green",
             "1st": "green",
             "2nd": "green",
@@ -193,8 +193,8 @@
             "gazelle"
         ],
         "color": {
-            "all": "red",
-            "vowel": "red",
+            "all": "purple",
+            "vowel": "purple",
             "2nd": "black"
         },
         "rhyme": "(A)round the bush, Willie,<br>(A)round the bee hive.<br>(A)round the bush, Willie,<br>I'll meet you (a)live.",
@@ -351,7 +351,8 @@
             "all": "green",
             "vowel": "green",
             "2nd": "green",
-            "3rd": "green"
+            "3rd": "green",
+            "VC": "green"
         },
         "rhyme": "P(ar)rot said to Miss Can(ar)y,<br>“Come with me–leave this cage.<br>We’ll fly far off, then we’ll m(ar)ry,<br>Join the circus, star on stage.”<br><br>“I can’t. It’s all too sc(ar)y!”<br>She decl(ar)ed, “It sounds too strange.”<br>“I b(ar)ed my heart, will c(ar)ry<br>You quite safely. Don’t fear change.”<br><br>“I don’t d(ar)e,” she sighed. “I’m w(ar)y.<br>Can you love me through the bars?”<br>“I do,” he said. “I will.” There he<br>Kissed her–till both saw stars.",
         "category": ["R", "V", "VC"],
@@ -660,7 +661,8 @@
             "vowel": "black",
             "K": "black",
             "2nd": "black",
-            "3rd": "black"
+            "3rd": "black",
+            "consonant": "black"
         },
         "rhyme": "Little Robin Redbreast sat upon a tree;<br>Up went the Kitty-(C)at; and down went he;<br>Down came Kitty-(C)at; away Robin ran;<br>Says little Robin Redbreast:<br>\"(C)atch me if you (c)an!\"",
         "category": ["C-begin", "CG", "C"],
@@ -701,7 +703,8 @@
             "all": "green",
             "vowel": "green",
             "2nd": "green",
-            "3rd": "green"
+            "3rd": "green",
+            "consonant": "green"
         },
         "rhyme": "(C)elery, lettu(c)e, and ri(c)e aren\u2019t my dream,<br>But you scream, I scream, we all scream<br>for i(c)e cream!<br>",
         "category": ["CG", "C"],
@@ -1400,7 +1403,8 @@
         "color": {
             "all": "green",
             "vowel": "green",
-            "3rd": "green"
+            "3rd": "green",
+            "VC": "green"
         },
         "rhyme": "Lucy Lock(et) lost her pock(et);<br>Kitty Fisher found it.<br>There was not a penny in it;<br>But a ribbon round it.",
         "category": ["VC-2", "V", "VC"],
@@ -1748,7 +1752,8 @@
             "all": "green",
             "vowel": "green",
             "2nd": "green",
-            "3rd": "green"
+            "3rd": "green",
+            "consonant": "green"
         },
         "rhyme": "(G)eorgie Por(g)ie, pudding and pie,<br>Kissed the girls and made them cry.<br>When the boys came out to play,<br>(G)eorgie Por(g)ie ran away.",
         "category": ["CG", "C"],
@@ -1820,10 +1825,10 @@
             "nightgown"
         ],
         "color": {
-            "all": "black",
+            "all": "green",
             "vowel": "black",
             "2nd": "black",
-            "3rd": "green"
+            "3rd": "black"
         },
         "rhyme": "Read the riddle — find the kind of band,<br>Unlikely to play music, that can show ei(gh)t<br>Bri(gh)t colors, even more, be short, expand,<br>Be dou(gh)nut round or arrow strai(gh)t;<br>Each when ti(gh)t flies hi(gh). To understand,<br>Read each line’s first letter. Concentrate.",
         "category": ["C-silent", "C"],
@@ -2012,7 +2017,7 @@
         ],
         "color": {
             "all": "green",
-            "3rd": "green"
+            "3rd": "black"
         },
         "rhyme": "Hope you solve it! What cup holds no drinks?<br>Invisible, g(h)ostlike, at any time<br>Can choke you, like with r(h)ythmic heartbeats, links<br>Coming chain-like, for ex(h)austing (h)ours, chime<br>Under your skin, making you think: This stinks!<br>Pick each line’s first letter in this r(h)yme.",
         "category": ["C-silent", "C"],
@@ -2089,8 +2094,8 @@
             "pliers"
         ],
         "color": {
-            "all": "black",
-            "vowel": "black",
+            "all": "green",
+            "vowel": "green",
             "K": "black"
         },
         "rhyme": "Airl(i)nes and railroads are big fans of m(i)ne.<br>Check out my face and you’ll see f(i)ve and n(i)ne.<br>Look at my hands, you’ll know I can’t clap though.<br>One hand of m(i)ne l(i)kes to be fast, one slow.<br>Can’t sing, but when I’m big will somet(i)mes ch(i)me.<br>Kids need me most when they don’t have the t(i)me.",
@@ -2130,8 +2135,8 @@
             "ostrich"
         ],
         "color": {
-            "all": "green",
-            "vowel": "green",
+            "all": "pink",
+            "vowel": "pink",
             "K": "black",
             "1st": "black",
             "2nd": "black",
@@ -2171,8 +2176,8 @@
             "nostril"
         ],
         "color": {
-            "all": "pink",
-            "vowel": "pink",
+            "all": "red",
+            "vowel": "red",
             "2nd": "black"
         },
         "rhyme": "Oh, do you know the muff(i)n-man,<br>The muff(i)n-man, the muff(i)n-man?<br>Do you know the muff(i)n-man<br>Who lives in Drury Lane?<br><br>Yes, I know the muff(i)n-man,<br>The muff(i)n-man, the muff(i)n-man.<br>Yes, I know the muff(i)n-man<br>Who lives in Drury Lane.",
@@ -2209,8 +2214,8 @@
             "machine"
         ],
         "color": {
-            "all": "pink",
-            "vowel": "pink",
+            "all": "purple",
+            "vowel": "purple",
             "K": "green",
             "1st": "green",
             "2nd": "green",
@@ -2366,7 +2371,8 @@
         "color": {
             "all": "green",
             "vowel": "green",
-            "3rd": "green"
+            "3rd": "green",
+            "VC": "green"
         },
         "rhyme": "I sp(ill)ed m(il)k in the car one time<br>And thought I’d just not tell,<br>Cause one small sp(ill) is not a crime,<br>But then this f(il)thy smell<br>Began to stink the whole car up.<br>The stench just swelled and bu(il)t<br>Unt(il) it stunk like throw-up.<br>That’s when I felt the gu(il)t. <br>No matter how I snuck and hid,<br>They caught me, I got stuck,<br>Scrubbing that car clean. They forbid<br>M(il)k there now. Just my luck!",
         "category": ["VC-2", "V", "VC"],
@@ -2783,7 +2789,8 @@
         "color": {
             "all": "black",
             "vowel": "black",
-            "2nd": "black"
+            "2nd": "black",
+            "VC": "black"
         },
         "rhyme": "Catch it any chi(ld) can, but then can’t ho(ld)<br>Or throw it.  Around the world, young and o(ld)<br>Learn a mi(ld) one’s trouble.  We’ve all been to(ld)<br>Don’t get one.  We do.  It doesn’t help to sco(ld).",
         "category": ["CB-end", "CB", "C"],
@@ -3355,8 +3362,8 @@
             "potatoes"
         ],
         "color": {
-            "all": "black",
-            "vowel": "black",
+            "all": "green",
+            "vowel": "green",
             "K": "black"
         },
         "rhyme": "Having less will make it bigger when it’s done.<br>One m(o)le will make many. That’s its r(o)le.<br>Lassos are just r(o)pes with one big one.<br>Each head like yours has five. It’s a —",
@@ -3394,8 +3401,8 @@
             "boxer"
         ],
         "color": {
-            "all": "green",
-            "vowel": "green",
+            "all": "pink",
+            "vowel": "pink",
             "K": "black",
             "1st": "black",
             "2nd": "black",
@@ -3435,8 +3442,8 @@
             "monkey"
         ],
         "color": {
-            "all": "pink",
-            "vowel": "pink",
+            "all": "red",
+            "vowel": "red",
             "2nd": "black"
         },
         "rhyme": "He l(o)ves me.<br>He d(o)esn't!<br>He'll have me.<br>He won't!<br><br>He would if he could,<br>But he can't, so he won't!",
@@ -3551,7 +3558,7 @@
             "soldier"
         ],
         "color": {
-            "all": "pink",
+            "all": "black",
             "vowel": "pink",
             "2nd": "pink"
         },
@@ -3720,7 +3727,8 @@
             "all": "green",
             "vowel": "green",
             "2nd": "green",
-            "3rd": "green"
+            "3rd": "green",
+            "VC": "green"
         },
         "rhyme": "Jim tried art, but couldn’t col(or),<br>Tried music–singing didn’t w(or)k,<br>His dancing?  Duller and duller.<br>His golf coach quit, called him a jerk.<br>He got laughed off as an act(or).<br>But didn’t fear dirt, loved fresh air,<br>Began to farm w(or)ms with a tract(or).<br>Now he’s a famous millionaire!",
         "category": ["R", "V", "VC"],
@@ -3796,7 +3804,8 @@
         "color": {
             "all": "green",
             "vowel": "green",
-            "3rd": "green"
+            "3rd": "green",
+            "VC": "green"
         },
         "rhyme": "When you next meet a gh(ost)<br>And decide you should h(ost)<br>A gh(ost) Bar-B-Q.<br>Don’t feed them roast ribs<br>Unless m(ost) will bring bibs<br>Whatever you do!<br>If their mouths get all greasy<br>Using a gh(ost)-wipe’s too easy<br>And gh(ost) fights get booooooey!",
         "category": ["VC-3", "V", "VC"],
@@ -4413,7 +4422,8 @@
             "vowel": "green",
             "1st": "green",
             "2nd": "green",
-            "3rd": "green"
+            "3rd": "green",
+            "consonant": "green"
         },
         "rhyme": "Sci(ss)or(s) and string, sci(ss)or(s) and string,<br>When a man’(s) single he live(s) like a king.<br>Needle(s) and pin(s), needle(s) and pins,<br>When a man marrie(s) his trouble begin(s).",
         "category": ["C-end", "C"],
@@ -4487,9 +4497,9 @@
             "crescents"
         ],
         "color": {
-            "all": "black",
+            "all": "green",
             "vowel": "black",
-            "3rd": "green"
+            "3rd": "black"
         },
         "rhyme": "An evening (sc)ene, the crescent moon,<br>(Sc)enting the misty dew,<br>Bright stars, the crickets’ chirping tune –<br>Each night the world seems new.<br><br>Some say the moon rises at night,<br>Others say it a(sc)ends,<br>Some say the moon sets when night ends,<br>Others say it de(sc)ends.<br><br>A(sc)end means rise, de(sc)end means set,<br>Either’s okay to say.<br>(Sc)ientists say people forget.",
         "category": ["C-silent", "C"],
@@ -5180,44 +5190,6 @@
         "grade": ["3rd"]
     },
     {
-        "id": "T-the",
-        "audio": "phoneme-T-the.mp3",
-        "display": "th",
-        "word1": {
-            "word": "them",
-            "display": "<span>th</span>em",
-            "audio": "them.mp3",
-            "image": "them.png"
-        },
-        "word2": {
-            "word": "there",
-            "display": "<span>th</span>ere",
-            "audio": "there.mp3",
-            "image": "there.png"
-        },
-        "word3": {
-            "word": "these",
-            "display": "<span>th</span>ese",
-            "audio": "these.mp3",
-            "image": "these.png"
-        },
-        "quiz-words": [
-            "they",
-            "those",
-            "that",
-            "this",
-            "their"
-        ],
-        "color": {
-            "all": "black",
-            "vowel": "black",
-            "3rd": "black"
-        },
-        "rhyme": "I’d like to create a fantabulous zoo,<br>And (th)e bestest guest I’d invite (th)ere is you.<br>(th)is beast with a dog head and ant behind,<br>And a fly belly—is three in one combined.<br>(th)at beast with a hen middle, and a cat head,<br>And a bat for a tail-end, just <i>loves</i> gingerbread!<br>One with an ant head, a tubby piggy tummy,<br>And a hen backside, thinks your armpit is yummy.<br>One creature has an ant middle, and a wild piggy back,<br>(th)e face of a hen–Don’t let it attack!<br>One’s a fly at (th)e head and elk at (th)e belly,<br>And fox at (th)e tail end – it really poops smelly!<br>And one with a fox middle, a bug at (th)e rear,<br>Has (th)e head of some bat – (th)at I’d <i>never</i> get near.<br>Last, one with two heads, elk one front,<br>A bat middle, and a ram other front,<br>Hurts both my ears when it roars a double grunt!<br>Don’t you love (th)ese strange creatures in my weird zoo?<br>Wouldn’t you like me to put you (th)ere too?",
-        "category": ["CD-begin", "CD", "C"],
-        "grade": ["3rd"]
-    },
-    {
         "id": "T-th-begin",
         "audio": "phoneme-T-th.mp3",
         "display": "th",
@@ -5247,13 +5219,13 @@
             "thumbnail"
         ],
         "color": {
-            "all": "green",
-            "vowel": "green",
-            "3rd": "green"
+            "all": "black",
+            "3rd": "black"
         },
         "rhyme": "The (th)in queen sat high on her (th)rone,<br>A (th)ick (th)imble shielding her (th)umb,<br>Admiring the fine (th)ing she’d sewn, <br>Wondering when the king would come.<br><br>The  glum king slouched toward his (th)rone,<br>And moaned and groaned and sucked one (th)umb,<br>Hurt playing baseball wi(th) a stone,<br>The  o(th)er just felt stiff and numb.<br><br>When she showed the gift she’d sewed<br>To (th)ank her, (th)ree times he leapt high<br>Her kiss once changed him from a toad.<br>A baseball’s great for any guy!",
         "category": ["CD-begin", "CD", "C"],
         "grade": ["1st", "2nd", "3rd"]
+
     },
     {
         "id": "T-TH-end",
@@ -5285,12 +5257,49 @@
             "bathtub"
         ],
         "color": {
-            "all": "black",
-            "vowel": "black"
+            "all": "black"
         },
         "rhyme": "I don’t <i>think</i> it really happened last night,<br>After my ba(th), snuggling, both eyes squeezed tight,<br>I <i>thought</i> someone—or something—said,<br>“Stop!’ —inside…or maybe outside…my head.<br>I <i>believe</i> a teeny-tiny giraffe shadow,<br>Popped from the dark, hopped on the window,<br>And howled, “Don’t tickle me— you bucktoo(th) mo(th) you!”<br>That’s not normal!  Not what shadows should do!<br>Is it…?  This huge big-mou(th) mo(th) said, “I’m no mo(th) now,<br>So I’ll just tickle your noodle-neck anyhow!”<br>Wham! –and it changed to a sasquatch then!<br>What!?  And the other shadow, who had been<br>This giraffe, became a strange dino-bird!  Whaaat?!  I squeezed<br>My eyes tighter as sasquatch pranced and teased,<br>“NAH-nah-NAH-nah-NAH-NAH.” I spied<br>It zip benea(th) the bed, try to hide,<br>Then scramble to the ceiling, hip-hop<br>Over a shadow unicorn then snap-stop,<br>Catch its brea(th) to stretch its long fingers <i>every</i> where,<br>Tickling a weird centaur here, a goofy robot there.<br>This tickle-craziness made me crazy too,<br>And in tru(th) I knew only one thing to do!<br>I leapt from my bed, quick flashed on the light!<br>Shadows take flight from fright when it’s bright—<br>And stay far away, if you wave a flashlight!",
         "category": ["CD-end", "CD", "C"],
         "grade": ["1st", "2nd", "3rd"]
+    },
+    {
+        "id": "T-the",
+        "audio": "phoneme-T-the.mp3",
+        "display": "th",
+        "word1": {
+            "word": "them",
+            "display": "<span>th</span>em",
+            "audio": "them.mp3",
+            "image": "them.png"
+        },
+        "word2": {
+            "word": "there",
+            "display": "<span>th</span>ere",
+            "audio": "there.mp3",
+            "image": "there.png"
+        },
+        "word3": {
+            "word": "these",
+            "display": "<span>th</span>ese",
+            "audio": "these.mp3",
+            "image": "these.png"
+        },
+        "quiz-words": [
+            "they",
+            "those",
+            "that",
+            "this",
+            "their"
+        ],
+        "color": {
+            "all": "green",
+            "vowel": "black",
+            "3rd": "green"
+        },
+        "rhyme": "I’d like to create a fantabulous zoo,<br>And (th)e bestest guest I’d invite (th)ere is you.<br>(th)is beast with a dog head and ant behind,<br>And a fly belly—is three in one combined.<br>(th)at beast with a hen middle, and a cat head,<br>And a bat for a tail-end, just <i>loves</i> gingerbread!<br>One with an ant head, a tubby piggy tummy,<br>And a hen backside, thinks your armpit is yummy.<br>One creature has an ant middle, and a wild piggy back,<br>(th)e face of a hen–Don’t let it attack!<br>One’s a fly at (th)e head and elk at (th)e belly,<br>And fox at (th)e tail end – it really poops smelly!<br>And one with a fox middle, a bug at (th)e rear,<br>Has (th)e head of some bat – (th)at I’d <i>never</i> get near.<br>Last, one with two heads, elk one front,<br>A bat middle, and a ram other front,<br>Hurts both my ears when it roars a double grunt!<br>Don’t you love (th)ese strange creatures in my weird zoo?<br>Wouldn’t you like me to put you (th)ere too?",
+        "category": ["CD-begin", "CD", "C"],
+        "grade": ["3rd"]
     },
     {
         "id": "T-TR",
@@ -5401,8 +5410,8 @@
             "flute"
         ],
         "color": {
-            "all": "black",
-            "vowel": "black",
+            "all": "green",
+            "vowel": "green",
             "K": "black"
         },
         "rhyme": "Some aren’t worth much, but some have great val(u)e.<br>Each kept will be for friends a kind of gl(u)e.<br>Close friends who don’t keep them often arg(u)e.<br>Realize sharing them, even one cl(u)e,<br>Ends friendships, when just one friend’s untr(u)e.<br>Trust no one with one, some say, except a stat(u)e.",
@@ -5440,8 +5449,8 @@
             "tissue"
         ],
         "color": {
-            "all": "green",
-            "vowel": "green",
+            "all": "pink",
+            "vowel": "pink",
             "1st": "green",
             "2nd": "green",
             "3rd": "green"
@@ -5480,8 +5489,8 @@
             "bucket"
         ],
         "color": {
-            "all": "pink",
-            "vowel": "pink",
+            "all": "red",
+            "vowel": "red",
             "K": "black",
             "1st": "black",
             "2nd": "black",
@@ -5521,8 +5530,8 @@
             "bucket"
         ],
         "color": {
-            "all": "pink",
-            "vowel": "pink",
+            "all": "purple",
+            "vowel": "purple",
             "2nd": "black"
         },
         "rhyme": "R(u)b a d(u)b d(u)b,<br>Three men in a t(u)b;<br>And who do you think they be?<br>The butcher, the baker,<br>The candlestick-maker;<br>Turn’em out, knaves all three!",
@@ -5598,8 +5607,8 @@
             "vegetables"
         ],
         "color": {
-            "all": "green",
-            "vowel": "green",
+            "all": "black",
+            "vowel": "black",
             "K": "black"
         },
         "rhyme": "When (V)ic dropped his (v)anilla cone,<br>In (v)ery weird (v)oice he moaned a groan.<br>Bigfoot offered some syrup for a trial.<br>“Yuck!” (V)ic roared.  “(V)inegar’s (v)ile!”<br>Giant Cyclops grinned big, said, “No!<br>Try that (v)ast upside down cone: (v)olcano!”",
