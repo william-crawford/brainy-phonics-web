@@ -1,0 +1,31 @@
+<div id='background'>
+    <div id='main-body'>
+        <div class='container'>
+            <h1>Student Sign in</h1>
+            <div class='password'>
+                <div class='placeholder'>
+                    <img *ngIf='selectedImg[0]' class='selected-image' [src]="selectedImg[0]['url']" (click)='onSelected(selectedImg[0])'>
+                  </div>
+                  <div class='placeholder'>
+                    <img *ngIf='selectedImg[1]' class='selected-image' [src]="selectedImg[1]['url']" (click)='onSelected(selectedImg[1])'>
+                  </div>
+                  <div class='placeholder'>
+                    <img *ngIf='selectedImg[2]' class='selected-image' [src]="selectedImg[2]['url']" (click)='onSelected(selectedImg[2])'>
+                  </div>
+                  <div class='placeholder'>
+                    <img *ngIf='selectedImg[3]' class='selected-image' [src]="selectedImg[3]['url']" (click)='onSelected(selectedImg[3])'>
+                  </div>
+                  <div class='placeholder'>
+                    <img *ngIf='selectedImg[4]' class='selected-image' [src]="selectedImg[4]['url']" (click)='onSelected(selectedImg[4])'>
+                  </div>
+            </div>
+            <div class='image-container'>
+                    <div *ngFor='let img of imgs'(click)='onImg(img)'>
+                        <img [src]="img['url']" class='image'>
+                    </div>
+            </div>
+            <button mat-icon-button id='submit' (click)='submit()'>Login</button>
+        </div>
+    </div>
+    <div id='side-menu'></div>
+</div>

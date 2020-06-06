@@ -28,9 +28,11 @@ import {ThirdVowelsDetailsComponent} from './pages/third-categories/third-vowels
 import {ThirdVowelconsonantsDetailsComponent} from './pages/third-categories/third-vowelconsonants-details';
 import { NobodysBetterComponent } from './pages/nobodys-better/nobodys-better.component';
 import { SecretStuffComponent } from './pages/secret-stuff/secret-stuff.component';
+import { LoginComponent } from './pages/login';
 
 const routes: Routes = [
-    {path: '', component: HomeComponent},
+    {path: '', component: LoginComponent},
+    {path: 'home', component: HomeComponent},
     {path: 'phoneme-categories', component: PhonemeCategoriesComponent},
     {path: 'prek-categories', component: PrekCategoriesComponent},
     {path: 'k-categories', component: KCategoriesComponent},
