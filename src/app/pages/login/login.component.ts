@@ -1,7 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {ActivatedRoute, Router} from '@angular/router';
-import {LoginService} from '../../services/login-service.service';
-import {Location} from '@angular/common';
+import {Router} from '@angular/router';
+import {UserService} from '../../services/user-service.service';
 
 @Component({
   templateUrl: 'login.component.html',
@@ -13,11 +12,9 @@ export class LoginComponent implements OnInit {
   selectedImg = [];
 
   constructor(
-    private loginService: LoginService,
+    private userService: UserService,
 
-    private router: Router,
-    private activatedRoute: ActivatedRoute,
-    private location: Location
+    private router: Router
   ) {
     for (let i = 0; i < 26; i++) {
       this.imgs.push({
@@ -61,7 +58,7 @@ export class LoginComponent implements OnInit {
     if (this.selectedImg.length === 5) {
       var passcode = this.selectedImg[0].id + this.selectedImg[1].id + this.selectedImg[2].id + this.selectedImg[3].id + this.selectedImg[4].id;
       
-      this.loginService.login(passcode)
+      this.userService.login(passcode)
       .subscribe(
         res => {
           this.router.navigate(['home'])

@@ -1,5 +1,7 @@
 import {Injectable, Inject} from '@angular/core';
 import {SESSION_STORAGE, WebStorageService} from 'angular-webstorage-service';
+import {UserService} from './user-service.service';
+import { HttpClient } from '@angular/common/http';
 
 const coinKey = 'COINS';
 const completePuzzlesKey = 'COMPLETED_PUZZLES';
@@ -13,7 +15,11 @@ const dateKey = 'DATE_LAST_SESSION';
 
 export class ProgressService {
 
-  constructor(@Inject(SESSION_STORAGE) private storage: WebStorageService) {
+  constructor(
+    @Inject(SESSION_STORAGE) private storage: WebStorageService, 
+    private userService: UserService,
+    private http: HttpClient
+  ) {
     this.storage.set('hasReceivedPhonemeInstruction', false);
     this.storage.set('hasReceivedAlphabetInstruction', false);
   }
