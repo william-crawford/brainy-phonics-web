@@ -24,17 +24,18 @@ import {ThirdCategoriesComponent} from './pages/third-categories';
 import {ThirdConsonantsDetailsComponent} from './pages/third-categories/third-consonants-details';
 import {ThirdVowelsDetailsComponent} from './pages/third-categories/third-vowels-details';
 import {ThirdVowelconsonantsDetailsComponent} from './pages/third-categories/third-vowelconsonants-details';
-import { KCategoriesComponent } from './pages/k-categories';
-import { KLettersDetailsComponent } from './pages/k-categories/k-letters-details';
-import { KEndingSoundsDetailsComponent } from './pages/k-categories/k-ending-sounds-details';
-import { KBeginningSoundsDetailsComponent } from './pages/k-categories/k-beginning-sounds-details';
-import { FirstCategoriesComponent } from './pages/first-categories/first-categories.component';
-import { FirstLettersDetailsComponent } from './pages/first-categories/first-letters-details/first-letters-details.component';
-import { FirstConsonantsDetailsComponent } from './pages/first-categories/first-consonants-details/first-consonants-details.component';
-import { FirstVowelsDetailsComponent } from './pages/first-categories/first-vowels-details/first-vowels-details.component';
-import { NobodysBetterComponent } from './pages/nobodys-better/nobodys-better.component';
-import { SecretStuffComponent } from './pages/secret-stuff/secret-stuff.component';
-import { LoginComponent } from './pages/login';
+import {KCategoriesComponent} from './pages/k-categories';
+import {KLettersDetailsComponent} from './pages/k-categories/k-letters-details';
+import {KEndingSoundsDetailsComponent} from './pages/k-categories/k-ending-sounds-details';
+import {KBeginningSoundsDetailsComponent} from './pages/k-categories/k-beginning-sounds-details';
+import {FirstCategoriesComponent} from './pages/first-categories/first-categories.component';
+import {FirstLettersDetailsComponent} from './pages/first-categories/first-letters-details/first-letters-details.component';
+import {FirstConsonantsDetailsComponent} from './pages/first-categories/first-consonants-details/first-consonants-details.component';
+import {FirstVowelsDetailsComponent} from './pages/first-categories/first-vowels-details/first-vowels-details.component';
+import {NobodysBetterComponent} from './pages/nobodys-better/nobodys-better.component';
+import {SecretStuffComponent} from './pages/secret-stuff/secret-stuff.component';
+import {LoginComponent} from './pages/login';
+import {WordStructuresComponent} from './pages/word-structures';
 
 @NgModule({
   declarations: [
@@ -68,7 +69,8 @@ import { LoginComponent } from './pages/login';
     FirstVowelsDetailsComponent,
     NobodysBetterComponent,
     SecretStuffComponent,
-    LoginComponent
+    LoginComponent,
+    WordStructuresComponent
   ],
   imports: [
     BrowserModule,

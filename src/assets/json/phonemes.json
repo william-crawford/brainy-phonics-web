@@ -506,7 +506,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "Rock-a-(b)ye; (B)aby; on the tree top;<br>When the wind (b)lows the cradle will rock;<br>When the (b)ough (b)reaks the cradle will fall;<br>and down will come (B)aby; cradle; and all.",
@@ -544,7 +543,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "Ru(b) a du(b) du(b),<br>Three men in a tu(b);<br>And who do you think they be?<br>The butcher, the baker,<br>The candlestick-maker;<br>Turn’em out, knaves all three!",
@@ -582,7 +580,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "1st": "black"
         },
         "rhyme": "Little Boy (Bl)ue; come (bl)ow your horn;<br>The sheep's in the meadow; the cow's in the corn.<br>Where is the boy who minds the sheep?<br>Under the haystack fast asleep.<br>Will you wake him?<br>No; not I;<br>For if I do he's sure to cry.",
@@ -620,7 +617,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "1st": "black"
         },
         "rhyme": "London (Br)idge is falling down,<br>Falling down, falling down.<br>London (Br)idge is falling down.<br>My fair lady.<br><br>Build it up with stones and (br)icks,<br>Stones and (br)icks, stones and (br)icks.<br>Build it up with stones and (br)icks,<br>My fair lady.",
@@ -658,7 +654,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black",
             "2nd": "black",
             "3rd": "black",
@@ -701,7 +696,6 @@
         ],
         "color": {
             "all": "green",
-            "vowel": "green",
             "2nd": "green",
             "3rd": "green",
             "consonant": "green"
@@ -741,7 +735,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "3rd": "black"
         },
         "rhyme": "The (ch)ubby (ch)imp boy sat to (ch)at,<br>With the (ch)arming (ch)imp girl.<br>But slipped–he was no acrobat–<br>And fell in a twirling swirl.<br>She kissed his (ch)eek, that (ch)eered him up,<br>Then cooked yummy (ch)ili.<br>He said, “Let’s marry when we’re grown up.”<br>She said, “Don’t be silly!”",
@@ -781,7 +774,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "1st": "black"
         },
         "rhyme": "If you bel(ch) when you mun(ch)<br>You need someone to tea(ch)<br>You decorum.<br>Otherwise when you lun(ch)<br>It should be at the bea(ch)<br>In a storm.<br>You could learn from a coa(ch)<br>How to swallow a roa(ch)<br>Up your nose.<br>When a hurricane blows<br>If you burp through your nose<br>No one knows.",
@@ -820,7 +812,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "3rd": "black"
         },
         "rhyme": "An elf taught Pat how to make magic,<br>Gave Pat a small peaco(ck) made of old plastic,<br>Said, “Wish on it, blink, rub its nose then qui(ck) change,<br>Anything to whatever, no matter how strange.<br>Turning a hot dog to a dachshund was an easy tri(ck),<br>Changing a dragonfly to a dragon went super qui(ck).<br>Pat saw a bla(ck) bear just starting to crunch<br>On this du(ck)’s ne(ck), but dragon sna(ck)ed on that bear for lunch!<br>A shopper held spaghetti leaving a shop’s door,<br>But carried an octopus after just one step more!<br>A firefly and bee closed eyes for a kiss,<br>When Pat turned both to fairies they squealed, “What the he(ck)’s this!”<br>Pat played with magic for a fun-filled hour,<br>Then got hungry—and then the peaco(ck) lost its power.<br>When Pat wished for chocolate—Pat couldn’t have known— <br>The peaco(ck) turned to an un-magic ice cream cone.",
@@ -858,7 +849,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "1st": "black"
         },
         "rhyme": "Tickety-tock, (cl)imb up the (cl)ock,<br>Don\u2019t let the time get dirty.<br>Tickety-tock we (cl)eaned the (cl)ock,<br>Now one o\u2019(cl)ock looks pretty.<br>",
@@ -896,7 +886,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "1st": "black"
         },
         "rhyme": "There was a (cr)ooked man;<br>And he walked a (cr)ooked mile;<br>He found a (cr)ooked sixpence;<br>Against a (cr)ooked tile;<br>He bought a (cr)ooked cat;<br>Which caught a (cr)ooked mouse;<br>And they all lived together;<br>In a little (cr)ooked house.",
@@ -934,7 +923,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "Cock a (d)oodle (d)o!<br>My mother’s lost her shoe;<br>My father’s lost his fiddle-stick,<br>And (d)oesn’t know what to do.<br><br>Cock a (d)oodle (d)o!<br>What is my mother to (d)o?<br>Till Father finds his fiddle-stick<br>She’ll (d)ance without her shoe!",
@@ -972,7 +960,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "Peter, Peter, pumpkin eater,<br>Ha(d) a wife and couldn’t keep her;<br>He put her in a pumpkin shell,<br>And then he kept her very well.<br><br>Peter, Peter, pumpkin eater,<br>Ha(d) another, and didn’t love her;<br>Peter learne(d) to read and spell,<br>And then he love(d) her very well.",
@@ -1010,7 +997,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "1st": "black"
         },
         "rhyme": "Three chil(dr)en sliding on the ice;<br>All on a winter's day;<br>As it fell out; they all fell in;<br>The rest they ran away.",
@@ -1480,7 +1466,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "Old King Cole, was a merry old soul,<br>And a merry old soul was he,<br>He called (f)or his pipe, and he called (f)or his bowl,<br>And he called (f)or his (f)iddlers three.<br>Every (f)iddler, he had a (f)ine (f)iddle,<br>And a very (f)ine (f)iddle had he.<br>Twee tweedle dee, tweedle dee, went the (f)iddlers three.<br>Oh, there’s none so rare,<br>As can compare<br>With King Cole<br>And his (f)iddlers three!",
@@ -1518,7 +1503,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "Turtle took a little walk,<br>Hoping no one would bother him.<br>When a dog said “Woo(f) woo(f) woo(f)” to talk,<br>Turtle acted dea(f) under a limb,<br>He nearly got stolen by a thie(f),<br>But bit his thumb hard!  When a re(f)<br>Reached down he ducked under a lea(f),<br>And finally got free outrunning a che(f).",
@@ -1556,7 +1540,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "1st": "black"
         },
         "rhyme": "A hungry (fl)y (fl)ew in a (fl)ower,<br>Then dreamed of sweets for half an hour.<br>A (fl)ea (fl)oating by yelled, \u201cStay awake!<br>I just baked us a snow(fl)ake cake!\u201d<br>",
@@ -1594,7 +1577,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "1st": "black"
         },
         "rhyme": "On (Fr)iday night, <br>My (fr)iend and I<br>Had (fr)ozen (fr)ench-(fr)y soup<br>And (fr)og leg pie.<br><br>(Fr)ied ice cream<br>And fish heads in a cup,<br>I hope some medicine <br>Will help me throw up.<br>",
@@ -1632,7 +1614,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "2nd": "black"
         },
         "rhyme": "My gi(ft)’s to tell the truth, almost, though<br>I never speak, yet tell the truth one way,<br>Reversing it, like some backward photo.<br>Right for me’s le(ft). I’m hard, seem so(ft), play<br>Only my way. Break me for seven years of woe.<br>Read me for faceli(ft)s, just li(ft) me. You may.",
@@ -1670,7 +1651,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black",
             "2nd": "black",
             "3rd": "black"
@@ -1710,7 +1690,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black",
             "2nd": "black",
             "3rd": "black"
@@ -1750,7 +1729,6 @@
         ],
         "color": {
             "all": "green",
-            "vowel": "green",
             "2nd": "green",
             "3rd": "green",
             "consonant": "green"
@@ -1788,7 +1766,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "3rd": "black"
         },
         "rhyme": "He looked kind of rou(gh).<br>And tried to act tou(gh),<br>To frighten the ballerina.<br><br>He was quite impolite<br>When he dared her to fi(gh)t,<br>And laughed like a goofy hyena.<br><br>Her quick fists made him cou(gh),<br>He splashed in a pig trou(gh),<br>Then she danced from the boxing arena.",
@@ -1826,7 +1803,6 @@
         ],
         "color": {
             "all": "green",
-            "vowel": "black",
             "2nd": "black",
             "3rd": "black"
         },
@@ -1865,7 +1841,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "1st": "black"
         },
         "rhyme": "A (gl)ass of juice<br>And a (gl)azed donut,<br>Put (gl)ad in the heart<br>And a (gl)ow in the gut.",
@@ -1903,7 +1878,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "3rd": "black"
         },
         "rhyme": "A screen can keep out tiny (gn)ats.<br>A (gn)ome’s a kind of elf.<br>A soverei(gn)’s a king or queen,<br>— In dreamland like yourself.<br><br>A beaver (gn)aws on bark for food,<br>A (gn)u’s a wildebeest.<br>A silent g is (gn)arly, dude!<br>— Or I think so at least.",
@@ -1941,7 +1915,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "1st": "black"
         },
         "rhyme": "(Gr)ouchy (gr)emlin\u2019s (gr)umpy tummy (gr)owled,<br>\u201cI\u2019m hun(gr)y, feed me, feed me,\u201d it howled.<br>When a (gr)inning (gr)izzly (gr)abbed it tight,<br>(Gr)umpy tummy squeeeezed out of sight.<br>",
@@ -1979,7 +1952,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "(H)umpty Dumpty sat on a wall;<br>(H)umpty Dumpty (h)ad a great fall;<br>All the king's (h)orses and all the king's men;<br>Couldn't put (H)umpty Dumpty together again.",
@@ -2560,7 +2532,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "Here am I; Little (j)umping (J)oan;<br>When nobody's with me;<br>I'm always alone.",
@@ -2598,7 +2569,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "(K)itty-Cat sits by the fire;<br>Napping without a care.<br>In walks the little dog;<br>Says: “(K)itty, are you there?<br>How do you do, Mistress (K)itty?<br>Mistress (K)itty, how do you do?”<br>“I thank you (k)indly, little dog,<br>I do as well as you!”",
@@ -2636,7 +2606,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "Little Bo-Peep has lost her sheep,<br>And can’t tell where to find them;<br>Let them alone, and they’ll come home,<br>And bring their tails behind them.<br><br>Little Bo-Peep fell fast asleep,<br>And dreamt she heard them bleating;<br>And when she awo(k)e, she found it a jo(k)e,<br>For still they were all fleeting.<br><br>Then up she too(k) her little croo(k),<br>Determined for to find them;<br>She found them indeed, but it made her heart bleed,<br>For they’d left all their tails behind them.",
@@ -2674,7 +2643,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "2nd": "black"
         },
         "rhyme": "Do you (kn)ow just what I am?<br>I help you with your bread and jam.<br>My thin back could (kn)ock your (kn)uckles.<br>I’m made of stuff like (kn)obs and buckles.<br>I am long and light and lean.<br>You should always keep me clean.<br>Kept in drawers by every housewife.<br>You (kn)ow me well.  I’m a —<br>",
@@ -2712,7 +2680,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "I (l)ove you well, my (l)ittle brother,<br>And you are fond of me;<br>(L)et us be kind to one another,<br>As brothers ought to be.<br>You shall (l)earn to play with me,<br>And (l)earn to use my toys;<br>And then I think that we shall be <br>Two happy little boys.",
@@ -2750,7 +2717,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "Jack and Ji(ll) went up the hi(ll),<br>To fetch a pai(l) of water.<br>Jack fe(ll) down, and broke his crown,<br>And Ji(ll) came tumbling after.",
@@ -2788,7 +2754,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "2nd": "black",
             "VC": "black"
         },
@@ -2869,7 +2834,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "2nd": "black"
         },
         "rhyme": "An e(lf) and a ca(lf)<br>Went out to play go(lf),<br>But had only played ha(lf),<br>When the ca(lf) spied a wo(lf).<br>“Play the rest by yourse(lf),”<br>Said the ca(lf) to the e(lf).<br>“No way!” yelled the e(lf),<br>“Play my ha(lf) by yourse(lf)!”",
@@ -2907,7 +2871,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "2nd": "black"
         },
         "rhyme": "So close, you can’t leave me. I’m a copycat.<br>Ha(lt) and I stop, go and I will go.<br>At sunrise and sunset like spi(lt) dark, I grow.<br>Dark me(lt)s me, though I flee sun like a bat.<br>Order me away, I revo(lt). No, that<br>Won’t do, child or adu(lt), I’ll follow.",
@@ -2945,7 +2908,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "When good King Arthur ruled his land<br>He was a goodly king;<br>He stole three sacks of barley (m)eal<br>To (m)ake a bag-pudding.<br>A bag-pudding the king did (m)ake,<br>And stuffed it well with plums,<br>And in it put great lumps of fat<br>As big as my two thumbs.<br>The king and queen ate less than half,<br>Not (m)uch (m)ore, though they tried,<br>And what they could not eat that night<br>The queen next (m)orning fried.",
@@ -2983,7 +2945,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "There was an old woman got tossed in a blanket<br>Seventeen times as high as the moon;<br>But where she was going no person could tell,<br>For under her ar(m) she carried a broo(m).<br><br>“Old woman, old woman, old woman,” said I,<br>“Where in the world are you flying so high?”<br>“To sweep the cobwebs fro(m) the sky,<br>And I’ll be with you by and by.",
@@ -3021,7 +2982,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "3rd": "black"
         },
         "rhyme": "I have many pointy teeth<br>But never eat a cru(mb),<br>And never ever bite or chew.<br>To hunger I am nu(mb).<br><br>With paper I make music—<br>Though people think it’s du(mb).<br>When la(mb)s grow up I groom their fleece,<br>Folks use me with their thu(mb).<br><br>One kind of me a rooster wears<br>Cap-like upon his dome.<br>Some fashionable folks do too.<br>You know me. I’m a — ",
@@ -3059,7 +3019,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "2nd": "black"
         },
         "rhyme": "The big cha(mp) chi(mp) grinned to show his di(mp)le.<br>The little chi(mp) just watched.<br><br>The lu(mp)y cha(mp) chi(mp) frowned and popped a pi(mp)le.<br>The little chimp he watched.<br><br>The plu(mp) cha(mp) chi(mp) ju(mp)ed up and strutted.<br>The little chi(mp) only watched.<br><br>The clumsy cha(mp) chi(mp) hit a stu(mp) and stumbled.<br>The little chi(mp) kept watching.<br><br>The big cha(mp) chi(mp) bu(mp)ed his ru(mp) and got du(mp)ed.<br>The little chi(mp) si(mp)ly watched.<br><br>The gru(mp)y cha(mp) chi(mp) sta(mp)ed, sto(mp)ed, and li(mp)ed off.<br>The little chi(mp) grinned.",
@@ -3097,7 +3056,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "“Croak,” said the toad, “I’m hungry I think,<br>To-day I’ve had (n)othing to eat or to drink;<br>I’ll crawl to a garden and jump through the pales,<br>And there I’ll dine (n)icely on slugs and on snails.”<br><br>“Ho, ho!” quoth the frog, “is that what you mean?<br>Then I’ll hop away to the (n)ext meadow stream,<br>There I will drink, and eat worms and slugs too,<br>And then I shall have a good dinner like you.”",
@@ -3135,7 +3093,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "Sing a song of sixpence, a pocket full of rye,<br>Four and twenty blackbirds baked i(n) a pie.<br>When the pie was opened the birds bega(n) to sing,<br>Now wasn’t this a dainty dish to set before the king?<br>The king was i(n) the parlor counting out his money;<br>The queen was i(n) the kitche(n) eating bread and honey;<br>The maid was i(n) the garde(n) hanging out the clothes,<br>And along came a blackbird and nipped off her nose.",
@@ -3173,7 +3130,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "2nd": "black"
         },
         "rhyme": "Once on a prete(nd) time didn’t you tell me<br>You once walked your dog to the park to run free,<br>Met an elf with a pet skunk come to play.<br>The pets scuffled a(nd) tussled every which way—<br>The dog chased the skunk rou(nd) a(nd) arou(nd),<br>The swings, towers, trash cans rou(nd) the playgrou(nd),<br>Under a see-saw the skunk tried to hide,<br>Then climbed up a(nd) tumbled back down the slide,<br>Upset a kid’s play pool, shook water a(nd) dripped<br>A slippery mud puddle, a(nd) the dog tripped<br>The clumsy queen who flopped a(nd) wallowed<br>A(nd) knocked down some poor doctor who followed<br>Trying to help, but flip-flopped down too,<br>Then the elf a(nd) the queen both muddy with goo,<br>Dragged down with the skunk, all three sunk<br>Down, in the oozy, slop-sloshery muck gunk.<br>How awfully— <i>fun</i> to sit sunk to the chin!<br>The dog a(nd) you grinned—a(nd) just <i>had</i> to jump in.<br>Grumpy grownups scrubbed clean the kids’ odds a(nd) e(nd)s,<br>But everyone made lots of new mud-loving frie(nd)s!",
@@ -3211,7 +3167,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "1st": "black"
         },
         "rhyme": "Si(ng) a so(ng) of sixpence, a pocket full of rye,<br>Four and twenty blackbirds baked in a pie.<br>When the pie was opened the birds began to si(ng),<br>Now wasn\u2019t this a dainty dish to set before the ki(ng)?<br><br>The ki(ng) was in the parlor counti(ng) out his money;<br>The queen was in the kitchen eati(ng) bread and honey;<br>The maid was in the garden ha(ng)i(ng) out the clothes,<br>And alo(ng) came a blackbird and nipped off her nose.<br>",
@@ -3249,7 +3204,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "2nd": "black"
         },
         "rhyme": "There was an old woman; and what do you thi(nk)?<br>She lived upon nothing but foods and dri(nk);<br>Food and dri(nk) made up most of her diet;<br>And yet this old woman could never be quiet.",
@@ -3286,8 +3240,7 @@
             "equipment"
         ],
         "color": {
-            "all": "black",
-            "vowel": "black"
+            "all": "black"
         },
         "rhyme": "The little kid got tired of bricks, ceme(nt),<br>hydra(nt)s, traffic wherever he we(nt),<br>Mom ra(nt)ing, ‘Don’t have an accide(nt)!’<br>He mea(nt) to camp awhile and hu(nt), we(nt)<br>Out back, picked a spot among the pla(nt)s,<br>Set up his homemade te(nt). His pa(nt)s<br>Felt itchy, but he saw no a(nt)s,<br>But suddenly a sideways glance<br>At <i>something</i> made him start to think<br>Bad thoughts, then <i>something</i> seemed to slink<br>Behind his te(nt).  He heard some weird clink,<br>Then  smelled some rotten skunky stink,<br>And seemed to hear a growly gru(nt).<br>Decided not to face or confro(nt)<br>Some beast in the back yard or the fro(nt),<br>So raced inside to conduct his hu(nt).",
         "category": ["CB-end", "C", "CB"],
@@ -3998,7 +3951,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "The sow came in with the saddle,<br>The little (p)ig rocked the cradle,<br>The dish jumped up on the table<br>To see the (p)ot swallow the ladle.<br>The spit that stood behind the door<br>Threw the (p)udding-stick on the floor.<br>“Gracious!” said the gridiron,<br>“Can’t you agree?<br>I’m the boss (p)oliceman,<br>Bring them to me!”",
@@ -4036,7 +3988,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "Handy Pandy, Jack-a-Dandy,<br>Loves cu(p) cakes and sugar-candy;<br>He bought some at a grocer’s sho(p),<br>And out he came, ho(p), ho(p), ho(p).",
@@ -4074,7 +4025,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "3rd": "black"
         },
         "rhyme": "(Ph)oebe helped (Ph)il work on (ph)onics,<br>Told him (ph) is just a (ph)oneme,<br>‘Why not just write F? It’s tricks<br>Like that that make me want to scream!”<br><br>(Ph)il screamed. (Ph)oebe (ph)oned a doctor<br>[A (ph)ysician]. “Might be a (ph)ase,”<br>The doctor said, then he shocked her.<br>“Or maybe worse, do his eyes glaze<br><br>When he sees P H on a page?”<br>“Bright red!” she said. “Send a (ph)oto,<br>To my (ph)one,” he said. “Might be a stage,<br>He’s (ph)asing through. Let’s hope so.”<br><br>She did. The doctor sighed, then said,<br>“It’s a (ph)obia. Sad but true:<br>‘(Ph)onics (Ph)enome (Ph)obia, a dread<br>Disease I have. Most smart people do.”",
@@ -4115,7 +4065,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "3rd": "black"
         },
         "rhyme": "If you’ll end “nym(ph)” with a digra(ph),<br>Then write me a paragra(ph),<br>Sign it with your autogra(ph),<br>Record it for my phonogra(ph),<br>And selfie yourself a photogra(ph),<br>We’ll make that your epita(ph).",
@@ -4153,7 +4102,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "1st": "black"
         },
         "rhyme": "No kid likes peas piled on (pl)ates,<br>But (pl)aced in straws they\u2019re (pl)enty fun.<br>Blow so they shoot past people\u2019s faces<br>(Pl)ay, (pl)ay, (pl)ay, then run, run, run!<br>",
@@ -4191,7 +4139,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "1st": "black"
         },
         "rhyme": "As I was going up (Pr)imrose Hill;<br>(Pr)imrose Hill was dirty;<br>There I met a (pr)etty girl;<br>And she gave me a curtsey.<br><br>Little girl; (pr)etty girl;<br>Blessings be upon you;<br>If I had half-a-dollar a day;<br>I'd spend it all on you.",
@@ -4229,7 +4176,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "(Q)ueen Croc napped on her (q)uilt,<br>Mama duck (q)uacked, \u201cBe (q)uiet!\u201d<br>\u201cWhat?\u201d (Q)uacked the duckling.<br>\u201c(Q)uit!\u201d Mama (q)uacked, \u201cDucks are her diet!\u201d<br>",
@@ -4267,7 +4213,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "(R)ing around the (r)oses,<br>A pocketful of posies,<br>Ashes, Ashes, we all fall down!<br><br>(R)aising up with daisies,<br>(R)ising up with tulips,<br>Popping up with poppies,<br>We all pop up!",
@@ -4305,7 +4250,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "A grizzly bea(r) might roa(r) a roa(rrrrrr),<br>A pola(r) bear might growl b(rrrrrr).<br>A chimp might blubbe(r) a bbbbbbbb<br>My grandpa su(r)e would sno(r)e a sno(rrrrrr)e.",
@@ -4343,7 +4287,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "Little Robin Redbreast (s)at upon a tree,<br>Up went the Kitty-Cat, and down went he,<br>Down came Kitty-Cat, away Robin ran;<br>(S)ays little Robin Redbreast: “Catch me if you can!”<br><br>Little Robin Redbreast jumped upon a (s)pade,<br>Kitty-Cat jumped after him, and then he was afraid.<br>Little Robin chirped and (s)ang, and what did Kitty say?<br>Kitty-Cat (s)aid: “Meow, meow, meow,” and Robin flew away.",
@@ -4381,7 +4324,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "Cat(s) like R, they say purrrrr.<br>Dogs do too, but they say grrrr,<br>Snake(s) like S, so they say hi(sss)<br>Bees like Zs, so they go buzzzz.",
@@ -4419,7 +4361,6 @@
         ],
         "color": {
             "all": "green",
-            "vowel": "green",
             "1st": "green",
             "2nd": "green",
             "3rd": "green",
@@ -4460,7 +4401,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "1st": "black"
         },
         "rhyme": "The (sc)uba man yelled “(sc)at!”<br>And glowered at (Sc)aredy Cat,<br>She hid under a towel<br>While his face made a (sc)owl.<br>When (sc)uba man made a grab<br>She (sc)ratched his (sc)alp’s (sc)ab.",
@@ -4498,7 +4438,6 @@
         ],
         "color": {
             "all": "green",
-            "vowel": "black",
             "3rd": "black"
         },
         "rhyme": "An evening (sc)ene, the crescent moon,<br>(Sc)enting the misty dew,<br>Bright stars, the crickets’ chirping tune –<br>Each night the world seems new.<br><br>Some say the moon rises at night,<br>Others say it a(sc)ends,<br>Some say the moon sets when night ends,<br>Others say it de(sc)ends.<br><br>A(sc)end means rise, de(sc)end means set,<br>Either’s okay to say.<br>(Sc)ientists say people forget.",
@@ -4536,7 +4475,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "2nd": "black"
         },
         "rhyme": "(Scr)aper asked (Scr)ewdriver,<br>“What do you do?”<br>(Scr)ewdriver said, “I (scr)ew (scr)ews.<br>What do you do?”<br>“I (scr)atch off bumpy (scr)ew heads,<br>(scr)ape rough surfaces clean.”<br>“(Scr)am!” (scr)eamed the (scr)ew heads.<br>“(Scr)raping (scr)ew heads is mean!”",
@@ -4574,7 +4512,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "1st": "black"
         },
         "rhyme": "There was an old woman who lived in a (sh)oe;<br>(Sh)e had so many children (sh)e didn't know what to do.<br>(Sh)e gave them some broth without any bread;<br>Then whipped them all soundly and put them to bed.",
@@ -4612,7 +4549,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "1st": "black"
         },
         "rhyme": "Driving on an ocean drawbridge<br>She began to wi(sh) a wi(sh)<br>She’d find fre(sh) tuna in her fridge,<br>Then--sma(sh) ba(sh) ma(sh)--this fi(sh)<br><br>Slammed hard into her face!<br>A flying fi(sh)! Bright mind-lights went fla(sh),<br>Blinding her–she braked to stop someplace,<br>Then slap bang went cra(sh)!<br><br>A cop showed up, she blushed a blu(sh),<br>Sobbed her story. He said,<br>“Sounds fishy!” Smiled, seemed in no ru(sh).<br>But, once her leg healed, they wed.",
@@ -4650,7 +4586,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "1st": "black"
         },
         "rhyme": "If you (sk)ip in a (sk)irt<br>You better be (sk)illful,<br>(Sk)inning your knee can be<br>Terribly painful.<br>If you (sk)ate in long pants<br>Just be extra careful,<br>Tuck in your cuffs– <br>A (sk)id could be hurtful.<br>Be extra resourceful<br>And you’ll be successful!",
@@ -4688,7 +4623,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "1st": "black"
         },
         "rhyme": "Could that monstrous lizard the basili(sk)<br>Really kill with just one glance? I wouldn’t ri(sk)<br>Trying to find out. Why, evenings at du(sk),<br>Does the sky turn pink? An elephant’s tu(sk),<br>How sharp is it?  Each a first rate question!<br>Not like those spelling, science, subtraction<br>Tests, all those un-fun questions teachers ask<br>That make you wish you had a magic ma(sk)",
@@ -4726,7 +4660,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "1st": "black"
         },
         "rhyme": "The (sl)eepy (sl)ob started to (sl)ouch,<br>Then (sl)ipped and back (sl)id on the couch.<br>He (sl)urped (sl)obber in his (sl)umber,<br>So I conked him with lumber,<br>But that (sl)acker didn’t even squeal ‘Ouch!",
@@ -4764,7 +4697,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "1st": "black"
         },
         "rhyme": "The (sm)all chimp girl (sm)elled nice,<br>And (sm)iled at chimp boy once, twice.<br>On her (sm)ooth cheek he (sm)acked<br>A (sm)oochy kiss.  She whacked his back right back!",
@@ -4802,7 +4734,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "1st": "black"
         },
         "rhyme": "(Sn)owbird tried to (sn)eak<br>A chocolate (sn)owball (sn)ack,<br>But (sn)ow(sn)ail squeezed his beak<br>And stole the (sn)ack right back.",
@@ -4840,7 +4771,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "1st": "black"
         },
         "rhyme": "I (sp)ied a dirty blue jay<br>On a '(sp)ecially hot (sp)ring day.<br>He (sp)lished and (sp)lashed in a birdbath,<br>Then (sp)eedily flew away.",
@@ -4878,7 +4808,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "2nd": "black"
         },
         "rhyme": "Squirrel fell (spl)at on a (spl)it stick,<br>Quick (spl)uttered out, “Oh no!<br>Then (spl)ashed down in a birdbath<br>(spl)attered water to and fro,<br>Howled “A (spl)inter’s in my forepaw!”<br>And di(spl)ayed his sore, sore toe.",
@@ -4916,7 +4845,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "2nd": "black"
         },
         "rhyme": "A (spr)y old (spr)inter raced ahead<br>But got stung by a bee,<br>Slipped on some slippery (spr)inkler (spr)ay,<br>Crashed through a rough (spr)uce tree,<br>Fell (spr)awling down and loudly howled,<br>“I won! — but (spr)ained my knee!”",
@@ -4954,7 +4882,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "1st": "black"
         },
         "rhyme": "Robin and Richard<br>Were two lazy men;<br>They (st)ayed in bed<br>Till the clock (st)ruck ten.<br>Then up jumps Robin<br>And looks at the sky:<br>\u201cOh, brother Richard,<br>The sun\u2019s very high.<br>You walk fir(st)<br>With the bottle and bag,<br>And I\u2019ll ride later<br>On the gray horse nag.\u201d<br>",
@@ -4992,7 +4919,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "1st": "black"
         },
         "rhyme": "Once on a pretend time didn’t you tell me,<br>You ho(st)ed a happy pet-pair party?<br>You  decided on goodies to buy at the store, <br>With your favorite pet dog made a gue(st) li(st) of four,<br>Invited a cyclops with a pet pig to attend,<br>And a fairy paired with a pet parrot be(st) friend.<br>You spread a bright blanket with places for six,<br>And bowls for dog food, pig food, and a mix<br>Of treats for the picky parrot.  For the re(st)<br>Cold milk, cake on a platter, and the be(st)<br>Ice cream—chocolate, vanilla, strawberry—<br>Topped with sprinkles, nuts, a bright red cherry,<br>And butter-scotch syrup! Gosh it’s yummy,<br>Yum yummy in a tum, tum, tummy!<br>The dog, and pig, and parrot played so well,<br>And everyone loved it, so I heard tell. <br>The cyclops kept bragging that you were so clever, <br>And the fairy declared it the (best) party ever!",
@@ -5030,7 +4956,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "2nd": "black"
         },
         "rhyme": "(Str)eet sweeper swept the (str)eet,<br>Cleaned (str)aw, (str)ing, like a dream,<br>Then gobbled down his favorite treat,<br>Sweet (str)awberry ice cream.",
@@ -5068,7 +4993,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "1st": "black"
         },
         "rhyme": "(Sw)an (sw)am over the sea,<br>(Sw)im (sw)an (sw)im!<br>(Sw)an (sw)am back again,<br>Well (sw)um (sw)an!",
@@ -5106,7 +5030,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "(T)homas A’(T)attamus took two (T)’s<br>(T)o (t)ie (t)wo (t)ubs (t)o (t)wo (t)all trees,<br>(T)o frighten the (t)errible (T)homas A’(T)attamus!<br>(T)ell me how many (T)’s there are in all that?",
@@ -5144,7 +5067,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "Lucy Locke(t) los(t) her pocke(t),<br>Kitty Fisher found I(t);<br>There was no(t) a penny in I(t),<br>But a ribbon round i(t).",
@@ -5182,7 +5104,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "3rd": "black"
         },
         "rhyme": "They grow well in a garden pa(tch),<br>Taste yummy in a pie,<br>Broth, toast, and cheesey flavors ma(tch)<br>In soup— or slice and fry.<br>Their layers you can unatt(ach)<br>And see through if you try.<br>They never make you i(tch) or scra(tch)<br>But they can make you cry.<br>Grownups like-em more than young-uns,<br>These are—",
@@ -5294,7 +5215,6 @@
         ],
         "color": {
             "all": "green",
-            "vowel": "black",
             "3rd": "green"
         },
         "rhyme": "I’d like to create a fantabulous zoo,<br>And (th)e bestest guest I’d invite (th)ere is you.<br>(th)is beast with a dog head and ant behind,<br>And a fly belly—is three in one combined.<br>(th)at beast with a hen middle, and a cat head,<br>And a bat for a tail-end, just <i>loves</i> gingerbread!<br>One with an ant head, a tubby piggy tummy,<br>And a hen backside, thinks your armpit is yummy.<br>One creature has an ant middle, and a wild piggy back,<br>(th)e face of a hen–Don’t let it attack!<br>One’s a fly at (th)e head and elk at (th)e belly,<br>And fox at (th)e tail end – it really poops smelly!<br>And one with a fox middle, a bug at (th)e rear,<br>Has (th)e head of some bat – (th)at I’d <i>never</i> get near.<br>Last, one with two heads, elk one front,<br>A bat middle, and a ram other front,<br>Hurts both my ears when it roars a double grunt!<br>Don’t you love (th)ese strange creatures in my weird zoo?<br>Wouldn’t you like me to put you (th)ere too?",
@@ -5332,7 +5252,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "1st": "black"
         },
         "rhyme": "Mis(tr)ess Mary; quite con(tr)ary;<br>How does your garden grow?<br>With silver bells and cockle shells;<br>And pretty maids all in a row.",
@@ -5608,7 +5527,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "When (V)ic dropped his (v)anilla cone,<br>In (v)ery weird (v)oice he moaned a groan.<br>Bigfoot offered some syrup for a trial.<br>“Yuck!” (V)ic roared.  “(V)inegar’s (v)ile!”<br>Giant Cyclops grinned big, said, “No!<br>Try that (v)ast upside down cone: (v)olcano!”",
@@ -5646,7 +5564,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "(W)ee (W)illie (W)inkie runs through the town;<br>Upstairs and downstairs; in his nightgown;<br>Tapping at the (w)indo(w); crying at the lock;<br>Are the children all in bed? It's now eight o'clock?",
@@ -5684,7 +5601,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "3rd": "black"
         },
         "rhyme": "Bill claimed a bully (wh)acked and (wh)opped his rib.<br>Mom said, \u201c(Wh)at?  (Wh)o?  (Wh)en?  (Wh)ere?\u201d<br>Kim said, \u201cThat\u2019s a (wh)opper, a big fat fib.\u201d<br>Bill said, \u201c(Wh)atever!\u201d -- (wh)ich means: I don\u2019t care.<br>",
@@ -5722,7 +5638,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "2nd": "black"
         },
         "rhyme": "A thing that you can give, but must keep<br>Perfectly, or lose it. Don’t dream it’s cheap.<br>Right and (wr)ong in this are precious. (Wr)ite<br>Or speak it truthfully with all your might.<br>Make it with care, or (wr)eck a friendship.<br>If you (wr)iggle out—it’s a guilt trip.<br>So (wr)ap your mind around it: Be true.<br>Each first letter in this rhyme is a clue.",
@@ -5760,7 +5675,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "I hate e(x)ams at school, <i>can’t sit<br>Still</i>! Look for some e(x)cuse to e(x)it.<br>Staying quiet’s e(x)tremely tough!<br>Yes, school’s ok to learn some stuff,<br>But not fireworks! Why things e(x)plode!<br>I’d e(x)ert myself if teachers showed<br>How to make firecrackers louder,<br>Could study fuses, stuffing, powder.<br>I e(x)pect I’d study till it hurt<br>To be a big e(x)plosion e(x)pert!",
@@ -5798,7 +5712,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "Dum diddle dee doh,<br>O(x) wore a tuxedo,<br>The dancer boxed with T-Re(x).<br>Jack popped from a mailbo(x),<br>First swung his hand a(x),<br>Next tattled that red fo(x)<br>Had pooped in the sandbo(x)—<br>Then all of them taxied away.",
@@ -5836,7 +5749,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "Baa, baa, black sheep, have (y)ou any wool?<br>(Y)es sir, (y)es sir, three bags full.<br>One for my master, one for my dame,<br>And one for the little boy,<br>Who lives down the lane.",
@@ -5994,7 +5906,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "Buzzing hornets always scare me,<br>When they (z)igzag round my head,<br>(Z)ipping, (z)apping, like some carefree<br>(Z)any clowns!  I’ll (z)oom to bed,<br>Bury myself under the covers,<br>Have (z)ero patience, want them dead!<br>Wise up all you hornet lovers–<br>Switch to spiders instead.",
@@ -6032,7 +5943,6 @@
         ],
         "color": {
             "all": "black",
-            "vowel": "black",
             "K": "black"
         },
         "rhyme": "My sister’s great on every qui(z);<br>She loves jewelry and glit(z).<br>My brother’s a real football whi(z),<br>Loves tackling passers on a blit(z).<br>I’m class clown, love acting nuts,<br>Stumble bumbling like some dit(z),<br>Joking, acting like a klut(z),<br>Making gross sounds with my armpits.<br>Stuffing broccoli inside donuts,<br>Love making kids laugh with my wits.",
