@@ -1,3 +1,6 @@
+#background {
+    overflow: visible !important;
+}
 #main-body {
     width: 169.7vh;
     height: 0vh;
@@ -18,12 +21,81 @@
 .cardList {
     display: flex;
     height: 97vh;
+    width: 165vh;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    overflow: scroll;
+    overflow-y: auto;
 }
 
+#I-IND-long img {
+    transform: translate(24.5vh, -20vh); 
+}
+#I-IND-short img {
+    width: 45%;
+    transform: translate(26vh, -19vh);
+}
+#I-ION img {
+    transform: translate(25vh, -20vh);
+}
+#I-ILD img {
+    transform: translate(23.1vh, -20vh);
+}
+#N-NG img {
+    transform: translate(23vh, -20vh);
+}
+#O-ew img {
+    transform: translate(23vh, -20vh);
+}
+#P-PH-begin img {
+    transform: translate(23.5vh, -20vh);
+}
+#S-SCR img {
+    transform: translate(25vh, -20vh);
+}
+#S-SM img {
+    transform: translate(23vh, -20vh);
+}
+#S-SPL img {
+    transform: translate(24vh, -20vh);
+}
+#S-SPR img {
+    transform: translate(25vh, -20vh);
+}
+#S-SW img {
+    transform: translate(23vh, -20vh);
+}
+#T-TCH-silent img {
+    transform: translate(26vh, -20vh);
+}
+#W-WH img {
+    transform: translate(24vh, -20vh);
+}
+#W-WR-silent img {
+    transform: translate(23.5vh, -20vh);
+}
+#I-IGH img {
+    transform: translate(25vh, -20vh);
+}
+#A-AW img {
+    transform: translate(24vh, -20vh);
+}
+#O-ohw img {
+    transform: translate(24vh, -20vh);
+}
+#T-TION img {
+    transform: translate(26vh, -20vh);
+}
+#T-TION p {
+    transform: translateX(-4.5vh);
+}
+#O-OST-short img {
+    transform: translate(25vh, -20vh);
+}
+#O-OST-long img {
+    transform: translate(27vh,-17vh);
+    width: 20vh;
+}
 /* Column Gap */
 .cardList > * {
     box-sizing: border-box;
@@ -31,10 +103,10 @@
 
 /* Item sizing */
 .cardListItem {
-    flex: 0 1 calc(33.3% - 6.5vh);
+    flex: 0 1 calc(33.3% - 4.7vh);
     height: 38vh;
     margin-top: 5vh;
-    margin-right: 32px;
+    margin-right: 4.7vh;
     border-radius: 2.8vh;
     cursor: pointer;
     background-color: #FFFFFF;
@@ -59,14 +131,51 @@ p {
 .green {
     color: #73EC12;
 }
-.purple {
+.pink {
     color: #EB5AD1;
 }
-.orange {
-    color: #EB5AD1;
+.red {
+    color: #ff0000;
+}
+.purple {
+    color: mediumpurple;
 }
 
 .word-image {
     width: 50%;
     transform: translate(22vh, -20vh);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 9.5vh;
+    background-color: #e6f6f7;
+    box-shadow: 0vh 0vh .3vh rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+    background-color: #60a0bd;
+    border: 0.5vh solid #fff;
+    border-radius: 1.5vh;
+    box-shadow: 0vh 0vh .3vh rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-button {
+    background-size: 100%;
+    border: 0.5vh solid #fff;
+    border-radius: 1.5vh;
+    height: 9.5vh;
+    background-color: #60a0bd;
+    box-shadow: 0vh 0vh .3vh rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-button:decrement {
+    background-image: url('../../../assets/img/buttons/scroll-up.png');
+    background-position: center;
+}
+::-webkit-scrollbar-button:increment {
+    background-image: url('../../../assets/img/buttons/scroll-down.png');
+    background-position: center;
+}
+::-webkit-scrollbar-button:increment:start,
+::-webkit-scrollbar-button:decrement:end {
+    display: none;
 }

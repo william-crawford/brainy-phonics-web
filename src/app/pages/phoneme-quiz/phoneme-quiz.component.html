@@ -9,28 +9,28 @@
             </div>
             <div class='column answer-pane'>
                 <div class='row'>
-                    <div [ngClass]="{'animate': ex1Animate}">
+                    <div [ngClass]="{'animate': ex1Animate, 'animateEx1': ex1CorrectAnimate, 'ex-temp2': ex2CorrectAnimate, 'ex-temp3': ex3CorrectAnimate}">
         				<img src={{img1}} class='word-image word-image-top' (click)='onClick1()'>
         				<br>
         			</div>
                 </div>
 
-    			<div class='column' [ngClass]="{'animate': ex2Animate}">
+    			<div class='column' [ngClass]="{'animate': ex2Animate, 'animateEx2': ex2CorrectAnimate, 'ex-temp1': ex1CorrectAnimate, 'ex-temp3': ex3CorrectAnimate}">
     				<img src={{img2}} class='word-image word-image-bottom' (click)='onClick2()'>
     				<br>
                 </div>
 
-    			<div class='column' [ngClass]="{'animate': ex3Animate}">
+    			<div class='column' [ngClass]="{'animate': ex3Animate, 'animateEx3': ex3CorrectAnimate, 'ex-temp1': ex1CorrectAnimate, 'ex-temp2': ex2CorrectAnimate}">
     				<img src={{img3}} class='word-image word-image-bottom' (click)='onClick3()'>
     				<br>
     			</div>
-    		</div>
+            </div>
         </div>
 	</div>
 
     <div id='side-menu'>
         <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>
-        <button mat-icon-button class='icon' id='home' routerLink='/'></button>
+        <button mat-icon-button class='icon' id='home' routerLink='/home'></button>
         <button mat-icon-button class='icon bottom' id='repeat' (click)="playAudio()"></button>
         <button mat-icon-button class='icon bottom' id='bank' routerLink='/coins'></button>
         <button mat-icon-button class='icon bottom' id='puzzle' routerLink='/puzzles'></button>

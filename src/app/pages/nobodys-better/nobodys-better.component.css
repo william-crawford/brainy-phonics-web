@@ -1,0 +1,20 @@
+#main-body {
+    width: 169.7vh;
+    height: 0vh;
+    padding-left: 40vh;
+    position: relative;
+  }
+  
+  #background {
+      background-color: #FFFFFF !important;
+  }
+
+  #nobodys-better {
+    width: 170vh;
+    height: 80vh;
+    margin: 9vh 0vh 0vh -23vh;
+  }
+
+  #repeat {
+      bottom: 0vh;
+  }

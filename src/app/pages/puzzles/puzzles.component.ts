@@ -5,7 +5,6 @@ import {PhonemesService} from '../../services/phonemes.service';
 import {ActivatedRoute, Router} from '@angular/router';
 import {Location} from '@angular/common';
 import {ProgressService} from '../../services/progress.service';
-import {UserDataService} from '../../services/user-data.service';
 
 @Component({
   templateUrl: './puzzles.component.html',
@@ -19,13 +18,13 @@ export class PuzzlesComponent implements OnInit, AfterViewInit {
     private transferLetterService: TransferLetterService,
     private phonemesService: PhonemesService,
     private progressService: ProgressService,
-    private userDataService: UserDataService, 
     private router: Router,
     private activatedRoute: ActivatedRoute,
     private location: Location
 ) {
   // load phonemes data
-  this.data = this.phonemesService.dataLoad();
+  this.data = this.phonemesService.dataLoad('phoneme', '', false);
+  console.log(this.data);
 }
 
   ngOnInit() {
@@ -34,10 +33,10 @@ export class PuzzlesComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit() {
   // set background for completed puzzles
-    for (var i = 0; i < this.userDataService.getPuzzles().length; i++) {
-      document.getElementById(this.userDataService.getPuzzles()[i]).style.background = "url('../../assets/img/puzzle-pieces/puzzle-"+this.userDataService.getPuzzles()[i]+"/puzzle-"+this.userDataService.getPuzzles()[i]+"-composite.png')";
-      document.getElementById(this.userDataService.getPuzzles()[i]).style.backgroundSize = '32vh 42vh';
-      document.getElementById(this.userDataService.getPuzzles()[i]).style.color = 'transparent';
+    for (var i = 0; i < this.progressService.getPuzzles().length; i++) {
+      document.getElementById(this.progressService.getPuzzles()[i]).style.background = "url('../../assets/img/puzzle-pieces/puzzle-"+this.progressService.getPuzzles()[i]+"/puzzle-"+this.progressService.getPuzzles()[i]+"-composite.png')";
+      document.getElementById(this.progressService.getPuzzles()[i]).style.backgroundSize = '30vh 39vh';
+      document.getElementById(this.progressService.getPuzzles()[i]).style.color = 'transparent';
     }
   }
 

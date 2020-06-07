@@ -1,79 +1,101 @@
+#main-body {
+  width: 169.7vh;
+  height: 0vh;
+  padding-left: 40vh;
+  position: relative;
+}
+
+#side-menu {
+  background: url('../../../assets/img/home-side-bar.png') no-repeat scroll 0 0 transparent;
+  background-size: 17.3vh 97vh;
+}
+
 #background {
     background-color: #FFFFFF !important;
 }
 
-#side-menu {
-    background: url('../../../assets/img/home-side-bar.png') no-repeat scroll 0 0 transparent;
-    background-size: 17.3vh 97vh;
-}
-
-#main-body {
-  width: 169.7vh;
-  height: 0vh;
-  padding-left: 30vh;
-  position: relative;
-}
-
-#phonics {
-    background: url('../../../assets/img/buttons/Phonics_logo.png') no-repeat scroll 0 0 transparent;
-    margin-left: 4vh;
-    background-size: 45vh 45vh;
-}
-#alphabet {
-    background: url('../../../assets/img/buttons/alphabet_letters.png') no-repeat scroll 0 0 transparent;
-    background-size: 54vh 39vh;
-}
-#grade {
-  background: url('../../../assets/img/buttons/grade_level.png') no-repeat scroll 0 0 transparent;
-  margin-left: 2.5vh;
-  background-size: 39vh 40vh;
-}
-#secret {
-  background: url('../../../assets/img/buttons/secret_stuff.png') no-repeat scroll 0 0 transparent;
-  background-size: 45vh 35vh;
-}
-
-.phonics_logo {
-    width: 45vh;
-    height: 45vh;
-    display: block;
+/* Phonics Categories */
+#pre-k {
+    background: url('../../../assets/img/buttons/pre_k.png') no-repeat scroll transparent;
+    background-size: 33vh;
+    margin-left: 32vh;
+    width: 33vh;
+    height: 34vh;
     cursor: pointer;
-    border: none;
 }
-.alphabet_logo {
-    width: 54vh;
-    height: 39vh;
-    display: block;
-    cursor: pointer; 
-    border: none;
-    margin-top: 9vh;
+#kindergarten {
+    background: url('../../../assets/img/buttons/kindergarten.png') no-repeat scroll transparent;
+    background-size: 33vh;
+    margin-left: 23vh;
+    width: 33vh;
+    height: 34vh;
+    cursor: pointer;
 }
-.grade_level {
-  width: 39vh;
-  height: 41vh;
-  display: block;
+#first {
+    background: url('../../../assets/img/buttons/1st.png') no-repeat scroll transparent;
+    background-size: 30vh;
+    margin-left: 6vh;
+    width: 30vh;
+    height: 16vh;
+    cursor: pointer;
+}
+#second {
+    background: url('../../../assets/img/buttons/2nd.png') no-repeat scroll transparent;
+    background-size: 30vh;
+    margin-left: 26vh;
+    width: 30vh;
+    height: 16vh;
+    cursor: pointer;
+}
+#third {
+    background: url('../../../assets/img/buttons/3rd.png') no-repeat scroll transparent;
+    background-size: 30vh;
+    margin-left: 25vh;
+    width: 30vh;
+    height: 16vh;
+    cursor: pointer;
+}
+#phonics {
+    background: url('../../../assets/img/buttons/phonics_logo.png') no-repeat scroll transparent;
+    background-size: 42vh;
+    height: 36.5vh;
+    width: 42vh;
+    cursor: pointer;
+}
+#word-structures {
+  background: url('../../../assets/img/buttons/word_structures.png') no-repeat scroll transparent;
+  background-size: 46.5vh;
+  margin-left: 12vh;
+  height: 36.5vh;
+  width: 47vh;
   cursor: pointer;
-  border: none;
 }
-.secret_stuff {
-  width: 45vh;
-  height: 35vh;
-  display: block;
-  cursor: pointer; 
-  border: none;
-  margin-top: 10vh;
+#secret-stuff {
+  background: url('../../../assets/img/buttons/secret_stuff.png') no-repeat scroll transparent;
+  background-size: 36vh;
+  transform: translate(-24vh, -18.3vh);
+  width: 36vh;
+  height: 18vh;
+  cursor: pointer;
+}
+#nobodys-better {
+  background: url('../../../assets/img/buttons/nobodys_better.png') no-repeat scroll transparent;
+  background-size: 36vh;
+  width: 36vh;
+  height: 18vh;
+  transform: translate(12vh, 0.5vh);
+  cursor: pointer;
+}
+.button {
+    margin-top: 2vh;
+    border: none;
 }
 
-.column {
-  float: left;
-  width: 50%;
+.container {
+  margin-left: -18vh;
 }
-.second {
-  margin-top: 5vh;
-}
-
 /* Clear floats after the columns */
-.row:after {
+.column:after {
   content: "";
   display: table;
   clear: both;

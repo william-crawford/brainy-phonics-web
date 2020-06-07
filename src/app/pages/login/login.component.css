@@ -1,0 +1,80 @@
+#main-body {
+    width: 169.7vh;
+    height: 0vh;
+    padding-left: 18vh;
+    position: relative;
+  }
+  
+  #side-menu {
+    background: url('../../../assets/img/home-side-bar.png') no-repeat scroll 0 0 transparent;
+    background-size: 17.3vh 97vh;
+  }
+  
+  #background {
+      background-color: #FFFFFF !important;
+  }
+
+  .container {
+      background: #d5eced;
+      padding: 4.5vh;
+      transform: translate(12vh, 1vh);
+      width: 120vh;
+      height: 85vh;
+      border-radius: 1.5vh;
+      text-align: center;
+  }
+
+  h1 {
+      color: #2c3e50;
+  }
+  .password {
+      margin: 5vh;
+  }
+
+  .placeholder {
+      border: #797979 0.3vh dotted;
+      width: 9vh;
+      height: 9vh;
+      border-radius: 1.1vh;
+      margin: 1.1vh;
+      cursor: pointer;
+      display: inline-block;
+  }
+
+  .selected-image {
+      width: 100%;
+      height: 100%;
+      border-radius: 1.1vh;
+      margin-bottom: 1.4vh;
+      /* border: white 0.3vh solid;; */
+  }
+
+  .image-container {
+      flex-direction: column;
+      display: flex;
+      max-height: 44vh;
+      overflow: scroll;
+      flex-wrap: wrap;
+  }
+
+  .image {
+      height: 18vh;
+      width: 18vh;
+      border-radius: 1.2vh;
+      cursor: pointer;
+      border: transparent 0.5vh solid;
+      margin: 1vh;
+  }
+
+  #submit {
+    background: #4caf82;
+    color: #fff;
+    border: none;
+    border-radius: 1.1vh;
+    padding: 2vh 4vh;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif !important;
+    font-weight: 700;
+    font-size: 3vh;
+    cursor: pointer;
+    margin-top: 1.5vh;
+  }

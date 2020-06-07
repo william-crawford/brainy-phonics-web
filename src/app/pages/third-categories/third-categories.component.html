@@ -1,0 +1,16 @@
+<div id='background'>
+    <div id='main-body'>
+        <div class='column'>
+            <button mat-icon-button class='category_button' id='consonants' (mouseenter)='playAudio($event)' routerLink='/third-consonants-details'></button>
+            <button mat-icon-button class='category_button' id='vowels' (mouseenter)='playAudio($event)' routerLink='/third-vowels-details'></button>
+            <button mat-icon-button class='category_button' id='vowel_consonant_blends' (mouseenter)='playAudio($event)' routerLink='/third-vowelconsonants-details'></button>
+        </div>
+    </div>
+
+    <div id='side-menu'>
+        <button mat-icon-button class='icon' id='back' (click)='goBack()'></button>
+        <button mat-icon-button class='icon' id='home' routerLink='/home'></button>
+        <button mat-icon-button class='icon bottom' id='bank' routerLink='/coins'></button>
+        <button mat-icon-button class='icon bottom' id='puzzle' routerLink='/puzzles'></button>
+    </div>
+</div>

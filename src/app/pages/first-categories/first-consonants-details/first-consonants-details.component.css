@@ -1,0 +1,75 @@
+#main-body {
+    width: 169.7vh;
+    height: 0vh;
+    padding-left: 40vh;
+    position: relative;
+  }
+  
+  #background {
+      background-color: #FFFFFF !important;
+      background: url('../../../../assets/img/backgrounds/first_consonants.png') no-repeat scroll transparent;
+      background-position: 27vh;
+      background-size: 138vh;
+  }
+  
+  /* 1st Categories */
+  #beginning-sounds {
+      background: url('../../../../assets/img/buttons/first_sounds_beginning.png') no-repeat scroll transparent;
+      background-position: center;
+      background-size: 63vh;
+      cursor: pointer;
+      width: 63vh;
+      height: 8vh;
+  }
+  #ending-sounds {
+    background: url('../../../../assets/img/buttons/first_sounds_ending.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 53vh;
+    cursor: pointer;
+    margin-left: 14.2vh;
+    width: 55vh;
+    height: 8vh;
+  }
+  #beginning-blends {
+    background: url('../../../../assets/img/buttons/first_blends_beginning.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 58vh;
+    cursor: pointer;
+    width: 58vh;
+    height: 7vh;
+  }
+  #ending-blends {
+    background: url('../../../../assets/img/buttons/first_blends_ending.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 52vh;
+    cursor: pointer;
+    margin-left: 14.8vh;
+    width: 52vh;
+    height: 7vh;
+  }
+  #beginning-digraphs {
+    background: url('../../../../assets/img/buttons/first_diagraphs_beginning.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 83vh;
+    cursor: pointer;
+    width: 83vh;
+    height: 10vh;
+  }
+  #ending-digraphs {
+    background: url('../../../../assets/img/buttons/first_diagraphs_ending.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 75vh;
+    cursor: pointer;
+    width: 75vh;
+    height: 10vh;
+  }
+
+  .column {
+    padding-top: 10vh;
+  }
+
+  .category_button {
+      margin: 5vh 0vh 0vh 15vh;
+      border: none;
+      display: inherit;
+  }

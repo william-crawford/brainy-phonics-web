@@ -1,17 +1,17 @@
-import {Component, ElementRef, OnDestroy, OnInit} from '@angular/core';
-import {Router} from '@angular/router';
+import {Component, ElementRef, OnDestroy, OnInit, AfterViewInit} from '@angular/core';
 import {delay} from 'q';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import {Location} from '@angular/common';
 import {Phoneme} from '../../types/phoneme';
 import {AlphabetLetter} from '../../types/alphabet-letter';
+import {ActivatedRoute, Router} from '@angular/router';
 
 @Component({
     templateUrl: 'phoneme-learn.component.html',
     styleUrls: ['phoneme-learn.component.css']
 })
 
-export class PhonemeLearnComponent implements OnInit, OnDestroy {
+export class PhonemeLearnComponent implements OnInit, OnDestroy, AfterViewInit {
 
     oneAnimate: boolean;
     twoAnimate: boolean;
@@ -32,6 +32,7 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
     ex3Audio: HTMLAudioElement;
 
     phoneme: Phoneme;
+    capital: string;
 
     img1: string;
     img2: string;
@@ -45,9 +46,11 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
         private transferService: TransferLetterService,
         private elem: ElementRef,
         private router: Router,
+        private activatedRoute: ActivatedRoute,
         private location: Location
     ) {
         this.phoneme = this.transferService.getData() as Phoneme;
+        this.capital = this.activatedRoute.snapshot.queryParamMap.get('capital');
         this.img1 = this.phoneme.word1.image;
         this.img2 = this.phoneme.word2.image;
         this.img3 = this.phoneme.word3.image;
@@ -68,7 +71,11 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
     }
 
     showQuiz() {
-        this.router.navigateByUrl('/phoneme-quiz');
+        if (this.capital) {
+            this.router.navigate(['phoneme-quiz'], {queryParams: {capital: true}});
+        } else {
+            this.router.navigateByUrl('/phoneme-quiz');
+        }
     }
 
     ngOnInit() {
@@ -80,7 +87,7 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
         } else if (this.phoneme.display.length == 3) {
             phonemeList.add('three');
         }
-
+        
         this.phonemeAudio = new Audio();
         this.phonemeAudio.src = this.phoneme.audio;
         this.phonemeAudio.load();
@@ -129,6 +136,14 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy {
         };
 
         this.playAudio();
+    }
+
+    ngAfterViewInit() {
+        if (this.capital) {
+            var temp = <HTMLElement> document.getElementById('main-body');
+            temp.style.textTransform = 'uppercase';
+
+        }
     }
 
     ngOnDestroy() {

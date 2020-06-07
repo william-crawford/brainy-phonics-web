@@ -1,22 +1,10 @@
 import {Component, OnDestroy, OnInit, AfterViewInit} from '@angular/core';
 import {AlphabetLetter} from '../../types/alphabet-letter';
 import {Phoneme} from '../../types/phoneme';
-import {Vowels} from '../../types/vowels';
-import {ConsonantBlends} from '../../types/consonantBlends';
-import {Consonants} from '../../types/consonants';
-import {VowelConsonantBlends} from '../../types/vowelConsonantBlends';
-import {VowelPairs} from '../../types/vowelPairs';
-import {Kindergarten} from '../../types/kindergarten';
 import {TransferLetterService} from '../../services/transfer-letter-service.service';
 import {AlphabetLettersService} from '../../services/alphabet-letters.service';
 import {ProgressService} from '../../services/progress.service';
 import {PhonemesService} from '../../services/phonemes.service';
-import {VowelsService} from '../../services/vowels.service';
-import {ConsonantBlendsService} from '../../services/consonantBlends.service';
-import {ConsonantsService} from '../../services/consonants.service';
-import {VowelConsonantBlendsService} from '../../services/vowelConsonantBlends.service';
-import {VowelPairsService} from '../../services/vowelPairs.service';
-import {KindergartenService} from '../../services/kindergarten.service';
 import {ActivatedRoute, Router} from '@angular/router';
 import {Location} from '@angular/common';
 
@@ -29,8 +17,10 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
 
     instruction: HTMLAudioElement;
     list: string;
+    grade: string;
+    capital: string;
     // filled with test data to be overridden later
-    data: AlphabetLetter[] | Phoneme[] | Vowels[] | ConsonantBlends[] | Consonants[] | VowelConsonantBlends[] | VowelPairs[] | Kindergarten[];
+    data: AlphabetLetter[] | Phoneme[];
     dataProgress: any[];
     cardItemCount: number;
 
@@ -39,12 +29,6 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
         private alphabetLettersService: AlphabetLettersService,
         private progressService: ProgressService,
         private phonemesService: PhonemesService,
-        private vowelsService: VowelsService,
-        private consonantBlendsService: ConsonantBlendsService,
-        private consonantsService: ConsonantsService,
-        private vowelConsonantBlendsService: VowelConsonantBlendsService,
-        private vowelPairsService: VowelPairsService,
-        private kindergartenService: KindergartenService,
 
         private router: Router,
         private activatedRoute: ActivatedRoute,
@@ -52,24 +36,26 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
     ) {
         let list = this.activatedRoute.snapshot.queryParamMap.get('list');
         this.list = list;
+        this.grade = this.activatedRoute.snapshot.queryParamMap.get('grade');
+        this.capital = this.activatedRoute.snapshot.queryParamMap.get('capital');
         if (!list || list === '') {
             this.router.navigate(['']);
-        } else if (list === 'phoneme') {
-            this.data = this.phonemesService.dataLoad();
-        } else if (list === 'alphabet') {
-            this.data = this.alphabetLettersService.dataImport();
-        } else if (list === 'vowels') {
-            this.data = this.vowelsService.dataLoad();
-        } else if (list === 'consonantBlends') {
-            this.data = this.consonantBlendsService.dataLoad();
-        } else if (list === 'consonants') {
-            this.data = this.consonantsService.dataLoad();
-        } else if (list === 'vowelConsonants') {
-            this.data = this.vowelConsonantBlendsService.dataLoad();
-        } else if (list === 'vowelPairs') {
-            this.data = this.vowelPairsService.dataLoad();
-        } else if (list === 'kindergarten') {
-            this.data = this.kindergartenService.dataLoad();
+        } else if (list == 'alphabet') {
+            if (this.activatedRoute.snapshot.queryParamMap.get('reordered')) {
+                this.data = this.alphabetLettersService.dataImport(true);
+            } else {
+                this.data = this.alphabetLettersService.dataImport(false);
+            }
+        } else {
+            if (this.activatedRoute.snapshot.queryParamMap.get('reordered')) {
+                this.data = this.phonemesService.dataLoad(list, this.grade, true);
+            } else {
+                if (this.grade) {
+                    this.data = this.phonemesService.dataLoad(list, this.grade, false);
+                } else {
+                    this.data = this.phonemesService.dataLoad(list, '', false);
+                }
+            }
         }
         this.transferLetterService.setList(this.data);
 
@@ -112,18 +98,13 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
         if (this.list === 'alphabet') {
             for (var i = 0; i < document.getElementsByClassName('app-card').length; i++) {
                 var temp = <HTMLElement> document.getElementsByClassName('app-card')[i];
-                temp.style.marginLeft = '7vh';
+                temp.style.marginLeft = '11vh';
             }
-        } else {
-            if (this.list === 'phoneme' || this.list === 'vowelConsonants') {
-                var igh = <HTMLElement> document.getElementById('I-IGH').firstChild.lastChild;
-                igh.style.transform = 'translate(25vh, -20vh)';
-            }
-            if (this.list === 'phoneme' || this.list === 'vowelPairs') {
-                var aw = <HTMLElement> document.getElementById('A-AW').firstChild.lastChild;
-                var ow = <HTMLElement> document.getElementById('O-ohw').firstChild.lastChild;
-                aw.style.transform = 'translate(24vh, -20vh)';
-                ow.style.transform = 'translate(24vh, -20vh)';
+        }
+        if (this.capital) {
+            for (var i = 0; i < document.getElementsByClassName('app-card').length; i++) {
+                var temp = <HTMLElement> document.getElementsByClassName('app-card')[i];
+                temp.style.textTransform = 'uppercase';
             }
         }
     }
@@ -176,9 +157,13 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
                     for (let i = 0; i < numGoldStars; i++) {
                         let img = document.createElement('img');
                         if (this.list === 'alphabet') {
-                            img.style.transform = 'translateY(-21vh)';
+                            img.style.transform = 'translateY(-21.2vh)';
                         } else {
-                            img.style.transform = 'translateY(-33vh)';
+                            if (Object.keys(document.getElementsByTagName('app-card')).length > 6) {
+                                img.style.transform = 'translateY(-31.4vh)';
+                            } else {
+                                img.style.transform = 'translateY(-33vh)';
+                            }
                         }
                         img.setAttribute("src", '/assets/img/progress/Gold-Star-Blank.png')
                         img.setAttribute("width", '25px')
@@ -205,14 +190,22 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
                 if (this.progressService.getCheckMark(queryStatement)) {
                     let img = document.createElement('img');
                     if (this.list === 'alphabet') {
-                        img.style.transform = 'translateY(-22vh)';
+                        img.style.transform = 'translateY(-22.1vh)';
                     } else {
-                        img.style.transform = 'translateY(-33vh)';
+                        if (Object.keys(document.getElementsByTagName('app-card')).length > 6) {
+                            img.style.transform = 'translateY(-32.3vh)';
+                        } else {
+                            img.style.transform = 'translateY(-33.8vh)';
+                        }
                     }
                     img.setAttribute("src", '/assets/img/progress/check_mark.png')
                     img.setAttribute("width", '46px')
                     img.setAttribute("height", '46px')
-                    img.style.marginLeft = '13vh';
+                    if (Object.keys(document.getElementsByTagName('app-card')).length > 6) {
+                        img.style.marginLeft = '10.8vh';
+                    } else {
+                        img.style.marginLeft = '14vh';
+                    }
                     elem.appendChild(img);
                 }
             }
@@ -223,9 +216,17 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
     select(item) {
         this.transferLetterService.setData(item);
         if (this.list == 'alphabet') {
-            this.router.navigate(['alphabet-learn']);
+            if (this.capital) {
+                this.router.navigate(['alphabet-learn'], {queryParams: {capital: true}});
+            } else {
+                this.router.navigate(['alphabet-learn']);
+            }
         } else {
-            this.router.navigate(['phoneme-learn']);
+            if (this.capital) {
+                this.router.navigate(['phoneme-learn'], {queryParams: {capital: true}});
+            } else {
+                this.router.navigate(['phoneme-learn']);
+            }
         }
     }
 
@@ -240,12 +241,20 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
     }
 
     setClass(item) {
-        if (this.list === 'vowels') {
-            return item.color.vowel;
-        } else if (this.list === 'kindergarten') {
-            return item.color.K;
-        } else if (this.list !== 'alphabet') {
-            return item.color.all;
+        if (this.grade !== null) {
+            return item.color[this.grade];
+        } else {
+            if (this.list === 'vowels') {
+                return item.color.vowel;
+            } else if (this.list === 'consonants') {
+                return item.color.consonant;
+            } else if (this.list === 'vowelConsonants') {
+                return item.color.VC;
+            } else if (this.list === 'phoneme') {
+                return item.color.all;
+            } else if (this.list !== 'alphabet') {
+                return item.color.all;
+            }
         }
     }
 
@@ -261,12 +270,19 @@ export class ListSelectComponent implements OnInit, OnDestroy, AfterViewInit {
         }
     }
 
-    quiz(item) {
-        this.transferLetterService.setData(item);
+    quiz() {
         if (this.list == 'alphabet') {
-            this.router.navigate(['alphabet-quiz'], {queryParams: {quizAll: true}});
+            if (this.capital) {
+                this.router.navigate(['alphabet-quiz'], {queryParams: {quizAll: true, capital: true}});
+            } else {
+                this.router.navigate(['alphabet-quiz'], {queryParams: {quizAll: true}});
+            }
         } else {
-            this.router.navigate(['phoneme-quiz'], {queryParams: {list: this.list, quizAll: true}});
+            if (this.capital) {
+                this.router.navigate(['phoneme-quiz'], {queryParams: {list: this.list, quizAll: true, capital: true, grade: this.grade}});
+            } else {
+                this.router.navigate(['phoneme-quiz'], {queryParams: {list: this.list, quizAll: true, grade: this.grade}});
+            }
         }
     }
 }

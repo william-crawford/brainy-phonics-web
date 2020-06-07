@@ -9,7 +9,7 @@
 #main-body {
   width: 169.7vh;
   height: 0vh;
-  padding-left: 20vh;
+  padding-left: 17vh;
   position: relative;
 }
 
@@ -23,7 +23,7 @@
     padding: 0;
     text-align: center;
     width: 48vh;
-    background-color: lightblue;
+    background-color: #ddf6f8;
 }
 
 .puzzle {
@@ -32,7 +32,7 @@
     margin: auto;
     width: 36vh;
     height: 48vh;
-    background-color: #6EC7D4;
+    background-color: #d3ecee;
 }
 
 .puzzle-image {
@@ -113,6 +113,25 @@
 .animate-puzzle {
   transition: all .5s;
   transform: scale(1.12);
+}
+
+.ex-temp1,
+.ex-temp2,
+.ex-temp3 {
+  opacity: 0;
+}
+
+.animateEx1 {
+  transition: all 0.5s linear;
+  transform: translateY(17vh) scale(1.12) !important;
+}
+.animateEx2 {
+  transition: all 0.5s linear;
+  transform: translate(21vh, -17vh) scale(1.12) !important;
+}
+.animateEx3 {
+  transition: all 0.5s linear;
+  transform: translate(-21vh, -17vh) scale(1.12) !important;
 }
 
 /* Text */

@@ -1,0 +1,72 @@
+#main-body {
+    width: 169.7vh;
+    height: 0vh;
+    padding-left: 40vh;
+    position: relative;
+  }
+  
+  #background {
+      background-color: #FFFFFF !important;
+      background: url('../../../assets/img/backgrounds/k_categories.png') no-repeat scroll transparent;
+      background-position: 30vh;
+      background-size: 140vh;
+  }
+  
+  /* Phonics Categories */
+  #letters {
+      background: url('../../../assets/img/buttons/k_letters_button.png') no-repeat scroll transparent;
+      background-position: center;
+      margin-left: -10vh;
+      background-size: 38vh;
+      cursor: pointer;
+  }
+
+  #beginning-sounds {
+      background: url('../../../assets/img/buttons/k_beginning_sounds_button.png') no-repeat scroll transparent;
+      background-position: center;
+      background-size: 38vh;
+      cursor: pointer;
+  }
+  #ending-sounds {
+    background: url('../../../assets/img/buttons/k_ending_sounds_button.png') no-repeat scroll transparent;
+    background-position: center;
+    background-size: 38vh;
+    cursor: pointer;
+}
+
+  #vowels {
+    background: url('../../../assets/img/buttons/k_vowels.png') no-repeat scroll transparent;
+    background-position: center;
+    margin-left: -10vh;
+    background-size: 38vh;
+    cursor: pointer;
+}
+  
+  .category_button {
+      width: 38vh;
+      height: 26vh;
+      margin: 1vh 5vh 0vh 0vh;
+      border: none;
+      margin-left: auto;
+  }
+
+  .row1 {
+    float: center;
+    margin-left: 20vh;
+  }
+  
+  .row2 {
+    float: center;
+    margin-left: 20vh;
+  }
+  
+  .column {
+      padding-top: 40vh;
+      padding-left: 10vh;
+  }
+  /* Clear floats after the columns */
+  .column:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

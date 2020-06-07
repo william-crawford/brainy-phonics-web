@@ -1,13 +1,20 @@
 <div id='background'>
     <div id='main-body'>
-        <div class='column'>
-            <button mat-icon-button class='phonics_logo' id='phonics' (mouseenter)='playAudio($event)' routerLink='/phoneme-categories'></button>
-            <button mat-icon-button class='alphabet_logo' id='alphabet' (mouseenter)='playAudio($event)' [routerLink]="['list-select']" [queryParams]="{'list' : 'alphabet'}"></button>
-        </div>
-        <div class='row'>
-            <div class='column second'>
-                <button mat-icon-button class='grade_level' id='grade' (mouseenter)='playAudio($event)' routerLink='/grade-levels'></button>
-                <!-- <button mat-icon-button class='secret_stuff' id='secret' (mouseenter)='playAudio($event)'></button> -->
+        <div class='container'>
+            <div class='row'>
+                <button mat-icon-button class='button' id='pre-k' (mouseenter)='playAudio($event)' routerLink='/prek-categories'></button>
+                <button mat-icon-button class='button' id='kindergarten' (mouseenter)='playAudio($event)' routerLink='/k-categories'></button>
+            </div>
+            <div class='row'>
+                <button mat-icon-button class='button' id='first' (mouseenter)='playAudio($event)' routerLink='/first-categories'></button>
+                <button mat-icon-button class='button' id='second' (mouseenter)='playAudio($event)' routerLink='/second-categories'></button>
+                <button mat-icon-button class='button' id='third' (mouseenter)='playAudio($event)' routerLink='/third-categories'></button>
+            </div>
+            <div class='row'>
+                <button mat-icon-button class='button' id='phonics' (mouseenter)='playAudio($event)' routerLink='/phoneme-categories'></button>
+                <button mat-icon-button class='button' id='word-structures' (mouseenter)='playAudio($event)' routerLink='/word-structures'></button>
+                <button mat-icon-button class='button' id='nobodys-better' (mouseenter)='playAudio($event)' routerLink='/nobodys-better'></button>
+                <button mat-icon-button class='button' id='secret-stuff' (mouseenter)='playAudio($event)' routerLink='/secret-stuff'></button>
             </div>
         </div>
     </div>
