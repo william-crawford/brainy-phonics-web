@@ -54,7 +54,7 @@ export class LoginComponent implements OnInit {
     temp.style.background = 'transparent';
   }
 
-  private submit() {
+  submit() {
     if (this.selectedImg.length === 5) {
       var passcode = this.selectedImg[0].id + this.selectedImg[1].id + this.selectedImg[2].id + this.selectedImg[3].id + this.selectedImg[4].id;
       
