@@ -978,7 +978,7 @@ const routes = [
     // otherwise redirect to home
     { path: '**', redirectTo: '' }
 ];
-const appRoutingModule = _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot(routes);
+const appRoutingModule = _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot(routes, { useHash: true });
 
 
 /***/ }),

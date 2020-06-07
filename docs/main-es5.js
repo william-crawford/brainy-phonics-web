@@ -1926,7 +1926,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       redirectTo: ''
     }];
 
-    var appRoutingModule = _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot(routes);
+    var appRoutingModule = _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot(routes, {
+      useHash: true
+    });
     /***/
 
   },
