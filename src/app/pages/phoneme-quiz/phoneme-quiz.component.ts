@@ -52,6 +52,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
     correctAnswer: number;
 
     longVowelList: string[];
+    quizNumber: number;
 
     img1: string;
     img2: string;
@@ -143,6 +144,9 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
     }
 
     ngOnInit() {
+
+        this.quizNumber += 1;
+
         this.phoneme.puzzlePiecesEarned = this.phonemeProgressService.getPuzzlePieces(this.phoneme.id)
         if (this.phoneme.puzzlePiecesEarned == 12) {
             this.puzzleComplete = true;
@@ -220,7 +224,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
         this.ex3Audio.onended = () => {
             this.ex3Animate = false;
         };
-        
+
 
         this.isFirstAttempt = true;
         this.hasGuessed = false;
@@ -396,21 +400,35 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
     }
 
     generateExamples() {
-        var positiveExamples = this.phoneme.quizWords;
-        positiveExamples.concat(
-            positiveExamples,
-            [
-                this.phoneme.word1.word,
-                this.phoneme.word2.word,
-                this.phoneme.word3.word
-            ]
-        );
-
+        
         var positiveExample;
-        do {
-            positiveExample = positiveExamples[Math.floor(Math.random() * positiveExamples.length)];
+
+        var positiveExamples = this.phoneme.quizWords;
+
+        switch(this.quizNumber)
+        {
+            case 1:
+            {
+                positiveExample = this.phoneme.word1.word;
+            }
+            case 2:
+            {
+                positiveExample = this.phoneme.word2.word;
+            }
+            case 3:
+            {
+                positiveExample = this.phoneme.word3.word;
+            }
+
+            default:
+            {
+                do {
+                    positiveExample = positiveExamples[Math.floor(Math.random() * positiveExamples.length)];
+                }
+                while(badExamples.includes(positiveExample));
+            }
         }
-        while(badExamples.includes(positiveExample));
+        
         return [
             positiveExample,
             this.generateNegativeExample(positiveExamples),
