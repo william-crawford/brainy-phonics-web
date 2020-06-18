@@ -52,7 +52,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
     correctAnswer: number;
 
     longVowelList: string[];
-    quizNumber: number;
+    quizNumber: number = 0 ;
 
     img1: string;
     img2: string;
@@ -145,7 +145,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
 
     ngOnInit() {
 
-        this.quizNumber += 1;
+        this.quizNumber++;
 
         this.phoneme.puzzlePiecesEarned = this.phonemeProgressService.getPuzzlePieces(this.phoneme.id)
         if (this.phoneme.puzzlePiecesEarned == 12) {
@@ -301,6 +301,9 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
     }
 
     onCorrect() {
+
+        this.quizNumber++;
+
         var initialPuzzlePieces = this.phoneme.puzzlePiecesEarned;
         if (this.isFirstAttempt) {
             this.phonemeProgressService.addPuzzlePieces(this.phoneme.id, 2);
@@ -404,47 +407,54 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
         var positiveExample;
 
         var positiveExamples = this.phoneme.quizWords;
+        
+        do {
+                positiveExample = positiveExamples[Math.floor(Math.random() * positiveExamples.length)];
+        }
+        while(badExamples.includes(positiveExample));
 
-        switch(this.quizNumber)
-        {
-            case 1:
-            {
-                positiveExample = this.phoneme.word1.word;
-            }
-            case 2:
-            {
-                positiveExample = this.phoneme.word2.word;
-            }
-            case 3:
-            {
-                positiveExample = this.phoneme.word3.word;
-            }
+        if (this.quizNumber % positiveExamples.length == 1){
+            positiveExample = this.phoneme.word1.word;
+        }
 
-            default:
-            {
-                do {
-                    positiveExample = positiveExamples[Math.floor(Math.random() * positiveExamples.length)];
-                }
-                while(badExamples.includes(positiveExample));
-            }
+        else if(this.quizNumber % positiveExamples.length == 2){
+            positiveExample = this.phoneme.word2.word;
+        }
+
+        else if(this.quizNumber % positiveExamples.length == 3){
+            positiveExample = this.phoneme.word3.word;
+        }
+
+        else{
+            positiveExample = positiveExamples[this.quizNumber - positiveExamples.length];
         }
         
-        return [
+        var examples = ["test", "one", "two"];
+
+        var first = this.generateNegativeExample(positiveExamples);
+        var second = this.generateSecondNegativeExample(positiveExamples, first);
+
+        examples = [
             positiveExample,
-            this.generateNegativeExample(positiveExamples),
-            this.generateNegativeExample(positiveExamples)
+            first,
+            second
         ];
+
+        return examples;
     }
 
     isValidNegativeExample(example, positiveExamples) {
-        //Lockout for long/short vowels to make sure they don't have to go through the checks
-        if (this.phoneme.category.includes("V-short") || this.phoneme.category.includes("V-long")) {
-            return true; //returns true because the logic in the making of the list has been checked
-        }
+        
         if (example.includes(this.phoneme.id.charAt(0).toLowerCase))
         {
             return false;
         }
+        
+        //Lockout for long/short vowels to make sure they don't have to go through the checks
+        if (this.phoneme.category.includes("V-short") || this.phoneme.category.includes("V-long")) {
+            return true; //returns true because the logic in the making of the list has been checked
+        }
+        
         if ((this.phoneme.id == "G-GH" || this.phoneme.id.includes("F-fuh") || this.phoneme.id.includes("P-PH")) && (example.includes("f") || example.includes("ph") || example.includes("gh"))) {
             return false;
         }
@@ -496,7 +506,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
         if (this.phoneme.id.includes("O") && (example.includes("o") || example.includes("u"))) {
             return false;
         }
-        if (this.phoneme.id == "T-TCH-silent" && example.includes("ch")) {
+        if (this.phoneme.id == "T-TCH-silent" && (example.includes("ch") || example.includes("sh"))) {
             return false;
         }
         if (this.phoneme.id.includes("TH") && example.includes("th")) {
@@ -511,6 +521,98 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
         if (this.phoneme.category.includes("Y") && (example.includes("e") || example.includes("i"))) {
             return false;
         }
+        if(this.phoneme.category.includes("CG") && example.includes("j")){
+            return false;
+        }
+
+        return !positiveExamples.includes(example) && !example.includes(this.phoneme.display) && !badExamples.includes(example);
+    }
+
+    isValidSecondNegativeExample(example, positiveExamples, firstNegative) {
+        if(example == firstNegative){
+            return false;
+        }
+        if (example.includes(this.phoneme.id.charAt(0).toLowerCase))
+        {
+            return false;
+        }
+        if((this.phoneme.id == "E-long" || this.phoneme.id == "I-long") && example.includes("y")){
+            return false;
+        } 
+        //Lockout for long/short vowels to make sure they don't have to go through the checks
+        if (this.phoneme.category.includes("V-short") || this.phoneme.category.includes("V-long")) {
+            return true; //returns true because the logic in the making of the list has been checked
+        }
+        
+        if ((this.phoneme.id == "G-GH" || this.phoneme.id.includes("F-fuh") || this.phoneme.id.includes("P-PH")) && (example.includes("f") || example.includes("ph") || example.includes("gh"))) {
+            return false;
+        }
+        if ((this.phoneme.id.includes("Z-zzz") || this.phoneme.id == "S-zz" || this.phoneme.id == "S-SC-silent") && (example.includes("s") || example.includes("z"))) {
+            return false;
+        }
+        if ((this.phoneme.id == "A-AI" || this.phoneme.id == "E-EI") && (example.includes("ei") || example.includes("a"))) {
+            return false;
+        }
+        if ((this.phoneme.id == "A-AU" || this.phoneme.id == "A-AW") && (example.includes("o") || example.includes("a"))) {
+            return false;
+        }
+        if (this.phoneme.id == "A-AY" && example.includes("a")) {
+            return false;
+        }
+        if (this.phoneme.id == "C-sss" && example.includes("s")) {
+            return false;
+        }
+        if ((this.phoneme.id.includes("C-CK") || this.phoneme.id.includes("K-kuh")) && (example.includes("c") || example.includes("k"))) {
+            return false;
+        }
+        if (this.phoneme.category.includes("E") && example.includes("e")) {
+            return false;
+        }
+        if (this.phoneme.id.includes("E-E") && (example.includes('e') || example.includes('a'))) {
+            return false;
+        }
+        if (this.phoneme.category.includes("R") && example.includes("r")) {
+            return false;
+        }
+        if (this.phoneme.id.includes("E-ET") && example.includes('et')) {
+            return false;
+        }
+        if (this.phoneme.id == "E-EW" && (example.includes("o") || example.includes("u"))) {
+            return false;
+        }
+        if ((this.phoneme.id.includes("N-silent") || this.phoneme.id.includes("N-nnn")) && example.includes("n")) {
+            return false;
+        }
+        if (this.phoneme.id.charAt(0) == "I" && (example.includes("i") || example.includes("e"))) {
+            return false;
+        }
+        if (this.phoneme.id == "L-LE" && example.includes("l")) {
+            return false;
+        }
+        if ((this.phoneme.id == "M-MB-silent" || this.phoneme.id.includes("M-mmm")) && example.includes("m")) {
+            return false;
+        }
+        if (this.phoneme.id.includes("O") && (example.includes("o") || example.includes("u"))) {
+            return false;
+        }
+        if (this.phoneme.id == "T-TCH-silent" && (example.includes("ch") || example.includes("sh"))) {
+            return false;
+        }
+        if (this.phoneme.id.includes("TH") && example.includes("th")) {
+            return false;
+        }
+        if (this.phoneme.id.includes("W-W") && example.includes("w")) {
+            return false;
+        }
+        if (this.phoneme.id == "W-WR-silent" && example.includes("r")) {
+            return false;
+        }
+        if (this.phoneme.category.includes("Y") && (example.includes("e") || example.includes("i"))) {
+            return false;
+        }
+        if(this.phoneme.category.includes("CG") && example.includes("j")){
+            return false;
+        }
 
         return !positiveExamples.includes(example) && !example.includes(this.phoneme.display) && !badExamples.includes(example);
     }
@@ -521,6 +623,15 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
             example = this.randomQuizWord();
         }
         while (!this.isValidNegativeExample(example, positiveExamples));
+        return example;
+    }
+
+    generateSecondNegativeExample(positiveExamples, firstNegative) {
+        var example;
+        do {
+            example = this.randomQuizWord();
+        }
+        while (!this.isValidSecondNegativeExample(example, positiveExamples, firstNegative));
         return example;
     }
 

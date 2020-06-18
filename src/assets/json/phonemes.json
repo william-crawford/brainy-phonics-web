@@ -1027,7 +1027,6 @@
         },
         "quiz-words": [
             "she",
-            "key",
             "zebra",
             "tree",
             "three"
@@ -1644,7 +1643,7 @@
         },
         "quiz-words": [
             "goal",
-            "grapes",
+            "golf club",
             "gate",
             "go-kart",
             "gazelle"
@@ -3160,7 +3159,6 @@
         },
         "quiz-words": [
             "king",
-            "fang",
             "young",
             "long",
             "swing"
@@ -3907,8 +3905,7 @@
             "joy",
             "cowboy",
             "destroy",
-            "royal",
-            "boyfriend"
+            "royal"
         ],
         "color": {
             "all": "black",
