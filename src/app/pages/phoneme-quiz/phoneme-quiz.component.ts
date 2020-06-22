@@ -171,7 +171,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
 
         //Generate a list for schwas
 
-        if(this.phoneme.category.includes("ZV-schwa")){
+        if(this.phoneme.category.includes("V-schwa")){
             this.schwasList = schwas; 
         }
 
