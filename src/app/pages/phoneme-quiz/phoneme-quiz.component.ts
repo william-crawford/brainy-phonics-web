@@ -5,6 +5,7 @@ import {TransferLetterService} from '../../services/transfer-letter-service.serv
 import {ProgressService} from '../../services/progress.service';
 import data from '../../../assets/json/phonemes.json';
 import badExamples from '../../../assets/json/bad-assets.json';
+import schwas from '../../../assets/json/incorrect-schwas.json';
 import {Location} from '@angular/common';
 import {Phoneme} from '../../types/phoneme';
 import {PhonemesService} from '../../services/phonemes.service';
@@ -53,6 +54,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
 
     longVowelList: string[];
     quizNumber: number = 0 ;
+    schwasList: string[];
 
     img1: string;
     img2: string;
@@ -165,6 +167,12 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
                     this.longVowelList = [].concat(this.longVowelList, element["quiz-words"])
                 }
             });
+        }
+
+        //Generate a list for schwas
+
+        if(this.phoneme.category.includes("ZV-schwa")){
+            this.schwasList = schwas; 
         }
 
         this.correctAudio = new Audio();
@@ -449,9 +457,11 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
         {
             return false;
         }
-        
-        //Lockout for long/short vowels to make sure they don't have to go through the checks
-        if (this.phoneme.category.includes("V-short") || this.phoneme.category.includes("V-long")) {
+        if((this.phoneme.id == "E-long" || this.phoneme.id == "I-long") && example.includes("y")){
+            return false;
+        }
+        //Lockout for long/short vowels and schwas to make sure they don't have to go through the checks
+        if (this.phoneme.category.includes("V-short") || this.phoneme.category.includes("V-long") || this.phoneme.category.includes("V-schwa")) {
             return true; //returns true because the logic in the making of the list has been checked
         }
         
@@ -540,7 +550,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
             return false;
         } 
         //Lockout for long/short vowels to make sure they don't have to go through the checks
-        if (this.phoneme.category.includes("V-short") || this.phoneme.category.includes("V-long")) {
+        if (this.phoneme.category.includes("V-short") || this.phoneme.category.includes("V-long") || this.phoneme.category.includes("V-schwa")) {
             return true; //returns true because the logic in the making of the list has been checked
         }
         
@@ -642,6 +652,12 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
 
         if (this.phoneme.category.includes("V-long") || this.phoneme.category.includes("V-short")) {
             quizWords = this.longVowelList;
+        }
+
+        //Use the schwa list if the quiz phoneme is a schwa
+
+        if(this.phoneme.category.includes("V-schwa")){
+            quizWords = this.schwasList;
         }
 
         return quizWords[Math.floor(Math.random() * quizWords.length)];
