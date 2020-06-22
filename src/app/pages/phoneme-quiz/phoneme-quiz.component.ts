@@ -434,7 +434,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
         }
 
         else{
-            positiveExample = positiveExamples[this.quizNumber - positiveExamples.length];
+            positiveExample = positiveExamples[this.quizNumber - (positiveExamples.length + 1)];
         }
         
         var examples = ["test", "one", "two"];
@@ -453,7 +453,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
 
     isValidNegativeExample(example, positiveExamples) {
         
-        if (example.includes(this.phoneme.id.charAt(0).toLowerCase))
+        if (example.includes(this.phoneme.id.charAt(0).toLowerCase()))
         {
             return false;
         }
@@ -542,7 +542,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
         if(example == firstNegative){
             return false;
         }
-        if (example.includes(this.phoneme.id.charAt(0).toLowerCase))
+        if (example.includes(this.phoneme.id.charAt(0).toLowerCase()))
         {
             return false;
         }
