@@ -118,7 +118,7 @@
             "2nd": "black",
             "3rd": "black"
         },
-        "rhyme": "B(a)t; b(a)t;<br>Come under my h(a)t;<br>And I'll give you a slice of bacon;<br>And when I bake;<br>I'll give you a cake;<br>If I am not mistaken.",
+        "rhyme": "B(a)t; b(a)t;<br>Come under my h(a)t;<br>And I'll give you a slice of bacon;<br>And when I bake;<br>I'll give you a cake;<br>If I (a)m not mistaken.",
         "category": ["V-short", "V"],
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
