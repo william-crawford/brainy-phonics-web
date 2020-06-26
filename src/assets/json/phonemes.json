@@ -487,7 +487,7 @@
         },
         "word2": {
             "word": "bubble",
-            "display": "<span>b</span>u<span>bb</span>le",
+            "display": "<span>b</span>ubble",
             "audio": "bubble.mp3",
             "image": "bubble.png"
         },
@@ -1932,7 +1932,7 @@
         },
         "word2": {
             "word": "hardhat",
-            "display": "<span>h</span>ard<span>h</span>at",
+            "display": "<span>h</span>ardhat",
             "audio": "hardhat.mp3",
             "image": "hardhat.png"
         },
@@ -2549,7 +2549,7 @@
         },
         "word2": {
             "word": "kayak",
-            "display": "<span>k</span>aya<span>k</span>",
+            "display": "<span>k</span>ayak",
             "audio": "kayak.mp3",
             "image": "kayak.png"
         },
@@ -2894,7 +2894,7 @@
         },
         "word3": {
             "word": "mermaid",
-            "display": "<span>m</span>er<span>m</span>aid",
+            "display": "<span>m</span>ermaid",
             "audio": "mermaid.mp3",
             "image": "mermaid.png"
         },
@@ -3922,7 +3922,7 @@
         "display": "p",
         "word1": {
             "word": "puppy",
-            "display": "<span>p</span>u<span>pp</span>y",
+            "display": "<span>p</span>uppy",
             "audio": "puppy.mp3",
             "image": "puppy.png"
         },
@@ -4184,7 +4184,7 @@
         "display": "r",
         "word1": {
             "word": "raccoons",
-            "display": "<span>r</span>accoon",
+            "display": "<span>r</span>accoons",
             "audio": "raccoons.mp3",
             "image": "raccoons.png"
         },
@@ -4248,7 +4248,7 @@
             "all": "black",
             "K": "black"
         },
-        "rhyme": "A grizzly bea(r) might roa(r) a roa(rrrrrr),<br>A pola(r) bear might growl b(rrrrrr).<br>A chimp might blubbe(r) a bbbbbbbb<br>My grandpa su(r)e would sno(r)e a sno(rrrrrr)e.",
+        "rhyme": "A grizzly bea(r) might roa(r) a roa(rrrrrr),<br>A pola(r) bear might growl b(rrrrrr).<br>A chimp might blubbe(r) a bbbbbbbb<br>My grandpa su(r)e does sno(r)e a sno(rrrrrr)e.",
         "category": ["C-end", "C"],
         "grade": ["K", "1st", "2nd", "3rd"]
     },
@@ -4258,7 +4258,7 @@
         "display": "s",
         "word1": {
             "word": "suitcase",
-            "display": "<span>s</span>uitca<span>s</span>e",
+            "display": "<span>s</span>uitcase",
             "audio": "suitcase.mp3",
             "image": "suitcase.png"
         },
@@ -4322,7 +4322,7 @@
             "all": "black",
             "K": "black"
         },
-        "rhyme": "Cat(s) like R, they say purrrrr.<br>Dogs do too, but they say grrrr,<br>Snake(s) like S, so they say hi(sss)<br>Bees like Zs, so they go buzzzz.",
+        "rhyme": "Cat(s) like R, they say purrrrr.<br>Dogs do too, but they say grrrr,<br>Goat(s) like A, they bleat baaaa.<br>Duck(s) like Q, they quack quack.<br>Snake(s) like S, so they say hi(sss)<br>Bee(s) like Z(s), so they go buzzzz. <br>Kids? They're always quiet, just because.",
         "category": ["C-end", "C"],
         "grade": ["K", "1st", "2nd", "3rd"]
     },
@@ -5562,7 +5562,7 @@
             "all": "black",
             "K": "black"
         },
-        "rhyme": "(W)ee (W)illie (W)inkie runs through the town;<br>Upstairs and downstairs; in his nightgown;<br>Tapping at the (w)indo(w); crying at the lock;<br>Are the children all in bed? It's now eight o'clock?",
+        "rhyme": "(W)ee (W)illie (W)inkie runs through the town;<br>Upstairs and downstairs; in his nightgown;<br>Tapping at the (w)indow; crying at the lock;<br>Are the children all in bed? It's now eight o'clock?",
         "category": ["C-begin", "C"],
         "grade": ["Pre-K", "K", "1st", "2nd", "3rd"]
     },
