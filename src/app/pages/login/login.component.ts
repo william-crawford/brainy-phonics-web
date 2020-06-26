@@ -22,6 +22,12 @@ export class LoginComponent implements OnInit {
         id: String.fromCharCode(97 + i)
       });
     }
+    for (let i = 0; i < 10; i++) {
+      this.imgs.push({
+        url: `../../../assets/img/login/${i}.png`,
+        id: `${i}`,
+      });
+    }
   }
 
   ngOnInit() {
@@ -57,7 +63,6 @@ export class LoginComponent implements OnInit {
   submit() {
     if (this.selectedImg.length === 5) {
       var passcode = this.selectedImg[0].id + this.selectedImg[1].id + this.selectedImg[2].id + this.selectedImg[3].id + this.selectedImg[4].id;
-      
       this.userService.login(passcode)
       .subscribe(
         res => {

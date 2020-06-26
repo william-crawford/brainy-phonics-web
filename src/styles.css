@@ -1,7 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 #background {
-    width: 187vh;
-    height: 97vh;
+    width: 100vw;
+    height: 100vh;
     background-color: #6EC7D4;
     margin: auto;
     overflow: hidden;
@@ -9,9 +15,9 @@
 
 #side-menu {
     width: 17vh;
-    height: 92.5vh;
+    height: 91vh;
     background-color: #C4E8E6;
-    padding-top: 4.5vh;
+    padding: 4.5vh 0;
     position: relative;
 }
 

@@ -1,7 +1,14 @@
 <div id='background'>
     <div id='main-body'>
         <div class='container'>
-            <h1>Student Sign in</h1>
+          <a class="teacher-login" href="https://teacherportal.hearatale.com" >Parent & Teacher Access</a>
+          <hr>
+            <div class='image-container'>
+                    <div *ngFor='let img of imgs'(click)='onImg(img)'>
+                        <img [src]="img['url']" class='image'>
+                    </div>
+            </div>
+            <h2>Student Sign in</h2>
             <div class='password'>
                 <div class='placeholder'>
                     <img *ngIf='selectedImg[0]' class='selected-image' [src]="selectedImg[0]['url']" (click)='onSelected(selectedImg[0])'>
@@ -19,13 +26,7 @@
                     <img *ngIf='selectedImg[4]' class='selected-image' [src]="selectedImg[4]['url']" (click)='onSelected(selectedImg[4])'>
                   </div>
             </div>
-            <div class='image-container'>
-                    <div *ngFor='let img of imgs'(click)='onImg(img)'>
-                        <img [src]="img['url']" class='image'>
-                    </div>
-            </div>
             <button mat-icon-button id='submit' (click)='submit()'>Login</button>
         </div>
     </div>
-    <div id='side-menu'></div>
 </div>
