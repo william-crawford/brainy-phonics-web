@@ -3092,7 +3092,7 @@
         },
         "word3": {
             "word": "plum",
-            "display": "air<span>pl</span>um",
+            "display": "<span>pl</span>um",
             "audio": "plum.mp3",
             "image": "plum.png"
         },
