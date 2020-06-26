@@ -415,11 +415,6 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
         var positiveExample;
 
         var positiveExamples = this.phoneme.quizWords;
-        
-        do {
-                positiveExample = positiveExamples[Math.floor(Math.random() * positiveExamples.length)];
-        }
-        while(badExamples.includes(positiveExample));
 
         if (this.quizNumber % positiveExamples.length == 1){
             positiveExample = this.phoneme.word1.word;
@@ -433,8 +428,13 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
             positiveExample = this.phoneme.word3.word;
         }
 
+        else if(this.phoneme.quizWords.length > (this.quizNumber - 3)){
+            positiveExample = this.phoneme.quizWords[this.quizNumber - 3];
+        }
+
         else{
-            positiveExample = positiveExamples[this.quizNumber - (positiveExamples.length + 1)];
+            positiveExample = this.phoneme.word1.word;
+            this.quizNumber = 0;
         }
         
         var examples = ["test", "one", "two"];
