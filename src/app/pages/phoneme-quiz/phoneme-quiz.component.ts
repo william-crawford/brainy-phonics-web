@@ -428,13 +428,8 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
             positiveExample = this.phoneme.word3.word;
         }
 
-        else if(this.phoneme.quizWords.length > (this.quizNumber - 3)){
-            positiveExample = this.phoneme.quizWords[this.quizNumber - 3];
-        }
-
-        else{
-            positiveExample = this.phoneme.word1.word;
-            this.quizNumber = 0;
+        else {
+            positiveExample = this.phoneme.quizWords[Math.floor(Math.random() * 3)];
         }
         
         var examples = ["test", "one", "two"];
