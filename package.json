@@ -23,6 +23,7 @@
     "@angular/platform-browser": "^8.2.14",
     "@angular/platform-browser-dynamic": "^8.2.14",
     "@angular/router": "^8.2.14",
+    "@babel/compat-data": "^7.8.0",
     "angular-webstorage-service": "^1.0.2",
     "rxjs": "~6.4.0",
     "tslib": "^1.11.1",
