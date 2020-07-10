@@ -1,3 +1,5 @@
+import {Injectable, Inject} from '@angular/core';
+import {SESSION_STORAGE, WebStorageService} from 'angular-webstorage-service';
 import {Component, OnDestroy, OnInit, AfterViewInit} from '@angular/core';
 import {ActivatedRoute, Router} from '@angular/router';
 import {delay} from 'q';
@@ -10,6 +12,11 @@ import {Location} from '@angular/common';
 import {Phoneme} from '../../types/phoneme';
 import {PhonemesService} from '../../services/phonemes.service';
 import {ChangeDetectorRef} from '@angular/core';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+
+@Injectable({
+    providedIn: 'root'
+})
 
 @Component({
     templateUrl: 'phoneme-quiz.component.html',
@@ -71,7 +78,12 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
     isFirstAttempt: boolean;
     hasGuessed: boolean;
 
+    numberOfAttempts: number;
+    answerStartTime: number;
+    correctAnswerValue: String;
+
     constructor(
+        @Inject(SESSION_STORAGE) private storage: WebStorageService, 
         private transferService: TransferLetterService,
         private phonemeProgressService: ProgressService,
         private router: Router,
@@ -79,7 +91,8 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
         private activatedRoute: ActivatedRoute,
 
         private phonemesService: PhonemesService,
-        private changeDetectorRef: ChangeDetectorRef
+        private changeDetectorRef: ChangeDetectorRef,
+        private http: HttpClient,
     ) {
         this.quizAll = this.activatedRoute.snapshot.queryParamMap.get('quizAll');
         this.grade = this.activatedRoute.snapshot.queryParamMap.get('grade');
@@ -138,6 +151,11 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
 
         // Shuffle order of puzzle pieces being displayed
         this.puzzlePieceImages.sort(function() {return rng() - 0.5});
+
+        // Analytics
+        this.correctAnswerValue = '';
+        this.numberOfAttempts = 0;
+        this.answerStartTime = 0;
     }
 
     goBack(){
@@ -192,6 +210,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
         var examples = this.generateExamples();
         var temp = examples[this.correctAnswer];
         examples[this.correctAnswer] = examples[0];
+        this.correctAnswerValue = examples[this.correctAnswer];
         examples[0] = temp;
 
         this.img1 = '/assets/img/sight-words/' + examples[0].replace(/\s/g, '') + '.png';
@@ -236,6 +255,10 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
 
         this.isFirstAttempt = true;
         this.hasGuessed = false;
+        
+        // Analytics
+        this.numberOfAttempts = 0;
+        this.answerStartTime = Date.now();
     }
 
     ngAfterViewInit() {
@@ -309,7 +332,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
     }
 
     onCorrect() {
-
+        this.numberOfAttempts++
         this.quizNumber++;
 
         var initialPuzzlePieces = this.phoneme.puzzlePiecesEarned;
@@ -344,6 +367,8 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
             this.ex2CorrectAnimate = false;
             this.ex3CorrectAnimate = false;
         };
+        
+        this.submitAnalyticEvent(this.phoneme.id).subscribe(r => console.log(r));
 
         if (this.phoneme.puzzlePiecesEarned == 12) {
             // Add checkmark
@@ -373,6 +398,10 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
                 this.changeDetectorRef.detectChanges();
             });
             this.isFirstAttempt = true;
+            
+            // Analytics
+            this.numberOfAttempts = 0;
+            this.answerStartTime = Date.now();
 
             // Update examples
             if (this.quizAll) {
@@ -686,6 +715,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
     }
 
     incorrectAnswer() {
+        this.numberOfAttempts++
         if (!this.hasGuessed) {
             this.hasGuessed = true;
             this.isFirstAttempt = false;
@@ -696,5 +726,25 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
             }
         }
         this.phonemeProgressService.addIncorrectAnswer('phoneme' + this.phoneme.id);
+    }
+
+
+    submitAnalyticEvent(phonemeId) {
+        const headers = new HttpHeaders({
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${this.storage.get('token')}`
+        })
+
+        return this.http.post('https://teacherportal.hearatale.com/api/analytics/application', {
+            student: this.storage.get('user_id'),
+            program: '5ec56abe0b1a339ea12a0413',
+            focus_item_name: `phoneme_${phonemeId}`,
+            focus_item_unit: "pre-k",
+            focus_item_subunit: "phoneme",
+            time_spent: Date.now() - this.answerStartTime,
+            correct_on: this.numberOfAttempts,
+        }, {
+            headers,
+        });
     }
 }
