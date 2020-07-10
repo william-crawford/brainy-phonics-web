@@ -65,7 +65,8 @@ export class LoginComponent implements OnInit {
       var passcode = this.selectedImg[0].id + this.selectedImg[1].id + this.selectedImg[2].id + this.selectedImg[3].id + this.selectedImg[4].id;
       this.userService.login(passcode)
       .subscribe(
-        res => {
+        (res: { student: { _id: String}, token: String }) => {
+          this.userService.setResponse(res);
           this.router.navigate(['home'])
         },
         err => {

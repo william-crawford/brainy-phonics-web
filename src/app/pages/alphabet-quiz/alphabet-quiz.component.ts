@@ -1,3 +1,5 @@
+import {Injectable, Inject} from '@angular/core';
+import {SESSION_STORAGE, WebStorageService} from 'angular-webstorage-service';
 import {Component, OnDestroy, OnInit, AfterViewInit} from '@angular/core';
 import {ActivatedRoute, Router} from '@angular/router';
 import {delay} from 'q';
@@ -6,6 +8,11 @@ import {ProgressService} from '../../services/progress.service';
 import {AlphabetLettersService} from '../../services/alphabet-letters.service';
 import { Location } from '@angular/common';
 import {AlphabetLetter} from '../../types/alphabet-letter';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+
+@Injectable({
+    providedIn: 'root'
+})
 
 @Component({
     templateUrl: 'alphabet-quiz.component.html',
@@ -36,13 +43,18 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy, AfterViewInit {
     ex3: AlphabetLetter;
     ex4: AlphabetLetter;
 
+    numberOfAttempts: number;
+    answerStartTime: number;
+
     constructor(
+        @Inject(SESSION_STORAGE) private storage: WebStorageService, 
         private transferService: TransferLetterService,
         private letterProgressService: ProgressService,
         private alphabetLettersService: AlphabetLettersService,
         private router: Router,
         private location: Location,
         private activatedRoute: ActivatedRoute,
+        private http: HttpClient,
     ) {
         this.quizAll = this.activatedRoute.snapshot.queryParamMap.get('quizAll');
         this.capital = this.activatedRoute.snapshot.queryParamMap.get('capital');
@@ -68,6 +80,10 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy, AfterViewInit {
 
         // audio
         this.letterPlayAudio = true;
+
+        // Analytics
+        this.numberOfAttempts = 0;
+        this.answerStartTime = 0;
     };
 
     ngOnInit() {
@@ -88,6 +104,7 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy, AfterViewInit {
         this.playAudio();
         this.isFirstAttempt = true;
         this.hasGuessed = false;
+        
 
         //randomized randomExamples
         this.loadNew();
@@ -115,6 +132,8 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy, AfterViewInit {
     }
 
     correctAnswer(correct : AlphabetLetter) {
+        this.numberOfAttempts++
+
         if (correct == this.ex1) {
             this.letterAnimate1 = true;
         } else if (correct == this.ex2) {
@@ -166,9 +185,13 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy, AfterViewInit {
         } else {
             this.letterProgressService.addCoins("letter" + this.letter.letter, 1);
         }
+
+        this.submitAnalyticEvent(this.letter.letter).subscribe(r => console.log(r));
     }
 
     incorrectAnswer() {
+        this.numberOfAttempts++
+
         if (!this.hasGuessed) {
             this.hasGuessed = true;
             this.isFirstAttempt = false;
@@ -193,6 +216,29 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy, AfterViewInit {
         this.ex4 = randomExamples[3];
 
         this.isFirstAttempt = true;
+
+        // Analytics
+        this.numberOfAttempts = 0;
+        this.answerStartTime = Date.now();
+    }
+
+    submitAnalyticEvent(letter) {
+        const headers = new HttpHeaders({
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${this.storage.get('token')}`
+        })
+
+        return this.http.post('https://teacherportal.hearatale.com/api/analytics/application', {
+            student: this.storage.get('user_id'),
+            program: '5ec56abe0b1a339ea12a0413',
+            focus_item_name: `alphabet_${letter}`,
+            focus_item_unit: "pre-k",
+            focus_item_subunit: "alphabet",
+            time_spent: Date.now() - this.answerStartTime,
+            correct_on: this.numberOfAttempts,
+        }, {
+            headers,
+        });
     }
 
     pickRandom(current : AlphabetLetter) {
