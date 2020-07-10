@@ -232,7 +232,7 @@ export class AlphabetQuizComponent implements OnInit, OnDestroy, AfterViewInit {
             student: this.storage.get('user_id'),
             program: '5ec56abe0b1a339ea12a0413',
             focus_item_name: `alphabet_${letter}`,
-            focus_item_unit: "pre-k",
+            focus_item_unit: this.storage.get('unit'),
             focus_item_subunit: "alphabet",
             time_spent: Date.now() - this.answerStartTime,
             correct_on: this.numberOfAttempts,

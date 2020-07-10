@@ -739,7 +739,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
             student: this.storage.get('user_id'),
             program: '5ec56abe0b1a339ea12a0413',
             focus_item_name: `phoneme_${phonemeId}`,
-            focus_item_unit: "pre-k",
+            focus_item_unit: this.storage.get('unit'),
             focus_item_subunit: "phoneme",
             time_spent: Date.now() - this.answerStartTime,
             correct_on: this.numberOfAttempts,

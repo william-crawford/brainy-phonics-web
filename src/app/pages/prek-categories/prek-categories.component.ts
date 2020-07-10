@@ -1,5 +1,7 @@
 import {Component} from '@angular/core';
 import {Location} from '@angular/common';
+import {Inject} from '@angular/core';
+import {SESSION_STORAGE, WebStorageService} from 'angular-webstorage-service';
 
 @Component({
     templateUrl: 'prek-categories.component.html',
@@ -9,7 +11,14 @@ import {Location} from '@angular/common';
 export class PrekCategoriesComponent {
     category: HTMLAudioElement;
 
-    constructor(private location: Location) {
+    constructor(
+        @Inject(SESSION_STORAGE) private storage: WebStorageService, 
+        private location: Location
+    ) {
+    }
+    
+    ngOnInit() {
+        this.storage.set('unit', 'PRE-K')
     }
 
     playAudio(event) {

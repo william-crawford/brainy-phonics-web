@@ -1,6 +1,10 @@
 import {Component} from '@angular/core';
 import {Location} from '@angular/common';
 
+import {Inject} from '@angular/core';
+import {SESSION_STORAGE, WebStorageService} from 'angular-webstorage-service';
+
+
 @Component({
     templateUrl: 'third-categories.component.html',
     styleUrls: [ 'third-categories.component.css']
@@ -9,8 +13,16 @@ import {Location} from '@angular/common';
 export class ThirdCategoriesComponent {
     category: HTMLAudioElement;
 
-    constructor(private location: Location) {
+    constructor(
+        @Inject(SESSION_STORAGE) private storage: WebStorageService, 
+        private location: Location
+    ) {
     }
+
+    ngOnInit() {
+        this.storage.set('unit', 'Third-Grade')
+    }
+
 
     playAudio(event) {
         this.category = new Audio();
