@@ -1,5 +1,7 @@
 import {Component} from '@angular/core';
 import {Location} from '@angular/common';
+import {Inject} from '@angular/core';
+import {SESSION_STORAGE, WebStorageService} from 'angular-webstorage-service';
 
 @Component({
     templateUrl: 'k-categories.component.html',
@@ -9,9 +11,16 @@ import {Location} from '@angular/common';
 export class KCategoriesComponent {
     category: HTMLAudioElement;
     
-    constructor(private location: Location) {
+    constructor(
+        @Inject(SESSION_STORAGE) private storage: WebStorageService, 
+        private location: Location
+    ) {
     }
     
+    ngOnInit() {
+        this.storage.set('unit', 'Kindergarten')
+    }
+
     playAudio(event){
         this.category = new Audio();
         if (event.target.id === 'letters') {
