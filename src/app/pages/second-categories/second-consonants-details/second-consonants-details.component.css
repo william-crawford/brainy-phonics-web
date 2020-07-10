@@ -1,7 +1,7 @@
 #main-body {
   width: 169.7vh;
   height: 0vh;
-  padding-left: 40vh;
+  padding-left: 23vh;
   position: relative;
 }
 
@@ -9,76 +9,73 @@
     background-color: #FFFFFF !important;
     background: url('../../../../assets/img/backgrounds/second_consonants_details.png') no-repeat scroll transparent;
     background-position: 19vh 2vh;
-    background-size: 169vh;
+    background-size: auto 100vh;
 }
 
 /* Phonics Categories */
 #beginning-sounds {
-    background: url('../../../../assets/img/buttons/second_sound_begin.png') no-repeat scroll transparent;
-    background-size: 65vh;
-    margin: 17.5vh 0vh 0vh -6vh;
-    height: 13.5vh;
-    cursor: pointer;
-    width: 63vh;
-}
-#ending-sounds {
-    background: url('../../../../assets/img/buttons/second_sound_end.png') no-repeat scroll transparent;
-    background-size: 55vh;
-    margin: 17.5vh 0vh 0vh 33vh;
-    cursor: pointer;
-    height: 13.5vh;
-    width: 54vh;
-}
-#cg {
-    background: url('../../../../assets/img/buttons/second_cg.png') no-repeat scroll transparent;
-    background-size: 80vh;
-    cursor: pointer;
-    width: 78vh;
-}
-#beginning-blends {
-    background: url('../../../../assets/img/buttons/second_blend_begin.png') no-repeat scroll transparent;
-    background-size: 61vh;
-    cursor: pointer;
-    width: 59vh;
-}
-#ending-blends {
-    background: url('../../../../assets/img/buttons/second_blend_end.png') no-repeat scroll transparent;
-    background-size: 50vh;
-    margin-left: 37vh;
-    cursor: pointer;
-    width: 49vh;
-}
-#three-letter-blends {
-    background: url('../../../../assets/img/buttons/second_blend_3.png') no-repeat scroll transparent;
-    background-size: 60vh;
-    cursor: pointer;
-    width: 58vh;
-}
-#silent-consonants {
-  background: url('../../../../assets/img/buttons/second_silent.png') no-repeat scroll transparent;
-  background-size: 29vh;
-  margin-left: 38vh;
-  cursor: pointer;
-  width: 28vh;
-}
-#beginning-digraphs {
-  background: url('../../../../assets/img/buttons/second_digraph_begin.png') no-repeat scroll transparent;
-  background-size: 91.5vh;
-  cursor: pointer;
-  width: 79vh;
-}
-#ending-digraphs {
-  background: url('../../../../assets/img/buttons/second_digraph_end.png') no-repeat scroll transparent;
-  background-size: 73vh;
-  display: block;
+  margin: 11.5vh 1vh 0vh 15vh;
+  height: 10.5vh;
   cursor: pointer;
   width: 71vh;
+}
+#ending-sounds {
+  margin: 0.5vh 0vh 0vh 26vh;
+  cursor: pointer;
+  height: 9.5vh;
+  width: 62vh;
+
+}
+#cg {
+  cursor: pointer;
+  width: 96vh;
+  margin: 0.5vh 0vh 0vh 26vh;
+  width: 78vh;
+}
+#beginning-blends {
+  margin: 0.5vh 0vh 0vh 26vh;
+  height: 9vh;
+    cursor: pointer;
+    width: 95vh;
+}
+#ending-blends {
+  margin: 0.5vh 0vh 0vh 12vh;
+  height: 9vh;
+  cursor: pointer;
+  width: 71vh;
+}
+#three-letter-blends {
+  margin: 0.5vh 0vh 0vh 9vh;
+  height: 7vh;
+  cursor: pointer;
+  width: 75vh;
+}
+#silent-consonants {
+  margin: 0.5vh 0vh 0vh 28vh;
+  height: 9vh;
+  cursor: pointer;
+  width: 37vh;
+}
+#beginning-digraphs {
+  margin: 0.5vh 0vh 0vh 11vh;
+  height: 9vh;
+  cursor: pointer;
+  width: 91vh;
+}
+#ending-digraphs {
+  margin: 0.5vh 0vh 0vh 26vh;
+  height: 9vh;
+  display: block;
+  cursor: pointer;
+  width: 92vh;
 }
 
 .category_button {
     height: 10vh;
-    margin: 1.5vh 0vh 0vh -5vh;
+    margin: 1.5vh 0vh 0vh 10vh;
     border: none;
+    background-color: transparent;
+    display: block;
 }
 
 .column {

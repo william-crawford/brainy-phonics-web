@@ -1,7 +1,7 @@
 #main-body {
     width: 169.7vh;
     height: 0vh;
-    padding-left: 40vh;
+    padding-left: 23vh;
     position: relative;
   }
   
@@ -9,28 +9,19 @@
       background-color: #FFFFFF !important;
       background: url('../../../../assets/img/backgrounds/third_vowelconsonants_details.png') no-repeat scroll transparent;
       background-position: 20vh;
-      background-size: 215vh;
+      background-size: auto 100vh;
   }
   
   /* Second Categories */
   #r {
-      background: url('../../../../assets/img/buttons/third_r.png') no-repeat scroll transparent;
-      background-size: 90vh;
-      margin-top: 9vh;
-      cursor: pointer;
-      width: 88vh;
+    margin: 0 0vh 5vh 10vh;
   }
   #two-letter-blends {
-    background: url('../../../../assets/img/buttons/third_two.png') no-repeat scroll transparent;
-    background-size: 77vh;
-    width: 75vh;
-    cursor: pointer;
+    height: 27vh;
+    margin: 0 0vh 0 15vh;
   }
   #three-letter-blends {
-    background: url('../../../../assets/img/buttons/third_three.png') no-repeat scroll transparent;
-    background-size: 76.5vh;
-    cursor: pointer;
-    width: 74vh;
+    width: 158vh;
   }
 
   .column {
@@ -38,9 +29,12 @@
   }
 
   .category_button {
-      margin: 14.5vh 0vh 0vh 40vh;
-      height: 14vh;
+      margin: 0 0vh 5vh 0;
+      height: 28vh;
+      width: 141vh;
       border: none;
       display: inherit;
+      cursor: pointer;
+      background-color: transparent;
   }
   

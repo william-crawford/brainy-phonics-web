@@ -1,19 +1,13 @@
 <div id='background'>
     <div id='main-body'>
         <div class='column'>
-            <div class='row'>
-                <button mat-icon-button class='category_button' id='beginning-sounds' (mouseenter)='playAudio($event)' [routerLink]="['/list-select']" [queryParams]="{'grade' : '2nd', 'list': 'C-begin'}"></button>
-                <button mat-icon-button class='category_button' id='ending-sounds' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'grade' : '2nd', 'list': 'C-end'}"></button>
-            </div>
+            <button mat-icon-button class='category_button' id='beginning-sounds' (mouseenter)='playAudio($event)' [routerLink]="['/list-select']" [queryParams]="{'grade' : '2nd', 'list': 'C-begin'}"></button>
+            <button mat-icon-button class='category_button' id='ending-sounds' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'grade' : '2nd', 'list': 'C-end'}"></button>
             <button mat-icon-button class='category_button' id='cg' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'grade' : '2nd', 'list': 'CG'}"></button>
-            <div class='row'>
-                <button mat-icon-button class='category_button' id='beginning-blends' (mouseenter)='playAudio($event)' [routerLink]="['/list-select']" [queryParams]="{'grade' : '2nd', 'list': 'CB-begin'}"></button>
-                <button mat-icon-button class='category_button' id='ending-blends' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'grade' : '2nd', 'list': 'CB-end'}"></button>
-            </div>
-            <div class='row'>
-                <button mat-icon-button class='category_button' id='three-letter-blends' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'grade' : '2nd', 'list': 'CB-3'}"></button>
-                <button mat-icon-button class='category_button' id='silent-consonants' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'grade' : '2nd', 'list': 'C-silent'}"></button>
-            </div>
+            <button mat-icon-button class='category_button' id='beginning-blends' (mouseenter)='playAudio($event)' [routerLink]="['/list-select']" [queryParams]="{'grade' : '2nd', 'list': 'CB-begin'}"></button>
+            <button mat-icon-button class='category_button' id='ending-blends' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'grade' : '2nd', 'list': 'CB-end'}"></button>
+            <button mat-icon-button class='category_button' id='three-letter-blends' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'grade' : '2nd', 'list': 'CB-3'}"></button>
+            <button mat-icon-button class='category_button' id='silent-consonants' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'grade' : '2nd', 'list': 'C-silent'}"></button>
             <button mat-icon-button class='category_button' id='beginning-digraphs' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'grade' : '2nd', 'list': 'CD-begin'}"></button>
             <button mat-icon-button class='category_button' id='ending-digraphs' (mouseenter)='playAudio($event)' [routerLink]='["/list-select"]' [queryParams]="{'grade' : '2nd', 'list': 'CD-end'}"></button>
         </div>

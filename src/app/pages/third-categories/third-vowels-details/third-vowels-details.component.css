@@ -1,7 +1,7 @@
 #main-body {
   width: 169.7vh;
   height: 0vh;
-  padding-left: 40vh;
+  padding-left: 23vh;
   position: relative;
 }
 
@@ -9,67 +9,59 @@
     background-color: #FFFFFF !important;
     background: url('../../../../assets/img/backgrounds/third_vowels_details.png') no-repeat scroll transparent;
     background-position: 14vh 2vh;
-    background-size: 173vh;
+    background-size: auto 100vh;
 }
 
 /* Phonics Categories */
 #short_vowels {
-    background: url('../../../../assets/img/buttons/third_vowels_short.png') no-repeat scroll transparent;
-    background-size: 34vh;
-    margin-top: 17vh;
+    width: 32%;
+    margin-left: 13%;
     cursor: pointer;
-    width: 32vh;
 }
 #long_vowels {
-    background: url('../../../../assets/img/buttons/third_vowels_long.png') no-repeat scroll transparent;
-    background-size: 30vh;
-    margin: 17vh 0vh 0vh 7vh;
+    width: 42%;
+    margin-left: 24%;
     cursor: pointer;
-    width: 28vh;
 }
-#schwas {
-    background: url('../../../../assets/img/buttons/third_vowels_schwa.png') no-repeat scroll transparent;
-    background-size: 41vh;
-    margin-left: 3vh;
-    cursor: pointer;
-    width: 39vh;
-}
+
 #vowel_pairs {
-    background: url('../../../../assets/img/buttons/third_vowels_pairs.png') no-repeat scroll transparent;
-    background-size: 33vh;
+    width: 43%;
     cursor: pointer;
-    width: 31vh;
 }
+
 #y_sounds {
-    background: url('../../../../assets/img/buttons/third_vowels_y.png') no-repeat scroll transparent;
-    background-size: 55.5vh;
-    margin-left: 8vh;
+    width: 47%;
+    margin-left: 24%;
     cursor: pointer;
-    width: 54vh;
 }
-#silent-e {
-    background: url('../../../../assets/img/buttons/third_vowels_e.png') no-repeat scroll transparent;
-    background-size: 44vh;
-    margin-left: 62vh;
-    cursor: pointer;
-    width: 43vh;
-}
+
 #r {
-    background: url('../../../../assets/img/buttons/third_vowels_r.png') no-repeat scroll transparent;
-    background-size: 38vh;
+    width: 44%;
     cursor: pointer;
-    width: 36vh;
+}
+
+#schwas {
+    width: 37%;
+    margin-left: 24%;
+    cursor: pointer;
+}
+
+#silent-e {
+    width: 37%;
+    margin-left: 14%;
+    cursor: pointer;
 }
 
 .category_button {
-    width: 39vh;
-    height: 15.7vh;
-    margin: 4vh 0vh 0vh 23vh;
+    width: 70vh;
+    height: 13vh;
     border: none;
+    display: block;
+    background: transparent;
 }
 
 .column {
-    padding-top: 2.5vh;
+    padding-top: 10vh;
 }
 /* Clear floats after the columns */
 .column:after {

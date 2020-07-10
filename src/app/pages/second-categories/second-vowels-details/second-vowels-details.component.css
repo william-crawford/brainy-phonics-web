@@ -1,64 +1,59 @@
 #main-body {
   width: 169.7vh;
   height: 0vh;
-  padding-left: 40vh;
+  padding-left: 23vh;
   position: relative;
 }
 
 #background {
     background-color: #FFFFFF !important;
-    background: url('../../../../assets/img/backgrounds/third_vowels_details.png') no-repeat scroll transparent;
+    background: url('../../../../assets/img/backgrounds/second_vowels_details.png') no-repeat scroll transparent;
     background-position: 14vh 2vh;
-    background-size: 173vh;
+    background-size: auto 100vh;
 }
 
 /* Phonics Categories */
 #short_vowels {
-    background: url('../../../../assets/img/buttons/second_vowels_short.png') no-repeat scroll transparent;
-    background-size: 34vh;
     margin-top: 17vh;
     cursor: pointer;
-    width: 32vh;
+    width: 52vh;
+    margin: 9vh 0vh 0vh 23vh;
 }
 #long_vowels {
-    background: url('../../../../assets/img/buttons/second_vowels_long.png') no-repeat scroll transparent;
-    background-size: 30vh;
-    margin: 17vh 0vh 0vh 7vh;
+    margin: 3vh 0vh 0vh 41vh;
     cursor: pointer;
-    width: 28vh;
+    width: 83vh;
 }
-#schwas {
-    background: url('../../../../assets/img/buttons/second_vowels_schwa.png') no-repeat scroll transparent;
-    background-size: 41vh;
-    margin-left: 3vh;
-    cursor: pointer;
-    width: 39vh;
-}
+
 #vowel_pairs {
-    background: url('../../../../assets/img/buttons/second_vowels_pairs.png') no-repeat scroll transparent;
-    background-size: 33vh;
+    margin: 2vh 0vh 0vh 1vh;
     cursor: pointer;
-    width: 31vh;
+    width: 76vh;
 }
 #y_sounds {
-    background: url('../../../../assets/img/buttons/second_vowels_y.png') no-repeat scroll transparent;
-    background-size: 55.5vh;
-    margin-left: 8vh;
+    margin: 3vh 0vh 0vh 44vh;
     cursor: pointer;
-    width: 54vh;
+    width: 87vh;
 }
 #r {
-    background: url('../../../../assets/img/buttons/second_vowels_r.png') no-repeat scroll transparent;
-    background-size: 38vh;
+    width: 89vh;
+    margin: 2vh 0vh 0vh -5vh;
     cursor: pointer;
-    width: 36vh;
+}
+
+#schwas {
+    margin: 2vh 0vh 0vh 43vh;
+    cursor: pointer;
+    width: 71vh;
 }
 
 .category_button {
     width: 39vh;
-    height: 15.7vh;
+    height: 12.7vh;
     margin: 4vh 0vh 0vh 23vh;
     border: none;
+    display: block;
+    background-color: transparent;
 }
 
 .column {
