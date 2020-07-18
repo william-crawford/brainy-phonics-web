@@ -35,7 +35,19 @@ export class LoginComponent implements OnInit {
   }
 
   onImg(img) {
-    if (this.selectedImg.length < 5) {
+    if(this.selectedImg.includes(undefined)){
+      console.log('go')
+      for (let index = 0; index <= this.selectedImg.length; index++) {
+        console.log( index, this.selectedImg[index])
+        if(this.selectedImg[index] === undefined) {
+          this.selectedImg[index] = img;
+          var temp = <HTMLElement>document.getElementsByClassName('placeholder')[index];
+          temp.style.border = 'white solid';
+          temp.style.background = 'white';
+          break;
+        }
+      }
+    } else if (this.selectedImg.length < 5) {
       // Remove dotted border
       var temp = <HTMLElement>document.getElementsByClassName('placeholder')[this.selectedImg.length];
       temp.style.border = 'white solid';
@@ -44,14 +56,12 @@ export class LoginComponent implements OnInit {
       // Add letter to passcode
       this.selectedImg.push(img);
     }
+    console.log(this.selectedImg);
   }
 
   onSelected(img) {
     // Remove letter from passcode
     const index = this.selectedImg.indexOf(img);
-    if (index === this.selectedImg.length - 1) {
-      this.selectedImg.length--;
-    }
     delete this.selectedImg[index];
 
     // Remove dotted border
