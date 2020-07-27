@@ -71,11 +71,8 @@ export class PhonemeLearnComponent implements OnInit, OnDestroy, AfterViewInit {
     }
 
     showQuiz() {
-        if (this.capital) {
-            this.router.navigate(['phoneme-quiz'], {queryParams: {capital: true}});
-        } else {
-            this.router.navigateByUrl('/phoneme-quiz');
-        }
+        this.transferService.setData(this.phoneme)
+        this.router.navigate(['phoneme-quiz'], {queryParams: {capital: true}});
     }
 
     ngOnInit() {
