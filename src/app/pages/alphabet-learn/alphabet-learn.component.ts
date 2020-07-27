@@ -57,8 +57,10 @@ export class AlphabetLearnComponent implements OnInit, OnDestroy, AfterViewInit 
     }
     
     ngOnDestroy() {
-        this.letterAudio.pause();
-        this.letterAudio = null;
+        if(this.letterAudio.src !== undefined){
+            this.letterAudio.pause();
+            this.letterAudio = null;
+        }
     }
 
     playAudio() {

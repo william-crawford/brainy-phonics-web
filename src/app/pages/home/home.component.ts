@@ -35,8 +35,10 @@ export class HomeComponent {
 
   stopAudio() {
     this.hovering = false;
-    this.audio.pause();
-    this.audio.currentTime = 0.0;
+    if(this.audio.src !== undefined){
+      this.audio.pause();
+      this.audio.currentTime = 0.0;
+    }
     clearTimeout(this.timer)
   }
 }

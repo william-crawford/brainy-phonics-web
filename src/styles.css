@@ -71,3 +71,36 @@ html, body {
 html *{
    font-family: 'ComicSans' !important;
 }
+
+.quiz-animation {
+    -webkit-animation: pulsate-fwd 1.5s ease-in-out infinite both;
+        animation: pulsate-fwd 1.5s ease-in-out infinite both;
+  }
+  @-webkit-keyframes pulsate-fwd {
+    0% {
+      -webkit-transform: scale(1);
+          transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(1.07);
+          transform: scale(1.07);
+    }
+    100% {
+      -webkit-transform: scale(1);
+          transform: scale(1);
+    }
+    }
+    @keyframes pulsate-fwd {
+    0% {
+      -webkit-transform: scale(1);
+          transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(1.07);
+          transform: scale(1.07);
+    }
+    100% {
+      -webkit-transform: scale(1);
+          transform: scale(1);
+    }
+  }
