@@ -2,19 +2,19 @@
     <div id='main-body'>
         <div class='container'>
             <div class='row'>
-                <button mat-icon-button class='button' id='pre-k' (mouseenter)='playAudio($event)' routerLink='/prek-categories'></button>
-                <button mat-icon-button class='button' id='kindergarten' (mouseenter)='playAudio($event)' routerLink='/k-categories'></button>
+                <button mat-icon-button class='button' id='pre-k' (mouseenter)='playAudio($event)' (mouseleave)='stopAudio()'  routerLink='/prek-categories'></button>
+                <button mat-icon-button class='button' id='kindergarten' (mouseenter)='playAudio($event)' (mouseleave)='stopAudio()'  routerLink='/k-categories'></button>
             </div>
             <div class='row'>
-                <button mat-icon-button class='button' id='first' (mouseenter)='playAudio($event)' routerLink='/first-categories'></button>
-                <button mat-icon-button class='button' id='second' (mouseenter)='playAudio($event)' routerLink='/second-categories'></button>
-                <button mat-icon-button class='button' id='third' (mouseenter)='playAudio($event)' routerLink='/third-categories'></button>
+                <button mat-icon-button class='button' id='first' (mouseenter)='playAudio($event)' (mouseleave)='stopAudio()'  routerLink='/first-categories'></button>
+                <button mat-icon-button class='button' id='second' (mouseenter)='playAudio($event)' (mouseleave)='stopAudio()'  routerLink='/second-categories'></button>
+                <button mat-icon-button class='button' id='third' (mouseenter)='playAudio($event)' (mouseleave)='stopAudio()'  routerLink='/third-categories'></button>
             </div>
             <div class='row'>
-                <button mat-icon-button class='button' id='phonics' (mouseenter)='playAudio($event)' routerLink='/phoneme-categories'></button>
-                <button mat-icon-button class='button' id='word-structures' (mouseenter)='playAudio($event)' routerLink='/word-structures'></button>
-                <button mat-icon-button class='button' id='nobodys-better' (mouseenter)='playAudio($event)' routerLink='/nobodys-better'></button>
-                <button mat-icon-button class='button' id='secret-stuff' (mouseenter)='playAudio($event)' routerLink='/secret-stuff'></button>
+                <button mat-icon-button class='button' id='phonics' (mouseenter)='playAudio($event)' (mouseleave)='stopAudio()'  routerLink='/phoneme-categories'></button>
+                <button mat-icon-button class='button' id='word-structures' (mouseenter)='playAudio($event)' (mouseleave)='stopAudio()'  routerLink='/word-structures'></button>
+                <button mat-icon-button class='button' id='nobodys-better' (mouseenter)='playAudio($event)' (mouseleave)='stopAudio()'  routerLink='/nobodys-better'></button>
+                <button mat-icon-button class='button' id='secret-stuff' (mouseenter)='playAudio($event)' (mouseleave)='stopAudio()'  routerLink='/secret-stuff'></button>
             </div>
         </div>
     </div>

@@ -7,26 +7,36 @@ import {Component} from '@angular/core';
 
 export class HomeComponent {
   audio: HTMLAudioElement;
+  hovering: boolean;
+  timer: any;
 
   constructor() {
-
+    
   }
 
+ 
   playAudio(event) {
-    if (event.target.id === 'secret-stuff') {
-      this.audio = new Audio();
-        this.audio.src = '/assets/audio/buttons/' + event.target.id + '.m4a';
-        if (this.audio.src !== undefined) {
-            this.audio.load();
-            this.audio.play();
+    this.hovering = true;
+    this.timer = setTimeout( () =>  {
+      if (this.hovering) {
+        this.audio = new Audio();
+        if (event.target.id === 'secret-stuff') {
+          this.audio.src = '/assets/audio/buttons/' + event.target.id + '.m4a';
+        } else {
+          this.audio.src = '/assets/audio/buttons/' + event.target.id + '.mp3';
         }
-    } else {
-      this.audio = new Audio();
-        this.audio.src = '/assets/audio/buttons/' + event.target.id + '.mp3';
         if (this.audio.src !== undefined) {
-            this.audio.load();
-            this.audio.play();
+          this.audio.load();
+          this.audio.play();
         }
-    }
+      }
+    }, 400);
+  }
+
+  stopAudio() {
+    this.hovering = false;
+    this.audio.pause();
+    this.audio.currentTime = 0.0;
+    clearTimeout(this.timer)
   }
 }
