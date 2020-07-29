@@ -320,7 +320,7 @@
     },
     {
         "id": "A-AR-long",
-        "audio": "phoneme-A-AR-long.m4a",
+        "audio": "phoneme-A-AR-long.mp3",
         "display": "ar",
         "word1": {
             "word": "bare",
@@ -4248,7 +4248,7 @@
             "all": "black",
             "K": "black"
         },
-        "rhyme": "A grizzly bea(r) might roa(r) a roa(rrrrrr),<br>A pola(r) bear might growl b(rrrrrr).<br>A chimp might blubbe(r) a bbbbbbbb<br>My grandpa su(r)e does sno(r)e a sno(rrrrrr)e.",
+        "rhyme": "A grizzly bea(r) might roa(r) a roa(rrrrrr),<br>A pola(r) bear might growl b(rrrrrr).<br>A chimp might blubbe(r) a bbbbbbbb<br>My grandpa su(r)e would sno(r)e a sno(rrrrrr)e.",
         "category": ["C-end", "C"],
         "grade": ["K", "1st", "2nd", "3rd"]
     },
@@ -4446,19 +4446,19 @@
         "display": "scr",
         "word1": {
             "word": "scrub",
-            "display": "<span>sc</span>rub",
+            "display": "<span>scr</span>ub",
             "audio": "scrub.mp3",
             "image": "scrub.png"
         },
         "word2": {
             "word": "scratch",
-            "display": "<span>sc</span>ratch",
+            "display": "<span>scr</span>atch",
             "audio": "scratch.mp3",
             "image": "scratch.png"
         },
         "word3": {
             "word": "scream",
-            "display": "<span>sc</span>ream",
+            "display": "<span>scr</span>eam",
             "audio": "scream.mp3",
             "image": "scream.png"
         },
@@ -4779,19 +4779,19 @@
         "display": "spl",
         "word1": {
             "word": "split",
-            "display": "<span>sp</span>lit",
+            "display": "<span>spl</span>it",
             "audio": "split.mp3",
             "image": "split.png"
         },
         "word2": {
             "word": "splat",
-            "display": "<span>sp</span>lat",
+            "display": "<span>spl</span>at",
             "audio": "splat.mp3",
             "image": "splat.png"
         },
         "word3": {
             "word": "splash",
-            "display": "<span>sp</span>lash",
+            "display": "<span>spl</span>ash",
             "audio": "splash.mp3",
             "image": "splash.png"
         },
@@ -4816,19 +4816,19 @@
         "display": "spr",
         "word1": {
             "word": "spread",
-            "display": "<span>sp</span>read",
+            "display": "<span>spr</span>ead",
             "audio": "spread.mp3",
             "image": "spread.png"
         },
         "word2": {
             "word": "spruce",
-            "display": "<span>sp</span>ruce",
+            "display": "<span>spr</span>uce",
             "audio": "spruce.mp3",
             "image": "spruce.png"
         },
         "word3": {
             "word": "sprain",
-            "display": "<span>sp</span>rain",
+            "display": "<span>spr</span>ain",
             "audio": "sprain.mp3",
             "image": "sprain.png"
         },
@@ -4880,7 +4880,7 @@
             "all": "black",
             "1st": "black"
         },
-        "rhyme": "Robin and Richard<br>Were two lazy men;<br>They (st)ayed in bed<br>Till the clock (st)ruck ten.<br>Then up jumps Robin<br>And looks at the sky:<br>\u201cOh, brother Richard,<br>The sun\u2019s very high.<br>You walk fir(st)<br>With the bottle and bag,<br>And I\u2019ll ride later<br>On the gray horse nag.\u201d<br>",
+        "rhyme": "Robin and Richard<br>Were two lazy men;<br>They (st)ayed in bed<br>Till the clock (st)ruck ten.<br>Then up jumps Robin<br>And looks at the sky:<br>\u201cOh, brother Richard,<br>The sun\u2019s very high.<br>You walk first<br>With the bottle and bag,<br>And I\u2019ll ride later<br>On the gray horse nag.\u201d<br>",
         "category": ["CB-begin", "CB", "C"],
         "grade": ["1st", "2nd", "3rd"]
     },
