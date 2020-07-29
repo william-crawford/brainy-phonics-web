@@ -415,6 +415,13 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
             }
         }
     }
+    goToPuzzle() {
+        console.log('go to puzzle')
+        if (this.phoneme.puzzlePiecesEarned == 12) {
+            this.transferService.setData(this.phoneme);
+            this.router.navigate(['puzzle'], { queryParams: { 'from': 'quiz' } });
+        }
+    }
 
     loadNew() {
         this.correctAnswer = Math.floor(Math.random() * 3);
@@ -726,6 +733,12 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
             }
         }
         this.phonemeProgressService.addIncorrectAnswer('phoneme' + this.phoneme.id);
+
+        if (this.numberOfAttempts == 2) {
+            // delay(200).then(() => {
+            //     this.loadNew();
+            // });
+        }
     }
 
 
@@ -735,7 +748,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
             'Authorization': `Bearer ${this.storage.get('token')}`
         })
 
-        return this.http.post('https://teacherportal.hearatale.com/api/analytics/application', {
+        return this.http.post('http://localhost:3000/api/analytics/application', {
             student: this.storage.get('user_id'),
             program: '5f087dc650084d0851a04b5b',
             focus_item_name: `phoneme_${phonemeId}`,

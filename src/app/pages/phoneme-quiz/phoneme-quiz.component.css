@@ -35,6 +35,10 @@
     background-color: #d3ecee;
 }
 
+.puzzle-completed {
+    cursor: pointer;
+}
+
 .puzzle-image {
     position: absolute;
     top: 0;

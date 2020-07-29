@@ -3,7 +3,7 @@
         <div class='row'>
             <div class='column puzzle-pane'>
                 <div class='letter' [ngClass]="{'animate': phonemeAnimate}" (click)='playPhonemeAudio()'>{{phoneme.display}}</div>
-                <div class='puzzle'>
+                <div class='puzzle' (click)='goToPuzzle()' [ngClass]="{'puzzle-completed':phoneme.puzzlePiecesEarned == 12 }">
                     <img *ngFor='let image of puzzlePieceImages; let i = index' class='puzzle-image' src={{image}} [ngClass]="{'visible':phoneme.puzzlePiecesEarned > i, 'animate-puzzle': puzzleAnimate && phoneme.puzzlePiecesEarned <= i + piecesToAnimate, 'animate-default': !puzzleAnimate}"><br>
                 </div>
             </div>
