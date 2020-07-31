@@ -10,6 +10,7 @@ import badExamples from '../../../assets/json/bad-assets.json';
 import schwas from '../../../assets/json/incorrect-schwas.json';
 import {Location} from '@angular/common';
 import {Phoneme} from '../../types/phoneme';
+import {AlphabetLetter} from '../../types/alphabet-letter';
 import {PhonemesService} from '../../services/phonemes.service';
 import {ChangeDetectorRef} from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
@@ -81,6 +82,7 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
     numberOfAttempts: number;
     answerStartTime: number;
     correctAnswerValue: String;
+    correctAnswerToDisplay: String;
 
     constructor(
         @Inject(SESSION_STORAGE) private storage: WebStorageService, 
@@ -212,6 +214,8 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
         examples[this.correctAnswer] = examples[0];
         this.correctAnswerValue = examples[this.correctAnswer];
         examples[0] = temp;
+        
+        this.correctAnswerToDisplay = this.generateDisplayAnswer();
 
         this.img1 = '/assets/img/sight-words/' + examples[0].replace(/\s/g, '') + '.png';
         this.img2 = '/assets/img/sight-words/' + examples[1].replace(/\s/g, '') + '.png';
@@ -259,6 +263,19 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
         // Analytics
         this.numberOfAttempts = 0;
         this.answerStartTime = Date.now();
+    }
+
+    generateDisplayAnswer() {
+        var word = this.correctAnswerValue;
+        var pos = word.indexOf(this.phoneme.display);
+        var length = this.phoneme.display.length
+        if(pos === 0) {
+            var temp = word.substr(pos+length);
+            return `(<span>${ this.phoneme.display}</span>)${temp}`
+        } else {
+            var temp = word.substr(0,pos);
+            return `${temp}(<span>${ this.phoneme.display}</span>)`
+        }    
     }
 
     ngAfterViewInit() {
@@ -430,7 +447,9 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
         var temp = examples[this.correctAnswer];
         examples[this.correctAnswer] = examples[0];
         examples[0] = temp;
-
+        
+        this.correctAnswerToDisplay = this.generateDisplayAnswer();
+        
         this.img1 = '/assets/img/sight-words/' + examples[0] + '.png';
         this.img2 = '/assets/img/sight-words/' + examples[1] + '.png';
         this.img3 = '/assets/img/sight-words/' + examples[2] + '.png';

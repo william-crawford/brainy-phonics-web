@@ -11,18 +11,21 @@
                 <div class='row'>
                     <div [ngClass]="{'animate': ex1Animate, 'animateEx1': ex1CorrectAnimate, 'ex-temp2': ex2CorrectAnimate, 'ex-temp3': ex3CorrectAnimate}">
         				<img src={{img1}} class='word-image word-image-top' (click)='onClick1()'>
-        				<br>
+                        <br>
+                        <span class="answer" [ngClass]="{'show-answer': ex1CorrectAnimate }"  [innerHTML]="correctAnswerToDisplay"></span>
         			</div>
                 </div>
 
     			<div class='column' [ngClass]="{'animate': ex2Animate, 'animateEx2': ex2CorrectAnimate, 'ex-temp1': ex1CorrectAnimate, 'ex-temp3': ex3CorrectAnimate}">
     				<img src={{img2}} class='word-image word-image-bottom' (click)='onClick2()'>
-    				<br>
+                    <br>
+                    <span class="answer" [ngClass]="{'show-answer': ex2CorrectAnimate }" [innerHTML]="correctAnswerToDisplay" ></span>
                 </div>
 
     			<div class='column' [ngClass]="{'animate': ex3Animate, 'animateEx3': ex3CorrectAnimate, 'ex-temp1': ex1CorrectAnimate, 'ex-temp2': ex2CorrectAnimate}">
     				<img src={{img3}} class='word-image word-image-bottom' (click)='onClick3()'>
-    				<br>
+                    <br>
+                    <span class="answer"  [ngClass]="{'show-answer': ex3CorrectAnimate }" [innerHTML]="correctAnswerToDisplay" ></span>
     			</div>
             </div>
         </div>

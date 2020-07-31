@@ -156,3 +156,16 @@ p {
     background: url('../../../assets/img/buttons/forward.png') no-repeat scroll 0 0 transparent;
     background-size: 9.5vh 9.5vh;
 }
+
+.answer {
+  display: none;
+  text-align: center;
+  color: black;
+}
+.answer > span{
+  color: red;
+}
+
+.show-answer {
+  display: block;
+}
