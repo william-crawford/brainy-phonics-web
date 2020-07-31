@@ -754,9 +754,17 @@ export class PhonemeQuizComponent implements OnInit, OnDestroy, AfterViewInit {
         this.phonemeProgressService.addIncorrectAnswer('phoneme' + this.phoneme.id);
 
         if (this.numberOfAttempts == 2) {
-            // delay(200).then(() => {
-            //     this.loadNew();
-            // });
+            
+            const currentIndex = this.transferService.getList().findIndex((value: Phoneme | AlphabetLetter) => {
+                return (value as Phoneme).id === this.phoneme.id;
+            });
+            if (currentIndex === this.transferService.getList().length - 1) {
+                this.phoneme = this.transferService.getList()[0] as Phoneme;
+            } else {
+                this.phoneme = this.transferService.getList()[currentIndex + 1] as Phoneme;
+            }
+            this.ngOnInit()
+            this.loadNew();
         }
     }
 
