@@ -1,15 +1,3 @@
-#main-body {
-    width: 169.7vh;
-    height: 0vh;
-    padding-left: 40vh;
-    position: relative;
-  }
-  
-  #background {
-      background-color: #FFFFFF !important;
-  }
-
-  img {
-      height: 30vh;
-      margin: 30vh 0vh 0vh 10vh;
-  }
+:host {
+  display: flex;
+}

@@ -1,0 +1,33 @@
+:host {
+  text-align: center;
+}
+
+.category__button-container {
+  width: 75vw;
+  margin: auto;
+}
+
+.category__title {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.category__button {
+  border: 3px solid black;
+  border-radius: 15px;
+  margin: 0.5rem 1rem;
+  min-height: 9.25rem;
+  vertical-align: middle;
+}
+
+.category__text {
+  font-size: 2rem;
+  margin: 0 0 0.5rem 0;
+  min-width: 12.5rem;
+}
+
+.last-row-button {
+  background-color: var(--red);
+  font-size: 3rem;
+  width: 75%;
+}

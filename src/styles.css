@@ -1,106 +1,115 @@
 /* You can add global styles to this file, and also import other style files */
-html, body {
-    margin: 0;
-    padding: 0;
-    border: 0;
+@import './styles/colors.css';
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 #background {
-    width: 100vw;
-    height: 100vh;
-    background-color: #6EC7D4;
-    margin: auto;
-    overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-color: #6ec7d4;
+  margin: auto;
+  overflow: hidden;
 }
 
 #side-menu {
-    width: 17vh;
-    height: 91vh;
-    background-color: #C4E8E6;
-    padding: 4.5vh 0;
-    position: relative;
+  width: 17vh;
+  height: 91vh;
+  background-color: #c4e8e6;
+  padding: 4.5vh 0;
+  position: relative;
 }
 
 .icon {
-    width: 9.5vh;
-    height: 9.5vh;
-    display: block;
-    position: absolute;
-    margin-left: 3.8vh;
-    cursor: pointer;
-    margin-bottom: 3.5vh;
-    border: none;
+  width: 9.5vh;
+  height: 9.5vh;
+  display: block;
+  position: absolute;
+  margin-left: 3.8vh;
+  cursor: pointer;
+  margin-bottom: 3.5vh;
+  border: none;
 }
 
 /* Side Menu Icons */
 #home {
-    background: url('./assets/img/buttons/home.png') no-repeat scroll 0 0 transparent;
-    background-size: 9.5vh 9.5vh;
-    top: 16.5vh;
+  background: url('./assets/img/buttons/home.png') no-repeat scroll 0 0
+    transparent;
+  background-size: 9.5vh 9.5vh;
+  top: 16.5vh;
 }
 #back {
-    background: url('./assets/img/buttons/back.png') no-repeat scroll 0 0 transparent;
-    background-size: 9.5vh 9.5vh;
+  background: url('./assets/img/buttons/back.png') no-repeat scroll 0 0
+    transparent;
+  background-size: 9.5vh 9.5vh;
 }
 #quiz {
-    background: url('./assets/img/buttons/quiz.png') no-repeat scroll 0 0 transparent;
-    background-size: 9.5vh 9.5vh;
-    bottom: 39.5vh;
+  background: url('./assets/img/buttons/quiz.png') no-repeat scroll 0 0
+    transparent;
+  background-size: 9.5vh 9.5vh;
+  bottom: 39.5vh;
 }
 #repeat {
-    background: url('./assets/img/buttons/repeat.png') no-repeat scroll 0 0 transparent;
-    background-size: 9.5vh 9.5vh;
-    bottom: 26.5vh;
+  background: url('./assets/img/buttons/repeat.png') no-repeat scroll 0 0
+    transparent;
+  background-size: 9.5vh 9.5vh;
+  bottom: 26.5vh;
 }
 #bank {
-    background: url('./assets/img/buttons/bank.png') no-repeat scroll 0 0 transparent;
-    background-size: 9.5vh 9.5vh;
-    bottom: 13.5vh;
+  background: url('./assets/img/buttons/bank.png') no-repeat scroll 0 0
+    transparent;
+  background-size: 9.5vh 9.5vh;
+  bottom: 13.5vh;
 }
 #puzzle {
-    background: url('./assets/img/buttons/puzzle.png') no-repeat scroll 0 0 transparent;
-    background-size: 9.5vh 9.5vh;
-    bottom: 0.5vh;
+  background: url('./assets/img/buttons/puzzle.png') no-repeat scroll 0 0
+    transparent;
+  background-size: 9.5vh 9.5vh;
+  bottom: 0.5vh;
 }
 
 /* Text */
 @font-face {
-    font-family: 'ComicSans';
-    src: url('./assets/fonts/comic-sans.ttf');
+  font-family: 'ComicSans';
+  src: url('./assets/fonts/comic-sans.ttf');
 }
-html *{
-   font-family: 'ComicSans' !important;
+html * {
+  font-family: 'ComicSans' !important;
 }
 
 .quiz-animation {
-    -webkit-animation: pulsate-fwd 1.5s ease-in-out infinite both;
-        animation: pulsate-fwd 1.5s ease-in-out infinite both;
+  -webkit-animation: pulsate-fwd 1.5s ease-in-out infinite both;
+  animation: pulsate-fwd 1.5s ease-in-out infinite both;
+}
+@-webkit-keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
-  @-webkit-keyframes pulsate-fwd {
-    0% {
-      -webkit-transform: scale(1);
-          transform: scale(1);
-    }
-    50% {
-      -webkit-transform: scale(1.07);
-          transform: scale(1.07);
-    }
-    100% {
-      -webkit-transform: scale(1);
-          transform: scale(1);
-    }
-    }
-    @keyframes pulsate-fwd {
-    0% {
-      -webkit-transform: scale(1);
-          transform: scale(1);
-    }
-    50% {
-      -webkit-transform: scale(1.07);
-          transform: scale(1.07);
-    }
-    100% {
-      -webkit-transform: scale(1);
-          transform: scale(1);
-    }
+  50% {
+    -webkit-transform: scale(1.07);
+    transform: scale(1.07);
   }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.07);
+    transform: scale(1.07);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
