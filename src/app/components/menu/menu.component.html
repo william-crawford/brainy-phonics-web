@@ -1,0 +1,13 @@
+<h1 class="menu__title">Word Structures</h1>
+<div class="buttons-container">
+  <button
+    class="menu__button"
+    *ngFor="let menu of menuList; index as i"
+    [style.background-color]="bgColor(menu.color)"
+  >
+    <h2 class="menu__text" [innerHTML]="addIndexText(i, menu.text)"></h2>
+  </button>
+  <button class="menu__button--last-row">
+    Figures of Speech
+  </button>
+</div>

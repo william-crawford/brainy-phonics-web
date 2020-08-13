@@ -1,13 +1,14 @@
 import { BgColor } from 'src/app/types/enum';
 import { Component } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-categories',
-  templateUrl: './categories.component.html',
-  styleUrls: ['./categories.component.css']
+  selector: 'app-menu',
+  templateUrl: './menu.component.html',
+  styleUrls: ['./menu.component.css']
 })
-export class CategoriesComponent {
-  categories = [
+export class MenuComponent {
+  menuList = [
     { text: 'Base Word and Endings<br>ed ing', color: BgColor.LightGreen },
     { text: 'Base Words and Endings<br>s es', color: BgColor.Green },
     { text: 'Comparative<br>Endings', color: BgColor.LightYellow },
@@ -20,11 +21,13 @@ export class CategoriesComponent {
     { text: 'Syllables', color: BgColor.Orange }
   ];
 
-  indexCategory(index: number, text: string) {
+  constructor(private sanitizer: DomSanitizer) {}
+
+  addIndexText(index: number, text: string) {
     return `${index + 1}<br>${text}`;
   }
 
   bgColor(color: string) {
-    return { 'background-color': `var(${color})` };
+    return this.sanitizer.bypassSecurityTrustStyle(`var(${color})`);
   }
 }

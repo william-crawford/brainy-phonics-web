@@ -3,7 +3,6 @@ import { AlphabetQuizComponent } from './pages/alphabet-quiz';
 import { AppComponent } from './app.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { CardComponent } from './components/card/card.component';
-import { CategoriesComponent } from './components/categories/categories.component';
 import { CoinsComponent } from './pages/coins/coins.component';
 import { FirstCategoriesComponent } from './pages/first-categories/first-categories.component';
 import { FirstConsonantsDetailsComponent } from './pages/first-categories/first-consonants-details/first-consonants-details.component';
@@ -18,6 +17,7 @@ import { KEndingSoundsDetailsComponent } from './pages/k-categories/k-ending-sou
 import { KLettersDetailsComponent } from './pages/k-categories/k-letters-details';
 import { ListSelectComponent } from './pages/list-select/list-select.component';
 import { LoginComponent } from './pages/login';
+import { MenuComponent } from './components/menu/menu.component';
 import { NgModule } from '@angular/core';
 import { NobodysBetterComponent } from './pages/nobodys-better/nobodys-better.component';
 import { PhonemeCategoriesComponent } from './pages/phoneme-categories';
@@ -72,7 +72,7 @@ import { appRoutingModule } from './app.routing';
     SecretStuffComponent,
     LoginComponent,
     WordStructuresComponent,
-    CategoriesComponent
+    MenuComponent
   ],
   imports: [
     BrowserModule,
