@@ -9,7 +9,7 @@ import { DomSanitizer } from '@angular/platform-browser';
 })
 export class MenuComponent {
   menuList = [
-    { text: 'Base Word and Endings<br>ed ing', color: BgColor.LightGreen },
+    { text: 'Base Words and Endings<br>ed ing', color: BgColor.LightGreen },
     { text: 'Base Words and Endings<br>s es', color: BgColor.Green },
     { text: 'Comparative<br>Endings', color: BgColor.LightYellow },
     { text: 'Plurals', color: BgColor.Brown },
