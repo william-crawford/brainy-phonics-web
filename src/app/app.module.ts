@@ -17,7 +17,6 @@ import { KEndingSoundsDetailsComponent } from './pages/k-categories/k-ending-sou
 import { KLettersDetailsComponent } from './pages/k-categories/k-letters-details';
 import { ListSelectComponent } from './pages/list-select/list-select.component';
 import { LoginComponent } from './pages/login';
-import { MenuComponent } from './components/menu/menu.component';
 import { NgModule } from '@angular/core';
 import { NobodysBetterComponent } from './pages/nobodys-better/nobodys-better.component';
 import { PhonemeCategoriesComponent } from './pages/phoneme-categories';
@@ -35,7 +34,7 @@ import { ThirdCategoriesComponent } from './pages/third-categories';
 import { ThirdConsonantsDetailsComponent } from './pages/third-categories/third-consonants-details';
 import { ThirdVowelconsonantsDetailsComponent } from './pages/third-categories/third-vowelconsonants-details';
 import { ThirdVowelsDetailsComponent } from './pages/third-categories/third-vowels-details';
-import { WordStructuresComponent } from './pages/word-structures';
+import { WordStructuresModule } from './pages/word-structures/word-structures.module';
 import { appRoutingModule } from './app.routing';
 
 @NgModule({
@@ -70,16 +69,15 @@ import { appRoutingModule } from './app.routing';
     FirstVowelsDetailsComponent,
     NobodysBetterComponent,
     SecretStuffComponent,
-    LoginComponent,
-    WordStructuresComponent,
-    MenuComponent
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     appRoutingModule,
     FlexLayoutModule,
     StorageServiceModule,
-    HttpClientModule
+    HttpClientModule,
+    WordStructuresModule
   ],
   bootstrap: [AppComponent]
 })
