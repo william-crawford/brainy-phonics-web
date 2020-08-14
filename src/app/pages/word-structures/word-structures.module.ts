@@ -12,7 +12,8 @@ const routes: Routes = [
     component: WordStructuresComponent,
     children: [
       { path: '', component: MenuComponent },
-      { path: 'learn', component: LearnComponent }
+      { path: 'learn', component: LearnComponent },
+      { path: 'figures-of-speech', component: MenuComponent }
     ]
   }
 ];

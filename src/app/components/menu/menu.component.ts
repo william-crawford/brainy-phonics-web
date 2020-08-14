@@ -1,27 +1,27 @@
-import { BgColor } from 'src/app/types/enum';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+
 import { DomSanitizer } from '@angular/platform-browser';
+import { Location } from '@angular/common';
+import { Menu } from './menu.model';
+import { MenuOptions } from './menu.options';
 
 @Component({
   selector: 'app-menu',
   templateUrl: './menu.component.html',
   styleUrls: ['./menu.component.css']
 })
-export class MenuComponent {
-  menuList = [
-    { text: 'Base Words and Endings<br>ed ing', color: BgColor.LightGreen },
-    { text: 'Base Words and Endings<br>s es', color: BgColor.Green },
-    { text: 'Comparative<br>Endings', color: BgColor.LightYellow },
-    { text: 'Plurals', color: BgColor.Brown },
-    { text: 'Possessives', color: BgColor.Pink },
-    { text: 'Contractions', color: BgColor.LightOrange },
-    { text: 'Compound<br>Words', color: BgColor.Purple },
-    { text: 'Prefixes', color: BgColor.Blue },
-    { text: 'Suffixes', color: BgColor.Yellow },
-    { text: 'Syllables', color: BgColor.Orange }
-  ];
+export class MenuComponent implements OnInit {
+  isWSMenu: boolean;
+  menu: Menu;
 
-  constructor(private sanitizer: DomSanitizer) {}
+  constructor(private sanitizer: DomSanitizer, private location: Location) {}
+
+  ngOnInit() {
+    this.isWSMenu = this.getMenuType();
+    this.menu = this.isWSMenu
+      ? MenuOptions.wordStructures
+      : MenuOptions.figuresOfSpeech;
+  }
 
   addIndexText(index: number, text: string) {
     return `${index + 1}<br>${text}`;
@@ -29,5 +29,9 @@ export class MenuComponent {
 
   bgColor(color: string) {
     return this.sanitizer.bypassSecurityTrustStyle(`var(${color})`);
+  }
+
+  getMenuType() {
+    return !this.location.path().includes('figures-of-speech');
   }
 }

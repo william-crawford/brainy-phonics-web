@@ -12,6 +12,12 @@
   margin: 0;
 }
 
+.menu_subtitle {
+  font-size: 2rem;
+  font-style: italic;
+  margin: 0;
+}
+
 [class*='menu__button'] {
   border: 3px solid black;
   border-radius: 15px;

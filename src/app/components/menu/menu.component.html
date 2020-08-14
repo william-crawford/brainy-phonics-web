@@ -1,14 +1,21 @@
-<h1 class="menu__title">Word Structures</h1>
+<h1 class="menu__title">{{ menu.title }}</h1>
+<h2 *ngIf="!isWSMenu" class="menu_subtitle">
+  {{ menu.subtitle }}
+</h2>
 <div class="buttons-container">
   <button
     class="menu__button"
     routerLink="learn"
-    *ngFor="let menu of menuList; index as i"
-    [style.background-color]="bgColor(menu.color)"
+    *ngFor="let option of menu.options; index as i"
+    [style.background-color]="bgColor(option.color)"
   >
-    <h2 class="menu__text" [innerHTML]="addIndexText(i, menu.text)"></h2>
+    <h2 class="menu__text" [innerHTML]="addIndexText(i, option.text)"></h2>
   </button>
-  <button class="menu__button--last-row">
+  <button
+    *ngIf="isWSMenu"
+    class="menu__button--last-row"
+    routerLink="figures-of-speech"
+  >
     Figures of Speech
   </button>
 </div>
