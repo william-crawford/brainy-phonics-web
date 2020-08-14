@@ -1,7 +1,5 @@
-import {Injectable, Inject} from '@angular/core';
-import {SESSION_STORAGE, WebStorageService} from 'angular-webstorage-service';
-import {UserService} from './user-service.service';
-import { HttpClient } from '@angular/common/http';
+import { Injectable, Inject } from '@angular/core';
+import { SESSION_STORAGE, WebStorageService } from 'angular-webstorage-service';
 
 const coinKey = 'COINS';
 const completePuzzlesKey = 'COMPLETED_PUZZLES';
@@ -12,14 +10,8 @@ const dateKey = 'DATE_LAST_SESSION';
 @Injectable({
   providedIn: 'root'
 })
-
 export class ProgressService {
-
-  constructor(
-    @Inject(SESSION_STORAGE) private storage: WebStorageService, 
-    private userService: UserService,
-    private http: HttpClient
-  ) {
+  constructor(@Inject(SESSION_STORAGE) private storage: WebStorageService) {
     this.storage.set('hasReceivedPhonemeInstruction', false);
     this.storage.set('hasReceivedAlphabetInstruction', false);
   }
@@ -29,20 +21,20 @@ export class ProgressService {
   }
 
   setReceivedInstructions(key, hasRecInstructions) {
-    this.storage.set(key, hasRecInstructions); 
+    this.storage.set(key, hasRecInstructions);
   }
 
   //initial each input with { stars: 0, active: false, checkmark: false }
   prepareNewKeyProgress(): any {
     return {
-      'gold_stars': 0,
-      'silver_stars': 0,
-      'active': true,
-      'checkmark': false,
-      'coins': 0,
-      'puzzle_pieces': 0,
-      'incorrect_answers': 0
-    }
+      gold_stars: 0,
+      silver_stars: 0,
+      active: true,
+      checkmark: false,
+      coins: 0,
+      puzzle_pieces: 0,
+      incorrect_answers: 0
+    };
   }
 
   getCheckMark(key): any {
@@ -57,28 +49,27 @@ export class ProgressService {
     let input;
     if (this.storage.get(key) != null) {
       input = this.storage.get(key);
-      input.gold_stars = 5
-      input.silver_stars = 0,
-      input.active = this.storage.get(key).active;
+      input.gold_stars = 5;
+      (input.silver_stars = 0), (input.active = this.storage.get(key).active);
       input.checkmark = val;
     }
     return this.storage.set(key, input);
   }
 
   saveStarsToKey(key, val): void {
-    let actualKey = key.slice(0, -4)
+    let actualKey = key.slice(0, -4);
     let input;
     if (this.storage.get(actualKey) == null) {
       input = this.prepareNewKeyProgress();
-      if (key.includes("gold")) {
+      if (key.includes('gold')) {
         input.gold_stars += val;
       } else {
         input.silver_stars += val;
       }
     } else {
       input = this.storage.get(actualKey);
-      if (key.includes("gold")) {
-        if (input.gold_stars + val >= 5 && actualKey.includes("letter")) {
+      if (key.includes('gold')) {
+        if (input.gold_stars + val >= 5 && actualKey.includes('letter')) {
           input.checkmark = true;
           input.gold_stars = 5;
         } else if (input.gold_stars + val >= 5) {
@@ -163,7 +154,7 @@ export class ProgressService {
 
       if (input.puzzle_pieces >= 12) {
         input.puzzle_pieces = 12;
-        if (!(this.getPuzzles().includes(puzzlePhoneme))) {
+        if (!this.getPuzzles().includes(puzzlePhoneme)) {
           this.savePuzzle(puzzlePhoneme);
         }
       }
