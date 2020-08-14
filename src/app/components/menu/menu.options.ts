@@ -14,18 +14,18 @@ export const MenuOptions: Options = {
     options: [
       { text: 'synonyms', color: BgColor.Yellow },
       { text: 'antonyms', color: BgColor.Pink },
-      { text: 'homophones', color: BgColor.LightYellow },
+      { text: 'homophones', color: BgColor.YellowGreen },
       { text: 'puns', color: BgColor.Orange },
-      { text: 'homographs', color: BgColor.Pink },
+      { text: 'homographs', color: BgColor.LightPurple },
       { text: 'similes &<br>metaphors', color: BgColor.LightOrange },
-      { text: 'onomatopoeia', color: BgColor.Purple },
-      { text: 'irony or<br>sarcasm', color: BgColor.Blue },
-      { text: 'personification', color: BgColor.Yellow },
-      { text: 'hyperbole', color: BgColor.Orange },
-      { text: 'euphemism', color: BgColor.LightOrange },
-      { text: 'oxymoron', color: BgColor.Purple },
+      { text: 'onomatopoeia', color: BgColor.Gray },
+      { text: 'irony or<br>sarcasm', color: BgColor.LightYellow },
+      { text: 'personification', color: BgColor.LightBlue },
+      { text: 'hyperbole', color: BgColor.OrangeYellow },
+      { text: 'euphemism', color: BgColor.LightViolet },
+      { text: 'oxymoron', color: BgColor.Indigo },
       { text: 'rhyme', color: BgColor.Green },
-      { text: 'alliteration', color: BgColor.Yellow }
+      { text: 'alliteration', color: BgColor.HotPink }
     ]
   },
   wordStructures: {

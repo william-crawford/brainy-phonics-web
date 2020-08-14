@@ -1,13 +1,21 @@
 export enum BgColor {
+  LightBlue = '--light-blue',
   Blue = '--blue',
   Brown = '--brown',
+  Gray = '--gray',
   LightGreen = '--light-green',
+  YellowGreen = '--yellow-green',
   Green = '--green',
+  Indigo = '--indigo',
   Red = '--red',
   LightOrange = '--light-orange',
   Orange = '--orange',
+  HotPink = '--hot-pink',
   Pink = '--pink',
+  LightPurple = '--light-purple',
   Purple = '--purple',
+  LightViolet = '--light-violet',
   LightYellow = '--light-yellow',
-  Yellow = '--yellow'
+  Yellow = '--yellow',
+  OrangeYellow = '--orange-yellow'
 }
