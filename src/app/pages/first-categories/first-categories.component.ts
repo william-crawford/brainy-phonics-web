@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Location } from '@angular/common';
-import {Inject} from '@angular/core';
-import {SESSION_STORAGE, WebStorageService} from 'angular-webstorage-service';
+import { Inject } from '@angular/core';
+import { SESSION_STORAGE, WebStorageService } from 'angular-webstorage-service';
 
 @Component({
   templateUrl: './first-categories.component.html',
@@ -9,32 +9,30 @@ import {SESSION_STORAGE, WebStorageService} from 'angular-webstorage-service';
 })
 export class FirstCategoriesComponent {
   category: HTMLAudioElement;
-    
+
   constructor(
-      @Inject(SESSION_STORAGE) private storage: WebStorageService, 
-      private location: Location
-  ) {
-  }
+    @Inject(SESSION_STORAGE) private storage: WebStorageService,
+    private location: Location
+  ) {}
 
   ngOnInit() {
-    this.storage.set('unit', 'First-Grade')
+    this.storage.set('unit', 'First-Grade');
   }
-  
-  playAudio(event){
+
+  playAudio(event: any) {
     this.category = new Audio();
     if (event.target.id === 'letters') {
-        this.category.src = '/assets/audio/buttons/letters.mov';
+      this.category.src = '/assets/audio/buttons/letters.mov';
     } else {
-        this.category.src = '/assets/audio/buttons/' + event.target.id + '.mp3';
+      this.category.src = '/assets/audio/buttons/' + event.target.id + '.mp3';
     }
     if (this.category.src !== undefined) {
-        this.category.load();
-        this.category.play();
+      this.category.load();
+      this.category.play();
     }
   }
 
   goBack() {
-      this.location.back();
+    this.location.back();
   }
-
 }
