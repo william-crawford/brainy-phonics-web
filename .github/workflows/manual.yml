@@ -1,7 +1,7 @@
 name: Manual Build and Deploy
 on: [workflow_dispatch]
 jobs:
-  manual-build-and-deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
