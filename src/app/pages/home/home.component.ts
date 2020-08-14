@@ -1,23 +1,19 @@
-import {Component} from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   templateUrl: 'home.component.html',
   styleUrls: ['home.component.css']
 })
-
 export class HomeComponent {
   audio: HTMLAudioElement;
   hovering: boolean;
   timer: any;
 
-  constructor() {
-    
-  }
+  constructor() {}
 
- 
-  playAudio(event) {
+  playAudio(event: any) {
     this.hovering = true;
-    this.timer = setTimeout( () =>  {
+    this.timer = setTimeout(() => {
       if (this.hovering) {
         this.audio = new Audio();
         if (event.target.id === 'secret-stuff') {
@@ -35,10 +31,10 @@ export class HomeComponent {
 
   stopAudio() {
     this.hovering = false;
-    if(this.audio !== undefined){
+    if (this.audio !== undefined) {
       this.audio.pause();
       this.audio.currentTime = 0.0;
     }
-    clearTimeout(this.timer)
+    clearTimeout(this.timer);
   }
 }
