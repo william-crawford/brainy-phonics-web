@@ -1,9 +1,16 @@
 import { BgColor } from 'src/app/types/enum';
+import { Menu } from './menu.model';
 
-export const MenuOptions = {
+interface Options {
+  figuresOfSpeech: Menu;
+  wordStructures: Menu;
+}
+
+export const MenuOptions: Options = {
   figuresOfSpeech: {
     title: 'Figures of Speech',
     subtitle: 'fun ways to use language',
+    startIndex: 12,
     options: [
       { text: 'synonyms', color: BgColor.Yellow },
       { text: 'antonyms', color: BgColor.Pink },
@@ -24,6 +31,7 @@ export const MenuOptions = {
   wordStructures: {
     title: 'Word Structures',
     subtitle: '',
+    startIndex: 1,
     options: [
       {
         text: 'Base Words and Endings<br>ed ing',

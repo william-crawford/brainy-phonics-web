@@ -24,7 +24,7 @@ export class MenuComponent implements OnInit {
   }
 
   addIndexText(index: number, text: string) {
-    return `${index + 1}<br>${text}`;
+    return `${this.menu.startIndex + index}<br>${text}`;
   }
 
   bgColor(color: string) {
