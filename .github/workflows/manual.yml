@@ -1,13 +1,7 @@
-name: Build and Deploy
-on:
-  push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - master
+name: Manual Build and Deploy
+on: [workflow_dispatch]
 jobs:
-  build-and-deploy:
+  manual-build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
