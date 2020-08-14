@@ -2,8 +2,12 @@
   text-align: center;
 }
 
+#background {
+  width: 100%;
+}
+
 .buttons-container {
-  width: 75vw;
+  width: 85%;
   margin: auto;
 }
 
@@ -14,7 +18,6 @@
 
 .menu_subtitle {
   font-size: 2rem;
-  font-style: italic;
   margin: 0;
 }
 
@@ -36,4 +39,20 @@
   background-color: var(--red);
   font-size: 3rem;
   width: 75%;
+}
+
+.buttons-container.figures-of-speech {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+button.figures-of-speech {
+  min-height: 7.25rem;
+  margin: 2rem 1rem;
+}
+
+.figures-of-speech h2 {
+  font-size: 1.5rem;
+  min-width: 11rem;
 }

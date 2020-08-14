@@ -4,6 +4,7 @@ export interface Menu {
   title: string;
   subtitle: string;
   startIndex: number;
+  fontStyle?: object;
   options: Option[];
 }
 

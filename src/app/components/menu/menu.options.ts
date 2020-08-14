@@ -11,6 +11,7 @@ export const MenuOptions: Options = {
     title: 'Figures of Speech',
     subtitle: 'fun ways to use language',
     startIndex: 12,
+    fontStyle: { 'font-style': 'italic' },
     options: [
       { text: 'synonyms', color: BgColor.Yellow },
       { text: 'antonyms', color: BgColor.Pink },
