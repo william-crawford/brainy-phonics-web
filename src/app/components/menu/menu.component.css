@@ -7,52 +7,79 @@
 }
 
 .buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 85%;
   margin: auto;
 }
 
+@media only screen and (min-width: 1024px) {
+  .buttons-container {
+    width: 95%;
+  }
+}
+
+@media only screen and (min-width: 1367px) {
+  .buttons-container {
+    width: 80%;
+  }
+}
+
 .menu__title {
-  font-size: 4rem;
+  font-size: 4.5vw;
   margin: 0;
 }
 
 .menu_subtitle {
-  font-size: 2rem;
+  font-size: 2.5vw;
   margin: 0;
 }
 
 [class*='menu__button'] {
   border: 3px solid black;
   border-radius: 15px;
-  margin: 0.5rem 1rem;
-  min-height: 9.25rem;
+  margin: 0.6vh 1vw;
+  min-height: 18vh;
   vertical-align: middle;
 }
 
 .menu__text {
-  font-size: 2rem;
+  font-size: 4vh;
   margin: 0 0 0.5rem 0;
-  min-width: 12.5rem;
+  min-width: 13.5vw;
 }
 
 .menu__button--last-row {
   background-color: var(--red);
-  font-size: 3rem;
+  font-size: 6vh;
   width: 75%;
 }
 
 .buttons-container.figures-of-speech {
+  width: 95%;
+}
+
+div.figures-of-speech {
   display: flex;
-  flex-wrap: wrap;
-  width: 90%;
+}
+
+div.figures-of-speech:nth-child(12) {
+  margin-right: 0;
+}
+
+@media only screen and (min-width: 1025px) {
+  div.figures-of-speech:nth-child(12) {
+    margin-right: 15.5vw;
+  }
 }
 
 button.figures-of-speech {
-  min-height: 7.25rem;
-  margin: 2rem 1rem;
+  min-height: 15vh;
+  margin: 4vh 0.75vw;
 }
 
 .figures-of-speech h2 {
-  font-size: 1.5rem;
-  min-width: 11rem;
+  font-size: 3.25vh;
+  min-width: 12vw;
 }
