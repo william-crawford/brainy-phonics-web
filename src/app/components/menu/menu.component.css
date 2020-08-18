@@ -10,7 +10,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 85%;
+  width: 90%;
   margin: auto;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .menu__text {
-  font-size: 1.8vw;
+  font-size: 2.1vw;
   min-width: 13.5vw;
   margin: 0 0 0.5rem 0;
 }
