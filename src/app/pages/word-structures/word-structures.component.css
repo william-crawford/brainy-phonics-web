@@ -5,3 +5,13 @@
 .main {
   width: 100%;
 }
+
+/* force landscape mode */
+@media only screen and (orientation: portrait) {
+  :host {
+    transform: rotate(90deg) translateY(-100%);
+    transform-origin: top left;
+    height: 100vw;
+    width: 100vh;
+  }
+}

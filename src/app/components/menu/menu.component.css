@@ -40,19 +40,20 @@
   border: 3px solid black;
   border-radius: 15px;
   margin: 0.6vh 1vw;
-  min-height: 18vh;
+  min-height: 20vh;
   vertical-align: middle;
 }
 
 .menu__text {
-  font-size: 4vh;
-  margin: 0 0 0.5rem 0;
+  font-size: 1.8vw;
   min-width: 13.5vw;
+  margin: 0 0 0.5rem 0;
 }
 
 .menu__button--last-row {
   background-color: var(--red);
-  font-size: 6vh;
+  font-size: 3vw;
+  min-height: 7.5vw;
   width: 75%;
 }
 
@@ -82,4 +83,40 @@ button.figures-of-speech {
 .figures-of-speech h2 {
   font-size: 3.25vh;
   min-width: 12vw;
+}
+
+/* force landscape mode */
+@media only screen and (orientation: portrait) {
+  .menu__title {
+    font-size: 4.5vh;
+  }
+
+  .menu_subtitle {
+    font-size: 2.5vh;
+  }
+
+  [class*='menu__button'] {
+    margin: 0.6vw 1vh;
+    min-height: 20vw;
+  }
+
+  .menu__text {
+    font-size: 1.8vh;
+    min-width: 13.5vh;
+  }
+
+  .menu__button--last-row {
+    font-size: 3vh;
+    min-height: 7.5vh;
+  }
+
+  button.figures-of-speech {
+    min-height: 15vw;
+    margin: 4vw 0.75vh;
+  }
+
+  .figures-of-speech h2 {
+    font-size: 3.25vw;
+    min-width: 12vh;
+  }
 }
