@@ -57,7 +57,7 @@
 }
 
 .menu__button--last-row {
-  background-color: var(--red);
+  background-color: var(--light-red);
   font-size: 3vw;
   min-height: 7.5vw;
   width: 75%;

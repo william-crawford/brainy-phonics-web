@@ -1,0 +1,59 @@
+.learn {
+  text-align: center;
+}
+
+.margin {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.learn__headline {
+  font-size: 2.75vw;
+  margin-bottom: 2%;
+}
+
+.suffix {
+  color: var(--red);
+}
+
+.button {
+  display: inline-block;
+  height: 9.5vh;
+  width: 9.5vh;
+  border: none;
+}
+
+.learn-word__image-container {
+  display: inline-block;
+  vertical-align: middle;
+  width: 77.5%;
+}
+
+.learn-word__image {
+  height: 60vh;
+}
+
+.learn-word-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.learn-word {
+  font-size: 2.5vw;
+  margin-top: 2%;
+}
+
+/* force landscape mode */
+@media only screen and (orientation: portrait) {
+  .learn__headline {
+    font-size: 2.75vh;
+  }
+
+  .learn-word__image {
+    height: 60vw;
+  }
+
+  .learn-word {
+    font-size: 2.5vh;
+  }
+}

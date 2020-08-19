@@ -1,1 +1,29 @@
-<p>learn works!</p>
+<section class="learn" *ngIf="wsData$ | async as wsData">
+  <h1 class="learn__headline margin">
+    Many actions words just add <span class="suffix">ed</span> and
+    <span class="suffix">ing</span> to the base word without making any other
+    changes.
+  </h1>
+  <button
+    id="back"
+    class="button"
+    (click)="updateIndex('back', wsData.length)"
+  ></button>
+  <div class="learn-word__image-container">
+    <img
+      class="learn-word__image"
+      [src]="getImagePath(wsData[index].wordList[0])"
+      [alt]="wsData[index].wordList[0]"
+    />
+  </div>
+  <button
+    id="forward"
+    class="button"
+    (click)="updateIndex('forward', wsData.length)"
+  ></button>
+  <div class="learn-word-container margin">
+    <p class="learn-word" *ngFor="let word of wsData[index].wordList">
+      {{ word }}
+    </p>
+  </div>
+</section>

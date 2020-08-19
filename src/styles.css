@@ -51,6 +51,11 @@ button {
     transparent;
   background-size: 9.5vh 9.5vh;
 }
+#forward {
+  background: url('./assets/img/buttons/forward.png') no-repeat scroll 0 0
+    transparent;
+  background-size: 9.5vh 9.5vh;
+}
 #quiz {
   background: url('./assets/img/buttons/quiz.png') no-repeat scroll 0 0
     transparent;
